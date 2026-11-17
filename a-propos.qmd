@@ -1,0 +1,8 @@
+---
+title: "À propos"
+---
+Ce site rassemble les résultats des essais et travaux de recherche en maraîchage menés au
+PEPA Lab (Earth and Life Institute, UCLouvain) : mémoires de master, essais sur la ferme
+expérimentale, synthèses pluriannuelles.
+
+**Contact :** PEPA Lab, UCLouvain.

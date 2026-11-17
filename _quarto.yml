@@ -1,0 +1,47 @@
+project:
+  type: website
+  output-dir: _site
+  resources:
+    - "data/**"        # copie les CSV dans le site publié (téléchargeables)
+    - "documents/**"
+    - "images/**"
+    - "fiches/**/*.jpg"
+    - "fiches/**/*.png"
+    - "fiches/**/*.csv"
+    - "fiches/**/analyse/**"   # scripts téléchargeables
+
+lang: fr
+
+website:
+  title: "Maraîchage · PEPA Lab"
+  site-url: "https://pepa-lab.github.io/maraichage"   # à adapter
+  repo-url: "https://github.com/pepa-lab/maraichage"  # à adapter
+  repo-actions: [edit, issue]                         # bouton « Modifier cette page »
+  search: true
+  navbar:
+    left:
+      - href: index.qmd
+        text: Fiches
+      - href: themes.qmd
+        text: Thèmes
+      - href: donnees.qmd
+        text: Données
+      - href: a-propos.qmd
+        text: À propos
+    right:
+      - icon: github
+        href: "https://github.com/pepa-lab/maraichage"
+  page-footer:
+    left: "PEPA Lab · Earth and Life Institute · UCLouvain"
+    right: "Contenu sous licence CC BY 4.0 · Données : voir chaque fiche"
+
+format:
+  html:
+    theme:
+      light: [cosmo, styles.scss]
+    toc: true
+    title-block-banner: images/banniere.jpg
+    toc-title: "Sur cette fiche"
+    code-fold: true
+    fig-responsive: true
+    lightbox: true

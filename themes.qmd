@@ -1,0 +1,13 @@
+---
+title: "Thèmes"
+page-layout: full
+toc: false
+listing:
+  contents: "fiches/*/index.qmd"
+  type: table
+  categories: unnumbered
+  fields: [title, culture, annee, type]
+  field-display-names: {title: Fiche, culture: Culture, annee: Saison, type: Type}
+  sort: title
+---
+Toutes les fiches, regroupées par thème et culture. Cliquez sur un thème à droite pour filtrer.

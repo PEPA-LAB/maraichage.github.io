@@ -1,0 +1,67 @@
+---
+# EXEMPLE FICTIF – valeurs inventées pour illustrer la structure
+title: "Paillage et rendement de la tomate sous abri"
+date: 2026-03-15
+annee: "2024–2025"
+type: Mémoire
+culture: "Tomate"
+categories: [Paillage, Gestion de l'eau, Tomate]
+keywords: [paillage, BRF, toile tissée, humidité du sol, rendement]
+kpi: "+14 %"                      # chiffre affiché sur la carte
+kpi_label: "rendement (BRF vs sol nu)"
+image: photo.jpg                # photo de l'essai (carte + bandeau)
+resultat: "Le paillage BRF augmente le rendement commercialisable de 14 % et réduit l'irrigation d'un quart."
+auteurs: "Étudiant·e A (mémoire 2024), Étudiant·e B (mémoire 2025)"
+encadrement: "Guillaume Lobet"
+lieu: "Ferme expérimentale – tunnel 2"
+ressources:
+  memoire: "https://dial.uclouvain.be/"
+  donnees: "donnees.csv"
+  doi: "https://zenodo.org/"
+  code: "https://github.com/"
+---
+
+::: {.callout-tip appearance="simple" icon=false}
+## À retenir pour le terrain
+- Le BRF (5 cm) donne le meilleur compromis rendement / eau sur les deux saisons.
+- La toile tissée réchauffe le sol en début de saison mais n'améliore pas le rendement final.
+- Résultats obtenus en tunnel, sol limoneux : à confirmer en plein champ.
+:::
+
+## Question
+Le type de paillage modifie-t-il l'humidité du sol, la consommation d'eau et le rendement
+de la tomate cultivée sous abri ?
+
+## Dispositif
+
+| | |
+|---|---|
+| Lieu | Ferme expérimentale, tunnel 2, sol limoneux |
+| Saisons | 2024 et 2025 (deux mémoires successifs) |
+| Modalités | Sol nu · Toile tissée · BRF 5 cm · Paille |
+| Répétitions | 4 blocs × 2 saisons |
+| Mesures | Rendement commercialisable, humidité du sol (sondes), irrigation apportée |
+
+## Résultats clés
+
+```{ojs}
+//| echo: false
+d = FileAttachment("donnees.csv").csv({typed: true})
+viewof saison = Inputs.radio(["Toutes", "2024", "2025"], {value: "Toutes", label: "Saison"})
+viewof variable = Inputs.select(new Map([["Rendement (kg/m²)", "rendement"], ["Irrigation (L/m²)", "irrigation"]]), {label: "Variable"})
+filtre = saison === "Toutes" ? d : d.filter(r => String(r.saison) === saison)
+Plot.plot({
+  marginLeft: 50, height: 300,
+  y: {grid: true, label: variable === "rendement" ? "kg/m²" : "L/m²"},
+  marks: [
+    Plot.barY(filtre, Plot.groupX({y: "mean"}, {x: "modalite", y: variable, fill: "modalite"})),
+    Plot.dot(filtre, {x: "modalite", y: variable, stroke: "black", r: 2.5}),
+    Plot.ruleY([0])
+  ]
+})
+```
+
+## Méthode d'analyse
+Modèle linéaire mixte (modalité × saison, bloc en effet aléatoire). Code complet dans le dépôt lié.
+
+{{< include /_includes/ressources.qmd >}}

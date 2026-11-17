@@ -1,0 +1,58 @@
+---
+# ===== MODÈLE DE FICHE — copier ce dossier, le renommer AAAA-sujet-culture =====
+title: "Titre court et parlant (question de l'essai)"
+date: 2026-01-01                 # date de publication de la fiche
+annee: "2025"                    # saison(s) d'essai, ex. "2024–2025"
+type: Essai                      # Essai | Mémoire | Synthèse | Note technique
+culture: "Tomate"                # culture(s) concernée(s)
+categories: [Thème principal, Tomate]   # thèmes + cultures → filtres de la page d'accueil
+keywords: [mot-clé 1, mot-clé 2]        # recherche plein texte
+kpi: "+00 %"                      # chiffre affiché sur la carte
+kpi_label: "chiffre clé en quelques mots"
+image: photo.jpg                # photo de l'essai (carte + bandeau)
+resultat: "Une phrase : le résultat principal, chiffré si possible."
+auteurs: "Prénom Nom (mémoire 2025)"
+encadrement: "Prénom Nom"
+lieu: "Ferme expérimentale – parcelle X"
+ressources:
+  memoire: "https://dial.uclouvain.be/..."        # document complet (DIAL, PDF dans documents/)
+  donnees: "donnees.csv"                          # fichier dans ce dossier (petit, < 5 Mo)
+  doi: "https://doi.org/10.5281/zenodo.XXXXXXX"   # données brutes archivées (Zenodo)
+  code: "https://github.com/pepa-lab/..."         # scripts d'analyse
+---
+
+::: {.callout-tip appearance="simple" icon=false}
+## À retenir pour le terrain
+- Message pratique n°1
+- Message pratique n°2
+- Limite / condition de validité
+:::
+
+## Question
+Pourquoi cet essai ? Deux ou trois phrases.
+
+## Dispositif
+
+| | |
+|---|---|
+| Lieu | |
+| Saison | |
+| Modalités | |
+| Répétitions | |
+| Mesures | |
+
+## Résultats clés
+
+```{ojs}
+//| echo: false
+d = FileAttachment("donnees.csv").csv({typed: true})
+Plot.plot({
+  marks: [Plot.barY(d, Plot.groupX({y: "mean"}, {x: "modalite", y: "rendement", fill: "modalite"})),
+          Plot.ruleY([0])]
+})
+```
+
+## Pour aller plus loin
+- Document complet, données, code : voir l'encadré **Ressources** ci-dessous.
+
+{{< include /_includes/ressources.qmd >}}

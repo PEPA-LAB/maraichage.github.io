@@ -1,0 +1,84 @@
+/*-- scss:defaults --*/
+// Style inspiré de maraichage-wallonie.be (thème « Clean Blog », Start Bootstrap, MIT)
+$green: #4caf50;   // thématiques, liseré des cartes
+$brick: #c5655a;   // cultures
+$blue:  #5b8fd0;   // type de document
+$grey:  #818682;
+$primary: $green;
+$body-bg: #f7f7f7;
+$body-color: #212529;
+$link-color: #007bff;
+$headings-color: #2c3e50;
+$font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+$navbar-bg: transparent;
+$navbar-fg: #fff;
+
+/*-- scss:rules --*/
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;800&display=swap");
+
+// ---- Barre de navigation transparente posée sur le bandeau photo
+body.nav-fixed { padding-top: 0 !important; }
+#quarto-header, #quarto-header.headroom { position: absolute !important; top: 0; left: 0; right: 0; z-index: 10;
+  background: transparent !important; transform: none !important; }
+#quarto-header .navbar .bi, #quarto-header .navbar .quarto-navigation-tool, #quarto-header .aa-DetachedSearchButton { color: #fff !important; }
+#quarto-header .navbar { background: transparent !important; box-shadow: none; }
+.navbar-brand, .navbar-title { font-family: "Open Sans", sans-serif; font-weight: 800; font-size: 20px; color: #fff !important; }
+.navbar .nav-link { font-family: "Open Sans", sans-serif; font-weight: 800; font-size: 12px; letter-spacing: 1px;
+  text-transform: uppercase; color: #fff !important; }
+
+// ---- Bandeau photo (title-block-banner: images/banniere.jpg dans chaque page)
+.quarto-title-banner {
+  position: relative; min-height: 250px; padding: 90px 0 36px !important;
+  background-size: cover !important; background-position: center !important;
+  border-bottom: 3px solid #000; text-align: center;
+  &::before { content: ""; position: absolute; inset: 0; background: #212529; opacity: .45; }
+  > * { position: relative; }
+  .title { color: #fff; font-size: clamp(2.4rem, 6vw, 5rem); font-weight: 500; }
+  .subtitle, .quarto-title-meta-heading, .quarto-title-meta-contents { color: #fff; font-family: "Open Sans", sans-serif; font-weight: 300; }
+  .quarto-categories { justify-content: center; }
+}
+// Pages de fiche : titre plus petit, comme les articles du site de référence
+.fiche .quarto-title-banner .title { font-size: clamp(1.9rem, 4.5vw, 3.1rem); font-weight: 700; }
+
+// ---- Encadrés « intro » et « À retenir » façon alert-info
+.callout-tip, .callout-note { background: #d1ecf1 !important; color: #0c5460; border: none !important; border-radius: 4px; }
+
+// ---- Filtres de catégories en boutons colorés
+.quarto-listing-category .category {
+  display: inline-block; margin: 0 6px 8px 0; padding: 5px 11px; border-radius: 6px;
+  background: $green; color: #fff !important; box-shadow: 0 2px 6px rgba(0,0,0,.15);
+  &.active { outline: 2px solid #fff; outline-offset: -4px; filter: brightness(.9); }
+}
+.quarto-listing-category-title { font-weight: 700; }
+
+// ---- Cartes de fiche : image en haut + liseré vert, ombre douce
+.fiche-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(290px, 1fr)); gap: 26px; }
+.fiche-card {
+  display: flex; flex-direction: column; background: #f9f9f9; border-radius: 12px; overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0,0,0,.1); color: inherit; text-decoration: none;
+  transition: transform .2s, box-shadow .2s;
+  &:hover { transform: translateY(-4px); box-shadow: 0 8px 20px rgba(0,0,0,.15); }
+}
+.fiche-img {
+  position: relative; height: 150px; border-bottom: 3px solid $green; background-size: cover; background-position: center;
+  display: flex; align-items: flex-end; padding: 14px 16px; color: #fff;
+  &::after { content: ""; position: absolute; inset: 0; background: linear-gradient(transparent 25%, rgba(0,0,0,.6)); }
+  .kpi { position: relative; z-index: 1; line-height: 1.15; }
+  .kpi b { display: block; font-family: "Open Sans", sans-serif; font-weight: 800; font-size: 1.7rem; }
+  .kpi span { font-size: .85rem; }
+}
+.fiche-body { padding: 14px 16px 16px; display: flex; flex-direction: column; gap: 8px; flex: 1; }
+.fiche-body h3 { font-size: 1.2rem; font-weight: 600; margin: 0; }
+.fiche-meta { font-size: .85rem; color: #6c757d; }
+.fiche-resultat { margin: 0; font-size: .95rem; }
+.fiche-pills { display: flex; flex-wrap: wrap; gap: 5px; margin-top: auto; }
+.pill { font-size: .75rem; color: #fff; border-radius: 99px; padding: 2px 9px; }
+.pill.th { background: $green; } .pill.cu { background: $brick; } .pill.ty { background: $blue; } .pill.fi { background: #5c636a; }
+
+// ---- Ressources d'une fiche
+.ressources-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 12px; margin-bottom: 1rem; }
+.ressources-grid a { background: #f9f9f9; border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,.1);
+  border: none; border-bottom: 3px solid $green; padding: 12px 14px; color: #2c3e50; font-weight: 600; text-decoration: none; }
+
+// ---- Pied de page centré
+.nav-footer { justify-content: center; text-align: center; color: #6c757d; font-size: 14px; }

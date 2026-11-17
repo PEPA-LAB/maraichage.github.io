@@ -1,0 +1,13 @@
+---
+title: "Données"
+---
+## Où sont les données ?
+
+| Type | Où | Pourquoi |
+|---|---|---|
+| Données résumées d'une fiche (< 5 Mo) | `fiches/<fiche>/donnees.csv` | Alimentent les graphiques interactifs |
+| Données brutes complètes | [Zenodo – communauté PEPA](https://zenodo.org/) | DOI citable, archivage pérenne, gros volumes |
+| Mémoires et rapports | [DIAL UCLouvain](https://dial.uclouvain.be/) ou `documents/` | Document de référence |
+
+Chaque fichier de données est accompagné d'un dictionnaire (`dictionnaire.csv` : colonne, unité, description).
+Licence par défaut : CC BY 4.0.

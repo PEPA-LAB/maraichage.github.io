@@ -1,0 +1,10 @@
+## Ressources {.ressources}
+
+::: {.ressources-grid}
+[Document complet]({{< meta ressources.memoire >}}){.btn .btn-outline-primary}
+[Données de la fiche (CSV)]({{< meta ressources.donnees >}}){.btn .btn-outline-primary}
+[Données brutes archivées (DOI)]({{< meta ressources.doi >}}){.btn .btn-outline-primary}
+[Scripts d'analyse]({{< meta ressources.code >}}){.btn .btn-outline-primary}
+:::
+
+**Citer cette fiche :** {{< meta auteurs >}} ({{< meta annee >}}). *{{< meta title >}}*. Fiche PEPA Lab, UCLouvain.

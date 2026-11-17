@@ -1,0 +1,25 @@
+---
+title: "Fiches d'essais"
+subtitle: "Résultats de recherche en maraîchage du PEPA Lab"
+page-layout: full
+toc: false
+listing:
+  id: fiches
+  contents: "fiches/*/index.qmd"
+  template: _templates/fiche-card.ejs
+  sort: "date desc"
+  categories: true          # nuage de catégories cliquable (thèmes + cultures)
+  filter-ui: true           # champ de recherche texte
+  sort-ui: [date, title]    # tri par date ou titre
+  page-size: 24
+  fields: [title, date, categories, description, culture, annee, type, resultat, ressources, kpi, kpi_label, image]
+---
+
+::: {.callout-note appearance="simple" icon=false}
+Chaque fiche résume un essai en une page : question posée, dispositif, résultats clés
+et ce qu'il faut en retenir sur le terrain. Les mémoires complets et les données brutes
+sont accessibles depuis chaque fiche.
+:::
+
+::: {#fiches}
+:::
