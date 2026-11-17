@@ -1,0 +1,796 @@
+saison,traitement,distance_oya,bloc,chou,chou_id,date,variable,valeur,unite,flag
+2025,0%,sans irrigation,1,1,0%_11,2025-06-05,biomasse_foliaire,1.95,kg / plant (frais),"pesée sous une averse pour Oya56, Oya79 et une partie du 0 % : possible surestimation (PDF p. 36)"
+2025,0%,sans irrigation,1,1,0%_11,2025-06-05,poids_chou,0.95,"kg / chou (frais, paré)",
+2025,0%,sans irrigation,1,1,0%_11,2025-06-05,diametre_chou,10.6,cm,
+2025,0%,sans irrigation,1,1,0%_11,2025-06-05,hauteur_chou,18.8,cm,
+2025,0%,sans irrigation,1,1,0%_11,2025-06-05,commercialisable,1,0/1,règle CEE FFV-09 telle qu'appliquée par le script d'origine (PDF p. 26)
+2025,0%,sans irrigation,1,1,0%_11,2025-06-05,eau_consommee,0.35,L / plant (20/03–5/06),"0,35 L apportés au repiquage seulement : l'eau utilisée vient du sol"
+2025,0%,sans irrigation,1,1,0%_11,2025-06-05,wue_chou,2.71429,kg / L,"non interprétable : dénominateur = 0,35 L, l'eau du sol n'est pas comptée"
+2025,0%,sans irrigation,1,1,0%_11,2025-06-05,wue_biomasse,5.57143,kg / L,"non interprétable : dénominateur = 0,35 L, l'eau du sol n'est pas comptée"
+2025,0%,sans irrigation,1,2,0%_12,2025-06-05,biomasse_foliaire,1.75,kg / plant (frais),"pesée sous une averse pour Oya56, Oya79 et une partie du 0 % : possible surestimation (PDF p. 36)"
+2025,0%,sans irrigation,1,2,0%_12,2025-06-05,poids_chou,0.65,"kg / chou (frais, paré)",
+2025,0%,sans irrigation,1,2,0%_12,2025-06-05,diametre_chou,8.5,cm,
+2025,0%,sans irrigation,1,2,0%_12,2025-06-05,hauteur_chou,18.6,cm,
+2025,0%,sans irrigation,1,2,0%_12,2025-06-05,commercialisable,1,0/1,règle CEE FFV-09 telle qu'appliquée par le script d'origine (PDF p. 26)
+2025,0%,sans irrigation,1,2,0%_12,2025-06-05,eau_consommee,0.35,L / plant (20/03–5/06),"0,35 L apportés au repiquage seulement : l'eau utilisée vient du sol"
+2025,0%,sans irrigation,1,2,0%_12,2025-06-05,wue_chou,1.85714,kg / L,"non interprétable : dénominateur = 0,35 L, l'eau du sol n'est pas comptée"
+2025,0%,sans irrigation,1,2,0%_12,2025-06-05,wue_biomasse,5.0,kg / L,"non interprétable : dénominateur = 0,35 L, l'eau du sol n'est pas comptée"
+2025,0%,sans irrigation,1,3,0%_13,2025-06-05,biomasse_foliaire,1.2,kg / plant (frais),"pesée sous une averse pour Oya56, Oya79 et une partie du 0 % : possible surestimation (PDF p. 36)"
+2025,0%,sans irrigation,1,3,0%_13,2025-06-05,poids_chou,0.35,"kg / chou (frais, paré)",
+2025,0%,sans irrigation,1,3,0%_13,2025-06-05,diametre_chou,8.1,cm,
+2025,0%,sans irrigation,1,3,0%_13,2025-06-05,hauteur_chou,19.3,cm,
+2025,0%,sans irrigation,1,3,0%_13,2025-06-05,commercialisable,0,0/1,règle CEE FFV-09 telle qu'appliquée par le script d'origine (PDF p. 26)
+2025,0%,sans irrigation,1,3,0%_13,2025-06-05,eau_consommee,0.35,L / plant (20/03–5/06),"0,35 L apportés au repiquage seulement : l'eau utilisée vient du sol"
+2025,0%,sans irrigation,1,3,0%_13,2025-06-05,wue_chou,1.0,kg / L,"non interprétable : dénominateur = 0,35 L, l'eau du sol n'est pas comptée"
+2025,0%,sans irrigation,1,3,0%_13,2025-06-05,wue_biomasse,3.42857,kg / L,"non interprétable : dénominateur = 0,35 L, l'eau du sol n'est pas comptée"
+2025,0%,sans irrigation,1,4,0%_14,2025-06-05,biomasse_foliaire,1.55,kg / plant (frais),"pesée sous une averse pour Oya56, Oya79 et une partie du 0 % : possible surestimation (PDF p. 36)"
+2025,0%,sans irrigation,1,4,0%_14,2025-06-05,poids_chou,0.55,"kg / chou (frais, paré)",
+2025,0%,sans irrigation,1,4,0%_14,2025-06-05,diametre_chou,8.4,cm,
+2025,0%,sans irrigation,1,4,0%_14,2025-06-05,hauteur_chou,16.1,cm,
+2025,0%,sans irrigation,1,4,0%_14,2025-06-05,commercialisable,1,0/1,règle CEE FFV-09 telle qu'appliquée par le script d'origine (PDF p. 26)
+2025,0%,sans irrigation,1,4,0%_14,2025-06-05,eau_consommee,0.35,L / plant (20/03–5/06),"0,35 L apportés au repiquage seulement : l'eau utilisée vient du sol"
+2025,0%,sans irrigation,1,4,0%_14,2025-06-05,wue_chou,1.57143,kg / L,"non interprétable : dénominateur = 0,35 L, l'eau du sol n'est pas comptée"
+2025,0%,sans irrigation,1,4,0%_14,2025-06-05,wue_biomasse,4.42857,kg / L,"non interprétable : dénominateur = 0,35 L, l'eau du sol n'est pas comptée"
+2025,0%,sans irrigation,2,1,0%_21,2025-06-05,biomasse_foliaire,1.65,kg / plant (frais),"pesée sous une averse pour Oya56, Oya79 et une partie du 0 % : possible surestimation (PDF p. 36)"
+2025,0%,sans irrigation,2,1,0%_21,2025-06-05,poids_chou,0.8,"kg / chou (frais, paré)",
+2025,0%,sans irrigation,2,1,0%_21,2025-06-05,diametre_chou,9.2,cm,
+2025,0%,sans irrigation,2,1,0%_21,2025-06-05,hauteur_chou,21,cm,
+2025,0%,sans irrigation,2,1,0%_21,2025-06-05,commercialisable,1,0/1,règle CEE FFV-09 telle qu'appliquée par le script d'origine (PDF p. 26)
+2025,0%,sans irrigation,2,1,0%_21,2025-06-05,eau_consommee,0.35,L / plant (20/03–5/06),"0,35 L apportés au repiquage seulement : l'eau utilisée vient du sol"
+2025,0%,sans irrigation,2,1,0%_21,2025-06-05,wue_chou,2.28571,kg / L,"non interprétable : dénominateur = 0,35 L, l'eau du sol n'est pas comptée"
+2025,0%,sans irrigation,2,1,0%_21,2025-06-05,wue_biomasse,4.71429,kg / L,"non interprétable : dénominateur = 0,35 L, l'eau du sol n'est pas comptée"
+2025,0%,sans irrigation,2,2,0%_22,2025-06-05,biomasse_foliaire,1.15,kg / plant (frais),"pesée sous une averse pour Oya56, Oya79 et une partie du 0 % : possible surestimation (PDF p. 36)"
+2025,0%,sans irrigation,2,2,0%_22,2025-06-05,poids_chou,0.5,"kg / chou (frais, paré)",
+2025,0%,sans irrigation,2,2,0%_22,2025-06-05,diametre_chou,9.3,cm,
+2025,0%,sans irrigation,2,2,0%_22,2025-06-05,hauteur_chou,13,cm,
+2025,0%,sans irrigation,2,2,0%_22,2025-06-05,commercialisable,1,0/1,règle CEE FFV-09 telle qu'appliquée par le script d'origine (PDF p. 26)
+2025,0%,sans irrigation,2,2,0%_22,2025-06-05,eau_consommee,0.35,L / plant (20/03–5/06),"0,35 L apportés au repiquage seulement : l'eau utilisée vient du sol"
+2025,0%,sans irrigation,2,2,0%_22,2025-06-05,wue_chou,1.42857,kg / L,"non interprétable : dénominateur = 0,35 L, l'eau du sol n'est pas comptée"
+2025,0%,sans irrigation,2,2,0%_22,2025-06-05,wue_biomasse,3.28571,kg / L,"non interprétable : dénominateur = 0,35 L, l'eau du sol n'est pas comptée"
+2025,0%,sans irrigation,2,3,0%_23,2025-06-05,biomasse_foliaire,1.85,kg / plant (frais),"pesée sous une averse pour Oya56, Oya79 et une partie du 0 % : possible surestimation (PDF p. 36)"
+2025,0%,sans irrigation,2,3,0%_23,2025-06-05,poids_chou,0.75,"kg / chou (frais, paré)",
+2025,0%,sans irrigation,2,3,0%_23,2025-06-05,diametre_chou,9.8,cm,
+2025,0%,sans irrigation,2,3,0%_23,2025-06-05,hauteur_chou,19.8,cm,
+2025,0%,sans irrigation,2,3,0%_23,2025-06-05,commercialisable,1,0/1,règle CEE FFV-09 telle qu'appliquée par le script d'origine (PDF p. 26)
+2025,0%,sans irrigation,2,3,0%_23,2025-06-05,eau_consommee,0.35,L / plant (20/03–5/06),"0,35 L apportés au repiquage seulement : l'eau utilisée vient du sol"
+2025,0%,sans irrigation,2,3,0%_23,2025-06-05,wue_chou,2.14286,kg / L,"non interprétable : dénominateur = 0,35 L, l'eau du sol n'est pas comptée"
+2025,0%,sans irrigation,2,3,0%_23,2025-06-05,wue_biomasse,5.28571,kg / L,"non interprétable : dénominateur = 0,35 L, l'eau du sol n'est pas comptée"
+2025,0%,sans irrigation,2,4,0%_24,2025-06-05,biomasse_foliaire,1.8,kg / plant (frais),"pesée sous une averse pour Oya56, Oya79 et une partie du 0 % : possible surestimation (PDF p. 36)"
+2025,0%,sans irrigation,2,4,0%_24,2025-06-05,poids_chou,0.9,"kg / chou (frais, paré)",
+2025,0%,sans irrigation,2,4,0%_24,2025-06-05,diametre_chou,10.3,cm,
+2025,0%,sans irrigation,2,4,0%_24,2025-06-05,hauteur_chou,18.3,cm,
+2025,0%,sans irrigation,2,4,0%_24,2025-06-05,commercialisable,1,0/1,règle CEE FFV-09 telle qu'appliquée par le script d'origine (PDF p. 26)
+2025,0%,sans irrigation,2,4,0%_24,2025-06-05,eau_consommee,0.35,L / plant (20/03–5/06),"0,35 L apportés au repiquage seulement : l'eau utilisée vient du sol"
+2025,0%,sans irrigation,2,4,0%_24,2025-06-05,wue_chou,2.57143,kg / L,"non interprétable : dénominateur = 0,35 L, l'eau du sol n'est pas comptée"
+2025,0%,sans irrigation,2,4,0%_24,2025-06-05,wue_biomasse,5.14286,kg / L,"non interprétable : dénominateur = 0,35 L, l'eau du sol n'est pas comptée"
+2025,0%,sans irrigation,3,1,0%_31,2025-06-05,biomasse_foliaire,1.45,kg / plant (frais),"pesée sous une averse pour Oya56, Oya79 et une partie du 0 % : possible surestimation (PDF p. 36)"
+2025,0%,sans irrigation,3,1,0%_31,2025-06-05,poids_chou,0.45,"kg / chou (frais, paré)",
+2025,0%,sans irrigation,3,1,0%_31,2025-06-05,diametre_chou,9.3,cm,
+2025,0%,sans irrigation,3,1,0%_31,2025-06-05,hauteur_chou,15.6,cm,
+2025,0%,sans irrigation,3,1,0%_31,2025-06-05,commercialisable,0,0/1,règle CEE FFV-09 telle qu'appliquée par le script d'origine (PDF p. 26)
+2025,0%,sans irrigation,3,1,0%_31,2025-06-05,eau_consommee,0.35,L / plant (20/03–5/06),"0,35 L apportés au repiquage seulement : l'eau utilisée vient du sol"
+2025,0%,sans irrigation,3,1,0%_31,2025-06-05,wue_chou,1.28571,kg / L,"non interprétable : dénominateur = 0,35 L, l'eau du sol n'est pas comptée"
+2025,0%,sans irrigation,3,1,0%_31,2025-06-05,wue_biomasse,4.14286,kg / L,"non interprétable : dénominateur = 0,35 L, l'eau du sol n'est pas comptée"
+2025,0%,sans irrigation,3,2,0%_32,2025-06-05,biomasse_foliaire,1.65,kg / plant (frais),"pesée sous une averse pour Oya56, Oya79 et une partie du 0 % : possible surestimation (PDF p. 36)"
+2025,0%,sans irrigation,3,2,0%_32,2025-06-05,poids_chou,0.75,"kg / chou (frais, paré)",
+2025,0%,sans irrigation,3,2,0%_32,2025-06-05,diametre_chou,9.2,cm,
+2025,0%,sans irrigation,3,2,0%_32,2025-06-05,hauteur_chou,20.9,cm,
+2025,0%,sans irrigation,3,2,0%_32,2025-06-05,commercialisable,1,0/1,règle CEE FFV-09 telle qu'appliquée par le script d'origine (PDF p. 26)
+2025,0%,sans irrigation,3,2,0%_32,2025-06-05,eau_consommee,0.35,L / plant (20/03–5/06),"0,35 L apportés au repiquage seulement : l'eau utilisée vient du sol"
+2025,0%,sans irrigation,3,2,0%_32,2025-06-05,wue_chou,2.14286,kg / L,"non interprétable : dénominateur = 0,35 L, l'eau du sol n'est pas comptée"
+2025,0%,sans irrigation,3,2,0%_32,2025-06-05,wue_biomasse,4.71429,kg / L,"non interprétable : dénominateur = 0,35 L, l'eau du sol n'est pas comptée"
+2025,0%,sans irrigation,3,3,0%_33,2025-06-05,biomasse_foliaire,2.3,kg / plant (frais),"pesée sous une averse pour Oya56, Oya79 et une partie du 0 % : possible surestimation (PDF p. 36)"
+2025,0%,sans irrigation,3,3,0%_33,2025-06-05,poids_chou,0.85,"kg / chou (frais, paré)",
+2025,0%,sans irrigation,3,3,0%_33,2025-06-05,diametre_chou,10.4,cm,
+2025,0%,sans irrigation,3,3,0%_33,2025-06-05,hauteur_chou,18,cm,
+2025,0%,sans irrigation,3,3,0%_33,2025-06-05,commercialisable,1,0/1,règle CEE FFV-09 telle qu'appliquée par le script d'origine (PDF p. 26)
+2025,0%,sans irrigation,3,3,0%_33,2025-06-05,eau_consommee,0.35,L / plant (20/03–5/06),"0,35 L apportés au repiquage seulement : l'eau utilisée vient du sol"
+2025,0%,sans irrigation,3,3,0%_33,2025-06-05,wue_chou,2.42857,kg / L,"non interprétable : dénominateur = 0,35 L, l'eau du sol n'est pas comptée"
+2025,0%,sans irrigation,3,3,0%_33,2025-06-05,wue_biomasse,6.57143,kg / L,"non interprétable : dénominateur = 0,35 L, l'eau du sol n'est pas comptée"
+2025,0%,sans irrigation,3,4,0%_34,2025-06-05,biomasse_foliaire,2.5,kg / plant (frais),"pesée sous une averse pour Oya56, Oya79 et une partie du 0 % : possible surestimation (PDF p. 36)"
+2025,0%,sans irrigation,3,4,0%_34,2025-06-05,poids_chou,1.3,"kg / chou (frais, paré)",
+2025,0%,sans irrigation,3,4,0%_34,2025-06-05,diametre_chou,11.3,cm,
+2025,0%,sans irrigation,3,4,0%_34,2025-06-05,hauteur_chou,23.4,cm,
+2025,0%,sans irrigation,3,4,0%_34,2025-06-05,commercialisable,1,0/1,règle CEE FFV-09 telle qu'appliquée par le script d'origine (PDF p. 26)
+2025,0%,sans irrigation,3,4,0%_34,2025-06-05,eau_consommee,0.35,L / plant (20/03–5/06),"0,35 L apportés au repiquage seulement : l'eau utilisée vient du sol"
+2025,0%,sans irrigation,3,4,0%_34,2025-06-05,wue_chou,3.71429,kg / L,"non interprétable : dénominateur = 0,35 L, l'eau du sol n'est pas comptée"
+2025,0%,sans irrigation,3,4,0%_34,2025-06-05,wue_biomasse,7.14286,kg / L,"non interprétable : dénominateur = 0,35 L, l'eau du sol n'est pas comptée"
+2025,100%,0 (arrosoir),1,2,100%_12,2025-06-05,biomasse_foliaire,3.75,kg / plant (frais),
+2025,100%,0 (arrosoir),1,2,100%_12,2025-06-05,poids_chou,2,"kg / chou (frais, paré)",
+2025,100%,0 (arrosoir),1,2,100%_12,2025-06-05,diametre_chou,14.4,cm,
+2025,100%,0 (arrosoir),1,2,100%_12,2025-06-05,hauteur_chou,29.1,cm,
+2025,100%,0 (arrosoir),1,2,100%_12,2025-06-05,commercialisable,1,0/1,règle CEE FFV-09 telle qu'appliquée par le script d'origine (PDF p. 26)
+2025,100%,0 (arrosoir),1,2,100%_12,2025-06-05,eau_consommee,35.25,L / plant (20/03–5/06),
+2025,100%,0 (arrosoir),1,2,100%_12,2025-06-05,wue_chou,0.05674,kg / L,
+2025,100%,0 (arrosoir),1,2,100%_12,2025-06-05,wue_biomasse,0.10638,kg / L,
+2025,100%,0 (arrosoir),1,3,100%_13,2025-06-05,biomasse_foliaire,4.15,kg / plant (frais),
+2025,100%,0 (arrosoir),1,3,100%_13,2025-06-05,poids_chou,1.65,"kg / chou (frais, paré)",
+2025,100%,0 (arrosoir),1,3,100%_13,2025-06-05,diametre_chou,11.1,cm,
+2025,100%,0 (arrosoir),1,3,100%_13,2025-06-05,hauteur_chou,29.1,cm,
+2025,100%,0 (arrosoir),1,3,100%_13,2025-06-05,commercialisable,1,0/1,règle CEE FFV-09 telle qu'appliquée par le script d'origine (PDF p. 26)
+2025,100%,0 (arrosoir),1,3,100%_13,2025-06-05,eau_consommee,35.25,L / plant (20/03–5/06),
+2025,100%,0 (arrosoir),1,3,100%_13,2025-06-05,wue_chou,0.04681,kg / L,
+2025,100%,0 (arrosoir),1,3,100%_13,2025-06-05,wue_biomasse,0.11773,kg / L,
+2025,100%,0 (arrosoir),1,4,100%_14,2025-06-05,biomasse_foliaire,2.9,kg / plant (frais),
+2025,100%,0 (arrosoir),1,4,100%_14,2025-06-05,poids_chou,1.15,"kg / chou (frais, paré)",
+2025,100%,0 (arrosoir),1,4,100%_14,2025-06-05,diametre_chou,11.9,cm,
+2025,100%,0 (arrosoir),1,4,100%_14,2025-06-05,hauteur_chou,19.9,cm,
+2025,100%,0 (arrosoir),1,4,100%_14,2025-06-05,commercialisable,1,0/1,règle CEE FFV-09 telle qu'appliquée par le script d'origine (PDF p. 26)
+2025,100%,0 (arrosoir),1,4,100%_14,2025-06-05,eau_consommee,35.25,L / plant (20/03–5/06),
+2025,100%,0 (arrosoir),1,4,100%_14,2025-06-05,wue_chou,0.03262,kg / L,
+2025,100%,0 (arrosoir),1,4,100%_14,2025-06-05,wue_biomasse,0.08227,kg / L,
+2025,100%,0 (arrosoir),2,1,100%_21,2025-06-05,biomasse_foliaire,2.8,kg / plant (frais),
+2025,100%,0 (arrosoir),2,1,100%_21,2025-06-05,poids_chou,1.55,"kg / chou (frais, paré)",
+2025,100%,0 (arrosoir),2,1,100%_21,2025-06-05,diametre_chou,10.6,cm,
+2025,100%,0 (arrosoir),2,1,100%_21,2025-06-05,hauteur_chou,22.4,cm,
+2025,100%,0 (arrosoir),2,1,100%_21,2025-06-05,commercialisable,1,0/1,règle CEE FFV-09 telle qu'appliquée par le script d'origine (PDF p. 26)
+2025,100%,0 (arrosoir),2,1,100%_21,2025-06-05,eau_consommee,35.25,L / plant (20/03–5/06),
+2025,100%,0 (arrosoir),2,1,100%_21,2025-06-05,wue_chou,0.04397,kg / L,
+2025,100%,0 (arrosoir),2,1,100%_21,2025-06-05,wue_biomasse,0.07943,kg / L,
+2025,100%,0 (arrosoir),2,2,100%_22,2025-06-05,biomasse_foliaire,2.1,kg / plant (frais),
+2025,100%,0 (arrosoir),2,2,100%_22,2025-06-05,poids_chou,0.8,"kg / chou (frais, paré)",
+2025,100%,0 (arrosoir),2,2,100%_22,2025-06-05,diametre_chou,10.7,cm,
+2025,100%,0 (arrosoir),2,2,100%_22,2025-06-05,hauteur_chou,21.9,cm,
+2025,100%,0 (arrosoir),2,2,100%_22,2025-06-05,commercialisable,0,0/1,règle CEE FFV-09 telle qu'appliquée par le script d'origine (PDF p. 26)
+2025,100%,0 (arrosoir),2,2,100%_22,2025-06-05,eau_consommee,35.25,L / plant (20/03–5/06),
+2025,100%,0 (arrosoir),2,2,100%_22,2025-06-05,wue_chou,0.0227,kg / L,
+2025,100%,0 (arrosoir),2,2,100%_22,2025-06-05,wue_biomasse,0.05957,kg / L,
+2025,100%,0 (arrosoir),2,3,100%_23,2025-06-05,biomasse_foliaire,1.85,kg / plant (frais),
+2025,100%,0 (arrosoir),2,3,100%_23,2025-06-05,poids_chou,0.9,"kg / chou (frais, paré)",
+2025,100%,0 (arrosoir),2,3,100%_23,2025-06-05,diametre_chou,10.5,cm,
+2025,100%,0 (arrosoir),2,3,100%_23,2025-06-05,hauteur_chou,20.9,cm,
+2025,100%,0 (arrosoir),2,3,100%_23,2025-06-05,commercialisable,1,0/1,règle CEE FFV-09 telle qu'appliquée par le script d'origine (PDF p. 26)
+2025,100%,0 (arrosoir),2,3,100%_23,2025-06-05,eau_consommee,35.25,L / plant (20/03–5/06),
+2025,100%,0 (arrosoir),2,3,100%_23,2025-06-05,wue_chou,0.02553,kg / L,
+2025,100%,0 (arrosoir),2,3,100%_23,2025-06-05,wue_biomasse,0.05248,kg / L,
+2025,100%,0 (arrosoir),2,4,100%_24,2025-06-05,biomasse_foliaire,2.95,kg / plant (frais),
+2025,100%,0 (arrosoir),2,4,100%_24,2025-06-05,poids_chou,1.45,"kg / chou (frais, paré)",
+2025,100%,0 (arrosoir),2,4,100%_24,2025-06-05,diametre_chou,13.4,cm,
+2025,100%,0 (arrosoir),2,4,100%_24,2025-06-05,hauteur_chou,22.3,cm,
+2025,100%,0 (arrosoir),2,4,100%_24,2025-06-05,commercialisable,1,0/1,règle CEE FFV-09 telle qu'appliquée par le script d'origine (PDF p. 26)
+2025,100%,0 (arrosoir),2,4,100%_24,2025-06-05,eau_consommee,35.25,L / plant (20/03–5/06),
+2025,100%,0 (arrosoir),2,4,100%_24,2025-06-05,wue_chou,0.04113,kg / L,
+2025,100%,0 (arrosoir),2,4,100%_24,2025-06-05,wue_biomasse,0.08369,kg / L,
+2025,100%,0 (arrosoir),3,1,100%_31,2025-06-05,biomasse_foliaire,1.7,kg / plant (frais),
+2025,100%,0 (arrosoir),3,1,100%_31,2025-06-05,poids_chou,0.35,"kg / chou (frais, paré)",
+2025,100%,0 (arrosoir),3,1,100%_31,2025-06-05,diametre_chou,7.6,cm,
+2025,100%,0 (arrosoir),3,1,100%_31,2025-06-05,hauteur_chou,18.6,cm,
+2025,100%,0 (arrosoir),3,1,100%_31,2025-06-05,commercialisable,0,0/1,règle CEE FFV-09 telle qu'appliquée par le script d'origine (PDF p. 26)
+2025,100%,0 (arrosoir),3,1,100%_31,2025-06-05,eau_consommee,35.25,L / plant (20/03–5/06),
+2025,100%,0 (arrosoir),3,1,100%_31,2025-06-05,wue_chou,0.00993,kg / L,
+2025,100%,0 (arrosoir),3,1,100%_31,2025-06-05,wue_biomasse,0.04823,kg / L,
+2025,100%,0 (arrosoir),3,2,100%_32,2025-06-05,biomasse_foliaire,1.25,kg / plant (frais),
+2025,100%,0 (arrosoir),3,2,100%_32,2025-06-05,poids_chou,0.35,"kg / chou (frais, paré)",
+2025,100%,0 (arrosoir),3,2,100%_32,2025-06-05,diametre_chou,8.5,cm,
+2025,100%,0 (arrosoir),3,2,100%_32,2025-06-05,hauteur_chou,17.4,cm,
+2025,100%,0 (arrosoir),3,2,100%_32,2025-06-05,commercialisable,0,0/1,règle CEE FFV-09 telle qu'appliquée par le script d'origine (PDF p. 26)
+2025,100%,0 (arrosoir),3,2,100%_32,2025-06-05,eau_consommee,35.25,L / plant (20/03–5/06),
+2025,100%,0 (arrosoir),3,2,100%_32,2025-06-05,wue_chou,0.00993,kg / L,
+2025,100%,0 (arrosoir),3,2,100%_32,2025-06-05,wue_biomasse,0.03546,kg / L,
+2025,100%,0 (arrosoir),3,3,100%_33,2025-06-05,biomasse_foliaire,3.15,kg / plant (frais),
+2025,100%,0 (arrosoir),3,3,100%_33,2025-06-05,poids_chou,1.5,"kg / chou (frais, paré)",
+2025,100%,0 (arrosoir),3,3,100%_33,2025-06-05,diametre_chou,13,cm,
+2025,100%,0 (arrosoir),3,3,100%_33,2025-06-05,hauteur_chou,26.1,cm,
+2025,100%,0 (arrosoir),3,3,100%_33,2025-06-05,commercialisable,1,0/1,règle CEE FFV-09 telle qu'appliquée par le script d'origine (PDF p. 26)
+2025,100%,0 (arrosoir),3,3,100%_33,2025-06-05,eau_consommee,35.25,L / plant (20/03–5/06),
+2025,100%,0 (arrosoir),3,3,100%_33,2025-06-05,wue_chou,0.04255,kg / L,
+2025,100%,0 (arrosoir),3,3,100%_33,2025-06-05,wue_biomasse,0.08936,kg / L,
+2025,100%,0 (arrosoir),3,4,100%_34,2025-06-05,biomasse_foliaire,1.5,kg / plant (frais),
+2025,100%,0 (arrosoir),3,4,100%_34,2025-06-05,poids_chou,0.65,"kg / chou (frais, paré)",
+2025,100%,0 (arrosoir),3,4,100%_34,2025-06-05,diametre_chou,9.8,cm,
+2025,100%,0 (arrosoir),3,4,100%_34,2025-06-05,hauteur_chou,19.5,cm,
+2025,100%,0 (arrosoir),3,4,100%_34,2025-06-05,commercialisable,0,0/1,règle CEE FFV-09 telle qu'appliquée par le script d'origine (PDF p. 26)
+2025,100%,0 (arrosoir),3,4,100%_34,2025-06-05,eau_consommee,35.25,L / plant (20/03–5/06),
+2025,100%,0 (arrosoir),3,4,100%_34,2025-06-05,wue_chou,0.01844,kg / L,
+2025,100%,0 (arrosoir),3,4,100%_34,2025-06-05,wue_biomasse,0.04255,kg / L,
+2025,Oya35,35 cm,1,1,Oya35_11,2025-06-05,biomasse_foliaire,2.05,kg / plant (frais),
+2025,Oya35,35 cm,1,1,Oya35_11,2025-06-05,poids_chou,1.25,"kg / chou (frais, paré)",
+2025,Oya35,35 cm,1,1,Oya35_11,2025-06-05,diametre_chou,13.2,cm,
+2025,Oya35,35 cm,1,1,Oya35_11,2025-06-05,hauteur_chou,19.2,cm,
+2025,Oya35,35 cm,1,1,Oya35_11,2025-06-05,commercialisable,1,0/1,règle CEE FFV-09 telle qu'appliquée par le script d'origine (PDF p. 26)
+2025,Oya35,35 cm,1,1,Oya35_11,2025-06-05,eau_consommee,13.85,L / plant (20/03–5/06),eau par oya ÷ 4 (PDF p. 22–23)
+2025,Oya35,35 cm,1,1,Oya35_11,2025-06-05,wue_chou,0.09025,kg / L,
+2025,Oya35,35 cm,1,1,Oya35_11,2025-06-05,wue_biomasse,0.14801,kg / L,
+2025,Oya35,35 cm,1,2,Oya35_12,2025-06-05,biomasse_foliaire,1.65,kg / plant (frais),
+2025,Oya35,35 cm,1,2,Oya35_12,2025-06-05,poids_chou,0.85,"kg / chou (frais, paré)",
+2025,Oya35,35 cm,1,2,Oya35_12,2025-06-05,diametre_chou,9.3,cm,
+2025,Oya35,35 cm,1,2,Oya35_12,2025-06-05,hauteur_chou,19.1,cm,
+2025,Oya35,35 cm,1,2,Oya35_12,2025-06-05,commercialisable,1,0/1,règle CEE FFV-09 telle qu'appliquée par le script d'origine (PDF p. 26)
+2025,Oya35,35 cm,1,2,Oya35_12,2025-06-05,eau_consommee,13.85,L / plant (20/03–5/06),eau par oya ÷ 4 (PDF p. 22–23)
+2025,Oya35,35 cm,1,2,Oya35_12,2025-06-05,wue_chou,0.06137,kg / L,
+2025,Oya35,35 cm,1,2,Oya35_12,2025-06-05,wue_biomasse,0.11913,kg / L,
+2025,Oya35,35 cm,1,3,Oya35_13,2025-06-05,biomasse_foliaire,2.3,kg / plant (frais),
+2025,Oya35,35 cm,1,3,Oya35_13,2025-06-05,poids_chou,1.35,"kg / chou (frais, paré)",
+2025,Oya35,35 cm,1,3,Oya35_13,2025-06-05,diametre_chou,10.6,cm,
+2025,Oya35,35 cm,1,3,Oya35_13,2025-06-05,hauteur_chou,23.4,cm,
+2025,Oya35,35 cm,1,3,Oya35_13,2025-06-05,commercialisable,1,0/1,règle CEE FFV-09 telle qu'appliquée par le script d'origine (PDF p. 26)
+2025,Oya35,35 cm,1,3,Oya35_13,2025-06-05,eau_consommee,13.85,L / plant (20/03–5/06),eau par oya ÷ 4 (PDF p. 22–23)
+2025,Oya35,35 cm,1,3,Oya35_13,2025-06-05,wue_chou,0.09747,kg / L,
+2025,Oya35,35 cm,1,3,Oya35_13,2025-06-05,wue_biomasse,0.16606,kg / L,
+2025,Oya35,35 cm,1,4,Oya35_14,2025-06-05,biomasse_foliaire,1.95,kg / plant (frais),
+2025,Oya35,35 cm,1,4,Oya35_14,2025-06-05,poids_chou,1,"kg / chou (frais, paré)",
+2025,Oya35,35 cm,1,4,Oya35_14,2025-06-05,diametre_chou,10.2,cm,
+2025,Oya35,35 cm,1,4,Oya35_14,2025-06-05,hauteur_chou,19.6,cm,
+2025,Oya35,35 cm,1,4,Oya35_14,2025-06-05,commercialisable,1,0/1,règle CEE FFV-09 telle qu'appliquée par le script d'origine (PDF p. 26)
+2025,Oya35,35 cm,1,4,Oya35_14,2025-06-05,eau_consommee,13.85,L / plant (20/03–5/06),eau par oya ÷ 4 (PDF p. 22–23)
+2025,Oya35,35 cm,1,4,Oya35_14,2025-06-05,wue_chou,0.0722,kg / L,
+2025,Oya35,35 cm,1,4,Oya35_14,2025-06-05,wue_biomasse,0.14079,kg / L,
+2025,Oya35,35 cm,2,1,Oya35_21,2025-06-05,biomasse_foliaire,1.85,kg / plant (frais),
+2025,Oya35,35 cm,2,1,Oya35_21,2025-06-05,poids_chou,0.9,"kg / chou (frais, paré)",
+2025,Oya35,35 cm,2,1,Oya35_21,2025-06-05,diametre_chou,9.8,cm,
+2025,Oya35,35 cm,2,1,Oya35_21,2025-06-05,hauteur_chou,19.5,cm,
+2025,Oya35,35 cm,2,1,Oya35_21,2025-06-05,commercialisable,1,0/1,règle CEE FFV-09 telle qu'appliquée par le script d'origine (PDF p. 26)
+2025,Oya35,35 cm,2,1,Oya35_21,2025-06-05,eau_consommee,12.39,L / plant (20/03–5/06),eau par oya ÷ 4 (PDF p. 22–23)
+2025,Oya35,35 cm,2,1,Oya35_21,2025-06-05,wue_chou,0.07264,kg / L,
+2025,Oya35,35 cm,2,1,Oya35_21,2025-06-05,wue_biomasse,0.14931,kg / L,
+2025,Oya35,35 cm,2,2,Oya35_22,2025-06-05,biomasse_foliaire,2,kg / plant (frais),
+2025,Oya35,35 cm,2,2,Oya35_22,2025-06-05,poids_chou,1.2,"kg / chou (frais, paré)",
+2025,Oya35,35 cm,2,2,Oya35_22,2025-06-05,diametre_chou,11.3,cm,
+2025,Oya35,35 cm,2,2,Oya35_22,2025-06-05,hauteur_chou,23.5,cm,
+2025,Oya35,35 cm,2,2,Oya35_22,2025-06-05,commercialisable,1,0/1,règle CEE FFV-09 telle qu'appliquée par le script d'origine (PDF p. 26)
+2025,Oya35,35 cm,2,2,Oya35_22,2025-06-05,eau_consommee,12.39,L / plant (20/03–5/06),eau par oya ÷ 4 (PDF p. 22–23)
+2025,Oya35,35 cm,2,2,Oya35_22,2025-06-05,wue_chou,0.09685,kg / L,
+2025,Oya35,35 cm,2,2,Oya35_22,2025-06-05,wue_biomasse,0.16142,kg / L,
+2025,Oya35,35 cm,2,3,Oya35_23,2025-06-05,biomasse_foliaire,1.65,kg / plant (frais),
+2025,Oya35,35 cm,2,3,Oya35_23,2025-06-05,poids_chou,0.7,"kg / chou (frais, paré)",
+2025,Oya35,35 cm,2,3,Oya35_23,2025-06-05,diametre_chou,10.9,cm,
+2025,Oya35,35 cm,2,3,Oya35_23,2025-06-05,hauteur_chou,21.5,cm,
+2025,Oya35,35 cm,2,3,Oya35_23,2025-06-05,commercialisable,1,0/1,règle CEE FFV-09 telle qu'appliquée par le script d'origine (PDF p. 26)
+2025,Oya35,35 cm,2,3,Oya35_23,2025-06-05,eau_consommee,12.39,L / plant (20/03–5/06),eau par oya ÷ 4 (PDF p. 22–23)
+2025,Oya35,35 cm,2,3,Oya35_23,2025-06-05,wue_chou,0.0565,kg / L,
+2025,Oya35,35 cm,2,3,Oya35_23,2025-06-05,wue_biomasse,0.13317,kg / L,
+2025,Oya35,35 cm,2,4,Oya35_24,2025-06-05,biomasse_foliaire,2.15,kg / plant (frais),
+2025,Oya35,35 cm,2,4,Oya35_24,2025-06-05,poids_chou,1.1,"kg / chou (frais, paré)",
+2025,Oya35,35 cm,2,4,Oya35_24,2025-06-05,diametre_chou,10.1,cm,
+2025,Oya35,35 cm,2,4,Oya35_24,2025-06-05,hauteur_chou,22.9,cm,
+2025,Oya35,35 cm,2,4,Oya35_24,2025-06-05,commercialisable,1,0/1,règle CEE FFV-09 telle qu'appliquée par le script d'origine (PDF p. 26)
+2025,Oya35,35 cm,2,4,Oya35_24,2025-06-05,eau_consommee,12.39,L / plant (20/03–5/06),eau par oya ÷ 4 (PDF p. 22–23)
+2025,Oya35,35 cm,2,4,Oya35_24,2025-06-05,wue_chou,0.08878,kg / L,
+2025,Oya35,35 cm,2,4,Oya35_24,2025-06-05,wue_biomasse,0.17353,kg / L,
+2025,Oya35,35 cm,3,1,Oya35_31,2025-06-05,biomasse_foliaire,1.4,kg / plant (frais),
+2025,Oya35,35 cm,3,1,Oya35_31,2025-06-05,poids_chou,0.45,"kg / chou (frais, paré)",
+2025,Oya35,35 cm,3,1,Oya35_31,2025-06-05,diametre_chou,8,cm,
+2025,Oya35,35 cm,3,1,Oya35_31,2025-06-05,hauteur_chou,16.3,cm,
+2025,Oya35,35 cm,3,1,Oya35_31,2025-06-05,commercialisable,1,0/1,règle CEE FFV-09 telle qu'appliquée par le script d'origine (PDF p. 26)
+2025,Oya35,35 cm,3,1,Oya35_31,2025-06-05,eau_consommee,12.335,L / plant (20/03–5/06),eau par oya ÷ 4 (PDF p. 22–23)
+2025,Oya35,35 cm,3,1,Oya35_31,2025-06-05,wue_chou,0.03648,kg / L,
+2025,Oya35,35 cm,3,1,Oya35_31,2025-06-05,wue_biomasse,0.1135,kg / L,
+2025,Oya35,35 cm,3,2,Oya35_32,2025-06-05,biomasse_foliaire,1.55,kg / plant (frais),
+2025,Oya35,35 cm,3,2,Oya35_32,2025-06-05,poids_chou,0.85,"kg / chou (frais, paré)",
+2025,Oya35,35 cm,3,2,Oya35_32,2025-06-05,diametre_chou,10.1,cm,
+2025,Oya35,35 cm,3,2,Oya35_32,2025-06-05,hauteur_chou,19.3,cm,
+2025,Oya35,35 cm,3,2,Oya35_32,2025-06-05,commercialisable,1,0/1,règle CEE FFV-09 telle qu'appliquée par le script d'origine (PDF p. 26)
+2025,Oya35,35 cm,3,2,Oya35_32,2025-06-05,eau_consommee,12.335,L / plant (20/03–5/06),eau par oya ÷ 4 (PDF p. 22–23)
+2025,Oya35,35 cm,3,2,Oya35_32,2025-06-05,wue_chou,0.06891,kg / L,
+2025,Oya35,35 cm,3,2,Oya35_32,2025-06-05,wue_biomasse,0.12566,kg / L,
+2025,Oya35,35 cm,3,3,Oya35_33,2025-06-05,biomasse_foliaire,2.45,kg / plant (frais),
+2025,Oya35,35 cm,3,3,Oya35_33,2025-06-05,poids_chou,0.9,"kg / chou (frais, paré)",
+2025,Oya35,35 cm,3,3,Oya35_33,2025-06-05,diametre_chou,10.9,cm,
+2025,Oya35,35 cm,3,3,Oya35_33,2025-06-05,hauteur_chou,22,cm,
+2025,Oya35,35 cm,3,3,Oya35_33,2025-06-05,commercialisable,1,0/1,règle CEE FFV-09 telle qu'appliquée par le script d'origine (PDF p. 26)
+2025,Oya35,35 cm,3,3,Oya35_33,2025-06-05,eau_consommee,12.335,L / plant (20/03–5/06),eau par oya ÷ 4 (PDF p. 22–23)
+2025,Oya35,35 cm,3,3,Oya35_33,2025-06-05,wue_chou,0.07296,kg / L,
+2025,Oya35,35 cm,3,3,Oya35_33,2025-06-05,wue_biomasse,0.19862,kg / L,
+2025,Oya35,35 cm,3,4,Oya35_34,2025-06-05,biomasse_foliaire,2.5,kg / plant (frais),
+2025,Oya35,35 cm,3,4,Oya35_34,2025-06-05,poids_chou,1.05,"kg / chou (frais, paré)",
+2025,Oya35,35 cm,3,4,Oya35_34,2025-06-05,diametre_chou,10,cm,
+2025,Oya35,35 cm,3,4,Oya35_34,2025-06-05,hauteur_chou,21.1,cm,
+2025,Oya35,35 cm,3,4,Oya35_34,2025-06-05,commercialisable,1,0/1,règle CEE FFV-09 telle qu'appliquée par le script d'origine (PDF p. 26)
+2025,Oya35,35 cm,3,4,Oya35_34,2025-06-05,eau_consommee,12.335,L / plant (20/03–5/06),eau par oya ÷ 4 (PDF p. 22–23)
+2025,Oya35,35 cm,3,4,Oya35_34,2025-06-05,wue_chou,0.08512,kg / L,
+2025,Oya35,35 cm,3,4,Oya35_34,2025-06-05,wue_biomasse,0.20268,kg / L,
+2025,Oya56,56 cm,1,1,Oya56_11,2025-06-05,biomasse_foliaire,1.7,kg / plant (frais),"pesée sous une averse pour Oya56, Oya79 et une partie du 0 % : possible surestimation (PDF p. 36)"
+2025,Oya56,56 cm,1,1,Oya56_11,2025-06-05,poids_chou,0.6,"kg / chou (frais, paré)",
+2025,Oya56,56 cm,1,1,Oya56_11,2025-06-05,diametre_chou,7.9,cm,
+2025,Oya56,56 cm,1,1,Oya56_11,2025-06-05,hauteur_chou,19,cm,
+2025,Oya56,56 cm,1,1,Oya56_11,2025-06-05,commercialisable,1,0/1,règle CEE FFV-09 telle qu'appliquée par le script d'origine (PDF p. 26)
+2025,Oya56,56 cm,1,1,Oya56_11,2025-06-05,eau_consommee,12.745,L / plant (20/03–5/06),eau par oya ÷ 4 (PDF p. 22–23)
+2025,Oya56,56 cm,1,1,Oya56_11,2025-06-05,wue_chou,0.04708,kg / L,
+2025,Oya56,56 cm,1,1,Oya56_11,2025-06-05,wue_biomasse,0.13339,kg / L,
+2025,Oya56,56 cm,1,2,Oya56_12,2025-06-05,biomasse_foliaire,2.2,kg / plant (frais),"pesée sous une averse pour Oya56, Oya79 et une partie du 0 % : possible surestimation (PDF p. 36)"
+2025,Oya56,56 cm,1,2,Oya56_12,2025-06-05,poids_chou,0.95,"kg / chou (frais, paré)",
+2025,Oya56,56 cm,1,2,Oya56_12,2025-06-05,diametre_chou,12.9,cm,
+2025,Oya56,56 cm,1,2,Oya56_12,2025-06-05,hauteur_chou,19.2,cm,
+2025,Oya56,56 cm,1,2,Oya56_12,2025-06-05,commercialisable,1,0/1,règle CEE FFV-09 telle qu'appliquée par le script d'origine (PDF p. 26)
+2025,Oya56,56 cm,1,2,Oya56_12,2025-06-05,eau_consommee,12.745,L / plant (20/03–5/06),eau par oya ÷ 4 (PDF p. 22–23)
+2025,Oya56,56 cm,1,2,Oya56_12,2025-06-05,wue_chou,0.07454,kg / L,
+2025,Oya56,56 cm,1,2,Oya56_12,2025-06-05,wue_biomasse,0.17262,kg / L,
+2025,Oya56,56 cm,1,3,Oya56_13,2025-06-05,biomasse_foliaire,1.65,kg / plant (frais),"pesée sous une averse pour Oya56, Oya79 et une partie du 0 % : possible surestimation (PDF p. 36)"
+2025,Oya56,56 cm,1,3,Oya56_13,2025-06-05,poids_chou,0.8,"kg / chou (frais, paré)",
+2025,Oya56,56 cm,1,3,Oya56_13,2025-06-05,diametre_chou,10.3,cm,
+2025,Oya56,56 cm,1,3,Oya56_13,2025-06-05,hauteur_chou,19,cm,
+2025,Oya56,56 cm,1,3,Oya56_13,2025-06-05,commercialisable,1,0/1,règle CEE FFV-09 telle qu'appliquée par le script d'origine (PDF p. 26)
+2025,Oya56,56 cm,1,3,Oya56_13,2025-06-05,eau_consommee,12.745,L / plant (20/03–5/06),eau par oya ÷ 4 (PDF p. 22–23)
+2025,Oya56,56 cm,1,3,Oya56_13,2025-06-05,wue_chou,0.06277,kg / L,
+2025,Oya56,56 cm,1,3,Oya56_13,2025-06-05,wue_biomasse,0.12946,kg / L,
+2025,Oya56,56 cm,1,4,Oya56_14,2025-06-05,biomasse_foliaire,2.35,kg / plant (frais),"pesée sous une averse pour Oya56, Oya79 et une partie du 0 % : possible surestimation (PDF p. 36)"
+2025,Oya56,56 cm,1,4,Oya56_14,2025-06-05,poids_chou,0.6,"kg / chou (frais, paré)",
+2025,Oya56,56 cm,1,4,Oya56_14,2025-06-05,diametre_chou,9.1,cm,
+2025,Oya56,56 cm,1,4,Oya56_14,2025-06-05,hauteur_chou,18,cm,
+2025,Oya56,56 cm,1,4,Oya56_14,2025-06-05,commercialisable,1,0/1,règle CEE FFV-09 telle qu'appliquée par le script d'origine (PDF p. 26)
+2025,Oya56,56 cm,1,4,Oya56_14,2025-06-05,eau_consommee,12.745,L / plant (20/03–5/06),eau par oya ÷ 4 (PDF p. 22–23)
+2025,Oya56,56 cm,1,4,Oya56_14,2025-06-05,wue_chou,0.04708,kg / L,
+2025,Oya56,56 cm,1,4,Oya56_14,2025-06-05,wue_biomasse,0.18439,kg / L,
+2025,Oya56,56 cm,2,1,Oya56_21,2025-06-05,biomasse_foliaire,2,kg / plant (frais),"pesée sous une averse pour Oya56, Oya79 et une partie du 0 % : possible surestimation (PDF p. 36)"
+2025,Oya56,56 cm,2,1,Oya56_21,2025-06-05,poids_chou,0.65,"kg / chou (frais, paré)",
+2025,Oya56,56 cm,2,1,Oya56_21,2025-06-05,diametre_chou,10.3,cm,
+2025,Oya56,56 cm,2,1,Oya56_21,2025-06-05,hauteur_chou,22.1,cm,
+2025,Oya56,56 cm,2,1,Oya56_21,2025-06-05,commercialisable,1,0/1,règle CEE FFV-09 telle qu'appliquée par le script d'origine (PDF p. 26)
+2025,Oya56,56 cm,2,1,Oya56_21,2025-06-05,eau_consommee,7.495,L / plant (20/03–5/06),eau par oya ÷ 4 (PDF p. 22–23)
+2025,Oya56,56 cm,2,1,Oya56_21,2025-06-05,wue_chou,0.08672,kg / L,
+2025,Oya56,56 cm,2,1,Oya56_21,2025-06-05,wue_biomasse,0.26684,kg / L,
+2025,Oya56,56 cm,2,2,Oya56_22,2025-06-05,biomasse_foliaire,2.35,kg / plant (frais),"pesée sous une averse pour Oya56, Oya79 et une partie du 0 % : possible surestimation (PDF p. 36)"
+2025,Oya56,56 cm,2,2,Oya56_22,2025-06-05,poids_chou,1,"kg / chou (frais, paré)",
+2025,Oya56,56 cm,2,2,Oya56_22,2025-06-05,diametre_chou,10.5,cm,
+2025,Oya56,56 cm,2,2,Oya56_22,2025-06-05,hauteur_chou,22,cm,
+2025,Oya56,56 cm,2,2,Oya56_22,2025-06-05,commercialisable,1,0/1,règle CEE FFV-09 telle qu'appliquée par le script d'origine (PDF p. 26)
+2025,Oya56,56 cm,2,2,Oya56_22,2025-06-05,eau_consommee,7.495,L / plant (20/03–5/06),eau par oya ÷ 4 (PDF p. 22–23)
+2025,Oya56,56 cm,2,2,Oya56_22,2025-06-05,wue_chou,0.13342,kg / L,
+2025,Oya56,56 cm,2,2,Oya56_22,2025-06-05,wue_biomasse,0.31354,kg / L,
+2025,Oya56,56 cm,2,3,Oya56_23,2025-06-05,biomasse_foliaire,2.4,kg / plant (frais),"pesée sous une averse pour Oya56, Oya79 et une partie du 0 % : possible surestimation (PDF p. 36)"
+2025,Oya56,56 cm,2,3,Oya56_23,2025-06-05,poids_chou,1.25,"kg / chou (frais, paré)",
+2025,Oya56,56 cm,2,3,Oya56_23,2025-06-05,diametre_chou,11.6,cm,
+2025,Oya56,56 cm,2,3,Oya56_23,2025-06-05,hauteur_chou,19.4,cm,
+2025,Oya56,56 cm,2,3,Oya56_23,2025-06-05,commercialisable,1,0/1,règle CEE FFV-09 telle qu'appliquée par le script d'origine (PDF p. 26)
+2025,Oya56,56 cm,2,3,Oya56_23,2025-06-05,eau_consommee,7.495,L / plant (20/03–5/06),eau par oya ÷ 4 (PDF p. 22–23)
+2025,Oya56,56 cm,2,3,Oya56_23,2025-06-05,wue_chou,0.16678,kg / L,
+2025,Oya56,56 cm,2,3,Oya56_23,2025-06-05,wue_biomasse,0.32021,kg / L,
+2025,Oya56,56 cm,2,4,Oya56_24,2025-06-05,biomasse_foliaire,1.85,kg / plant (frais),"pesée sous une averse pour Oya56, Oya79 et une partie du 0 % : possible surestimation (PDF p. 36)"
+2025,Oya56,56 cm,2,4,Oya56_24,2025-06-05,poids_chou,0.8,"kg / chou (frais, paré)",
+2025,Oya56,56 cm,2,4,Oya56_24,2025-06-05,diametre_chou,10,cm,
+2025,Oya56,56 cm,2,4,Oya56_24,2025-06-05,hauteur_chou,20.3,cm,
+2025,Oya56,56 cm,2,4,Oya56_24,2025-06-05,commercialisable,1,0/1,règle CEE FFV-09 telle qu'appliquée par le script d'origine (PDF p. 26)
+2025,Oya56,56 cm,2,4,Oya56_24,2025-06-05,eau_consommee,7.495,L / plant (20/03–5/06),eau par oya ÷ 4 (PDF p. 22–23)
+2025,Oya56,56 cm,2,4,Oya56_24,2025-06-05,wue_chou,0.10674,kg / L,
+2025,Oya56,56 cm,2,4,Oya56_24,2025-06-05,wue_biomasse,0.24683,kg / L,
+2025,Oya56,56 cm,3,1,Oya56_31,2025-06-05,biomasse_foliaire,2.5,kg / plant (frais),"pesée sous une averse pour Oya56, Oya79 et une partie du 0 % : possible surestimation (PDF p. 36)"
+2025,Oya56,56 cm,3,1,Oya56_31,2025-06-05,poids_chou,1.05,"kg / chou (frais, paré)",
+2025,Oya56,56 cm,3,1,Oya56_31,2025-06-05,diametre_chou,11,cm,
+2025,Oya56,56 cm,3,1,Oya56_31,2025-06-05,hauteur_chou,21.4,cm,
+2025,Oya56,56 cm,3,1,Oya56_31,2025-06-05,commercialisable,1,0/1,règle CEE FFV-09 telle qu'appliquée par le script d'origine (PDF p. 26)
+2025,Oya56,56 cm,3,1,Oya56_31,2025-06-05,eau_consommee,10.7225,L / plant (20/03–5/06),eau par oya ÷ 4 (PDF p. 22–23)
+2025,Oya56,56 cm,3,1,Oya56_31,2025-06-05,wue_chou,0.09792,kg / L,
+2025,Oya56,56 cm,3,1,Oya56_31,2025-06-05,wue_biomasse,0.23315,kg / L,
+2025,Oya56,56 cm,3,2,Oya56_32,2025-06-05,biomasse_foliaire,3.05,kg / plant (frais),"pesée sous une averse pour Oya56, Oya79 et une partie du 0 % : possible surestimation (PDF p. 36)"
+2025,Oya56,56 cm,3,2,Oya56_32,2025-06-05,poids_chou,1.05,"kg / chou (frais, paré)",
+2025,Oya56,56 cm,3,2,Oya56_32,2025-06-05,diametre_chou,13.5,cm,
+2025,Oya56,56 cm,3,2,Oya56_32,2025-06-05,hauteur_chou,19.5,cm,
+2025,Oya56,56 cm,3,2,Oya56_32,2025-06-05,commercialisable,1,0/1,règle CEE FFV-09 telle qu'appliquée par le script d'origine (PDF p. 26)
+2025,Oya56,56 cm,3,2,Oya56_32,2025-06-05,eau_consommee,10.7225,L / plant (20/03–5/06),eau par oya ÷ 4 (PDF p. 22–23)
+2025,Oya56,56 cm,3,2,Oya56_32,2025-06-05,wue_chou,0.09792,kg / L,
+2025,Oya56,56 cm,3,2,Oya56_32,2025-06-05,wue_biomasse,0.28445,kg / L,
+2025,Oya56,56 cm,3,3,Oya56_33,2025-06-05,biomasse_foliaire,3.3,kg / plant (frais),"pesée sous une averse pour Oya56, Oya79 et une partie du 0 % : possible surestimation (PDF p. 36)"
+2025,Oya56,56 cm,3,3,Oya56_33,2025-06-05,poids_chou,0.3,"kg / chou (frais, paré)",
+2025,Oya56,56 cm,3,3,Oya56_33,2025-06-05,diametre_chou,8.5,cm,
+2025,Oya56,56 cm,3,3,Oya56_33,2025-06-05,hauteur_chou,17.3,cm,
+2025,Oya56,56 cm,3,3,Oya56_33,2025-06-05,commercialisable,0,0/1,règle CEE FFV-09 telle qu'appliquée par le script d'origine (PDF p. 26)
+2025,Oya56,56 cm,3,3,Oya56_33,2025-06-05,eau_consommee,10.7225,L / plant (20/03–5/06),eau par oya ÷ 4 (PDF p. 22–23)
+2025,Oya56,56 cm,3,3,Oya56_33,2025-06-05,wue_chou,0.02798,kg / L,
+2025,Oya56,56 cm,3,3,Oya56_33,2025-06-05,wue_biomasse,0.30776,kg / L,
+2025,Oya56,56 cm,3,4,Oya56_34,2025-06-05,biomasse_foliaire,3,kg / plant (frais),"pesée sous une averse pour Oya56, Oya79 et une partie du 0 % : possible surestimation (PDF p. 36)"
+2025,Oya56,56 cm,3,4,Oya56_34,2025-06-05,poids_chou,1.25,"kg / chou (frais, paré)",
+2025,Oya56,56 cm,3,4,Oya56_34,2025-06-05,diametre_chou,11.8,cm,
+2025,Oya56,56 cm,3,4,Oya56_34,2025-06-05,hauteur_chou,24.2,cm,
+2025,Oya56,56 cm,3,4,Oya56_34,2025-06-05,commercialisable,1,0/1,règle CEE FFV-09 telle qu'appliquée par le script d'origine (PDF p. 26)
+2025,Oya56,56 cm,3,4,Oya56_34,2025-06-05,eau_consommee,10.7225,L / plant (20/03–5/06),eau par oya ÷ 4 (PDF p. 22–23)
+2025,Oya56,56 cm,3,4,Oya56_34,2025-06-05,wue_chou,0.11658,kg / L,
+2025,Oya56,56 cm,3,4,Oya56_34,2025-06-05,wue_biomasse,0.27979,kg / L,
+2025,Oya79,79 cm,1,1,Oya79_11,2025-06-05,biomasse_foliaire,1.4,kg / plant (frais),"pesée sous une averse pour Oya56, Oya79 et une partie du 0 % : possible surestimation (PDF p. 36)"
+2025,Oya79,79 cm,1,1,Oya79_11,2025-06-05,poids_chou,0.4,"kg / chou (frais, paré)",
+2025,Oya79,79 cm,1,1,Oya79_11,2025-06-05,diametre_chou,8.5,cm,
+2025,Oya79,79 cm,1,1,Oya79_11,2025-06-05,hauteur_chou,17.4,cm,
+2025,Oya79,79 cm,1,1,Oya79_11,2025-06-05,commercialisable,0,0/1,règle CEE FFV-09 telle qu'appliquée par le script d'origine (PDF p. 26)
+2025,Oya79,79 cm,1,1,Oya79_11,2025-06-05,eau_consommee,6.9625,L / plant (20/03–5/06),eau par oya ÷ 4 (PDF p. 22–23)
+2025,Oya79,79 cm,1,1,Oya79_11,2025-06-05,wue_chou,0.05745,kg / L,
+2025,Oya79,79 cm,1,1,Oya79_11,2025-06-05,wue_biomasse,0.20108,kg / L,
+2025,Oya79,79 cm,1,2,Oya79_12,2025-06-05,biomasse_foliaire,2.2,kg / plant (frais),"pesée sous une averse pour Oya56, Oya79 et une partie du 0 % : possible surestimation (PDF p. 36)"
+2025,Oya79,79 cm,1,2,Oya79_12,2025-06-05,poids_chou,0.35,"kg / chou (frais, paré)",
+2025,Oya79,79 cm,1,2,Oya79_12,2025-06-05,diametre_chou,8.4,cm,
+2025,Oya79,79 cm,1,2,Oya79_12,2025-06-05,hauteur_chou,16,cm,
+2025,Oya79,79 cm,1,2,Oya79_12,2025-06-05,commercialisable,0,0/1,règle CEE FFV-09 telle qu'appliquée par le script d'origine (PDF p. 26)
+2025,Oya79,79 cm,1,2,Oya79_12,2025-06-05,eau_consommee,6.9625,L / plant (20/03–5/06),eau par oya ÷ 4 (PDF p. 22–23)
+2025,Oya79,79 cm,1,2,Oya79_12,2025-06-05,wue_chou,0.05027,kg / L,
+2025,Oya79,79 cm,1,2,Oya79_12,2025-06-05,wue_biomasse,0.31598,kg / L,
+2025,Oya79,79 cm,1,3,Oya79_13,2025-06-05,biomasse_foliaire,1.25,kg / plant (frais),"pesée sous une averse pour Oya56, Oya79 et une partie du 0 % : possible surestimation (PDF p. 36)"
+2025,Oya79,79 cm,1,3,Oya79_13,2025-06-05,poids_chou,0.45,"kg / chou (frais, paré)",
+2025,Oya79,79 cm,1,3,Oya79_13,2025-06-05,diametre_chou,7.8,cm,
+2025,Oya79,79 cm,1,3,Oya79_13,2025-06-05,hauteur_chou,18.8,cm,
+2025,Oya79,79 cm,1,3,Oya79_13,2025-06-05,commercialisable,0,0/1,règle CEE FFV-09 telle qu'appliquée par le script d'origine (PDF p. 26)
+2025,Oya79,79 cm,1,3,Oya79_13,2025-06-05,eau_consommee,6.9625,L / plant (20/03–5/06),eau par oya ÷ 4 (PDF p. 22–23)
+2025,Oya79,79 cm,1,3,Oya79_13,2025-06-05,wue_chou,0.06463,kg / L,
+2025,Oya79,79 cm,1,3,Oya79_13,2025-06-05,wue_biomasse,0.17953,kg / L,
+2025,Oya79,79 cm,1,4,Oya79_14,2025-06-05,biomasse_foliaire,1.65,kg / plant (frais),"pesée sous une averse pour Oya56, Oya79 et une partie du 0 % : possible surestimation (PDF p. 36)"
+2025,Oya79,79 cm,1,4,Oya79_14,2025-06-05,poids_chou,0.55,"kg / chou (frais, paré)",
+2025,Oya79,79 cm,1,4,Oya79_14,2025-06-05,diametre_chou,8.5,cm,
+2025,Oya79,79 cm,1,4,Oya79_14,2025-06-05,hauteur_chou,20.4,cm,
+2025,Oya79,79 cm,1,4,Oya79_14,2025-06-05,commercialisable,1,0/1,règle CEE FFV-09 telle qu'appliquée par le script d'origine (PDF p. 26)
+2025,Oya79,79 cm,1,4,Oya79_14,2025-06-05,eau_consommee,6.9625,L / plant (20/03–5/06),eau par oya ÷ 4 (PDF p. 22–23)
+2025,Oya79,79 cm,1,4,Oya79_14,2025-06-05,wue_chou,0.07899,kg / L,
+2025,Oya79,79 cm,1,4,Oya79_14,2025-06-05,wue_biomasse,0.23698,kg / L,
+2025,Oya79,79 cm,2,1,Oya79_21,2025-06-05,biomasse_foliaire,1.2,kg / plant (frais),"pesée sous une averse pour Oya56, Oya79 et une partie du 0 % : possible surestimation (PDF p. 36)"
+2025,Oya79,79 cm,2,1,Oya79_21,2025-06-05,poids_chou,0.55,"kg / chou (frais, paré)",
+2025,Oya79,79 cm,2,1,Oya79_21,2025-06-05,diametre_chou,9,cm,
+2025,Oya79,79 cm,2,1,Oya79_21,2025-06-05,hauteur_chou,17.8,cm,
+2025,Oya79,79 cm,2,1,Oya79_21,2025-06-05,commercialisable,0,0/1,règle CEE FFV-09 telle qu'appliquée par le script d'origine (PDF p. 26)
+2025,Oya79,79 cm,2,1,Oya79_21,2025-06-05,eau_consommee,14.925,L / plant (20/03–5/06),eau par oya ÷ 4 (PDF p. 22–23)
+2025,Oya79,79 cm,2,1,Oya79_21,2025-06-05,wue_chou,0.03685,kg / L,
+2025,Oya79,79 cm,2,1,Oya79_21,2025-06-05,wue_biomasse,0.0804,kg / L,
+2025,Oya79,79 cm,2,2,Oya79_22,2025-06-05,biomasse_foliaire,1.25,kg / plant (frais),"pesée sous une averse pour Oya56, Oya79 et une partie du 0 % : possible surestimation (PDF p. 36)"
+2025,Oya79,79 cm,2,2,Oya79_22,2025-06-05,poids_chou,0.4,"kg / chou (frais, paré)",
+2025,Oya79,79 cm,2,2,Oya79_22,2025-06-05,diametre_chou,7.8,cm,
+2025,Oya79,79 cm,2,2,Oya79_22,2025-06-05,hauteur_chou,18,cm,
+2025,Oya79,79 cm,2,2,Oya79_22,2025-06-05,commercialisable,0,0/1,règle CEE FFV-09 telle qu'appliquée par le script d'origine (PDF p. 26)
+2025,Oya79,79 cm,2,2,Oya79_22,2025-06-05,eau_consommee,14.925,L / plant (20/03–5/06),eau par oya ÷ 4 (PDF p. 22–23)
+2025,Oya79,79 cm,2,2,Oya79_22,2025-06-05,wue_chou,0.0268,kg / L,
+2025,Oya79,79 cm,2,2,Oya79_22,2025-06-05,wue_biomasse,0.08375,kg / L,
+2025,Oya79,79 cm,2,3,Oya79_23,2025-06-05,biomasse_foliaire,2.25,kg / plant (frais),"pesée sous une averse pour Oya56, Oya79 et une partie du 0 % : possible surestimation (PDF p. 36)"
+2025,Oya79,79 cm,2,3,Oya79_23,2025-06-05,poids_chou,1,"kg / chou (frais, paré)",
+2025,Oya79,79 cm,2,3,Oya79_23,2025-06-05,diametre_chou,10.8,cm,
+2025,Oya79,79 cm,2,3,Oya79_23,2025-06-05,hauteur_chou,20.5,cm,
+2025,Oya79,79 cm,2,3,Oya79_23,2025-06-05,commercialisable,1,0/1,règle CEE FFV-09 telle qu'appliquée par le script d'origine (PDF p. 26)
+2025,Oya79,79 cm,2,3,Oya79_23,2025-06-05,eau_consommee,14.925,L / plant (20/03–5/06),eau par oya ÷ 4 (PDF p. 22–23)
+2025,Oya79,79 cm,2,3,Oya79_23,2025-06-05,wue_chou,0.067,kg / L,
+2025,Oya79,79 cm,2,3,Oya79_23,2025-06-05,wue_biomasse,0.15075,kg / L,
+2025,Oya79,79 cm,2,4,Oya79_24,2025-06-05,biomasse_foliaire,2.6,kg / plant (frais),"pesée sous une averse pour Oya56, Oya79 et une partie du 0 % : possible surestimation (PDF p. 36)"
+2025,Oya79,79 cm,2,4,Oya79_24,2025-06-05,poids_chou,1.65,"kg / chou (frais, paré)",
+2025,Oya79,79 cm,2,4,Oya79_24,2025-06-05,diametre_chou,12,cm,
+2025,Oya79,79 cm,2,4,Oya79_24,2025-06-05,hauteur_chou,23.7,cm,
+2025,Oya79,79 cm,2,4,Oya79_24,2025-06-05,commercialisable,1,0/1,règle CEE FFV-09 telle qu'appliquée par le script d'origine (PDF p. 26)
+2025,Oya79,79 cm,2,4,Oya79_24,2025-06-05,eau_consommee,14.925,L / plant (20/03–5/06),eau par oya ÷ 4 (PDF p. 22–23)
+2025,Oya79,79 cm,2,4,Oya79_24,2025-06-05,wue_chou,0.11055,kg / L,
+2025,Oya79,79 cm,2,4,Oya79_24,2025-06-05,wue_biomasse,0.1742,kg / L,
+2025,Oya79,79 cm,3,1,Oya79_31,2025-06-05,biomasse_foliaire,1,kg / plant (frais),"pesée sous une averse pour Oya56, Oya79 et une partie du 0 % : possible surestimation (PDF p. 36)"
+2025,Oya79,79 cm,3,1,Oya79_31,2025-06-05,poids_chou,0.2,"kg / chou (frais, paré)",
+2025,Oya79,79 cm,3,1,Oya79_31,2025-06-05,diametre_chou,7,cm,
+2025,Oya79,79 cm,3,1,Oya79_31,2025-06-05,hauteur_chou,13.6,cm,
+2025,Oya79,79 cm,3,1,Oya79_31,2025-06-05,commercialisable,0,0/1,règle CEE FFV-09 telle qu'appliquée par le script d'origine (PDF p. 26)
+2025,Oya79,79 cm,3,1,Oya79_31,2025-06-05,eau_consommee,13.585,L / plant (20/03–5/06),eau par oya ÷ 4 (PDF p. 22–23)
+2025,Oya79,79 cm,3,1,Oya79_31,2025-06-05,wue_chou,0.01472,kg / L,
+2025,Oya79,79 cm,3,1,Oya79_31,2025-06-05,wue_biomasse,0.07361,kg / L,
+2025,Oya79,79 cm,3,2,Oya79_32,2025-06-05,biomasse_foliaire,1.45,kg / plant (frais),"pesée sous une averse pour Oya56, Oya79 et une partie du 0 % : possible surestimation (PDF p. 36)"
+2025,Oya79,79 cm,3,2,Oya79_32,2025-06-05,poids_chou,0.55,"kg / chou (frais, paré)",
+2025,Oya79,79 cm,3,2,Oya79_32,2025-06-05,diametre_chou,8.5,cm,
+2025,Oya79,79 cm,3,2,Oya79_32,2025-06-05,hauteur_chou,19.2,cm,
+2025,Oya79,79 cm,3,2,Oya79_32,2025-06-05,commercialisable,0,0/1,règle CEE FFV-09 telle qu'appliquée par le script d'origine (PDF p. 26)
+2025,Oya79,79 cm,3,2,Oya79_32,2025-06-05,eau_consommee,13.585,L / plant (20/03–5/06),eau par oya ÷ 4 (PDF p. 22–23)
+2025,Oya79,79 cm,3,2,Oya79_32,2025-06-05,wue_chou,0.04049,kg / L,
+2025,Oya79,79 cm,3,2,Oya79_32,2025-06-05,wue_biomasse,0.10674,kg / L,
+2025,Oya79,79 cm,3,3,Oya79_33,2025-06-05,biomasse_foliaire,3.15,kg / plant (frais),"pesée sous une averse pour Oya56, Oya79 et une partie du 0 % : possible surestimation (PDF p. 36)"
+2025,Oya79,79 cm,3,3,Oya79_33,2025-06-05,poids_chou,1.05,"kg / chou (frais, paré)",
+2025,Oya79,79 cm,3,3,Oya79_33,2025-06-05,diametre_chou,11.8,cm,
+2025,Oya79,79 cm,3,3,Oya79_33,2025-06-05,hauteur_chou,20.1,cm,
+2025,Oya79,79 cm,3,3,Oya79_33,2025-06-05,commercialisable,1,0/1,règle CEE FFV-09 telle qu'appliquée par le script d'origine (PDF p. 26)
+2025,Oya79,79 cm,3,3,Oya79_33,2025-06-05,eau_consommee,13.585,L / plant (20/03–5/06),eau par oya ÷ 4 (PDF p. 22–23)
+2025,Oya79,79 cm,3,3,Oya79_33,2025-06-05,wue_chou,0.07729,kg / L,
+2025,Oya79,79 cm,3,3,Oya79_33,2025-06-05,wue_biomasse,0.23187,kg / L,
+2025,Oya79,79 cm,3,4,Oya79_34,2025-06-05,biomasse_foliaire,2.4,kg / plant (frais),"pesée sous une averse pour Oya56, Oya79 et une partie du 0 % : possible surestimation (PDF p. 36)"
+2025,Oya79,79 cm,3,4,Oya79_34,2025-06-05,poids_chou,1.3,"kg / chou (frais, paré)",
+2025,Oya79,79 cm,3,4,Oya79_34,2025-06-05,diametre_chou,10.7,cm,
+2025,Oya79,79 cm,3,4,Oya79_34,2025-06-05,hauteur_chou,20,cm,
+2025,Oya79,79 cm,3,4,Oya79_34,2025-06-05,commercialisable,1,0/1,règle CEE FFV-09 telle qu'appliquée par le script d'origine (PDF p. 26)
+2025,Oya79,79 cm,3,4,Oya79_34,2025-06-05,eau_consommee,13.585,L / plant (20/03–5/06),eau par oya ÷ 4 (PDF p. 22–23)
+2025,Oya79,79 cm,3,4,Oya79_34,2025-06-05,wue_chou,0.09569,kg / L,
+2025,Oya79,79 cm,3,4,Oya79_34,2025-06-05,wue_biomasse,0.17667,kg / L,
+2025,100%,0 (arrosoir),1,2,100%_12,2025-05-27,hauteur_plante,56.6,cm,
+2025,100%,0 (arrosoir),1,3,100%_13,2025-05-27,hauteur_plante,55.7,cm,
+2025,100%,0 (arrosoir),1,4,100%_14,2025-05-27,hauteur_plante,51.0,cm,
+2025,100%,0 (arrosoir),2,1,100%_21,2025-05-27,hauteur_plante,44.4,cm,
+2025,100%,0 (arrosoir),2,2,100%_22,2025-05-27,hauteur_plante,44.6,cm,
+2025,100%,0 (arrosoir),2,3,100%_23,2025-05-27,hauteur_plante,42.0,cm,
+2025,100%,0 (arrosoir),2,4,100%_24,2025-05-27,hauteur_plante,47.9,cm,
+2025,100%,0 (arrosoir),3,1,100%_31,2025-05-27,hauteur_plante,48.0,cm,
+2025,100%,0 (arrosoir),3,2,100%_32,2025-05-27,hauteur_plante,51.7,cm,
+2025,100%,0 (arrosoir),3,3,100%_33,2025-05-27,hauteur_plante,53.0,cm,
+2025,100%,0 (arrosoir),3,4,100%_34,2025-05-27,hauteur_plante,45.4,cm,
+2025,0%,sans irrigation,1,1,0%_11,2025-05-27,hauteur_plante,30.0,cm,
+2025,0%,sans irrigation,1,2,0%_12,2025-05-27,hauteur_plante,34.0,cm,
+2025,0%,sans irrigation,1,3,0%_13,2025-05-27,hauteur_plante,40.0,cm,
+2025,0%,sans irrigation,1,4,0%_14,2025-05-27,hauteur_plante,37.5,cm,
+2025,0%,sans irrigation,2,1,0%_21,2025-05-27,hauteur_plante,40.8,cm,
+2025,0%,sans irrigation,2,2,0%_22,2025-05-27,hauteur_plante,31.9,cm,
+2025,0%,sans irrigation,2,3,0%_23,2025-05-27,hauteur_plante,38.5,cm,
+2025,0%,sans irrigation,2,4,0%_24,2025-05-27,hauteur_plante,37.2,cm,
+2025,0%,sans irrigation,3,1,0%_31,2025-05-27,hauteur_plante,38.0,cm,
+2025,0%,sans irrigation,3,2,0%_32,2025-05-27,hauteur_plante,42.0,cm,
+2025,0%,sans irrigation,3,3,0%_33,2025-05-27,hauteur_plante,46.8,cm,
+2025,0%,sans irrigation,3,4,0%_34,2025-05-27,hauteur_plante,47.6,cm,
+2025,Oya35,35 cm,1,1,Oya35_11,2025-05-27,hauteur_plante,34.6,cm,
+2025,Oya35,35 cm,1,2,Oya35_12,2025-05-27,hauteur_plante,39.0,cm,
+2025,Oya35,35 cm,1,3,Oya35_13,2025-05-27,hauteur_plante,40.5,cm,
+2025,Oya35,35 cm,1,4,Oya35_14,2025-05-27,hauteur_plante,40.0,cm,
+2025,Oya35,35 cm,2,1,Oya35_21,2025-05-27,hauteur_plante,36.3,cm,
+2025,Oya35,35 cm,2,2,Oya35_22,2025-05-27,hauteur_plante,42.5,cm,
+2025,Oya35,35 cm,2,3,Oya35_23,2025-05-27,hauteur_plante,42.5,cm,
+2025,Oya35,35 cm,2,4,Oya35_24,2025-05-27,hauteur_plante,49.3,cm,
+2025,Oya35,35 cm,3,1,Oya35_31,2025-05-27,hauteur_plante,39.9,cm,
+2025,Oya35,35 cm,3,2,Oya35_32,2025-05-27,hauteur_plante,37.5,cm,
+2025,Oya35,35 cm,3,3,Oya35_33,2025-05-27,hauteur_plante,47.0,cm,
+2025,Oya35,35 cm,3,4,Oya35_34,2025-05-27,hauteur_plante,46.0,cm,
+2025,Oya56,56 cm,1,1,Oya56_11,2025-05-27,hauteur_plante,44.2,cm,
+2025,Oya56,56 cm,1,2,Oya56_12,2025-05-27,hauteur_plante,40.4,cm,
+2025,Oya56,56 cm,1,3,Oya56_13,2025-05-27,hauteur_plante,38.9,cm,
+2025,Oya56,56 cm,1,4,Oya56_14,2025-05-27,hauteur_plante,46.6,cm,
+2025,Oya56,56 cm,2,1,Oya56_21,2025-05-27,hauteur_plante,59.1,cm,
+2025,Oya56,56 cm,2,2,Oya56_22,2025-05-27,hauteur_plante,52.5,cm,
+2025,Oya56,56 cm,2,3,Oya56_23,2025-05-27,hauteur_plante,39.5,cm,
+2025,Oya56,56 cm,2,4,Oya56_24,2025-05-27,hauteur_plante,47.7,cm,
+2025,Oya56,56 cm,3,1,Oya56_31,2025-05-27,hauteur_plante,49.6,cm,
+2025,Oya56,56 cm,3,2,Oya56_32,2025-05-27,hauteur_plante,48.9,cm,
+2025,Oya56,56 cm,3,3,Oya56_33,2025-05-27,hauteur_plante,56.0,cm,
+2025,Oya56,56 cm,3,4,Oya56_34,2025-05-27,hauteur_plante,42.3,cm,
+2025,Oya79,79 cm,1,1,Oya79_11,2025-05-27,hauteur_plante,43.2,cm,
+2025,Oya79,79 cm,1,2,Oya79_12,2025-05-27,hauteur_plante,52.6,cm,
+2025,Oya79,79 cm,1,3,Oya79_13,2025-05-27,hauteur_plante,47.2,cm,
+2025,Oya79,79 cm,1,4,Oya79_14,2025-05-27,hauteur_plante,46.0,cm,
+2025,Oya79,79 cm,2,1,Oya79_21,2025-05-27,hauteur_plante,36.5,cm,
+2025,Oya79,79 cm,2,2,Oya79_22,2025-05-27,hauteur_plante,43.2,cm,
+2025,Oya79,79 cm,2,3,Oya79_23,2025-05-27,hauteur_plante,46.4,cm,
+2025,Oya79,79 cm,2,4,Oya79_24,2025-05-27,hauteur_plante,40.0,cm,
+2025,Oya79,79 cm,3,1,Oya79_31,2025-05-27,hauteur_plante,47.2,cm,
+2025,Oya79,79 cm,3,2,Oya79_32,2025-05-27,hauteur_plante,39.5,cm,
+2025,Oya79,79 cm,3,3,Oya79_33,2025-05-27,hauteur_plante,44.7,cm,
+2025,Oya79,79 cm,3,4,Oya79_34,2025-05-27,hauteur_plante,46.5,cm,
+2025,0%,sans irrigation,1,3,0%_13,2025-04-24,conductance_stomatique,375,mmol / m² / s,médiane de 3 mesures sur la feuille
+2025,0%,sans irrigation,1,3,0%_13,2025-05-01,conductance_stomatique,310,mmol / m² / s,médiane de 3 mesures sur la feuille
+2025,0%,sans irrigation,1,3,0%_13,2025-05-15,conductance_stomatique,173,mmol / m² / s,médiane de 3 mesures sur la feuille
+2025,0%,sans irrigation,1,3,0%_13,2025-05-19,conductance_stomatique,234,mmol / m² / s,médiane de 3 mesures sur la feuille
+2025,0%,sans irrigation,2,3,0%_23,2025-04-24,conductance_stomatique,335,mmol / m² / s,médiane de 3 mesures sur la feuille
+2025,0%,sans irrigation,2,3,0%_23,2025-05-01,conductance_stomatique,210,mmol / m² / s,médiane de 3 mesures sur la feuille
+2025,0%,sans irrigation,2,3,0%_23,2025-05-15,conductance_stomatique,210,mmol / m² / s,médiane de 3 mesures sur la feuille
+2025,0%,sans irrigation,2,3,0%_23,2025-05-19,conductance_stomatique,415,mmol / m² / s,médiane de 3 mesures sur la feuille
+2025,0%,sans irrigation,3,3,0%_33,2025-05-01,conductance_stomatique,270,mmol / m² / s,médiane de 3 mesures sur la feuille
+2025,0%,sans irrigation,3,3,0%_33,2025-05-15,conductance_stomatique,166,mmol / m² / s,médiane de 3 mesures sur la feuille
+2025,0%,sans irrigation,3,3,0%_33,2025-05-19,conductance_stomatique,206,mmol / m² / s,médiane de 3 mesures sur la feuille
+2025,100%,0 (arrosoir),1,3,100%_13,2025-04-24,conductance_stomatique,490,mmol / m² / s,médiane de 3 mesures sur la feuille
+2025,100%,0 (arrosoir),1,3,100%_13,2025-05-01,conductance_stomatique,540,mmol / m² / s,médiane de 3 mesures sur la feuille
+2025,100%,0 (arrosoir),1,3,100%_13,2025-05-15,conductance_stomatique,355,mmol / m² / s,médiane de 3 mesures sur la feuille
+2025,100%,0 (arrosoir),1,3,100%_13,2025-05-19,conductance_stomatique,540,mmol / m² / s,médiane de 3 mesures sur la feuille
+2025,100%,0 (arrosoir),2,3,100%_23,2025-04-24,conductance_stomatique,345,mmol / m² / s,médiane de 3 mesures sur la feuille
+2025,100%,0 (arrosoir),2,3,100%_23,2025-05-01,conductance_stomatique,390,mmol / m² / s,médiane de 3 mesures sur la feuille
+2025,100%,0 (arrosoir),2,3,100%_23,2025-05-15,conductance_stomatique,238,mmol / m² / s,médiane de 3 mesures sur la feuille
+2025,100%,0 (arrosoir),2,3,100%_23,2025-05-19,conductance_stomatique,365,mmol / m² / s,médiane de 3 mesures sur la feuille
+2025,100%,0 (arrosoir),3,3,100%_33,2025-05-15,conductance_stomatique,252,mmol / m² / s,médiane de 3 mesures sur la feuille
+2025,100%,0 (arrosoir),3,3,100%_33,2025-05-19,conductance_stomatique,605.0,mmol / m² / s,médiane de 3 mesures sur la feuille
+2025,Oya35,35 cm,1,3,Oya35_13,2025-04-24,conductance_stomatique,335,mmol / m² / s,médiane de 3 mesures sur la feuille
+2025,Oya35,35 cm,1,3,Oya35_13,2025-05-01,conductance_stomatique,193,mmol / m² / s,médiane de 3 mesures sur la feuille
+2025,Oya35,35 cm,1,3,Oya35_13,2025-05-15,conductance_stomatique,164,mmol / m² / s,médiane de 3 mesures sur la feuille
+2025,Oya35,35 cm,1,3,Oya35_13,2025-05-19,conductance_stomatique,360,mmol / m² / s,médiane de 3 mesures sur la feuille
+2025,Oya35,35 cm,2,3,Oya35_23,2025-04-24,conductance_stomatique,390,mmol / m² / s,médiane de 3 mesures sur la feuille
+2025,Oya35,35 cm,2,3,Oya35_23,2025-05-01,conductance_stomatique,210,mmol / m² / s,médiane de 3 mesures sur la feuille
+2025,Oya35,35 cm,2,3,Oya35_23,2025-05-15,conductance_stomatique,179,mmol / m² / s,médiane de 3 mesures sur la feuille
+2025,Oya35,35 cm,2,3,Oya35_23,2025-05-19,conductance_stomatique,315,mmol / m² / s,médiane de 3 mesures sur la feuille
+2025,Oya35,35 cm,3,3,Oya35_33,2025-05-01,conductance_stomatique,280,mmol / m² / s,médiane de 3 mesures sur la feuille
+2025,Oya35,35 cm,3,3,Oya35_33,2025-05-15,conductance_stomatique,268,mmol / m² / s,médiane de 3 mesures sur la feuille
+2025,Oya35,35 cm,3,3,Oya35_33,2025-05-19,conductance_stomatique,405,mmol / m² / s,médiane de 3 mesures sur la feuille
+2025,Oya56,56 cm,1,3,Oya56_13,2025-04-24,conductance_stomatique,340,mmol / m² / s,médiane de 3 mesures sur la feuille
+2025,Oya56,56 cm,1,3,Oya56_13,2025-05-01,conductance_stomatique,266,mmol / m² / s,médiane de 3 mesures sur la feuille
+2025,Oya56,56 cm,1,3,Oya56_13,2025-05-15,conductance_stomatique,164,mmol / m² / s,médiane de 3 mesures sur la feuille
+2025,Oya56,56 cm,1,3,Oya56_13,2025-05-19,conductance_stomatique,330,mmol / m² / s,médiane de 3 mesures sur la feuille
+2025,Oya56,56 cm,2,3,Oya56_23,2025-04-24,conductance_stomatique,370,mmol / m² / s,médiane de 3 mesures sur la feuille
+2025,Oya56,56 cm,2,3,Oya56_23,2025-05-01,conductance_stomatique,380,mmol / m² / s,médiane de 3 mesures sur la feuille
+2025,Oya56,56 cm,2,3,Oya56_23,2025-05-15,conductance_stomatique,222,mmol / m² / s,médiane de 3 mesures sur la feuille
+2025,Oya56,56 cm,2,3,Oya56_23,2025-05-19,conductance_stomatique,450,mmol / m² / s,médiane de 3 mesures sur la feuille
+2025,Oya56,56 cm,3,3,Oya56_33,2025-05-01,conductance_stomatique,270,mmol / m² / s,médiane de 3 mesures sur la feuille
+2025,Oya56,56 cm,3,3,Oya56_33,2025-05-15,conductance_stomatique,230,mmol / m² / s,médiane de 3 mesures sur la feuille
+2025,Oya56,56 cm,3,3,Oya56_33,2025-05-19,conductance_stomatique,410,mmol / m² / s,médiane de 3 mesures sur la feuille
+2025,Oya79,79 cm,1,3,Oya79_13,2025-04-24,conductance_stomatique,335,mmol / m² / s,médiane de 3 mesures sur la feuille
+2025,Oya79,79 cm,1,3,Oya79_13,2025-05-01,conductance_stomatique,234,mmol / m² / s,médiane de 3 mesures sur la feuille
+2025,Oya79,79 cm,1,3,Oya79_13,2025-05-15,conductance_stomatique,190,mmol / m² / s,médiane de 3 mesures sur la feuille
+2025,Oya79,79 cm,1,3,Oya79_13,2025-05-19,conductance_stomatique,365,mmol / m² / s,médiane de 3 mesures sur la feuille
+2025,Oya79,79 cm,2,3,Oya79_23,2025-04-24,conductance_stomatique,280,mmol / m² / s,médiane de 3 mesures sur la feuille
+2025,Oya79,79 cm,2,3,Oya79_23,2025-05-01,conductance_stomatique,161,mmol / m² / s,médiane de 3 mesures sur la feuille
+2025,Oya79,79 cm,2,3,Oya79_23,2025-05-15,conductance_stomatique,162,mmol / m² / s,médiane de 3 mesures sur la feuille
+2025,Oya79,79 cm,2,3,Oya79_23,2025-05-19,conductance_stomatique,390,mmol / m² / s,médiane de 3 mesures sur la feuille
+2025,Oya79,79 cm,3,3,Oya79_33,2025-05-01,conductance_stomatique,194,mmol / m² / s,médiane de 3 mesures sur la feuille
+2025,Oya79,79 cm,3,3,Oya79_33,2025-05-15,conductance_stomatique,194,mmol / m² / s,médiane de 3 mesures sur la feuille
+2025,Oya79,79 cm,3,3,Oya79_33,2025-05-19,conductance_stomatique,250,mmol / m² / s,médiane de 3 mesures sur la feuille
+2025,0%,sans irrigation,1,2,0%_12,2025-05-22,longueur_racinaire_in,3767.80583,"mm / 0,75 L de sol",côté oya (ou côté arrosé pour 100 %)
+2025,0%,sans irrigation,1,2,0%_12,2025-05-22,longueur_racinaire_out,903.87982,"mm / 0,75 L de sol",
+2025,0%,sans irrigation,1,2,0%_12,2025-05-22,longueur_racinaire_totale,4671.68565,mm (in + out),
+2025,0%,sans irrigation,1,2,0%_12,2025-05-22,longueur_racinaire_diff_in_out,2863.92602,mm,
+2025,0%,sans irrigation,1,2,0%_12,2025-05-22,racines_fines_in,2676.769,mm,
+2025,0%,sans irrigation,1,2,0%_12,2025-05-22,racines_moyennes_in,1046.19788,mm,
+2025,0%,sans irrigation,1,2,0%_12,2025-05-22,racines_grosses_in,44.83896,mm,
+2025,0%,sans irrigation,1,4,0%_14,2025-05-23,longueur_racinaire_in,2447.86352,"mm / 0,75 L de sol",côté oya (ou côté arrosé pour 100 %)
+2025,0%,sans irrigation,1,4,0%_14,2025-05-23,longueur_racinaire_out,1222.09341,"mm / 0,75 L de sol",
+2025,0%,sans irrigation,1,4,0%_14,2025-05-23,longueur_racinaire_totale,3669.95693,mm (in + out),
+2025,0%,sans irrigation,1,4,0%_14,2025-05-23,longueur_racinaire_diff_in_out,1225.77011,mm,
+2025,0%,sans irrigation,1,4,0%_14,2025-05-23,racines_fines_in,1551.46205,mm,
+2025,0%,sans irrigation,1,4,0%_14,2025-05-23,racines_moyennes_in,847.64788,mm,
+2025,0%,sans irrigation,1,4,0%_14,2025-05-23,racines_grosses_in,48.75359,mm,
+2025,0%,sans irrigation,2,2,0%_22,2025-05-22,longueur_racinaire_in,2402.5161,"mm / 0,75 L de sol",côté oya (ou côté arrosé pour 100 %)
+2025,0%,sans irrigation,2,2,0%_22,2025-05-22,longueur_racinaire_out,1959.27523,"mm / 0,75 L de sol",
+2025,0%,sans irrigation,2,2,0%_22,2025-05-22,longueur_racinaire_totale,4361.79133,mm (in + out),
+2025,0%,sans irrigation,2,2,0%_22,2025-05-22,longueur_racinaire_diff_in_out,443.24087,mm,
+2025,0%,sans irrigation,2,2,0%_22,2025-05-22,racines_fines_in,1422.99747,mm,
+2025,0%,sans irrigation,2,2,0%_22,2025-05-22,racines_moyennes_in,812.51883,mm,
+2025,0%,sans irrigation,2,2,0%_22,2025-05-22,racines_grosses_in,166.9998,mm,
+2025,0%,sans irrigation,2,4,0%_24,2025-05-23,longueur_racinaire_in,1405.1597,"mm / 0,75 L de sol",côté oya (ou côté arrosé pour 100 %)
+2025,0%,sans irrigation,2,4,0%_24,2025-05-23,longueur_racinaire_out,2274.53768,"mm / 0,75 L de sol",
+2025,0%,sans irrigation,2,4,0%_24,2025-05-23,longueur_racinaire_totale,3679.69738,mm (in + out),
+2025,0%,sans irrigation,2,4,0%_24,2025-05-23,longueur_racinaire_diff_in_out,-869.37798,mm,
+2025,0%,sans irrigation,2,4,0%_24,2025-05-23,racines_fines_in,912.16562,mm,
+2025,0%,sans irrigation,2,4,0%_24,2025-05-23,racines_moyennes_in,454.26855,mm,
+2025,0%,sans irrigation,2,4,0%_24,2025-05-23,racines_grosses_in,38.72553,mm,
+2025,0%,sans irrigation,3,2,0%_32,2025-05-22,longueur_racinaire_in,3169.67813,"mm / 0,75 L de sol",côté oya (ou côté arrosé pour 100 %)
+2025,0%,sans irrigation,3,2,0%_32,2025-05-22,longueur_racinaire_out,1661.58605,"mm / 0,75 L de sol",
+2025,0%,sans irrigation,3,2,0%_32,2025-05-22,longueur_racinaire_totale,4831.26417,mm (in + out),
+2025,0%,sans irrigation,3,2,0%_32,2025-05-22,longueur_racinaire_diff_in_out,1508.09208,mm,
+2025,0%,sans irrigation,3,2,0%_32,2025-05-22,racines_fines_in,2207.62752,mm,
+2025,0%,sans irrigation,3,2,0%_32,2025-05-22,racines_moyennes_in,889.71088,mm,
+2025,0%,sans irrigation,3,2,0%_32,2025-05-22,racines_grosses_in,72.33973,mm,
+2025,0%,sans irrigation,3,4,0%_34,2025-05-23,longueur_racinaire_in,1990.03194,"mm / 0,75 L de sol",côté oya (ou côté arrosé pour 100 %)
+2025,0%,sans irrigation,3,4,0%_34,2025-05-23,longueur_racinaire_out,1497.20917,"mm / 0,75 L de sol",
+2025,0%,sans irrigation,3,4,0%_34,2025-05-23,longueur_racinaire_totale,3487.24111,mm (in + out),
+2025,0%,sans irrigation,3,4,0%_34,2025-05-23,longueur_racinaire_diff_in_out,492.82277,mm,
+2025,0%,sans irrigation,3,4,0%_34,2025-05-23,racines_fines_in,1345.17008,mm,
+2025,0%,sans irrigation,3,4,0%_34,2025-05-23,racines_moyennes_in,481.12497,mm,
+2025,0%,sans irrigation,3,4,0%_34,2025-05-23,racines_grosses_in,163.73689,mm,
+2025,100%,0 (arrosoir),1,2,100%_12,2025-05-22,longueur_racinaire_in,6181.14603,"mm / 0,75 L de sol",côté oya (ou côté arrosé pour 100 %)
+2025,100%,0 (arrosoir),1,2,100%_12,2025-05-22,longueur_racinaire_out,3638.4301,"mm / 0,75 L de sol",
+2025,100%,0 (arrosoir),1,2,100%_12,2025-05-22,longueur_racinaire_totale,9819.57613,mm (in + out),
+2025,100%,0 (arrosoir),1,2,100%_12,2025-05-22,longueur_racinaire_diff_in_out,2542.71593,mm,
+2025,100%,0 (arrosoir),1,2,100%_12,2025-05-22,racines_fines_in,3521.09486,mm,
+2025,100%,0 (arrosoir),1,2,100%_12,2025-05-22,racines_moyennes_in,2077.53196,mm,
+2025,100%,0 (arrosoir),1,2,100%_12,2025-05-22,racines_grosses_in,582.5192,mm,
+2025,100%,0 (arrosoir),1,4,100%_14,2025-05-23,longueur_racinaire_in,6396.45368,"mm / 0,75 L de sol",côté oya (ou côté arrosé pour 100 %)
+2025,100%,0 (arrosoir),1,4,100%_14,2025-05-23,longueur_racinaire_out,4621.79967,"mm / 0,75 L de sol",
+2025,100%,0 (arrosoir),1,4,100%_14,2025-05-23,longueur_racinaire_totale,11018.25335,mm (in + out),
+2025,100%,0 (arrosoir),1,4,100%_14,2025-05-23,longueur_racinaire_diff_in_out,1774.65401,mm,
+2025,100%,0 (arrosoir),1,4,100%_14,2025-05-23,racines_fines_in,3615.4147,mm,
+2025,100%,0 (arrosoir),1,4,100%_14,2025-05-23,racines_moyennes_in,2169.66654,mm,
+2025,100%,0 (arrosoir),1,4,100%_14,2025-05-23,racines_grosses_in,611.37244,mm,
+2025,100%,0 (arrosoir),2,2,100%_22,2025-05-22,longueur_racinaire_in,8787.16504,"mm / 0,75 L de sol",côté oya (ou côté arrosé pour 100 %)
+2025,100%,0 (arrosoir),2,2,100%_22,2025-05-22,longueur_racinaire_out,1637.76991,"mm / 0,75 L de sol",
+2025,100%,0 (arrosoir),2,2,100%_22,2025-05-22,longueur_racinaire_totale,10424.93495,mm (in + out),
+2025,100%,0 (arrosoir),2,2,100%_22,2025-05-22,longueur_racinaire_diff_in_out,7149.39514,mm,
+2025,100%,0 (arrosoir),2,2,100%_22,2025-05-22,racines_fines_in,6801.74805,mm,
+2025,100%,0 (arrosoir),2,2,100%_22,2025-05-22,racines_moyennes_in,1809.97597,mm,
+2025,100%,0 (arrosoir),2,2,100%_22,2025-05-22,racines_grosses_in,175.44102,mm,
+2025,100%,0 (arrosoir),2,4,100%_24,2025-05-23,longueur_racinaire_in,1739.62323,"mm / 0,75 L de sol",côté oya (ou côté arrosé pour 100 %)
+2025,100%,0 (arrosoir),2,4,100%_24,2025-05-23,longueur_racinaire_out,1657.64317,"mm / 0,75 L de sol",
+2025,100%,0 (arrosoir),2,4,100%_24,2025-05-23,longueur_racinaire_totale,3397.2664,mm (in + out),
+2025,100%,0 (arrosoir),2,4,100%_24,2025-05-23,longueur_racinaire_diff_in_out,81.98006,mm,
+2025,100%,0 (arrosoir),2,4,100%_24,2025-05-23,racines_fines_in,1431.82839,mm,
+2025,100%,0 (arrosoir),2,4,100%_24,2025-05-23,racines_moyennes_in,218.88786,mm,
+2025,100%,0 (arrosoir),2,4,100%_24,2025-05-23,racines_grosses_in,88.90698,mm,
+2025,100%,0 (arrosoir),3,2,100%_32,2025-05-22,longueur_racinaire_in,7465.42844,"mm / 0,75 L de sol",côté oya (ou côté arrosé pour 100 %)
+2025,100%,0 (arrosoir),3,2,100%_32,2025-05-22,longueur_racinaire_out,2090.85545,"mm / 0,75 L de sol",
+2025,100%,0 (arrosoir),3,2,100%_32,2025-05-22,longueur_racinaire_totale,9556.28388,mm (in + out),
+2025,100%,0 (arrosoir),3,2,100%_32,2025-05-22,longueur_racinaire_diff_in_out,5374.57299,mm,
+2025,100%,0 (arrosoir),3,2,100%_32,2025-05-22,racines_fines_in,6047.58462,mm,
+2025,100%,0 (arrosoir),3,2,100%_32,2025-05-22,racines_moyennes_in,1241.08589,mm,
+2025,100%,0 (arrosoir),3,2,100%_32,2025-05-22,racines_grosses_in,176.75793,mm,
+2025,100%,0 (arrosoir),3,4,100%_34,2025-05-23,longueur_racinaire_in,10823.52329,"mm / 0,75 L de sol",côté oya (ou côté arrosé pour 100 %)
+2025,100%,0 (arrosoir),3,4,100%_34,2025-05-23,longueur_racinaire_out,2639.90843,"mm / 0,75 L de sol",
+2025,100%,0 (arrosoir),3,4,100%_34,2025-05-23,longueur_racinaire_totale,13463.43172,mm (in + out),
+2025,100%,0 (arrosoir),3,4,100%_34,2025-05-23,longueur_racinaire_diff_in_out,8183.61486,mm,
+2025,100%,0 (arrosoir),3,4,100%_34,2025-05-23,racines_fines_in,8219.67397,mm,
+2025,100%,0 (arrosoir),3,4,100%_34,2025-05-23,racines_moyennes_in,2173.51789,mm,
+2025,100%,0 (arrosoir),3,4,100%_34,2025-05-23,racines_grosses_in,430.33143,mm,
+2025,Oya35,35 cm,1,2,Oya35_12,2025-05-22,longueur_racinaire_in,10077.10916,"mm / 0,75 L de sol",côté oya (ou côté arrosé pour 100 %)
+2025,Oya35,35 cm,1,2,Oya35_12,2025-05-22,longueur_racinaire_out,1695.0107,"mm / 0,75 L de sol",
+2025,Oya35,35 cm,1,2,Oya35_12,2025-05-22,longueur_racinaire_totale,11772.11987,mm (in + out),
+2025,Oya35,35 cm,1,2,Oya35_12,2025-05-22,longueur_racinaire_diff_in_out,8382.09845,mm,
+2025,Oya35,35 cm,1,2,Oya35_12,2025-05-22,racines_fines_in,8054.50709,mm,
+2025,Oya35,35 cm,1,2,Oya35_12,2025-05-22,racines_moyennes_in,1573.58601,mm,
+2025,Oya35,35 cm,1,2,Oya35_12,2025-05-22,racines_grosses_in,449.01606,mm,
+2025,Oya35,35 cm,1,4,Oya35_14,2025-05-23,longueur_racinaire_in,14808.43817,"mm / 0,75 L de sol",côté oya (ou côté arrosé pour 100 %)
+2025,Oya35,35 cm,1,4,Oya35_14,2025-05-23,longueur_racinaire_out,525.3065,"mm / 0,75 L de sol",
+2025,Oya35,35 cm,1,4,Oya35_14,2025-05-23,longueur_racinaire_totale,15333.74467,mm (in + out),
+2025,Oya35,35 cm,1,4,Oya35_14,2025-05-23,longueur_racinaire_diff_in_out,14283.13168,mm,
+2025,Oya35,35 cm,1,4,Oya35_14,2025-05-23,racines_fines_in,12590.74936,mm,
+2025,Oya35,35 cm,1,4,Oya35_14,2025-05-23,racines_moyennes_in,1802.9145,mm,
+2025,Oya35,35 cm,1,4,Oya35_14,2025-05-23,racines_grosses_in,414.77432,mm,
+2025,Oya35,35 cm,2,2,Oya35_22,2025-05-22,longueur_racinaire_in,10188.66446,"mm / 0,75 L de sol",côté oya (ou côté arrosé pour 100 %)
+2025,Oya35,35 cm,2,2,Oya35_22,2025-05-22,longueur_racinaire_out,823.77521,"mm / 0,75 L de sol",
+2025,Oya35,35 cm,2,2,Oya35_22,2025-05-22,longueur_racinaire_totale,11012.43967,mm (in + out),
+2025,Oya35,35 cm,2,2,Oya35_22,2025-05-22,longueur_racinaire_diff_in_out,9364.88925,mm,
+2025,Oya35,35 cm,2,2,Oya35_22,2025-05-22,racines_fines_in,7899.74486,mm,
+2025,Oya35,35 cm,2,2,Oya35_22,2025-05-22,racines_moyennes_in,1892.8746,mm,
+2025,Oya35,35 cm,2,2,Oya35_22,2025-05-22,racines_grosses_in,396.045,mm,
+2025,Oya35,35 cm,2,4,Oya35_24,2025-05-23,longueur_racinaire_in,10697.46061,"mm / 0,75 L de sol",côté oya (ou côté arrosé pour 100 %)
+2025,Oya35,35 cm,2,4,Oya35_24,2025-05-23,longueur_racinaire_out,616.63924,"mm / 0,75 L de sol",
+2025,Oya35,35 cm,2,4,Oya35_24,2025-05-23,longueur_racinaire_totale,11314.09985,mm (in + out),
+2025,Oya35,35 cm,2,4,Oya35_24,2025-05-23,longueur_racinaire_diff_in_out,10080.82138,mm,
+2025,Oya35,35 cm,2,4,Oya35_24,2025-05-23,racines_fines_in,9032.39473,mm,
+2025,Oya35,35 cm,2,4,Oya35_24,2025-05-23,racines_moyennes_in,1485.53264,mm,
+2025,Oya35,35 cm,2,4,Oya35_24,2025-05-23,racines_grosses_in,179.53324,mm,
+2025,Oya35,35 cm,3,2,Oya35_32,2025-05-22,longueur_racinaire_in,7265.85559,"mm / 0,75 L de sol",côté oya (ou côté arrosé pour 100 %)
+2025,Oya35,35 cm,3,2,Oya35_32,2025-05-22,longueur_racinaire_out,1007.26917,"mm / 0,75 L de sol",
+2025,Oya35,35 cm,3,2,Oya35_32,2025-05-22,longueur_racinaire_totale,8273.12476,mm (in + out),
+2025,Oya35,35 cm,3,2,Oya35_32,2025-05-22,longueur_racinaire_diff_in_out,6258.58642,mm,
+2025,Oya35,35 cm,3,2,Oya35_32,2025-05-22,racines_fines_in,5418.45365,mm,
+2025,Oya35,35 cm,3,2,Oya35_32,2025-05-22,racines_moyennes_in,1404.11765,mm,
+2025,Oya35,35 cm,3,2,Oya35_32,2025-05-22,racines_grosses_in,443.28429,mm,
+2025,Oya35,35 cm,3,4,Oya35_34,2025-05-23,longueur_racinaire_in,5225.89691,"mm / 0,75 L de sol",côté oya (ou côté arrosé pour 100 %)
+2025,Oya35,35 cm,3,4,Oya35_34,2025-05-23,longueur_racinaire_out,1309.01672,"mm / 0,75 L de sol",
+2025,Oya35,35 cm,3,4,Oya35_34,2025-05-23,longueur_racinaire_totale,6534.91363,mm (in + out),
+2025,Oya35,35 cm,3,4,Oya35_34,2025-05-23,longueur_racinaire_diff_in_out,3916.8802,mm,
+2025,Oya35,35 cm,3,4,Oya35_34,2025-05-23,racines_fines_in,4079.6907,mm,
+2025,Oya35,35 cm,3,4,Oya35_34,2025-05-23,racines_moyennes_in,805.39069,mm,
+2025,Oya35,35 cm,3,4,Oya35_34,2025-05-23,racines_grosses_in,340.81552,mm,
+2025,Oya56,56 cm,1,2,Oya56_12,2025-05-22,longueur_racinaire_in,521.43471,"mm / 0,75 L de sol",côté oya (ou côté arrosé pour 100 %)
+2025,Oya56,56 cm,1,2,Oya56_12,2025-05-22,longueur_racinaire_out,2090.01753,"mm / 0,75 L de sol",
+2025,Oya56,56 cm,1,2,Oya56_12,2025-05-22,longueur_racinaire_totale,2611.45224,mm (in + out),
+2025,Oya56,56 cm,1,2,Oya56_12,2025-05-22,longueur_racinaire_diff_in_out,-1568.58282,mm,
+2025,Oya56,56 cm,1,2,Oya56_12,2025-05-22,racines_fines_in,275.13653,mm,
+2025,Oya56,56 cm,1,2,Oya56_12,2025-05-22,racines_moyennes_in,183.62517,mm,
+2025,Oya56,56 cm,1,2,Oya56_12,2025-05-22,racines_grosses_in,62.673,mm,
+2025,Oya56,56 cm,1,4,Oya56_14,2025-05-23,longueur_racinaire_in,2272.43478,"mm / 0,75 L de sol",côté oya (ou côté arrosé pour 100 %)
+2025,Oya56,56 cm,1,4,Oya56_14,2025-05-23,longueur_racinaire_out,1013.52755,"mm / 0,75 L de sol",
+2025,Oya56,56 cm,1,4,Oya56_14,2025-05-23,longueur_racinaire_totale,3285.96232,mm (in + out),
+2025,Oya56,56 cm,1,4,Oya56_14,2025-05-23,longueur_racinaire_diff_in_out,1258.90723,mm,
+2025,Oya56,56 cm,1,4,Oya56_14,2025-05-23,racines_fines_in,1446.22326,mm,
+2025,Oya56,56 cm,1,4,Oya56_14,2025-05-23,racines_moyennes_in,449.22962,mm,
+2025,Oya56,56 cm,1,4,Oya56_14,2025-05-23,racines_grosses_in,376.9819,mm,
+2025,Oya56,56 cm,2,2,Oya56_22,2025-05-22,longueur_racinaire_in,1856.43603,"mm / 0,75 L de sol",côté oya (ou côté arrosé pour 100 %)
+2025,Oya56,56 cm,2,2,Oya56_22,2025-05-22,longueur_racinaire_out,1219.3646,"mm / 0,75 L de sol",
+2025,Oya56,56 cm,2,2,Oya56_22,2025-05-22,longueur_racinaire_totale,3075.80063,mm (in + out),
+2025,Oya56,56 cm,2,2,Oya56_22,2025-05-22,longueur_racinaire_diff_in_out,637.07142,mm,
+2025,Oya56,56 cm,2,2,Oya56_22,2025-05-22,racines_fines_in,937.91259,mm,
+2025,Oya56,56 cm,2,2,Oya56_22,2025-05-22,racines_moyennes_in,893.69547,mm,
+2025,Oya56,56 cm,2,2,Oya56_22,2025-05-22,racines_grosses_in,24.82796,mm,
+2025,Oya56,56 cm,2,4,Oya56_24,2025-05-23,longueur_racinaire_in,1933.77573,"mm / 0,75 L de sol",côté oya (ou côté arrosé pour 100 %)
+2025,Oya56,56 cm,2,4,Oya56_24,2025-05-23,longueur_racinaire_out,1076.56677,"mm / 0,75 L de sol",
+2025,Oya56,56 cm,2,4,Oya56_24,2025-05-23,longueur_racinaire_totale,3010.3425,mm (in + out),
+2025,Oya56,56 cm,2,4,Oya56_24,2025-05-23,longueur_racinaire_diff_in_out,857.20895,mm,
+2025,Oya56,56 cm,2,4,Oya56_24,2025-05-23,racines_fines_in,1073.61521,mm,
+2025,Oya56,56 cm,2,4,Oya56_24,2025-05-23,racines_moyennes_in,513.19916,mm,
+2025,Oya56,56 cm,2,4,Oya56_24,2025-05-23,racines_grosses_in,346.96137,mm,
+2025,Oya56,56 cm,3,2,Oya56_32,2025-05-22,longueur_racinaire_in,4366.42571,"mm / 0,75 L de sol",côté oya (ou côté arrosé pour 100 %)
+2025,Oya56,56 cm,3,2,Oya56_32,2025-05-22,longueur_racinaire_out,1527.11947,"mm / 0,75 L de sol",
+2025,Oya56,56 cm,3,2,Oya56_32,2025-05-22,longueur_racinaire_totale,5893.54518,mm (in + out),
+2025,Oya56,56 cm,3,2,Oya56_32,2025-05-22,longueur_racinaire_diff_in_out,2839.30624,mm,
+2025,Oya56,56 cm,3,2,Oya56_32,2025-05-22,racines_fines_in,3081.69281,mm,
+2025,Oya56,56 cm,3,2,Oya56_32,2025-05-22,racines_moyennes_in,993.46991,mm,
+2025,Oya56,56 cm,3,2,Oya56_32,2025-05-22,racines_grosses_in,291.26299,mm,
+2025,Oya56,56 cm,3,4,Oya56_34,2025-05-23,longueur_racinaire_in,3618.0912,"mm / 0,75 L de sol",côté oya (ou côté arrosé pour 100 %)
+2025,Oya56,56 cm,3,4,Oya56_34,2025-05-23,longueur_racinaire_out,2491.39645,"mm / 0,75 L de sol",
+2025,Oya56,56 cm,3,4,Oya56_34,2025-05-23,longueur_racinaire_totale,6109.48765,mm (in + out),
+2025,Oya56,56 cm,3,4,Oya56_34,2025-05-23,longueur_racinaire_diff_in_out,1126.69474,mm,
+2025,Oya56,56 cm,3,4,Oya56_34,2025-05-23,racines_fines_in,2107.76586,mm,
+2025,Oya56,56 cm,3,4,Oya56_34,2025-05-23,racines_moyennes_in,601.94312,mm,
+2025,Oya56,56 cm,3,4,Oya56_34,2025-05-23,racines_grosses_in,908.38222,mm,
+2025,Oya79,79 cm,1,2,Oya79_12,2025-05-22,longueur_racinaire_in,991.14343,"mm / 0,75 L de sol",côté oya (ou côté arrosé pour 100 %)
+2025,Oya79,79 cm,1,2,Oya79_12,2025-05-22,longueur_racinaire_out,447.59991,"mm / 0,75 L de sol",
+2025,Oya79,79 cm,1,2,Oya79_12,2025-05-22,longueur_racinaire_totale,1438.74334,mm (in + out),
+2025,Oya79,79 cm,1,2,Oya79_12,2025-05-22,longueur_racinaire_diff_in_out,543.54352,mm,
+2025,Oya79,79 cm,1,2,Oya79_12,2025-05-22,racines_fines_in,630.40034,mm,
+2025,Oya79,79 cm,1,2,Oya79_12,2025-05-22,racines_moyennes_in,174.79115,mm,
+2025,Oya79,79 cm,1,2,Oya79_12,2025-05-22,racines_grosses_in,185.95194,mm,
+2025,Oya79,79 cm,1,4,Oya79_14,2025-05-23,longueur_racinaire_in,773.46222,"mm / 0,75 L de sol",côté oya (ou côté arrosé pour 100 %)
+2025,Oya79,79 cm,1,4,Oya79_14,2025-05-23,longueur_racinaire_out,1546.95313,"mm / 0,75 L de sol",
+2025,Oya79,79 cm,1,4,Oya79_14,2025-05-23,longueur_racinaire_totale,2320.41536,mm (in + out),
+2025,Oya79,79 cm,1,4,Oya79_14,2025-05-23,longueur_racinaire_diff_in_out,-773.49091,mm,
+2025,Oya79,79 cm,1,4,Oya79_14,2025-05-23,racines_fines_in,363.62948,mm,
+2025,Oya79,79 cm,1,4,Oya79_14,2025-05-23,racines_moyennes_in,246.38723,mm,
+2025,Oya79,79 cm,1,4,Oya79_14,2025-05-23,racines_grosses_in,163.44552,mm,
+2025,Oya79,79 cm,2,2,Oya79_22,2025-05-22,longueur_racinaire_in,908.82682,"mm / 0,75 L de sol",côté oya (ou côté arrosé pour 100 %)
+2025,Oya79,79 cm,2,2,Oya79_22,2025-05-22,longueur_racinaire_out,1560.92326,"mm / 0,75 L de sol",
+2025,Oya79,79 cm,2,2,Oya79_22,2025-05-22,longueur_racinaire_totale,2469.75008,mm (in + out),
+2025,Oya79,79 cm,2,2,Oya79_22,2025-05-22,longueur_racinaire_diff_in_out,-652.09643,mm,
+2025,Oya79,79 cm,2,2,Oya79_22,2025-05-22,racines_fines_in,557.14366,mm,
+2025,Oya79,79 cm,2,2,Oya79_22,2025-05-22,racines_moyennes_in,192.51333,mm,
+2025,Oya79,79 cm,2,2,Oya79_22,2025-05-22,racines_grosses_in,159.16983,mm,
+2025,Oya79,79 cm,2,4,Oya79_24,2025-05-23,longueur_racinaire_in,848.8302,"mm / 0,75 L de sol",côté oya (ou côté arrosé pour 100 %)
+2025,Oya79,79 cm,2,4,Oya79_24,2025-05-23,longueur_racinaire_out,1621.83651,"mm / 0,75 L de sol",
+2025,Oya79,79 cm,2,4,Oya79_24,2025-05-23,longueur_racinaire_totale,2470.6667,mm (in + out),
+2025,Oya79,79 cm,2,4,Oya79_24,2025-05-23,longueur_racinaire_diff_in_out,-773.00631,mm,
+2025,Oya79,79 cm,2,4,Oya79_24,2025-05-23,racines_fines_in,476.78329,mm,
+2025,Oya79,79 cm,2,4,Oya79_24,2025-05-23,racines_moyennes_in,159.08482,mm,
+2025,Oya79,79 cm,2,4,Oya79_24,2025-05-23,racines_grosses_in,212.96209,mm,
+2025,Oya79,79 cm,3,2,Oya79_32,2025-05-22,longueur_racinaire_in,1211.77551,"mm / 0,75 L de sol",côté oya (ou côté arrosé pour 100 %)
+2025,Oya79,79 cm,3,2,Oya79_32,2025-05-22,longueur_racinaire_out,497.82404,"mm / 0,75 L de sol",
+2025,Oya79,79 cm,3,2,Oya79_32,2025-05-22,longueur_racinaire_totale,1709.59955,mm (in + out),
+2025,Oya79,79 cm,3,2,Oya79_32,2025-05-22,longueur_racinaire_diff_in_out,713.95147,mm,
+2025,Oya79,79 cm,3,2,Oya79_32,2025-05-22,racines_fines_in,858.20106,mm,
+2025,Oya79,79 cm,3,2,Oya79_32,2025-05-22,racines_moyennes_in,281.9037,mm,
+2025,Oya79,79 cm,3,2,Oya79_32,2025-05-22,racines_grosses_in,71.67075,mm,
+2025,Oya79,79 cm,3,4,Oya79_34,2025-05-23,longueur_racinaire_in,1779.18329,"mm / 0,75 L de sol",côté oya (ou côté arrosé pour 100 %)
+2025,Oya79,79 cm,3,4,Oya79_34,2025-05-23,longueur_racinaire_out,1732.35336,"mm / 0,75 L de sol",
+2025,Oya79,79 cm,3,4,Oya79_34,2025-05-23,longueur_racinaire_totale,3511.53665,mm (in + out),
+2025,Oya79,79 cm,3,4,Oya79_34,2025-05-23,longueur_racinaire_diff_in_out,46.82993,mm,
+2025,Oya79,79 cm,3,4,Oya79_34,2025-05-23,racines_fines_in,1104.82889,mm,
+2025,Oya79,79 cm,3,4,Oya79_34,2025-05-23,racines_moyennes_in,585.16257,mm,
+2025,Oya79,79 cm,3,4,Oya79_34,2025-05-23,racines_grosses_in,89.19183,mm,

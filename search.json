@@ -1,0 +1,128 @@
+[
+  {
+    "objectID": "fiches/2025-paillage-tomate/index.html",
+    "href": "fiches/2025-paillage-tomate/index.html",
+    "title": "Paillage et rendement de la tomate sous abri",
+    "section": "",
+    "text": "AstuceÀ retenir pour le terrain\n\n\n\n\nLe BRF (5 cm) donne le meilleur compromis rendement / eau sur les deux saisons.\nLa toile tissée réchauffe le sol en début de saison mais n’améliore pas le rendement final.\nRésultats obtenus en tunnel, sol limoneux : à confirmer en plein champ."
+  },
+  {
+    "objectID": "fiches/2025-paillage-tomate/index.html#question",
+    "href": "fiches/2025-paillage-tomate/index.html#question",
+    "title": "Paillage et rendement de la tomate sous abri",
+    "section": "Question",
+    "text": "Question\nLe type de paillage modifie-t-il l’humidité du sol, la consommation d’eau et le rendement de la tomate cultivée sous abri ?"
+  },
+  {
+    "objectID": "fiches/2025-paillage-tomate/index.html#dispositif",
+    "href": "fiches/2025-paillage-tomate/index.html#dispositif",
+    "title": "Paillage et rendement de la tomate sous abri",
+    "section": "Dispositif",
+    "text": "Dispositif\n\n\n\n\n\n\n\nLieu\nFerme expérimentale, tunnel 2, sol limoneux\n\n\nSaisons\n2024 et 2025 (deux mémoires successifs)\n\n\nModalités\nSol nu · Toile tissée · BRF 5 cm · Paille\n\n\nRépétitions\n4 blocs × 2 saisons\n\n\nMesures\nRendement commercialisable, humidité du sol (sondes), irrigation apportée"
+  },
+  {
+    "objectID": "fiches/2025-paillage-tomate/index.html#résultats-clés",
+    "href": "fiches/2025-paillage-tomate/index.html#résultats-clés",
+    "title": "Paillage et rendement de la tomate sous abri",
+    "section": "Résultats clés",
+    "text": "Résultats clés\n\n\nCode\nd = FileAttachment(\"donnees.csv\").csv({typed: true})\nviewof saison = Inputs.radio([\"Toutes\", \"2024\", \"2025\"], {value: \"Toutes\", label: \"Saison\"})\nviewof variable = Inputs.select(new Map([[\"Rendement (kg/m²)\", \"rendement\"], [\"Irrigation (L/m²)\", \"irrigation\"]]), {label: \"Variable\"})\nfiltre = saison === \"Toutes\" ? d : d.filter(r =&gt; String(r.saison) === saison)\nPlot.plot({\n  marginLeft: 50, height: 300,\n  y: {grid: true, label: variable === \"rendement\" ? \"kg/m²\" : \"L/m²\"},\n  marks: [\n    Plot.barY(filtre, Plot.groupX({y: \"mean\"}, {x: \"modalite\", y: variable, fill: \"modalite\"})),\n    Plot.dot(filtre, {x: \"modalite\", y: variable, stroke: \"black\", r: 2.5}),\n    Plot.ruleY([0])\n  ]\n})"
+  },
+  {
+    "objectID": "fiches/2025-paillage-tomate/index.html#méthode-danalyse",
+    "href": "fiches/2025-paillage-tomate/index.html#méthode-danalyse",
+    "title": "Paillage et rendement de la tomate sous abri",
+    "section": "Méthode d’analyse",
+    "text": "Méthode d’analyse\nModèle linéaire mixte (modalité × saison, bloc en effet aléatoire). Code complet dans le dépôt lié."
+  },
+  {
+    "objectID": "fiches/2025-paillage-tomate/index.html#ressources",
+    "href": "fiches/2025-paillage-tomate/index.html#ressources",
+    "title": "Paillage et rendement de la tomate sous abri",
+    "section": "Ressources",
+    "text": "Ressources\n\nDocument complet Données de la fiche (CSV) Données brutes archivées (DOI) Scripts d’analyse\n\nCiter cette fiche : Étudiant·e A (mémoire 2024), Étudiant·e B (mémoire 2025) (2024–2025). Paillage et rendement de la tomate sous abri. Fiche PEPA Lab, UCLouvain."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Fiches d’essais",
+    "section": "",
+    "text": "Chaque fiche résume un essai en une page : question posée, dispositif, résultats clés et ce qu’il faut en retenir sur le terrain. Les mémoires complets et les données brutes sont accessibles depuis chaque fiche.\n\n\n\n\n\n   \n    \n    \n      Trier par\n      Ordre par défaut\n      \n        Date - Le plus ancien\n      \n      \n        Date - Le plus récent\n      \n      \n        Titre\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n−70 %d'eau avec un oya à 56 cm\n\n\nMémoire · 2025\nOyas pour le chou : à quelle distance les placer ?\nUn oya à 56 cm du chou économise 70 % d'eau ; 11 choux sur 12 restent commercialisables, pour un rendement commercialisable 10 % sous l'arrosage.\n\nChou\nGestion de l'eau\nPDF\nCSV\nDOI\nCode\n\n\n\n\n\n\n+14 %rendement (BRF vs sol nu)\n\n\nMémoire · 2024–2025\nPaillage et rendement de la tomate sous abri\nLe paillage BRF augmente le rendement commercialisable de 14 % et réduit l'irrigation d'un quart.\n\nTomate\nPaillageGestion de l'eau\nPDF\nCSV\nDOI\nCode\n\n\n\n\n\nAucun article correspondant"
+  },
+  {
+    "objectID": "a-propos.html",
+    "href": "a-propos.html",
+    "title": "À propos",
+    "section": "",
+    "text": "Ce site rassemble les résultats des essais et travaux de recherche en maraîchage menés au PEPA Lab (Earth and Life Institute, UCLouvain) : mémoires de master, essais sur la ferme expérimentale, synthèses pluriannuelles.\nContact : PEPA Lab, UCLouvain."
+  },
+  {
+    "objectID": "donnees.html",
+    "href": "donnees.html",
+    "title": "Données",
+    "section": "",
+    "text": "Type\nOù\nPourquoi\n\n\n\n\nDonnées résumées d’une fiche (&lt; 5 Mo)\nfiches/&lt;fiche&gt;/donnees.csv\nAlimentent les graphiques interactifs\n\n\nDonnées brutes complètes\nZenodo – communauté PEPA\nDOI citable, archivage pérenne, gros volumes\n\n\nMémoires et rapports\nDIAL UCLouvain ou documents/\nDocument de référence\n\n\n\nChaque fichier de données est accompagné d’un dictionnaire (dictionnaire.csv : colonne, unité, description). Licence par défaut : CC BY 4.0."
+  },
+  {
+    "objectID": "donnees.html#où-sont-les-données",
+    "href": "donnees.html#où-sont-les-données",
+    "title": "Données",
+    "section": "",
+    "text": "Type\nOù\nPourquoi\n\n\n\n\nDonnées résumées d’une fiche (&lt; 5 Mo)\nfiches/&lt;fiche&gt;/donnees.csv\nAlimentent les graphiques interactifs\n\n\nDonnées brutes complètes\nZenodo – communauté PEPA\nDOI citable, archivage pérenne, gros volumes\n\n\nMémoires et rapports\nDIAL UCLouvain ou documents/\nDocument de référence\n\n\n\nChaque fichier de données est accompagné d’un dictionnaire (dictionnaire.csv : colonne, unité, description). Licence par défaut : CC BY 4.0."
+  },
+  {
+    "objectID": "themes.html",
+    "href": "themes.html",
+    "title": "Thèmes",
+    "section": "",
+    "text": "Toutes les fiches, regroupées par thème et culture. Cliquez sur un thème à droite pour filtrer.\n\n\n\n\n\n\n   \n    \n    \n      Trier par\n      Ordre par défaut\n      \n        Fiche\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nFiche\n\n\n\nCulture\n\n\n\nSaison\n\n\n\nType\n\n\n\n\n\n\n\n\nOyas pour le chou : à quelle distance les placer ?\n\n\nChou\n\n\n2025\n\n\nMémoire\n\n\n\n\n\n\nPaillage et rendement de la tomate sous abri\n\n\nTomate\n\n\n2024–2025\n\n\nMémoire\n\n\n\n\n\n\nAucun article correspondant"
+  },
+  {
+    "objectID": "fiches/2025-oyas-chou/index.html",
+    "href": "fiches/2025-oyas-chou/index.html",
+    "title": "Oyas pour le chou : à quelle distance les placer ?",
+    "section": "",
+    "text": "AstuceÀ retenir pour le terrain\n\n\n\n\nUn oya de 5 L au centre de 4 choux a consommé 10 à 14 L par chou sur la saison, contre 35 L à l’arrosoir : 60 à 70 % d’eau en moins.\nÀ 35 et 56 cm du chou, presque tous les choux atteignent la norme commerciale (≥ 400 g). À 79 cm, c’est trop loin : moins de la moitié des choux sont commercialisables.\nÀ 35 cm, les racines poussent vers l’oya ; au-delà de 56 cm, elles ne le « trouvent » plus.\nC’est un essai d’une saison, sous tunnel très sec (2e printemps le plus sec depuis 1892) : les choux sans aucune irrigation ont tout de même produit grâce à l’eau du sol."
+  },
+  {
+    "objectID": "fiches/2025-oyas-chou/index.html#question",
+    "href": "fiches/2025-oyas-chou/index.html#question",
+    "title": "Oyas pour le chou : à quelle distance les placer ?",
+    "section": "Question",
+    "text": "Question\nLes oyas, pots en terre cuite poreuse enterrés et remplis d’eau, peuvent-ils irriguer un chou aussi bien qu’un arrosage classique, avec moins d’eau ? À quelle distance faut-il les placer ? Et comment les racines du chou réagissent-elles à cette source d’eau localisée ?"
+  },
+  {
+    "objectID": "fiches/2025-oyas-chou/index.html#dispositif",
+    "href": "fiches/2025-oyas-chou/index.html#dispositif",
+    "title": "Oyas pour le chou : à quelle distance les placer ?",
+    "section": "Dispositif",
+    "text": "Dispositif\n\n\n\n\n\n\n\nLieu\nFerme universitaire de Marbaix (Chaumont-Gistoux), tunnel de 24 × 7 m fermé début février pour assécher le sol, sol limoneux ; fumier et toile géotextile\n\n\nSaison\nRepiquage le 20/03/2025, récolte le 5/06/2025 (78 jours)\n\n\nCulture\nChou pointu ‘Cœur de bœuf des Vertus 2’ (bio), plants espacés de 50 × 50 cm\n\n\nModalités\n100 % : arrosoir au pied, selon l’évapotranspiration (ETc) · Oyas à 35, 56 ou 79 cm du chou (1 oya de 5 L pour 4 choux, rempli 2 fois par semaine) · 0 % : aucune irrigation\n\n\nPlan et répétitions\n3 blocs de 8 choux par traitement, répartis au hasard, avec des zones tampons de 1,25 m ; 4 choux suivis par bloc, soit 12 par traitement\n\n\nMesures\nEau apportée, croissance hebdomadaire, conductance stomatique, poids de la plante et du chou, racines prélevées côté oya (in) et côté opposé (out), humidité du sol (sondes TMS-4)"
+  },
+  {
+    "objectID": "fiches/2025-oyas-chou/index.html#résultats-clés",
+    "href": "fiches/2025-oyas-chou/index.html#résultats-clés",
+    "title": "Oyas pour le chou : à quelle distance les placer ?",
+    "section": "Résultats clés",
+    "text": "Résultats clés\nEau. Sur la saison, chaque chou irrigué à l’arrosoir a reçu 35,3 L. Les choux sous oyas ont reçu une médiane de 12,4 L (35 cm), 10,7 L (56 cm) et 13,6 L (79 cm), sans différence significative entre distances. Le débit d’un oya suit ce que le sol absorbe, et non la demande climatique : il est resté stable alors que l’ETc augmentait.\nRendement. Sur la surface cultivée, l’arrosage a donné 44,9 t/ha de choux, contre 38,7 (35 cm), 34,3 (56 cm) et 28,2 t/ha (79 cm). Ces différences de poids par chou ne sont pas significatives, car la variabilité est forte. Avec la norme commerciale, la hiérarchie change :\n\ntous les choux sont commercialisables à 35 cm, 11 sur 12 à 56 cm, mais seulement 7 sur 11 à l’arrosoir (choux plus hétérogènes) et 5 sur 12 à 79 cm ;\nle rendement commercialisable est de 38,7 t/ha à 35 cm, 37,1 à l’arrosoir, 33,3 à 56 cm et 18,5 t/ha à 79 cm.\n\nRapporté à l’eau, un litre a produit 75 à 83 g de chou sous oya à 35–56 cm, contre 32 g à l’arrosoir.\nRacines. À 35 cm, la carotte prélevée côté oya contient environ 11 fois plus de racines que le côté opposé (médianes 10,1 contre 0,9 m). L’humidité mesurée par les sondes y était de 28 % côté oya contre moins de 2 % de l’autre côté. Cet écart s’estompe à 56 cm et disparaît à 79 cm. Les choux à 35 cm développent autant de racines qu’à l’arrosoir, ceux à 56 et 79 cm pas plus que les choux non irrigués (médianes 3,2 et 2,4 m contre 4,0 m).\n\n\nCode\nd = FileAttachment(\"donnees.csv\").csv({typed: true})\nordre = [\"100%\", \"Oya35\", \"Oya56\", \"Oya79\", \"0%\"]\ncouleurs = [\"#2a5783\", \"#f5515d\", \"#f2862c\", \"#85b22c\", \"#66c2a5\"]\nviewof choix = Inputs.select(new Map([\n  [\"Poids du chou (kg)\", \"poids_chou\"],\n  [\"Biomasse de la plante (kg)\", \"biomasse_foliaire\"],\n  [\"Eau reçue par chou (L)\", \"eau_consommee\"],\n  [\"Chou produit par litre d'eau (kg/L, hors 0 %)\", \"wue_chou\"],\n  [\"Hauteur de la plante au 27/05 (cm)\", \"hauteur_plante\"],\n  [\"Longueur de racines totale (mm)\", \"longueur_racinaire_totale\"],\n  [\"Racines côté oya − côté opposé (mm)\", \"longueur_racinaire_diff_in_out\"]\n]), {label: \"Variable\"})\nsel = d.filter(r =&gt; r.variable === choix && typeof r.valeur === \"number\" && !(choix === \"wue_chou\" && r.traitement === \"0%\"))\nPlot.plot({\n  marginLeft: 55, height: 320,\n  x: {label: null, domain: ordre},\n  y: {grid: true, label: sel.length ? sel[0].unite : \"\"},\n  color: {domain: ordre, range: couleurs},\n  marks: [\n    Plot.barY(sel, Plot.groupX({y: \"median\"}, {x: \"traitement\", y: \"valeur\", fill: \"traitement\", fillOpacity: 0.6})),\n    Plot.dot(sel, {x: \"traitement\", y: \"valeur\", stroke: \"black\", r: 3, tip: true,\n                   symbol: r =&gt; r.variable === \"poids_chou\" ? (d.find(x =&gt; x.chou_id === r.chou_id && x.variable === \"commercialisable\")?.valeur ? \"circle\" : \"times\") : \"circle\",\n                   title: r =&gt; `${r.chou_id} : ${r.valeur}`}),\n    Plot.ruleY([0])\n  ]\n})\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBarres : médiane par traitement ; points : choux. Pour le poids du chou, × = chou non commercialisable. Oya35/56/79 = oya à 35, 56 ou 79 cm.\n\n\nCode\nrac = d.filter(r =&gt; (r.variable === \"longueur_racinaire_in\" || r.variable === \"longueur_racinaire_out\"))\n       .map(r =&gt; ({...r, position: r.variable.endsWith(\"_in\") ? \"côté oya (in)\" : \"côté opposé (out)\", metres: r.valeur / 1000}))\nPlot.plot({\n  height: 300, marginLeft: 50,\n  fx: {domain: ordre, label: null},\n  x: {axis: null, domain: [\"côté oya (in)\", \"côté opposé (out)\"]},\n  y: {grid: true, label: \"Longueur de racines dans la carotte (m)\"},\n  color: {legend: true, domain: [\"côté oya (in)\", \"côté opposé (out)\"], range: [\"#1b9e77\", \"#d95f02\"]},\n  marks: [\n    Plot.barY(rac, Plot.groupX({y: \"median\"}, {fx: \"traitement\", x: \"position\", y: \"metres\", fill: \"position\", fillOpacity: 0.7})),\n    Plot.dot(rac, {fx: \"traitement\", x: \"position\", y: \"metres\", stroke: \"black\", r: 2}),\n    Plot.ruleY([0])\n  ]\n})\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRacines prélevées les 22–23/05 dans une carotte de 0,75 L, à 17 cm du chou, côté oya et côté opposé (6 choux par traitement). Pour le 100 %, le côté « in » est celui de l’arrosage."
+  },
+  {
+    "objectID": "fiches/2025-oyas-chou/index.html#méthode-danalyse",
+    "href": "fiches/2025-oyas-chou/index.html#méthode-danalyse",
+    "title": "Oyas pour le chou : à quelle distance les placer ?",
+    "section": "Méthode d’analyse",
+    "text": "Méthode d’analyse\nPour chaque variable, le choix du test dépend des hypothèses :\n\nANOVA à un facteur puis Tukey si la normalité et l’homogénéité des variances sont vérifiées ;\nANOVA de Welch puis Games-Howell si les variances diffèrent ;\nKruskal-Wallis puis Dunn (correction de Holm) sinon.\n\nLes traitements oyas sont aussi comparés entre eux pour isoler l’effet de la distance. Le script joint est une version nettoyée du script de l’autrice. Il retrouve les principaux résultats : hauteur, biomasse, eau consommée, efficience et longueur de racines."
+  },
+  {
+    "objectID": "fiches/2025-oyas-chou/index.html#limites",
+    "href": "fiches/2025-oyas-chou/index.html#limites",
+    "title": "Oyas pour le chou : à quelle distance les placer ?",
+    "section": "Limites",
+    "text": "Limites\n\nC’est une saison sur une seule parcelle, sous tunnel. Le sol avait encore des réserves au départ, ce qui explique que les choux non irrigués aient produit. Leur « efficience » (≈ 2 kg/L) n’a pas de sens, car l’eau du sol n’est pas comptée.\nLes 4 choux d’un bloc partagent le même oya : il n’y a en réalité que 3 répétitions par traitement, et les tests au niveau du chou surestiment la précision.\nLes racines ne sont prélevées que dans les 15 premiers centimètres. Des racines fines tapissaient pourtant les oyas jusqu’à 30 cm de profondeur. L’humidité ne repose que sur 3 paires de sondes, dont les données calibrées ne sont pas jointes ici.\nCertains choux ont été pesés sous une averse (oyas à 56 et 79 cm, une partie du 0 %). Les oyas demandent aussi de la main-d’œuvre : un remplissage 2 fois par semaine, et un oya pour 4 choux."
+  },
+  {
+    "objectID": "fiches/2025-oyas-chou/index.html#ressources",
+    "href": "fiches/2025-oyas-chou/index.html#ressources",
+    "title": "Oyas pour le chou : à quelle distance les placer ?",
+    "section": "Ressources",
+    "text": "Ressources\n\nDocument complet Données de la fiche (CSV) Données brutes archivées (DOI) Scripts d’analyse\n\nCiter cette fiche : Gaëlle Hanssens (mémoire 2025) (2025). Oyas pour le chou : à quelle distance les placer ?. Fiche PEPA Lab, UCLouvain."
+  }
+]
