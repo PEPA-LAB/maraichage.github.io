@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://pepa-lab.github.io/maraichage/fiches/2025-paillage-tomate/index.html</loc>
-    <lastmod>2026-11-17T20:00:25.407Z</lastmod>
+    <loc>https://pepa-lab.github.io/maraichage/fiches/2026-paillage-epinard-laitue/index.html</loc>
+    <lastmod>2026-11-17T19:17:16.079Z</lastmod>
+  </url>
+  <url>
+    <loc>https://pepa-lab.github.io/maraichage/fiches/2024-irrigation-tomate/index.html</loc>
+    <lastmod>2026-11-17T19:48:45.084Z</lastmod>
   </url>
   <url>
     <loc>https://pepa-lab.github.io/maraichage/index.html</loc>
@@ -23,5 +27,9 @@
   <url>
     <loc>https://pepa-lab.github.io/maraichage/fiches/2025-oyas-chou/index.html</loc>
     <lastmod>2026-11-17T19:59:07.192Z</lastmod>
+  </url>
+  <url>
+    <loc>https://pepa-lab.github.io/maraichage/fiches/2025-paillage-epinard-oignon/index.html</loc>
+    <lastmod>2026-11-17T19:33:11.801Z</lastmod>
   </url>
 </urlset>

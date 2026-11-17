@@ -1,0 +1,12 @@
+variable,test,stat,ddl,p,paires_significatives,p_shapiro,p_levene
+rendement_plant,ANOVA + Tukey,3.41,"4,40",0.0172,0P-100P ; direct-100P,0.171,0.602
+rendement_commercialisable,ANOVA + Tukey,3.37,"4,40",0.0182,0P-100P ; direct-100P,0.278,0.662
+fruits_nombre,ANOVA + Tukey,4.07,"4,40",0.00734,direct-100P ; direct-50P,0.187,0.279
+fruits_commercialisables,ANOVA + Tukey,3.89,"4,40",0.0092,direct-100P,0.24,0.741
+inflorescences_total,ANOVA + Tukey,1.27,"4,40",0.296,,0.166,0.527
+inflorescences_productives,ANOVA + Tukey,2.6,"4,40",0.0502,direct-50P,0.68,0.781
+fleurs_total,ANOVA + Tukey,1.24,"4,40",0.308,,0.2,0.716
+taux_avortement,ANOVA + Tukey,5.19,"4,40",0.00184,50P-100P ; direct-100P,0.5,0.0639
+fleurs_par_inflorescence,ANOVA + Tukey,0.588,"4,40",0.673,,0.503,0.787
+fruits_par_inflorescence,ANOVA + Tukey,4.89,"4,40",0.00265,direct-100P,0.382,0.0619
+poids_fruit (par fruit),Kruskal-Wallis + Wilcoxon (Bonferroni),62.3,4,9.59e-13,50P-100P ; 0P-100P ; oya-100P ; direct-50P ; oya-0P ; direct-0P,3.74e-11,1.18e-11

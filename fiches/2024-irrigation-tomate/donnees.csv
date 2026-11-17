@@ -1,0 +1,630 @@
+saison,parcelle,plant,plant_id,traitement,traitement_libelle,repetition,variable,valeur,unite,flag
+2024,A,2,A2,100P,100 %,1,rendement_plant,2133.0,g / plant,
+2024,A,2,A2,100P,100 %,1,rendement_commercialisable,2043.0,g / plant,
+2024,A,2,A2,100P,100 %,1,fruits_nombre,45,fruits / plant,
+2024,A,2,A2,100P,100 %,1,fruits_commercialisables,36,fruits / plant,
+2024,A,2,A2,100P,100 %,1,poids_moyen_fruit,47.4,g,
+2024,A,2,A2,100P,100 %,1,inflorescences_total,6,inflorescences / plant,"toutes les branches comptées séparément (codes 1, 1D, 1G…), comme le mémoire"
+2024,A,2,A2,100P,100 %,1,inflorescences_productives,5,inflorescences / plant,
+2024,A,2,A2,100P,100 %,1,inflorescences_ramifiees,0,branches / plant,"codes avec lettre (D, G, H, M…) ; définition déduite des totaux du mémoire (p. 48)"
+2024,A,2,A2,100P,100 %,1,fleurs_total,58,fleurs / plant,
+2024,A,2,A2,100P,100 %,1,taux_avortement,0.2241,proportion (0–1),fleurs sans fruit / fleurs (feuille « inflorescence »)
+2024,A,2,A2,100P,100 %,1,fleurs_par_inflorescence,9.6667,fleurs / inflorescence,
+2024,A,2,A2,100P,100 %,1,fruits_par_inflorescence,7.5,fruits / inflorescence,
+2024,A,2,A2,100P,100 %,1,eau_irrigation,126.75,L / plant (31/05–30/09),
+2024,A,2,A2,100P,100 %,1,rendement_par_litre,16.8284,g / L d'irrigation,rendement / eau d'irrigation ; différent du WUE du mémoire (voir rapport)
+2024,A,4,A4,100P,100 %,1,rendement_plant,2516.0,g / plant,
+2024,A,4,A4,100P,100 %,1,rendement_commercialisable,2221.0,g / plant,
+2024,A,4,A4,100P,100 %,1,fruits_nombre,60,fruits / plant,
+2024,A,4,A4,100P,100 %,1,fruits_commercialisables,45,fruits / plant,
+2024,A,4,A4,100P,100 %,1,poids_moyen_fruit,41.9333,g,
+2024,A,4,A4,100P,100 %,1,inflorescences_total,9,inflorescences / plant,"toutes les branches comptées séparément (codes 1, 1D, 1G…), comme le mémoire"
+2024,A,4,A4,100P,100 %,1,inflorescences_productives,9,inflorescences / plant,
+2024,A,4,A4,100P,100 %,1,inflorescences_ramifiees,5,branches / plant,"codes avec lettre (D, G, H, M…) ; définition déduite des totaux du mémoire (p. 48)"
+2024,A,4,A4,100P,100 %,1,fleurs_total,71,fleurs / plant,
+2024,A,4,A4,100P,100 %,1,taux_avortement,0.1549,proportion (0–1),fleurs sans fruit / fleurs (feuille « inflorescence »)
+2024,A,4,A4,100P,100 %,1,fleurs_par_inflorescence,7.8889,fleurs / inflorescence,
+2024,A,4,A4,100P,100 %,1,fruits_par_inflorescence,6.6667,fruits / inflorescence,
+2024,A,4,A4,100P,100 %,1,eau_irrigation,126.75,L / plant (31/05–30/09),
+2024,A,4,A4,100P,100 %,1,rendement_par_litre,19.8501,g / L d'irrigation,rendement / eau d'irrigation ; différent du WUE du mémoire (voir rapport)
+2024,A,5,A5,100P,100 %,1,rendement_plant,2187.0,g / plant,
+2024,A,5,A5,100P,100 %,1,rendement_commercialisable,1602.0,g / plant,
+2024,A,5,A5,100P,100 %,1,fruits_nombre,64,fruits / plant,
+2024,A,5,A5,100P,100 %,1,fruits_commercialisables,36,fruits / plant,
+2024,A,5,A5,100P,100 %,1,poids_moyen_fruit,34.1719,g,
+2024,A,5,A5,100P,100 %,1,inflorescences_total,16,inflorescences / plant,"toutes les branches comptées séparément (codes 1, 1D, 1G…), comme le mémoire"
+2024,A,5,A5,100P,100 %,1,inflorescences_productives,15,inflorescences / plant,
+2024,A,5,A5,100P,100 %,1,inflorescences_ramifiees,10,branches / plant,"codes avec lettre (D, G, H, M…) ; définition déduite des totaux du mémoire (p. 48)"
+2024,A,5,A5,100P,100 %,1,fleurs_total,126,fleurs / plant,
+2024,A,5,A5,100P,100 %,1,taux_avortement,0.4921,proportion (0–1),fleurs sans fruit / fleurs (feuille « inflorescence »)
+2024,A,5,A5,100P,100 %,1,fleurs_par_inflorescence,7.875,fleurs / inflorescence,
+2024,A,5,A5,100P,100 %,1,fruits_par_inflorescence,4.0,fruits / inflorescence,
+2024,A,5,A5,100P,100 %,1,eau_irrigation,126.75,L / plant (31/05–30/09),
+2024,A,5,A5,100P,100 %,1,rendement_par_litre,17.2544,g / L d'irrigation,rendement / eau d'irrigation ; différent du WUE du mémoire (voir rapport)
+2024,B,1,B1,direct,Semis « direct » (50 %),1,rendement_plant,1974.0,g / plant,
+2024,B,1,B1,direct,Semis « direct » (50 %),1,rendement_commercialisable,1679.0,g / plant,
+2024,B,1,B1,direct,Semis « direct » (50 %),1,fruits_nombre,49,fruits / plant,
+2024,B,1,B1,direct,Semis « direct » (50 %),1,fruits_commercialisables,32,fruits / plant,
+2024,B,1,B1,direct,Semis « direct » (50 %),1,poids_moyen_fruit,40.2857,g,
+2024,B,1,B1,direct,Semis « direct » (50 %),1,inflorescences_total,21,inflorescences / plant,"toutes les branches comptées séparément (codes 1, 1D, 1G…), comme le mémoire"
+2024,B,1,B1,direct,Semis « direct » (50 %),1,inflorescences_productives,16,inflorescences / plant,
+2024,B,1,B1,direct,Semis « direct » (50 %),1,inflorescences_ramifiees,18,branches / plant,"codes avec lettre (D, G, H, M…) ; définition déduite des totaux du mémoire (p. 48)"
+2024,B,1,B1,direct,Semis « direct » (50 %),1,fleurs_total,146,fleurs / plant,
+2024,B,1,B1,direct,Semis « direct » (50 %),1,taux_avortement,0.6644,proportion (0–1),fleurs sans fruit / fleurs (feuille « inflorescence »)
+2024,B,1,B1,direct,Semis « direct » (50 %),1,fleurs_par_inflorescence,6.9524,fleurs / inflorescence,
+2024,B,1,B1,direct,Semis « direct » (50 %),1,fruits_par_inflorescence,2.3333,fruits / inflorescence,
+2024,B,1,B1,direct,Semis « direct » (50 %),1,eau_irrigation,62.375,L / plant (31/05–30/09),
+2024,B,1,B1,direct,Semis « direct » (50 %),1,rendement_par_litre,31.6473,g / L d'irrigation,rendement / eau d'irrigation ; différent du WUE du mémoire (voir rapport)
+2024,B,3,B3,direct,Semis « direct » (50 %),1,rendement_plant,2632.0,g / plant,
+2024,B,3,B3,direct,Semis « direct » (50 %),1,rendement_commercialisable,2282.0,g / plant,
+2024,B,3,B3,direct,Semis « direct » (50 %),1,fruits_nombre,58,fruits / plant,
+2024,B,3,B3,direct,Semis « direct » (50 %),1,fruits_commercialisables,39,fruits / plant,
+2024,B,3,B3,direct,Semis « direct » (50 %),1,poids_moyen_fruit,45.3793,g,
+2024,B,3,B3,direct,Semis « direct » (50 %),1,inflorescences_total,10,inflorescences / plant,"toutes les branches comptées séparément (codes 1, 1D, 1G…), comme le mémoire"
+2024,B,3,B3,direct,Semis « direct » (50 %),1,inflorescences_productives,10,inflorescences / plant,
+2024,B,3,B3,direct,Semis « direct » (50 %),1,inflorescences_ramifiees,5,branches / plant,"codes avec lettre (D, G, H, M…) ; définition déduite des totaux du mémoire (p. 48)"
+2024,B,3,B3,direct,Semis « direct » (50 %),1,fleurs_total,104,fleurs / plant,
+2024,B,3,B3,direct,Semis « direct » (50 %),1,taux_avortement,0.4423,proportion (0–1),fleurs sans fruit / fleurs (feuille « inflorescence »)
+2024,B,3,B3,direct,Semis « direct » (50 %),1,fleurs_par_inflorescence,10.4,fleurs / inflorescence,
+2024,B,3,B3,direct,Semis « direct » (50 %),1,fruits_par_inflorescence,5.8,fruits / inflorescence,
+2024,B,3,B3,direct,Semis « direct » (50 %),1,eau_irrigation,62.375,L / plant (31/05–30/09),
+2024,B,3,B3,direct,Semis « direct » (50 %),1,rendement_par_litre,42.1964,g / L d'irrigation,rendement / eau d'irrigation ; différent du WUE du mémoire (voir rapport)
+2024,B,5,B5,direct,Semis « direct » (50 %),1,rendement_plant,2784.0,g / plant,
+2024,B,5,B5,direct,Semis « direct » (50 %),1,rendement_commercialisable,2601.0,g / plant,
+2024,B,5,B5,direct,Semis « direct » (50 %),1,fruits_nombre,47,fruits / plant,
+2024,B,5,B5,direct,Semis « direct » (50 %),1,fruits_commercialisables,36,fruits / plant,
+2024,B,5,B5,direct,Semis « direct » (50 %),1,poids_moyen_fruit,59.234,g,
+2024,B,5,B5,direct,Semis « direct » (50 %),1,inflorescences_total,7,inflorescences / plant,"toutes les branches comptées séparément (codes 1, 1D, 1G…), comme le mémoire"
+2024,B,5,B5,direct,Semis « direct » (50 %),1,inflorescences_productives,7,inflorescences / plant,
+2024,B,5,B5,direct,Semis « direct » (50 %),1,inflorescences_ramifiees,2,branches / plant,"codes avec lettre (D, G, H, M…) ; définition déduite des totaux du mémoire (p. 48)"
+2024,B,5,B5,direct,Semis « direct » (50 %),1,fleurs_total,59,fleurs / plant,
+2024,B,5,B5,direct,Semis « direct » (50 %),1,taux_avortement,0.2034,proportion (0–1),fleurs sans fruit / fleurs (feuille « inflorescence »)
+2024,B,5,B5,direct,Semis « direct » (50 %),1,fleurs_par_inflorescence,8.4286,fleurs / inflorescence,
+2024,B,5,B5,direct,Semis « direct » (50 %),1,fruits_par_inflorescence,6.7143,fruits / inflorescence,
+2024,B,5,B5,direct,Semis « direct » (50 %),1,eau_irrigation,62.375,L / plant (31/05–30/09),
+2024,B,5,B5,direct,Semis « direct » (50 %),1,rendement_par_litre,44.6333,g / L d'irrigation,rendement / eau d'irrigation ; différent du WUE du mémoire (voir rapport)
+2024,C,2,C2,50P,50 %,1,rendement_plant,4607.0,g / plant,
+2024,C,2,C2,50P,50 %,1,rendement_commercialisable,3995.0,g / plant,
+2024,C,2,C2,50P,50 %,1,fruits_nombre,119,fruits / plant,
+2024,C,2,C2,50P,50 %,1,fruits_commercialisables,85,fruits / plant,
+2024,C,2,C2,50P,50 %,1,poids_moyen_fruit,38.7143,g,
+2024,C,2,C2,50P,50 %,1,inflorescences_total,18,inflorescences / plant,"toutes les branches comptées séparément (codes 1, 1D, 1G…), comme le mémoire"
+2024,C,2,C2,50P,50 %,1,inflorescences_productives,18,inflorescences / plant,
+2024,C,2,C2,50P,50 %,1,inflorescences_ramifiees,15,branches / plant,"codes avec lettre (D, G, H, M…) ; définition déduite des totaux du mémoire (p. 48)"
+2024,C,2,C2,50P,50 %,1,fleurs_total,231,fleurs / plant,
+2024,C,2,C2,50P,50 %,1,taux_avortement,0.4848,proportion (0–1),fleurs sans fruit / fleurs (feuille « inflorescence »)
+2024,C,2,C2,50P,50 %,1,fleurs_par_inflorescence,12.8333,fleurs / inflorescence,
+2024,C,2,C2,50P,50 %,1,fruits_par_inflorescence,6.6111,fruits / inflorescence,
+2024,C,2,C2,50P,50 %,1,eau_irrigation,63.375,L / plant (31/05–30/09),
+2024,C,2,C2,50P,50 %,1,rendement_par_litre,72.6943,g / L d'irrigation,rendement / eau d'irrigation ; différent du WUE du mémoire (voir rapport)
+2024,C,5,C5,50P,50 %,1,rendement_plant,2352.0,g / plant,
+2024,C,5,C5,50P,50 %,1,rendement_commercialisable,1864.0,g / plant,
+2024,C,5,C5,50P,50 %,1,fruits_nombre,62,fruits / plant,
+2024,C,5,C5,50P,50 %,1,fruits_commercialisables,38,fruits / plant,
+2024,C,5,C5,50P,50 %,1,poids_moyen_fruit,37.9355,g,
+2024,C,5,C5,50P,50 %,1,inflorescences_total,15,inflorescences / plant,"toutes les branches comptées séparément (codes 1, 1D, 1G…), comme le mémoire"
+2024,C,5,C5,50P,50 %,1,inflorescences_productives,15,inflorescences / plant,
+2024,C,5,C5,50P,50 %,1,inflorescences_ramifiees,11,branches / plant,"codes avec lettre (D, G, H, M…) ; définition déduite des totaux du mémoire (p. 48)"
+2024,C,5,C5,50P,50 %,1,fleurs_total,112,fleurs / plant,
+2024,C,5,C5,50P,50 %,1,taux_avortement,0.4464,proportion (0–1),fleurs sans fruit / fleurs (feuille « inflorescence »)
+2024,C,5,C5,50P,50 %,1,fleurs_par_inflorescence,7.4667,fleurs / inflorescence,
+2024,C,5,C5,50P,50 %,1,fruits_par_inflorescence,4.1333,fruits / inflorescence,
+2024,C,5,C5,50P,50 %,1,eau_irrigation,63.375,L / plant (31/05–30/09),
+2024,C,5,C5,50P,50 %,1,rendement_par_litre,37.1124,g / L d'irrigation,rendement / eau d'irrigation ; différent du WUE du mémoire (voir rapport)
+2024,C,8,C8,50P,50 %,1,rendement_plant,2171.0,g / plant,
+2024,C,8,C8,50P,50 %,1,rendement_commercialisable,1823.0,g / plant,
+2024,C,8,C8,50P,50 %,1,fruits_nombre,57,fruits / plant,
+2024,C,8,C8,50P,50 %,1,fruits_commercialisables,35,fruits / plant,
+2024,C,8,C8,50P,50 %,1,poids_moyen_fruit,38.0877,g,
+2024,C,8,C8,50P,50 %,1,inflorescences_total,11,inflorescences / plant,"toutes les branches comptées séparément (codes 1, 1D, 1G…), comme le mémoire"
+2024,C,8,C8,50P,50 %,1,inflorescences_productives,11,inflorescences / plant,
+2024,C,8,C8,50P,50 %,1,inflorescences_ramifiees,7,branches / plant,"codes avec lettre (D, G, H, M…) ; définition déduite des totaux du mémoire (p. 48)"
+2024,C,8,C8,50P,50 %,1,fleurs_total,118,fleurs / plant,
+2024,C,8,C8,50P,50 %,1,taux_avortement,0.5169,proportion (0–1),fleurs sans fruit / fleurs (feuille « inflorescence »)
+2024,C,8,C8,50P,50 %,1,fleurs_par_inflorescence,10.7273,fleurs / inflorescence,
+2024,C,8,C8,50P,50 %,1,fruits_par_inflorescence,5.1818,fruits / inflorescence,
+2024,C,8,C8,50P,50 %,1,eau_irrigation,63.375,L / plant (31/05–30/09),
+2024,C,8,C8,50P,50 %,1,rendement_par_litre,34.2564,g / L d'irrigation,rendement / eau d'irrigation ; différent du WUE du mémoire (voir rapport)
+2024,D,1,D1,50P,50 %,2,rendement_plant,1867.0,g / plant,
+2024,D,1,D1,50P,50 %,2,rendement_commercialisable,1532.0,g / plant,
+2024,D,1,D1,50P,50 %,2,fruits_nombre,50,fruits / plant,
+2024,D,1,D1,50P,50 %,2,fruits_commercialisables,33,fruits / plant,
+2024,D,1,D1,50P,50 %,2,poids_moyen_fruit,37.34,g,
+2024,D,1,D1,50P,50 %,2,inflorescences_total,16,inflorescences / plant,"toutes les branches comptées séparément (codes 1, 1D, 1G…), comme le mémoire"
+2024,D,1,D1,50P,50 %,2,inflorescences_productives,16,inflorescences / plant,
+2024,D,1,D1,50P,50 %,2,inflorescences_ramifiees,11,branches / plant,"codes avec lettre (D, G, H, M…) ; définition déduite des totaux du mémoire (p. 48)"
+2024,D,1,D1,50P,50 %,2,fleurs_total,162,fleurs / plant,
+2024,D,1,D1,50P,50 %,2,taux_avortement,0.6914,proportion (0–1),fleurs sans fruit / fleurs (feuille « inflorescence »)
+2024,D,1,D1,50P,50 %,2,fleurs_par_inflorescence,10.125,fleurs / inflorescence,
+2024,D,1,D1,50P,50 %,2,fruits_par_inflorescence,3.125,fruits / inflorescence,
+2024,D,1,D1,50P,50 %,2,eau_irrigation,63.375,L / plant (31/05–30/09),
+2024,D,1,D1,50P,50 %,2,rendement_par_litre,29.4596,g / L d'irrigation,rendement / eau d'irrigation ; différent du WUE du mémoire (voir rapport)
+2024,D,3,D3,50P,50 %,2,rendement_plant,1734.0,g / plant,
+2024,D,3,D3,50P,50 %,2,rendement_commercialisable,1369.0,g / plant,
+2024,D,3,D3,50P,50 %,2,fruits_nombre,54,fruits / plant,
+2024,D,3,D3,50P,50 %,2,fruits_commercialisables,32,fruits / plant,
+2024,D,3,D3,50P,50 %,2,poids_moyen_fruit,32.1111,g,
+2024,D,3,D3,50P,50 %,2,inflorescences_total,9,inflorescences / plant,"toutes les branches comptées séparément (codes 1, 1D, 1G…), comme le mémoire"
+2024,D,3,D3,50P,50 %,2,inflorescences_productives,9,inflorescences / plant,
+2024,D,3,D3,50P,50 %,2,inflorescences_ramifiees,5,branches / plant,"codes avec lettre (D, G, H, M…) ; définition déduite des totaux du mémoire (p. 48)"
+2024,D,3,D3,50P,50 %,2,fleurs_total,87,fleurs / plant,
+2024,D,3,D3,50P,50 %,2,taux_avortement,0.3793,proportion (0–1),fleurs sans fruit / fleurs (feuille « inflorescence »)
+2024,D,3,D3,50P,50 %,2,fleurs_par_inflorescence,9.6667,fleurs / inflorescence,
+2024,D,3,D3,50P,50 %,2,fruits_par_inflorescence,6.0,fruits / inflorescence,
+2024,D,3,D3,50P,50 %,2,eau_irrigation,63.375,L / plant (31/05–30/09),
+2024,D,3,D3,50P,50 %,2,rendement_par_litre,27.3609,g / L d'irrigation,rendement / eau d'irrigation ; différent du WUE du mémoire (voir rapport)
+2024,D,8,D8,50P,50 %,2,rendement_plant,4612.0,g / plant,
+2024,D,8,D8,50P,50 %,2,rendement_commercialisable,4178.0,g / plant,
+2024,D,8,D8,50P,50 %,2,fruits_nombre,91,fruits / plant,
+2024,D,8,D8,50P,50 %,2,fruits_commercialisables,72,fruits / plant,
+2024,D,8,D8,50P,50 %,2,poids_moyen_fruit,50.6813,g,
+2024,D,8,D8,50P,50 %,2,inflorescences_total,15,inflorescences / plant,"toutes les branches comptées séparément (codes 1, 1D, 1G…), comme le mémoire"
+2024,D,8,D8,50P,50 %,2,inflorescences_productives,15,inflorescences / plant,
+2024,D,8,D8,50P,50 %,2,inflorescences_ramifiees,10,branches / plant,"codes avec lettre (D, G, H, M…) ; définition déduite des totaux du mémoire (p. 48)"
+2024,D,8,D8,50P,50 %,2,fleurs_total,165,fleurs / plant,
+2024,D,8,D8,50P,50 %,2,taux_avortement,0.4485,proportion (0–1),fleurs sans fruit / fleurs (feuille « inflorescence »)
+2024,D,8,D8,50P,50 %,2,fleurs_par_inflorescence,11.0,fleurs / inflorescence,
+2024,D,8,D8,50P,50 %,2,fruits_par_inflorescence,6.0667,fruits / inflorescence,
+2024,D,8,D8,50P,50 %,2,eau_irrigation,63.375,L / plant (31/05–30/09),
+2024,D,8,D8,50P,50 %,2,rendement_par_litre,72.7732,g / L d'irrigation,rendement / eau d'irrigation ; différent du WUE du mémoire (voir rapport)
+2024,E,1,E1,0P,0 % (sans irrigation),1,rendement_plant,2901.0,g / plant,
+2024,E,1,E1,0P,0 % (sans irrigation),1,rendement_commercialisable,2209.0,g / plant,
+2024,E,1,E1,0P,0 % (sans irrigation),1,fruits_nombre,84,fruits / plant,
+2024,E,1,E1,0P,0 % (sans irrigation),1,fruits_commercialisables,52,fruits / plant,
+2024,E,1,E1,0P,0 % (sans irrigation),1,poids_moyen_fruit,34.5357,g,
+2024,E,1,E1,0P,0 % (sans irrigation),1,inflorescences_total,13,inflorescences / plant,"toutes les branches comptées séparément (codes 1, 1D, 1G…), comme le mémoire"
+2024,E,1,E1,0P,0 % (sans irrigation),1,inflorescences_productives,13,inflorescences / plant,
+2024,E,1,E1,0P,0 % (sans irrigation),1,inflorescences_ramifiees,9,branches / plant,"codes avec lettre (D, G, H, M…) ; définition déduite des totaux du mémoire (p. 48)"
+2024,E,1,E1,0P,0 % (sans irrigation),1,fleurs_total,154,fleurs / plant,
+2024,E,1,E1,0P,0 % (sans irrigation),1,taux_avortement,0.4545,proportion (0–1),fleurs sans fruit / fleurs (feuille « inflorescence »)
+2024,E,1,E1,0P,0 % (sans irrigation),1,fleurs_par_inflorescence,11.8462,fleurs / inflorescence,
+2024,E,1,E1,0P,0 % (sans irrigation),1,fruits_par_inflorescence,6.4615,fruits / inflorescence,
+2024,E,1,E1,0P,0 % (sans irrigation),1,eau_irrigation,0.0,L / plant (31/05–30/09),
+2024,E,1,E1,0P,0 % (sans irrigation),1,rendement_par_litre,NA,g / L d'irrigation,non défini sans irrigation (0P)
+2024,E,4,E4,0P,0 % (sans irrigation),1,rendement_plant,1829.0,g / plant,
+2024,E,4,E4,0P,0 % (sans irrigation),1,rendement_commercialisable,1317.0,g / plant,
+2024,E,4,E4,0P,0 % (sans irrigation),1,fruits_nombre,54,fruits / plant,
+2024,E,4,E4,0P,0 % (sans irrigation),1,fruits_commercialisables,28,fruits / plant,
+2024,E,4,E4,0P,0 % (sans irrigation),1,poids_moyen_fruit,33.8704,g,
+2024,E,4,E4,0P,0 % (sans irrigation),1,inflorescences_total,10,inflorescences / plant,"toutes les branches comptées séparément (codes 1, 1D, 1G…), comme le mémoire"
+2024,E,4,E4,0P,0 % (sans irrigation),1,inflorescences_productives,9,inflorescences / plant,
+2024,E,4,E4,0P,0 % (sans irrigation),1,inflorescences_ramifiees,3,branches / plant,"codes avec lettre (D, G, H, M…) ; définition déduite des totaux du mémoire (p. 48)"
+2024,E,4,E4,0P,0 % (sans irrigation),1,fleurs_total,109,fleurs / plant,
+2024,E,4,E4,0P,0 % (sans irrigation),1,taux_avortement,0.5046,proportion (0–1),fleurs sans fruit / fleurs (feuille « inflorescence »)
+2024,E,4,E4,0P,0 % (sans irrigation),1,fleurs_par_inflorescence,10.9,fleurs / inflorescence,
+2024,E,4,E4,0P,0 % (sans irrigation),1,fruits_par_inflorescence,5.4,fruits / inflorescence,
+2024,E,4,E4,0P,0 % (sans irrigation),1,eau_irrigation,0.0,L / plant (31/05–30/09),
+2024,E,4,E4,0P,0 % (sans irrigation),1,rendement_par_litre,NA,g / L d'irrigation,non défini sans irrigation (0P)
+2024,E,7,E7,0P,0 % (sans irrigation),1,rendement_plant,3282.0,g / plant,
+2024,E,7,E7,0P,0 % (sans irrigation),1,rendement_commercialisable,2863.0,g / plant,
+2024,E,7,E7,0P,0 % (sans irrigation),1,fruits_nombre,82,fruits / plant,
+2024,E,7,E7,0P,0 % (sans irrigation),1,fruits_commercialisables,56,fruits / plant,
+2024,E,7,E7,0P,0 % (sans irrigation),1,poids_moyen_fruit,40.0244,g,
+2024,E,7,E7,0P,0 % (sans irrigation),1,inflorescences_total,12,inflorescences / plant,"toutes les branches comptées séparément (codes 1, 1D, 1G…), comme le mémoire"
+2024,E,7,E7,0P,0 % (sans irrigation),1,inflorescences_productives,12,inflorescences / plant,
+2024,E,7,E7,0P,0 % (sans irrigation),1,inflorescences_ramifiees,7,branches / plant,"codes avec lettre (D, G, H, M…) ; définition déduite des totaux du mémoire (p. 48)"
+2024,E,7,E7,0P,0 % (sans irrigation),1,fleurs_total,167,fleurs / plant,
+2024,E,7,E7,0P,0 % (sans irrigation),1,taux_avortement,0.509,proportion (0–1),fleurs sans fruit / fleurs (feuille « inflorescence »)
+2024,E,7,E7,0P,0 % (sans irrigation),1,fleurs_par_inflorescence,13.9167,fleurs / inflorescence,
+2024,E,7,E7,0P,0 % (sans irrigation),1,fruits_par_inflorescence,6.8333,fruits / inflorescence,
+2024,E,7,E7,0P,0 % (sans irrigation),1,eau_irrigation,0.0,L / plant (31/05–30/09),
+2024,E,7,E7,0P,0 % (sans irrigation),1,rendement_par_litre,NA,g / L d'irrigation,non défini sans irrigation (0P)
+2024,F,3,F3,oya,Oyas,1,rendement_plant,2372.0,g / plant,
+2024,F,3,F3,oya,Oyas,1,rendement_commercialisable,2027.0,g / plant,
+2024,F,3,F3,oya,Oyas,1,fruits_nombre,50,fruits / plant,
+2024,F,3,F3,oya,Oyas,1,fruits_commercialisables,34,fruits / plant,
+2024,F,3,F3,oya,Oyas,1,poids_moyen_fruit,47.44,g,
+2024,F,3,F3,oya,Oyas,1,inflorescences_total,10,inflorescences / plant,"toutes les branches comptées séparément (codes 1, 1D, 1G…), comme le mémoire"
+2024,F,3,F3,oya,Oyas,1,inflorescences_productives,10,inflorescences / plant,
+2024,F,3,F3,oya,Oyas,1,inflorescences_ramifiees,5,branches / plant,"codes avec lettre (D, G, H, M…) ; définition déduite des totaux du mémoire (p. 48)"
+2024,F,3,F3,oya,Oyas,1,fleurs_total,84,fleurs / plant,
+2024,F,3,F3,oya,Oyas,1,taux_avortement,0.4048,proportion (0–1),fleurs sans fruit / fleurs (feuille « inflorescence »)
+2024,F,3,F3,oya,Oyas,1,fleurs_par_inflorescence,8.4,fleurs / inflorescence,
+2024,F,3,F3,oya,Oyas,1,fruits_par_inflorescence,5.0,fruits / inflorescence,
+2024,F,3,F3,oya,Oyas,1,eau_irrigation,31.3621,L / plant (31/05–30/09),
+2024,F,3,F3,oya,Oyas,1,rendement_par_litre,75.6326,g / L d'irrigation,rendement / eau d'irrigation ; différent du WUE du mémoire (voir rapport)
+2024,F,6,F6,oya,Oyas,1,rendement_plant,2183.0,g / plant,
+2024,F,6,F6,oya,Oyas,1,rendement_commercialisable,1708.0,g / plant,
+2024,F,6,F6,oya,Oyas,1,fruits_nombre,63,fruits / plant,
+2024,F,6,F6,oya,Oyas,1,fruits_commercialisables,40,fruits / plant,
+2024,F,6,F6,oya,Oyas,1,poids_moyen_fruit,34.6508,g,
+2024,F,6,F6,oya,Oyas,1,inflorescences_total,12,inflorescences / plant,"toutes les branches comptées séparément (codes 1, 1D, 1G…), comme le mémoire"
+2024,F,6,F6,oya,Oyas,1,inflorescences_productives,12,inflorescences / plant,
+2024,F,6,F6,oya,Oyas,1,inflorescences_ramifiees,9,branches / plant,"codes avec lettre (D, G, H, M…) ; définition déduite des totaux du mémoire (p. 48)"
+2024,F,6,F6,oya,Oyas,1,fleurs_total,100,fleurs / plant,
+2024,F,6,F6,oya,Oyas,1,taux_avortement,0.37,proportion (0–1),fleurs sans fruit / fleurs (feuille « inflorescence »)
+2024,F,6,F6,oya,Oyas,1,fleurs_par_inflorescence,8.3333,fleurs / inflorescence,
+2024,F,6,F6,oya,Oyas,1,fruits_par_inflorescence,5.25,fruits / inflorescence,
+2024,F,6,F6,oya,Oyas,1,eau_irrigation,30.2341,L / plant (31/05–30/09),
+2024,F,6,F6,oya,Oyas,1,rendement_par_litre,72.2034,g / L d'irrigation,rendement / eau d'irrigation ; différent du WUE du mémoire (voir rapport)
+2024,F,8,F8,oya,Oyas,1,rendement_plant,3164.0,g / plant,
+2024,F,8,F8,oya,Oyas,1,rendement_commercialisable,2759.0,g / plant,
+2024,F,8,F8,oya,Oyas,1,fruits_nombre,74,fruits / plant,
+2024,F,8,F8,oya,Oyas,1,fruits_commercialisables,54,fruits / plant,
+2024,F,8,F8,oya,Oyas,1,poids_moyen_fruit,42.7568,g,
+2024,F,8,F8,oya,Oyas,1,inflorescences_total,12,inflorescences / plant,"toutes les branches comptées séparément (codes 1, 1D, 1G…), comme le mémoire"
+2024,F,8,F8,oya,Oyas,1,inflorescences_productives,12,inflorescences / plant,
+2024,F,8,F8,oya,Oyas,1,inflorescences_ramifiees,9,branches / plant,"codes avec lettre (D, G, H, M…) ; définition déduite des totaux du mémoire (p. 48)"
+2024,F,8,F8,oya,Oyas,1,fleurs_total,116,fleurs / plant,
+2024,F,8,F8,oya,Oyas,1,taux_avortement,0.3621,proportion (0–1),fleurs sans fruit / fleurs (feuille « inflorescence »)
+2024,F,8,F8,oya,Oyas,1,fleurs_par_inflorescence,9.6667,fleurs / inflorescence,
+2024,F,8,F8,oya,Oyas,1,fruits_par_inflorescence,6.1667,fruits / inflorescence,
+2024,F,8,F8,oya,Oyas,1,eau_irrigation,30.1354,L / plant (31/05–30/09),
+2024,F,8,F8,oya,Oyas,1,rendement_par_litre,104.9929,g / L d'irrigation,rendement / eau d'irrigation ; différent du WUE du mémoire (voir rapport)
+2024,G,2,G2,0P,0 % (sans irrigation),2,rendement_plant,2764.0,g / plant,
+2024,G,2,G2,0P,0 % (sans irrigation),2,rendement_commercialisable,2348.0,g / plant,
+2024,G,2,G2,0P,0 % (sans irrigation),2,fruits_nombre,71,fruits / plant,
+2024,G,2,G2,0P,0 % (sans irrigation),2,fruits_commercialisables,48,fruits / plant,
+2024,G,2,G2,0P,0 % (sans irrigation),2,poids_moyen_fruit,38.9296,g,
+2024,G,2,G2,0P,0 % (sans irrigation),2,inflorescences_total,12,inflorescences / plant,"toutes les branches comptées séparément (codes 1, 1D, 1G…), comme le mémoire"
+2024,G,2,G2,0P,0 % (sans irrigation),2,inflorescences_productives,12,inflorescences / plant,
+2024,G,2,G2,0P,0 % (sans irrigation),2,inflorescences_ramifiees,8,branches / plant,"codes avec lettre (D, G, H, M…) ; définition déduite des totaux du mémoire (p. 48)"
+2024,G,2,G2,0P,0 % (sans irrigation),2,fleurs_total,130,fleurs / plant,
+2024,G,2,G2,0P,0 % (sans irrigation),2,taux_avortement,0.4538,proportion (0–1),fleurs sans fruit / fleurs (feuille « inflorescence »)
+2024,G,2,G2,0P,0 % (sans irrigation),2,fleurs_par_inflorescence,10.8333,fleurs / inflorescence,
+2024,G,2,G2,0P,0 % (sans irrigation),2,fruits_par_inflorescence,5.9167,fruits / inflorescence,
+2024,G,2,G2,0P,0 % (sans irrigation),2,eau_irrigation,0.0,L / plant (31/05–30/09),
+2024,G,2,G2,0P,0 % (sans irrigation),2,rendement_par_litre,NA,g / L d'irrigation,non défini sans irrigation (0P)
+2024,G,5,G5,0P,0 % (sans irrigation),2,rendement_plant,1089.0,g / plant,
+2024,G,5,G5,0P,0 % (sans irrigation),2,rendement_commercialisable,835.0,g / plant,
+2024,G,5,G5,0P,0 % (sans irrigation),2,fruits_nombre,38,fruits / plant,
+2024,G,5,G5,0P,0 % (sans irrigation),2,fruits_commercialisables,21,fruits / plant,
+2024,G,5,G5,0P,0 % (sans irrigation),2,poids_moyen_fruit,28.6579,g,
+2024,G,5,G5,0P,0 % (sans irrigation),2,inflorescences_total,7,inflorescences / plant,"toutes les branches comptées séparément (codes 1, 1D, 1G…), comme le mémoire"
+2024,G,5,G5,0P,0 % (sans irrigation),2,inflorescences_productives,6,inflorescences / plant,
+2024,G,5,G5,0P,0 % (sans irrigation),2,inflorescences_ramifiees,2,branches / plant,"codes avec lettre (D, G, H, M…) ; définition déduite des totaux du mémoire (p. 48)"
+2024,G,5,G5,0P,0 % (sans irrigation),2,fleurs_total,58,fleurs / plant,
+2024,G,5,G5,0P,0 % (sans irrigation),2,taux_avortement,0.3448,proportion (0–1),fleurs sans fruit / fleurs (feuille « inflorescence »)
+2024,G,5,G5,0P,0 % (sans irrigation),2,fleurs_par_inflorescence,8.2857,fleurs / inflorescence,
+2024,G,5,G5,0P,0 % (sans irrigation),2,fruits_par_inflorescence,5.4286,fruits / inflorescence,
+2024,G,5,G5,0P,0 % (sans irrigation),2,eau_irrigation,0.0,L / plant (31/05–30/09),
+2024,G,5,G5,0P,0 % (sans irrigation),2,rendement_par_litre,NA,g / L d'irrigation,non défini sans irrigation (0P)
+2024,G,7,G7,0P,0 % (sans irrigation),2,rendement_plant,1815.0,g / plant,
+2024,G,7,G7,0P,0 % (sans irrigation),2,rendement_commercialisable,1437.0,g / plant,
+2024,G,7,G7,0P,0 % (sans irrigation),2,fruits_nombre,55,fruits / plant,
+2024,G,7,G7,0P,0 % (sans irrigation),2,fruits_commercialisables,34,fruits / plant,
+2024,G,7,G7,0P,0 % (sans irrigation),2,poids_moyen_fruit,33.0,g,
+2024,G,7,G7,0P,0 % (sans irrigation),2,inflorescences_total,8,inflorescences / plant,"toutes les branches comptées séparément (codes 1, 1D, 1G…), comme le mémoire"
+2024,G,7,G7,0P,0 % (sans irrigation),2,inflorescences_productives,8,inflorescences / plant,
+2024,G,7,G7,0P,0 % (sans irrigation),2,inflorescences_ramifiees,2,branches / plant,"codes avec lettre (D, G, H, M…) ; définition déduite des totaux du mémoire (p. 48)"
+2024,G,7,G7,0P,0 % (sans irrigation),2,fleurs_total,76,fleurs / plant,
+2024,G,7,G7,0P,0 % (sans irrigation),2,taux_avortement,0.2763,proportion (0–1),fleurs sans fruit / fleurs (feuille « inflorescence »)
+2024,G,7,G7,0P,0 % (sans irrigation),2,fleurs_par_inflorescence,9.5,fleurs / inflorescence,
+2024,G,7,G7,0P,0 % (sans irrigation),2,fruits_par_inflorescence,6.875,fruits / inflorescence,
+2024,G,7,G7,0P,0 % (sans irrigation),2,eau_irrigation,0.0,L / plant (31/05–30/09),
+2024,G,7,G7,0P,0 % (sans irrigation),2,rendement_par_litre,NA,g / L d'irrigation,non défini sans irrigation (0P)
+2024,H,1,H1,oya,Oyas,2,rendement_plant,2353.0,g / plant,
+2024,H,1,H1,oya,Oyas,2,rendement_commercialisable,1947.0,g / plant,
+2024,H,1,H1,oya,Oyas,2,fruits_nombre,58,fruits / plant,
+2024,H,1,H1,oya,Oyas,2,fruits_commercialisables,40,fruits / plant,
+2024,H,1,H1,oya,Oyas,2,poids_moyen_fruit,40.569,g,
+2024,H,1,H1,oya,Oyas,2,inflorescences_total,9,inflorescences / plant,"toutes les branches comptées séparément (codes 1, 1D, 1G…), comme le mémoire"
+2024,H,1,H1,oya,Oyas,2,inflorescences_productives,9,inflorescences / plant,
+2024,H,1,H1,oya,Oyas,2,inflorescences_ramifiees,3,branches / plant,"codes avec lettre (D, G, H, M…) ; définition déduite des totaux du mémoire (p. 48)"
+2024,H,1,H1,oya,Oyas,2,fleurs_total,111,fleurs / plant,
+2024,H,1,H1,oya,Oyas,2,taux_avortement,0.4775,proportion (0–1),fleurs sans fruit / fleurs (feuille « inflorescence »)
+2024,H,1,H1,oya,Oyas,2,fleurs_par_inflorescence,12.3333,fleurs / inflorescence,
+2024,H,1,H1,oya,Oyas,2,fruits_par_inflorescence,6.4444,fruits / inflorescence,
+2024,H,1,H1,oya,Oyas,2,eau_irrigation,28.1178,L / plant (31/05–30/09),
+2024,H,1,H1,oya,Oyas,2,rendement_par_litre,83.6836,g / L d'irrigation,rendement / eau d'irrigation ; différent du WUE du mémoire (voir rapport)
+2024,H,3,H3,oya,Oyas,2,rendement_plant,3805.0,g / plant,
+2024,H,3,H3,oya,Oyas,2,rendement_commercialisable,3195.0,g / plant,
+2024,H,3,H3,oya,Oyas,2,fruits_nombre,86,fruits / plant,
+2024,H,3,H3,oya,Oyas,2,fruits_commercialisables,57,fruits / plant,
+2024,H,3,H3,oya,Oyas,2,poids_moyen_fruit,44.2442,g,
+2024,H,3,H3,oya,Oyas,2,inflorescences_total,15,inflorescences / plant,"toutes les branches comptées séparément (codes 1, 1D, 1G…), comme le mémoire"
+2024,H,3,H3,oya,Oyas,2,inflorescences_productives,14,inflorescences / plant,
+2024,H,3,H3,oya,Oyas,2,inflorescences_ramifiees,11,branches / plant,"codes avec lettre (D, G, H, M…) ; définition déduite des totaux du mémoire (p. 48)"
+2024,H,3,H3,oya,Oyas,2,fleurs_total,160,fleurs / plant,
+2024,H,3,H3,oya,Oyas,2,taux_avortement,0.4625,proportion (0–1),fleurs sans fruit / fleurs (feuille « inflorescence »)
+2024,H,3,H3,oya,Oyas,2,fleurs_par_inflorescence,10.6667,fleurs / inflorescence,
+2024,H,3,H3,oya,Oyas,2,fruits_par_inflorescence,5.7333,fruits / inflorescence,
+2024,H,3,H3,oya,Oyas,2,eau_irrigation,28.1178,L / plant (31/05–30/09),
+2024,H,3,H3,oya,Oyas,2,rendement_par_litre,135.3235,g / L d'irrigation,rendement / eau d'irrigation ; différent du WUE du mémoire (voir rapport)
+2024,H,8,H8,oya,Oyas,2,rendement_plant,3041.0,g / plant,
+2024,H,8,H8,oya,Oyas,2,rendement_commercialisable,2707.0,g / plant,
+2024,H,8,H8,oya,Oyas,2,fruits_nombre,68,fruits / plant,
+2024,H,8,H8,oya,Oyas,2,fruits_commercialisables,53,fruits / plant,
+2024,H,8,H8,oya,Oyas,2,poids_moyen_fruit,44.7206,g,
+2024,H,8,H8,oya,Oyas,2,inflorescences_total,14,inflorescences / plant,"toutes les branches comptées séparément (codes 1, 1D, 1G…), comme le mémoire"
+2024,H,8,H8,oya,Oyas,2,inflorescences_productives,14,inflorescences / plant,
+2024,H,8,H8,oya,Oyas,2,inflorescences_ramifiees,12,branches / plant,"codes avec lettre (D, G, H, M…) ; définition déduite des totaux du mémoire (p. 48)"
+2024,H,8,H8,oya,Oyas,2,fleurs_total,126,fleurs / plant,
+2024,H,8,H8,oya,Oyas,2,taux_avortement,0.4603,proportion (0–1),fleurs sans fruit / fleurs (feuille « inflorescence »)
+2024,H,8,H8,oya,Oyas,2,fleurs_par_inflorescence,9.0,fleurs / inflorescence,
+2024,H,8,H8,oya,Oyas,2,fruits_par_inflorescence,4.8571,fruits / inflorescence,
+2024,H,8,H8,oya,Oyas,2,eau_irrigation,27.3135,L / plant (31/05–30/09),
+2024,H,8,H8,oya,Oyas,2,rendement_par_litre,111.3369,g / L d'irrigation,rendement / eau d'irrigation ; différent du WUE du mémoire (voir rapport)
+2024,I,4,I4,direct,Semis « direct » (50 %),2,rendement_plant,2308.0,g / plant,
+2024,I,4,I4,direct,Semis « direct » (50 %),2,rendement_commercialisable,1992.0,g / plant,
+2024,I,4,I4,direct,Semis « direct » (50 %),2,fruits_nombre,54,fruits / plant,
+2024,I,4,I4,direct,Semis « direct » (50 %),2,fruits_commercialisables,38,fruits / plant,
+2024,I,4,I4,direct,Semis « direct » (50 %),2,poids_moyen_fruit,42.7407,g,
+2024,I,4,I4,direct,Semis « direct » (50 %),2,inflorescences_total,10,inflorescences / plant,"toutes les branches comptées séparément (codes 1, 1D, 1G…), comme le mémoire"
+2024,I,4,I4,direct,Semis « direct » (50 %),2,inflorescences_productives,10,inflorescences / plant,
+2024,I,4,I4,direct,Semis « direct » (50 %),2,inflorescences_ramifiees,7,branches / plant,"codes avec lettre (D, G, H, M…) ; définition déduite des totaux du mémoire (p. 48)"
+2024,I,4,I4,direct,Semis « direct » (50 %),2,fleurs_total,82,fleurs / plant,
+2024,I,4,I4,direct,Semis « direct » (50 %),2,taux_avortement,0.3415,proportion (0–1),fleurs sans fruit / fleurs (feuille « inflorescence »)
+2024,I,4,I4,direct,Semis « direct » (50 %),2,fleurs_par_inflorescence,8.2,fleurs / inflorescence,
+2024,I,4,I4,direct,Semis « direct » (50 %),2,fruits_par_inflorescence,5.4,fruits / inflorescence,
+2024,I,4,I4,direct,Semis « direct » (50 %),2,eau_irrigation,62.375,L / plant (31/05–30/09),
+2024,I,4,I4,direct,Semis « direct » (50 %),2,rendement_par_litre,37.002,g / L d'irrigation,rendement / eau d'irrigation ; différent du WUE du mémoire (voir rapport)
+2024,I,5,I5,direct,Semis « direct » (50 %),2,rendement_plant,2503.0,g / plant,
+2024,I,5,I5,direct,Semis « direct » (50 %),2,rendement_commercialisable,2318.0,g / plant,
+2024,I,5,I5,direct,Semis « direct » (50 %),2,fruits_nombre,51,fruits / plant,
+2024,I,5,I5,direct,Semis « direct » (50 %),2,fruits_commercialisables,43,fruits / plant,
+2024,I,5,I5,direct,Semis « direct » (50 %),2,poids_moyen_fruit,49.0784,g,
+2024,I,5,I5,direct,Semis « direct » (50 %),2,inflorescences_total,11,inflorescences / plant,"toutes les branches comptées séparément (codes 1, 1D, 1G…), comme le mémoire"
+2024,I,5,I5,direct,Semis « direct » (50 %),2,inflorescences_productives,7,inflorescences / plant,
+2024,I,5,I5,direct,Semis « direct » (50 %),2,inflorescences_ramifiees,6,branches / plant,"codes avec lettre (D, G, H, M…) ; définition déduite des totaux du mémoire (p. 48)"
+2024,I,5,I5,direct,Semis « direct » (50 %),2,fleurs_total,106,fleurs / plant,
+2024,I,5,I5,direct,Semis « direct » (50 %),2,taux_avortement,0.5189,proportion (0–1),fleurs sans fruit / fleurs (feuille « inflorescence »)
+2024,I,5,I5,direct,Semis « direct » (50 %),2,fleurs_par_inflorescence,9.6364,fleurs / inflorescence,
+2024,I,5,I5,direct,Semis « direct » (50 %),2,fruits_par_inflorescence,4.6364,fruits / inflorescence,
+2024,I,5,I5,direct,Semis « direct » (50 %),2,eau_irrigation,62.375,L / plant (31/05–30/09),
+2024,I,5,I5,direct,Semis « direct » (50 %),2,rendement_par_litre,40.1283,g / L d'irrigation,rendement / eau d'irrigation ; différent du WUE du mémoire (voir rapport)
+2024,I,7,I7,direct,Semis « direct » (50 %),2,rendement_plant,2042.0,g / plant,
+2024,I,7,I7,direct,Semis « direct » (50 %),2,rendement_commercialisable,1774.0,g / plant,
+2024,I,7,I7,direct,Semis « direct » (50 %),2,fruits_nombre,46,fruits / plant,
+2024,I,7,I7,direct,Semis « direct » (50 %),2,fruits_commercialisables,32,fruits / plant,
+2024,I,7,I7,direct,Semis « direct » (50 %),2,poids_moyen_fruit,44.3913,g,
+2024,I,7,I7,direct,Semis « direct » (50 %),2,inflorescences_total,22,inflorescences / plant,"toutes les branches comptées séparément (codes 1, 1D, 1G…), comme le mémoire"
+2024,I,7,I7,direct,Semis « direct » (50 %),2,inflorescences_productives,16,inflorescences / plant,
+2024,I,7,I7,direct,Semis « direct » (50 %),2,inflorescences_ramifiees,20,branches / plant,"codes avec lettre (D, G, H, M…) ; définition déduite des totaux du mémoire (p. 48)"
+2024,I,7,I7,direct,Semis « direct » (50 %),2,fleurs_total,180,fleurs / plant,
+2024,I,7,I7,direct,Semis « direct » (50 %),2,taux_avortement,0.7444,proportion (0–1),fleurs sans fruit / fleurs (feuille « inflorescence »)
+2024,I,7,I7,direct,Semis « direct » (50 %),2,fleurs_par_inflorescence,8.1818,fleurs / inflorescence,
+2024,I,7,I7,direct,Semis « direct » (50 %),2,fruits_par_inflorescence,2.0909,fruits / inflorescence,
+2024,I,7,I7,direct,Semis « direct » (50 %),2,eau_irrigation,NA,L / plant (31/05–30/09),plant absent de la feuille « irrigation »
+2024,J,1,J1,50P,50 %,3,rendement_plant,2347.0,g / plant,
+2024,J,1,J1,50P,50 %,3,rendement_commercialisable,1549.0,g / plant,
+2024,J,1,J1,50P,50 %,3,fruits_nombre,79,fruits / plant,
+2024,J,1,J1,50P,50 %,3,fruits_commercialisables,36,fruits / plant,
+2024,J,1,J1,50P,50 %,3,poids_moyen_fruit,29.7089,g,
+2024,J,1,J1,50P,50 %,3,inflorescences_total,20,inflorescences / plant,"toutes les branches comptées séparément (codes 1, 1D, 1G…), comme le mémoire"
+2024,J,1,J1,50P,50 %,3,inflorescences_productives,17,inflorescences / plant,
+2024,J,1,J1,50P,50 %,3,inflorescences_ramifiees,19,branches / plant,"codes avec lettre (D, G, H, M…) ; définition déduite des totaux du mémoire (p. 48)"
+2024,J,1,J1,50P,50 %,3,fleurs_total,152,fleurs / plant,
+2024,J,1,J1,50P,50 %,3,taux_avortement,0.4868,proportion (0–1),fleurs sans fruit / fleurs (feuille « inflorescence »)
+2024,J,1,J1,50P,50 %,3,fleurs_par_inflorescence,7.6,fleurs / inflorescence,
+2024,J,1,J1,50P,50 %,3,fruits_par_inflorescence,3.9,fruits / inflorescence,
+2024,J,1,J1,50P,50 %,3,eau_irrigation,63.375,L / plant (31/05–30/09),
+2024,J,1,J1,50P,50 %,3,rendement_par_litre,37.0335,g / L d'irrigation,rendement / eau d'irrigation ; différent du WUE du mémoire (voir rapport)
+2024,J,4,J4,50P,50 %,3,rendement_plant,3038.0,g / plant,
+2024,J,4,J4,50P,50 %,3,rendement_commercialisable,2487.0,g / plant,
+2024,J,4,J4,50P,50 %,3,fruits_nombre,69,fruits / plant,
+2024,J,4,J4,50P,50 %,3,fruits_commercialisables,43,fruits / plant,
+2024,J,4,J4,50P,50 %,3,poids_moyen_fruit,44.029,g,
+2024,J,4,J4,50P,50 %,3,inflorescences_total,14,inflorescences / plant,"toutes les branches comptées séparément (codes 1, 1D, 1G…), comme le mémoire"
+2024,J,4,J4,50P,50 %,3,inflorescences_productives,14,inflorescences / plant,
+2024,J,4,J4,50P,50 %,3,inflorescences_ramifiees,11,branches / plant,"codes avec lettre (D, G, H, M…) ; définition déduite des totaux du mémoire (p. 48)"
+2024,J,4,J4,50P,50 %,3,fleurs_total,164,fleurs / plant,
+2024,J,4,J4,50P,50 %,3,taux_avortement,0.5793,proportion (0–1),fleurs sans fruit / fleurs (feuille « inflorescence »)
+2024,J,4,J4,50P,50 %,3,fleurs_par_inflorescence,11.7143,fleurs / inflorescence,
+2024,J,4,J4,50P,50 %,3,fruits_par_inflorescence,4.9286,fruits / inflorescence,
+2024,J,4,J4,50P,50 %,3,eau_irrigation,63.375,L / plant (31/05–30/09),
+2024,J,4,J4,50P,50 %,3,rendement_par_litre,47.9369,g / L d'irrigation,rendement / eau d'irrigation ; différent du WUE du mémoire (voir rapport)
+2024,J,7,J7,50P,50 %,3,rendement_plant,2211.0,g / plant,
+2024,J,7,J7,50P,50 %,3,rendement_commercialisable,1995.0,g / plant,
+2024,J,7,J7,50P,50 %,3,fruits_nombre,49,fruits / plant,
+2024,J,7,J7,50P,50 %,3,fruits_commercialisables,40,fruits / plant,
+2024,J,7,J7,50P,50 %,3,poids_moyen_fruit,45.1224,g,
+2024,J,7,J7,50P,50 %,3,inflorescences_total,10,inflorescences / plant,"toutes les branches comptées séparément (codes 1, 1D, 1G…), comme le mémoire"
+2024,J,7,J7,50P,50 %,3,inflorescences_productives,10,inflorescences / plant,
+2024,J,7,J7,50P,50 %,3,inflorescences_ramifiees,6,branches / plant,"codes avec lettre (D, G, H, M…) ; définition déduite des totaux du mémoire (p. 48)"
+2024,J,7,J7,50P,50 %,3,fleurs_total,88,fleurs / plant,
+2024,J,7,J7,50P,50 %,3,taux_avortement,0.4432,proportion (0–1),fleurs sans fruit / fleurs (feuille « inflorescence »)
+2024,J,7,J7,50P,50 %,3,fleurs_par_inflorescence,8.8,fleurs / inflorescence,
+2024,J,7,J7,50P,50 %,3,fruits_par_inflorescence,4.9,fruits / inflorescence,
+2024,J,7,J7,50P,50 %,3,eau_irrigation,63.375,L / plant (31/05–30/09),
+2024,J,7,J7,50P,50 %,3,rendement_par_litre,34.8876,g / L d'irrigation,rendement / eau d'irrigation ; différent du WUE du mémoire (voir rapport)
+2024,K,3,K3,100P,100 %,2,rendement_plant,3615.0,g / plant,
+2024,K,3,K3,100P,100 %,2,rendement_commercialisable,3301.0,g / plant,
+2024,K,3,K3,100P,100 %,2,fruits_nombre,78,fruits / plant,
+2024,K,3,K3,100P,100 %,2,fruits_commercialisables,61,fruits / plant,
+2024,K,3,K3,100P,100 %,2,poids_moyen_fruit,46.3462,g,
+2024,K,3,K3,100P,100 %,2,inflorescences_total,13,inflorescences / plant,"toutes les branches comptées séparément (codes 1, 1D, 1G…), comme le mémoire"
+2024,K,3,K3,100P,100 %,2,inflorescences_productives,12,inflorescences / plant,
+2024,K,3,K3,100P,100 %,2,inflorescences_ramifiees,8,branches / plant,"codes avec lettre (D, G, H, M…) ; définition déduite des totaux du mémoire (p. 48)"
+2024,K,3,K3,100P,100 %,2,fleurs_total,111,fleurs / plant,
+2024,K,3,K3,100P,100 %,2,taux_avortement,0.2973,proportion (0–1),fleurs sans fruit / fleurs (feuille « inflorescence »)
+2024,K,3,K3,100P,100 %,2,fleurs_par_inflorescence,8.5385,fleurs / inflorescence,
+2024,K,3,K3,100P,100 %,2,fruits_par_inflorescence,6.0,fruits / inflorescence,
+2024,K,3,K3,100P,100 %,2,eau_irrigation,126.75,L / plant (31/05–30/09),
+2024,K,3,K3,100P,100 %,2,rendement_par_litre,28.5207,g / L d'irrigation,rendement / eau d'irrigation ; différent du WUE du mémoire (voir rapport)
+2024,K,7,K7,100P,100 %,2,rendement_plant,3249.0,g / plant,
+2024,K,7,K7,100P,100 %,2,rendement_commercialisable,2828.0,g / plant,
+2024,K,7,K7,100P,100 %,2,fruits_nombre,81,fruits / plant,
+2024,K,7,K7,100P,100 %,2,fruits_commercialisables,56,fruits / plant,
+2024,K,7,K7,100P,100 %,2,poids_moyen_fruit,40.1111,g,
+2024,K,7,K7,100P,100 %,2,inflorescences_total,13,inflorescences / plant,"toutes les branches comptées séparément (codes 1, 1D, 1G…), comme le mémoire"
+2024,K,7,K7,100P,100 %,2,inflorescences_productives,13,inflorescences / plant,
+2024,K,7,K7,100P,100 %,2,inflorescences_ramifiees,6,branches / plant,"codes avec lettre (D, G, H, M…) ; définition déduite des totaux du mémoire (p. 48)"
+2024,K,7,K7,100P,100 %,2,fleurs_total,118,fleurs / plant,
+2024,K,7,K7,100P,100 %,2,taux_avortement,0.3136,proportion (0–1),fleurs sans fruit / fleurs (feuille « inflorescence »)
+2024,K,7,K7,100P,100 %,2,fleurs_par_inflorescence,9.0769,fleurs / inflorescence,
+2024,K,7,K7,100P,100 %,2,fruits_par_inflorescence,6.2308,fruits / inflorescence,
+2024,K,7,K7,100P,100 %,2,eau_irrigation,126.75,L / plant (31/05–30/09),
+2024,K,7,K7,100P,100 %,2,rendement_par_litre,25.6331,g / L d'irrigation,rendement / eau d'irrigation ; différent du WUE du mémoire (voir rapport)
+2024,K,8,K8,100P,100 %,2,rendement_plant,4111.0,g / plant,
+2024,K,8,K8,100P,100 %,2,rendement_commercialisable,3601.0,g / plant,
+2024,K,8,K8,100P,100 %,2,fruits_nombre,89,fruits / plant,
+2024,K,8,K8,100P,100 %,2,fruits_commercialisables,63,fruits / plant,
+2024,K,8,K8,100P,100 %,2,poids_moyen_fruit,46.191,g,
+2024,K,8,K8,100P,100 %,2,inflorescences_total,13,inflorescences / plant,"toutes les branches comptées séparément (codes 1, 1D, 1G…), comme le mémoire"
+2024,K,8,K8,100P,100 %,2,inflorescences_productives,13,inflorescences / plant,
+2024,K,8,K8,100P,100 %,2,inflorescences_ramifiees,7,branches / plant,"codes avec lettre (D, G, H, M…) ; définition déduite des totaux du mémoire (p. 48)"
+2024,K,8,K8,100P,100 %,2,fleurs_total,137,fleurs / plant,
+2024,K,8,K8,100P,100 %,2,taux_avortement,0.3577,proportion (0–1),fleurs sans fruit / fleurs (feuille « inflorescence »)
+2024,K,8,K8,100P,100 %,2,fleurs_par_inflorescence,10.5385,fleurs / inflorescence,
+2024,K,8,K8,100P,100 %,2,fruits_par_inflorescence,6.7692,fruits / inflorescence,
+2024,K,8,K8,100P,100 %,2,eau_irrigation,126.75,L / plant (31/05–30/09),
+2024,K,8,K8,100P,100 %,2,rendement_par_litre,32.4339,g / L d'irrigation,rendement / eau d'irrigation ; différent du WUE du mémoire (voir rapport)
+2024,L,2,L2,oya,Oyas,3,rendement_plant,2254.0,g / plant,
+2024,L,2,L2,oya,Oyas,3,rendement_commercialisable,1989.0,g / plant,
+2024,L,2,L2,oya,Oyas,3,fruits_nombre,53,fruits / plant,
+2024,L,2,L2,oya,Oyas,3,fruits_commercialisables,38,fruits / plant,
+2024,L,2,L2,oya,Oyas,3,poids_moyen_fruit,42.5283,g,
+2024,L,2,L2,oya,Oyas,3,inflorescences_total,9,inflorescences / plant,"toutes les branches comptées séparément (codes 1, 1D, 1G…), comme le mémoire"
+2024,L,2,L2,oya,Oyas,3,inflorescences_productives,9,inflorescences / plant,
+2024,L,2,L2,oya,Oyas,3,inflorescences_ramifiees,3,branches / plant,"codes avec lettre (D, G, H, M…) ; définition déduite des totaux du mémoire (p. 48)"
+2024,L,2,L2,oya,Oyas,3,fleurs_total,75,fleurs / plant,
+2024,L,2,L2,oya,Oyas,3,taux_avortement,0.2933,proportion (0–1),fleurs sans fruit / fleurs (feuille « inflorescence »)
+2024,L,2,L2,oya,Oyas,3,fleurs_par_inflorescence,8.3333,fleurs / inflorescence,
+2024,L,2,L2,oya,Oyas,3,fruits_par_inflorescence,5.8889,fruits / inflorescence,
+2024,L,2,L2,oya,Oyas,3,eau_irrigation,22.6521,L / plant (31/05–30/09),
+2024,L,2,L2,oya,Oyas,3,rendement_par_litre,99.5049,g / L d'irrigation,rendement / eau d'irrigation ; différent du WUE du mémoire (voir rapport)
+2024,L,4,L4,oya,Oyas,3,rendement_plant,1846.0,g / plant,
+2024,L,4,L4,oya,Oyas,3,rendement_commercialisable,1340.0,g / plant,
+2024,L,4,L4,oya,Oyas,3,fruits_nombre,57,fruits / plant,
+2024,L,4,L4,oya,Oyas,3,fruits_commercialisables,29,fruits / plant,
+2024,L,4,L4,oya,Oyas,3,poids_moyen_fruit,32.386,g,
+2024,L,4,L4,oya,Oyas,3,inflorescences_total,10,inflorescences / plant,"toutes les branches comptées séparément (codes 1, 1D, 1G…), comme le mémoire"
+2024,L,4,L4,oya,Oyas,3,inflorescences_productives,10,inflorescences / plant,
+2024,L,4,L4,oya,Oyas,3,inflorescences_ramifiees,8,branches / plant,"codes avec lettre (D, G, H, M…) ; définition déduite des totaux du mémoire (p. 48)"
+2024,L,4,L4,oya,Oyas,3,fleurs_total,83,fleurs / plant,
+2024,L,4,L4,oya,Oyas,3,taux_avortement,0.3133,proportion (0–1),fleurs sans fruit / fleurs (feuille « inflorescence »)
+2024,L,4,L4,oya,Oyas,3,fleurs_par_inflorescence,8.3,fleurs / inflorescence,
+2024,L,4,L4,oya,Oyas,3,fruits_par_inflorescence,5.7,fruits / inflorescence,
+2024,L,4,L4,oya,Oyas,3,eau_irrigation,22.6521,L / plant (31/05–30/09),
+2024,L,4,L4,oya,Oyas,3,rendement_par_litre,81.4934,g / L d'irrigation,rendement / eau d'irrigation ; différent du WUE du mémoire (voir rapport)
+2024,L,8,L8,oya,Oyas,3,rendement_plant,2380.0,g / plant,
+2024,L,8,L8,oya,Oyas,3,rendement_commercialisable,1882.0,g / plant,
+2024,L,8,L8,oya,Oyas,3,fruits_nombre,64,fruits / plant,
+2024,L,8,L8,oya,Oyas,3,fruits_commercialisables,40,fruits / plant,
+2024,L,8,L8,oya,Oyas,3,poids_moyen_fruit,37.1875,g,
+2024,L,8,L8,oya,Oyas,3,inflorescences_total,13,inflorescences / plant,"toutes les branches comptées séparément (codes 1, 1D, 1G…), comme le mémoire"
+2024,L,8,L8,oya,Oyas,3,inflorescences_productives,13,inflorescences / plant,
+2024,L,8,L8,oya,Oyas,3,inflorescences_ramifiees,8,branches / plant,"codes avec lettre (D, G, H, M…) ; définition déduite des totaux du mémoire (p. 48)"
+2024,L,8,L8,oya,Oyas,3,fleurs_total,134,fleurs / plant,
+2024,L,8,L8,oya,Oyas,3,taux_avortement,0.5224,proportion (0–1),fleurs sans fruit / fleurs (feuille « inflorescence »)
+2024,L,8,L8,oya,Oyas,3,fleurs_par_inflorescence,10.3077,fleurs / inflorescence,
+2024,L,8,L8,oya,Oyas,3,fruits_par_inflorescence,4.9231,fruits / inflorescence,
+2024,L,8,L8,oya,Oyas,3,eau_irrigation,24.5028,L / plant (31/05–30/09),
+2024,L,8,L8,oya,Oyas,3,rendement_par_litre,97.1317,g / L d'irrigation,rendement / eau d'irrigation ; différent du WUE du mémoire (voir rapport)
+2024,M,3,M3,direct,Semis « direct » (50 %),3,rendement_plant,678.0,g / plant,
+2024,M,3,M3,direct,Semis « direct » (50 %),3,rendement_commercialisable,569.0,g / plant,
+2024,M,3,M3,direct,Semis « direct » (50 %),3,fruits_nombre,27,fruits / plant,
+2024,M,3,M3,direct,Semis « direct » (50 %),3,fruits_commercialisables,9,fruits / plant,
+2024,M,3,M3,direct,Semis « direct » (50 %),3,poids_moyen_fruit,25.1111,g,
+2024,M,3,M3,direct,Semis « direct » (50 %),3,inflorescences_total,6,inflorescences / plant,"toutes les branches comptées séparément (codes 1, 1D, 1G…), comme le mémoire"
+2024,M,3,M3,direct,Semis « direct » (50 %),3,inflorescences_productives,5,inflorescences / plant,
+2024,M,3,M3,direct,Semis « direct » (50 %),3,inflorescences_ramifiees,2,branches / plant,"codes avec lettre (D, G, H, M…) ; définition déduite des totaux du mémoire (p. 48)"
+2024,M,3,M3,direct,Semis « direct » (50 %),3,fleurs_total,69,fleurs / plant,
+2024,M,3,M3,direct,Semis « direct » (50 %),3,taux_avortement,0.5362,proportion (0–1),fleurs sans fruit / fleurs (feuille « inflorescence »)
+2024,M,3,M3,direct,Semis « direct » (50 %),3,fleurs_par_inflorescence,11.5,fleurs / inflorescence,
+2024,M,3,M3,direct,Semis « direct » (50 %),3,fruits_par_inflorescence,5.3333,fruits / inflorescence,
+2024,M,3,M3,direct,Semis « direct » (50 %),3,eau_irrigation,62.875,L / plant (31/05–30/09),
+2024,M,3,M3,direct,Semis « direct » (50 %),3,rendement_par_litre,10.7833,g / L d'irrigation,rendement / eau d'irrigation ; différent du WUE du mémoire (voir rapport)
+2024,M,4,M4,direct,Semis « direct » (50 %),3,rendement_plant,1773.0,g / plant,
+2024,M,4,M4,direct,Semis « direct » (50 %),3,rendement_commercialisable,1669.0,g / plant,
+2024,M,4,M4,direct,Semis « direct » (50 %),3,fruits_nombre,38,fruits / plant,
+2024,M,4,M4,direct,Semis « direct » (50 %),3,fruits_commercialisables,33,fruits / plant,
+2024,M,4,M4,direct,Semis « direct » (50 %),3,poids_moyen_fruit,46.6579,g,
+2024,M,4,M4,direct,Semis « direct » (50 %),3,inflorescences_total,13,inflorescences / plant,"toutes les branches comptées séparément (codes 1, 1D, 1G…), comme le mémoire"
+2024,M,4,M4,direct,Semis « direct » (50 %),3,inflorescences_productives,9,inflorescences / plant,
+2024,M,4,M4,direct,Semis « direct » (50 %),3,inflorescences_ramifiees,6,branches / plant,"codes avec lettre (D, G, H, M…) ; définition déduite des totaux du mémoire (p. 48)"
+2024,M,4,M4,direct,Semis « direct » (50 %),3,fleurs_total,138,fleurs / plant,
+2024,M,4,M4,direct,Semis « direct » (50 %),3,taux_avortement,0.7246,proportion (0–1),fleurs sans fruit / fleurs (feuille « inflorescence »)
+2024,M,4,M4,direct,Semis « direct » (50 %),3,fleurs_par_inflorescence,10.6154,fleurs / inflorescence,
+2024,M,4,M4,direct,Semis « direct » (50 %),3,fruits_par_inflorescence,2.9231,fruits / inflorescence,
+2024,M,4,M4,direct,Semis « direct » (50 %),3,eau_irrigation,62.875,L / plant (31/05–30/09),
+2024,M,4,M4,direct,Semis « direct » (50 %),3,rendement_par_litre,28.1988,g / L d'irrigation,rendement / eau d'irrigation ; différent du WUE du mémoire (voir rapport)
+2024,M,8,M8,direct,Semis « direct » (50 %),3,rendement_plant,1302.0,g / plant,
+2024,M,8,M8,direct,Semis « direct » (50 %),3,rendement_commercialisable,1061.0,g / plant,
+2024,M,8,M8,direct,Semis « direct » (50 %),3,fruits_nombre,35,fruits / plant,
+2024,M,8,M8,direct,Semis « direct » (50 %),3,fruits_commercialisables,21,fruits / plant,
+2024,M,8,M8,direct,Semis « direct » (50 %),3,poids_moyen_fruit,37.2,g,
+2024,M,8,M8,direct,Semis « direct » (50 %),3,inflorescences_total,10,inflorescences / plant,"toutes les branches comptées séparément (codes 1, 1D, 1G…), comme le mémoire"
+2024,M,8,M8,direct,Semis « direct » (50 %),3,inflorescences_productives,7,inflorescences / plant,
+2024,M,8,M8,direct,Semis « direct » (50 %),3,inflorescences_ramifiees,4,branches / plant,"codes avec lettre (D, G, H, M…) ; définition déduite des totaux du mémoire (p. 48)"
+2024,M,8,M8,direct,Semis « direct » (50 %),3,fleurs_total,102,fleurs / plant,
+2024,M,8,M8,direct,Semis « direct » (50 %),3,taux_avortement,0.6569,proportion (0–1),fleurs sans fruit / fleurs (feuille « inflorescence »)
+2024,M,8,M8,direct,Semis « direct » (50 %),3,fleurs_par_inflorescence,10.2,fleurs / inflorescence,
+2024,M,8,M8,direct,Semis « direct » (50 %),3,fruits_par_inflorescence,3.5,fruits / inflorescence,
+2024,M,8,M8,direct,Semis « direct » (50 %),3,eau_irrigation,62.875,L / plant (31/05–30/09),
+2024,M,8,M8,direct,Semis « direct » (50 %),3,rendement_par_litre,20.7078,g / L d'irrigation,rendement / eau d'irrigation ; différent du WUE du mémoire (voir rapport)
+2024,N,2,N2,0P,0 % (sans irrigation),3,rendement_plant,1955.0,g / plant,
+2024,N,2,N2,0P,0 % (sans irrigation),3,rendement_commercialisable,1781.0,g / plant,
+2024,N,2,N2,0P,0 % (sans irrigation),3,fruits_nombre,44,fruits / plant,
+2024,N,2,N2,0P,0 % (sans irrigation),3,fruits_commercialisables,36,fruits / plant,
+2024,N,2,N2,0P,0 % (sans irrigation),3,poids_moyen_fruit,44.4318,g,
+2024,N,2,N2,0P,0 % (sans irrigation),3,inflorescences_total,8,inflorescences / plant,"toutes les branches comptées séparément (codes 1, 1D, 1G…), comme le mémoire"
+2024,N,2,N2,0P,0 % (sans irrigation),3,inflorescences_productives,8,inflorescences / plant,
+2024,N,2,N2,0P,0 % (sans irrigation),3,inflorescences_ramifiees,2,branches / plant,"codes avec lettre (D, G, H, M…) ; définition déduite des totaux du mémoire (p. 48)"
+2024,N,2,N2,0P,0 % (sans irrigation),3,fleurs_total,73,fleurs / plant,
+2024,N,2,N2,0P,0 % (sans irrigation),3,taux_avortement,0.3973,proportion (0–1),fleurs sans fruit / fleurs (feuille « inflorescence »)
+2024,N,2,N2,0P,0 % (sans irrigation),3,fleurs_par_inflorescence,9.125,fleurs / inflorescence,
+2024,N,2,N2,0P,0 % (sans irrigation),3,fruits_par_inflorescence,5.5,fruits / inflorescence,
+2024,N,2,N2,0P,0 % (sans irrigation),3,eau_irrigation,0.0,L / plant (31/05–30/09),
+2024,N,2,N2,0P,0 % (sans irrigation),3,rendement_par_litre,NA,g / L d'irrigation,non défini sans irrigation (0P)
+2024,N,7,N7,0P,0 % (sans irrigation),3,rendement_plant,1496.0,g / plant,
+2024,N,7,N7,0P,0 % (sans irrigation),3,rendement_commercialisable,1067.0,g / plant,
+2024,N,7,N7,0P,0 % (sans irrigation),3,fruits_nombre,45,fruits / plant,
+2024,N,7,N7,0P,0 % (sans irrigation),3,fruits_commercialisables,25,fruits / plant,
+2024,N,7,N7,0P,0 % (sans irrigation),3,poids_moyen_fruit,33.2444,g,
+2024,N,7,N7,0P,0 % (sans irrigation),3,inflorescences_total,11,inflorescences / plant,"toutes les branches comptées séparément (codes 1, 1D, 1G…), comme le mémoire"
+2024,N,7,N7,0P,0 % (sans irrigation),3,inflorescences_productives,9,inflorescences / plant,
+2024,N,7,N7,0P,0 % (sans irrigation),3,inflorescences_ramifiees,3,branches / plant,"codes avec lettre (D, G, H, M…) ; définition déduite des totaux du mémoire (p. 48)"
+2024,N,7,N7,0P,0 % (sans irrigation),3,fleurs_total,82,fleurs / plant,
+2024,N,7,N7,0P,0 % (sans irrigation),3,taux_avortement,0.4512,proportion (0–1),fleurs sans fruit / fleurs (feuille « inflorescence »)
+2024,N,7,N7,0P,0 % (sans irrigation),3,fleurs_par_inflorescence,7.4545,fleurs / inflorescence,
+2024,N,7,N7,0P,0 % (sans irrigation),3,fruits_par_inflorescence,4.0909,fruits / inflorescence,
+2024,N,7,N7,0P,0 % (sans irrigation),3,eau_irrigation,0.0,L / plant (31/05–30/09),
+2024,N,7,N7,0P,0 % (sans irrigation),3,rendement_par_litre,NA,g / L d'irrigation,non défini sans irrigation (0P)
+2024,N,8,N8,0P,0 % (sans irrigation),3,rendement_plant,2443.0,g / plant,
+2024,N,8,N8,0P,0 % (sans irrigation),3,rendement_commercialisable,1825.0,g / plant,
+2024,N,8,N8,0P,0 % (sans irrigation),3,fruits_nombre,74,fruits / plant,
+2024,N,8,N8,0P,0 % (sans irrigation),3,fruits_commercialisables,38,fruits / plant,
+2024,N,8,N8,0P,0 % (sans irrigation),3,poids_moyen_fruit,33.0135,g,
+2024,N,8,N8,0P,0 % (sans irrigation),3,inflorescences_total,13,inflorescences / plant,"toutes les branches comptées séparément (codes 1, 1D, 1G…), comme le mémoire"
+2024,N,8,N8,0P,0 % (sans irrigation),3,inflorescences_productives,13,inflorescences / plant,
+2024,N,8,N8,0P,0 % (sans irrigation),3,inflorescences_ramifiees,7,branches / plant,"codes avec lettre (D, G, H, M…) ; définition déduite des totaux du mémoire (p. 48)"
+2024,N,8,N8,0P,0 % (sans irrigation),3,fleurs_total,140,fleurs / plant,
+2024,N,8,N8,0P,0 % (sans irrigation),3,taux_avortement,0.4786,proportion (0–1),fleurs sans fruit / fleurs (feuille « inflorescence »)
+2024,N,8,N8,0P,0 % (sans irrigation),3,fleurs_par_inflorescence,10.7692,fleurs / inflorescence,
+2024,N,8,N8,0P,0 % (sans irrigation),3,fruits_par_inflorescence,5.6154,fruits / inflorescence,
+2024,N,8,N8,0P,0 % (sans irrigation),3,eau_irrigation,0.0,L / plant (31/05–30/09),
+2024,N,8,N8,0P,0 % (sans irrigation),3,rendement_par_litre,NA,g / L d'irrigation,non défini sans irrigation (0P)
+2024,O,2,O2,100P,100 %,3,rendement_plant,4732.0,g / plant,
+2024,O,2,O2,100P,100 %,3,rendement_commercialisable,4044.0,g / plant,
+2024,O,2,O2,100P,100 %,3,fruits_nombre,111,fruits / plant,
+2024,O,2,O2,100P,100 %,3,fruits_commercialisables,77,fruits / plant,
+2024,O,2,O2,100P,100 %,3,poids_moyen_fruit,42.6306,g,
+2024,O,2,O2,100P,100 %,3,inflorescences_total,15,inflorescences / plant,"toutes les branches comptées séparément (codes 1, 1D, 1G…), comme le mémoire"
+2024,O,2,O2,100P,100 %,3,inflorescences_productives,15,inflorescences / plant,
+2024,O,2,O2,100P,100 %,3,inflorescences_ramifiees,11,branches / plant,"codes avec lettre (D, G, H, M…) ; définition déduite des totaux du mémoire (p. 48)"
+2024,O,2,O2,100P,100 %,3,fleurs_total,159,fleurs / plant,
+2024,O,2,O2,100P,100 %,3,taux_avortement,0.3019,proportion (0–1),fleurs sans fruit / fleurs (feuille « inflorescence »)
+2024,O,2,O2,100P,100 %,3,fleurs_par_inflorescence,10.6,fleurs / inflorescence,
+2024,O,2,O2,100P,100 %,3,fruits_par_inflorescence,7.4,fruits / inflorescence,
+2024,O,2,O2,100P,100 %,3,eau_irrigation,126.75,L / plant (31/05–30/09),
+2024,O,2,O2,100P,100 %,3,rendement_par_litre,37.3333,g / L d'irrigation,rendement / eau d'irrigation ; différent du WUE du mémoire (voir rapport)
+2024,O,3,O3,100P,100 %,3,rendement_plant,4340.0,g / plant,
+2024,O,3,O3,100P,100 %,3,rendement_commercialisable,4025.0,g / plant,
+2024,O,3,O3,100P,100 %,3,fruits_nombre,88,fruits / plant,
+2024,O,3,O3,100P,100 %,3,fruits_commercialisables,72,fruits / plant,
+2024,O,3,O3,100P,100 %,3,poids_moyen_fruit,49.3182,g,
+2024,O,3,O3,100P,100 %,3,inflorescences_total,14,inflorescences / plant,"toutes les branches comptées séparément (codes 1, 1D, 1G…), comme le mémoire"
+2024,O,3,O3,100P,100 %,3,inflorescences_productives,14,inflorescences / plant,
+2024,O,3,O3,100P,100 %,3,inflorescences_ramifiees,10,branches / plant,"codes avec lettre (D, G, H, M…) ; définition déduite des totaux du mémoire (p. 48)"
+2024,O,3,O3,100P,100 %,3,fleurs_total,156,fleurs / plant,
+2024,O,3,O3,100P,100 %,3,taux_avortement,0.4359,proportion (0–1),fleurs sans fruit / fleurs (feuille « inflorescence »)
+2024,O,3,O3,100P,100 %,3,fleurs_par_inflorescence,11.1429,fleurs / inflorescence,
+2024,O,3,O3,100P,100 %,3,fruits_par_inflorescence,6.2857,fruits / inflorescence,
+2024,O,3,O3,100P,100 %,3,eau_irrigation,126.75,L / plant (31/05–30/09),
+2024,O,3,O3,100P,100 %,3,rendement_par_litre,34.2406,g / L d'irrigation,rendement / eau d'irrigation ; différent du WUE du mémoire (voir rapport)
+2024,O,6,O6,100P,100 %,3,rendement_plant,2811.0,g / plant,
+2024,O,6,O6,100P,100 %,3,rendement_commercialisable,2602.0,g / plant,
+2024,O,6,O6,100P,100 %,3,fruits_nombre,60,fruits / plant,
+2024,O,6,O6,100P,100 %,3,fruits_commercialisables,51,fruits / plant,
+2024,O,6,O6,100P,100 %,3,poids_moyen_fruit,46.85,g,
+2024,O,6,O6,100P,100 %,3,inflorescences_total,8,inflorescences / plant,"toutes les branches comptées séparément (codes 1, 1D, 1G…), comme le mémoire"
+2024,O,6,O6,100P,100 %,3,inflorescences_productives,8,inflorescences / plant,
+2024,O,6,O6,100P,100 %,3,inflorescences_ramifiees,2,branches / plant,"codes avec lettre (D, G, H, M…) ; définition déduite des totaux du mémoire (p. 48)"
+2024,O,6,O6,100P,100 %,3,fleurs_total,79,fleurs / plant,
+2024,O,6,O6,100P,100 %,3,taux_avortement,0.2405,proportion (0–1),fleurs sans fruit / fleurs (feuille « inflorescence »)
+2024,O,6,O6,100P,100 %,3,fleurs_par_inflorescence,9.875,fleurs / inflorescence,
+2024,O,6,O6,100P,100 %,3,fruits_par_inflorescence,7.5,fruits / inflorescence,
+2024,O,6,O6,100P,100 %,3,eau_irrigation,126.75,L / plant (31/05–30/09),
+2024,O,6,O6,100P,100 %,3,rendement_par_litre,22.1775,g / L d'irrigation,rendement / eau d'irrigation ; différent du WUE du mémoire (voir rapport)

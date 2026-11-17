@@ -1,0 +1,46 @@
+colonne,description,unite,type,valeurs_possibles,source
+saison,Saison de culture (année de la mesure),-,entier,2025 ; 2026,Data_compil.xlsx
+date,Date de mesure ou de prélèvement (ISO),-,date,2025-10-20 à 2026-06-19,Data_compil.xlsx
+parcelle,Identifiant de parcelle = colonne + rang,-,texte,A1 … C10 (30 parcelles de 12 m²),"Data_compil.xlsx, feuille README"
+colonne,Colonne du dispositif (facteur de blocage),-,texte,A ; B ; C,PDF p. 23
+rang,"Rang dans la colonne (1 à 10), utilisé comme covariable de gradient",-,entier,1–10,"PDF p. 23, 38"
+bloc,Bloc légume (rangs 1–5 = bloc 1 ; rangs 6–10 = bloc 2),-,entier,1 ; 2,PDF p. 23
+modalite,Modalité de paillage,-,texte,Bâche plastique ; BRF ; Miscanthus ; Trèfle ; Mix (mélilot jaune + moha),PDF p. 21–23 (« Plastic » dans les données d'origine)
+culture,Culture en place ou objet mesuré,-,texte,Laitue ; Épinard ; Fenouil ; Oignon ; Aucune (paillage vivant) ; Paillage vivant ; Sol (avant plantation) ; Chou kale / potimarron (plantation),PDF p. 24–28
+variable,Nom de la variable mesurée (voir lignes 'variable = …'),-,texte,voir ci-dessous,-
+valeur,Valeur mesurée (moyenne parcelle),voir colonne unite,numérique,NA = manquant,Data_compil.xlsx
+unite,Unité de la valeur,-,texte,-,PDF chap. 4
+flag,Remarque de qualité ; vide = pas de remarque. Aucune observation n'a été supprimée,-,texte,texte libre,rapport_preparation.md
+variable = ph_eau,"pH eau, prélèvement 0–25 cm, 15 carottes/parcelle",-,numérique,,"MOCA, 3–4 mars 2026 (PDF p. 29)"
+variable = ph_kcl,pH KCl,-,numérique,,idem
+variable = azote_total,"Azote total (Dumas), sol sec",% (sol sec),numérique,,idem
+variable = carbone_total,"Carbone total (Dumas), sol sec ; ≈ carbone organique (pas de carbonates)",% (sol sec),numérique,,"idem, PDF p. 30"
+variable = rapport_cn,Rapport C/N (sol sec),-,numérique,,idem
+variable = vess,"Score VESS de structure du sol, moyenne de 2 blocs de bêche (1 = idéal, 5 = très compact)",score 1–5,numérique,,"avril 2026 (PDF p. 30, 40)"
+variable = lombrics_total,"Nombre de vers de terre, moyenne de 2 blocs de bêche 20×20×25 cm",individus / bloc de bêche,numérique,,"avril 2026 (PDF p. 32, 48)"
+variable = lombrics_epiges,Vers épigés,individus / bloc de bêche,numérique,,idem
+variable = lombrics_endoges,Vers endogés,individus / bloc de bêche,numérique,,idem
+variable = lombrics_epi_aneciques,Vers épi-anéciques,individus / bloc de bêche,numérique,,idem
+variable = lombrics_aneciques_stricts,Vers anéciques stricts,individus / bloc de bêche,numérique,,idem
+variable = lombrics_non_identifies,Vers non attribués à un groupe,individus / bloc de bêche,numérique,,idem
+variable = carbone_microbien,"Biomasse microbienne (fumigation-extraction), 0–25 cm",mg C / kg sol sec,numérique,,"CPAR, 16–18 juin 2026 (PDF p. 32, 49)"
+variable = humidite_ponderale,Humidité pondérale des échantillons de carbone microbien,% (masse),numérique,,"idem (PDF p. 33, 52)"
+variable = adventices_densite,"Densité d'adventices sur 0,5 m², ramenée au m² — exploratoire",individus / m²,numérique,,"11 mai 2026 (PDF p. 34–35, 56)"
+variable = adventices_especes,"Nombre d'espèces d'adventices, ramené au m² — exploratoire",espèces / m²,numérique,,idem
+variable = couverture_foliaire,"Couverture verte (Canopeo), moyenne de 3 photos/parcelle",%,numérique,,"2, 7, 12 et 16 mai 2026 (PDF p. 33, 45, 50)"
+variable = spad,"Indice chlorophyllien SPAD-502Plus, moyenne parcelle",indice SPAD,numérique,,"8–10 mai 2026 (PDF p. 34, 44)"
+variable = biomasse_plant,Masse fraîche commercialisable par plant (sans racines ni feuilles abîmées),g / plant (frais),numérique,,"16–17 mai 2026 ; fenouil/oignon oct. 2025 (PDF p. 34, 46–47)"
+variable = biomasse_racinaire_plant,Masse racinaire fraîche par plant (fenouil 2025),g / plant (frais),numérique,,oct. 2025 (PDF p. 34)
+variable = infiltration_stabilisee,"Taux d'infiltration stabilisé, anneau simple Ø 12 cm, moyenne des réplicats conservés",cm / min,numérique,,"15–19 juin 2026 (PDF p. 31, 51)"
+variable = horton_f0,Modèle de Horton : taux d'infiltration initial,cm / min,numérique,,"idem (PDF p. 32, 51)"
+variable = horton_fc,Modèle de Horton : taux d'infiltration final,cm / min,numérique,,idem
+variable = horton_k,Modèle de Horton : constante de décroissance,min⁻¹,numérique,,idem
+capteurs_journaliers.csv : sonde,Identifiant de la sonde TMS-4 (Lolly),-,texte,L1 … L9,Lolly_capteurs_Humid_tempé.xlsx
+capteurs_journaliers.csv : date,Jour (ISO),-,date,2026-03-09 à 2026-07-09,idem
+capteurs_journaliers.csv : parcelle / modalite,"Parcelle où se trouve la sonde ce jour-là, et sa modalité",-,texte,voir donnees.csv,idem ; PDF p. 31
+capteurs_journaliers.csv : n_mesures,Nombre de mesures (pas de 15 min) dans la journée,-,entier,1–96,calcul
+capteurs_journaliers.csv : t_sol,"Température du sol à −6 cm, moyenne journalière",°C,numérique,,idem
+capteurs_journaliers.csv : t_surface,"Température à la surface du sol, moyenne journalière",°C,numérique,,idem
+capteurs_journaliers.csv : t_air,"Température de l'air à +15 cm, moyenne journalière",°C,numérique,,idem
+capteurs_journaliers.csv : humidite_vol,"Teneur en eau volumique 0–12 cm (calibration « silt loam »), moyenne journalière",% (volume),numérique,,idem ; PDF p. 31
+capteurs_journaliers.csv : flag,Journée incomplète ou sonde déplacée ce jour-là,-,texte,,calcul
