@@ -1,0 +1,53 @@
+variable,culture,modalite,n,moyenne,ecart_type
+azote_total,Sol (avant plantation),Bâche plastique,6,0.216,0.046
+azote_total,Sol (avant plantation),BRF,6,0.221,0.025
+azote_total,Sol (avant plantation),Miscanthus,6,0.194,0.027
+azote_total,Sol (avant plantation),Trèfle,6,0.193,0.03
+azote_total,Sol (avant plantation),Mix,6,0.202,0.039
+biomasse_plant,Laitue,Bâche plastique,3,85.833,23.168
+biomasse_plant,Laitue,BRF,3,25.604,3.618
+biomasse_plant,Laitue,Miscanthus,3,28.292,4.125
+biomasse_plant,Épinard,Bâche plastique,3,104.694,16.971
+biomasse_plant,Épinard,BRF,3,27.3,2.326
+biomasse_plant,Épinard,Miscanthus,3,16.317,3.4
+carbone_microbien,Chou kale / potimarron (plantation),Bâche plastique,6,342.102,127.482
+carbone_microbien,Chou kale / potimarron (plantation),BRF,6,639.981,143.217
+carbone_microbien,Chou kale / potimarron (plantation),Miscanthus,6,478.131,122.383
+carbone_microbien,Chou kale / potimarron (plantation),Trèfle,6,517.786,102.091
+carbone_microbien,Chou kale / potimarron (plantation),Mix,6,500.217,151.987
+carbone_total,Sol (avant plantation),Bâche plastique,6,2.856,0.582
+carbone_total,Sol (avant plantation),BRF,6,2.983,0.343
+carbone_total,Sol (avant plantation),Miscanthus,6,2.444,0.401
+carbone_total,Sol (avant plantation),Trèfle,6,2.52,0.448
+carbone_total,Sol (avant plantation),Mix,6,2.613,0.478
+humidite_ponderale,Chou kale / potimarron (plantation),Bâche plastique,6,25.925,0.887
+humidite_ponderale,Chou kale / potimarron (plantation),BRF,6,26.562,1.237
+humidite_ponderale,Chou kale / potimarron (plantation),Miscanthus,6,25.868,1.017
+humidite_ponderale,Chou kale / potimarron (plantation),Trèfle,6,20.61,2.703
+humidite_ponderale,Chou kale / potimarron (plantation),Mix,6,23.55,1.792
+infiltration_stabilisee,Chou kale / potimarron (plantation),Bâche plastique,6,0.632,0.164
+infiltration_stabilisee,Chou kale / potimarron (plantation),BRF,6,0.697,0.499
+infiltration_stabilisee,Chou kale / potimarron (plantation),Miscanthus,5,0.425,0.561
+infiltration_stabilisee,Chou kale / potimarron (plantation),Trèfle,6,1.329,0.749
+infiltration_stabilisee,Chou kale / potimarron (plantation),Mix,6,1.08,0.26
+lombrics_endoges,Sol (avant plantation),Bâche plastique,6,5.667,2.823
+lombrics_endoges,Sol (avant plantation),BRF,6,10.5,6.261
+lombrics_endoges,Sol (avant plantation),Miscanthus,6,14.833,12.368
+lombrics_endoges,Sol (avant plantation),Trèfle,6,4.417,2.782
+lombrics_endoges,Sol (avant plantation),Mix,6,1.583,1.429
+lombrics_total,Sol (avant plantation),Bâche plastique,6,11.417,6.399
+lombrics_total,Sol (avant plantation),BRF,6,17.833,7.567
+lombrics_total,Sol (avant plantation),Miscanthus,6,22.833,13.378
+lombrics_total,Sol (avant plantation),Trèfle,6,7.5,3.782
+lombrics_total,Sol (avant plantation),Mix,6,4.917,1.934
+spad,Laitue,Bâche plastique,3,28.881,5.145
+spad,Laitue,BRF,3,26.458,1.161
+spad,Laitue,Miscanthus,3,26.908,2.692
+spad,Épinard,Bâche plastique,3,42.488,0.745
+spad,Épinard,BRF,3,40.355,1.164
+spad,Épinard,Miscanthus,3,39.253,0.818
+vess,Sol (avant plantation),Bâche plastique,6,1.851,0.377
+vess,Sol (avant plantation),BRF,6,1.123,0.134
+vess,Sol (avant plantation),Miscanthus,6,2.214,0.527
+vess,Sol (avant plantation),Trèfle,6,2.202,0.31
+vess,Sol (avant plantation),Mix,6,2.087,0.298

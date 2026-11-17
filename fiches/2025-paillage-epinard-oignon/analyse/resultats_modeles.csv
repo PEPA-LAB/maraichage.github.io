@@ -1,0 +1,18 @@
+variable,terme,p,r2_marginal,r2_conditionnel
+stabilite_agregats_usda,Trait,0.717,0.0659,0.347
+stabilite_agregats_usda,Bloc_Leg,0.444,0.0659,0.347
+stabilite_agregats_usda,Trait:Bloc_Leg,0.904,0.0659,0.347
+vess,Trait,0.375,0.132,NA
+lombrics_total,Trait,0.246,0.118,NA
+lombrics_total,Bloc_Leg,0.212,0.118,NA
+infiltration_chabert,Trait,6.87e-4,0.478,0.594
+adventices_cases_total,Trait,0.0447,0.578,NA
+adventices_cases_total,Bloc_Leg,0.647,0.578,NA
+adventices_cases_total,Trait:Bloc_Leg,0.0181,0.578,NA
+adventices_especes,Trait,0.00121,0.617,0.675
+adventices_especes,Bloc_Leg,0.493,0.617,0.675
+adventices_especes,Trait:Bloc_Leg,0.0216,0.617,0.675
+couverture_foliaire épinard 29/04,Trait,0.0279,0.354,0.842
+couverture_foliaire oignon 29/04,Trait,0.0284,0.423,0.693
+couverture_foliaire oignon 26/05,Trait,3.81e-4,0.399,0.927
+biomasse_echantillon,Trait,1.61e-15,0.679,0.931

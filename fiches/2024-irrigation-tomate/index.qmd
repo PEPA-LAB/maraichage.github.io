@@ -1,0 +1,128 @@
+---
+title: "Tomate sous tunnel : combien d'eau pour quel rendement ?"
+date: 2026-11-17
+annee: "2024"
+type: Mémoire
+culture: "Tomate"
+categories: [Gestion de l'eau, Tomate]
+keywords: [irrigation, oyas, stress hydrique, goutte-à-goutte, efficience de l'eau, avortement des fleurs]
+kpi: "×4,6"
+kpi_label: "moins d'eau avec les oyas qu'à 100 %"
+image: photo.jpg
+title-block-banner: photo.jpg
+resultat: "Avec 4,6 fois moins d'eau, les oyas gardent 73 % du rendement médian ; l'irrigation complète reste la plus productive (3,2 kg/plant)."
+auteurs: "Clémentine Lucca (mémoire 2025)"
+encadrement: "Guillaume Lobet ; appui technique : Sébastien François"
+author:                         # affiché sous le titre de la fiche
+  - name: "Clémentine Lucca"
+    affiliation: "PEPA Lab – UCLouvain"
+lieu: "Ferme universitaire UCLouvain de Marbaix (Chaumont-Gistoux), tunnel"
+ressources:
+  memoire: "../../documents/2024-irrigation-tomate-lucca.pdf"
+  donnees: "donnees.csv"
+  doi: "https://doi.org/10.5281/zenodo.XXXXXXX"   # [À COMPLÉTER : fichier Excel d'origine + météo]
+  code: "analyse/analyse.R"
+---
+
+::: {.callout-tip appearance="simple" icon=false}
+## À retenir pour le terrain
+- **L'irrigation complète** (≈ 127 L par plant sur la saison) donne le meilleur rendement : 3,2 kg/plant en médiane, avec les fruits les plus gros et le moins de fleurs avortées.
+- **Les oyas** (pots en terre cuite enterrés, 1 pour 4 plants) ont consommé ≈ 27 L par plant. Pour 2,4 kg/plant, chaque litre d'eau a produit ≈ 4 fois plus de tomates qu'en irrigation complète.
+- **Diviser l'eau par deux** donne 2,3 kg/plant, sans différence significative avec l'irrigation complète. Mais il y a plus d'avortement de fleurs et des fruits plus petits.
+- Sans aucune irrigation, les plants ont encore donné ≈ 2 kg chacun, grâce à un sol bien rechargé par un printemps très pluvieux. Ce n'est **pas transposable à une année sèche**.
+:::
+
+## Question
+
+En maraîchage sous tunnel, peut-on réduire l'irrigation de la tomate, ou changer de système (oyas, semis direct), sans trop perdre de rendement ? Sur quelles composantes du rendement le manque d'eau agit-il : nombre de fleurs, avortement, nombre et poids des fruits ?
+
+## Dispositif
+
+| | |
+|---|---|
+| Lieu | Ferme universitaire de Marbaix (Chaumont-Gistoux), tunnel de 20 × 7 m couvert le 14/05/2024, sol sablo-limoneux |
+| Saison | Plantation le 21/05/2024 ; traitements dès le 31/05 ; récoltes du 7/08 au 2/10/2024 |
+| Culture | Tomate 'Tigerella' (bio), semée en serre le 4/04 ; plants espacés de 50 cm sur la ligne et 75 cm entre lignes ; toile géotextile au sol, taille des apex le 29/08 |
+| Modalités | **100 %** de l'apport recommandé (goutte-à-goutte) · **50 %** · **0 %** (aucune irrigation) · **Oyas** de 5 L · **Semis « direct »** irrigué à 50 % (le semis en champ n'ayant pas levé, plants semés en serre le 21/05 et repiqués le 4/06) |
+| Plan et répétitions | 3 planches de 8 plants par traitement, réparties au hasard entre des zones tampons ; **9 plants suivis par traitement** (3 par planche) |
+| Mesures | Chaque fleur et chaque fruit (position, poids), eau apportée par plant, humidité du sol (TRIME, fin de saison), météo de Louvain-la-Neuve |
+
+## Résultats clés
+
+**Rendement.** En médiane par plant, l'irrigation complète a donné 3,25 kg, contre 2,37 kg avec les oyas, 2,35 kg à 50 %, 2,04 kg en semis « direct » et 1,96 kg sans irrigation. Statistiquement, seuls le 0 % et le semis « direct » sont inférieurs à l'irrigation complète. Sur les 9 plants suivis, le 100 % a produit 497 fruits commercialisables (plus de 30 g), contre 283 pour le semis « direct ».
+
+**Eau.** Sur la saison, chaque plant a reçu 127 L à 100 %, 63 L à 50 % et en semis « direct », 27 L avec les oyas (moyenne) et 0 L sans irrigation. Rapporté au litre d'irrigation, cela donne ≈ 26 g de tomates par litre à 100 %, 37 g à 50 % et 97 g avec les oyas. Les oyas ne délivrent l'eau qu'au rythme où le sol la réclame, d'où cette économie. En contrepartie, elles ne suivent pas les pics de demande de l'été.
+
+**Comment le manque d'eau réduit le rendement.** Le nombre d'inflorescences et de fleurs ne diffère pas entre traitements. C'est **après la floraison** que tout se joue :
+
+- le taux d'avortement des fleurs passe de 30 % (100 %) à 49 % (50 %) et 54 % (semis « direct ») ;
+- les fruits sont plus légers en déficit hydrique : 45 g en médiane à 100 %, contre 36 à 40 g pour 50 %, 0 % et oyas.
+
+```{ojs}
+//| echo: false
+d = FileAttachment("donnees.csv").csv({typed: true})
+ordre = ["100P", "50P", "0P", "oya", "direct"]
+viewof choix = Inputs.select(new Map([
+  ["Rendement (g / plant)", "rendement_plant"],
+  ["Rendement commercialisable (g / plant)", "rendement_commercialisable"],
+  ["Eau d'irrigation (L / plant)", "eau_irrigation"],
+  ["Rendement par litre d'irrigation (g / L)", "rendement_par_litre"],
+  ["Nombre de fruits / plant", "fruits_nombre"],
+  ["Poids moyen d'un fruit (g)", "poids_moyen_fruit"],
+  ["Taux d'avortement des fleurs", "taux_avortement"],
+  ["Fleurs / plant", "fleurs_total"],
+  ["Inflorescences / plant", "inflorescences_total"]
+]), {label: "Variable"})
+sel = d.filter(r => r.variable === choix && typeof r.valeur === "number")
+Plot.plot({
+  marginLeft: 55, height: 320,
+  x: {label: null, domain: ordre},
+  y: {grid: true, label: sel.length ? sel[0].unite : ""},
+  color: {domain: ordre, range: ["#1b9e77", "#e6ab02", "#d95f02", "#7570b3", "#66a61e"]},
+  marks: [
+    Plot.barY(sel, Plot.groupX({y: "median"}, {x: "traitement", y: "valeur", fill: "traitement", fillOpacity: 0.6})),
+    Plot.dot(sel, {x: "traitement", y: "valeur", stroke: "black", r: 3, tip: true,
+                   title: r => `${r.plant_id} : ${r.valeur}`}),
+    Plot.ruleY([0])
+  ]
+})
+```
+
+*Barres : médiane des 9 plants suivis (le mémoire présente des médianes) ; points : plants. 100P, 50P, 0P = 100 %, 50 %, 0 % de l'irrigation recommandée.*
+
+```{ojs}
+//| echo: false
+f = FileAttachment("fruits.csv").csv({typed: true})
+cumul = {
+  const out = [];
+  for (const [t, rows] of d3.group(f, r => r.traitement)) {
+    let s = 0;
+    for (const [date, poids] of d3.rollups(rows, v => d3.sum(v, r => r.poids_g), r => +r.date).sort((a, b) => a[0] - b[0])) {
+      s += poids; out.push({traitement: t, date: new Date(date), kg_par_plant: s / 9 / 1000});
+    }
+  }
+  return out;
+}
+Plot.plot({
+  height: 280, marginLeft: 45,
+  y: {grid: true, label: "Récolte cumulée (kg / plant)"}, x: {label: null},
+  color: {legend: true, domain: ordre, range: ["#1b9e77", "#e6ab02", "#d95f02", "#7570b3", "#66a61e"]},
+  marks: [Plot.line(cumul, {x: "date", y: "kg_par_plant", stroke: "traitement", marker: "dot"})]
+})
+```
+
+*Récolte cumulée moyenne par plant au fil de la saison. Le semis « direct », repiqué 2 semaines plus tard, commence à produire le 26/08.*
+
+## Méthode d'analyse
+
+Chaque variable a été comparée entre traitements par une ANOVA à un facteur suivie d'un test de Tukey, ou par un test de Kruskal-Wallis lorsque la normalité ou l'homogénéité des variances n'étaient pas respectées. L'unité statistique est le plant (9 par traitement). Le script joint est une reconstruction : il retrouve les résultats du mémoire sur le rendement, les fruits, les fleurs et l'avortement.
+
+## Limites
+
+- C'est **une seule saison, sur une seule parcelle**, et le printemps 2024 a été très pluvieux. Le sol était bien rechargé au moment de couvrir le tunnel, ce qui explique la bonne tenue du traitement sans irrigation. Des fuites dans la bâche du tunnel ont aussi apporté de l'eau en cours de saison.
+- Le semis « direct » n'a pas levé en champ. Les plants de remplacement avaient 58 jours de retard : ce traitement mesure surtout l'effet d'un **démarrage tardif**.
+- Les 3 plants d'une planche partagent la même ligne de goutte-à-goutte ou la même oya. Les tests les traitent comme indépendants, ce qui surestime la précision.
+- De l'oïdium est apparu mi-août et l'apport « idéal » a été fixé d'après des fiches techniques, pas mesuré par rapport à l'évapotranspiration réelle.
+- L'efficience de l'eau publiée dans le mémoire (WUE, kg/L) n'est pas reproduite ici, car son mode de calcul n'est pas assez décrit. La fiche utilise le rendement par litre d'irrigation.
+
+{{< include /_includes/ressources.qmd >}}

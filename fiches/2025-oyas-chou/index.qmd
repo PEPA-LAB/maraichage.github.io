@@ -1,0 +1,132 @@
+---
+title: "Oyas pour le chou : à quelle distance les placer ?"
+date: 2026-11-17
+annee: "2025"
+type: Mémoire
+culture: "Chou"
+categories: [Gestion de l'eau, Chou]
+keywords: [oyas, irrigation localisée, distance, racines, efficience de l'eau, stress hydrique]
+kpi: "−70 %"
+kpi_label: "d'eau avec un oya à 56 cm"
+image: photo.jpg
+title-block-banner: photo.jpg
+resultat: "Un oya à 56 cm du chou économise 70 % d'eau ; 11 choux sur 12 restent commercialisables, pour un rendement commercialisable 10 % sous l'arrosage."
+auteurs: "Gaëlle Hanssens (mémoire 2025)"
+encadrement: "Guillaume Lobet"
+author:                         # affiché sous le titre de la fiche
+  - name: "Gaëlle Hanssens"
+    affiliation: "PEPA Lab – UCLouvain"
+lieu: "Ferme universitaire UCLouvain de Marbaix (Chaumont-Gistoux), tunnel"
+ressources:
+  memoire: "../../documents/2025-oyas-chou-hanssens.pdf"
+  donnees: "donnees.csv"
+  doi: "https://doi.org/10.5281/zenodo.XXXXXXX"   # [À COMPLÉTER : sondes, images racinaires, fichiers d'origine]
+  code: "analyse/analyse.R"
+---
+
+::: {.callout-tip appearance="simple" icon=false}
+## À retenir pour le terrain
+- **Un oya de 5 L au centre de 4 choux** a consommé 10 à 14 L par chou sur la saison, contre 35 L à l'arrosoir : **60 à 70 % d'eau en moins**.
+- **À 35 et 56 cm du chou**, presque tous les choux atteignent la norme commerciale (≥ 400 g). **À 79 cm**, c'est trop loin : moins de la moitié des choux sont commercialisables.
+- À 35 cm, les racines poussent **vers l'oya** ; au-delà de 56 cm, elles ne le « trouvent » plus.
+- C'est un essai d'une saison, sous tunnel très sec (2^e^ printemps le plus sec depuis 1892) : les choux sans aucune irrigation ont tout de même produit grâce à l'eau du sol.
+:::
+
+## Question
+
+Les oyas, pots en terre cuite poreuse enterrés et remplis d'eau, peuvent-ils irriguer un chou aussi bien qu'un arrosage classique, avec moins d'eau ? À quelle distance faut-il les placer ? Et comment les racines du chou réagissent-elles à cette source d'eau localisée ?
+
+## Dispositif
+
+| | |
+|---|---|
+| Lieu | Ferme universitaire de Marbaix (Chaumont-Gistoux), tunnel de 24 × 7 m fermé début février pour assécher le sol, sol limoneux ; fumier et toile géotextile |
+| Saison | Repiquage le 20/03/2025, récolte le 5/06/2025 (78 jours) |
+| Culture | Chou pointu 'Cœur de bœuf des Vertus 2' (bio), plants espacés de 50 × 50 cm |
+| Modalités | **100 %** : arrosoir au pied, selon l'évapotranspiration (ETc) · **Oyas à 35, 56 ou 79 cm** du chou (1 oya de 5 L pour 4 choux, rempli 2 fois par semaine) · **0 %** : aucune irrigation |
+| Plan et répétitions | 3 blocs de 8 choux par traitement, répartis au hasard, avec des zones tampons de 1,25 m ; 4 choux suivis par bloc, soit **12 par traitement** |
+| Mesures | Eau apportée, croissance hebdomadaire, conductance stomatique, poids de la plante et du chou, racines prélevées côté oya (*in*) et côté opposé (*out*), humidité du sol (sondes TMS-4) |
+
+## Résultats clés
+
+**Eau.** Sur la saison, chaque chou irrigué à l'arrosoir a reçu 35,3 L. Les choux sous oyas ont reçu une médiane de 12,4 L (35 cm), 10,7 L (56 cm) et 13,6 L (79 cm), sans différence significative entre distances. Le débit d'un oya suit ce que le sol absorbe, et non la demande climatique : il est resté stable alors que l'ETc augmentait.
+
+**Rendement.** Sur la surface cultivée, l'arrosage a donné 44,9 t/ha de choux, contre 38,7 (35 cm), 34,3 (56 cm) et 28,2 t/ha (79 cm). Ces différences de poids par chou ne sont pas significatives, car la variabilité est forte. Avec la norme commerciale, la hiérarchie change :
+
+- tous les choux sont commercialisables à 35 cm, 11 sur 12 à 56 cm, mais seulement 7 sur 11 à l'arrosoir (choux plus hétérogènes) et 5 sur 12 à 79 cm ;
+- le rendement commercialisable est de 38,7 t/ha à 35 cm, 37,1 à l'arrosoir, 33,3 à 56 cm et 18,5 t/ha à 79 cm.
+
+Rapporté à l'eau, un litre a produit 75 à 83 g de chou sous oya à 35–56 cm, contre 32 g à l'arrosoir.
+
+**Racines.** À 35 cm, la carotte prélevée côté oya contient environ 11 fois plus de racines que le côté opposé (médianes 10,1 contre 0,9 m). L'humidité mesurée par les sondes y était de 28 % côté oya contre moins de 2 % de l'autre côté. Cet écart s'estompe à 56 cm et disparaît à 79 cm. Les choux à 35 cm développent autant de racines qu'à l'arrosoir, ceux à 56 et 79 cm pas plus que les choux non irrigués (médianes 3,2 et 2,4 m contre 4,0 m).
+
+```{ojs}
+//| echo: false
+d = FileAttachment("donnees.csv").csv({typed: true})
+ordre = ["100%", "Oya35", "Oya56", "Oya79", "0%"]
+couleurs = ["#2a5783", "#f5515d", "#f2862c", "#85b22c", "#66c2a5"]
+viewof choix = Inputs.select(new Map([
+  ["Poids du chou (kg)", "poids_chou"],
+  ["Biomasse de la plante (kg)", "biomasse_foliaire"],
+  ["Eau reçue par chou (L)", "eau_consommee"],
+  ["Chou produit par litre d'eau (kg/L, hors 0 %)", "wue_chou"],
+  ["Hauteur de la plante au 27/05 (cm)", "hauteur_plante"],
+  ["Longueur de racines totale (mm)", "longueur_racinaire_totale"],
+  ["Racines côté oya − côté opposé (mm)", "longueur_racinaire_diff_in_out"]
+]), {label: "Variable"})
+sel = d.filter(r => r.variable === choix && typeof r.valeur === "number" && !(choix === "wue_chou" && r.traitement === "0%"))
+Plot.plot({
+  marginLeft: 55, height: 320,
+  x: {label: null, domain: ordre},
+  y: {grid: true, label: sel.length ? sel[0].unite : ""},
+  color: {domain: ordre, range: couleurs},
+  marks: [
+    Plot.barY(sel, Plot.groupX({y: "median"}, {x: "traitement", y: "valeur", fill: "traitement", fillOpacity: 0.6})),
+    Plot.dot(sel, {x: "traitement", y: "valeur", stroke: "black", r: 3, tip: true,
+                   symbol: r => r.variable === "poids_chou" ? (d.find(x => x.chou_id === r.chou_id && x.variable === "commercialisable")?.valeur ? "circle" : "times") : "circle",
+                   title: r => `${r.chou_id} : ${r.valeur}`}),
+    Plot.ruleY([0])
+  ]
+})
+```
+
+*Barres : médiane par traitement ; points : choux. Pour le poids du chou, × = chou non commercialisable. Oya35/56/79 = oya à 35, 56 ou 79 cm.*
+
+```{ojs}
+//| echo: false
+rac = d.filter(r => (r.variable === "longueur_racinaire_in" || r.variable === "longueur_racinaire_out"))
+       .map(r => ({...r, position: r.variable.endsWith("_in") ? "côté oya (in)" : "côté opposé (out)", metres: r.valeur / 1000}))
+Plot.plot({
+  height: 300, marginLeft: 50,
+  fx: {domain: ordre, label: null},
+  x: {axis: null, domain: ["côté oya (in)", "côté opposé (out)"]},
+  y: {grid: true, label: "Longueur de racines dans la carotte (m)"},
+  color: {legend: true, domain: ["côté oya (in)", "côté opposé (out)"], range: ["#1b9e77", "#d95f02"]},
+  marks: [
+    Plot.barY(rac, Plot.groupX({y: "median"}, {fx: "traitement", x: "position", y: "metres", fill: "position", fillOpacity: 0.7})),
+    Plot.dot(rac, {fx: "traitement", x: "position", y: "metres", stroke: "black", r: 2}),
+    Plot.ruleY([0])
+  ]
+})
+```
+
+*Racines prélevées les 22–23/05 dans une carotte de 0,75 L, à 17 cm du chou, côté oya et côté opposé (6 choux par traitement). Pour le 100 %, le côté « in » est celui de l'arrosage.*
+
+## Méthode d'analyse
+
+Pour chaque variable, le choix du test dépend des hypothèses :
+
+- ANOVA à un facteur puis Tukey si la normalité et l'homogénéité des variances sont vérifiées ;
+- ANOVA de Welch puis Games-Howell si les variances diffèrent ;
+- Kruskal-Wallis puis Dunn (correction de Holm) sinon.
+
+Les traitements oyas sont aussi comparés entre eux pour isoler l'effet de la distance. Le script joint est une version nettoyée du script de l'autrice. Il retrouve les principaux résultats : hauteur, biomasse, eau consommée, efficience et longueur de racines.
+
+## Limites
+
+- C'est **une saison sur une seule parcelle**, sous tunnel. Le sol avait encore des réserves au départ, ce qui explique que les choux non irrigués aient produit. Leur « efficience » (≈ 2 kg/L) n'a pas de sens, car l'eau du sol n'est pas comptée.
+- Les 4 choux d'un bloc partagent le même oya : il n'y a en réalité que **3 répétitions** par traitement, et les tests au niveau du chou surestiment la précision.
+- Les racines ne sont prélevées que dans les 15 premiers centimètres. Des racines fines tapissaient pourtant les oyas jusqu'à 30 cm de profondeur. L'humidité ne repose que sur 3 paires de sondes, dont les données calibrées ne sont pas jointes ici.
+- Certains choux ont été pesés sous une averse (oyas à 56 et 79 cm, une partie du 0 %). Les oyas demandent aussi de la main-d'œuvre : un remplissage 2 fois par semaine, et un oya pour 4 choux.
+
+{{< include /_includes/ressources.qmd >}}

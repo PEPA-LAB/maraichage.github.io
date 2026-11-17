@@ -1,0 +1,115 @@
+---
+title: "Paillages en maraîchage bio : bilan de la première année"
+date: 2026-11-17
+annee: "2024–2025"
+type: Mémoire
+culture: "Épinard"
+categories: [Paillage, Couverts végétaux, Épinard, Oignon]
+keywords: [bâche plastique, BRF, miscanthus, infiltration, adventices, méthodes de suivi du sol]
+kpi: "×6,4"
+kpi_label: "biomasse d'épinard : bâche vs miscanthus"
+image: photo.jpg
+title-block-banner: photo.jpg
+resultat: "Dès la 1re année, la bâche donne 6 fois plus d'épinards que le miscanthus non travaillé, qui infiltre aussi l'eau le moins vite."
+auteurs: "Eliot Vas (mémoire 2025)"
+encadrement: "Guillaume Lobet ; appui de terrain : Simon Vanderveken"
+author:                         # affiché sous le titre de la fiche
+  - name: "Eliot Vas"
+    affiliation: "PEPA Lab – UCLouvain"
+lieu: "Fermes universitaires UCLouvain – Lauzelle (Louvain-la-Neuve)"
+ressources:
+  memoire: "../../documents/2025-paillage-vas.pdf"
+  donnees: "donnees.csv"
+  doi: "https://doi.org/10.5281/zenodo.XXXXXXX"   # [À COMPLÉTER : Data.tot.xlsx + scripts d'origine]
+  code: "analyse/analyse.R"
+---
+
+::: {.callout-tip appearance="simple" icon=false}
+## À retenir pour le terrain
+- **La bâche plastique sécurise la première culture** : c'est la meilleure biomasse d'épinard, le moins d'adventices et une infiltration rapide.
+- **Le miscanthus posé sur un sol non travaillé démarre mal** : il donne 6 fois moins d'épinards que la bâche et l'infiltration la plus lente. Prévoir un travail du sol avant la pose.
+- **Semer les couverts vivants assez tôt** : semés fin avril, le trèfle et le mélange mélilot + moha n'ont rien couvert. En 2025, ils se sont comportés comme un sol nu.
+- C'est une « année zéro » : l'essai sert surtout à installer le dispositif et à tester les méthodes. La suite est dans la [fiche 2026](../2026-paillage-epinard-laitue/index.qmd).
+:::
+
+## Question
+
+Comment cinq types de paillage influencent-ils la santé du sol, la croissance des légumes et les adventices en maraîchage biologique sur petite surface ? Quelles méthodes de mesure simples permettent de suivre ces effets sur 10 ans ? Ce mémoire lance la plateforme de Lauzelle et en teste les protocoles.
+
+## Dispositif
+
+| | |
+|---|---|
+| Lieu | Ferme universitaire de Lauzelle (Louvain-la-Neuve), ≈ 360 m², légère pente au sud |
+| Sol | Sablo-limoneux, drainage modéré à imparfait, pH KCl ≈ 5,8 |
+| Saison | Septembre 2024 – juin 2025. Design définitif en janvier 2025, paillages en place du 26 février au 1^er^ avril 2025. |
+| Cultures | Épinard 'Butterflay' (bloc 1, planté le 8/04, récolté le 16/05) ; oignon 'Sturon' (bloc 2, planté le 15/04) |
+| Modalités | **Bâche plastique** tissée noire · **BRF** (bois de Lauzelle) · **Miscanthus** · **Trèfle** blanc · **Mix** mélilot jaune + moha. Trèfle et Mix ont été semés le 29/04, sur le bloc épinard uniquement. |
+| Plan et répétitions | 30 parcelles d'environ 12 m² (3 colonnes × 10 rangs), 2 blocs légumes, 6 répétitions par modalité |
+| Mesures | Fertilité initiale, structure (VESS, stabilité des agrégats), vers de terre, infiltration, carbone microbien et mycorhizes (5 parcelles), adventices, couverture foliaire, biomasse d'épinard |
+
+## Résultats clés
+
+**Production d'épinard.** La biomasse diffère entre toutes les modalités, sauf entre trèfle et mix. En moyennes ajustées, un échantillon de 9 plants pesait 911 g sous bâche, 578 g sur BRF, 325 à 352 g sur trèfle et mix (sol nu) et 142 g sur miscanthus. Cela fait environ 80 g par plant sous bâche, contre 17 g sur miscanthus. Le miscanthus est la seule modalité qui n'a pas été travaillée avant la plantation : son sol est resté plus compact.
+
+**Eau.** L'infiltration est l'effet le plus net sur le sol dès cette 1^re^ année. Le miscanthus est le plus lent (3,0 cm en 5 min, soit ≈ 360 mm/h). Il est significativement plus lent que la bâche, le trèfle et le mix (7 à 11 cm en 5 min). La bâche atteint souvent le plafond de la méthode : son avantage est donc sous-estimé.
+
+**Adventices.** Sous bâche, environ 3 cases sur 196 sont couvertes par des adventices, contre 12 à 15 pour les autres modalités. Dans le bloc oignon, les parcelles en sol nu (trèfle, mix) comptent 3 à 4 espèces sur 0,5 m², contre moins d'une sous bâche, BRF ou miscanthus.
+
+**Vie et structure du sol.** Aucun effet des paillages n'apparaît encore sur la structure (VESS), la stabilité des agrégats ou les vers de terre. Le carbone microbien est le plus élevé sous BRF, mais il n'a été mesuré que sur une parcelle par modalité. Le terrain présente en revanche un **gradient** : du côté de la colonne C, il y a plus de carbone organique (18 → 24 → 27 g/kg de A vers C) et une structure plus compacte (VESS 2,3 contre 1,5–1,7).
+
+```{ojs}
+//| echo: false
+d = FileAttachment("donnees.csv").csv({typed: true})
+viewof choix = Inputs.select(new Map([
+  ["Biomasse d'épinard (g/plant)", "biomasse_plant"],
+  ["Infiltration (cm en 5 min ; plafond = 12)", "infiltration_chabert"],
+  ["Adventices : cases couvertes sur 196", "adventices_cases_total"],
+  ["Adventices : nombre d'espèces / 0,5 m²", "adventices_especes"],
+  ["Couverture foliaire au 29/04 (%)", "couverture_foliaire"],
+  ["Structure du sol – VESS (bas = mieux)", "vess"],
+  ["Vers de terre (individus / bloc de bêche)", "lombrics_total"],
+  ["Stabilité des agrégats USDA (0–6)", "stabilite_agregats_usda"],
+  ["Carbone organique initial (g/kg)", "carbone_organique"]
+]), {label: "Variable"})
+viewof bloc = Inputs.radio(new Map([["Les deux", 0], ["Bloc 1 (épinard)", 1], ["Bloc 2 (oignon)", 2]]),
+                           {label: "Bloc", value: 0})
+parcelles = {
+  const rows = d.filter(r => r.variable === choix && r.valeur !== null && typeof r.valeur === "number"
+                          && !String(r.flag ?? "").includes("hors protocole")
+                          && (choix !== "couverture_foliaire" || (r.date instanceof Date ? r.date.toISOString() : String(r.date)).startsWith("2025-04-29"))
+                          && (bloc === 0 || r.bloc === bloc));
+  // moyenne des répétitions par parcelle
+  return d3.flatRollup(rows, v => d3.mean(v, r => r.valeur), r => r.parcelle, r => r.modalite, r => r.unite)
+           .map(([parcelle, modalite, unite, valeur]) => ({parcelle, modalite, unite, valeur}));
+}
+Plot.plot({
+  marginLeft: 55, height: 320,
+  x: {label: null, domain: ["Bâche plastique", "BRF", "Miscanthus", "Trèfle", "Mix"]},
+  y: {grid: true, label: parcelles.length ? parcelles[0].unite : ""},
+  color: {domain: ["Bâche plastique", "BRF", "Miscanthus", "Trèfle", "Mix"],
+          range: ["#4d4d4d", "#a6761d", "#e6ab02", "#1b9e77", "#7570b3"]},
+  marks: [
+    Plot.barY(parcelles, Plot.groupX({y: "mean"}, {x: "modalite", y: "valeur", fill: "modalite", fillOpacity: 0.6})),
+    Plot.dot(parcelles, {x: "modalite", y: "valeur", stroke: "black", r: 3, tip: true,
+                         title: r => `${r.parcelle} : ${r.valeur.toFixed(2)}`}),
+    Plot.ruleY([0])
+  ]
+})
+```
+
+*Barres : moyenne par modalité ; points : parcelles (moyenne des répétitions). En 2025, Trèfle et Mix correspondent à un sol nu. Les moyennes brutes peuvent différer des moyennes ajustées citées dans le texte.*
+
+## Méthode d'analyse
+
+Selon la variable, le mémoire utilise des modèles linéaires mixtes : paillage et bloc légume en effets fixes, colonne et/ou rang en effets aléatoires, sélectionnés par test du rapport de vraisemblance. Il recourt à des transformations (racine, log) ou à des tests non paramétriques quand les hypothèses ne sont pas respectées. Les comparaisons par paires utilisent le test de Tukey. Le script joint regroupe les modèles retenus. Il retrouve les résultats sur la biomasse et l'infiltration. Pour quelques variables (stabilité des agrégats, vers de terre, adventices), les conclusions changent légèrement une fois corrigées des erreurs d'étiquetage dans le fichier de données (voir le rapport de préparation).
+
+## Limites
+
+- Les paillages venaient d'être posés (BRF le 1^er^ avril) et les couverts vivants n'ont pas levé à temps : on compare surtout **bâche, paillages morts et sol nu**.
+- La comparaison est biaisée par le travail du sol : toutes les parcelles ont été travaillées le 27 mars, **sauf le miscanthus**. Une partie de sa contre-performance peut venir de là.
+- Le terrain présente un gradient (carbone, compaction), qui hérite des cultures et amendements de 2023.
+- Les oignons ont été attaqués par des rongeurs (surtout sous bâche). Le carbone microbien et les mycorhizes n'ont été mesurés que sur une parcelle par modalité.
+- La méthode d'infiltration plafonne pour les sols très perméables. Elle a été remplacée par l'anneau simple en 2026.
+
+{{< include /_includes/ressources.qmd >}}

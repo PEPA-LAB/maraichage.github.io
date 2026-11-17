@@ -1,0 +1,24 @@
+colonne,description,unite,type,valeurs_possibles,source
+saison,Année,-,entier,2025,-
+traitement,"Irrigation : 100% = arrosoir au pied (≈ ETc) ; Oya35/56/79 = oya de 5 L au centre de 4 choux, à 35, 56 ou 79 cm ; 0% = aucune irrigation après le repiquage",-,texte,100% ; Oya35 ; Oya56 ; Oya79 ; 0%,PDF p. 19
+distance_oya,Distance chou–oya en clair,-,texte,,PDF p. 19
+bloc,"Bloc (1–3) : 3 blocs de 8 choux par traitement, dont 4 suivis",-,entier,1–3,PDF p. 19–20
+chou,"Numéro du chou suivi dans le bloc (1–4) ; les n° 2 et 4 ont été prélevés pour les racines, le n° 3 pour la conductance",-,entier,1–4,PDF p. 25–27
+chou_id,"Identifiant = traitement_bloc+chou (ex. Oya56_23), comme dans data_choux.xlsx",-,texte,,-
+date,Date de mesure (ISO),-,date,,-
+variable / valeur / unite / flag,Format long,-,-,voir ci-dessous,-
+variable = biomasse_foliaire,"Plante entière coupée au collet, poids frais",kg / plant,numérique,,"yield$TY, 5/06/2025 (PDF p. 26, 36)"
+variable = poids_chou,Pomme parée (tige et feuilles externes retirées),kg / chou,numérique,,"yield$MY (PDF p. 26, 37)"
+variable = diametre_chou / hauteur_chou,Dimensions de la pomme à la récolte,cm,numérique,,"yield$Dpomme, Hpomme (PDF p. 26)"
+variable = commercialisable,"1 si conforme à la norme CEE FFV-09 (≥ 0,4 kg et homogénéité du lot, tolérance 10 %), règle du script d'origine",0/1,numérique,,calcul (PDF p. 26)
+variable = eau_consommee,Eau apportée du 20/03 au 5/06 ; oyas : (remplissages − reste) ÷ 4 plants,L / plant,numérique,,"yield$Water (PDF p. 22–23, 30–31)"
+variable = wue_chou / wue_biomasse,poids_chou (ou biomasse_foliaire) / eau_consommee ; sans signification pour 0 %,kg / L,numérique,,calcul ; identique à yield$WUE_MY / WUE_TY
+variable = hauteur_plante,"Hauteur collet – feuille la plus haute, le 27/05/2025",cm,numérique,,"GridScore (PDF p. 24, 34)"
+variable = conductance_stomatique,Médiane de 3 mesures au poromètre AP4 sur la plus jeune feuille hors pomme ; choux n°3,mmol / m² / s,numérique,,"porom ; 24/04, 1/05, 15/05, 19/05 (PDF p. 25–26, 35)"
+variable = longueur_racinaire_in / _out,"Longueur de racines dans une carotte de 0,75 L (Ø 8 cm, 15 cm de prof.) à 17 cm de la tige, côté oya (in) ou opposé (out)",mm / carotte,numérique,,"RhizoVision Explorer 2.0.3, 22–23/05/2025 (PDF p. 27)"
+variable = longueur_racinaire_totale / _diff_in_out,in + out ; in − out,mm,numérique,,calcul
+variable = racines_fines_in / _moyennes_in / _grosses_in,"Longueur in par classe de diamètre : < 0,3 ; 0,3–0,6 ; > 0,6 mm",mm,numérique,,RhizoVision
+croissance.csv,"Suivi hebdomadaire : hauteur_plante_cm, diametre_chou_cm, bbch, par chou et par date",cm,-,27/03–5/06/2025,gridscore-data-choux.txt
+conductance.csv,"Chaque mesure de conductance (3 par feuille) : conductance (mmol/m²/s), cup_leaf, lumiere ; bloc déduit du n° de plante (voir flag)",-,-,161 mesures,data_choux.xlsx$porom
+racines.csv,"Une image scannée : position (in/out), image (1–2), longueur, diamètres médian et moyen, pointes, longueurs par classe de diamètre, surface, volume","mm, mm², mm³",-,64 images,RhizoVision/features.csv
+eau.csv,"Eau apportée par plant à chaque date d'irrigation, par traitement et bloc",L / plant,-,20/03–2/06/2025,data_choux.xlsx$eau

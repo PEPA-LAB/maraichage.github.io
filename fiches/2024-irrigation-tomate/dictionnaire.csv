@@ -1,0 +1,28 @@
+colonne,description,unite,type,valeurs_possibles,source
+saison,Année de culture,-,entier,2024,-
+parcelle,"Planche de culture (2,5 m², 8 plants) ; 15 planches séparées par des zones tampons",-,texte,A … O,feuille « traitement » ; PDF p. 35
+plant,Numéro du plant dans la planche (1–8) ; 3 plants suivis par planche,-,entier,1–8,Excel de culture
+plant_id,Identifiant unique du plant = parcelle + plant,-,texte,"A2, A4…",calcul
+traitement,Code de la stratégie d'irrigation,-,texte,100P ; 50P ; 0P ; oya ; direct,PDF p. 33
+traitement_libelle,"Libellé : 100 % = apport recommandé ; 50 % ; 0 % = aucune irrigation après le 31/05 ; Oyas = pots en terre cuite de 5 L (1 pour 4 plants) ; semis « direct » = semé en serre le 21/05 et repiqué le 4/06, irrigué à 50 %",-,texte,,PDF p. 33–37
+repetition,"Numéro de planche dans le traitement (1–3, ordre alphabétique)",-,entier,1–3,calcul
+variable / valeur / unite / flag,"Format long : nom de la variable, valeur, unité, remarque de qualité",-,-,voir ci-dessous,-
+variable = rendement_plant,Poids total des fruits récoltés (tous fruits),g / plant,numérique,,"feuille « rendement », 7/08–2/10/2024 (PDF p. 59)"
+variable = rendement_commercialisable,Poids des fruits de plus de 30 g,g / plant,numérique,,"idem (PDF p. 39, 61)"
+variable = fruits_nombre,Nombre de fruits récoltés,fruits / plant,numérique,,idem (PDF p. 52)
+variable = fruits_commercialisables,Nombre de fruits de plus de 30 g,fruits / plant,numérique,,idem (PDF p. 54)
+variable = poids_moyen_fruit,rendement_plant / fruits_nombre,g,numérique,,calcul
+variable = inflorescences_total,"Nombre d'inflorescences ; chaque branche d'une inflorescence ramifiée (1D, 1G…) compte pour une",inflorescences / plant,numérique,,feuille « inflorescence » (PDF p. 46)
+variable = inflorescences_productives,Inflorescences ayant produit au moins un fruit,inflorescences / plant,numérique,,idem (PDF p. 47)
+variable = inflorescences_ramifiees,Branches d'inflorescences ramifiées (code avec lettre),branches / plant,numérique,,idem (PDF p. 48)
+variable = fleurs_total,Fleurs comptées (fruits + fleurs avortées),fleurs / plant,numérique,,idem (PDF p. 49)
+variable = taux_avortement,Fleurs sans fruit / fleurs,proportion 0–1,numérique,,idem (PDF p. 50)
+variable = fleurs_par_inflorescence,fleurs_total / inflorescences_total,-,numérique,,calcul (PDF p. 51)
+variable = fruits_par_inflorescence,Fruits (feuille « inflorescence ») / inflorescences_total,-,numérique,,calcul (PDF p. 56)
+variable = eau_irrigation,Eau apportée au plant du 31/05 au 30/09,L / plant,numérique,,feuille « irrigation » (PDF p. 64)
+variable = rendement_par_litre,rendement_plant / eau_irrigation ; non défini pour 0P. Différent du WUE du mémoire,g / L,numérique,,calcul
+fruits.csv,"Un fruit récolté : date, inflorescence (rang + lettre de branche), position de la fleur, poids_g, commercialisable (0/1 ; > 30 g), flag (fruit abîmé…)",g,-,2 831 fruits,feuille « rendement »
+fleurs.csv,"Une fleur : inflorescence, inflorescence_rang, ramification (lettres), fleur, poids_g (0 = pas de fruit), fruit (0/1)",g,-,5 258 fleurs,feuille « inflorescence »
+irrigation.csv,"Un apport d'eau : date, eau_l",L,-,31/05–30/09/2024,feuille « irrigation »
+humidite_sol.csv,"Humidité volumique du sol (sonde TRIME-TDR, moyenne des tubes) à 20, 50 et 100 cm ; 100P, 50P et oyas",% (volume),-,"7 dates, 4/09–2/10/2024","feuille « TRIME » (PDF p. 40, 65)"
+meteo.csv,"Station de Louvain-la-Neuve, journalier : t_air_min/moy/max (°C), hr_moy (%), pluie_mm, etp_mm (Penman-Monteith), rayonnement (unité de la station, non précisée)",voir description,-,1/05–13/10/2024,Données météo journalière LLN.xlsx (PDF p. 40)

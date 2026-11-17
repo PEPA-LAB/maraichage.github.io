@@ -1,0 +1,129 @@
+---
+title: "Cinq paillages en maraîchage bio : sol, eau et légumes"
+date: 2026-11-17
+annee: "2025–2026"
+type: Mémoire
+culture: "Épinard"
+categories: [Paillage, Couverts végétaux, Épinard, Laitue]
+keywords: [bâche plastique, BRF, miscanthus, paillage vivant, santé du sol, VESS]
+kpi: "1,1"
+kpi_label: "score VESS sous BRF (1 = idéal)"
+image: photo.jpg
+title-block-banner: photo.jpg
+resultat: "La bâche donne des épinards 4 fois plus lourds, mais le BRF a la meilleure structure de sol (VESS 1,1) et +87 % de biomasse microbienne."
+auteurs: "Pierre-André Peters-Dickie (mémoire 2026), Eliot Vas (conception du dispositif, mémoire 2025)"
+encadrement: "Guillaume Lobet ; suivi de terrain : Clémentine Livron"
+author:                         # affiché sous le titre de la fiche
+  - name: "Pierre-André Peters-Dickie"
+    affiliation: "PEPA Lab – UCLouvain"
+  - name: "Eliot Vas"
+    affiliation: "PEPA Lab – UCLouvain"
+lieu: "Fermes universitaires UCLouvain – Lauzelle (Louvain-la-Neuve)"
+ressources:
+  memoire: "../../documents/2026-paillage-peters-dickie.pdf"
+  donnees: "donnees.csv"
+  doi: "https://doi.org/10.5281/zenodo.XXXXXXX"   # [À COMPLÉTER : série complète des sondes Lolly]
+  code: "analyse/analyse.R"
+---
+
+::: {.callout-tip appearance="simple" icon=false}
+## À retenir pour le terrain
+- **La bâche plastique reste la plus productive au printemps** : le sol se réchauffe et se ressuie plus vite. Les épinards y ont été environ 4 fois plus lourds que sur BRF.
+- **Le BRF améliore le sol** : c'est la meilleure structure (VESS 1,1) et la plus forte biomasse microbienne. C'est le meilleur compromis parmi les paillages organiques.
+- **Le miscanthus en couche épaisse retient trop d'eau au printemps** : engorgement, pourriture du collet des laitues et faim d'azote marquée. Il ne faut pas dépasser environ 10 cm.
+- **Les paillages vivants (trèfle, mélilot + moha) favorisent l'infiltration mais assèchent le sol.** Ce sont des résultats de 2^e^ année sur un seul site, à confirmer les années suivantes.
+:::
+
+## Question
+
+Les paillages organiques (morts ou vivants) peuvent-ils remplacer la bâche plastique en maraîchage biologique sur petite surface, sans trop pénaliser la production ? Que changent-ils à la structure, à la vie et à l'eau du sol ? Cette fiche présente la 2^e^ année d'une plateforme prévue pour durer 10 ans.
+
+## Dispositif
+
+| | |
+|---|---|
+| Lieu | Ferme universitaire de Lauzelle (Louvain-la-Neuve), ≈ 360 m², légère pente au sud |
+| Sol | Sablo-limoneux, drainage modéré à imparfait, pH KCl ≈ 5,8 |
+| Saison | Automne 2025 – été 2026 (printemps très chaud, été sec) ; irrigation par aspersion |
+| Cultures | Laitue feuille de chêne rouge (bloc 1) et épinard 'Butterflay' (bloc 2), puis chou kale et potimarron (récolte non incluse) |
+| Modalités | **Bâche plastique** tissée noire + fumier (≈ 40 t/ha) · **BRF** ≈ 10 cm · **Miscanthus** ≈ 10 cm · **Trèfle** blanc semé · **Mix** mélilot jaune + moha |
+| Plan et répétitions | 30 parcelles de 12 m² (3 colonnes × 10 rangs), 2 blocs légumes, 6 répétitions par modalité. Trèfle et Mix n'ont pas été cultivés au printemps 2026. |
+| Mesures | Chimie du sol (pH, C, N), structure (VESS), vers de terre, carbone microbien, infiltration, humidité et température en continu (9 sondes), SPAD, couverture foliaire, biomasse par plant |
+
+## Résultats clés
+
+**Structure du sol.** En sortie d'hiver, le BRF présente la meilleure structure (score VESS moyen de 1,12). Les autres modalités se situent entre 1,85 (bâche) et 2,21 (miscanthus). Un score de 2 correspond à un sol « intact ». Le BRF se distingue de toutes les autres modalités.
+
+**Chaleur et eau au printemps.** Du 9 mars au 30 avril, le sol sous bâche a cumulé 536 °C·jours, soit environ 35 de plus que sous BRF et 57 de plus que sous miscanthus. Sur la même période, l'humidité des 12 premiers centimètres était en moyenne de 41 % sous miscanthus, 37 % sous BRF et 30 % sous bâche. Sous miscanthus, l'excès d'eau a provoqué des signes d'asphyxie du sol et une forte mortalité des laitues.
+
+**Production de printemps.** Un mois après plantation, un plant d'épinard pesait en moyenne 105 g sous bâche, contre 27 g sur BRF et 16 g sur miscanthus. Une laitue pesait 86 g sous bâche, contre 26 à 28 g sur paillage organique. Les épinards sur paillage organique ont montré une faim d'azote, confirmée par un indice SPAD plus faible, surtout sous miscanthus.
+
+**Vie du sol.** La biomasse microbienne est la plus élevée sous BRF (640 mg C/kg) et la plus basse sous bâche (342 mg C/kg), malgré le fumier. Les paillages organiques morts accueillent le plus de vers de terre, surtout des endogés, et le miscanthus en premier.
+
+**Paillages vivants.** En juin, le trèfle et le Mix infiltrent l'eau le plus vite (1,3 et 1,0 cm/min, contre 0,4 cm/min sous miscanthus). En contrepartie, ils assèchent le sol : le trèfle a l'humidité la plus basse de l'essai. Ils limitent aussi l'échauffement du sol en été.
+
+```{ojs}
+//| echo: false
+d = FileAttachment("donnees.csv").csv({typed: true})
+viewof choix = Inputs.select(new Map([
+  ["Structure du sol – VESS (score, bas = mieux)", "vess|"],
+  ["Biomasse microbienne (mg C/kg sol sec)", "carbone_microbien|"],
+  ["Vers de terre (individus / bloc de bêche)", "lombrics_total|"],
+  ["Vers endogés (individus / bloc de bêche)", "lombrics_endoges|"],
+  ["Biomasse épinard (g/plant)", "biomasse_plant|Épinard"],
+  ["Biomasse laitue (g/plant)", "biomasse_plant|Laitue"],
+  ["Infiltration stabilisée (cm/min)", "infiltration_stabilisee|"],
+  ["Humidité du sol en juin (% masse)", "humidite_ponderale|"],
+  ["Carbone total du sol (%)", "carbone_total|"]
+]), {label: "Variable"})
+filtre = {
+  const [v, c] = choix.split("|");
+  return d.filter(r => r.saison === 2026 && r.variable === v && (c === "" || r.culture === c)
+                       && !String(r.flag ?? "").includes("écartée") && r.valeur !== null);
+}
+Plot.plot({
+  marginLeft: 55, height: 320,
+  x: {label: null, domain: ["Bâche plastique", "BRF", "Miscanthus", "Trèfle", "Mix"]},
+  y: {grid: true, label: filtre.length ? filtre[0].unite : ""},
+  color: {domain: ["Bâche plastique", "BRF", "Miscanthus", "Trèfle", "Mix"],
+          range: ["#4d4d4d", "#a6761d", "#e6ab02", "#1b9e77", "#7570b3"]},
+  marks: [
+    Plot.barY(filtre, Plot.groupX({y: "mean"}, {x: "modalite", y: "valeur", fill: "modalite", fillOpacity: 0.6})),
+    Plot.dot(filtre, {x: "modalite", y: "valeur", stroke: "black", r: 3, tip: true,
+                      title: r => `${r.parcelle} : ${r.valeur}`}),
+    Plot.ruleY([0])
+  ]
+})
+```
+
+*Barres : moyenne par modalité ; points : parcelles. Pour la laitue et l'épinard, seules les modalités cultivées au printemps apparaissent.*
+
+```{ojs}
+//| echo: false
+s = FileAttachment("capteurs_journaliers.csv").csv({typed: true})
+Plot.plot({
+  height: 280, marginLeft: 45,
+  y: {grid: true, label: "Humidité 0–12 cm (% vol.)"},
+  x: {label: null},
+  color: {legend: true, domain: ["Bâche plastique", "BRF", "Miscanthus", "Trèfle", "Mix"],
+          range: ["#4d4d4d", "#a6761d", "#e6ab02", "#1b9e77", "#7570b3"]},
+  marks: [Plot.line(s.filter(r => !r.flag),
+            Plot.groupX({y: "mean"}, {x: "date", y: "humidite_vol", stroke: "modalite", z: "modalite"}))]
+})
+```
+
+*Humidité du sol mesurée par les sondes (moyennes journalières), sondes placées surtout dans le bloc 1 (1 à 2 sondes par modalité). La chute générale fin juin correspond à une panne d'irrigation suivie d'une canicule.*
+
+## Méthode d'analyse
+
+Chaque variable mesurée sur les 30 parcelles est analysée par ANOVA (paillage + bloc légume + colonne), avec le rang ajouté comme covariable lorsqu'un gradient spatial apparaît. Les comparaisons par paires utilisent le test de Tukey et l'ampleur des effets est donnée par l'η² partiel et le d de Cohen. Une partie de la plateforme présente un gradient de fertilité (C et N croissants de la colonne A vers C). Le script joint est une reconstruction simplifiée : il retrouve les principales tailles d'effet du mémoire.
+
+## Limites
+
+- C'est seulement la 2^e^ saison : les paillages morts ont 12 à 15 mois, et les paillages vivants ont été semés en avril 2026.
+- Il y a peu de répétitions pour les cultures : 3 parcelles par modalité et par culture, car trèfle et Mix n'étaient pas cultivés au printemps. Les tests sont donc peu puissants.
+- La bâche reçoit du fumier, pas les autres modalités : on compare des itinéraires techniques complets, pas seulement des couvertures.
+- La laitue rouge fausse les mesures optiques (SPAD, couverture foliaire). Les données sur les adventices sont exploratoires, car le désherbage n'a pas été le même partout.
+- Les rendements d'été (chou kale, potimarron) ne sont pas encore inclus.
+
+{{< include /_includes/ressources.qmd >}}

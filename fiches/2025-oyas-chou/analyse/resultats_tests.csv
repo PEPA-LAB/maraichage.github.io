@@ -1,0 +1,13 @@
+variable,n,test,stat,p,paires_significatives,p_shapiro,p_levene
+hauteur_plante,59,ANOVA + Tukey,7.92,4.23e-5,100%-Oya35 ; 100%-0% ; Oya56-0%,0.261,0.588
+diametre_chou,59,ANOVA + Tukey,2.76,0.0367,,0.323,0.373
+hauteur_chou,59,ANOVA + Tukey,3.77,0.00896,100%-Oya79 ; 100%-0%,0.507,0.336
+biomasse_foliaire,59,Welch + Games-Howell,3.62,0.018,Oya56-0%,0.769,0.0133
+poids_chou,59,Welch + Games-Howell,2.1,0.109,,0.765,0.0297
+eau_consommee,59,Kruskal-Wallis + Dunn (Holm),46.5,1.92e-9,100%-Oya35 ; 100%-Oya56 ; 100%-Oya79 ; 100%-0% ; Oya35-0% ; Oya56-0% ; Oya79-0%,5.07e-6,1.16e-4
+longueur_racinaire_totale,30,Kruskal-Wallis + Dunn (Holm),21.8,2.22e-4,100%-Oya79 ; Oya35-Oya56 ; Oya35-Oya79,0.0157,0.254
+wue_chou (sans 0 %),47,Welch + Games-Howell,15.1,1.17e-5,100%-Oya35 ; 100%-Oya56 ; 100%-Oya79,0.743,0.0256
+wue_biomasse (sans 0 %),47,Welch + Games-Howell,28.5,6.87e-8,100%-Oya35 ; 100%-Oya56 ; 100%-Oya79 ; Oya35-Oya56,0.601,0.0117
+biomasse_foliaire (oyas),36,ANOVA + Tukey,3.3,0.0492,Oya56-Oya79,0.255,0.155
+eau_consommee (oyas),36,Kruskal-Wallis + Dunn (Holm),4.67,0.097,,0.00343,0.0357
+diff racines in-out (oyas),18,ANOVA + Tukey,28.3,8.08e-6,Oya35-Oya56 ; Oya35-Oya79,0.0602,0.0662

@@ -9,10 +9,14 @@ categories: [Thème principal, Tomate]   # thèmes + cultures → filtres de la 
 keywords: [mot-clé 1, mot-clé 2]        # recherche plein texte
 kpi: "+00 %"                      # chiffre affiché sur la carte
 kpi_label: "chiffre clé en quelques mots"
-image: photo.jpg                # photo de l'essai (carte + bandeau)
+image: photo.jpg                # photo de l'essai (carte de l'accueil)
+title-block-banner: photo.jpg   # même photo en bandeau de la fiche (sinon : bannière par défaut)
 resultat: "Une phrase : le résultat principal, chiffré si possible."
 auteurs: "Prénom Nom (mémoire 2025)"
 encadrement: "Prénom Nom"
+author:                         # affiché sous le titre (sinon « PEPA Lab – UCLouvain »)
+  - name: "Prénom Nom"
+    affiliation: "PEPA Lab – UCLouvain"
 lieu: "Ferme expérimentale – parcelle X"
 ressources:
   memoire: "https://dial.uclouvain.be/..."        # document complet (DIAL, PDF dans documents/)
