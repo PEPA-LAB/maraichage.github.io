@@ -75,10 +75,21 @@ body.nav-fixed { padding-top: 0 !important; }
 .pill { font-size: .75rem; color: #fff; border-radius: 99px; padding: 2px 9px; }
 .pill.th { background: $green; } .pill.cu { background: $brick; } .pill.ty { background: $blue; } .pill.fi { background: #5c636a; }
 
-// ---- Ressources d'une fiche
-.ressources-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 12px; margin-bottom: 1rem; }
-.ressources-grid a { background: #f9f9f9; border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,.1);
-  border: none; border-bottom: 3px solid $green; padding: 12px 14px; color: #2c3e50; font-weight: 600; text-decoration: none; }
+// ---- Ressources d'une fiche : boutons côte à côte, une couleur par type
+.ressources-grid { margin-bottom: 1rem; }
+.ressources-grid p { display: flex; flex-wrap: wrap; gap: 10px; margin: 0; }
+.res-btn {
+  display: inline-flex; align-items: center; gap: 7px; padding: 8px 14px; border-radius: 6px;
+  color: #fff !important; font-weight: 600; font-size: .92rem; text-decoration: none !important;
+  box-shadow: 0 2px 6px rgba(0,0,0,.15); transition: filter .15s, transform .1s;
+  &:hover { filter: brightness(.9); transform: translateY(-1px); }
+  .bi { font-size: 1.05rem; }
+}
+.res-recap { background: #2c3e50; }   // fiche récapitulative
+.res-doc   { background: $blue; }     // documents
+.res-data  { background: $green; }    // données
+.res-code  { background: $brick; }    // code
+.res-btn[href*="XXXX"] { display: none; }   // lien encore à compléter : bouton masqué
 
 // ---- Pied de page centré
 .nav-footer { justify-content: center; text-align: center; color: #6c757d; font-size: 14px; }

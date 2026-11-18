@@ -5,4 +5,19 @@ license: "CC BY 4.0"
 toc: true
 title-block-banner: ../../images/banniere.jpg
 body-classes: fiche
+recap-base-url: "https://www.pepa.science/maraichage.github.io"   # adresse du site, pour les liens du PDF
+
+# Deux sorties par fiche : la page web, et une fiche récapitulative PDF (index.pdf)
+# construite par _filters/fiche-recap.lua (sans graphiques interactifs, avec la figure principale).
+format-links: false
+format:
+  html: default
+  typst:
+    filters: [../_filters/fiche-recap.lua]
+    papersize: a4
+    margin: {x: 1.8cm, y: 1.6cm}
+    fontsize: 10pt
+    toc: false
+    date-format: "D MMMM YYYY"
+    lang: fr
 # Les fiches commençant par _ (ex. _modele) ne sont pas publiées.

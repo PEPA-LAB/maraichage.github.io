@@ -1,10 +1,11 @@
 ## Ressources {.ressources}
 
 ::: {.ressources-grid}
-[Document complet]({{< meta ressources.memoire >}}){.btn .btn-outline-primary}
-[Données de la fiche (CSV)]({{< meta ressources.donnees >}}){.btn .btn-outline-primary}
-[Données brutes archivées (DOI)]({{< meta ressources.doi >}}){.btn .btn-outline-primary}
-[Scripts d'analyse]({{< meta ressources.code >}}){.btn .btn-outline-primary}
+[[]{.bi .bi-file-earmark-text} Fiche récapitulative (PDF)](index.pdf){.res-btn .res-recap download="fiche-recapitulative.pdf"}
+[[]{.bi .bi-journal-text} Document complet]({{< meta ressources.memoire >}}){.res-btn .res-doc}
+[[]{.bi .bi-table} Données de la fiche (CSV)]({{< meta ressources.donnees >}}){.res-btn .res-data}
+[[]{.bi .bi-archive} Données brutes archivées (DOI)]({{< meta ressources.doi >}}){.res-btn .res-data}
+[[]{.bi .bi-code-slash} Scripts d'analyse]({{< meta ressources.code >}}){.res-btn .res-code}
 :::
 
 **Citer cette fiche :** {{< meta auteurs >}} ({{< meta annee >}}). *{{< meta title >}}*. Fiche PEPA Lab, UCLouvain.
