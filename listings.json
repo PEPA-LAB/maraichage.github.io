@@ -1,5 +1,28 @@
 [
   {
+    "listing": "/protocoles/vess-test-beche/index.html",
+    "items": [
+      "/fiches/2026-paillage-epinard-laitue/index.html",
+      "/fiches/2025-paillage-epinard-oignon/index.html"
+    ]
+  },
+  {
+    "listing": "/protocoles.html",
+    "items": [
+      "/protocoles/oyas-installation/index.html",
+      "/protocoles/vess-test-beche/index.html"
+    ]
+  },
+  {
+    "listing": "/themes.html",
+    "items": [
+      "/fiches/2026-paillage-epinard-laitue/index.html",
+      "/fiches/2025-oyas-chou/index.html",
+      "/fiches/2025-paillage-epinard-oignon/index.html",
+      "/fiches/2024-irrigation-tomate/index.html"
+    ]
+  },
+  {
     "listing": "/index.html",
     "items": [
       "/fiches/2024-irrigation-tomate/index.html",
@@ -9,11 +32,9 @@
     ]
   },
   {
-    "listing": "/themes.html",
+    "listing": "/protocoles/oyas-installation/index.html",
     "items": [
-      "/fiches/2026-paillage-epinard-laitue/index.html",
       "/fiches/2025-oyas-chou/index.html",
-      "/fiches/2025-paillage-epinard-oignon/index.html",
       "/fiches/2024-irrigation-tomate/index.html"
     ]
   }
