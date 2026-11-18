@@ -1,0 +1,26 @@
+---
+title: "Protocoles"
+subtitle: "Des méthodes de terrain testées au labo, à utiliser chez vous"
+page-layout: full
+toc: false
+listing:
+  id: protocoles
+  contents: "protocoles/*/index.qmd"
+  template: _templates/protocole-card.ejs
+  sort: "title asc"
+  categories: true
+  filter-ui: true
+  sort-ui: [title, difficulte, duree]
+  page-size: 24
+  fields: [title, date, categories, description, objectif, difficulte, duree, cout, periode, image]
+---
+
+::: {.callout-note appearance="simple" icon=false}
+Chaque protocole décrit pas à pas une mesure ou une technique que nous avons utilisée dans nos essais :
+le matériel, les étapes, une fiche de relevé à imprimer et comment lire les résultats.
+Ils sont pensés pour être faits **à la ferme, sans laboratoire**. Une question ou une amélioration ?
+Utilisez le lien « Faire part d'un problème » sur chaque page.
+:::
+
+::: {#protocoles}
+:::

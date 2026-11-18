@@ -1,0 +1,15 @@
+::: {.protocole-identite}
+[**Objectif**]{.pi-label} [{{< meta objectif >}}]{.pi-val}
+
+[**Difficulté**]{.pi-label} [{{< meta difficulte >}}]{.pi-val}
+
+[**Durée**]{.pi-label} [{{< meta duree >}}]{.pi-val}
+
+[**Coût**]{.pi-label} [{{< meta cout >}}]{.pi-val}
+
+[**Quand**]{.pi-label} [{{< meta periode >}}]{.pi-val}
+:::
+
+```{=html}
+<button type="button" class="btn-imprimer" onclick="window.print()">Imprimer ce protocole</button>
+```

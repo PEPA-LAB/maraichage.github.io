@@ -82,3 +82,33 @@ body.nav-fixed { padding-top: 0 !important; }
 
 // ---- Pied de page centré
 .nav-footer { justify-content: center; text-align: center; color: #6c757d; font-size: 14px; }
+
+// ---- Protocoles : carte d'identité, bouton imprimer, résultats des calculateurs
+.protocole-identite {
+  display: grid; grid-template-columns: max-content 1fr; gap: 6px 18px; margin: 0 0 14px;
+  background: #f9f9f9; border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,.08); border-left: 4px solid $green;
+  padding: 14px 18px;
+  p { margin: 0; display: contents; }
+  .pi-label { color: #2c3e50; }
+}
+.btn-imprimer {
+  border: none; border-radius: 6px; padding: 5px 12px; margin-bottom: 18px; color: #fff; background: $grey;
+  box-shadow: 0 2px 6px rgba(0,0,0,.15); cursor: pointer;
+  &:hover { filter: brightness(.92); }
+}
+.vess-resultat { background: #fff; border-left: 4px solid $green; border-radius: 6px; padding: 10px 14px; margin: 8px 0 16px;
+  box-shadow: 0 2px 8px rgba(0,0,0,.06); }
+.protocole ol > li { margin-bottom: .5rem; }
+.protocole-card .kpi b { font-size: 1.45rem; }
+.protocole table { font-size: .95rem; }
+
+// ---- Impression : un protocole sur papier, sans menu ni bandeau
+@media print {
+  #quarto-header, .nav-footer, #quarto-margin-sidebar, #TOC, .btn-imprimer, .quarto-title-banner::before,
+  .ojs-in-a-box-waiting-for-module-import, .cell .observablehq--inspect { display: none !important; }
+  .quarto-title-banner { min-height: 0; padding: 0 0 8px !important; background: none !important; border: none; text-align: left; }
+  .quarto-title-banner .title { color: #000 !important; font-size: 22pt !important; }
+  body { background: #fff; font-size: 11pt; }
+  a { color: #000; text-decoration: underline; }
+  h2 { break-after: avoid; } ol, table, .protocole-identite { break-inside: avoid; }
+}

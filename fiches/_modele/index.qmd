@@ -56,6 +56,10 @@ Plot.plot({
 })
 ```
 
+::: {.callout-note appearance="simple" icon=false}
+**Protocoles utilisés, à refaire chez vous :** [Nom du protocole](../../protocoles/nom-du-protocole/index.qmd)   <!-- supprimer si aucun -->
+:::
+
 ## Pour aller plus loin
 - Document complet, données, code : voir l'encadré **Ressources** ci-dessous.
 

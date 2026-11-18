@@ -1,0 +1,54 @@
+---
+# ===== MODÈLE DE PROTOCOLE — copier ce dossier, le renommer sujet-court (sans année) =====
+title: "Verbe + objet : ce que le protocole permet de faire"
+date: 2026-01-01
+objectif: "Une phrase : à quoi sert ce protocole pour le maraîcher."
+categories: [Thème]            # vocabulaire contrôlé des thèmes (voir README)
+difficulte: Facile              # Facile | Moyen | Avancé
+duree: "20 min"                 # temps de travail réel, ex. "20 min par point"
+cout: "≈ 0 €"                   # matériel à acheter, ordre de grandeur
+periode: "Printemps"            # quand le faire
+image: photo.jpg                # photo de la carte (sinon bannière par défaut)
+auteurs: "PEPA Lab"
+sources: "Mémoire X (année), méthode de référence Y"
+listing:                        # essais du labo qui ont utilisé ce protocole
+  id: essais
+  type: table
+  contents:
+    - ../../fiches/AAAA-sujet-culture/index.qmd
+  fields: [title, annee, culture]
+  field-display-names: {title: Essai, annee: Saison, culture: Culture}
+  sort-ui: false
+  filter-ui: false
+---
+
+{{< include /_includes/protocole-identite.qmd >}}
+
+## À quoi ça sert
+Deux phrases : ce que l'on mesure, et quelle décision cela aide à prendre.
+
+## Matériel
+- Objet 1 (quantité, coût indicatif)
+- Objet 2
+- [Fiche de relevé](fiche-releve.csv) imprimée
+
+## Étapes
+1. **Étape courte en gras.** Détail, avec une photo si possible.
+2. **…**
+
+## Fiche de relevé
+Télécharger la [fiche de relevé (CSV)](fiche-releve.csv), à ouvrir dans un tableur et à imprimer.
+
+## Lire les résultats
+Seuils, exemples tirés de nos essais.
+
+## Erreurs fréquentes
+- …
+
+## Dans nos essais
+
+::: {#essais}
+:::
+
+## Sources
+- …

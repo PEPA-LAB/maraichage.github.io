@@ -26,6 +26,13 @@ maraichage/
 │       ├── donnees.csv         ← données résumées (< 5 Mo)
 │       ├── dictionnaire.csv    ← (recommandé) description des colonnes
 │       └── photo-essai.jpg     ← (optionnel)
+├── protocoles.qmd          ← accueil des protocoles (filtres)
+├── protocoles/
+│   ├── _metadata.yml        ← valeurs communes à tous les protocoles
+│   ├── _modele/             ← MODÈLE de protocole à copier (non publié)
+│   └── vess-test-beche/     ← un protocole = un dossier
+│       ├── index.qmd           ← carte d'identité, matériel, étapes, lecture, sources
+│       └── fiche-releve.csv    ← fiche de terrain à imprimer
 ├── data/                    ← données transversales (météo, sols…)
 ├── documents/               ← PDF courts non déposés sur DIAL
 └── .github/workflows/publish.yml  ← publication automatique
@@ -41,10 +48,18 @@ maraichage/
 Pas besoin d'installer quoi que ce soit pour éditer : tout peut se faire dans l'interface web de GitHub.
 Pour prévisualiser en local : `quarto preview`.
 
+## Ajouter un protocole
+
+1. Copier `protocoles/_modele/` → `protocoles/sujet-court/` (sans année : un protocole évolue).
+2. Remplir l'en-tête : `objectif`, `difficulte` (Facile | Moyen | Avancé), `duree`, `cout`, `periode`, `categories`,
+   et la liste `listing.contents` des fiches d'essais qui l'utilisent.
+3. Rédiger pour un·e maraîcher·ère : matériel avec coût, étapes numérotées courtes, fiche de relevé, lecture des résultats, erreurs fréquentes.
+4. Dans chaque fiche d'essai concernée, ajouter le lien dans l'encadré « Protocoles utilisés ».
+
 ## Vocabulaire contrôlé (pour que les filtres restent propres)
 
 **Thèmes** : Paillage · Gestion de l'eau · Fertilisation · Couverts végétaux · Travail du sol ·
-Variétés · Protection des cultures · Associations de cultures · Qualité nutritionnelle · Économie
+Variétés · Santé du sol · Protection des cultures · Associations de cultures · Qualité nutritionnelle · Économie
 
 **Cultures** : utiliser le nom commun au singulier (Tomate, Laitue, Carotte, Poireau, Courge, Chou…).
 

@@ -1,0 +1,118 @@
+---
+title: "Évaluer la structure du sol et compter les vers de terre à la bêche"
+date: 2026-11-18
+objectif: "Noter la structure du sol de 1 à 5 et compter les vers de terre sur le même bloc de terre, pour suivre l'effet de vos pratiques d'une année à l'autre."
+categories: [Travail du sol, Paillage, Santé du sol]
+difficulte: Facile
+duree: "≈ 30 min par bloc"
+cout: "≈ 0 € (une bêche, deux bacs)"
+periode: "Fin d'hiver – début de printemps, sol ressuyé"
+image: ../../fiches/2026-paillage-epinard-laitue/photo.jpg
+auteurs: "PEPA Lab, d'après les mémoires d'Eliot Vas (2025) et Pierre-André Peters-Dickie (2026)"
+sources: "Méthode VESS (Ball et al., 2007 ; Guimarães et al., 2011) ; Guide méthodique du test bêche (Agro-Transfert, 2023) ; clé de l'Observatoire Participatif des Vers de Terre (OPVT)"
+listing:
+  id: essais
+  type: table
+  contents:
+    - ../../fiches/2025-paillage-epinard-oignon/index.qmd
+    - ../../fiches/2026-paillage-epinard-laitue/index.qmd
+  fields: [title, annee, culture]
+  field-display-names: {title: Essai, annee: Saison, culture: Culture}
+  sort-ui: false
+  filter-ui: false
+---
+
+{{< include /_includes/protocole-identite.qmd >}}
+
+## À quoi ça sert
+
+La **VESS** (*Visual Evaluation of Soil Structure*) donne une note de 1 (sol friable, bien structuré) à 5 (sol très compact) à partir d'un simple bloc de terre. Le **test bêche** utilise ensuite ce même bloc pour compter les vers de terre et les classer en groupes. Ensemble, ils montrent en une demi-heure si un paillage, un couvert ou un travail du sol améliore ou dégrade votre sol. Il suffit de refaire le test chaque année à la même période.
+
+## Matériel
+
+- Une **bêche** plate et bien affûtée
+- Deux **bacs** ou une bâche, de couleur sombre pour mieux voir les vers
+- Un **mètre ruban** ou une règle
+- La **grille de notation VESS** imprimée. Elle existe aussi en application pour iPhone ; nous n'avons pas trouvé de version Android en 2026.
+- La **clé d'identification des vers de terre** de l'OPVT (4 groupes)
+- La [fiche de relevé](fiche-releve.csv) et un crayon ; un téléphone pour les photos
+
+## Étapes
+
+1. **Choisir le moment.** Faites le test en fin d'hiver ou début de printemps, sur un sol ressuyé (ni détrempé, ni sec), et **avant** tout travail du sol de la saison. Au labo, nous le faisons en mars.
+2. **Choisir les points.** Prenez **2 blocs par parcelle** (6 si la parcelle est grande), loin des bords et des passages de roues. Sur nos parcelles de 12 m², nous creusons entre 1 et 1,5 m des extrémités.
+3. **Dégager le bloc.** Creusez d'abord une tranchée sur un côté. Plantez ensuite la bêche pour isoler un bloc d'environ **20 × 20 cm sur 25 cm de profondeur**. Dégagez bien les côtés pour que le bloc garde sa forme : c'est important si vous comptez aussi les vers.
+4. **Sortir le bloc** d'un seul mouvement et le poser dans le premier bac. Prenez une photo.
+5. **Repérer les couches.** Ouvrez doucement le bloc à la main, en suivant ses fissures naturelles. Repérez les couches qui diffèrent (couleur, compacité, racines) et mesurez leur épaisseur.
+6. **Noter chaque couche de 1 à 5** avec la grille (tableau ci-dessous). Regardez la taille des agrégats, les pores visibles, les racines et la force nécessaire pour casser les mottes.
+7. **Calculer la note du bloc** : la moyenne des notes des couches, pondérée par leur épaisseur. Le calculateur plus bas le fait pour vous.
+8. **Compter les vers de terre.** Émiettez le bloc motte par motte dans le second bac et ramassez tous les vers. Comptez-les et classez-les avec la clé OPVT : **épigés**, **endogés**, **épi-anéciques** et **anéciques stricts**. Remettez ensuite les vers et la terre dans le trou.
+9. **Changer d'emplacement chaque année.** L'extraction du bloc abîme la structure du sol pour longtemps : ne refaites jamais le test exactement au même endroit.
+
+## Grille de notation (résumé)
+
+| Note | Nom | Ce que l'on observe |
+|---|---|---|
+| **1** | Friable | Agrégats petits, qui s'émiettent entre les doigts ; très poreux, racines partout |
+| **2** | Intact | Agrégats faciles à casser d'une main ; poreux, arrondis, racines partout |
+| **3** | Ferme | La plupart des agrégats se cassent d'une main ; mélange de petits agrégats poreux et de mottes plus anguleuses |
+| **4** | Compact | Il faut forcer pour casser les agrégats d'une main ; mottes anguleuses, peu de pores, racines regroupées dans les fissures |
+| **5** | Très compact | Difficile à casser ; gros blocs anguleux, presque pas de pores, peu ou pas de racines |
+
+: {tbl-colwidths="[8,16,76]"}
+
+Ce tableau est un résumé : pour noter, utilisez la grille VESS officielle, qui contient des photos de référence.
+
+## Calculateur de la note du bloc
+
+```{ojs}
+//| echo: false
+viewof e1 = Inputs.range([0, 30], {label: "Couche 1 : épaisseur (cm)", step: 1, value: 10})
+viewof s1 = Inputs.range([1, 5], {label: "Couche 1 : note", step: 0.5, value: 2})
+viewof e2 = Inputs.range([0, 30], {label: "Couche 2 : épaisseur (cm)", step: 1, value: 10})
+viewof s2 = Inputs.range([1, 5], {label: "Couche 2 : note", step: 0.5, value: 3})
+viewof e3 = Inputs.range([0, 30], {label: "Couche 3 : épaisseur (cm)", step: 1, value: 5})
+viewof s3 = Inputs.range([1, 5], {label: "Couche 3 : note", step: 0.5, value: 4})
+total = e1 + e2 + e3
+note = total > 0 ? (e1 * s1 + e2 * s2 + e3 * s3) / total : NaN
+lecture = note < 2.5 ? ["bonne", "#4caf50", "Rien à changer."]
+        : note < 3.5 ? ["moyenne", "#e0a030", "Une amélioration sur le long terme est souhaitable."]
+        : ["dégradée", "#c5655a", "Il faut changer les pratiques rapidement : moins de passages, couverture du sol, pas de travail en sol humide."]
+html`<div class="vess-resultat" style="border-left-color:${lecture[1]}">
+  Note du bloc : <b>${isNaN(note) ? "–" : note.toFixed(1)}</b> sur ${total} cm, structure <b>${lecture[0]}</b>.<br>${lecture[2]}</div>`
+```
+
+*Mettez l'épaisseur à 0 pour une couche absente. Les seuils sont des repères indicatifs, tirés des recommandations de la méthode VESS.*
+
+## Fiche de relevé
+
+Téléchargez la [fiche de relevé (CSV)](fiche-releve.csv), ouvrez-la dans un tableur et imprimez-la. Prévoyez une ligne par couche. Le nombre de vers se note une seule fois par bloc, sur la ligne de la couche 1.
+
+## Lire les résultats
+
+- **Note de 1 à 2** : le sol est bien structuré.
+- **Note autour de 3** : la structure est moyenne. Surveillez son évolution d'une année à l'autre.
+- **Note de 4 à 5** : le sol est tassé. Cherchez la cause : passages de roues, travail du sol en conditions humides, sol nu en hiver.
+- **Comparer plutôt que juger.** C'est surtout l'**évolution** de la note d'une année à l'autre, et l'écart entre deux pratiques sur la même ferme, qui sont informatifs.
+- **Vers de terre** : beaucoup de vers et des **anéciques** (les gros vers qui creusent des galeries verticales) indiquent un sol vivant et bien drainé. Aucun ver, ou seulement quelques épigés, signale un sol perturbé ou tassé.
+
+## Erreurs fréquentes
+
+- **Faire le test sur un sol trop humide ou trop sec.** Le sol humide paraît compact, le sol sec paraît dur. Attendez un sol ressuyé.
+- **Abîmer le bloc en le sortant** : il faut dégager davantage autour avant de soulever.
+- **Revenir au même endroit l'année suivante** : la structure n'a pas encore récupéré.
+- **Comparer des notes données par des personnes différentes.** Pour suivre une évolution, gardez si possible la même personne d'une année à l'autre.
+
+## Dans nos essais
+
+À la ferme universitaire de Lauzelle, nous avons fait ce test en **mars 2025 et en mars 2026**, avec 2 blocs par parcelle sur 30 parcelles de 12 m² paillées de cinq façons différentes. En 2026, le **BRF** avait la meilleure structure (note moyenne **1,1**). C'est le seul paillage nettement meilleur que les autres.
+
+::: {#essais}
+:::
+
+## Sources
+
+- Méthode VESS : Ball, Batey et Munkholm (2007) ; Guimarães, Ball et Tormena (2011), grille de notation officielle.
+- *Guide méthodique du test bêche : structure et action des vers de terre*, Agro-Transfert (2023).
+- Clé d'identification des vers de terre en 4 groupes : Observatoire Participatif des Vers de Terre (OPVT).
+- Mise en œuvre au PEPA Lab : mémoires d'Eliot Vas (2025, p. 37–38) et de Pierre-André Peters-Dickie (2026, p. 30–32).

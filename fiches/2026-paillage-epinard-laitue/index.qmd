@@ -114,6 +114,10 @@ Plot.plot({
 
 *Humidité du sol mesurée par les sondes (moyennes journalières), sondes placées surtout dans le bloc 1 (1 à 2 sondes par modalité). La chute générale fin juin correspond à une panne d'irrigation suivie d'une canicule.*
 
+::: {.callout-note appearance="simple" icon=false}
+**Protocoles utilisés, à refaire chez vous :** [Évaluer la structure du sol et compter les vers de terre à la bêche](../../protocoles/vess-test-beche/index.qmd)
+:::
+
 ## Méthode d'analyse
 
 Chaque variable mesurée sur les 30 parcelles est analysée par ANOVA (paillage + bloc légume + colonne), avec le rang ajouté comme covariable lorsqu'un gradient spatial apparaît. Les comparaisons par paires utilisent le test de Tukey et l'ampleur des effets est donnée par l'η² partiel et le d de Cohen. Une partie de la plateforme présente un gradient de fertilité (C et N croissants de la colonne A vers C). Le script joint est une reconstruction simplifiée : il retrouve les principales tailles d'effet du mémoire.

@@ -113,6 +113,10 @@ Plot.plot({
 
 *Récolte cumulée moyenne par plant au fil de la saison. Le semis « direct », repiqué 2 semaines plus tard, commence à produire le 26/08.*
 
+::: {.callout-note appearance="simple" icon=false}
+**Protocoles utilisés, à refaire chez vous :** [Installer et suivre des oyas sous tunnel](../../protocoles/oyas-installation/index.qmd)
+:::
+
 ## Méthode d'analyse
 
 Chaque variable a été comparée entre traitements par une ANOVA à un facteur suivie d'un test de Tukey, ou par un test de Kruskal-Wallis lorsque la normalité ou l'homogénéité des variances n'étaient pas respectées. L'unité statistique est le plant (9 par traitement). Le script joint est une reconstruction : il retrouve les résultats du mémoire sur le rendement, les fruits, les fleurs et l'avortement.

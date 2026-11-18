@@ -1,0 +1,102 @@
+---
+title: "Installer et suivre des oyas sous tunnel"
+date: 2026-11-18
+objectif: "Irriguer tomates ou choux avec des pots en terre cuite enterrés, en économisant l'eau, et mesurer ce qu'ils consomment vraiment."
+categories: [Gestion de l'eau]
+difficulte: Facile
+duree: "≈ 20 min par oya"
+cout: "≈ 30 € par oya de 5 L (prix 2025)"
+periode: "Installation à la plantation, puis 2 remplissages par semaine"
+image: ../../fiches/2025-oyas-chou/photo.jpg
+auteurs: "PEPA Lab, d'après les mémoires de Clémentine Lucca (2025) et Gaëlle Hanssens (2025)"
+sources: "Mémoires Lucca (2025) et Hanssens (2025) et références citées"
+listing:
+  id: essais
+  type: table
+  contents:
+    - ../../fiches/2024-irrigation-tomate/index.qmd
+    - ../../fiches/2025-oyas-chou/index.qmd
+  fields: [title, annee, culture]
+  field-display-names: {title: Essai, annee: Saison, culture: Culture}
+  sort-ui: false
+  filter-ui: false
+---
+
+{{< include /_includes/protocole-identite.qmd >}}
+
+## À quoi ça sert
+
+Un **oya** est un pot en argile poreuse, enterré et rempli d'eau. L'eau traverse lentement la paroi et humidifie le sol autour du pot, au niveau des racines, avec très peu d'évaporation. Dans nos essais sous tunnel, les oyas ont utilisé **60 à 70 % d'eau en moins** qu'un arrosage classique, à condition de bien les placer. Ce protocole explique comment les installer, à quelle distance des plants, et comment mesurer l'eau qu'ils consomment.
+
+## Matériel
+
+- **Oyas de 5 L** : un pour 4 plants. Ils coûtaient environ 30 € pièce en 2025. Un oya réutilisé d'une saison précédente fonctionne aussi.
+- Une **bêche** ou une tarière
+- Un **récipient gradué** pour connaître le volume versé (nous utilisons une bouteille de 1,5 L graduée tous les 0,15 L)
+- Un **mètre ruban**
+- Si le sol est couvert d'une toile : un **cutter** pour l'ouvrir à l'emplacement des oyas
+- La [fiche de relevé](fiche-releve.csv)
+
+## Étapes
+
+1. **Préparer le plan.** Placez chaque oya **au centre de 4 plants**. Nos repères de distance entre l'oya et chaque plant :
+   - tomate : **≈ 30 cm** (31 cm dans notre essai de 2024) ;
+   - chou : **35 à 56 cm**. **À 79 cm, c'est trop loin** : moins de la moitié des choux étaient commercialisables.
+2. **Creuser.** Faites un trou environ **3 fois plus large et 2 fois plus profond** que l'oya, puis remettez de la terre fine au fond.
+3. **Enterrer l'oya** pour que **seul le col dépasse**, à 1 ou 2 cm au-dessus du sol. S'il dépasse trop, l'eau s'évapore. S'il est trop profond, les jeunes racines n'atteignent pas la zone humide.
+4. **Bien tasser la terre autour**, en contact avec la paroi et sans laisser de vide : l'eau ne passe que là où la terre touche le pot.
+5. **Remplir l'oya à ras** le jour de la plantation, poser le couvercle, et **arroser aussi les plants au pied** (nous avons donné 0,25 L par chou et 0,5 L par tomate). Pendant les premières semaines, les racines n'atteignent pas encore l'oya : un arrosage d'appoint peut être nécessaire.
+6. **Remplir régulièrement.** Comptez **2 fois par semaine** au printemps et en été. Notez à chaque fois le volume ajouté pour refaire le plein. Pour une efficience maximale, la littérature conseille de remplir avant que l'oya ait perdu plus d'un quart de son volume.
+7. **Mesurer en fin de saison.** Après la récolte, mesurez l'eau qui reste dans chaque oya. Calculez ensuite sa consommation avec le calculateur ci-dessous.
+8. **Entretenir.** Videz et sortez les oyas avant l'hiver. Brossez-les si un dépôt blanc (calcaire, sels) bouche la surface.
+
+## Calculateurs
+
+```{ojs}
+//| echo: false
+viewof plants = Inputs.range([4, 400], {label: "Nombre de plants", step: 4, value: 40})
+viewof prix = Inputs.range([10, 60], {label: "Prix d'un oya (€)", step: 1, value: 30})
+nOyas = Math.ceil(plants / 4)
+html`<div class="vess-resultat"><b>${nOyas} oyas</b> pour ${plants} plants (1 oya pour 4 plants), soit un investissement d'environ <b>${(nOyas * prix).toLocaleString("fr-BE")} €</b>, réutilisable plusieurs saisons.</div>`
+```
+
+```{ojs}
+//| echo: false
+viewof initial = Inputs.range([0, 20], {label: "Premier remplissage (L)", step: 0.5, value: 5})
+viewof ajouts = Inputs.range([0, 200], {label: "Total des remplissages suivants (L)", step: 0.5, value: 45})
+viewof reste = Inputs.range([0, 20], {label: "Eau restante en fin de saison (L)", step: 0.5, value: 2})
+conso = initial + ajouts - reste
+html`<div class="vess-resultat">Consommation de l'oya sur la saison : <b>${conso.toFixed(1)} L</b>, soit <b>${(conso / 4).toFixed(1)} L par plant</b> (4 plants par oya).</div>`
+```
+
+*Consommation = premier remplissage + somme des remplissages − eau restante, selon la méthode utilisée dans le mémoire de Gaëlle Hanssens (2025).*
+
+## Fiche de relevé
+
+Téléchargez la [fiche de relevé (CSV)](fiche-releve.csv), avec une ligne par oya et par remplissage. Additionnez la colonne `volume_ajoute_L` en fin de saison.
+
+## Lire les résultats
+
+- **Comparez avec votre arrosage habituel** : en 2025, nos choux ont reçu 10 à 14 L par plant avec les oyas, contre environ 35 L à l'arrosoir. En 2024, nos tomates ont reçu ≈ 27 L par plant avec les oyas, contre ≈ 127 L en irrigation complète.
+- **Les oyas économisent l'eau mais ne maximisent pas le rendement.** En 2024, les tomates sous oyas ont donné 2,4 kg par plant, contre 3,2 kg en irrigation complète, mais chaque litre d'eau a produit environ 4 fois plus de tomates.
+- **Un oya qui se vide moins vite** indique que les plants ont moins besoin d'eau (fin de saison, temps frais), ou que la paroi est encrassée.
+
+## Erreurs fréquentes
+
+- **Placer l'oya trop loin des plants** : les racines ne le trouvent pas.
+- **Oublier l'arrosage d'appoint** juste après la plantation.
+- **Oublier de noter les volumes** : sans eux, impossible de savoir si l'on économise de l'eau.
+- **Travailler le sol chaque année** : les oyas conviennent mieux aux planches permanentes et au travail du sol réduit.
+- **Laisser les oyas pleins dehors en hiver** : une argile gorgée d'eau risque de se fendre au gel.
+
+## Dans nos essais
+
+Nous avons testé les oyas sous tunnel à la ferme universitaire de Marbaix, sur **tomate en 2024** et sur **chou en 2025** : oyas de 5 L, chacun au centre de 4 plants, remplis à ras 2 à 3 fois par semaine.
+
+::: {#essais}
+:::
+
+## Sources
+
+- Mémoire de Clémentine Lucca (2025), *irrigation de la tomate sous tunnel*, p. 27–28, 33 et 37.
+- Mémoire de Gaëlle Hanssens (2025), *oyas et chou*, p. 8–10 et 18–22. Il cite notamment Siyal et al. (2009), Bazai et al. (2017) et Hatungimana et al. (2023).

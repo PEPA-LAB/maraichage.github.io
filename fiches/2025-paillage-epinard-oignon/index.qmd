@@ -100,6 +100,10 @@ Plot.plot({
 
 *Barres : moyenne par modalité ; points : parcelles (moyenne des répétitions). En 2025, Trèfle et Mix correspondent à un sol nu. Les moyennes brutes peuvent différer des moyennes ajustées citées dans le texte.*
 
+::: {.callout-note appearance="simple" icon=false}
+**Protocoles utilisés, à refaire chez vous :** [Évaluer la structure du sol et compter les vers de terre à la bêche](../../protocoles/vess-test-beche/index.qmd)
+:::
+
 ## Méthode d'analyse
 
 Selon la variable, le mémoire utilise des modèles linéaires mixtes : paillage et bloc légume en effets fixes, colonne et/ou rang en effets aléatoires, sélectionnés par test du rapport de vraisemblance. Il recourt à des transformations (racine, log) ou à des tests non paramétriques quand les hypothèses ne sont pas respectées. Les comparaisons par paires utilisent le test de Tukey. Le script joint regroupe les modèles retenus. Il retrouve les résultats sur la biomasse et l'infiltration. Pour quelques variables (stabilité des agrégats, vers de terre, adventices), les conclusions changent légèrement une fois corrigées des erreurs d'étiquetage dans le fichier de données (voir le rapport de préparation).
