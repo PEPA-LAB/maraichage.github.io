@@ -1,0 +1,107 @@
+variable,date,culture,Trait,n,moyenne,ecart_type
+adventices_cases_total,2025-05-26,Oignon,Bâche plastique,3,5.667,6.658
+adventices_cases_total,2025-05-26,Oignon,BRF,3,2.333,2.082
+adventices_cases_total,2025-05-26,Oignon,Miscanthus,3,3,5.196
+adventices_cases_total,2025-05-26,Oignon,Trèfle,3,19,10.583
+adventices_cases_total,2025-05-26,Oignon,Mix,3,18.333,14.572
+adventices_cases_total,2025-05-26,Épinard,Bâche plastique,3,0,0
+adventices_cases_total,2025-05-26,Épinard,BRF,3,23.667,8.737
+adventices_cases_total,2025-05-26,Épinard,Miscanthus,3,22,19.053
+adventices_cases_total,2025-05-26,Épinard,Trèfle,3,4,1
+adventices_cases_total,2025-05-26,Épinard,Mix,3,11,3.464
+adventices_especes,2025-05-26,Oignon,Bâche plastique,3,0.667,0.577
+adventices_especes,2025-05-26,Oignon,BRF,3,0.667,0.577
+adventices_especes,2025-05-26,Oignon,Miscanthus,3,0.667,1.155
+adventices_especes,2025-05-26,Oignon,Trèfle,3,4,1
+adventices_especes,2025-05-26,Oignon,Mix,3,3.333,1.528
+adventices_especes,2025-05-26,Épinard,Bâche plastique,3,0,0
+adventices_especes,2025-05-26,Épinard,BRF,3,2.333,0.577
+adventices_especes,2025-05-26,Épinard,Miscanthus,3,1.667,1.528
+adventices_especes,2025-05-26,Épinard,Trèfle,3,1.667,0.577
+adventices_especes,2025-05-26,Épinard,Mix,3,2,1
+biomasse_echantillon,2025-05-16,Épinard,Bâche plastique,9,723.667,140.289
+biomasse_echantillon,2025-05-16,Épinard,BRF,9,467.111,89.552
+biomasse_echantillon,2025-05-16,Épinard,Miscanthus,9,151.556,57.418
+biomasse_echantillon,2025-05-16,Épinard,Trèfle,9,480.222,68.342
+biomasse_echantillon,2025-05-16,Épinard,Mix,9,447.111,202.661
+biomasse_plant,2025-05-16,Épinard,Bâche plastique,9,80.407,15.588
+biomasse_plant,2025-05-16,Épinard,BRF,9,51.901,9.95
+biomasse_plant,2025-05-16,Épinard,Miscanthus,9,16.84,6.38
+biomasse_plant,2025-05-16,Épinard,Trèfle,9,53.358,7.594
+biomasse_plant,2025-05-16,Épinard,Mix,9,49.679,22.518
+carbone_microbien,2025-06-25,Sol (fin de culture),Bâche plastique,1,0.55,NA
+carbone_microbien,2025-06-25,Sol (fin de culture),BRF,1,0.693,NA
+carbone_microbien,2025-06-25,Sol (fin de culture),Miscanthus,1,0.566,NA
+carbone_microbien,2025-06-25,Sol (fin de culture),Trèfle,1,0.45,NA
+carbone_microbien,2025-06-25,Sol (fin de culture),Mix,1,0.547,NA
+carbone_organique,2024-11-14,Sol (avant plantation),Bâche plastique,6,24.417,10.198
+carbone_organique,2024-11-14,Sol (avant plantation),BRF,6,25.3,3.428
+carbone_organique,2024-11-14,Sol (avant plantation),Miscanthus,6,21.117,4.674
+carbone_organique,2024-11-14,Sol (avant plantation),Trèfle,6,22.267,5.123
+carbone_organique,2024-11-14,Sol (avant plantation),Mix,6,22.133,5.327
+couverture_foliaire,2025-04-29,Oignon,Bâche plastique,6,0.917,0.699
+couverture_foliaire,2025-04-29,Oignon,BRF,6,0.115,0.172
+couverture_foliaire,2025-04-29,Oignon,Miscanthus,6,0.237,0.161
+couverture_foliaire,2025-04-29,Oignon,Trèfle,6,0.79,0.313
+couverture_foliaire,2025-04-29,Oignon,Mix,6,0.765,0.195
+couverture_foliaire,2025-04-29,Épinard,Bâche plastique,6,19.277,2.547
+couverture_foliaire,2025-04-29,Épinard,BRF,6,10.852,4.056
+couverture_foliaire,2025-04-29,Épinard,Miscanthus,6,4,1.943
+couverture_foliaire,2025-04-29,Épinard,Trèfle,6,18.3,3.349
+couverture_foliaire,2025-04-29,Épinard,Mix,6,14.545,9.357
+couverture_foliaire,2025-05-26,Oignon,Bâche plastique,7,1.924,2.436
+couverture_foliaire,2025-05-26,Oignon,BRF,6,1.665,2.182
+couverture_foliaire,2025-05-26,Oignon,Miscanthus,6,2.053,1.553
+couverture_foliaire,2025-05-26,Oignon,Trèfle,5,4.134,1.438
+couverture_foliaire,2025-05-26,Oignon,Mix,6,4.753,1.533
+couverture_foliaire,2025-05-26,Épinard,Miscanthus,1,5.3,NA
+infiltration_chabert,2025-06-26,Sol (fin de culture),Bâche plastique,6,11.417,1.429
+infiltration_chabert,2025-06-26,Sol (fin de culture),BRF,6,6.117,4.013
+infiltration_chabert,2025-06-26,Sol (fin de culture),Miscanthus,6,3,4.461
+infiltration_chabert,2025-06-26,Sol (fin de culture),Trèfle,6,7.2,2.888
+infiltration_chabert,2025-06-26,Sol (fin de culture),Mix,6,8.417,2.178
+lombrics_total,2025-03-26,Sol (avant plantation),Bâche plastique,4,4.75,2.062
+lombrics_total,2025-03-26,Sol (avant plantation),BRF,6,3.167,3.312
+lombrics_total,2025-03-26,Sol (avant plantation),Miscanthus,6,3.833,1.602
+lombrics_total,2025-03-26,Sol (avant plantation),Trèfle,6,9.333,5.465
+lombrics_total,2025-03-26,Sol (avant plantation),Mix,4,0.75,0.957
+lombrics_total,2025-03-27,Sol (avant plantation),Bâche plastique,8,3.125,1.642
+lombrics_total,2025-03-27,Sol (avant plantation),BRF,6,1.833,1.722
+lombrics_total,2025-03-27,Sol (avant plantation),Miscanthus,6,3.5,3.507
+lombrics_total,2025-03-27,Sol (avant plantation),Trèfle,6,1.5,1.049
+lombrics_total,2025-03-27,Sol (avant plantation),Mix,8,3.125,1.356
+matiere_seche,2025-06-26,Sol (fin de culture),Bâche plastique,1,0.811,NA
+matiere_seche,2025-06-26,Sol (fin de culture),BRF,1,0.769,NA
+matiere_seche,2025-06-26,Sol (fin de culture),Miscanthus,1,0.763,NA
+matiere_seche,2025-06-26,Sol (fin de culture),Trèfle,1,0.827,NA
+matiere_seche,2025-06-26,Sol (fin de culture),Mix,1,0.844,NA
+mpn_mycorhizes,2025-06-24,Sol (fin de culture),Bâche plastique,1,0.024,NA
+mpn_mycorhizes,2025-06-24,Sol (fin de culture),BRF,1,0.041,NA
+mpn_mycorhizes,2025-06-24,Sol (fin de culture),Miscanthus,1,0.04,NA
+mpn_mycorhizes,2025-06-24,Sol (fin de culture),Trèfle,0,NA,NA
+mpn_mycorhizes,2025-06-24,Sol (fin de culture),Mix,1,0,NA
+ph_kcl,2024-11-14,Sol (avant plantation),Bâche plastique,6,5.733,0.589
+ph_kcl,2024-11-14,Sol (avant plantation),BRF,6,6.167,0.327
+ph_kcl,2024-11-14,Sol (avant plantation),Miscanthus,6,5.65,0.207
+ph_kcl,2024-11-14,Sol (avant plantation),Trèfle,6,5.8,0.502
+ph_kcl,2024-11-14,Sol (avant plantation),Mix,6,5.817,0.366
+stabilite_agregats_usda,2025-05-28,Oignon,Bâche plastique,9,5.444,0.882
+stabilite_agregats_usda,2025-05-28,Oignon,BRF,9,5.222,0.833
+stabilite_agregats_usda,2025-05-28,Oignon,Miscanthus,9,5.444,0.527
+stabilite_agregats_usda,2025-05-28,Oignon,Trèfle,9,5.111,1.364
+stabilite_agregats_usda,2025-05-28,Oignon,Mix,9,4.889,1.167
+stabilite_agregats_usda,2025-05-28,Épinard,Bâche plastique,9,5.444,0.527
+stabilite_agregats_usda,2025-05-28,Épinard,BRF,9,5.667,0.5
+stabilite_agregats_usda,2025-05-28,Épinard,Miscanthus,9,5.556,0.726
+stabilite_agregats_usda,2025-05-28,Épinard,Trèfle,9,5.333,0.866
+stabilite_agregats_usda,2025-05-28,Épinard,Mix,10,5.6,0.516
+vess,2025-03-26,Sol (avant plantation),Bâche plastique,4,2.205,0.24
+vess,2025-03-26,Sol (avant plantation),BRF,6,1.663,0.41
+vess,2025-03-26,Sol (avant plantation),Miscanthus,6,2.434,0.652
+vess,2025-03-26,Sol (avant plantation),Trèfle,6,2.255,0.556
+vess,2025-03-26,Sol (avant plantation),Mix,4,2.173,0.505
+vess,2025-03-27,Sol (avant plantation),Bâche plastique,8,1.75,0.385
+vess,2025-03-27,Sol (avant plantation),BRF,6,1.396,0.336
+vess,2025-03-27,Sol (avant plantation),Miscanthus,6,1.473,0.285
+vess,2025-03-27,Sol (avant plantation),Trèfle,6,1.395,0.49
+vess,2025-03-27,Sol (avant plantation),Mix,8,1.748,0.647
