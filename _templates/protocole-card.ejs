@@ -1,5 +1,5 @@
 ```{=html}
-<div class="fiche-grid">
+<div class="list fiche-grid">
 <% for (const item of items) { %>
 <% const img = item.image ? String(item.image).replace(/^\//, '') : 'images/banniere.jpg'; %>
 <a class="fiche-card protocole-card" href="<%- item.path %>" <%= metadataAttrs(item) %>>
