@@ -81,6 +81,14 @@ Téléchargez la [fiche de relevé (CSV)](fiche-releve.csv) : une ligne par éch
 ::: {#essais}
 :::
 
+## Ressources en ligne
+
+Pour aller plus loin, une sélection de ressources de référence. Elles sont gérées par d'autres organismes : leur contenu peut changer.
+
+- [Plateforme SYCMA : rendements mesurés en maraîchage bio au CRA-W (poster, PDF)](https://www.cra.wallonie.be/uploads/2023/06/poster-sycma-maraichage-bio3.pdf)
+- [Itinéraires BIO n° 88 : maraîchage, agriculture de conservation et fertilité autoproduite (Biowallonie, PDF)](https://www.biowallonie.com/wp-content/uploads/2026/05/Brochure-A4-Itineraires-BIO-88_web.pdf)
+- [Données technico-économiques en maraîchage biologique (INRAE et AgroParisTech, 2017, PDF)](https://www.inrae.fr/sites/default/files/pdf/Fevrier-2017-rapport-6-Etude-INRA-AgroParisTech-maraichage-biologique-permaculturel-et-performance-economique.pdf)
+
 ## Sources
 
 - Mémoire d'Eliot Vas (2025) : méthode p. 44, plantation p. 32, évaluation p. 75 et 77.

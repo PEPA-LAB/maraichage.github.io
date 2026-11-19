@@ -50,5 +50,9 @@ Seuils, exemples tirés de nos essais.
 ::: {#essais}
 :::
 
+## Ressources en ligne
+
+- [Titre de la ressource (organisme, format, langue si pas en français)](https://…)
+
 ## Sources
 - …

@@ -82,6 +82,15 @@ Téléchargez la [fiche de relevé (CSV)](fiche-releve.csv). Notez une ligne par
 ::: {#essais}
 :::
 
+## Ressources en ligne
+
+Pour aller plus loin, une sélection de ressources de référence. Elles sont gérées par d'autres organismes : leur contenu peut changer.
+
+- [Canopeo sur l'App Store (gratuit, Oklahoma State University ; existe aussi sur Android)](https://apps.apple.com/us/app/id929640529)
+- [Présentation de Canopeo par ses concepteurs (Oklahoma State University, en anglais)](https://news.okstate.edu/articles/communications/2015/oklahoma-state-university-releases-crop-analysis-app)
+- [Pl@ntNet sur l'App Store (gratuit, iOS et Android)](https://apps.apple.com/FR/app/id600547573)
+- [Cinq applications de reconnaissance végétale testées sur les adventices (Réussir)](https://www.reussir.fr/vigne/cinq-applications-de-reconnaissance-vegetale-lepreuve-de-la-viticulture)
+
 ## Sources
 
 - Méthode du cadre grillagé : Wilmus (2021), citée par Vas (2025).

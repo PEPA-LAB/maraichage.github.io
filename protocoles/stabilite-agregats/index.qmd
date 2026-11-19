@@ -1,0 +1,113 @@
+---
+title: "Tester la stabilité des mottes de terre dans l'eau"
+date: 2026-11-19
+objectif: "Voir si les agrégats de surface résistent à l'eau, et donc si le sol risque de se refermer (battance) et de s'éroder après une pluie."
+categories: [Santé du sol, Travail du sol]
+difficulte: Facile
+duree: "≈ 10 min par parcelle"
+cout: "≈ 0 € (tube PVC, toile fine, eau)"
+periode: "En même temps que le test bêche, sur sol ressuyé"
+auteurs: "PEPA Lab, d'après le mémoire d'Eliot Vas (2025)"
+sources: "Méthode USDA décrite par le projet ProSensols (2023) ; mémoire Vas (2025)"
+listing:
+  id: essais
+  type: table
+  contents:
+    - ../../fiches/2025-paillage-epinard-oignon/index.qmd
+  fields: [title, annee, culture]
+  field-display-names: {title: Essai, annee: Saison, culture: Culture}
+  sort-ui: false
+  filter-ui: false
+---
+
+{{< include /_includes/protocole-identite.qmd >}}
+
+## À quoi ça sert
+
+Ce test, appelé **méthode USDA**, mesure la vitesse à laquelle un petit agrégat de terre se défait dans l'eau. Il donne un **score de 0 (très instable) à 6 (très stable)**. Un sol aux agrégats instables se referme en croûte après la pluie, infiltre moins bien et s'érode plus. Le test est rapide et peut se faire pendant la même sortie que le [test bêche et la VESS](../vess-test-beche/index.qmd) : il complète la note de structure par une mesure de résistance à l'eau.
+
+## Matériel
+
+- Des **petits tubes en PVC** d'environ 2 cm de diamètre et 3 cm de haut, fermés au fond par une **toile fine** (filtre). Un tube par agrégat.
+- Un **bac transparent** rempli d'**eau déminéralisée**
+- Un **chronomètre** (celui du téléphone suffit)
+- Une petite pelle ou un couteau pour prélever les agrégats
+- La [fiche de relevé](fiche-releve.csv)
+
+## Étapes
+
+1. **Dégager la surface.** Retirez le paillis pour atteindre la première couche de sol.
+2. **Prélever les agrégats** de la couche superficielle : **3 par parcelle** au labo (la méthode d'origine en recommande **9**). Prenez-les à différents endroits de la parcelle.
+3. **Placer chaque agrégat** dans un tube, sur la toile.
+4. **Plonger le tube dans l'eau** et lancer le chronomètre. Observez pendant **5 minutes** : notez le moment où **la moitié de l'agrégat** est dissoute.
+5. **Si moins de la moitié s'est défaite après 5 minutes**, faites **5 immersions successives** : sortez le tube de l'eau et replongez-le, cinq fois. Estimez ensuite la part de l'agrégat qui reste sur la toile.
+6. **Attribuer le score** avec la grille ci-dessous (ou le calculateur). Pour gagner du temps, nous testons 3 tubes à la fois dans le même bac.
+
+## Grille de notation
+
+| Score | Ce que l'on observe |
+|---|---|
+| **0** | Sol trop instable pour récolter un agrégat : tout passe à travers le filtre |
+| **1** | La moitié de l'agrégat est dissoute en moins de 5 secondes |
+| **2** | La moitié est dissoute entre 5 et 30 secondes |
+| **3** | La moitié est dissoute entre 30 secondes et 5 minutes, **ou** il reste moins de 10 % de l'agrégat après les 5 immersions |
+| **4** | Il reste 10 à 25 % de l'agrégat après les 5 immersions |
+| **5** | Il reste 25 à 75 % après les 5 immersions |
+| **6** | Il reste 75 à 100 % après les 5 immersions |
+
+: {tbl-colwidths="[12,88]"}
+
+*Grille d'après ProSensols (2023), reprise dans le mémoire d'Eliot Vas (2025, tableau 4, p. 36).*
+
+## Calculateur du score
+
+```{ojs}
+//| echo: false
+viewof filtre = Inputs.toggle({label: "Tout est passé à travers le filtre", value: false})
+viewof moitie = Inputs.select(new Map([
+  ["En moins de 5 s", 1], ["Entre 5 et 30 s", 2], ["Entre 30 s et 5 min", 3],
+  ["Pas après 5 min : immersions faites", 0]]), {label: "La moitié s'est dissoute…", value: 0})
+viewof reste = Inputs.range([0, 100], {label: "Reste après 5 immersions (%)", step: 5, value: 50})
+score = filtre ? 0 : moitie > 0 ? moitie : reste < 10 ? 3 : reste < 25 ? 4 : reste < 75 ? 5 : 6
+html`<div class="vess-resultat">Score de stabilité : <b>${score}</b> sur 6 ${score >= 5 ? "(agrégats stables)" : score >= 3 ? "(stabilité moyenne)" : "(agrégats fragiles)"}.</div>`
+```
+
+*Le champ « Reste après 5 immersions » ne compte que si la moitié de l'agrégat ne s'est pas dissoute pendant les 5 premières minutes.*
+
+## Fiche de relevé
+
+Téléchargez la [fiche de relevé (CSV)](fiche-releve.csv). Prévoyez une ligne par agrégat, puis faites la moyenne des scores par parcelle.
+
+## Lire les résultats
+
+- **Plus le score est élevé, plus le sol résiste à la pluie.**
+- En 2025, sur nos parcelles paillées, tous les scores se situaient entre **5,5 et 5,6** en moyenne : le test n'a pas distingué les paillages la première année. Il reste utile en **complément de la VESS**, parce qu'il est très rapide.
+- Comme pour les autres indicateurs du sol, c'est l'évolution d'une année à l'autre qui compte.
+
+## Erreurs fréquentes
+
+- **Prélever sous le paillis sans le retirer**, ou prendre des débris de paillis à la place de la terre.
+- **Tester trop peu d'agrégats** : la méthode d'origine en demande 9 par parcelle. Nous en avons pris 3 parce que nos parcelles étaient très petites.
+- **Utiliser l'eau du robinet** au lieu d'eau déminéralisée : la méthode utilise de l'eau déminéralisée.
+
+## Dans nos essais
+
+À la ferme universitaire de Lauzelle, nous avons testé 3 agrégats sur chacune des 30 parcelles paillées, le **28 mai 2025**. Les scores, tous élevés, ne différaient pas entre paillages. Le mémoire recommande de garder ce test en complément de la VESS et de prélever les agrégats pendant le même échantillonnage.
+
+::: {#essais}
+:::
+
+## Ressources en ligne
+
+Pour aller plus loin, une sélection de ressources de référence. Elles sont gérées par d'autres organismes : leur contenu peut changer.
+
+- [Comment mesurer la stabilité structurale de son sol ? Slake test et Quanti Slake Test (SPW Agriculture, CRA-W et Greenotec, PDF)](https://agriculture.wallonie.be/files/accueil/Recherche%20et%20d%c3%a9veloppement/Secheresse/r%c3%a9silience%20grande%20culture/Mesurer%20la%20strabilit%c3%a9%20structurale-4.pdf)
+- [La stabilité structurale, un indicateur de bonne santé des sols (SPW Agriculture, PDF)](https://agriculture.wallonie.be/files/accueil/Recherche%20et%20d%c3%a9veloppement/Secheresse/r%c3%a9silience%20grande%20culture/La%20stabilit%c3%a9%20structurale%20du%20sol%20un%20indicateur%20de%20bonne%20sant%c3%a9%20des%20sols%20-4.pdf)
+- [QuantiSlakeTest : la version chiffrée du test, mise au point par le CRA-W (en anglais)](https://www.cra.wallonie.be/en/a-pragmatic-approach-to-the-assessment-of-structural-stability-in-soils)
+- [Documentation technique du QuantiSlakeTest (CRA-W, en anglais)](https://shinyapp.cra.wallonie.be/go/qstdoc/)
+- [Fiche d'exercice « Stabilité des agrégats (slake test) » (FAO, PDF)](https://fao.org/fileadmin/user_upload/GSP/GSDP/Field_exercises/New_Format_FR/P03-Aggregate-stability-FR-240704_01.pdf)
+
+## Sources
+
+- Méthode USDA de stabilité des agrégats, décrite par le projet ProSensols (2023).
+- Mémoire d'Eliot Vas (2025) : méthode p. 35–37, résultats p. 49–50, évaluation p. 73 et 77.

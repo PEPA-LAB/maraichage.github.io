@@ -1,0 +1,95 @@
+---
+title: "Mesurer la vitesse d'infiltration de l'eau avec un tube"
+date: 2026-11-19
+objectif: "Comparer la vitesse à laquelle l'eau pénètre dans le sol sous différentes pratiques, avec un simple tube enfoncé dans la terre."
+categories: [Gestion de l'eau, Santé du sol]
+difficulte: Facile
+duree: "≈ 25 min par point"
+cout: "≈ 0 € (tube PVC, mètre, eau)"
+periode: "Sol ni détrempé ni très sec ; même humidité pour toutes les parcelles comparées"
+auteurs: "PEPA Lab, d'après le mémoire d'Eliot Vas (2025)"
+sources: "Méthode « Ariane Chabert » (Chabert et Sarthou, 2017 ; Biot et al., 2020) ; mémoire Vas (2025)"
+listing:
+  id: essais
+  type: table
+  contents:
+    - ../../fiches/2025-paillage-epinard-oignon/index.qmd
+  fields: [title, annee, culture]
+  field-display-names: {title: Essai, annee: Saison, culture: Culture}
+  sort-ui: false
+  filter-ui: false
+---
+
+{{< include /_includes/protocole-identite.qmd >}}
+
+## À quoi ça sert
+
+Un sol qui laisse entrer l'eau rapidement limite le ruissellement et les flaques, et recharge mieux sa réserve. Cette méthode, dite **« Ariane Chabert »**, mesure de combien l'eau descend dans un tube enfoncé dans le sol en 5 minutes. Elle est **simple et rapide**, ce qui permet de tester beaucoup de parcelles le même jour pour comparer un paillage, un couvert ou un travail du sol.
+
+## Matériel
+
+- Un **tube en PVC de 12 cm de diamètre**, avec un bord biseauté ou une planche et un maillet pour l'enfoncer
+- Une **règle ou un mètre**, gradué en millimètres
+- **2,5 L d'eau par point** (deux fois 1,25 L) et un récipient gradué
+- Un **chronomètre**
+- La [fiche de relevé](fiche-releve.csv)
+
+## Étapes
+
+1. **Enfoncer le tube de 5 cm** dans le sol, bien droit, sans tasser la terre à l'intérieur. Pour un sol paillé, nous l'avons posé à travers le paillage (essai sur BRF).
+2. **Saturer le sol** : versez **1,25 L d'eau** dans le tube et lancez le chronomètre.
+3. **Si toute l'eau a disparu en moins de 15 minutes** : versez à nouveau **1,25 L**, mesurez aussitôt la **hauteur d'eau** dans le tube (temps 0), puis à nouveau **5 minutes plus tard**.
+4. **Si l'eau n'a pas disparu après 15 minutes** : mesurez la hauteur d'eau **à 15 minutes**, puis **à 20 minutes**.
+5. **Noter la baisse du niveau** (en cm) sur les 5 minutes de mesure. Le calculateur la convertit en mm/h.
+
+## Calculateur
+
+```{ojs}
+//| echo: false
+viewof baisse = Inputs.range([0, 15], {label: "Baisse du niveau en 5 min (cm)", step: 0.1, value: 2})
+vitesse = baisse * 10 * 12
+html`<div class="vess-resultat">Vitesse d'infiltration : <b>${baisse.toFixed(1)} cm / 5 min</b>, soit <b>${Math.round(vitesse)} mm/h</b>.</div>`
+```
+
+*Conversion : cm par 5 minutes × 10 (mm/cm) × 12 (périodes de 5 min par heure) = mm/h. Le mémoire exprime ses résultats dans ces deux unités.*
+
+## Fiche de relevé
+
+Téléchargez la [fiche de relevé (CSV)](fiche-releve.csv) : une ligne par point de mesure, en notant quel cas s'applique (eau absorbée en moins ou en plus de 15 minutes).
+
+## Lire les résultats
+
+- **Comparez des parcelles mesurées le même jour** : la méthode est sensible à l'humidité déjà présente dans le sol. Un sol humide infiltre moins vite.
+- En 2025, sur nos parcelles paillées, c'est **sous miscanthus** (posé sur un sol non travaillé) que l'eau s'infiltrait le **moins vite**. Les différences entre paillages étaient nettes dès la première année.
+- **Limite importante** : si l'eau disparaît presque entièrement en moins de 5 minutes, le tube ne permet plus de distinguer les sols très perméables entre eux (comme sous bâche plastique dans notre essai).
+
+### Pour aller plus loin
+
+Pour des mesures plus précises, surtout sur sols très perméables, le mémoire recommande la **méthode de l'anneau simple** : un anneau maintenu sous une hauteur d'eau constante, qui permet de calculer la conductivité hydraulique. Elle prend plus de temps. Un infiltromètre de terrain est encore plus précis, mais coûteux.
+
+## Erreurs fréquentes
+
+- **Comparer des mesures faites à des jours différents**, avec une humidité du sol différente.
+- **Tasser le sol en enfonçant le tube**, ou laisser de l'eau fuir sous le bord parce que le tube n'est pas assez enfoncé.
+- **Conclure trop vite sur un sol qui absorbe tout en moins de 5 minutes** : la mesure est plafonnée.
+
+## Dans nos essais
+
+À la ferme universitaire de Lauzelle, nous avons mesuré l'infiltration sur les 30 parcelles paillées le **26 juin 2025**. La méthode a fait ressortir des différences entre paillages dès la première année, le miscanthus étant le plus lent. En 2026, l'essai est passé à la méthode de l'anneau simple, mieux adaptée aux sols très perméables.
+
+::: {#essais}
+:::
+
+## Ressources en ligne
+
+Pour aller plus loin, une sélection de ressources de référence. Elles sont gérées par d'autres organismes : leur contenu peut changer.
+
+- [Test Beerkan simplifié : fiche pratique et guide d'interprétation (GRAB, projet SolAB)](https://grab.fr/593)
+- [Tutoriel « Infiltromètre Beerkan simplifié » (PecnotLab)](https://rhizobiome.gitbook.io/les-tutoriels-du-pecnotlab/protocoles-et-observations/maintenance-de-la-structure/mesure-de-linfiltration/infiltrometre-beerkan-simplifie)
+- [Vademecum des méthodes de diagnostic des sols, dont infiltration au simple et au double anneau (Educagri, PDF)](https://adt.educagri.fr/fileadmin/user_upload/Documents/Actions_thematiques/SEC/Sol/vademecum__sol/Vademecum_des_methodes_de_diagnostic_des_sols.pdf)
+
+## Sources
+
+- Chabert et Sarthou (2017) ; Biot et al. (2020), cités dans le mémoire.
+- Mémoire d'Eliot Vas (2025) : méthode p. 40, résultats p. 53–54, évaluation p. 73–74 et 77.
+- Passage à l'anneau simple en 2026 : mémoire de Pierre-André Peters-Dickie (2026), section 4.8.2.3.

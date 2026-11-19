@@ -1,0 +1,85 @@
+---
+title: "Prélever un échantillon de sol pour une analyse de fertilité"
+date: 2026-11-19
+objectif: "Constituer un échantillon représentatif d'une parcelle, à envoyer au laboratoire, pour suivre le pH, la matière organique et les éléments nutritifs d'une année à l'autre."
+categories: [Fertilisation, Santé du sol]
+difficulte: Facile
+duree: "≈ 15 min par parcelle"
+cout: "Tarière + prix de l'analyse"
+periode: "Une fois par an, toujours à la même période"
+image: ../../fiches/2025-paillage-epinard-oignon/photo.jpg
+auteurs: "PEPA Lab, d'après les mémoires d'Eliot Vas (2025) et Pierre-André Peters-Dickie (2026)"
+sources: "Mémoire Vas (2025), p. 35 ; mémoire Peters-Dickie (2026), p. 29 et 32"
+listing:
+  id: essais
+  type: table
+  contents:
+    - ../../fiches/2025-paillage-epinard-oignon/index.qmd
+    - ../../fiches/2026-paillage-epinard-laitue/index.qmd
+  fields: [title, annee, culture]
+  field-display-names: {title: Essai, annee: Saison, culture: Culture}
+  sort-ui: false
+  filter-ui: false
+---
+
+{{< include /_includes/protocole-identite.qmd >}}
+
+## À quoi ça sert
+
+Une analyse de sol ne vaut que par l'échantillon envoyé. Un seul coup de bêche ne représente pas une parcelle. En mélangeant **15 petits prélèvements** répartis sur toute la surface, on obtient un échantillon moyen fiable. Refait chaque année à la même période et de la même façon, il permet de suivre l'effet de vos pratiques (paillage, amendements, couverts) sur le pH, le carbone, l'humus et les éléments nutritifs.
+
+## Matériel
+
+- Une **tarière gouge** (fine tarière qui prélève une carotte de sol)
+- Un **seau propre**, en plastique
+- Un **sac ou une boîte** par parcelle, d'environ 500 g, et un marqueur pour l'étiquette
+- Le formulaire du laboratoire d'analyse
+- La [fiche de relevé](fiche-releve.csv)
+
+## Étapes
+
+1. **Choisir la période.** Prélevez une fois par an, toujours au même moment, pour que les résultats restent comparables. Au labo, nous avons prélevé à la mi-novembre en 2024 et début mars en 2026.
+2. **Parcourir la parcelle en zigzag** et faire **15 prélèvements** à la tarière, répartis sur toute la surface. Évitez les bords et les endroits atypiques (tas de compost, passages).
+3. **Garder la même profondeur.** En 2026, nous avons prélevé sur **25 cm**. Gardez la même profondeur chaque année.
+4. **Mélanger les 15 carottes** dans le seau pour obtenir un échantillon homogène.
+5. **Remplir un sac d'environ 500 g** et l'étiqueter (parcelle, date). Recommencez pour chaque parcelle à comparer.
+6. **Préparer l'envoi** selon l'analyse demandée :
+   - **Analyse chimique** (pH, carbone, azote, P, K, Mg, Ca) : nous laissons sécher les échantillons à l'air libre au moins une semaine avant l'analyse.
+   - **Analyse biologique** (carbone microbien) : l'échantillon doit rester **frais et humide**. Conservez-le au froid (glacière avec blocs réfrigérants, puis chambre froide), sachets entrouverts, jusqu'à la livraison. Évitez si possible les périodes chaudes et sèches.
+7. **Envoyer au laboratoire.** Nous avons travaillé avec le laboratoire du CPAR (La Hulpe) et la plateforme MOCA (UCLouvain). Comptez plusieurs semaines : en 2024-2025, les résultats sont arrivés trois mois après le prélèvement.
+
+## Fiche de relevé
+
+Téléchargez la [fiche de relevé (CSV)](fiche-releve.csv) : une ligne par parcelle. Notez la date, la profondeur, le nombre de prélèvements et ce qui est envoyé au laboratoire. Reportez ensuite les résultats dans les colonnes prévues.
+
+## Lire les résultats
+
+- **Comparez une parcelle à elle-même d'une année à l'autre**, et deux pratiques entre elles sur la même ferme. Une valeur isolée dit peu de chose.
+- Le bulletin du laboratoire donne en général des valeurs de référence pour chaque élément. Servez-vous-en pour repérer un pH ou un élément nettement trop bas ou trop haut.
+- Dans nos essais de paillage, la fertilité chimique a peu changé la première année. Il faut plusieurs années de suivi pour voir l'effet d'une pratique.
+
+## Erreurs fréquentes
+
+- **Changer de période ou de profondeur** d'une année à l'autre : les résultats ne sont plus comparables.
+- **Prélever trop peu de points** ou seulement au centre de la parcelle.
+- **Laisser un échantillon destiné au carbone microbien au chaud ou le faire sécher** : les micro-organismes meurent et le résultat est faussé.
+
+## Dans nos essais
+
+À la ferme universitaire de Lauzelle, nous avons prélevé ainsi les 30 parcelles de l'essai paillage, en **novembre 2024** puis en **mars 2026**, avec 15 carottes par parcelle et 500 g envoyés au laboratoire.
+
+::: {#essais}
+:::
+
+## Ressources en ligne
+
+Pour aller plus loin, une sélection de ressources de référence. Elles sont gérées par d'autres organismes : leur contenu peut changer.
+
+- [Laboratoires d'analyse de sol du réseau REQUASUD en Wallonie](https://www.requasud.be/laboratoires/)
+- [Portail REQUACARTO : localiser ses zones de prélèvement et préparer l'analyse (CRA-W)](https://www.cra.wallonie.be/fr/le-portail-requacarto)
+- [Formulaire de demande d'analyse de sol du laboratoire provincial du Brabant wallon (La Hulpe, PDF)](https://www.brabantwallon.be/vivre-en-bw/agriculture-et-jardins/laboratoires-et-analyses/demande-d-analyses/sols/fiche-de-demande-danalyse/demande-d-analyse-de-sol_k.pdf)
+
+## Sources
+
+- Mémoire d'Eliot Vas (2025), section 4.6.1.1, p. 35, et tableau 5, p. 45.
+- Mémoire de Pierre-André Peters-Dickie (2026), p. 29 (profondeur de 25 cm, séchage) et p. 32 (conservation des échantillons pour le carbone microbien).

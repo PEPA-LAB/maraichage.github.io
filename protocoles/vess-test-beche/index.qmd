@@ -41,13 +41,14 @@ La **VESS** (*Visual Evaluation of Soil Structure*) donne une note de 1 (sol fri
 
 1. **Choisir le moment.** Faites le test en fin d'hiver ou début de printemps, sur un sol ressuyé (ni détrempé, ni sec), et **avant** tout travail du sol de la saison. Au labo, nous le faisons en mars.
 2. **Choisir les points.** Prenez **2 blocs par parcelle** (6 si la parcelle est grande), loin des bords et des passages de roues. Sur nos parcelles de 12 m², nous creusons entre 1 et 1,5 m des extrémités.
-3. **Dégager le bloc.** Creusez d'abord une tranchée sur un côté. Plantez ensuite la bêche pour isoler un bloc d'environ **20 × 20 cm sur 25 cm de profondeur**. Dégagez bien les côtés pour que le bloc garde sa forme : c'est important si vous comptez aussi les vers.
+3. **Dégager le bloc.** Creusez d'abord une tranchée sur un côté. Plantez ensuite la bêche pour isoler un bloc d'environ **20 × 20 cm sur 25 cm de profondeur** (25 à 30 cm selon nos sources : gardez toujours la même profondeur). Dégagez bien les côtés pour que le bloc garde sa forme : c'est important si vous comptez aussi les vers.
 4. **Sortir le bloc** d'un seul mouvement et le poser dans le premier bac. Prenez une photo.
 5. **Repérer les couches.** Ouvrez doucement le bloc à la main, en suivant ses fissures naturelles. Repérez les couches qui diffèrent (couleur, compacité, racines) et mesurez leur épaisseur.
 6. **Noter chaque couche de 1 à 5** avec la grille (tableau ci-dessous). Regardez la taille des agrégats, les pores visibles, les racines et la force nécessaire pour casser les mottes.
 7. **Calculer la note du bloc** : la moyenne des notes des couches, pondérée par leur épaisseur. Le calculateur plus bas le fait pour vous.
 8. **Compter les vers de terre.** Émiettez le bloc motte par motte dans le second bac et ramassez tous les vers. Comptez-les et classez-les avec la clé OPVT : **épigés**, **endogés**, **épi-anéciques** et **anéciques stricts**. Remettez ensuite les vers et la terre dans le trou.
-9. **Changer d'emplacement chaque année.** L'extraction du bloc abîme la structure du sol pour longtemps : ne refaites jamais le test exactement au même endroit.
+9. **Prélever aussi des agrégats de surface**, si vous faites le [test de stabilité des mottes dans l'eau](../stabilite-agregats/index.qmd) : c'est le bon moment, le sol est déjà ouvert.
+10. **Changer d'emplacement chaque année.** L'extraction du bloc abîme la structure du sol pour longtemps : ne refaites jamais le test exactement au même endroit.
 
 ## Grille de notation (résumé)
 
@@ -110,9 +111,22 @@ Téléchargez la [fiche de relevé (CSV)](fiche-releve.csv), ouvrez-la dans un t
 ::: {#essais}
 :::
 
+## Ressources en ligne
+
+Pour aller plus loin, une sélection de ressources de référence. Elles sont gérées par d'autres organismes : leur contenu peut changer.
+
+- [Grille VESS officielle en couleurs, avec photos de référence (SRUC, PDF, en anglais)](https://ww1.sruc.ac.uk/media/xbrfn4x3/vess-colour-chart.pdf)
+- [Description de la méthode VESS pas à pas (SRUC, PDF, en anglais)](https://www.sruc.ac.uk/media/ki2n30aj/vess-method-description.pdf)
+- [Feuille de notation VESS avec calcul de la note du bloc (SRUC, Word, en anglais)](https://www.sruc.ac.uk/media/1abknzql/vess-field-scoring-sheet.doc)
+- [Guide illustré « How to assess soil structure » (AHDB, en anglais)](https://ahdb.org.uk/vess)
+- [Guide méthodique du test bêche (Agro-Transfert, PDF)](http://www.agro-transfert-rt.org/wp-content/uploads/2018/08/Guide-m%C3%A9thode-beche-web.pdf)
+- [Test bêche : comprendre l'impact de ses pratiques sur la structure du sol (Réussir)](https://reussir.fr/grandes-cultures/test-beche-un-outil-pour-mieux-comprendre-limpact-de-ses-pratiques-sur-la-structure-du-sol)
+- [SolDoc, test à la bêche guidé par une application gratuite iOS et Android (BFH, Suisse)](https://www.bfh.ch/fr/actualites/news/2023/evaluer-l-etat-du-sol-avec-le-test-la-b-che-soldoc-/)
+- [Observatoire Participatif des Vers de Terre : protocole test bêche et clé d'identification (OPVT)](https://ecobiosoil.univ-rennes1.fr/OPVT_accueil.php)
+
 ## Sources
 
 - Méthode VESS : Ball, Batey et Munkholm (2007) ; Guimarães, Ball et Tormena (2011), grille de notation officielle.
 - *Guide méthodique du test bêche : structure et action des vers de terre*, Agro-Transfert (2023).
 - Clé d'identification des vers de terre en 4 groupes : Observatoire Participatif des Vers de Terre (OPVT).
-- Mise en œuvre au PEPA Lab : mémoires d'Eliot Vas (2025, p. 37–38) et de Pierre-André Peters-Dickie (2026, p. 30–32).
+- Mise en œuvre au PEPA Lab : mémoires d'Eliot Vas (2025, p. 37–38 ; combinaison avec le test de stabilité des agrégats, p. 73 ; bloc de 20 × 20 × 30 cm dans le tableau 5, p. 45) et de Pierre-André Peters-Dickie (2026, p. 30–32).
