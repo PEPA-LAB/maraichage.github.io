@@ -1,47 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://pepa-lab.github.io/maraichage/protocoles/vess-test-beche/index.html</loc>
-    <lastmod>2026-11-18T17:40:25.084Z</lastmod>
+    <loc>https://pepa-lab.github.io/maraichage/protocoles/prelevement-sol-analyse/index.html</loc>
+    <lastmod>2026-11-19T13:20:17.538Z</lastmod>
   </url>
   <url>
-    <loc>https://pepa-lab.github.io/maraichage/protocoles.html</loc>
-    <lastmod>2026-11-18T17:36:26.716Z</lastmod>
+    <loc>https://pepa-lab.github.io/maraichage/protocoles/adventices-couverture/index.html</loc>
+    <lastmod>2026-11-19T13:23:40.492Z</lastmod>
   </url>
   <url>
-    <loc>https://pepa-lab.github.io/maraichage/fiches/2025-paillage-epinard-oignon/index.html</loc>
-    <lastmod>2026-11-18T17:38:25.295Z</lastmod>
+    <loc>https://pepa-lab.github.io/maraichage/protocoles/oyas-installation/index.html</loc>
+    <lastmod>2026-11-18T17:40:25.085Z</lastmod>
   </url>
   <url>
-    <loc>https://pepa-lab.github.io/maraichage/fiches/2025-oyas-chou/index.html</loc>
-    <lastmod>2026-11-18T17:38:25.293Z</lastmod>
+    <loc>https://pepa-lab.github.io/maraichage/protocoles/infiltration-tube/index.html</loc>
+    <lastmod>2026-11-19T13:20:43.020Z</lastmod>
   </url>
   <url>
-    <loc>https://pepa-lab.github.io/maraichage/themes.html</loc>
-    <lastmod>2026-11-18T17:20:55.196Z</lastmod>
-  </url>
-  <url>
-    <loc>https://pepa-lab.github.io/maraichage/donnees.html</loc>
-    <lastmod>2026-11-18T17:20:55.192Z</lastmod>
-  </url>
-  <url>
-    <loc>https://pepa-lab.github.io/maraichage/a-propos.html</loc>
-    <lastmod>2026-11-18T17:20:55.191Z</lastmod>
-  </url>
-  <url>
-    <loc>https://pepa-lab.github.io/maraichage/index.html</loc>
-    <lastmod>2026-11-18T17:20:55.195Z</lastmod>
+    <loc>https://pepa-lab.github.io/maraichage/fiches/2026-paillage-epinard-laitue/index.html</loc>
+    <lastmod>2026-11-19T13:21:36.605Z</lastmod>
   </url>
   <url>
     <loc>https://pepa-lab.github.io/maraichage/fiches/2024-irrigation-tomate/index.html</loc>
     <lastmod>2026-11-18T17:38:25.292Z</lastmod>
   </url>
   <url>
-    <loc>https://pepa-lab.github.io/maraichage/fiches/2026-paillage-epinard-laitue/index.html</loc>
-    <lastmod>2026-11-18T17:38:25.297Z</lastmod>
+    <loc>https://pepa-lab.github.io/maraichage/index.html</loc>
+    <lastmod>2026-11-18T17:20:55.195Z</lastmod>
   </url>
   <url>
-    <loc>https://pepa-lab.github.io/maraichage/protocoles/oyas-installation/index.html</loc>
-    <lastmod>2026-11-18T17:40:25.085Z</lastmod>
+    <loc>https://pepa-lab.github.io/maraichage/a-propos.html</loc>
+    <lastmod>2026-11-18T17:20:55.191Z</lastmod>
+  </url>
+  <url>
+    <loc>https://pepa-lab.github.io/maraichage/donnees.html</loc>
+    <lastmod>2026-11-18T17:20:55.192Z</lastmod>
+  </url>
+  <url>
+    <loc>https://pepa-lab.github.io/maraichage/themes.html</loc>
+    <lastmod>2026-11-18T17:20:55.196Z</lastmod>
+  </url>
+  <url>
+    <loc>https://pepa-lab.github.io/maraichage/fiches/2025-oyas-chou/index.html</loc>
+    <lastmod>2026-11-18T17:38:25.293Z</lastmod>
+  </url>
+  <url>
+    <loc>https://pepa-lab.github.io/maraichage/fiches/2025-paillage-epinard-oignon/index.html</loc>
+    <lastmod>2026-11-19T13:21:36.603Z</lastmod>
+  </url>
+  <url>
+    <loc>https://pepa-lab.github.io/maraichage/protocoles.html</loc>
+    <lastmod>2026-11-18T17:36:26.716Z</lastmod>
+  </url>
+  <url>
+    <loc>https://pepa-lab.github.io/maraichage/protocoles/rendement-echantillons/index.html</loc>
+    <lastmod>2026-11-19T13:23:40.495Z</lastmod>
+  </url>
+  <url>
+    <loc>https://pepa-lab.github.io/maraichage/protocoles/vess-test-beche/index.html</loc>
+    <lastmod>2026-11-19T13:21:36.600Z</lastmod>
+  </url>
+  <url>
+    <loc>https://pepa-lab.github.io/maraichage/protocoles/stabilite-agregats/index.html</loc>
+    <lastmod>2026-11-19T13:20:43.008Z</lastmod>
   </url>
 </urlset>

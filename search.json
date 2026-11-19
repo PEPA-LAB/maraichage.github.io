@@ -1,318 +1,143 @@
 [
   {
-    "objectID": "protocoles/vess-test-beche/index.html",
-    "href": "protocoles/vess-test-beche/index.html",
-    "title": "Évaluer la structure du sol et compter les vers de terre à la bêche",
+    "objectID": "protocoles/prelevement-sol-analyse/index.html",
+    "href": "protocoles/prelevement-sol-analyse/index.html",
+    "title": "Prélever un échantillon de sol pour une analyse de fertilité",
     "section": "",
-    "text": "Objectif Noter la structure du sol de 1 à 5 et compter les vers de terre sur le même bloc de terre, pour suivre l’effet de vos pratiques d’une année à l’autre.\nDifficulté Facile\nDurée ≈ 30 min par bloc\nCoût ≈ 0 € (une bêche, deux bacs)\nQuand Fin d’hiver – début de printemps, sol ressuyé"
+    "text": "Objectif Constituer un échantillon représentatif d’une parcelle, à envoyer au laboratoire, pour suivre le pH, la matière organique et les éléments nutritifs d’une année à l’autre.\nDifficulté Facile\nDurée ≈ 15 min par parcelle\nCoût Tarière + prix de l’analyse\nQuand Une fois par an, toujours à la même période"
   },
   {
-    "objectID": "protocoles/vess-test-beche/index.html#à-quoi-ça-sert",
-    "href": "protocoles/vess-test-beche/index.html#à-quoi-ça-sert",
-    "title": "Évaluer la structure du sol et compter les vers de terre à la bêche",
+    "objectID": "protocoles/prelevement-sol-analyse/index.html#à-quoi-ça-sert",
+    "href": "protocoles/prelevement-sol-analyse/index.html#à-quoi-ça-sert",
+    "title": "Prélever un échantillon de sol pour une analyse de fertilité",
     "section": "À quoi ça sert",
-    "text": "À quoi ça sert\nLa VESS (Visual Evaluation of Soil Structure) donne une note de 1 (sol friable, bien structuré) à 5 (sol très compact) à partir d’un simple bloc de terre. Le test bêche utilise ensuite ce même bloc pour compter les vers de terre et les classer en groupes. Ensemble, ils montrent en une demi-heure si un paillage, un couvert ou un travail du sol améliore ou dégrade votre sol. Il suffit de refaire le test chaque année à la même période."
+    "text": "À quoi ça sert\nUne analyse de sol ne vaut que par l’échantillon envoyé. Un seul coup de bêche ne représente pas une parcelle. En mélangeant 15 petits prélèvements répartis sur toute la surface, on obtient un échantillon moyen fiable. Refait chaque année à la même période et de la même façon, il permet de suivre l’effet de vos pratiques (paillage, amendements, couverts) sur le pH, le carbone, l’humus et les éléments nutritifs."
   },
   {
-    "objectID": "protocoles/vess-test-beche/index.html#matériel",
-    "href": "protocoles/vess-test-beche/index.html#matériel",
-    "title": "Évaluer la structure du sol et compter les vers de terre à la bêche",
+    "objectID": "protocoles/prelevement-sol-analyse/index.html#matériel",
+    "href": "protocoles/prelevement-sol-analyse/index.html#matériel",
+    "title": "Prélever un échantillon de sol pour une analyse de fertilité",
     "section": "Matériel",
-    "text": "Matériel\n\nUne bêche plate et bien affûtée\nDeux bacs ou une bâche, de couleur sombre pour mieux voir les vers\nUn mètre ruban ou une règle\nLa grille de notation VESS imprimée. Elle existe aussi en application pour iPhone ; nous n’avons pas trouvé de version Android en 2026.\nLa clé d’identification des vers de terre de l’OPVT (4 groupes)\nLa fiche de relevé et un crayon ; un téléphone pour les photos"
+    "text": "Matériel\n\nUne tarière gouge (fine tarière qui prélève une carotte de sol)\nUn seau propre, en plastique\nUn sac ou une boîte par parcelle, d’environ 500 g, et un marqueur pour l’étiquette\nLe formulaire du laboratoire d’analyse\nLa fiche de relevé"
   },
   {
-    "objectID": "protocoles/vess-test-beche/index.html#étapes",
-    "href": "protocoles/vess-test-beche/index.html#étapes",
-    "title": "Évaluer la structure du sol et compter les vers de terre à la bêche",
+    "objectID": "protocoles/prelevement-sol-analyse/index.html#étapes",
+    "href": "protocoles/prelevement-sol-analyse/index.html#étapes",
+    "title": "Prélever un échantillon de sol pour une analyse de fertilité",
     "section": "Étapes",
-    "text": "Étapes\n\nChoisir le moment. Faites le test en fin d’hiver ou début de printemps, sur un sol ressuyé (ni détrempé, ni sec), et avant tout travail du sol de la saison. Au labo, nous le faisons en mars.\nChoisir les points. Prenez 2 blocs par parcelle (6 si la parcelle est grande), loin des bords et des passages de roues. Sur nos parcelles de 12 m², nous creusons entre 1 et 1,5 m des extrémités.\nDégager le bloc. Creusez d’abord une tranchée sur un côté. Plantez ensuite la bêche pour isoler un bloc d’environ 20 × 20 cm sur 25 cm de profondeur. Dégagez bien les côtés pour que le bloc garde sa forme : c’est important si vous comptez aussi les vers.\nSortir le bloc d’un seul mouvement et le poser dans le premier bac. Prenez une photo.\nRepérer les couches. Ouvrez doucement le bloc à la main, en suivant ses fissures naturelles. Repérez les couches qui diffèrent (couleur, compacité, racines) et mesurez leur épaisseur.\nNoter chaque couche de 1 à 5 avec la grille (tableau ci-dessous). Regardez la taille des agrégats, les pores visibles, les racines et la force nécessaire pour casser les mottes.\nCalculer la note du bloc : la moyenne des notes des couches, pondérée par leur épaisseur. Le calculateur plus bas le fait pour vous.\nCompter les vers de terre. Émiettez le bloc motte par motte dans le second bac et ramassez tous les vers. Comptez-les et classez-les avec la clé OPVT : épigés, endogés, épi-anéciques et anéciques stricts. Remettez ensuite les vers et la terre dans le trou.\nChanger d’emplacement chaque année. L’extraction du bloc abîme la structure du sol pour longtemps : ne refaites jamais le test exactement au même endroit."
+    "text": "Étapes\n\nChoisir la période. Prélevez une fois par an, toujours au même moment, pour que les résultats restent comparables. Au labo, nous avons prélevé à la mi-novembre en 2024 et début mars en 2026.\nParcourir la parcelle en zigzag et faire 15 prélèvements à la tarière, répartis sur toute la surface. Évitez les bords et les endroits atypiques (tas de compost, passages).\nGarder la même profondeur. En 2026, nous avons prélevé sur 25 cm. Gardez la même profondeur chaque année.\nMélanger les 15 carottes dans le seau pour obtenir un échantillon homogène.\nRemplir un sac d’environ 500 g et l’étiqueter (parcelle, date). Recommencez pour chaque parcelle à comparer.\nPréparer l’envoi selon l’analyse demandée :\n\nAnalyse chimique (pH, carbone, azote, P, K, Mg, Ca) : nous laissons sécher les échantillons à l’air libre au moins une semaine avant l’analyse.\nAnalyse biologique (carbone microbien) : l’échantillon doit rester frais et humide. Conservez-le au froid (glacière avec blocs réfrigérants, puis chambre froide), sachets entrouverts, jusqu’à la livraison. Évitez si possible les périodes chaudes et sèches.\n\nEnvoyer au laboratoire. Nous avons travaillé avec le laboratoire du CPAR (La Hulpe) et la plateforme MOCA (UCLouvain). Comptez plusieurs semaines : en 2024-2025, les résultats sont arrivés trois mois après le prélèvement."
   },
   {
-    "objectID": "protocoles/vess-test-beche/index.html#grille-de-notation-résumé",
-    "href": "protocoles/vess-test-beche/index.html#grille-de-notation-résumé",
-    "title": "Évaluer la structure du sol et compter les vers de terre à la bêche",
-    "section": "Grille de notation (résumé)",
-    "text": "Grille de notation (résumé)\n\n\n\n\n\n\n\n\nNote\nNom\nCe que l’on observe\n\n\n\n\n1\nFriable\nAgrégats petits, qui s’émiettent entre les doigts ; très poreux, racines partout\n\n\n2\nIntact\nAgrégats faciles à casser d’une main ; poreux, arrondis, racines partout\n\n\n3\nFerme\nLa plupart des agrégats se cassent d’une main ; mélange de petits agrégats poreux et de mottes plus anguleuses\n\n\n4\nCompact\nIl faut forcer pour casser les agrégats d’une main ; mottes anguleuses, peu de pores, racines regroupées dans les fissures\n\n\n5\nTrès compact\nDifficile à casser ; gros blocs anguleux, presque pas de pores, peu ou pas de racines\n\n\n\nCe tableau est un résumé : pour noter, utilisez la grille VESS officielle, qui contient des photos de référence."
-  },
-  {
-    "objectID": "protocoles/vess-test-beche/index.html#calculateur-de-la-note-du-bloc",
-    "href": "protocoles/vess-test-beche/index.html#calculateur-de-la-note-du-bloc",
-    "title": "Évaluer la structure du sol et compter les vers de terre à la bêche",
-    "section": "Calculateur de la note du bloc",
-    "text": "Calculateur de la note du bloc\n\n\nCode\nviewof e1 = Inputs.range([0, 30], {label: \"Couche 1 : épaisseur (cm)\", step: 1, value: 10})\nviewof s1 = Inputs.range([1, 5], {label: \"Couche 1 : note\", step: 0.5, value: 2})\nviewof e2 = Inputs.range([0, 30], {label: \"Couche 2 : épaisseur (cm)\", step: 1, value: 10})\nviewof s2 = Inputs.range([1, 5], {label: \"Couche 2 : note\", step: 0.5, value: 3})\nviewof e3 = Inputs.range([0, 30], {label: \"Couche 3 : épaisseur (cm)\", step: 1, value: 5})\nviewof s3 = Inputs.range([1, 5], {label: \"Couche 3 : note\", step: 0.5, value: 4})\ntotal = e1 + e2 + e3\nnote = total &gt; 0 ? (e1 * s1 + e2 * s2 + e3 * s3) / total : NaN\nlecture = note &lt; 2.5 ? [\"bonne\", \"#4caf50\", \"Rien à changer.\"]\n        : note &lt; 3.5 ? [\"moyenne\", \"#e0a030\", \"Une amélioration sur le long terme est souhaitable.\"]\n        : [\"dégradée\", \"#c5655a\", \"Il faut changer les pratiques rapidement : moins de passages, couverture du sol, pas de travail en sol humide.\"]\nhtml`&lt;div class=\"vess-resultat\" style=\"border-left-color:${lecture[1]}\"&gt;\n  Note du bloc : &lt;b&gt;${isNaN(note) ? \"–\" : note.toFixed(1)}&lt;/b&gt; sur ${total} cm, structure &lt;b&gt;${lecture[0]}&lt;/b&gt;.&lt;br&gt;${lecture[2]}&lt;/div&gt;`\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMettez l’épaisseur à 0 pour une couche absente. Les seuils sont des repères indicatifs, tirés des recommandations de la méthode VESS."
-  },
-  {
-    "objectID": "protocoles/vess-test-beche/index.html#fiche-de-relevé",
-    "href": "protocoles/vess-test-beche/index.html#fiche-de-relevé",
-    "title": "Évaluer la structure du sol et compter les vers de terre à la bêche",
+    "objectID": "protocoles/prelevement-sol-analyse/index.html#fiche-de-relevé",
+    "href": "protocoles/prelevement-sol-analyse/index.html#fiche-de-relevé",
+    "title": "Prélever un échantillon de sol pour une analyse de fertilité",
     "section": "Fiche de relevé",
-    "text": "Fiche de relevé\nTéléchargez la fiche de relevé (CSV), ouvrez-la dans un tableur et imprimez-la. Prévoyez une ligne par couche. Le nombre de vers se note une seule fois par bloc, sur la ligne de la couche 1."
+    "text": "Fiche de relevé\nTéléchargez la fiche de relevé (CSV) : une ligne par parcelle. Notez la date, la profondeur, le nombre de prélèvements et ce qui est envoyé au laboratoire. Reportez ensuite les résultats dans les colonnes prévues."
   },
   {
-    "objectID": "protocoles/vess-test-beche/index.html#lire-les-résultats",
-    "href": "protocoles/vess-test-beche/index.html#lire-les-résultats",
-    "title": "Évaluer la structure du sol et compter les vers de terre à la bêche",
+    "objectID": "protocoles/prelevement-sol-analyse/index.html#lire-les-résultats",
+    "href": "protocoles/prelevement-sol-analyse/index.html#lire-les-résultats",
+    "title": "Prélever un échantillon de sol pour une analyse de fertilité",
     "section": "Lire les résultats",
-    "text": "Lire les résultats\n\nNote de 1 à 2 : le sol est bien structuré.\nNote autour de 3 : la structure est moyenne. Surveillez son évolution d’une année à l’autre.\nNote de 4 à 5 : le sol est tassé. Cherchez la cause : passages de roues, travail du sol en conditions humides, sol nu en hiver.\nComparer plutôt que juger. C’est surtout l’évolution de la note d’une année à l’autre, et l’écart entre deux pratiques sur la même ferme, qui sont informatifs.\nVers de terre : beaucoup de vers et des anéciques (les gros vers qui creusent des galeries verticales) indiquent un sol vivant et bien drainé. Aucun ver, ou seulement quelques épigés, signale un sol perturbé ou tassé."
+    "text": "Lire les résultats\n\nComparez une parcelle à elle-même d’une année à l’autre, et deux pratiques entre elles sur la même ferme. Une valeur isolée dit peu de chose.\nLe bulletin du laboratoire donne en général des valeurs de référence pour chaque élément. Servez-vous-en pour repérer un pH ou un élément nettement trop bas ou trop haut.\nDans nos essais de paillage, la fertilité chimique a peu changé la première année. Il faut plusieurs années de suivi pour voir l’effet d’une pratique."
   },
   {
-    "objectID": "protocoles/vess-test-beche/index.html#erreurs-fréquentes",
-    "href": "protocoles/vess-test-beche/index.html#erreurs-fréquentes",
-    "title": "Évaluer la structure du sol et compter les vers de terre à la bêche",
+    "objectID": "protocoles/prelevement-sol-analyse/index.html#erreurs-fréquentes",
+    "href": "protocoles/prelevement-sol-analyse/index.html#erreurs-fréquentes",
+    "title": "Prélever un échantillon de sol pour une analyse de fertilité",
     "section": "Erreurs fréquentes",
-    "text": "Erreurs fréquentes\n\nFaire le test sur un sol trop humide ou trop sec. Le sol humide paraît compact, le sol sec paraît dur. Attendez un sol ressuyé.\nAbîmer le bloc en le sortant : il faut dégager davantage autour avant de soulever.\nRevenir au même endroit l’année suivante : la structure n’a pas encore récupéré.\nComparer des notes données par des personnes différentes. Pour suivre une évolution, gardez si possible la même personne d’une année à l’autre."
+    "text": "Erreurs fréquentes\n\nChanger de période ou de profondeur d’une année à l’autre : les résultats ne sont plus comparables.\nPrélever trop peu de points ou seulement au centre de la parcelle.\nLaisser un échantillon destiné au carbone microbien au chaud ou le faire sécher : les micro-organismes meurent et le résultat est faussé."
   },
   {
-    "objectID": "protocoles/vess-test-beche/index.html#dans-nos-essais",
-    "href": "protocoles/vess-test-beche/index.html#dans-nos-essais",
-    "title": "Évaluer la structure du sol et compter les vers de terre à la bêche",
+    "objectID": "protocoles/prelevement-sol-analyse/index.html#dans-nos-essais",
+    "href": "protocoles/prelevement-sol-analyse/index.html#dans-nos-essais",
+    "title": "Prélever un échantillon de sol pour une analyse de fertilité",
     "section": "Dans nos essais",
-    "text": "Dans nos essais\nÀ la ferme universitaire de Lauzelle, nous avons fait ce test en mars 2025 et en mars 2026, avec 2 blocs par parcelle sur 30 parcelles de 12 m² paillées de cinq façons différentes. En 2026, le BRF avait la meilleure structure (note moyenne 1,1). C’est le seul paillage nettement meilleur que les autres.\n\n\n\n\n\n\nEssai\n\n\n\nSaison\n\n\n\nCulture\n\n\n\n\n\n\n\n\nCinq paillages en maraîchage bio : sol, eau et légumes\n\n\n2025–2026\n\n\nÉpinard\n\n\n\n\n\n\nPaillages en maraîchage bio : bilan de la première année\n\n\n2024–2025\n\n\nÉpinard\n\n\n\n\n\n\nAucun article correspondant"
+    "text": "Dans nos essais\nÀ la ferme universitaire de Lauzelle, nous avons prélevé ainsi les 30 parcelles de l’essai paillage, en novembre 2024 puis en mars 2026, avec 15 carottes par parcelle et 500 g envoyés au laboratoire.\n\n\n\n\n\n\nEssai\n\n\n\nSaison\n\n\n\nCulture\n\n\n\n\n\n\n\n\nCinq paillages en maraîchage bio : sol, eau et légumes\n\n\n2025–2026\n\n\nÉpinard\n\n\n\n\n\n\nPaillages en maraîchage bio : bilan de la première année\n\n\n2024–2025\n\n\nÉpinard\n\n\n\n\n\n\nAucun article correspondant"
   },
   {
-    "objectID": "protocoles/vess-test-beche/index.html#sources",
-    "href": "protocoles/vess-test-beche/index.html#sources",
-    "title": "Évaluer la structure du sol et compter les vers de terre à la bêche",
+    "objectID": "protocoles/prelevement-sol-analyse/index.html#sources",
+    "href": "protocoles/prelevement-sol-analyse/index.html#sources",
+    "title": "Prélever un échantillon de sol pour une analyse de fertilité",
     "section": "Sources",
-    "text": "Sources\n\nMéthode VESS : Ball, Batey et Munkholm (2007) ; Guimarães, Ball et Tormena (2011), grille de notation officielle.\nGuide méthodique du test bêche : structure et action des vers de terre, Agro-Transfert (2023).\nClé d’identification des vers de terre en 4 groupes : Observatoire Participatif des Vers de Terre (OPVT).\nMise en œuvre au PEPA Lab : mémoires d’Eliot Vas (2025, p. 37–38) et de Pierre-André Peters-Dickie (2026, p. 30–32)."
+    "text": "Sources\n\nMémoire d’Eliot Vas (2025), section 4.6.1.1, p. 35, et tableau 5, p. 45.\nMémoire de Pierre-André Peters-Dickie (2026), p. 29 (profondeur de 25 cm, séchage) et p. 32 (conservation des échantillons pour le carbone microbien)."
   },
   {
-    "objectID": "protocoles.html",
-    "href": "protocoles.html",
-    "title": "Protocoles",
+    "objectID": "protocoles/adventices-couverture/index.html",
+    "href": "protocoles/adventices-couverture/index.html",
+    "title": "Mesurer la couverture d’adventices et de la culture",
     "section": "",
-    "text": "Chaque protocole décrit pas à pas une mesure ou une technique que nous avons utilisée dans nos essais : le matériel, les étapes, une fiche de relevé à imprimer et comment lire les résultats. Ils sont pensés pour être faits à la ferme, sans laboratoire. Une question ou une amélioration ? Utilisez le lien « Faire part d’un problème » sur chaque page.\n\n\n\n\n\n   \n    \n    \n      Trier par\n      Ordre par défaut\n      \n        Titre\n      \n      \n        difficulte\n      \n      \n        duree\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n≈ 20 min par oyaInstallation à la plantation, puis 2 remplissages par semaine\n\n\nProtocole · Facile · ≈ 30 € par oya de 5 L (prix 2025)\nInstaller et suivre des oyas sous tunnel\nIrriguer tomates ou choux avec des pots en terre cuite enterrés, en économisant l'eau, et mesurer ce qu'ils consomment vraiment.\n\nFacile\nGestion de l'eau\n\n\n\n\n\n\n≈ 30 min par blocFin d'hiver – début de printemps, sol ressuyé\n\n\nProtocole · Facile · ≈ 0 € (une bêche, deux bacs)\nÉvaluer la structure du sol et compter les vers de terre à la bêche\nNoter la structure du sol de 1 à 5 et compter les vers de terre sur le même bloc de terre, pour suivre l'effet de vos pratiques d'une année à l'autre.\n\nFacile\nTravail du solPaillageSanté du sol\n\n\n\n\n\nAucun article correspondant"
+    "text": "Objectif Chiffrer la place prise par les adventices et le développement de la culture, avec un cadre grillagé ou une photo, pour comparer deux pratiques.\nDifficulté Facile\nDurée ≈ 15 min par parcelle\nCoût ≈ 0 € (cadre fait maison, application gratuite)\nQuand Au printemps, avant le désherbage, quand la culture est bien installée"
   },
   {
-    "objectID": "fiches/2025-paillage-epinard-oignon/index.html",
-    "href": "fiches/2025-paillage-epinard-oignon/index.html",
-    "title": "Paillages en maraîchage bio : bilan de la première année",
-    "section": "",
-    "text": "AstuceÀ retenir pour le terrain\n\n\n\n\nLa bâche plastique sécurise la première culture : c’est la meilleure biomasse d’épinard, le moins d’adventices et une infiltration rapide.\nLe miscanthus posé sur un sol non travaillé démarre mal : il donne 6 fois moins d’épinards que la bâche et l’infiltration la plus lente. Prévoir un travail du sol avant la pose.\nSemer les couverts vivants assez tôt : semés fin avril, le trèfle et le mélange mélilot + moha n’ont rien couvert. En 2025, ils se sont comportés comme un sol nu.\nC’est une « année zéro » : l’essai sert surtout à installer le dispositif et à tester les méthodes. La suite est dans la fiche 2026."
+    "objectID": "protocoles/adventices-couverture/index.html#à-quoi-ça-sert",
+    "href": "protocoles/adventices-couverture/index.html#à-quoi-ça-sert",
+    "title": "Mesurer la couverture d’adventices et de la culture",
+    "section": "À quoi ça sert",
+    "text": "À quoi ça sert\nPour savoir si un paillage limite vraiment les adventices, ou si une culture se développe mieux sur une planche que sur une autre, il faut des chiffres comparables. Le cadre grillagé permet de compter la surface occupée par les adventices et de les identifier. Une photo analysée avec l’application Canopeo donne en quelques secondes le pourcentage de sol couvert par du vert. Le cadre est plus fiable, la photo plus rapide."
   },
   {
-    "objectID": "fiches/2025-paillage-epinard-oignon/index.html#question",
-    "href": "fiches/2025-paillage-epinard-oignon/index.html#question",
-    "title": "Paillages en maraîchage bio : bilan de la première année",
-    "section": "Question",
-    "text": "Question\nComment cinq types de paillage influencent-ils la santé du sol, la croissance des légumes et les adventices en maraîchage biologique sur petite surface ? Quelles méthodes de mesure simples permettent de suivre ces effets sur 10 ans ? Ce mémoire lance la plateforme de Lauzelle et en teste les protocoles."
+    "objectID": "protocoles/adventices-couverture/index.html#matériel",
+    "href": "protocoles/adventices-couverture/index.html#matériel",
+    "title": "Mesurer la couverture d’adventices et de la culture",
+    "section": "Matériel",
+    "text": "Matériel\n\nUn cadre en bois de 71 cm de côté, tendu d’un grillage ou de ficelles qui le divisent en 196 cases de 5 × 5 cm (14 × 14). Il couvre 0,5 m².\nUn smartphone avec l’application Canopeo (gratuite, iOS et Android)\nPour identifier les espèces : une application de reconnaissance (PlantNet, PictureThis) et, idéalement, une personne formée à la botanique\nLa fiche de relevé"
   },
   {
-    "objectID": "fiches/2025-paillage-epinard-oignon/index.html#dispositif",
-    "href": "fiches/2025-paillage-epinard-oignon/index.html#dispositif",
-    "title": "Paillages en maraîchage bio : bilan de la première année",
-    "section": "Dispositif",
-    "text": "Dispositif\n\n\n\n\n\n\n\nLieu\nFerme universitaire de Lauzelle (Louvain-la-Neuve), ≈ 360 m², légère pente au sud\n\n\nSol\nSablo-limoneux, drainage modéré à imparfait, pH KCl ≈ 5,8\n\n\nSaison\nSeptembre 2024 – juin 2025. Design définitif en janvier 2025, paillages en place du 26 février au 1er avril 2025.\n\n\nCultures\nÉpinard ‘Butterflay’ (bloc 1, planté le 8/04, récolté le 16/05) ; oignon ‘Sturon’ (bloc 2, planté le 15/04)\n\n\nModalités\nBâche plastique tissée noire · BRF (bois de Lauzelle) · Miscanthus · Trèfle blanc · Mix mélilot jaune + moha. Trèfle et Mix ont été semés le 29/04, sur le bloc épinard uniquement.\n\n\nPlan et répétitions\n30 parcelles d’environ 12 m² (3 colonnes × 10 rangs), 2 blocs légumes, 6 répétitions par modalité\n\n\nMesures\nFertilité initiale, structure (VESS, stabilité des agrégats), vers de terre, infiltration, carbone microbien et mycorhizes (5 parcelles), adventices, couverture foliaire, biomasse d’épinard"
+    "objectID": "protocoles/adventices-couverture/index.html#étapes-cadre-grillagé-adventices",
+    "href": "protocoles/adventices-couverture/index.html#étapes-cadre-grillagé-adventices",
+    "title": "Mesurer la couverture d’adventices et de la culture",
+    "section": "Étapes : cadre grillagé (adventices)",
+    "text": "Étapes : cadre grillagé (adventices)\n\nPoser le cadre au centre de la parcelle, toujours au même endroit d’une date à l’autre.\nNoter chaque case : 1 si au moins la moitié de la case est couverte par une adventice, 0 sinon.\nCompter les cases notées 1 et calculer le pourcentage de surface couverte (calculateur ci-dessous).\nIdentifier les espèces présentes dans le cadre et compter les pieds de chacune. Les applications reconnaissent souvent le genre, mais se trompent sur l’espèce, surtout chez les plantules : faites vérifier par une personne compétente."
   },
   {
-    "objectID": "fiches/2025-paillage-epinard-oignon/index.html#résultats-clés",
-    "href": "fiches/2025-paillage-epinard-oignon/index.html#résultats-clés",
-    "title": "Paillages en maraîchage bio : bilan de la première année",
-    "section": "Résultats clés",
-    "text": "Résultats clés\nProduction d’épinard. La biomasse diffère entre toutes les modalités, sauf entre trèfle et mix. En moyennes ajustées, un échantillon de 9 plants pesait 911 g sous bâche, 578 g sur BRF, 325 à 352 g sur trèfle et mix (sol nu) et 142 g sur miscanthus. Cela fait environ 80 g par plant sous bâche, contre 17 g sur miscanthus. Le miscanthus est la seule modalité qui n’a pas été travaillée avant la plantation : son sol est resté plus compact.\nEau. L’infiltration est l’effet le plus net sur le sol dès cette 1re année. Le miscanthus est le plus lent (3,0 cm en 5 min, soit ≈ 360 mm/h). Il est significativement plus lent que la bâche, le trèfle et le mix (7 à 11 cm en 5 min). La bâche atteint souvent le plafond de la méthode : son avantage est donc sous-estimé.\nAdventices. Sous bâche, environ 3 cases sur 196 sont couvertes par des adventices, contre 12 à 15 pour les autres modalités. Dans le bloc oignon, les parcelles en sol nu (trèfle, mix) comptent 3 à 4 espèces sur 0,5 m², contre moins d’une sous bâche, BRF ou miscanthus.\nVie et structure du sol. Aucun effet des paillages n’apparaît encore sur la structure (VESS), la stabilité des agrégats ou les vers de terre. Le carbone microbien est le plus élevé sous BRF, mais il n’a été mesuré que sur une parcelle par modalité. Le terrain présente en revanche un gradient : du côté de la colonne C, il y a plus de carbone organique (18 → 24 → 27 g/kg de A vers C) et une structure plus compacte (VESS 2,3 contre 1,5–1,7).\n\n\nCode\nd = FileAttachment(\"donnees.csv\").csv({typed: true})\nviewof choix = Inputs.select(new Map([\n  [\"Biomasse d'épinard (g/plant)\", \"biomasse_plant\"],\n  [\"Infiltration (cm en 5 min ; plafond = 12)\", \"infiltration_chabert\"],\n  [\"Adventices : cases couvertes sur 196\", \"adventices_cases_total\"],\n  [\"Adventices : nombre d'espèces / 0,5 m²\", \"adventices_especes\"],\n  [\"Couverture foliaire au 29/04 (%)\", \"couverture_foliaire\"],\n  [\"Structure du sol – VESS (bas = mieux)\", \"vess\"],\n  [\"Vers de terre (individus / bloc de bêche)\", \"lombrics_total\"],\n  [\"Stabilité des agrégats USDA (0–6)\", \"stabilite_agregats_usda\"],\n  [\"Carbone organique initial (g/kg)\", \"carbone_organique\"]\n]), {label: \"Variable\"})\nviewof bloc = Inputs.radio(new Map([[\"Les deux\", 0], [\"Bloc 1 (épinard)\", 1], [\"Bloc 2 (oignon)\", 2]]),\n                           {label: \"Bloc\", value: 0})\nparcelles = {\n  const rows = d.filter(r =&gt; r.variable === choix && r.valeur !== null && typeof r.valeur === \"number\"\n                          && !String(r.flag ?? \"\").includes(\"hors protocole\")\n                          && (choix !== \"couverture_foliaire\" || (r.date instanceof Date ? r.date.toISOString() : String(r.date)).startsWith(\"2025-04-29\"))\n                          && (bloc === 0 || r.bloc === bloc));\n  // moyenne des répétitions par parcelle\n  return d3.flatRollup(rows, v =&gt; d3.mean(v, r =&gt; r.valeur), r =&gt; r.parcelle, r =&gt; r.modalite, r =&gt; r.unite)\n           .map(([parcelle, modalite, unite, valeur]) =&gt; ({parcelle, modalite, unite, valeur}));\n}\nPlot.plot({\n  marginLeft: 55, height: 320,\n  x: {label: null, domain: [\"Bâche plastique\", \"BRF\", \"Miscanthus\", \"Trèfle\", \"Mix\"]},\n  y: {grid: true, label: parcelles.length ? parcelles[0].unite : \"\"},\n  color: {domain: [\"Bâche plastique\", \"BRF\", \"Miscanthus\", \"Trèfle\", \"Mix\"],\n          range: [\"#4d4d4d\", \"#a6761d\", \"#e6ab02\", \"#1b9e77\", \"#7570b3\"]},\n  marks: [\n    Plot.barY(parcelles, Plot.groupX({y: \"mean\"}, {x: \"modalite\", y: \"valeur\", fill: \"modalite\", fillOpacity: 0.6})),\n    Plot.dot(parcelles, {x: \"modalite\", y: \"valeur\", stroke: \"black\", r: 3, tip: true,\n                         title: r =&gt; `${r.parcelle} : ${r.valeur.toFixed(2)}`}),\n    Plot.ruleY([0])\n  ]\n})\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBarres : moyenne par modalité ; points : parcelles (moyenne des répétitions). En 2025, Trèfle et Mix correspondent à un sol nu. Les moyennes brutes peuvent différer des moyennes ajustées citées dans le texte.\n\n\n\n\n\n\nProtocoles utilisés, à refaire chez vous : Évaluer la structure du sol et compter les vers de terre à la bêche"
+    "objectID": "protocoles/adventices-couverture/index.html#étapes-photo-canopeo-couverture-totale",
+    "href": "protocoles/adventices-couverture/index.html#étapes-photo-canopeo-couverture-totale",
+    "title": "Mesurer la couverture d’adventices et de la culture",
+    "section": "Étapes : photo Canopeo (couverture totale)",
+    "text": "Étapes : photo Canopeo (couverture totale)\n\nPrendre la photo à la verticale, au-dessus de la planche. En 2025, nous l’avons prise à hauteur d’épaule (environ 1,40 m). En 2026, nous avons plutôt cadré pour que les bords de la parcelle soient juste en dehors de la photo, parce que la surface photographiée varie selon le téléphone.\nFaire 3 photos par parcelle, une dans chaque tiers, toujours dans le même ordre, et en faire la moyenne (méthode 2026).\nChoisir des conditions comparables : évitez le plein soleil et les heures qui suivent une pluie (feuillage ou sol mouillé). Ces situations faussent le résultat vers le haut.\nLire le pourcentage de couverture donné par l’application. Utilisez le facteur de correction de l’application avec parcimonie, et toujours de la même façon."
   },
   {
-    "objectID": "fiches/2025-paillage-epinard-oignon/index.html#méthode-danalyse",
-    "href": "fiches/2025-paillage-epinard-oignon/index.html#méthode-danalyse",
-    "title": "Paillages en maraîchage bio : bilan de la première année",
-    "section": "Méthode d’analyse",
-    "text": "Méthode d’analyse\nSelon la variable, le mémoire utilise des modèles linéaires mixtes : paillage et bloc légume en effets fixes, colonne et/ou rang en effets aléatoires, sélectionnés par test du rapport de vraisemblance. Il recourt à des transformations (racine, log) ou à des tests non paramétriques quand les hypothèses ne sont pas respectées. Les comparaisons par paires utilisent le test de Tukey. Le script joint regroupe les modèles retenus. Il retrouve les résultats sur la biomasse et l’infiltration. Pour quelques variables (stabilité des agrégats, vers de terre, adventices), les conclusions changent légèrement une fois corrigées des erreurs d’étiquetage dans le fichier de données (voir le rapport de préparation)."
+    "objectID": "protocoles/adventices-couverture/index.html#calculateur-cadre-grillagé",
+    "href": "protocoles/adventices-couverture/index.html#calculateur-cadre-grillagé",
+    "title": "Mesurer la couverture d’adventices et de la culture",
+    "section": "Calculateur (cadre grillagé)",
+    "text": "Calculateur (cadre grillagé)\n\n\nCode\nviewof cases = Inputs.range([0, 196], {label: \"Cases notées 1 (sur 196)\", step: 1, value: 40})\nhtml`&lt;div class=\"vess-resultat\"&gt;Surface couverte par les adventices : &lt;b&gt;${(cases / 196 * 100).toFixed(1)} %&lt;/b&gt; du cadre (0,5 m²).&lt;/div&gt;`\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPourcentage = cases notées 1 ÷ 196 × 100 (mémoire Vas, 2025, p. 42–43)."
   },
   {
-    "objectID": "fiches/2025-paillage-epinard-oignon/index.html#limites",
-    "href": "fiches/2025-paillage-epinard-oignon/index.html#limites",
-    "title": "Paillages en maraîchage bio : bilan de la première année",
-    "section": "Limites",
-    "text": "Limites\n\nLes paillages venaient d’être posés (BRF le 1er avril) et les couverts vivants n’ont pas levé à temps : on compare surtout bâche, paillages morts et sol nu.\nLa comparaison est biaisée par le travail du sol : toutes les parcelles ont été travaillées le 27 mars, sauf le miscanthus. Une partie de sa contre-performance peut venir de là.\nLe terrain présente un gradient (carbone, compaction), qui hérite des cultures et amendements de 2023.\nLes oignons ont été attaqués par des rongeurs (surtout sous bâche). Le carbone microbien et les mycorhizes n’ont été mesurés que sur une parcelle par modalité.\nLa méthode d’infiltration plafonne pour les sols très perméables. Elle a été remplacée par l’anneau simple en 2026."
+    "objectID": "protocoles/adventices-couverture/index.html#fiche-de-relevé",
+    "href": "protocoles/adventices-couverture/index.html#fiche-de-relevé",
+    "title": "Mesurer la couverture d’adventices et de la culture",
+    "section": "Fiche de relevé",
+    "text": "Fiche de relevé\nTéléchargez la fiche de relevé (CSV). Notez une ligne par parcelle et par date. Les espèces identifiées vont dans la colonne especes, avec leur nombre de pieds."
   },
   {
-    "objectID": "fiches/2025-paillage-epinard-oignon/index.html#ressources",
-    "href": "fiches/2025-paillage-epinard-oignon/index.html#ressources",
-    "title": "Paillages en maraîchage bio : bilan de la première année",
-    "section": "Ressources",
-    "text": "Ressources\n\n Fiche récapitulative (PDF)  Document complet  Données de la fiche (CSV)  Données brutes archivées (DOI)  Scripts d’analyse\n\nCiter cette fiche : Eliot Vas (mémoire 2025) (2024–2025). Paillages en maraîchage bio : bilan de la première année. Fiche PEPA Lab, UCLouvain."
+    "objectID": "protocoles/adventices-couverture/index.html#lire-les-résultats",
+    "href": "protocoles/adventices-couverture/index.html#lire-les-résultats",
+    "title": "Mesurer la couverture d’adventices et de la culture",
+    "section": "Lire les résultats",
+    "text": "Lire les résultats\n\nCadre : comparez le pourcentage de cases couvertes et le nombre d’espèces entre pratiques. En 2025, sous BRF et bâche plastique, il y avait moins d’espèces d’adventices que sur les parcelles restées nues.\nCanopeo ne distingue pas la culture des adventices : le résultat n’a de sens pour la culture que si les adventices ont été retirées peu avant.\nLes deux méthodes se combinent : le même cadre grillagé peut servir à noter aussi les cases couvertes par la culture."
   },
   {
-    "objectID": "fiches/2025-oyas-chou/index.html",
-    "href": "fiches/2025-oyas-chou/index.html",
-    "title": "Oyas pour le chou : à quelle distance les placer ?",
-    "section": "",
-    "text": "AstuceÀ retenir pour le terrain\n\n\n\n\nUn oya de 5 L au centre de 4 choux a consommé 10 à 14 L par chou sur la saison, contre 35 L à l’arrosoir : 60 à 70 % d’eau en moins.\nÀ 35 et 56 cm du chou, presque tous les choux atteignent la norme commerciale (≥ 400 g). À 79 cm, c’est trop loin : moins de la moitié des choux sont commercialisables.\nÀ 35 cm, les racines poussent vers l’oya ; au-delà de 56 cm, elles ne le « trouvent » plus.\nC’est un essai d’une saison, sous tunnel très sec (2e printemps le plus sec depuis 1892) : les choux sans aucune irrigation ont tout de même produit grâce à l’eau du sol."
+    "objectID": "protocoles/adventices-couverture/index.html#erreurs-fréquentes",
+    "href": "protocoles/adventices-couverture/index.html#erreurs-fréquentes",
+    "title": "Mesurer la couverture d’adventices et de la culture",
+    "section": "Erreurs fréquentes",
+    "text": "Erreurs fréquentes\n\nMesurer juste après un désherbage : il n’y a plus rien à compter. En 2026, il a fallu laisser les parcelles se salir volontairement avant la mesure.\nChanger la hauteur ou le cadrage des photos d’une date à l’autre.\nSe fier uniquement aux applications pour nommer les espèces."
   },
   {
-    "objectID": "fiches/2025-oyas-chou/index.html#question",
-    "href": "fiches/2025-oyas-chou/index.html#question",
-    "title": "Oyas pour le chou : à quelle distance les placer ?",
-    "section": "Question",
-    "text": "Question\nLes oyas, pots en terre cuite poreuse enterrés et remplis d’eau, peuvent-ils irriguer un chou aussi bien qu’un arrosage classique, avec moins d’eau ? À quelle distance faut-il les placer ? Et comment les racines du chou réagissent-elles à cette source d’eau localisée ?"
+    "objectID": "protocoles/adventices-couverture/index.html#dans-nos-essais",
+    "href": "protocoles/adventices-couverture/index.html#dans-nos-essais",
+    "title": "Mesurer la couverture d’adventices et de la culture",
+    "section": "Dans nos essais",
+    "text": "Dans nos essais\nÀ la ferme universitaire de Lauzelle, le cadre grillagé a servi sur les 30 parcelles paillées en mai 2025, et Canopeo en avril–mai 2025 puis à quatre dates en mai 2026. Le mémoire de 2025 juge le cadre pratique, rapide et reproductible, et Canopeo très rapide mais sensible à la lumière et à l’angle de prise de vue.\n\n\n\n\n\n\nEssai\n\n\n\nSaison\n\n\n\nCulture\n\n\n\n\n\n\n\n\nCinq paillages en maraîchage bio : sol, eau et légumes\n\n\n2025–2026\n\n\nÉpinard\n\n\n\n\n\n\nPaillages en maraîchage bio : bilan de la première année\n\n\n2024–2025\n\n\nÉpinard\n\n\n\n\n\n\nAucun article correspondant"
   },
   {
-    "objectID": "fiches/2025-oyas-chou/index.html#dispositif",
-    "href": "fiches/2025-oyas-chou/index.html#dispositif",
-    "title": "Oyas pour le chou : à quelle distance les placer ?",
-    "section": "Dispositif",
-    "text": "Dispositif\n\n\n\n\n\n\n\nLieu\nFerme universitaire de Marbaix (Chaumont-Gistoux), tunnel de 24 × 7 m fermé début février pour assécher le sol, sol limoneux ; fumier et toile géotextile\n\n\nSaison\nRepiquage le 20/03/2025, récolte le 5/06/2025 (78 jours)\n\n\nCulture\nChou pointu ‘Cœur de bœuf des Vertus 2’ (bio), plants espacés de 50 × 50 cm\n\n\nModalités\n100 % : arrosoir au pied, selon l’évapotranspiration (ETc) · Oyas à 35, 56 ou 79 cm du chou (1 oya de 5 L pour 4 choux, rempli 2 fois par semaine) · 0 % : aucune irrigation\n\n\nPlan et répétitions\n3 blocs de 8 choux par traitement, répartis au hasard, avec des zones tampons de 1,25 m ; 4 choux suivis par bloc, soit 12 par traitement\n\n\nMesures\nEau apportée, croissance hebdomadaire, conductance stomatique, poids de la plante et du chou, racines prélevées côté oya (in) et côté opposé (out), humidité du sol (sondes TMS-4)"
-  },
-  {
-    "objectID": "fiches/2025-oyas-chou/index.html#résultats-clés",
-    "href": "fiches/2025-oyas-chou/index.html#résultats-clés",
-    "title": "Oyas pour le chou : à quelle distance les placer ?",
-    "section": "Résultats clés",
-    "text": "Résultats clés\nEau. Sur la saison, chaque chou irrigué à l’arrosoir a reçu 35,3 L. Les choux sous oyas ont reçu une médiane de 12,4 L (35 cm), 10,7 L (56 cm) et 13,6 L (79 cm), sans différence significative entre distances. Le débit d’un oya suit ce que le sol absorbe, et non la demande climatique : il est resté stable alors que l’ETc augmentait.\nRendement. Sur la surface cultivée, l’arrosage a donné 44,9 t/ha de choux, contre 38,7 (35 cm), 34,3 (56 cm) et 28,2 t/ha (79 cm). Ces différences de poids par chou ne sont pas significatives, car la variabilité est forte. Avec la norme commerciale, la hiérarchie change :\n\ntous les choux sont commercialisables à 35 cm, 11 sur 12 à 56 cm, mais seulement 7 sur 11 à l’arrosoir (choux plus hétérogènes) et 5 sur 12 à 79 cm ;\nle rendement commercialisable est de 38,7 t/ha à 35 cm, 37,1 à l’arrosoir, 33,3 à 56 cm et 18,5 t/ha à 79 cm.\n\nRapporté à l’eau, un litre a produit 75 à 83 g de chou sous oya à 35–56 cm, contre 32 g à l’arrosoir.\nRacines. À 35 cm, la carotte prélevée côté oya contient environ 11 fois plus de racines que le côté opposé (médianes 10,1 contre 0,9 m). L’humidité mesurée par les sondes y était de 28 % côté oya contre moins de 2 % de l’autre côté. Cet écart s’estompe à 56 cm et disparaît à 79 cm. Les choux à 35 cm développent autant de racines qu’à l’arrosoir, ceux à 56 et 79 cm pas plus que les choux non irrigués (médianes 3,2 et 2,4 m contre 4,0 m).\n\n\nCode\nd = FileAttachment(\"donnees.csv\").csv({typed: true})\nordre = [\"100%\", \"Oya35\", \"Oya56\", \"Oya79\", \"0%\"]\ncouleurs = [\"#2a5783\", \"#f5515d\", \"#f2862c\", \"#85b22c\", \"#66c2a5\"]\nviewof choix = Inputs.select(new Map([\n  [\"Poids du chou (kg)\", \"poids_chou\"],\n  [\"Biomasse de la plante (kg)\", \"biomasse_foliaire\"],\n  [\"Eau reçue par chou (L)\", \"eau_consommee\"],\n  [\"Chou produit par litre d'eau (kg/L, hors 0 %)\", \"wue_chou\"],\n  [\"Hauteur de la plante au 27/05 (cm)\", \"hauteur_plante\"],\n  [\"Longueur de racines totale (mm)\", \"longueur_racinaire_totale\"],\n  [\"Racines côté oya − côté opposé (mm)\", \"longueur_racinaire_diff_in_out\"]\n]), {label: \"Variable\"})\nsel = d.filter(r =&gt; r.variable === choix && typeof r.valeur === \"number\" && !(choix === \"wue_chou\" && r.traitement === \"0%\"))\nPlot.plot({\n  marginLeft: 55, height: 320,\n  x: {label: null, domain: ordre},\n  y: {grid: true, label: sel.length ? sel[0].unite : \"\"},\n  color: {domain: ordre, range: couleurs},\n  marks: [\n    Plot.barY(sel, Plot.groupX({y: \"median\"}, {x: \"traitement\", y: \"valeur\", fill: \"traitement\", fillOpacity: 0.6})),\n    Plot.dot(sel, {x: \"traitement\", y: \"valeur\", stroke: \"black\", r: 3, tip: true,\n                   symbol: r =&gt; r.variable === \"poids_chou\" ? (d.find(x =&gt; x.chou_id === r.chou_id && x.variable === \"commercialisable\")?.valeur ? \"circle\" : \"times\") : \"circle\",\n                   title: r =&gt; `${r.chou_id} : ${r.valeur}`}),\n    Plot.ruleY([0])\n  ]\n})\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBarres : médiane par traitement ; points : choux. Pour le poids du chou, × = chou non commercialisable. Oya35/56/79 = oya à 35, 56 ou 79 cm.\n\n\nCode\nrac = d.filter(r =&gt; (r.variable === \"longueur_racinaire_in\" || r.variable === \"longueur_racinaire_out\"))\n       .map(r =&gt; ({...r, position: r.variable.endsWith(\"_in\") ? \"côté oya (in)\" : \"côté opposé (out)\", metres: r.valeur / 1000}))\nPlot.plot({\n  height: 300, marginLeft: 50,\n  fx: {domain: ordre, label: null},\n  x: {axis: null, domain: [\"côté oya (in)\", \"côté opposé (out)\"]},\n  y: {grid: true, label: \"Longueur de racines dans la carotte (m)\"},\n  color: {legend: true, domain: [\"côté oya (in)\", \"côté opposé (out)\"], range: [\"#1b9e77\", \"#d95f02\"]},\n  marks: [\n    Plot.barY(rac, Plot.groupX({y: \"median\"}, {fx: \"traitement\", x: \"position\", y: \"metres\", fill: \"position\", fillOpacity: 0.7})),\n    Plot.dot(rac, {fx: \"traitement\", x: \"position\", y: \"metres\", stroke: \"black\", r: 2}),\n    Plot.ruleY([0])\n  ]\n})\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRacines prélevées les 22–23/05 dans une carotte de 0,75 L, à 17 cm du chou, côté oya et côté opposé (6 choux par traitement). Pour le 100 %, le côté « in » est celui de l’arrosage.\n\n\n\n\n\n\nProtocoles utilisés, à refaire chez vous : Installer et suivre des oyas sous tunnel"
-  },
-  {
-    "objectID": "fiches/2025-oyas-chou/index.html#méthode-danalyse",
-    "href": "fiches/2025-oyas-chou/index.html#méthode-danalyse",
-    "title": "Oyas pour le chou : à quelle distance les placer ?",
-    "section": "Méthode d’analyse",
-    "text": "Méthode d’analyse\nPour chaque variable, le choix du test dépend des hypothèses :\n\nANOVA à un facteur puis Tukey si la normalité et l’homogénéité des variances sont vérifiées ;\nANOVA de Welch puis Games-Howell si les variances diffèrent ;\nKruskal-Wallis puis Dunn (correction de Holm) sinon.\n\nLes traitements oyas sont aussi comparés entre eux pour isoler l’effet de la distance. Le script joint est une version nettoyée du script de l’autrice. Il retrouve les principaux résultats : hauteur, biomasse, eau consommée, efficience et longueur de racines."
-  },
-  {
-    "objectID": "fiches/2025-oyas-chou/index.html#limites",
-    "href": "fiches/2025-oyas-chou/index.html#limites",
-    "title": "Oyas pour le chou : à quelle distance les placer ?",
-    "section": "Limites",
-    "text": "Limites\n\nC’est une saison sur une seule parcelle, sous tunnel. Le sol avait encore des réserves au départ, ce qui explique que les choux non irrigués aient produit. Leur « efficience » (≈ 2 kg/L) n’a pas de sens, car l’eau du sol n’est pas comptée.\nLes 4 choux d’un bloc partagent le même oya : il n’y a en réalité que 3 répétitions par traitement, et les tests au niveau du chou surestiment la précision.\nLes racines ne sont prélevées que dans les 15 premiers centimètres. Des racines fines tapissaient pourtant les oyas jusqu’à 30 cm de profondeur. L’humidité ne repose que sur 3 paires de sondes, dont les données calibrées ne sont pas jointes ici.\nCertains choux ont été pesés sous une averse (oyas à 56 et 79 cm, une partie du 0 %). Les oyas demandent aussi de la main-d’œuvre : un remplissage 2 fois par semaine, et un oya pour 4 choux."
-  },
-  {
-    "objectID": "fiches/2025-oyas-chou/index.html#ressources",
-    "href": "fiches/2025-oyas-chou/index.html#ressources",
-    "title": "Oyas pour le chou : à quelle distance les placer ?",
-    "section": "Ressources",
-    "text": "Ressources\n\n Fiche récapitulative (PDF)  Document complet  Données de la fiche (CSV)  Données brutes archivées (DOI)  Scripts d’analyse\n\nCiter cette fiche : Gaëlle Hanssens (mémoire 2025) (2025). Oyas pour le chou : à quelle distance les placer ?. Fiche PEPA Lab, UCLouvain."
-  },
-  {
-    "objectID": "themes.html",
-    "href": "themes.html",
-    "title": "Thèmes",
-    "section": "",
-    "text": "Toutes les fiches, regroupées par thème et culture. Cliquez sur un thème à droite pour filtrer.\n\n\n\n\n\n\n   \n    \n    \n      Trier par\n      Ordre par défaut\n      \n        Fiche\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nFiche\n\n\n\nCulture\n\n\n\nSaison\n\n\n\nType\n\n\n\n\n\n\n\n\nCinq paillages en maraîchage bio : sol, eau et légumes\n\n\nÉpinard\n\n\n2025–2026\n\n\nMémoire\n\n\n\n\n\n\nOyas pour le chou : à quelle distance les placer ?\n\n\nChou\n\n\n2025\n\n\nMémoire\n\n\n\n\n\n\nPaillages en maraîchage bio : bilan de la première année\n\n\nÉpinard\n\n\n2024–2025\n\n\nMémoire\n\n\n\n\n\n\nTomate sous tunnel : combien d’eau pour quel rendement ?\n\n\nTomate\n\n\n2024\n\n\nMémoire\n\n\n\n\n\n\nAucun article correspondant"
-  },
-  {
-    "objectID": "donnees.html",
-    "href": "donnees.html",
-    "title": "Données",
-    "section": "",
-    "text": "Type\nOù\nPourquoi\n\n\n\n\nDonnées résumées d’une fiche (&lt; 5 Mo)\nfiches/&lt;fiche&gt;/donnees.csv\nAlimentent les graphiques interactifs\n\n\nDonnées brutes complètes\nZenodo – communauté PEPA\nDOI citable, archivage pérenne, gros volumes\n\n\nMémoires et rapports\nDIAL UCLouvain ou documents/\nDocument de référence\n\n\n\nChaque fichier de données est accompagné d’un dictionnaire (dictionnaire.csv : colonne, unité, description). Licence par défaut : CC BY 4.0."
-  },
-  {
-    "objectID": "donnees.html#où-sont-les-données",
-    "href": "donnees.html#où-sont-les-données",
-    "title": "Données",
-    "section": "",
-    "text": "Type\nOù\nPourquoi\n\n\n\n\nDonnées résumées d’une fiche (&lt; 5 Mo)\nfiches/&lt;fiche&gt;/donnees.csv\nAlimentent les graphiques interactifs\n\n\nDonnées brutes complètes\nZenodo – communauté PEPA\nDOI citable, archivage pérenne, gros volumes\n\n\nMémoires et rapports\nDIAL UCLouvain ou documents/\nDocument de référence\n\n\n\nChaque fichier de données est accompagné d’un dictionnaire (dictionnaire.csv : colonne, unité, description). Licence par défaut : CC BY 4.0."
-  },
-  {
-    "objectID": "a-propos.html",
-    "href": "a-propos.html",
-    "title": "À propos",
-    "section": "",
-    "text": "Ce site rassemble les résultats des essais et travaux de recherche en maraîchage menés au PEPA Lab (Earth and Life Institute, UCLouvain) : mémoires de master, essais sur la ferme expérimentale, synthèses pluriannuelles.\nContact : PEPA Lab, UCLouvain."
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Fiches d’essais",
-    "section": "",
-    "text": "Chaque fiche résume un essai en une page : question posée, dispositif, résultats clés et ce qu’il faut en retenir sur le terrain. Les mémoires complets et les données brutes sont accessibles depuis chaque fiche.\n\n\n\n\n\n   \n    \n    \n      Trier par\n      Ordre par défaut\n      \n        Date - Le plus ancien\n      \n      \n        Date - Le plus récent\n      \n      \n        Titre\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n×4,6moins d'eau avec les oyas qu'à 100 %\n\n\nMémoire · 2024\nTomate sous tunnel : combien d'eau pour quel rendement ?\nAvec 4,6 fois moins d'eau, les oyas gardent 73 % du rendement médian ; l'irrigation complète reste la plus productive (3,2 kg/plant).\n\nTomate\nGestion de l'eau\nPDF\nCSV\nDOI\nCode\n\n\n\n\n\n\n−70 %d'eau avec un oya à 56 cm\n\n\nMémoire · 2025\nOyas pour le chou : à quelle distance les placer ?\nUn oya à 56 cm du chou économise 70 % d'eau ; 11 choux sur 12 restent commercialisables, pour un rendement commercialisable 10 % sous l'arrosage.\n\nChou\nGestion de l'eau\nPDF\nCSV\nDOI\nCode\n\n\n\n\n\n\n×6,4biomasse d'épinard : bâche vs miscanthus\n\n\nMémoire · 2024–2025\nPaillages en maraîchage bio : bilan de la première année\nDès la 1re année, la bâche donne 6 fois plus d'épinards que le miscanthus non travaillé, qui infiltre aussi l'eau le moins vite.\n\nÉpinard\nPaillageCouverts végétauxOignon\nPDF\nCSV\nDOI\nCode\n\n\n\n\n\n\n1,1score VESS sous BRF (1 = idéal)\n\n\nMémoire · 2025–2026\nCinq paillages en maraîchage bio : sol, eau et légumes\nLa bâche donne des épinards 4 fois plus lourds, mais le BRF a la meilleure structure de sol (VESS 1,1) et +87 % de biomasse microbienne.\n\nÉpinard\nPaillageCouverts végétauxLaitue\nPDF\nCSV\nDOI\nCode\n\n\n\n\n\nAucun article correspondant"
-  },
-  {
-    "objectID": "fiches/2024-irrigation-tomate/index.html",
-    "href": "fiches/2024-irrigation-tomate/index.html",
-    "title": "Tomate sous tunnel : combien d’eau pour quel rendement ?",
-    "section": "",
-    "text": "AstuceÀ retenir pour le terrain\n\n\n\n\nL’irrigation complète (≈ 127 L par plant sur la saison) donne le meilleur rendement : 3,2 kg/plant en médiane, avec les fruits les plus gros et le moins de fleurs avortées.\nLes oyas (pots en terre cuite enterrés, 1 pour 4 plants) ont consommé ≈ 27 L par plant. Pour 2,4 kg/plant, chaque litre d’eau a produit ≈ 4 fois plus de tomates qu’en irrigation complète.\nDiviser l’eau par deux donne 2,3 kg/plant, sans différence significative avec l’irrigation complète. Mais il y a plus d’avortement de fleurs et des fruits plus petits.\nSans aucune irrigation, les plants ont encore donné ≈ 2 kg chacun, grâce à un sol bien rechargé par un printemps très pluvieux. Ce n’est pas transposable à une année sèche."
-  },
-  {
-    "objectID": "fiches/2024-irrigation-tomate/index.html#question",
-    "href": "fiches/2024-irrigation-tomate/index.html#question",
-    "title": "Tomate sous tunnel : combien d’eau pour quel rendement ?",
-    "section": "Question",
-    "text": "Question\nEn maraîchage sous tunnel, peut-on réduire l’irrigation de la tomate, ou changer de système (oyas, semis direct), sans trop perdre de rendement ? Sur quelles composantes du rendement le manque d’eau agit-il : nombre de fleurs, avortement, nombre et poids des fruits ?"
-  },
-  {
-    "objectID": "fiches/2024-irrigation-tomate/index.html#dispositif",
-    "href": "fiches/2024-irrigation-tomate/index.html#dispositif",
-    "title": "Tomate sous tunnel : combien d’eau pour quel rendement ?",
-    "section": "Dispositif",
-    "text": "Dispositif\n\n\n\n\n\n\n\nLieu\nFerme universitaire de Marbaix (Chaumont-Gistoux), tunnel de 20 × 7 m couvert le 14/05/2024, sol sablo-limoneux\n\n\nSaison\nPlantation le 21/05/2024 ; traitements dès le 31/05 ; récoltes du 7/08 au 2/10/2024\n\n\nCulture\nTomate ‘Tigerella’ (bio), semée en serre le 4/04 ; plants espacés de 50 cm sur la ligne et 75 cm entre lignes ; toile géotextile au sol, taille des apex le 29/08\n\n\nModalités\n100 % de l’apport recommandé (goutte-à-goutte) · 50 % · 0 % (aucune irrigation) · Oyas de 5 L · Semis « direct » irrigué à 50 % (le semis en champ n’ayant pas levé, plants semés en serre le 21/05 et repiqués le 4/06)\n\n\nPlan et répétitions\n3 planches de 8 plants par traitement, réparties au hasard entre des zones tampons ; 9 plants suivis par traitement (3 par planche)\n\n\nMesures\nChaque fleur et chaque fruit (position, poids), eau apportée par plant, humidité du sol (TRIME, fin de saison), météo de Louvain-la-Neuve"
-  },
-  {
-    "objectID": "fiches/2024-irrigation-tomate/index.html#résultats-clés",
-    "href": "fiches/2024-irrigation-tomate/index.html#résultats-clés",
-    "title": "Tomate sous tunnel : combien d’eau pour quel rendement ?",
-    "section": "Résultats clés",
-    "text": "Résultats clés\nRendement. En médiane par plant, l’irrigation complète a donné 3,25 kg, contre 2,37 kg avec les oyas, 2,35 kg à 50 %, 2,04 kg en semis « direct » et 1,96 kg sans irrigation. Statistiquement, seuls le 0 % et le semis « direct » sont inférieurs à l’irrigation complète. Sur les 9 plants suivis, le 100 % a produit 497 fruits commercialisables (plus de 30 g), contre 283 pour le semis « direct ».\nEau. Sur la saison, chaque plant a reçu 127 L à 100 %, 63 L à 50 % et en semis « direct », 27 L avec les oyas (moyenne) et 0 L sans irrigation. Rapporté au litre d’irrigation, cela donne ≈ 26 g de tomates par litre à 100 %, 37 g à 50 % et 97 g avec les oyas. Les oyas ne délivrent l’eau qu’au rythme où le sol la réclame, d’où cette économie. En contrepartie, elles ne suivent pas les pics de demande de l’été.\nComment le manque d’eau réduit le rendement. Le nombre d’inflorescences et de fleurs ne diffère pas entre traitements. C’est après la floraison que tout se joue :\n\nle taux d’avortement des fleurs passe de 30 % (100 %) à 49 % (50 %) et 54 % (semis « direct ») ;\nles fruits sont plus légers en déficit hydrique : 45 g en médiane à 100 %, contre 36 à 40 g pour 50 %, 0 % et oyas.\n\n\n\nCode\nd = FileAttachment(\"donnees.csv\").csv({typed: true})\nordre = [\"100P\", \"50P\", \"0P\", \"oya\", \"direct\"]\nviewof choix = Inputs.select(new Map([\n  [\"Rendement (g / plant)\", \"rendement_plant\"],\n  [\"Rendement commercialisable (g / plant)\", \"rendement_commercialisable\"],\n  [\"Eau d'irrigation (L / plant)\", \"eau_irrigation\"],\n  [\"Rendement par litre d'irrigation (g / L)\", \"rendement_par_litre\"],\n  [\"Nombre de fruits / plant\", \"fruits_nombre\"],\n  [\"Poids moyen d'un fruit (g)\", \"poids_moyen_fruit\"],\n  [\"Taux d'avortement des fleurs\", \"taux_avortement\"],\n  [\"Fleurs / plant\", \"fleurs_total\"],\n  [\"Inflorescences / plant\", \"inflorescences_total\"]\n]), {label: \"Variable\"})\nsel = d.filter(r =&gt; r.variable === choix && typeof r.valeur === \"number\")\nPlot.plot({\n  marginLeft: 55, height: 320,\n  x: {label: null, domain: ordre},\n  y: {grid: true, label: sel.length ? sel[0].unite : \"\"},\n  color: {domain: ordre, range: [\"#1b9e77\", \"#e6ab02\", \"#d95f02\", \"#7570b3\", \"#66a61e\"]},\n  marks: [\n    Plot.barY(sel, Plot.groupX({y: \"median\"}, {x: \"traitement\", y: \"valeur\", fill: \"traitement\", fillOpacity: 0.6})),\n    Plot.dot(sel, {x: \"traitement\", y: \"valeur\", stroke: \"black\", r: 3, tip: true,\n                   title: r =&gt; `${r.plant_id} : ${r.valeur}`}),\n    Plot.ruleY([0])\n  ]\n})\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBarres : médiane des 9 plants suivis (le mémoire présente des médianes) ; points : plants. 100P, 50P, 0P = 100 %, 50 %, 0 % de l’irrigation recommandée.\n\n\nCode\nf = FileAttachment(\"fruits.csv\").csv({typed: true})\ncumul = {\n  const out = [];\n  for (const [t, rows] of d3.group(f, r =&gt; r.traitement)) {\n    let s = 0;\n    for (const [date, poids] of d3.rollups(rows, v =&gt; d3.sum(v, r =&gt; r.poids_g), r =&gt; +r.date).sort((a, b) =&gt; a[0] - b[0])) {\n      s += poids; out.push({traitement: t, date: new Date(date), kg_par_plant: s / 9 / 1000});\n    }\n  }\n  return out;\n}\nPlot.plot({\n  height: 280, marginLeft: 45,\n  y: {grid: true, label: \"Récolte cumulée (kg / plant)\"}, x: {label: null},\n  color: {legend: true, domain: ordre, range: [\"#1b9e77\", \"#e6ab02\", \"#d95f02\", \"#7570b3\", \"#66a61e\"]},\n  marks: [Plot.line(cumul, {x: \"date\", y: \"kg_par_plant\", stroke: \"traitement\", marker: \"dot\"})]\n})\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRécolte cumulée moyenne par plant au fil de la saison. Le semis « direct », repiqué 2 semaines plus tard, commence à produire le 26/08.\n\n\n\n\n\n\nProtocoles utilisés, à refaire chez vous : Installer et suivre des oyas sous tunnel"
-  },
-  {
-    "objectID": "fiches/2024-irrigation-tomate/index.html#méthode-danalyse",
-    "href": "fiches/2024-irrigation-tomate/index.html#méthode-danalyse",
-    "title": "Tomate sous tunnel : combien d’eau pour quel rendement ?",
-    "section": "Méthode d’analyse",
-    "text": "Méthode d’analyse\nChaque variable a été comparée entre traitements par une ANOVA à un facteur suivie d’un test de Tukey, ou par un test de Kruskal-Wallis lorsque la normalité ou l’homogénéité des variances n’étaient pas respectées. L’unité statistique est le plant (9 par traitement). Le script joint est une reconstruction : il retrouve les résultats du mémoire sur le rendement, les fruits, les fleurs et l’avortement."
-  },
-  {
-    "objectID": "fiches/2024-irrigation-tomate/index.html#limites",
-    "href": "fiches/2024-irrigation-tomate/index.html#limites",
-    "title": "Tomate sous tunnel : combien d’eau pour quel rendement ?",
-    "section": "Limites",
-    "text": "Limites\n\nC’est une seule saison, sur une seule parcelle, et le printemps 2024 a été très pluvieux. Le sol était bien rechargé au moment de couvrir le tunnel, ce qui explique la bonne tenue du traitement sans irrigation. Des fuites dans la bâche du tunnel ont aussi apporté de l’eau en cours de saison.\nLe semis « direct » n’a pas levé en champ. Les plants de remplacement avaient 58 jours de retard : ce traitement mesure surtout l’effet d’un démarrage tardif.\nLes 3 plants d’une planche partagent la même ligne de goutte-à-goutte ou la même oya. Les tests les traitent comme indépendants, ce qui surestime la précision.\nDe l’oïdium est apparu mi-août et l’apport « idéal » a été fixé d’après des fiches techniques, pas mesuré par rapport à l’évapotranspiration réelle.\nL’efficience de l’eau publiée dans le mémoire (WUE, kg/L) n’est pas reproduite ici, car son mode de calcul n’est pas assez décrit. La fiche utilise le rendement par litre d’irrigation."
-  },
-  {
-    "objectID": "fiches/2024-irrigation-tomate/index.html#ressources",
-    "href": "fiches/2024-irrigation-tomate/index.html#ressources",
-    "title": "Tomate sous tunnel : combien d’eau pour quel rendement ?",
-    "section": "Ressources",
-    "text": "Ressources\n\n Fiche récapitulative (PDF)  Document complet  Données de la fiche (CSV)  Données brutes archivées (DOI)  Scripts d’analyse\n\nCiter cette fiche : Clémentine Lucca (mémoire 2025) (2024). Tomate sous tunnel : combien d’eau pour quel rendement ?. Fiche PEPA Lab, UCLouvain."
-  },
-  {
-    "objectID": "fiches/2026-paillage-epinard-laitue/index.html",
-    "href": "fiches/2026-paillage-epinard-laitue/index.html",
-    "title": "Cinq paillages en maraîchage bio : sol, eau et légumes",
-    "section": "",
-    "text": "AstuceÀ retenir pour le terrain\n\n\n\n\nLa bâche plastique reste la plus productive au printemps : le sol se réchauffe et se ressuie plus vite. Les épinards y ont été environ 4 fois plus lourds que sur BRF.\nLe BRF améliore le sol : c’est la meilleure structure (VESS 1,1) et la plus forte biomasse microbienne. C’est le meilleur compromis parmi les paillages organiques.\nLe miscanthus en couche épaisse retient trop d’eau au printemps : engorgement, pourriture du collet des laitues et faim d’azote marquée. Il ne faut pas dépasser environ 10 cm.\nLes paillages vivants (trèfle, mélilot + moha) favorisent l’infiltration mais assèchent le sol. Ce sont des résultats de 2e année sur un seul site, à confirmer les années suivantes."
-  },
-  {
-    "objectID": "fiches/2026-paillage-epinard-laitue/index.html#question",
-    "href": "fiches/2026-paillage-epinard-laitue/index.html#question",
-    "title": "Cinq paillages en maraîchage bio : sol, eau et légumes",
-    "section": "Question",
-    "text": "Question\nLes paillages organiques (morts ou vivants) peuvent-ils remplacer la bâche plastique en maraîchage biologique sur petite surface, sans trop pénaliser la production ? Que changent-ils à la structure, à la vie et à l’eau du sol ? Cette fiche présente la 2e année d’une plateforme prévue pour durer 10 ans."
-  },
-  {
-    "objectID": "fiches/2026-paillage-epinard-laitue/index.html#dispositif",
-    "href": "fiches/2026-paillage-epinard-laitue/index.html#dispositif",
-    "title": "Cinq paillages en maraîchage bio : sol, eau et légumes",
-    "section": "Dispositif",
-    "text": "Dispositif\n\n\n\n\n\n\n\nLieu\nFerme universitaire de Lauzelle (Louvain-la-Neuve), ≈ 360 m², légère pente au sud\n\n\nSol\nSablo-limoneux, drainage modéré à imparfait, pH KCl ≈ 5,8\n\n\nSaison\nAutomne 2025 – été 2026 (printemps très chaud, été sec) ; irrigation par aspersion\n\n\nCultures\nLaitue feuille de chêne rouge (bloc 1) et épinard ‘Butterflay’ (bloc 2), puis chou kale et potimarron (récolte non incluse)\n\n\nModalités\nBâche plastique tissée noire + fumier (≈ 40 t/ha) · BRF ≈ 10 cm · Miscanthus ≈ 10 cm · Trèfle blanc semé · Mix mélilot jaune + moha\n\n\nPlan et répétitions\n30 parcelles de 12 m² (3 colonnes × 10 rangs), 2 blocs légumes, 6 répétitions par modalité. Trèfle et Mix n’ont pas été cultivés au printemps 2026.\n\n\nMesures\nChimie du sol (pH, C, N), structure (VESS), vers de terre, carbone microbien, infiltration, humidité et température en continu (9 sondes), SPAD, couverture foliaire, biomasse par plant"
-  },
-  {
-    "objectID": "fiches/2026-paillage-epinard-laitue/index.html#résultats-clés",
-    "href": "fiches/2026-paillage-epinard-laitue/index.html#résultats-clés",
-    "title": "Cinq paillages en maraîchage bio : sol, eau et légumes",
-    "section": "Résultats clés",
-    "text": "Résultats clés\nStructure du sol. En sortie d’hiver, le BRF présente la meilleure structure (score VESS moyen de 1,12). Les autres modalités se situent entre 1,85 (bâche) et 2,21 (miscanthus). Un score de 2 correspond à un sol « intact ». Le BRF se distingue de toutes les autres modalités.\nChaleur et eau au printemps. Du 9 mars au 30 avril, le sol sous bâche a cumulé 536 °C·jours, soit environ 35 de plus que sous BRF et 57 de plus que sous miscanthus. Sur la même période, l’humidité des 12 premiers centimètres était en moyenne de 41 % sous miscanthus, 37 % sous BRF et 30 % sous bâche. Sous miscanthus, l’excès d’eau a provoqué des signes d’asphyxie du sol et une forte mortalité des laitues.\nProduction de printemps. Un mois après plantation, un plant d’épinard pesait en moyenne 105 g sous bâche, contre 27 g sur BRF et 16 g sur miscanthus. Une laitue pesait 86 g sous bâche, contre 26 à 28 g sur paillage organique. Les épinards sur paillage organique ont montré une faim d’azote, confirmée par un indice SPAD plus faible, surtout sous miscanthus.\nVie du sol. La biomasse microbienne est la plus élevée sous BRF (640 mg C/kg) et la plus basse sous bâche (342 mg C/kg), malgré le fumier. Les paillages organiques morts accueillent le plus de vers de terre, surtout des endogés, et le miscanthus en premier.\nPaillages vivants. En juin, le trèfle et le Mix infiltrent l’eau le plus vite (1,3 et 1,0 cm/min, contre 0,4 cm/min sous miscanthus). En contrepartie, ils assèchent le sol : le trèfle a l’humidité la plus basse de l’essai. Ils limitent aussi l’échauffement du sol en été.\n\n\nCode\nd = FileAttachment(\"donnees.csv\").csv({typed: true})\nviewof choix = Inputs.select(new Map([\n  [\"Structure du sol – VESS (score, bas = mieux)\", \"vess|\"],\n  [\"Biomasse microbienne (mg C/kg sol sec)\", \"carbone_microbien|\"],\n  [\"Vers de terre (individus / bloc de bêche)\", \"lombrics_total|\"],\n  [\"Vers endogés (individus / bloc de bêche)\", \"lombrics_endoges|\"],\n  [\"Biomasse épinard (g/plant)\", \"biomasse_plant|Épinard\"],\n  [\"Biomasse laitue (g/plant)\", \"biomasse_plant|Laitue\"],\n  [\"Infiltration stabilisée (cm/min)\", \"infiltration_stabilisee|\"],\n  [\"Humidité du sol en juin (% masse)\", \"humidite_ponderale|\"],\n  [\"Carbone total du sol (%)\", \"carbone_total|\"]\n]), {label: \"Variable\"})\nfiltre = {\n  const [v, c] = choix.split(\"|\");\n  return d.filter(r =&gt; r.saison === 2026 && r.variable === v && (c === \"\" || r.culture === c)\n                       && !String(r.flag ?? \"\").includes(\"écartée\") && r.valeur !== null);\n}\nPlot.plot({\n  marginLeft: 55, height: 320,\n  x: {label: null, domain: [\"Bâche plastique\", \"BRF\", \"Miscanthus\", \"Trèfle\", \"Mix\"]},\n  y: {grid: true, label: filtre.length ? filtre[0].unite : \"\"},\n  color: {domain: [\"Bâche plastique\", \"BRF\", \"Miscanthus\", \"Trèfle\", \"Mix\"],\n          range: [\"#4d4d4d\", \"#a6761d\", \"#e6ab02\", \"#1b9e77\", \"#7570b3\"]},\n  marks: [\n    Plot.barY(filtre, Plot.groupX({y: \"mean\"}, {x: \"modalite\", y: \"valeur\", fill: \"modalite\", fillOpacity: 0.6})),\n    Plot.dot(filtre, {x: \"modalite\", y: \"valeur\", stroke: \"black\", r: 3, tip: true,\n                      title: r =&gt; `${r.parcelle} : ${r.valeur}`}),\n    Plot.ruleY([0])\n  ]\n})\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBarres : moyenne par modalité ; points : parcelles. Pour la laitue et l’épinard, seules les modalités cultivées au printemps apparaissent.\n\n\nCode\ns = FileAttachment(\"capteurs_journaliers.csv\").csv({typed: true})\nPlot.plot({\n  height: 280, marginLeft: 45,\n  y: {grid: true, label: \"Humidité 0–12 cm (% vol.)\"},\n  x: {label: null},\n  color: {legend: true, domain: [\"Bâche plastique\", \"BRF\", \"Miscanthus\", \"Trèfle\", \"Mix\"],\n          range: [\"#4d4d4d\", \"#a6761d\", \"#e6ab02\", \"#1b9e77\", \"#7570b3\"]},\n  marks: [Plot.line(s.filter(r =&gt; !r.flag),\n            Plot.groupX({y: \"mean\"}, {x: \"date\", y: \"humidite_vol\", stroke: \"modalite\", z: \"modalite\"}))]\n})\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHumidité du sol mesurée par les sondes (moyennes journalières), sondes placées surtout dans le bloc 1 (1 à 2 sondes par modalité). La chute générale fin juin correspond à une panne d’irrigation suivie d’une canicule.\n\n\n\n\n\n\nProtocoles utilisés, à refaire chez vous : Évaluer la structure du sol et compter les vers de terre à la bêche"
-  },
-  {
-    "objectID": "fiches/2026-paillage-epinard-laitue/index.html#méthode-danalyse",
-    "href": "fiches/2026-paillage-epinard-laitue/index.html#méthode-danalyse",
-    "title": "Cinq paillages en maraîchage bio : sol, eau et légumes",
-    "section": "Méthode d’analyse",
-    "text": "Méthode d’analyse\nChaque variable mesurée sur les 30 parcelles est analysée par ANOVA (paillage + bloc légume + colonne), avec le rang ajouté comme covariable lorsqu’un gradient spatial apparaît. Les comparaisons par paires utilisent le test de Tukey et l’ampleur des effets est donnée par l’η² partiel et le d de Cohen. Une partie de la plateforme présente un gradient de fertilité (C et N croissants de la colonne A vers C). Le script joint est une reconstruction simplifiée : il retrouve les principales tailles d’effet du mémoire."
-  },
-  {
-    "objectID": "fiches/2026-paillage-epinard-laitue/index.html#limites",
-    "href": "fiches/2026-paillage-epinard-laitue/index.html#limites",
-    "title": "Cinq paillages en maraîchage bio : sol, eau et légumes",
-    "section": "Limites",
-    "text": "Limites\n\nC’est seulement la 2e saison : les paillages morts ont 12 à 15 mois, et les paillages vivants ont été semés en avril 2026.\nIl y a peu de répétitions pour les cultures : 3 parcelles par modalité et par culture, car trèfle et Mix n’étaient pas cultivés au printemps. Les tests sont donc peu puissants.\nLa bâche reçoit du fumier, pas les autres modalités : on compare des itinéraires techniques complets, pas seulement des couvertures.\nLa laitue rouge fausse les mesures optiques (SPAD, couverture foliaire). Les données sur les adventices sont exploratoires, car le désherbage n’a pas été le même partout.\nLes rendements d’été (chou kale, potimarron) ne sont pas encore inclus."
-  },
-  {
-    "objectID": "fiches/2026-paillage-epinard-laitue/index.html#ressources",
-    "href": "fiches/2026-paillage-epinard-laitue/index.html#ressources",
-    "title": "Cinq paillages en maraîchage bio : sol, eau et légumes",
-    "section": "Ressources",
-    "text": "Ressources\n\n Fiche récapitulative (PDF)  Document complet  Données de la fiche (CSV)  Données brutes archivées (DOI)  Scripts d’analyse\n\nCiter cette fiche : Pierre-André Peters-Dickie (mémoire 2026), Eliot Vas (conception du dispositif, mémoire 2025) (2025–2026). Cinq paillages en maraîchage bio : sol, eau et légumes. Fiche PEPA Lab, UCLouvain."
+    "objectID": "protocoles/adventices-couverture/index.html#sources",
+    "href": "protocoles/adventices-couverture/index.html#sources",
+    "title": "Mesurer la couverture d’adventices et de la culture",
+    "section": "Sources",
+    "text": "Sources\n\nMéthode du cadre grillagé : Wilmus (2021), citée par Vas (2025).\nMémoire d’Eliot Vas (2025) : méthode p. 42–44, résultats p. 56–58, évaluation p. 75 et 77.\nMémoire de Pierre-André Peters-Dickie (2026) : améliorations de la prise de vue Canopeo, p. 32–33 ; adaptation de la méthode des adventices, p. 34."
   },
   {
     "objectID": "protocoles/oyas-installation/index.html",
@@ -383,5 +208,537 @@
     "title": "Installer et suivre des oyas sous tunnel",
     "section": "Sources",
     "text": "Sources\n\nMémoire de Clémentine Lucca (2025), irrigation de la tomate sous tunnel, p. 27–28, 33 et 37.\nMémoire de Gaëlle Hanssens (2025), oyas et chou, p. 8–10 et 18–22. Il cite notamment Siyal et al. (2009), Bazai et al. (2017) et Hatungimana et al. (2023)."
+  },
+  {
+    "objectID": "protocoles/infiltration-tube/index.html",
+    "href": "protocoles/infiltration-tube/index.html",
+    "title": "Mesurer la vitesse d’infiltration de l’eau avec un tube",
+    "section": "",
+    "text": "Objectif Comparer la vitesse à laquelle l’eau pénètre dans le sol sous différentes pratiques, avec un simple tube enfoncé dans la terre.\nDifficulté Facile\nDurée ≈ 25 min par point\nCoût ≈ 0 € (tube PVC, mètre, eau)\nQuand Sol ni détrempé ni très sec ; même humidité pour toutes les parcelles comparées"
+  },
+  {
+    "objectID": "protocoles/infiltration-tube/index.html#à-quoi-ça-sert",
+    "href": "protocoles/infiltration-tube/index.html#à-quoi-ça-sert",
+    "title": "Mesurer la vitesse d’infiltration de l’eau avec un tube",
+    "section": "À quoi ça sert",
+    "text": "À quoi ça sert\nUn sol qui laisse entrer l’eau rapidement limite le ruissellement et les flaques, et recharge mieux sa réserve. Cette méthode, dite « Ariane Chabert », mesure de combien l’eau descend dans un tube enfoncé dans le sol en 5 minutes. Elle est simple et rapide, ce qui permet de tester beaucoup de parcelles le même jour pour comparer un paillage, un couvert ou un travail du sol."
+  },
+  {
+    "objectID": "protocoles/infiltration-tube/index.html#matériel",
+    "href": "protocoles/infiltration-tube/index.html#matériel",
+    "title": "Mesurer la vitesse d’infiltration de l’eau avec un tube",
+    "section": "Matériel",
+    "text": "Matériel\n\nUn tube en PVC de 12 cm de diamètre, avec un bord biseauté ou une planche et un maillet pour l’enfoncer\nUne règle ou un mètre, gradué en millimètres\n2,5 L d’eau par point (deux fois 1,25 L) et un récipient gradué\nUn chronomètre\nLa fiche de relevé"
+  },
+  {
+    "objectID": "protocoles/infiltration-tube/index.html#étapes",
+    "href": "protocoles/infiltration-tube/index.html#étapes",
+    "title": "Mesurer la vitesse d’infiltration de l’eau avec un tube",
+    "section": "Étapes",
+    "text": "Étapes\n\nEnfoncer le tube de 5 cm dans le sol, bien droit, sans tasser la terre à l’intérieur. Pour un sol paillé, nous l’avons posé à travers le paillage (essai sur BRF).\nSaturer le sol : versez 1,25 L d’eau dans le tube et lancez le chronomètre.\nSi toute l’eau a disparu en moins de 15 minutes : versez à nouveau 1,25 L, mesurez aussitôt la hauteur d’eau dans le tube (temps 0), puis à nouveau 5 minutes plus tard.\nSi l’eau n’a pas disparu après 15 minutes : mesurez la hauteur d’eau à 15 minutes, puis à 20 minutes.\nNoter la baisse du niveau (en cm) sur les 5 minutes de mesure. Le calculateur la convertit en mm/h."
+  },
+  {
+    "objectID": "protocoles/infiltration-tube/index.html#calculateur",
+    "href": "protocoles/infiltration-tube/index.html#calculateur",
+    "title": "Mesurer la vitesse d’infiltration de l’eau avec un tube",
+    "section": "Calculateur",
+    "text": "Calculateur\n\n\nCode\nviewof baisse = Inputs.range([0, 15], {label: \"Baisse du niveau en 5 min (cm)\", step: 0.1, value: 2})\nvitesse = baisse * 10 * 12\nhtml`&lt;div class=\"vess-resultat\"&gt;Vitesse d'infiltration : &lt;b&gt;${baisse.toFixed(1)} cm / 5 min&lt;/b&gt;, soit &lt;b&gt;${Math.round(vitesse)} mm/h&lt;/b&gt;.&lt;/div&gt;`\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nConversion : cm par 5 minutes × 10 (mm/cm) × 12 (périodes de 5 min par heure) = mm/h. Le mémoire exprime ses résultats dans ces deux unités."
+  },
+  {
+    "objectID": "protocoles/infiltration-tube/index.html#fiche-de-relevé",
+    "href": "protocoles/infiltration-tube/index.html#fiche-de-relevé",
+    "title": "Mesurer la vitesse d’infiltration de l’eau avec un tube",
+    "section": "Fiche de relevé",
+    "text": "Fiche de relevé\nTéléchargez la fiche de relevé (CSV) : une ligne par point de mesure, en notant quel cas s’applique (eau absorbée en moins ou en plus de 15 minutes)."
+  },
+  {
+    "objectID": "protocoles/infiltration-tube/index.html#lire-les-résultats",
+    "href": "protocoles/infiltration-tube/index.html#lire-les-résultats",
+    "title": "Mesurer la vitesse d’infiltration de l’eau avec un tube",
+    "section": "Lire les résultats",
+    "text": "Lire les résultats\n\nComparez des parcelles mesurées le même jour : la méthode est sensible à l’humidité déjà présente dans le sol. Un sol humide infiltre moins vite.\nEn 2025, sur nos parcelles paillées, c’est sous miscanthus (posé sur un sol non travaillé) que l’eau s’infiltrait le moins vite. Les différences entre paillages étaient nettes dès la première année.\nLimite importante : si l’eau disparaît presque entièrement en moins de 5 minutes, le tube ne permet plus de distinguer les sols très perméables entre eux (comme sous bâche plastique dans notre essai).\n\n\nPour aller plus loin\nPour des mesures plus précises, surtout sur sols très perméables, le mémoire recommande la méthode de l’anneau simple : un anneau maintenu sous une hauteur d’eau constante, qui permet de calculer la conductivité hydraulique. Elle prend plus de temps. Un infiltromètre de terrain est encore plus précis, mais coûteux."
+  },
+  {
+    "objectID": "protocoles/infiltration-tube/index.html#erreurs-fréquentes",
+    "href": "protocoles/infiltration-tube/index.html#erreurs-fréquentes",
+    "title": "Mesurer la vitesse d’infiltration de l’eau avec un tube",
+    "section": "Erreurs fréquentes",
+    "text": "Erreurs fréquentes\n\nComparer des mesures faites à des jours différents, avec une humidité du sol différente.\nTasser le sol en enfonçant le tube, ou laisser de l’eau fuir sous le bord parce que le tube n’est pas assez enfoncé.\nConclure trop vite sur un sol qui absorbe tout en moins de 5 minutes : la mesure est plafonnée."
+  },
+  {
+    "objectID": "protocoles/infiltration-tube/index.html#dans-nos-essais",
+    "href": "protocoles/infiltration-tube/index.html#dans-nos-essais",
+    "title": "Mesurer la vitesse d’infiltration de l’eau avec un tube",
+    "section": "Dans nos essais",
+    "text": "Dans nos essais\nÀ la ferme universitaire de Lauzelle, nous avons mesuré l’infiltration sur les 30 parcelles paillées le 26 juin 2025. La méthode a fait ressortir des différences entre paillages dès la première année, le miscanthus étant le plus lent. En 2026, l’essai est passé à la méthode de l’anneau simple, mieux adaptée aux sols très perméables.\n\n\n\n\n\n\nEssai\n\n\n\nSaison\n\n\n\nCulture\n\n\n\n\n\n\n\n\nPaillages en maraîchage bio : bilan de la première année\n\n\n2024–2025\n\n\nÉpinard\n\n\n\n\n\n\nAucun article correspondant"
+  },
+  {
+    "objectID": "protocoles/infiltration-tube/index.html#sources",
+    "href": "protocoles/infiltration-tube/index.html#sources",
+    "title": "Mesurer la vitesse d’infiltration de l’eau avec un tube",
+    "section": "Sources",
+    "text": "Sources\n\nChabert et Sarthou (2017) ; Biot et al. (2020), cités dans le mémoire.\nMémoire d’Eliot Vas (2025) : méthode p. 40, résultats p. 53–54, évaluation p. 73–74 et 77.\nPassage à l’anneau simple en 2026 : mémoire de Pierre-André Peters-Dickie (2026), section 4.8.2.3."
+  },
+  {
+    "objectID": "fiches/2026-paillage-epinard-laitue/index.html",
+    "href": "fiches/2026-paillage-epinard-laitue/index.html",
+    "title": "Cinq paillages en maraîchage bio : sol, eau et légumes",
+    "section": "",
+    "text": "AstuceÀ retenir pour le terrain\n\n\n\n\nLa bâche plastique reste la plus productive au printemps : le sol se réchauffe et se ressuie plus vite. Les épinards y ont été environ 4 fois plus lourds que sur BRF.\nLe BRF améliore le sol : c’est la meilleure structure (VESS 1,1) et la plus forte biomasse microbienne. C’est le meilleur compromis parmi les paillages organiques.\nLe miscanthus en couche épaisse retient trop d’eau au printemps : engorgement, pourriture du collet des laitues et faim d’azote marquée. Il ne faut pas dépasser environ 10 cm.\nLes paillages vivants (trèfle, mélilot + moha) favorisent l’infiltration mais assèchent le sol. Ce sont des résultats de 2e année sur un seul site, à confirmer les années suivantes."
+  },
+  {
+    "objectID": "fiches/2026-paillage-epinard-laitue/index.html#question",
+    "href": "fiches/2026-paillage-epinard-laitue/index.html#question",
+    "title": "Cinq paillages en maraîchage bio : sol, eau et légumes",
+    "section": "Question",
+    "text": "Question\nLes paillages organiques (morts ou vivants) peuvent-ils remplacer la bâche plastique en maraîchage biologique sur petite surface, sans trop pénaliser la production ? Que changent-ils à la structure, à la vie et à l’eau du sol ? Cette fiche présente la 2e année d’une plateforme prévue pour durer 10 ans."
+  },
+  {
+    "objectID": "fiches/2026-paillage-epinard-laitue/index.html#dispositif",
+    "href": "fiches/2026-paillage-epinard-laitue/index.html#dispositif",
+    "title": "Cinq paillages en maraîchage bio : sol, eau et légumes",
+    "section": "Dispositif",
+    "text": "Dispositif\n\n\n\n\n\n\n\nLieu\nFerme universitaire de Lauzelle (Louvain-la-Neuve), ≈ 360 m², légère pente au sud\n\n\nSol\nSablo-limoneux, drainage modéré à imparfait, pH KCl ≈ 5,8\n\n\nSaison\nAutomne 2025 – été 2026 (printemps très chaud, été sec) ; irrigation par aspersion\n\n\nCultures\nLaitue feuille de chêne rouge (bloc 1) et épinard ‘Butterflay’ (bloc 2), puis chou kale et potimarron (récolte non incluse)\n\n\nModalités\nBâche plastique tissée noire + fumier (≈ 40 t/ha) · BRF ≈ 10 cm · Miscanthus ≈ 10 cm · Trèfle blanc semé · Mix mélilot jaune + moha\n\n\nPlan et répétitions\n30 parcelles de 12 m² (3 colonnes × 10 rangs), 2 blocs légumes, 6 répétitions par modalité. Trèfle et Mix n’ont pas été cultivés au printemps 2026.\n\n\nMesures\nChimie du sol (pH, C, N), structure (VESS), vers de terre, carbone microbien, infiltration, humidité et température en continu (9 sondes), SPAD, couverture foliaire, biomasse par plant"
+  },
+  {
+    "objectID": "fiches/2026-paillage-epinard-laitue/index.html#résultats-clés",
+    "href": "fiches/2026-paillage-epinard-laitue/index.html#résultats-clés",
+    "title": "Cinq paillages en maraîchage bio : sol, eau et légumes",
+    "section": "Résultats clés",
+    "text": "Résultats clés\nStructure du sol. En sortie d’hiver, le BRF présente la meilleure structure (score VESS moyen de 1,12). Les autres modalités se situent entre 1,85 (bâche) et 2,21 (miscanthus). Un score de 2 correspond à un sol « intact ». Le BRF se distingue de toutes les autres modalités.\nChaleur et eau au printemps. Du 9 mars au 30 avril, le sol sous bâche a cumulé 536 °C·jours, soit environ 35 de plus que sous BRF et 57 de plus que sous miscanthus. Sur la même période, l’humidité des 12 premiers centimètres était en moyenne de 41 % sous miscanthus, 37 % sous BRF et 30 % sous bâche. Sous miscanthus, l’excès d’eau a provoqué des signes d’asphyxie du sol et une forte mortalité des laitues.\nProduction de printemps. Un mois après plantation, un plant d’épinard pesait en moyenne 105 g sous bâche, contre 27 g sur BRF et 16 g sur miscanthus. Une laitue pesait 86 g sous bâche, contre 26 à 28 g sur paillage organique. Les épinards sur paillage organique ont montré une faim d’azote, confirmée par un indice SPAD plus faible, surtout sous miscanthus.\nVie du sol. La biomasse microbienne est la plus élevée sous BRF (640 mg C/kg) et la plus basse sous bâche (342 mg C/kg), malgré le fumier. Les paillages organiques morts accueillent le plus de vers de terre, surtout des endogés, et le miscanthus en premier.\nPaillages vivants. En juin, le trèfle et le Mix infiltrent l’eau le plus vite (1,3 et 1,0 cm/min, contre 0,4 cm/min sous miscanthus). En contrepartie, ils assèchent le sol : le trèfle a l’humidité la plus basse de l’essai. Ils limitent aussi l’échauffement du sol en été.\n\n\nCode\nd = FileAttachment(\"donnees.csv\").csv({typed: true})\nviewof choix = Inputs.select(new Map([\n  [\"Structure du sol – VESS (score, bas = mieux)\", \"vess|\"],\n  [\"Biomasse microbienne (mg C/kg sol sec)\", \"carbone_microbien|\"],\n  [\"Vers de terre (individus / bloc de bêche)\", \"lombrics_total|\"],\n  [\"Vers endogés (individus / bloc de bêche)\", \"lombrics_endoges|\"],\n  [\"Biomasse épinard (g/plant)\", \"biomasse_plant|Épinard\"],\n  [\"Biomasse laitue (g/plant)\", \"biomasse_plant|Laitue\"],\n  [\"Infiltration stabilisée (cm/min)\", \"infiltration_stabilisee|\"],\n  [\"Humidité du sol en juin (% masse)\", \"humidite_ponderale|\"],\n  [\"Carbone total du sol (%)\", \"carbone_total|\"]\n]), {label: \"Variable\"})\nfiltre = {\n  const [v, c] = choix.split(\"|\");\n  return d.filter(r =&gt; r.saison === 2026 && r.variable === v && (c === \"\" || r.culture === c)\n                       && !String(r.flag ?? \"\").includes(\"écartée\") && r.valeur !== null);\n}\nPlot.plot({\n  marginLeft: 55, height: 320,\n  x: {label: null, domain: [\"Bâche plastique\", \"BRF\", \"Miscanthus\", \"Trèfle\", \"Mix\"]},\n  y: {grid: true, label: filtre.length ? filtre[0].unite : \"\"},\n  color: {domain: [\"Bâche plastique\", \"BRF\", \"Miscanthus\", \"Trèfle\", \"Mix\"],\n          range: [\"#4d4d4d\", \"#a6761d\", \"#e6ab02\", \"#1b9e77\", \"#7570b3\"]},\n  marks: [\n    Plot.barY(filtre, Plot.groupX({y: \"mean\"}, {x: \"modalite\", y: \"valeur\", fill: \"modalite\", fillOpacity: 0.6})),\n    Plot.dot(filtre, {x: \"modalite\", y: \"valeur\", stroke: \"black\", r: 3, tip: true,\n                      title: r =&gt; `${r.parcelle} : ${r.valeur}`}),\n    Plot.ruleY([0])\n  ]\n})\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBarres : moyenne par modalité ; points : parcelles. Pour la laitue et l’épinard, seules les modalités cultivées au printemps apparaissent.\n\n\nCode\ns = FileAttachment(\"capteurs_journaliers.csv\").csv({typed: true})\nPlot.plot({\n  height: 280, marginLeft: 45,\n  y: {grid: true, label: \"Humidité 0–12 cm (% vol.)\"},\n  x: {label: null},\n  color: {legend: true, domain: [\"Bâche plastique\", \"BRF\", \"Miscanthus\", \"Trèfle\", \"Mix\"],\n          range: [\"#4d4d4d\", \"#a6761d\", \"#e6ab02\", \"#1b9e77\", \"#7570b3\"]},\n  marks: [Plot.line(s.filter(r =&gt; !r.flag),\n            Plot.groupX({y: \"mean\"}, {x: \"date\", y: \"humidite_vol\", stroke: \"modalite\", z: \"modalite\"}))]\n})\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHumidité du sol mesurée par les sondes (moyennes journalières), sondes placées surtout dans le bloc 1 (1 à 2 sondes par modalité). La chute générale fin juin correspond à une panne d’irrigation suivie d’une canicule.\n\n\n\n\n\n\nProtocoles utilisés, à refaire chez vous : Évaluer la structure du sol et compter les vers de terre à la bêche · Prélever un échantillon de sol pour une analyse de fertilité · Mesurer la couverture d’adventices et de la culture"
+  },
+  {
+    "objectID": "fiches/2026-paillage-epinard-laitue/index.html#méthode-danalyse",
+    "href": "fiches/2026-paillage-epinard-laitue/index.html#méthode-danalyse",
+    "title": "Cinq paillages en maraîchage bio : sol, eau et légumes",
+    "section": "Méthode d’analyse",
+    "text": "Méthode d’analyse\nChaque variable mesurée sur les 30 parcelles est analysée par ANOVA (paillage + bloc légume + colonne), avec le rang ajouté comme covariable lorsqu’un gradient spatial apparaît. Les comparaisons par paires utilisent le test de Tukey et l’ampleur des effets est donnée par l’η² partiel et le d de Cohen. Une partie de la plateforme présente un gradient de fertilité (C et N croissants de la colonne A vers C). Le script joint est une reconstruction simplifiée : il retrouve les principales tailles d’effet du mémoire."
+  },
+  {
+    "objectID": "fiches/2026-paillage-epinard-laitue/index.html#limites",
+    "href": "fiches/2026-paillage-epinard-laitue/index.html#limites",
+    "title": "Cinq paillages en maraîchage bio : sol, eau et légumes",
+    "section": "Limites",
+    "text": "Limites\n\nC’est seulement la 2e saison : les paillages morts ont 12 à 15 mois, et les paillages vivants ont été semés en avril 2026.\nIl y a peu de répétitions pour les cultures : 3 parcelles par modalité et par culture, car trèfle et Mix n’étaient pas cultivés au printemps. Les tests sont donc peu puissants.\nLa bâche reçoit du fumier, pas les autres modalités : on compare des itinéraires techniques complets, pas seulement des couvertures.\nLa laitue rouge fausse les mesures optiques (SPAD, couverture foliaire). Les données sur les adventices sont exploratoires, car le désherbage n’a pas été le même partout.\nLes rendements d’été (chou kale, potimarron) ne sont pas encore inclus."
+  },
+  {
+    "objectID": "fiches/2026-paillage-epinard-laitue/index.html#ressources",
+    "href": "fiches/2026-paillage-epinard-laitue/index.html#ressources",
+    "title": "Cinq paillages en maraîchage bio : sol, eau et légumes",
+    "section": "Ressources",
+    "text": "Ressources\n\n Fiche récapitulative (PDF)  Document complet  Données de la fiche (CSV)  Données brutes archivées (DOI)  Scripts d’analyse\n\nCiter cette fiche : Pierre-André Peters-Dickie (mémoire 2026), Eliot Vas (conception du dispositif, mémoire 2025) (2025–2026). Cinq paillages en maraîchage bio : sol, eau et légumes. Fiche PEPA Lab, UCLouvain."
+  },
+  {
+    "objectID": "fiches/2024-irrigation-tomate/index.html",
+    "href": "fiches/2024-irrigation-tomate/index.html",
+    "title": "Tomate sous tunnel : combien d’eau pour quel rendement ?",
+    "section": "",
+    "text": "AstuceÀ retenir pour le terrain\n\n\n\n\nL’irrigation complète (≈ 127 L par plant sur la saison) donne le meilleur rendement : 3,2 kg/plant en médiane, avec les fruits les plus gros et le moins de fleurs avortées.\nLes oyas (pots en terre cuite enterrés, 1 pour 4 plants) ont consommé ≈ 27 L par plant. Pour 2,4 kg/plant, chaque litre d’eau a produit ≈ 4 fois plus de tomates qu’en irrigation complète.\nDiviser l’eau par deux donne 2,3 kg/plant, sans différence significative avec l’irrigation complète. Mais il y a plus d’avortement de fleurs et des fruits plus petits.\nSans aucune irrigation, les plants ont encore donné ≈ 2 kg chacun, grâce à un sol bien rechargé par un printemps très pluvieux. Ce n’est pas transposable à une année sèche."
+  },
+  {
+    "objectID": "fiches/2024-irrigation-tomate/index.html#question",
+    "href": "fiches/2024-irrigation-tomate/index.html#question",
+    "title": "Tomate sous tunnel : combien d’eau pour quel rendement ?",
+    "section": "Question",
+    "text": "Question\nEn maraîchage sous tunnel, peut-on réduire l’irrigation de la tomate, ou changer de système (oyas, semis direct), sans trop perdre de rendement ? Sur quelles composantes du rendement le manque d’eau agit-il : nombre de fleurs, avortement, nombre et poids des fruits ?"
+  },
+  {
+    "objectID": "fiches/2024-irrigation-tomate/index.html#dispositif",
+    "href": "fiches/2024-irrigation-tomate/index.html#dispositif",
+    "title": "Tomate sous tunnel : combien d’eau pour quel rendement ?",
+    "section": "Dispositif",
+    "text": "Dispositif\n\n\n\n\n\n\n\nLieu\nFerme universitaire de Marbaix (Chaumont-Gistoux), tunnel de 20 × 7 m couvert le 14/05/2024, sol sablo-limoneux\n\n\nSaison\nPlantation le 21/05/2024 ; traitements dès le 31/05 ; récoltes du 7/08 au 2/10/2024\n\n\nCulture\nTomate ‘Tigerella’ (bio), semée en serre le 4/04 ; plants espacés de 50 cm sur la ligne et 75 cm entre lignes ; toile géotextile au sol, taille des apex le 29/08\n\n\nModalités\n100 % de l’apport recommandé (goutte-à-goutte) · 50 % · 0 % (aucune irrigation) · Oyas de 5 L · Semis « direct » irrigué à 50 % (le semis en champ n’ayant pas levé, plants semés en serre le 21/05 et repiqués le 4/06)\n\n\nPlan et répétitions\n3 planches de 8 plants par traitement, réparties au hasard entre des zones tampons ; 9 plants suivis par traitement (3 par planche)\n\n\nMesures\nChaque fleur et chaque fruit (position, poids), eau apportée par plant, humidité du sol (TRIME, fin de saison), météo de Louvain-la-Neuve"
+  },
+  {
+    "objectID": "fiches/2024-irrigation-tomate/index.html#résultats-clés",
+    "href": "fiches/2024-irrigation-tomate/index.html#résultats-clés",
+    "title": "Tomate sous tunnel : combien d’eau pour quel rendement ?",
+    "section": "Résultats clés",
+    "text": "Résultats clés\nRendement. En médiane par plant, l’irrigation complète a donné 3,25 kg, contre 2,37 kg avec les oyas, 2,35 kg à 50 %, 2,04 kg en semis « direct » et 1,96 kg sans irrigation. Statistiquement, seuls le 0 % et le semis « direct » sont inférieurs à l’irrigation complète. Sur les 9 plants suivis, le 100 % a produit 497 fruits commercialisables (plus de 30 g), contre 283 pour le semis « direct ».\nEau. Sur la saison, chaque plant a reçu 127 L à 100 %, 63 L à 50 % et en semis « direct », 27 L avec les oyas (moyenne) et 0 L sans irrigation. Rapporté au litre d’irrigation, cela donne ≈ 26 g de tomates par litre à 100 %, 37 g à 50 % et 97 g avec les oyas. Les oyas ne délivrent l’eau qu’au rythme où le sol la réclame, d’où cette économie. En contrepartie, elles ne suivent pas les pics de demande de l’été.\nComment le manque d’eau réduit le rendement. Le nombre d’inflorescences et de fleurs ne diffère pas entre traitements. C’est après la floraison que tout se joue :\n\nle taux d’avortement des fleurs passe de 30 % (100 %) à 49 % (50 %) et 54 % (semis « direct ») ;\nles fruits sont plus légers en déficit hydrique : 45 g en médiane à 100 %, contre 36 à 40 g pour 50 %, 0 % et oyas.\n\n\n\nCode\nd = FileAttachment(\"donnees.csv\").csv({typed: true})\nordre = [\"100P\", \"50P\", \"0P\", \"oya\", \"direct\"]\nviewof choix = Inputs.select(new Map([\n  [\"Rendement (g / plant)\", \"rendement_plant\"],\n  [\"Rendement commercialisable (g / plant)\", \"rendement_commercialisable\"],\n  [\"Eau d'irrigation (L / plant)\", \"eau_irrigation\"],\n  [\"Rendement par litre d'irrigation (g / L)\", \"rendement_par_litre\"],\n  [\"Nombre de fruits / plant\", \"fruits_nombre\"],\n  [\"Poids moyen d'un fruit (g)\", \"poids_moyen_fruit\"],\n  [\"Taux d'avortement des fleurs\", \"taux_avortement\"],\n  [\"Fleurs / plant\", \"fleurs_total\"],\n  [\"Inflorescences / plant\", \"inflorescences_total\"]\n]), {label: \"Variable\"})\nsel = d.filter(r =&gt; r.variable === choix && typeof r.valeur === \"number\")\nPlot.plot({\n  marginLeft: 55, height: 320,\n  x: {label: null, domain: ordre},\n  y: {grid: true, label: sel.length ? sel[0].unite : \"\"},\n  color: {domain: ordre, range: [\"#1b9e77\", \"#e6ab02\", \"#d95f02\", \"#7570b3\", \"#66a61e\"]},\n  marks: [\n    Plot.barY(sel, Plot.groupX({y: \"median\"}, {x: \"traitement\", y: \"valeur\", fill: \"traitement\", fillOpacity: 0.6})),\n    Plot.dot(sel, {x: \"traitement\", y: \"valeur\", stroke: \"black\", r: 3, tip: true,\n                   title: r =&gt; `${r.plant_id} : ${r.valeur}`}),\n    Plot.ruleY([0])\n  ]\n})\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBarres : médiane des 9 plants suivis (le mémoire présente des médianes) ; points : plants. 100P, 50P, 0P = 100 %, 50 %, 0 % de l’irrigation recommandée.\n\n\nCode\nf = FileAttachment(\"fruits.csv\").csv({typed: true})\ncumul = {\n  const out = [];\n  for (const [t, rows] of d3.group(f, r =&gt; r.traitement)) {\n    let s = 0;\n    for (const [date, poids] of d3.rollups(rows, v =&gt; d3.sum(v, r =&gt; r.poids_g), r =&gt; +r.date).sort((a, b) =&gt; a[0] - b[0])) {\n      s += poids; out.push({traitement: t, date: new Date(date), kg_par_plant: s / 9 / 1000});\n    }\n  }\n  return out;\n}\nPlot.plot({\n  height: 280, marginLeft: 45,\n  y: {grid: true, label: \"Récolte cumulée (kg / plant)\"}, x: {label: null},\n  color: {legend: true, domain: ordre, range: [\"#1b9e77\", \"#e6ab02\", \"#d95f02\", \"#7570b3\", \"#66a61e\"]},\n  marks: [Plot.line(cumul, {x: \"date\", y: \"kg_par_plant\", stroke: \"traitement\", marker: \"dot\"})]\n})\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRécolte cumulée moyenne par plant au fil de la saison. Le semis « direct », repiqué 2 semaines plus tard, commence à produire le 26/08.\n\n\n\n\n\n\nProtocoles utilisés, à refaire chez vous : Installer et suivre des oyas sous tunnel"
+  },
+  {
+    "objectID": "fiches/2024-irrigation-tomate/index.html#méthode-danalyse",
+    "href": "fiches/2024-irrigation-tomate/index.html#méthode-danalyse",
+    "title": "Tomate sous tunnel : combien d’eau pour quel rendement ?",
+    "section": "Méthode d’analyse",
+    "text": "Méthode d’analyse\nChaque variable a été comparée entre traitements par une ANOVA à un facteur suivie d’un test de Tukey, ou par un test de Kruskal-Wallis lorsque la normalité ou l’homogénéité des variances n’étaient pas respectées. L’unité statistique est le plant (9 par traitement). Le script joint est une reconstruction : il retrouve les résultats du mémoire sur le rendement, les fruits, les fleurs et l’avortement."
+  },
+  {
+    "objectID": "fiches/2024-irrigation-tomate/index.html#limites",
+    "href": "fiches/2024-irrigation-tomate/index.html#limites",
+    "title": "Tomate sous tunnel : combien d’eau pour quel rendement ?",
+    "section": "Limites",
+    "text": "Limites\n\nC’est une seule saison, sur une seule parcelle, et le printemps 2024 a été très pluvieux. Le sol était bien rechargé au moment de couvrir le tunnel, ce qui explique la bonne tenue du traitement sans irrigation. Des fuites dans la bâche du tunnel ont aussi apporté de l’eau en cours de saison.\nLe semis « direct » n’a pas levé en champ. Les plants de remplacement avaient 58 jours de retard : ce traitement mesure surtout l’effet d’un démarrage tardif.\nLes 3 plants d’une planche partagent la même ligne de goutte-à-goutte ou la même oya. Les tests les traitent comme indépendants, ce qui surestime la précision.\nDe l’oïdium est apparu mi-août et l’apport « idéal » a été fixé d’après des fiches techniques, pas mesuré par rapport à l’évapotranspiration réelle.\nL’efficience de l’eau publiée dans le mémoire (WUE, kg/L) n’est pas reproduite ici, car son mode de calcul n’est pas assez décrit. La fiche utilise le rendement par litre d’irrigation."
+  },
+  {
+    "objectID": "fiches/2024-irrigation-tomate/index.html#ressources",
+    "href": "fiches/2024-irrigation-tomate/index.html#ressources",
+    "title": "Tomate sous tunnel : combien d’eau pour quel rendement ?",
+    "section": "Ressources",
+    "text": "Ressources\n\n Fiche récapitulative (PDF)  Document complet  Données de la fiche (CSV)  Données brutes archivées (DOI)  Scripts d’analyse\n\nCiter cette fiche : Clémentine Lucca (mémoire 2025) (2024). Tomate sous tunnel : combien d’eau pour quel rendement ?. Fiche PEPA Lab, UCLouvain."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Fiches d’essais",
+    "section": "",
+    "text": "Chaque fiche résume un essai en une page : question posée, dispositif, résultats clés et ce qu’il faut en retenir sur le terrain. Les mémoires complets et les données brutes sont accessibles depuis chaque fiche.\n\n\n\n\n\n   \n    \n    \n      Trier par\n      Ordre par défaut\n      \n        Date - Le plus ancien\n      \n      \n        Date - Le plus récent\n      \n      \n        Titre\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n×4,6moins d'eau avec les oyas qu'à 100 %\n\n\nMémoire · 2024\nTomate sous tunnel : combien d'eau pour quel rendement ?\nAvec 4,6 fois moins d'eau, les oyas gardent 73 % du rendement médian ; l'irrigation complète reste la plus productive (3,2 kg/plant).\n\nTomate\nGestion de l'eau\nPDF\nCSV\nDOI\nCode\n\n\n\n\n\n\n−70 %d'eau avec un oya à 56 cm\n\n\nMémoire · 2025\nOyas pour le chou : à quelle distance les placer ?\nUn oya à 56 cm du chou économise 70 % d'eau ; 11 choux sur 12 restent commercialisables, pour un rendement commercialisable 10 % sous l'arrosage.\n\nChou\nGestion de l'eau\nPDF\nCSV\nDOI\nCode\n\n\n\n\n\n\n×6,4biomasse d'épinard : bâche vs miscanthus\n\n\nMémoire · 2024–2025\nPaillages en maraîchage bio : bilan de la première année\nDès la 1re année, la bâche donne 6 fois plus d'épinards que le miscanthus non travaillé, qui infiltre aussi l'eau le moins vite.\n\nÉpinard\nPaillageCouverts végétauxOignon\nPDF\nCSV\nDOI\nCode\n\n\n\n\n\n\n1,1score VESS sous BRF (1 = idéal)\n\n\nMémoire · 2025–2026\nCinq paillages en maraîchage bio : sol, eau et légumes\nLa bâche donne des épinards 4 fois plus lourds, mais le BRF a la meilleure structure de sol (VESS 1,1) et +87 % de biomasse microbienne.\n\nÉpinard\nPaillageCouverts végétauxLaitue\nPDF\nCSV\nDOI\nCode\n\n\n\n\n\nAucun article correspondant"
+  },
+  {
+    "objectID": "a-propos.html",
+    "href": "a-propos.html",
+    "title": "À propos",
+    "section": "",
+    "text": "Ce site rassemble les résultats des essais et travaux de recherche en maraîchage menés au PEPA Lab (Earth and Life Institute, UCLouvain) : mémoires de master, essais sur la ferme expérimentale, synthèses pluriannuelles.\nContact : PEPA Lab, UCLouvain."
+  },
+  {
+    "objectID": "donnees.html",
+    "href": "donnees.html",
+    "title": "Données",
+    "section": "",
+    "text": "Type\nOù\nPourquoi\n\n\n\n\nDonnées résumées d’une fiche (&lt; 5 Mo)\nfiches/&lt;fiche&gt;/donnees.csv\nAlimentent les graphiques interactifs\n\n\nDonnées brutes complètes\nZenodo – communauté PEPA\nDOI citable, archivage pérenne, gros volumes\n\n\nMémoires et rapports\nDIAL UCLouvain ou documents/\nDocument de référence\n\n\n\nChaque fichier de données est accompagné d’un dictionnaire (dictionnaire.csv : colonne, unité, description). Licence par défaut : CC BY 4.0."
+  },
+  {
+    "objectID": "donnees.html#où-sont-les-données",
+    "href": "donnees.html#où-sont-les-données",
+    "title": "Données",
+    "section": "",
+    "text": "Type\nOù\nPourquoi\n\n\n\n\nDonnées résumées d’une fiche (&lt; 5 Mo)\nfiches/&lt;fiche&gt;/donnees.csv\nAlimentent les graphiques interactifs\n\n\nDonnées brutes complètes\nZenodo – communauté PEPA\nDOI citable, archivage pérenne, gros volumes\n\n\nMémoires et rapports\nDIAL UCLouvain ou documents/\nDocument de référence\n\n\n\nChaque fichier de données est accompagné d’un dictionnaire (dictionnaire.csv : colonne, unité, description). Licence par défaut : CC BY 4.0."
+  },
+  {
+    "objectID": "themes.html",
+    "href": "themes.html",
+    "title": "Thèmes",
+    "section": "",
+    "text": "Toutes les fiches, regroupées par thème et culture. Cliquez sur un thème à droite pour filtrer.\n\n\n\n\n\n\n   \n    \n    \n      Trier par\n      Ordre par défaut\n      \n        Fiche\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nFiche\n\n\n\nCulture\n\n\n\nSaison\n\n\n\nType\n\n\n\n\n\n\n\n\nCinq paillages en maraîchage bio : sol, eau et légumes\n\n\nÉpinard\n\n\n2025–2026\n\n\nMémoire\n\n\n\n\n\n\nOyas pour le chou : à quelle distance les placer ?\n\n\nChou\n\n\n2025\n\n\nMémoire\n\n\n\n\n\n\nPaillages en maraîchage bio : bilan de la première année\n\n\nÉpinard\n\n\n2024–2025\n\n\nMémoire\n\n\n\n\n\n\nTomate sous tunnel : combien d’eau pour quel rendement ?\n\n\nTomate\n\n\n2024\n\n\nMémoire\n\n\n\n\n\n\nAucun article correspondant"
+  },
+  {
+    "objectID": "fiches/2025-oyas-chou/index.html",
+    "href": "fiches/2025-oyas-chou/index.html",
+    "title": "Oyas pour le chou : à quelle distance les placer ?",
+    "section": "",
+    "text": "AstuceÀ retenir pour le terrain\n\n\n\n\nUn oya de 5 L au centre de 4 choux a consommé 10 à 14 L par chou sur la saison, contre 35 L à l’arrosoir : 60 à 70 % d’eau en moins.\nÀ 35 et 56 cm du chou, presque tous les choux atteignent la norme commerciale (≥ 400 g). À 79 cm, c’est trop loin : moins de la moitié des choux sont commercialisables.\nÀ 35 cm, les racines poussent vers l’oya ; au-delà de 56 cm, elles ne le « trouvent » plus.\nC’est un essai d’une saison, sous tunnel très sec (2e printemps le plus sec depuis 1892) : les choux sans aucune irrigation ont tout de même produit grâce à l’eau du sol."
+  },
+  {
+    "objectID": "fiches/2025-oyas-chou/index.html#question",
+    "href": "fiches/2025-oyas-chou/index.html#question",
+    "title": "Oyas pour le chou : à quelle distance les placer ?",
+    "section": "Question",
+    "text": "Question\nLes oyas, pots en terre cuite poreuse enterrés et remplis d’eau, peuvent-ils irriguer un chou aussi bien qu’un arrosage classique, avec moins d’eau ? À quelle distance faut-il les placer ? Et comment les racines du chou réagissent-elles à cette source d’eau localisée ?"
+  },
+  {
+    "objectID": "fiches/2025-oyas-chou/index.html#dispositif",
+    "href": "fiches/2025-oyas-chou/index.html#dispositif",
+    "title": "Oyas pour le chou : à quelle distance les placer ?",
+    "section": "Dispositif",
+    "text": "Dispositif\n\n\n\n\n\n\n\nLieu\nFerme universitaire de Marbaix (Chaumont-Gistoux), tunnel de 24 × 7 m fermé début février pour assécher le sol, sol limoneux ; fumier et toile géotextile\n\n\nSaison\nRepiquage le 20/03/2025, récolte le 5/06/2025 (78 jours)\n\n\nCulture\nChou pointu ‘Cœur de bœuf des Vertus 2’ (bio), plants espacés de 50 × 50 cm\n\n\nModalités\n100 % : arrosoir au pied, selon l’évapotranspiration (ETc) · Oyas à 35, 56 ou 79 cm du chou (1 oya de 5 L pour 4 choux, rempli 2 fois par semaine) · 0 % : aucune irrigation\n\n\nPlan et répétitions\n3 blocs de 8 choux par traitement, répartis au hasard, avec des zones tampons de 1,25 m ; 4 choux suivis par bloc, soit 12 par traitement\n\n\nMesures\nEau apportée, croissance hebdomadaire, conductance stomatique, poids de la plante et du chou, racines prélevées côté oya (in) et côté opposé (out), humidité du sol (sondes TMS-4)"
+  },
+  {
+    "objectID": "fiches/2025-oyas-chou/index.html#résultats-clés",
+    "href": "fiches/2025-oyas-chou/index.html#résultats-clés",
+    "title": "Oyas pour le chou : à quelle distance les placer ?",
+    "section": "Résultats clés",
+    "text": "Résultats clés\nEau. Sur la saison, chaque chou irrigué à l’arrosoir a reçu 35,3 L. Les choux sous oyas ont reçu une médiane de 12,4 L (35 cm), 10,7 L (56 cm) et 13,6 L (79 cm), sans différence significative entre distances. Le débit d’un oya suit ce que le sol absorbe, et non la demande climatique : il est resté stable alors que l’ETc augmentait.\nRendement. Sur la surface cultivée, l’arrosage a donné 44,9 t/ha de choux, contre 38,7 (35 cm), 34,3 (56 cm) et 28,2 t/ha (79 cm). Ces différences de poids par chou ne sont pas significatives, car la variabilité est forte. Avec la norme commerciale, la hiérarchie change :\n\ntous les choux sont commercialisables à 35 cm, 11 sur 12 à 56 cm, mais seulement 7 sur 11 à l’arrosoir (choux plus hétérogènes) et 5 sur 12 à 79 cm ;\nle rendement commercialisable est de 38,7 t/ha à 35 cm, 37,1 à l’arrosoir, 33,3 à 56 cm et 18,5 t/ha à 79 cm.\n\nRapporté à l’eau, un litre a produit 75 à 83 g de chou sous oya à 35–56 cm, contre 32 g à l’arrosoir.\nRacines. À 35 cm, la carotte prélevée côté oya contient environ 11 fois plus de racines que le côté opposé (médianes 10,1 contre 0,9 m). L’humidité mesurée par les sondes y était de 28 % côté oya contre moins de 2 % de l’autre côté. Cet écart s’estompe à 56 cm et disparaît à 79 cm. Les choux à 35 cm développent autant de racines qu’à l’arrosoir, ceux à 56 et 79 cm pas plus que les choux non irrigués (médianes 3,2 et 2,4 m contre 4,0 m).\n\n\nCode\nd = FileAttachment(\"donnees.csv\").csv({typed: true})\nordre = [\"100%\", \"Oya35\", \"Oya56\", \"Oya79\", \"0%\"]\ncouleurs = [\"#2a5783\", \"#f5515d\", \"#f2862c\", \"#85b22c\", \"#66c2a5\"]\nviewof choix = Inputs.select(new Map([\n  [\"Poids du chou (kg)\", \"poids_chou\"],\n  [\"Biomasse de la plante (kg)\", \"biomasse_foliaire\"],\n  [\"Eau reçue par chou (L)\", \"eau_consommee\"],\n  [\"Chou produit par litre d'eau (kg/L, hors 0 %)\", \"wue_chou\"],\n  [\"Hauteur de la plante au 27/05 (cm)\", \"hauteur_plante\"],\n  [\"Longueur de racines totale (mm)\", \"longueur_racinaire_totale\"],\n  [\"Racines côté oya − côté opposé (mm)\", \"longueur_racinaire_diff_in_out\"]\n]), {label: \"Variable\"})\nsel = d.filter(r =&gt; r.variable === choix && typeof r.valeur === \"number\" && !(choix === \"wue_chou\" && r.traitement === \"0%\"))\nPlot.plot({\n  marginLeft: 55, height: 320,\n  x: {label: null, domain: ordre},\n  y: {grid: true, label: sel.length ? sel[0].unite : \"\"},\n  color: {domain: ordre, range: couleurs},\n  marks: [\n    Plot.barY(sel, Plot.groupX({y: \"median\"}, {x: \"traitement\", y: \"valeur\", fill: \"traitement\", fillOpacity: 0.6})),\n    Plot.dot(sel, {x: \"traitement\", y: \"valeur\", stroke: \"black\", r: 3, tip: true,\n                   symbol: r =&gt; r.variable === \"poids_chou\" ? (d.find(x =&gt; x.chou_id === r.chou_id && x.variable === \"commercialisable\")?.valeur ? \"circle\" : \"times\") : \"circle\",\n                   title: r =&gt; `${r.chou_id} : ${r.valeur}`}),\n    Plot.ruleY([0])\n  ]\n})\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBarres : médiane par traitement ; points : choux. Pour le poids du chou, × = chou non commercialisable. Oya35/56/79 = oya à 35, 56 ou 79 cm.\n\n\nCode\nrac = d.filter(r =&gt; (r.variable === \"longueur_racinaire_in\" || r.variable === \"longueur_racinaire_out\"))\n       .map(r =&gt; ({...r, position: r.variable.endsWith(\"_in\") ? \"côté oya (in)\" : \"côté opposé (out)\", metres: r.valeur / 1000}))\nPlot.plot({\n  height: 300, marginLeft: 50,\n  fx: {domain: ordre, label: null},\n  x: {axis: null, domain: [\"côté oya (in)\", \"côté opposé (out)\"]},\n  y: {grid: true, label: \"Longueur de racines dans la carotte (m)\"},\n  color: {legend: true, domain: [\"côté oya (in)\", \"côté opposé (out)\"], range: [\"#1b9e77\", \"#d95f02\"]},\n  marks: [\n    Plot.barY(rac, Plot.groupX({y: \"median\"}, {fx: \"traitement\", x: \"position\", y: \"metres\", fill: \"position\", fillOpacity: 0.7})),\n    Plot.dot(rac, {fx: \"traitement\", x: \"position\", y: \"metres\", stroke: \"black\", r: 2}),\n    Plot.ruleY([0])\n  ]\n})\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRacines prélevées les 22–23/05 dans une carotte de 0,75 L, à 17 cm du chou, côté oya et côté opposé (6 choux par traitement). Pour le 100 %, le côté « in » est celui de l’arrosage.\n\n\n\n\n\n\nProtocoles utilisés, à refaire chez vous : Installer et suivre des oyas sous tunnel"
+  },
+  {
+    "objectID": "fiches/2025-oyas-chou/index.html#méthode-danalyse",
+    "href": "fiches/2025-oyas-chou/index.html#méthode-danalyse",
+    "title": "Oyas pour le chou : à quelle distance les placer ?",
+    "section": "Méthode d’analyse",
+    "text": "Méthode d’analyse\nPour chaque variable, le choix du test dépend des hypothèses :\n\nANOVA à un facteur puis Tukey si la normalité et l’homogénéité des variances sont vérifiées ;\nANOVA de Welch puis Games-Howell si les variances diffèrent ;\nKruskal-Wallis puis Dunn (correction de Holm) sinon.\n\nLes traitements oyas sont aussi comparés entre eux pour isoler l’effet de la distance. Le script joint est une version nettoyée du script de l’autrice. Il retrouve les principaux résultats : hauteur, biomasse, eau consommée, efficience et longueur de racines."
+  },
+  {
+    "objectID": "fiches/2025-oyas-chou/index.html#limites",
+    "href": "fiches/2025-oyas-chou/index.html#limites",
+    "title": "Oyas pour le chou : à quelle distance les placer ?",
+    "section": "Limites",
+    "text": "Limites\n\nC’est une saison sur une seule parcelle, sous tunnel. Le sol avait encore des réserves au départ, ce qui explique que les choux non irrigués aient produit. Leur « efficience » (≈ 2 kg/L) n’a pas de sens, car l’eau du sol n’est pas comptée.\nLes 4 choux d’un bloc partagent le même oya : il n’y a en réalité que 3 répétitions par traitement, et les tests au niveau du chou surestiment la précision.\nLes racines ne sont prélevées que dans les 15 premiers centimètres. Des racines fines tapissaient pourtant les oyas jusqu’à 30 cm de profondeur. L’humidité ne repose que sur 3 paires de sondes, dont les données calibrées ne sont pas jointes ici.\nCertains choux ont été pesés sous une averse (oyas à 56 et 79 cm, une partie du 0 %). Les oyas demandent aussi de la main-d’œuvre : un remplissage 2 fois par semaine, et un oya pour 4 choux."
+  },
+  {
+    "objectID": "fiches/2025-oyas-chou/index.html#ressources",
+    "href": "fiches/2025-oyas-chou/index.html#ressources",
+    "title": "Oyas pour le chou : à quelle distance les placer ?",
+    "section": "Ressources",
+    "text": "Ressources\n\n Fiche récapitulative (PDF)  Document complet  Données de la fiche (CSV)  Données brutes archivées (DOI)  Scripts d’analyse\n\nCiter cette fiche : Gaëlle Hanssens (mémoire 2025) (2025). Oyas pour le chou : à quelle distance les placer ?. Fiche PEPA Lab, UCLouvain."
+  },
+  {
+    "objectID": "fiches/2025-paillage-epinard-oignon/index.html",
+    "href": "fiches/2025-paillage-epinard-oignon/index.html",
+    "title": "Paillages en maraîchage bio : bilan de la première année",
+    "section": "",
+    "text": "AstuceÀ retenir pour le terrain\n\n\n\n\nLa bâche plastique sécurise la première culture : c’est la meilleure biomasse d’épinard, le moins d’adventices et une infiltration rapide.\nLe miscanthus posé sur un sol non travaillé démarre mal : il donne 6 fois moins d’épinards que la bâche et l’infiltration la plus lente. Prévoir un travail du sol avant la pose.\nSemer les couverts vivants assez tôt : semés fin avril, le trèfle et le mélange mélilot + moha n’ont rien couvert. En 2025, ils se sont comportés comme un sol nu.\nC’est une « année zéro » : l’essai sert surtout à installer le dispositif et à tester les méthodes. La suite est dans la fiche 2026."
+  },
+  {
+    "objectID": "fiches/2025-paillage-epinard-oignon/index.html#question",
+    "href": "fiches/2025-paillage-epinard-oignon/index.html#question",
+    "title": "Paillages en maraîchage bio : bilan de la première année",
+    "section": "Question",
+    "text": "Question\nComment cinq types de paillage influencent-ils la santé du sol, la croissance des légumes et les adventices en maraîchage biologique sur petite surface ? Quelles méthodes de mesure simples permettent de suivre ces effets sur 10 ans ? Ce mémoire lance la plateforme de Lauzelle et en teste les protocoles."
+  },
+  {
+    "objectID": "fiches/2025-paillage-epinard-oignon/index.html#dispositif",
+    "href": "fiches/2025-paillage-epinard-oignon/index.html#dispositif",
+    "title": "Paillages en maraîchage bio : bilan de la première année",
+    "section": "Dispositif",
+    "text": "Dispositif\n\n\n\n\n\n\n\nLieu\nFerme universitaire de Lauzelle (Louvain-la-Neuve), ≈ 360 m², légère pente au sud\n\n\nSol\nSablo-limoneux, drainage modéré à imparfait, pH KCl ≈ 5,8\n\n\nSaison\nSeptembre 2024 – juin 2025. Design définitif en janvier 2025, paillages en place du 26 février au 1er avril 2025.\n\n\nCultures\nÉpinard ‘Butterflay’ (bloc 1, planté le 8/04, récolté le 16/05) ; oignon ‘Sturon’ (bloc 2, planté le 15/04)\n\n\nModalités\nBâche plastique tissée noire · BRF (bois de Lauzelle) · Miscanthus · Trèfle blanc · Mix mélilot jaune + moha. Trèfle et Mix ont été semés le 29/04, sur le bloc épinard uniquement.\n\n\nPlan et répétitions\n30 parcelles d’environ 12 m² (3 colonnes × 10 rangs), 2 blocs légumes, 6 répétitions par modalité\n\n\nMesures\nFertilité initiale, structure (VESS, stabilité des agrégats), vers de terre, infiltration, carbone microbien et mycorhizes (5 parcelles), adventices, couverture foliaire, biomasse d’épinard"
+  },
+  {
+    "objectID": "fiches/2025-paillage-epinard-oignon/index.html#résultats-clés",
+    "href": "fiches/2025-paillage-epinard-oignon/index.html#résultats-clés",
+    "title": "Paillages en maraîchage bio : bilan de la première année",
+    "section": "Résultats clés",
+    "text": "Résultats clés\nProduction d’épinard. La biomasse diffère entre toutes les modalités, sauf entre trèfle et mix. En moyennes ajustées, un échantillon de 9 plants pesait 911 g sous bâche, 578 g sur BRF, 325 à 352 g sur trèfle et mix (sol nu) et 142 g sur miscanthus. Cela fait environ 80 g par plant sous bâche, contre 17 g sur miscanthus. Le miscanthus est la seule modalité qui n’a pas été travaillée avant la plantation : son sol est resté plus compact.\nEau. L’infiltration est l’effet le plus net sur le sol dès cette 1re année. Le miscanthus est le plus lent (3,0 cm en 5 min, soit ≈ 360 mm/h). Il est significativement plus lent que la bâche, le trèfle et le mix (7 à 11 cm en 5 min). La bâche atteint souvent le plafond de la méthode : son avantage est donc sous-estimé.\nAdventices. Sous bâche, environ 3 cases sur 196 sont couvertes par des adventices, contre 12 à 15 pour les autres modalités. Dans le bloc oignon, les parcelles en sol nu (trèfle, mix) comptent 3 à 4 espèces sur 0,5 m², contre moins d’une sous bâche, BRF ou miscanthus.\nVie et structure du sol. Aucun effet des paillages n’apparaît encore sur la structure (VESS), la stabilité des agrégats ou les vers de terre. Le carbone microbien est le plus élevé sous BRF, mais il n’a été mesuré que sur une parcelle par modalité. Le terrain présente en revanche un gradient : du côté de la colonne C, il y a plus de carbone organique (18 → 24 → 27 g/kg de A vers C) et une structure plus compacte (VESS 2,3 contre 1,5–1,7).\n\n\nCode\nd = FileAttachment(\"donnees.csv\").csv({typed: true})\nviewof choix = Inputs.select(new Map([\n  [\"Biomasse d'épinard (g/plant)\", \"biomasse_plant\"],\n  [\"Infiltration (cm en 5 min ; plafond = 12)\", \"infiltration_chabert\"],\n  [\"Adventices : cases couvertes sur 196\", \"adventices_cases_total\"],\n  [\"Adventices : nombre d'espèces / 0,5 m²\", \"adventices_especes\"],\n  [\"Couverture foliaire au 29/04 (%)\", \"couverture_foliaire\"],\n  [\"Structure du sol – VESS (bas = mieux)\", \"vess\"],\n  [\"Vers de terre (individus / bloc de bêche)\", \"lombrics_total\"],\n  [\"Stabilité des agrégats USDA (0–6)\", \"stabilite_agregats_usda\"],\n  [\"Carbone organique initial (g/kg)\", \"carbone_organique\"]\n]), {label: \"Variable\"})\nviewof bloc = Inputs.radio(new Map([[\"Les deux\", 0], [\"Bloc 1 (épinard)\", 1], [\"Bloc 2 (oignon)\", 2]]),\n                           {label: \"Bloc\", value: 0})\nparcelles = {\n  const rows = d.filter(r =&gt; r.variable === choix && r.valeur !== null && typeof r.valeur === \"number\"\n                          && !String(r.flag ?? \"\").includes(\"hors protocole\")\n                          && (choix !== \"couverture_foliaire\" || (r.date instanceof Date ? r.date.toISOString() : String(r.date)).startsWith(\"2025-04-29\"))\n                          && (bloc === 0 || r.bloc === bloc));\n  // moyenne des répétitions par parcelle\n  return d3.flatRollup(rows, v =&gt; d3.mean(v, r =&gt; r.valeur), r =&gt; r.parcelle, r =&gt; r.modalite, r =&gt; r.unite)\n           .map(([parcelle, modalite, unite, valeur]) =&gt; ({parcelle, modalite, unite, valeur}));\n}\nPlot.plot({\n  marginLeft: 55, height: 320,\n  x: {label: null, domain: [\"Bâche plastique\", \"BRF\", \"Miscanthus\", \"Trèfle\", \"Mix\"]},\n  y: {grid: true, label: parcelles.length ? parcelles[0].unite : \"\"},\n  color: {domain: [\"Bâche plastique\", \"BRF\", \"Miscanthus\", \"Trèfle\", \"Mix\"],\n          range: [\"#4d4d4d\", \"#a6761d\", \"#e6ab02\", \"#1b9e77\", \"#7570b3\"]},\n  marks: [\n    Plot.barY(parcelles, Plot.groupX({y: \"mean\"}, {x: \"modalite\", y: \"valeur\", fill: \"modalite\", fillOpacity: 0.6})),\n    Plot.dot(parcelles, {x: \"modalite\", y: \"valeur\", stroke: \"black\", r: 3, tip: true,\n                         title: r =&gt; `${r.parcelle} : ${r.valeur.toFixed(2)}`}),\n    Plot.ruleY([0])\n  ]\n})\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBarres : moyenne par modalité ; points : parcelles (moyenne des répétitions). En 2025, Trèfle et Mix correspondent à un sol nu. Les moyennes brutes peuvent différer des moyennes ajustées citées dans le texte.\n\n\n\n\n\n\nProtocoles utilisés, à refaire chez vous : Évaluer la structure du sol et compter les vers de terre à la bêche · Prélever un échantillon de sol pour une analyse de fertilité · Tester la stabilité des mottes de terre dans l’eau · Mesurer la vitesse d’infiltration de l’eau avec un tube · Mesurer la couverture d’adventices et de la culture · Estimer le rendement d’une planche en pesant des échantillons"
+  },
+  {
+    "objectID": "fiches/2025-paillage-epinard-oignon/index.html#méthode-danalyse",
+    "href": "fiches/2025-paillage-epinard-oignon/index.html#méthode-danalyse",
+    "title": "Paillages en maraîchage bio : bilan de la première année",
+    "section": "Méthode d’analyse",
+    "text": "Méthode d’analyse\nSelon la variable, le mémoire utilise des modèles linéaires mixtes : paillage et bloc légume en effets fixes, colonne et/ou rang en effets aléatoires, sélectionnés par test du rapport de vraisemblance. Il recourt à des transformations (racine, log) ou à des tests non paramétriques quand les hypothèses ne sont pas respectées. Les comparaisons par paires utilisent le test de Tukey. Le script joint regroupe les modèles retenus. Il retrouve les résultats sur la biomasse et l’infiltration. Pour quelques variables (stabilité des agrégats, vers de terre, adventices), les conclusions changent légèrement une fois corrigées des erreurs d’étiquetage dans le fichier de données (voir le rapport de préparation)."
+  },
+  {
+    "objectID": "fiches/2025-paillage-epinard-oignon/index.html#limites",
+    "href": "fiches/2025-paillage-epinard-oignon/index.html#limites",
+    "title": "Paillages en maraîchage bio : bilan de la première année",
+    "section": "Limites",
+    "text": "Limites\n\nLes paillages venaient d’être posés (BRF le 1er avril) et les couverts vivants n’ont pas levé à temps : on compare surtout bâche, paillages morts et sol nu.\nLa comparaison est biaisée par le travail du sol : toutes les parcelles ont été travaillées le 27 mars, sauf le miscanthus. Une partie de sa contre-performance peut venir de là.\nLe terrain présente un gradient (carbone, compaction), qui hérite des cultures et amendements de 2023.\nLes oignons ont été attaqués par des rongeurs (surtout sous bâche). Le carbone microbien et les mycorhizes n’ont été mesurés que sur une parcelle par modalité.\nLa méthode d’infiltration plafonne pour les sols très perméables. Elle a été remplacée par l’anneau simple en 2026."
+  },
+  {
+    "objectID": "fiches/2025-paillage-epinard-oignon/index.html#ressources",
+    "href": "fiches/2025-paillage-epinard-oignon/index.html#ressources",
+    "title": "Paillages en maraîchage bio : bilan de la première année",
+    "section": "Ressources",
+    "text": "Ressources\n\n Fiche récapitulative (PDF)  Document complet  Données de la fiche (CSV)  Données brutes archivées (DOI)  Scripts d’analyse\n\nCiter cette fiche : Eliot Vas (mémoire 2025) (2024–2025). Paillages en maraîchage bio : bilan de la première année. Fiche PEPA Lab, UCLouvain."
+  },
+  {
+    "objectID": "protocoles.html",
+    "href": "protocoles.html",
+    "title": "Protocoles",
+    "section": "",
+    "text": "Chaque protocole décrit pas à pas une mesure ou une technique que nous avons utilisée dans nos essais : le matériel, les étapes, une fiche de relevé à imprimer et comment lire les résultats. Ils sont pensés pour être faits à la ferme, sans laboratoire. Une question ou une amélioration ? Utilisez le lien « Faire part d’un problème » sur chaque page.\n\n\n\n\n\n   \n    \n    \n      Trier par\n      Ordre par défaut\n      \n        Titre\n      \n      \n        difficulte\n      \n      \n        duree\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n≈ 15 min par plancheÀ la récolte\n\n\nProtocole · Facile · ≈ 0 € (une balance)\nEstimer le rendement d'une planche en pesant des échantillons\nComparer le rendement de deux pratiques sans tout récolter et tout peser, à partir de quelques échantillons de plants pesés sur place.\n\nFacile\nSuivi des culturesÉconomie\n\n\n\n\n\n\n≈ 20 min par oyaInstallation à la plantation, puis 2 remplissages par semaine\n\n\nProtocole · Facile · ≈ 30 € par oya de 5 L (prix 2025)\nInstaller et suivre des oyas sous tunnel\nIrriguer tomates ou choux avec des pots en terre cuite enterrés, en économisant l'eau, et mesurer ce qu'ils consomment vraiment.\n\nFacile\nGestion de l'eau\n\n\n\n\n\n\n≈ 15 min par parcelleAu printemps, avant le désherbage, quand la culture est bien installée\n\n\nProtocole · Facile · ≈ 0 € (cadre fait maison, application gratuite)\nMesurer la couverture d'adventices et de la culture\nChiffrer la place prise par les adventices et le développement de la culture, avec un cadre grillagé ou une photo, pour comparer deux pratiques.\n\nFacile\nAdventicesSuivi des culturesPaillage\n\n\n\n\n\n\n≈ 25 min par pointSol ni détrempé ni très sec ; même humidité pour toutes les parcelles comparées\n\n\nProtocole · Facile · ≈ 0 € (tube PVC, mètre, eau)\nMesurer la vitesse d'infiltration de l'eau avec un tube\nComparer la vitesse à laquelle l'eau pénètre dans le sol sous différentes pratiques, avec un simple tube enfoncé dans la terre.\n\nFacile\nGestion de l'eauSanté du sol\n\n\n\n\n\n\n≈ 15 min par parcelleUne fois par an, toujours à la même période\n\n\nProtocole · Facile · Tarière + prix de l'analyse\nPrélever un échantillon de sol pour une analyse de fertilité\nConstituer un échantillon représentatif d'une parcelle, à envoyer au laboratoire, pour suivre le pH, la matière organique et les éléments nutritifs d'une année à l'autre.\n\nFacile\nFertilisationSanté du sol\n\n\n\n\n\n\n≈ 10 min par parcelleEn même temps que le test bêche, sur sol ressuyé\n\n\nProtocole · Facile · ≈ 0 € (tube PVC, toile fine, eau)\nTester la stabilité des mottes de terre dans l'eau\nVoir si les agrégats de surface résistent à l'eau, et donc si le sol risque de se refermer (battance) et de s'éroder après une pluie.\n\nFacile\nSanté du solTravail du sol\n\n\n\n\n\n\n≈ 30 min par blocFin d'hiver – début de printemps, sol ressuyé\n\n\nProtocole · Facile · ≈ 0 € (une bêche, deux bacs)\nÉvaluer la structure du sol et compter les vers de terre à la bêche\nNoter la structure du sol de 1 à 5 et compter les vers de terre sur le même bloc de terre, pour suivre l'effet de vos pratiques d'une année à l'autre.\n\nFacile\nTravail du solPaillageSanté du sol\n\n\n\n\n\nAucun article correspondant"
+  },
+  {
+    "objectID": "protocoles/rendement-echantillons/index.html",
+    "href": "protocoles/rendement-echantillons/index.html",
+    "title": "Estimer le rendement d’une planche en pesant des échantillons",
+    "section": "",
+    "text": "Objectif Comparer le rendement de deux pratiques sans tout récolter et tout peser, à partir de quelques échantillons de plants pesés sur place.\nDifficulté Facile\nDurée ≈ 15 min par planche\nCoût ≈ 0 € (une balance)\nQuand À la récolte"
+  },
+  {
+    "objectID": "protocoles/rendement-echantillons/index.html#à-quoi-ça-sert",
+    "href": "protocoles/rendement-echantillons/index.html#à-quoi-ça-sert",
+    "title": "Estimer le rendement d’une planche en pesant des échantillons",
+    "section": "À quoi ça sert",
+    "text": "À quoi ça sert\nPour savoir si une pratique (un paillage, une variété, une fertilisation) change le rendement, il n’est pas nécessaire de peser toute la récolte. Il suffit de peser quelques groupes de plants pris à différents endroits de chaque planche. Dans notre essai, cette méthode s’est montrée fiable, reproductible et rapide, et elle a fait ressortir des différences nettes entre paillages."
+  },
+  {
+    "objectID": "protocoles/rendement-echantillons/index.html#matériel",
+    "href": "protocoles/rendement-echantillons/index.html#matériel",
+    "title": "Estimer le rendement d’une planche en pesant des échantillons",
+    "section": "Matériel",
+    "text": "Matériel\n\nUne balance, de précision adaptée au légume (quelques grammes pour des feuilles)\nDes caisses ou sacs numérotés\nUn couteau de récolte\nLa fiche de relevé"
+  },
+  {
+    "objectID": "protocoles/rendement-echantillons/index.html#étapes",
+    "href": "protocoles/rendement-echantillons/index.html#étapes",
+    "title": "Estimer le rendement d’une planche en pesant des échantillons",
+    "section": "Étapes",
+    "text": "Étapes\n\nDéfinir les zones d’échantillonnage. Par planche, choisissez 3 zones réparties au hasard, pour représenter toute la surface. Évitez les bords.\nRécolter un groupe de 9 plants voisins dans chaque zone.\nPeser sur place, aussitôt la récolte faite, pour avoir la masse fraîche avant que les feuilles ne sèchent.\nNoter le nombre de plants et la masse de chaque échantillon.\nRecommencer sur chaque planche à comparer, le même jour et de la même façon.\nRamener au plant ou au mètre carré avec le calculateur, en indiquant la densité de plantation."
+  },
+  {
+    "objectID": "protocoles/rendement-echantillons/index.html#calculateur",
+    "href": "protocoles/rendement-echantillons/index.html#calculateur",
+    "title": "Estimer le rendement d’une planche en pesant des échantillons",
+    "section": "Calculateur",
+    "text": "Calculateur\n\n\nCode\nviewof m1 = Inputs.range([0, 5000], {label: \"Échantillon 1 (g)\", step: 10, value: 900})\nviewof m2 = Inputs.range([0, 5000], {label: \"Échantillon 2 (g)\", step: 10, value: 1000})\nviewof m3 = Inputs.range([0, 5000], {label: \"Échantillon 3 (g)\", step: 10, value: 800})\nviewof n = Inputs.range([1, 30], {label: \"Plants par échantillon\", step: 1, value: 9})\nviewof densite = Inputs.range([1, 100], {label: \"Plants par m²\", step: 1, value: 30})\nparPlant = (m1 + m2 + m3) / (3 * n)\nhtml`&lt;div class=\"vess-resultat\"&gt;Masse moyenne : &lt;b&gt;${parPlant.toFixed(0)} g par plant&lt;/b&gt;, soit environ &lt;b&gt;${(parPlant * densite / 1000).toFixed(2)} kg/m²&lt;/b&gt; (${(parPlant * densite / 100).toFixed(1)} t/ha) pour ${densite} plants/m².&lt;/div&gt;`\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRendement ≈ masse moyenne par plant × nombre de plants par m². Le résultat suppose que tous les plants de la planche ont été récoltables."
+  },
+  {
+    "objectID": "protocoles/rendement-echantillons/index.html#fiche-de-relevé",
+    "href": "protocoles/rendement-echantillons/index.html#fiche-de-relevé",
+    "title": "Estimer le rendement d’une planche en pesant des échantillons",
+    "section": "Fiche de relevé",
+    "text": "Fiche de relevé\nTéléchargez la fiche de relevé (CSV) : une ligne par échantillon (3 par planche)."
+  },
+  {
+    "objectID": "protocoles/rendement-echantillons/index.html#lire-les-résultats",
+    "href": "protocoles/rendement-echantillons/index.html#lire-les-résultats",
+    "title": "Estimer le rendement d’une planche en pesant des échantillons",
+    "section": "Lire les résultats",
+    "text": "Lire les résultats\n\nComparez des planches récoltées le même jour, au même stade.\nRegardez l’écart entre les 3 échantillons d’une même planche : s’il est aussi grand que l’écart entre deux pratiques, la différence n’est pas fiable.\nEn 2025, dans notre essai, les épinards sur bâche plastique étaient environ 6 fois plus lourds que sur miscanthus posé sur un sol non travaillé."
+  },
+  {
+    "objectID": "protocoles/rendement-echantillons/index.html#erreurs-fréquentes",
+    "href": "protocoles/rendement-echantillons/index.html#erreurs-fréquentes",
+    "title": "Estimer le rendement d’une planche en pesant des échantillons",
+    "section": "Erreurs fréquentes",
+    "text": "Erreurs fréquentes\n\nChoisir les plus beaux plants au lieu de zones tirées au hasard.\nPeser longtemps après la récolte : les légumes-feuilles perdent de l’eau et du poids.\nComparer des planches de densités différentes sans ramener au mètre carré."
+  },
+  {
+    "objectID": "protocoles/rendement-echantillons/index.html#dans-nos-essais",
+    "href": "protocoles/rendement-echantillons/index.html#dans-nos-essais",
+    "title": "Estimer le rendement d’une planche en pesant des échantillons",
+    "section": "Dans nos essais",
+    "text": "Dans nos essais\nÀ la ferme universitaire de Lauzelle, nous avons pesé 3 échantillons de 9 épinards sur chacune des parcelles paillées le 16 mai 2025, soit environ 20,5 kg d’échantillons. Les épinards étaient plantés en 5 rangs par parcelle, à 15 cm sur le rang.\n\n\n\n\n\n\nEssai\n\n\n\nSaison\n\n\n\nCulture\n\n\n\n\n\n\n\n\nPaillages en maraîchage bio : bilan de la première année\n\n\n2024–2025\n\n\nÉpinard\n\n\n\n\n\n\nAucun article correspondant"
+  },
+  {
+    "objectID": "protocoles/rendement-echantillons/index.html#sources",
+    "href": "protocoles/rendement-echantillons/index.html#sources",
+    "title": "Estimer le rendement d’une planche en pesant des échantillons",
+    "section": "Sources",
+    "text": "Sources\n\nMémoire d’Eliot Vas (2025) : méthode p. 44, plantation p. 32, évaluation p. 75 et 77.\nRésultat bâche / miscanthus : fiche « Paillages en maraîchage bio : bilan de la première année »."
+  },
+  {
+    "objectID": "protocoles/vess-test-beche/index.html",
+    "href": "protocoles/vess-test-beche/index.html",
+    "title": "Évaluer la structure du sol et compter les vers de terre à la bêche",
+    "section": "",
+    "text": "Objectif Noter la structure du sol de 1 à 5 et compter les vers de terre sur le même bloc de terre, pour suivre l’effet de vos pratiques d’une année à l’autre.\nDifficulté Facile\nDurée ≈ 30 min par bloc\nCoût ≈ 0 € (une bêche, deux bacs)\nQuand Fin d’hiver – début de printemps, sol ressuyé"
+  },
+  {
+    "objectID": "protocoles/vess-test-beche/index.html#à-quoi-ça-sert",
+    "href": "protocoles/vess-test-beche/index.html#à-quoi-ça-sert",
+    "title": "Évaluer la structure du sol et compter les vers de terre à la bêche",
+    "section": "À quoi ça sert",
+    "text": "À quoi ça sert\nLa VESS (Visual Evaluation of Soil Structure) donne une note de 1 (sol friable, bien structuré) à 5 (sol très compact) à partir d’un simple bloc de terre. Le test bêche utilise ensuite ce même bloc pour compter les vers de terre et les classer en groupes. Ensemble, ils montrent en une demi-heure si un paillage, un couvert ou un travail du sol améliore ou dégrade votre sol. Il suffit de refaire le test chaque année à la même période."
+  },
+  {
+    "objectID": "protocoles/vess-test-beche/index.html#matériel",
+    "href": "protocoles/vess-test-beche/index.html#matériel",
+    "title": "Évaluer la structure du sol et compter les vers de terre à la bêche",
+    "section": "Matériel",
+    "text": "Matériel\n\nUne bêche plate et bien affûtée\nDeux bacs ou une bâche, de couleur sombre pour mieux voir les vers\nUn mètre ruban ou une règle\nLa grille de notation VESS imprimée. Elle existe aussi en application pour iPhone ; nous n’avons pas trouvé de version Android en 2026.\nLa clé d’identification des vers de terre de l’OPVT (4 groupes)\nLa fiche de relevé et un crayon ; un téléphone pour les photos"
+  },
+  {
+    "objectID": "protocoles/vess-test-beche/index.html#étapes",
+    "href": "protocoles/vess-test-beche/index.html#étapes",
+    "title": "Évaluer la structure du sol et compter les vers de terre à la bêche",
+    "section": "Étapes",
+    "text": "Étapes\n\nChoisir le moment. Faites le test en fin d’hiver ou début de printemps, sur un sol ressuyé (ni détrempé, ni sec), et avant tout travail du sol de la saison. Au labo, nous le faisons en mars.\nChoisir les points. Prenez 2 blocs par parcelle (6 si la parcelle est grande), loin des bords et des passages de roues. Sur nos parcelles de 12 m², nous creusons entre 1 et 1,5 m des extrémités.\nDégager le bloc. Creusez d’abord une tranchée sur un côté. Plantez ensuite la bêche pour isoler un bloc d’environ 20 × 20 cm sur 25 cm de profondeur (25 à 30 cm selon nos sources : gardez toujours la même profondeur). Dégagez bien les côtés pour que le bloc garde sa forme : c’est important si vous comptez aussi les vers.\nSortir le bloc d’un seul mouvement et le poser dans le premier bac. Prenez une photo.\nRepérer les couches. Ouvrez doucement le bloc à la main, en suivant ses fissures naturelles. Repérez les couches qui diffèrent (couleur, compacité, racines) et mesurez leur épaisseur.\nNoter chaque couche de 1 à 5 avec la grille (tableau ci-dessous). Regardez la taille des agrégats, les pores visibles, les racines et la force nécessaire pour casser les mottes.\nCalculer la note du bloc : la moyenne des notes des couches, pondérée par leur épaisseur. Le calculateur plus bas le fait pour vous.\nCompter les vers de terre. Émiettez le bloc motte par motte dans le second bac et ramassez tous les vers. Comptez-les et classez-les avec la clé OPVT : épigés, endogés, épi-anéciques et anéciques stricts. Remettez ensuite les vers et la terre dans le trou.\nPrélever aussi des agrégats de surface, si vous faites le test de stabilité des mottes dans l’eau : c’est le bon moment, le sol est déjà ouvert.\nChanger d’emplacement chaque année. L’extraction du bloc abîme la structure du sol pour longtemps : ne refaites jamais le test exactement au même endroit."
+  },
+  {
+    "objectID": "protocoles/vess-test-beche/index.html#grille-de-notation-résumé",
+    "href": "protocoles/vess-test-beche/index.html#grille-de-notation-résumé",
+    "title": "Évaluer la structure du sol et compter les vers de terre à la bêche",
+    "section": "Grille de notation (résumé)",
+    "text": "Grille de notation (résumé)\n\n\n\n\n\n\n\n\nNote\nNom\nCe que l’on observe\n\n\n\n\n1\nFriable\nAgrégats petits, qui s’émiettent entre les doigts ; très poreux, racines partout\n\n\n2\nIntact\nAgrégats faciles à casser d’une main ; poreux, arrondis, racines partout\n\n\n3\nFerme\nLa plupart des agrégats se cassent d’une main ; mélange de petits agrégats poreux et de mottes plus anguleuses\n\n\n4\nCompact\nIl faut forcer pour casser les agrégats d’une main ; mottes anguleuses, peu de pores, racines regroupées dans les fissures\n\n\n5\nTrès compact\nDifficile à casser ; gros blocs anguleux, presque pas de pores, peu ou pas de racines\n\n\n\nCe tableau est un résumé : pour noter, utilisez la grille VESS officielle, qui contient des photos de référence."
+  },
+  {
+    "objectID": "protocoles/vess-test-beche/index.html#calculateur-de-la-note-du-bloc",
+    "href": "protocoles/vess-test-beche/index.html#calculateur-de-la-note-du-bloc",
+    "title": "Évaluer la structure du sol et compter les vers de terre à la bêche",
+    "section": "Calculateur de la note du bloc",
+    "text": "Calculateur de la note du bloc\n\n\nCode\nviewof e1 = Inputs.range([0, 30], {label: \"Couche 1 : épaisseur (cm)\", step: 1, value: 10})\nviewof s1 = Inputs.range([1, 5], {label: \"Couche 1 : note\", step: 0.5, value: 2})\nviewof e2 = Inputs.range([0, 30], {label: \"Couche 2 : épaisseur (cm)\", step: 1, value: 10})\nviewof s2 = Inputs.range([1, 5], {label: \"Couche 2 : note\", step: 0.5, value: 3})\nviewof e3 = Inputs.range([0, 30], {label: \"Couche 3 : épaisseur (cm)\", step: 1, value: 5})\nviewof s3 = Inputs.range([1, 5], {label: \"Couche 3 : note\", step: 0.5, value: 4})\ntotal = e1 + e2 + e3\nnote = total &gt; 0 ? (e1 * s1 + e2 * s2 + e3 * s3) / total : NaN\nlecture = note &lt; 2.5 ? [\"bonne\", \"#4caf50\", \"Rien à changer.\"]\n        : note &lt; 3.5 ? [\"moyenne\", \"#e0a030\", \"Une amélioration sur le long terme est souhaitable.\"]\n        : [\"dégradée\", \"#c5655a\", \"Il faut changer les pratiques rapidement : moins de passages, couverture du sol, pas de travail en sol humide.\"]\nhtml`&lt;div class=\"vess-resultat\" style=\"border-left-color:${lecture[1]}\"&gt;\n  Note du bloc : &lt;b&gt;${isNaN(note) ? \"–\" : note.toFixed(1)}&lt;/b&gt; sur ${total} cm, structure &lt;b&gt;${lecture[0]}&lt;/b&gt;.&lt;br&gt;${lecture[2]}&lt;/div&gt;`\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMettez l’épaisseur à 0 pour une couche absente. Les seuils sont des repères indicatifs, tirés des recommandations de la méthode VESS."
+  },
+  {
+    "objectID": "protocoles/vess-test-beche/index.html#fiche-de-relevé",
+    "href": "protocoles/vess-test-beche/index.html#fiche-de-relevé",
+    "title": "Évaluer la structure du sol et compter les vers de terre à la bêche",
+    "section": "Fiche de relevé",
+    "text": "Fiche de relevé\nTéléchargez la fiche de relevé (CSV), ouvrez-la dans un tableur et imprimez-la. Prévoyez une ligne par couche. Le nombre de vers se note une seule fois par bloc, sur la ligne de la couche 1."
+  },
+  {
+    "objectID": "protocoles/vess-test-beche/index.html#lire-les-résultats",
+    "href": "protocoles/vess-test-beche/index.html#lire-les-résultats",
+    "title": "Évaluer la structure du sol et compter les vers de terre à la bêche",
+    "section": "Lire les résultats",
+    "text": "Lire les résultats\n\nNote de 1 à 2 : le sol est bien structuré.\nNote autour de 3 : la structure est moyenne. Surveillez son évolution d’une année à l’autre.\nNote de 4 à 5 : le sol est tassé. Cherchez la cause : passages de roues, travail du sol en conditions humides, sol nu en hiver.\nComparer plutôt que juger. C’est surtout l’évolution de la note d’une année à l’autre, et l’écart entre deux pratiques sur la même ferme, qui sont informatifs.\nVers de terre : beaucoup de vers et des anéciques (les gros vers qui creusent des galeries verticales) indiquent un sol vivant et bien drainé. Aucun ver, ou seulement quelques épigés, signale un sol perturbé ou tassé."
+  },
+  {
+    "objectID": "protocoles/vess-test-beche/index.html#erreurs-fréquentes",
+    "href": "protocoles/vess-test-beche/index.html#erreurs-fréquentes",
+    "title": "Évaluer la structure du sol et compter les vers de terre à la bêche",
+    "section": "Erreurs fréquentes",
+    "text": "Erreurs fréquentes\n\nFaire le test sur un sol trop humide ou trop sec. Le sol humide paraît compact, le sol sec paraît dur. Attendez un sol ressuyé.\nAbîmer le bloc en le sortant : il faut dégager davantage autour avant de soulever.\nRevenir au même endroit l’année suivante : la structure n’a pas encore récupéré.\nComparer des notes données par des personnes différentes. Pour suivre une évolution, gardez si possible la même personne d’une année à l’autre."
+  },
+  {
+    "objectID": "protocoles/vess-test-beche/index.html#dans-nos-essais",
+    "href": "protocoles/vess-test-beche/index.html#dans-nos-essais",
+    "title": "Évaluer la structure du sol et compter les vers de terre à la bêche",
+    "section": "Dans nos essais",
+    "text": "Dans nos essais\nÀ la ferme universitaire de Lauzelle, nous avons fait ce test en mars 2025 et en mars 2026, avec 2 blocs par parcelle sur 30 parcelles de 12 m² paillées de cinq façons différentes. En 2026, le BRF avait la meilleure structure (note moyenne 1,1). C’est le seul paillage nettement meilleur que les autres.\n\n\n\n\n\n\nEssai\n\n\n\nSaison\n\n\n\nCulture\n\n\n\n\n\n\n\n\nCinq paillages en maraîchage bio : sol, eau et légumes\n\n\n2025–2026\n\n\nÉpinard\n\n\n\n\n\n\nPaillages en maraîchage bio : bilan de la première année\n\n\n2024–2025\n\n\nÉpinard\n\n\n\n\n\n\nAucun article correspondant"
+  },
+  {
+    "objectID": "protocoles/vess-test-beche/index.html#sources",
+    "href": "protocoles/vess-test-beche/index.html#sources",
+    "title": "Évaluer la structure du sol et compter les vers de terre à la bêche",
+    "section": "Sources",
+    "text": "Sources\n\nMéthode VESS : Ball, Batey et Munkholm (2007) ; Guimarães, Ball et Tormena (2011), grille de notation officielle.\nGuide méthodique du test bêche : structure et action des vers de terre, Agro-Transfert (2023).\nClé d’identification des vers de terre en 4 groupes : Observatoire Participatif des Vers de Terre (OPVT).\nMise en œuvre au PEPA Lab : mémoires d’Eliot Vas (2025, p. 37–38 ; combinaison avec le test de stabilité des agrégats, p. 73 ; bloc de 20 × 20 × 30 cm dans le tableau 5, p. 45) et de Pierre-André Peters-Dickie (2026, p. 30–32)."
+  },
+  {
+    "objectID": "protocoles/stabilite-agregats/index.html",
+    "href": "protocoles/stabilite-agregats/index.html",
+    "title": "Tester la stabilité des mottes de terre dans l’eau",
+    "section": "",
+    "text": "Objectif Voir si les agrégats de surface résistent à l’eau, et donc si le sol risque de se refermer (battance) et de s’éroder après une pluie.\nDifficulté Facile\nDurée ≈ 10 min par parcelle\nCoût ≈ 0 € (tube PVC, toile fine, eau)\nQuand En même temps que le test bêche, sur sol ressuyé"
+  },
+  {
+    "objectID": "protocoles/stabilite-agregats/index.html#à-quoi-ça-sert",
+    "href": "protocoles/stabilite-agregats/index.html#à-quoi-ça-sert",
+    "title": "Tester la stabilité des mottes de terre dans l’eau",
+    "section": "À quoi ça sert",
+    "text": "À quoi ça sert\nCe test, appelé méthode USDA, mesure la vitesse à laquelle un petit agrégat de terre se défait dans l’eau. Il donne un score de 0 (très instable) à 6 (très stable). Un sol aux agrégats instables se referme en croûte après la pluie, infiltre moins bien et s’érode plus. Le test est rapide et peut se faire pendant la même sortie que le test bêche et la VESS : il complète la note de structure par une mesure de résistance à l’eau."
+  },
+  {
+    "objectID": "protocoles/stabilite-agregats/index.html#matériel",
+    "href": "protocoles/stabilite-agregats/index.html#matériel",
+    "title": "Tester la stabilité des mottes de terre dans l’eau",
+    "section": "Matériel",
+    "text": "Matériel\n\nDes petits tubes en PVC d’environ 2 cm de diamètre et 3 cm de haut, fermés au fond par une toile fine (filtre). Un tube par agrégat.\nUn bac transparent rempli d’eau déminéralisée\nUn chronomètre (celui du téléphone suffit)\nUne petite pelle ou un couteau pour prélever les agrégats\nLa fiche de relevé"
+  },
+  {
+    "objectID": "protocoles/stabilite-agregats/index.html#étapes",
+    "href": "protocoles/stabilite-agregats/index.html#étapes",
+    "title": "Tester la stabilité des mottes de terre dans l’eau",
+    "section": "Étapes",
+    "text": "Étapes\n\nDégager la surface. Retirez le paillis pour atteindre la première couche de sol.\nPrélever les agrégats de la couche superficielle : 3 par parcelle au labo (la méthode d’origine en recommande 9). Prenez-les à différents endroits de la parcelle.\nPlacer chaque agrégat dans un tube, sur la toile.\nPlonger le tube dans l’eau et lancer le chronomètre. Observez pendant 5 minutes : notez le moment où la moitié de l’agrégat est dissoute.\nSi moins de la moitié s’est défaite après 5 minutes, faites 5 immersions successives : sortez le tube de l’eau et replongez-le, cinq fois. Estimez ensuite la part de l’agrégat qui reste sur la toile.\nAttribuer le score avec la grille ci-dessous (ou le calculateur). Pour gagner du temps, nous testons 3 tubes à la fois dans le même bac."
+  },
+  {
+    "objectID": "protocoles/stabilite-agregats/index.html#grille-de-notation",
+    "href": "protocoles/stabilite-agregats/index.html#grille-de-notation",
+    "title": "Tester la stabilité des mottes de terre dans l’eau",
+    "section": "Grille de notation",
+    "text": "Grille de notation\n\n\n\n\n\n\n\nScore\nCe que l’on observe\n\n\n\n\n0\nSol trop instable pour récolter un agrégat : tout passe à travers le filtre\n\n\n1\nLa moitié de l’agrégat est dissoute en moins de 5 secondes\n\n\n2\nLa moitié est dissoute entre 5 et 30 secondes\n\n\n3\nLa moitié est dissoute entre 30 secondes et 5 minutes, ou il reste moins de 10 % de l’agrégat après les 5 immersions\n\n\n4\nIl reste 10 à 25 % de l’agrégat après les 5 immersions\n\n\n5\nIl reste 25 à 75 % après les 5 immersions\n\n\n6\nIl reste 75 à 100 % après les 5 immersions\n\n\n\nGrille d’après ProSensols (2023), reprise dans le mémoire d’Eliot Vas (2025, tableau 4, p. 36)."
+  },
+  {
+    "objectID": "protocoles/stabilite-agregats/index.html#calculateur-du-score",
+    "href": "protocoles/stabilite-agregats/index.html#calculateur-du-score",
+    "title": "Tester la stabilité des mottes de terre dans l’eau",
+    "section": "Calculateur du score",
+    "text": "Calculateur du score\n\n\nCode\nviewof filtre = Inputs.toggle({label: \"Tout est passé à travers le filtre\", value: false})\nviewof moitie = Inputs.select(new Map([\n  [\"En moins de 5 s\", 1], [\"Entre 5 et 30 s\", 2], [\"Entre 30 s et 5 min\", 3],\n  [\"Pas après 5 min : immersions faites\", 0]]), {label: \"La moitié s'est dissoute…\", value: 0})\nviewof reste = Inputs.range([0, 100], {label: \"Reste après 5 immersions (%)\", step: 5, value: 50})\nscore = filtre ? 0 : moitie &gt; 0 ? moitie : reste &lt; 10 ? 3 : reste &lt; 25 ? 4 : reste &lt; 75 ? 5 : 6\nhtml`&lt;div class=\"vess-resultat\"&gt;Score de stabilité : &lt;b&gt;${score}&lt;/b&gt; sur 6 ${score &gt;= 5 ? \"(agrégats stables)\" : score &gt;= 3 ? \"(stabilité moyenne)\" : \"(agrégats fragiles)\"}.&lt;/div&gt;`\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLe champ « Reste après 5 immersions » ne compte que si la moitié de l’agrégat ne s’est pas dissoute pendant les 5 premières minutes."
+  },
+  {
+    "objectID": "protocoles/stabilite-agregats/index.html#fiche-de-relevé",
+    "href": "protocoles/stabilite-agregats/index.html#fiche-de-relevé",
+    "title": "Tester la stabilité des mottes de terre dans l’eau",
+    "section": "Fiche de relevé",
+    "text": "Fiche de relevé\nTéléchargez la fiche de relevé (CSV). Prévoyez une ligne par agrégat, puis faites la moyenne des scores par parcelle."
+  },
+  {
+    "objectID": "protocoles/stabilite-agregats/index.html#lire-les-résultats",
+    "href": "protocoles/stabilite-agregats/index.html#lire-les-résultats",
+    "title": "Tester la stabilité des mottes de terre dans l’eau",
+    "section": "Lire les résultats",
+    "text": "Lire les résultats\n\nPlus le score est élevé, plus le sol résiste à la pluie.\nEn 2025, sur nos parcelles paillées, tous les scores se situaient entre 5,5 et 5,6 en moyenne : le test n’a pas distingué les paillages la première année. Il reste utile en complément de la VESS, parce qu’il est très rapide.\nComme pour les autres indicateurs du sol, c’est l’évolution d’une année à l’autre qui compte."
+  },
+  {
+    "objectID": "protocoles/stabilite-agregats/index.html#erreurs-fréquentes",
+    "href": "protocoles/stabilite-agregats/index.html#erreurs-fréquentes",
+    "title": "Tester la stabilité des mottes de terre dans l’eau",
+    "section": "Erreurs fréquentes",
+    "text": "Erreurs fréquentes\n\nPrélever sous le paillis sans le retirer, ou prendre des débris de paillis à la place de la terre.\nTester trop peu d’agrégats : la méthode d’origine en demande 9 par parcelle. Nous en avons pris 3 parce que nos parcelles étaient très petites.\nUtiliser l’eau du robinet au lieu d’eau déminéralisée : la méthode utilise de l’eau déminéralisée."
+  },
+  {
+    "objectID": "protocoles/stabilite-agregats/index.html#dans-nos-essais",
+    "href": "protocoles/stabilite-agregats/index.html#dans-nos-essais",
+    "title": "Tester la stabilité des mottes de terre dans l’eau",
+    "section": "Dans nos essais",
+    "text": "Dans nos essais\nÀ la ferme universitaire de Lauzelle, nous avons testé 3 agrégats sur chacune des 30 parcelles paillées, le 28 mai 2025. Les scores, tous élevés, ne différaient pas entre paillages. Le mémoire recommande de garder ce test en complément de la VESS et de prélever les agrégats pendant le même échantillonnage.\n\n\n\n\n\n\nEssai\n\n\n\nSaison\n\n\n\nCulture\n\n\n\n\n\n\n\n\nPaillages en maraîchage bio : bilan de la première année\n\n\n2024–2025\n\n\nÉpinard\n\n\n\n\n\n\nAucun article correspondant"
+  },
+  {
+    "objectID": "protocoles/stabilite-agregats/index.html#sources",
+    "href": "protocoles/stabilite-agregats/index.html#sources",
+    "title": "Tester la stabilité des mottes de terre dans l’eau",
+    "section": "Sources",
+    "text": "Sources\n\nMéthode USDA de stabilité des agrégats, décrite par le projet ProSensols (2023).\nMémoire d’Eliot Vas (2025) : méthode p. 35–37, résultats p. 49–50, évaluation p. 73 et 77."
   }
 ]
