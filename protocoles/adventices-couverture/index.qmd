@@ -1,0 +1,89 @@
+---
+title: "Mesurer la couverture d'adventices et de la culture"
+date: 2026-11-19
+objectif: "Chiffrer la place prise par les adventices et le développement de la culture, avec un cadre grillagé ou une photo, pour comparer deux pratiques."
+categories: [Adventices, Suivi des cultures, Paillage]
+difficulte: Facile
+duree: "≈ 15 min par parcelle"
+cout: "≈ 0 € (cadre fait maison, application gratuite)"
+periode: "Au printemps, avant le désherbage, quand la culture est bien installée"
+image: ../../fiches/2026-paillage-epinard-laitue/photo.jpg
+auteurs: "PEPA Lab, d'après les mémoires d'Eliot Vas (2025) et Pierre-André Peters-Dickie (2026)"
+sources: "Méthode du cadre grillagé de Wilmus (2021) ; application Canopeo ; mémoires Vas (2025) et Peters-Dickie (2026)"
+listing:
+  id: essais
+  type: table
+  contents:
+    - ../../fiches/2025-paillage-epinard-oignon/index.qmd
+    - ../../fiches/2026-paillage-epinard-laitue/index.qmd
+  fields: [title, annee, culture]
+  field-display-names: {title: Essai, annee: Saison, culture: Culture}
+  sort-ui: false
+  filter-ui: false
+---
+
+{{< include /_includes/protocole-identite.qmd >}}
+
+## À quoi ça sert
+
+Pour savoir si un paillage limite vraiment les adventices, ou si une culture se développe mieux sur une planche que sur une autre, il faut des chiffres comparables. Le **cadre grillagé** permet de compter la surface occupée par les adventices et de les identifier. Une **photo analysée avec l'application Canopeo** donne en quelques secondes le pourcentage de sol couvert par du vert. Le cadre est plus fiable, la photo plus rapide.
+
+## Matériel
+
+- Un **cadre en bois de 71 cm de côté**, tendu d'un grillage ou de ficelles qui le divisent en **196 cases de 5 × 5 cm** (14 × 14). Il couvre **0,5 m²**.
+- Un smartphone avec l'application **Canopeo** (gratuite, iOS et Android)
+- Pour identifier les espèces : une application de reconnaissance (PlantNet, PictureThis) et, idéalement, une personne formée à la botanique
+- La [fiche de relevé](fiche-releve.csv)
+
+## Étapes : cadre grillagé (adventices)
+
+1. **Poser le cadre au centre de la parcelle**, toujours au même endroit d'une date à l'autre.
+2. **Noter chaque case** : **1** si au moins la moitié de la case est couverte par une adventice, **0** sinon.
+3. **Compter les cases notées 1** et calculer le pourcentage de surface couverte (calculateur ci-dessous).
+4. **Identifier les espèces** présentes dans le cadre et compter les pieds de chacune. Les applications reconnaissent souvent le genre, mais se trompent sur l'espèce, surtout chez les plantules : faites vérifier par une personne compétente.
+
+## Étapes : photo Canopeo (couverture totale)
+
+1. **Prendre la photo à la verticale**, au-dessus de la planche. En 2025, nous l'avons prise à hauteur d'épaule (environ 1,40 m). En 2026, nous avons plutôt cadré pour que **les bords de la parcelle soient juste en dehors de la photo**, parce que la surface photographiée varie selon le téléphone.
+2. **Faire 3 photos par parcelle**, une dans chaque tiers, toujours dans le même ordre, et en faire la moyenne (méthode 2026).
+3. **Choisir des conditions comparables** : évitez le plein soleil et les heures qui suivent une pluie (feuillage ou sol mouillé). Ces situations faussent le résultat vers le haut.
+4. **Lire le pourcentage** de couverture donné par l'application. Utilisez le facteur de correction de l'application avec parcimonie, et toujours de la même façon.
+
+## Calculateur (cadre grillagé)
+
+```{ojs}
+//| echo: false
+viewof cases = Inputs.range([0, 196], {label: "Cases notées 1 (sur 196)", step: 1, value: 40})
+html`<div class="vess-resultat">Surface couverte par les adventices : <b>${(cases / 196 * 100).toFixed(1)} %</b> du cadre (0,5 m²).</div>`
+```
+
+*Pourcentage = cases notées 1 ÷ 196 × 100 (mémoire Vas, 2025, p. 42–43).*
+
+## Fiche de relevé
+
+Téléchargez la [fiche de relevé (CSV)](fiche-releve.csv). Notez une ligne par parcelle et par date. Les espèces identifiées vont dans la colonne `especes`, avec leur nombre de pieds.
+
+## Lire les résultats
+
+- **Cadre** : comparez le pourcentage de cases couvertes et le **nombre d'espèces** entre pratiques. En 2025, sous **BRF et bâche plastique**, il y avait moins d'espèces d'adventices que sur les parcelles restées nues.
+- **Canopeo** ne distingue pas la culture des adventices : le résultat n'a de sens pour la culture que si les adventices ont été retirées peu avant.
+- Les deux méthodes se combinent : le **même cadre grillagé** peut servir à noter aussi les cases couvertes par la culture.
+
+## Erreurs fréquentes
+
+- **Mesurer juste après un désherbage** : il n'y a plus rien à compter. En 2026, il a fallu laisser les parcelles se salir volontairement avant la mesure.
+- **Changer la hauteur ou le cadrage des photos** d'une date à l'autre.
+- **Se fier uniquement aux applications** pour nommer les espèces.
+
+## Dans nos essais
+
+À la ferme universitaire de Lauzelle, le cadre grillagé a servi sur les 30 parcelles paillées en **mai 2025**, et Canopeo en **avril–mai 2025** puis à **quatre dates en mai 2026**. Le mémoire de 2025 juge le cadre pratique, rapide et reproductible, et Canopeo très rapide mais sensible à la lumière et à l'angle de prise de vue.
+
+::: {#essais}
+:::
+
+## Sources
+
+- Méthode du cadre grillagé : Wilmus (2021), citée par Vas (2025).
+- Mémoire d'Eliot Vas (2025) : méthode p. 42–44, résultats p. 56–58, évaluation p. 75 et 77.
+- Mémoire de Pierre-André Peters-Dickie (2026) : améliorations de la prise de vue Canopeo, p. 32–33 ; adaptation de la méthode des adventices, p. 34.

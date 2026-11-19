@@ -59,7 +59,7 @@ Pour prévisualiser en local : `quarto preview`.
 ## Vocabulaire contrôlé (pour que les filtres restent propres)
 
 **Thèmes** : Paillage · Gestion de l'eau · Fertilisation · Couverts végétaux · Travail du sol ·
-Variétés · Santé du sol · Protection des cultures · Associations de cultures · Qualité nutritionnelle · Économie
+Variétés · Santé du sol · Protection des cultures · Adventices · Associations de cultures · Suivi des cultures · Qualité nutritionnelle · Économie
 
 **Cultures** : utiliser le nom commun au singulier (Tomate, Laitue, Carotte, Poireau, Courge, Chou…).
 

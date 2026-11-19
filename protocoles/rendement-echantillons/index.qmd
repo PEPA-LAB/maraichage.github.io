@@ -1,0 +1,87 @@
+---
+title: "Estimer le rendement d'une planche en pesant des échantillons"
+date: 2026-11-19
+objectif: "Comparer le rendement de deux pratiques sans tout récolter et tout peser, à partir de quelques échantillons de plants pesés sur place."
+categories: [Suivi des cultures, Économie]
+difficulte: Facile
+duree: "≈ 15 min par planche"
+cout: "≈ 0 € (une balance)"
+periode: "À la récolte"
+image: ../../fiches/2025-paillage-epinard-oignon/photo.jpg
+auteurs: "PEPA Lab, d'après le mémoire d'Eliot Vas (2025)"
+sources: "Mémoire Vas (2025), p. 44 et 75"
+listing:
+  id: essais
+  type: table
+  contents:
+    - ../../fiches/2025-paillage-epinard-oignon/index.qmd
+  fields: [title, annee, culture]
+  field-display-names: {title: Essai, annee: Saison, culture: Culture}
+  sort-ui: false
+  filter-ui: false
+---
+
+{{< include /_includes/protocole-identite.qmd >}}
+
+## À quoi ça sert
+
+Pour savoir si une pratique (un paillage, une variété, une fertilisation) change le rendement, il n'est pas nécessaire de peser toute la récolte. Il suffit de peser **quelques groupes de plants pris à différents endroits** de chaque planche. Dans notre essai, cette méthode s'est montrée **fiable, reproductible et rapide**, et elle a fait ressortir des différences nettes entre paillages.
+
+## Matériel
+
+- Une **balance**, de précision adaptée au légume (quelques grammes pour des feuilles)
+- Des **caisses ou sacs** numérotés
+- Un couteau de récolte
+- La [fiche de relevé](fiche-releve.csv)
+
+## Étapes
+
+1. **Définir les zones d'échantillonnage.** Par planche, choisissez **3 zones** réparties au hasard, pour représenter toute la surface. Évitez les bords.
+2. **Récolter un groupe de 9 plants** voisins dans chaque zone.
+3. **Peser sur place**, aussitôt la récolte faite, pour avoir la masse fraîche avant que les feuilles ne sèchent.
+4. **Noter le nombre de plants et la masse** de chaque échantillon.
+5. **Recommencer sur chaque planche à comparer**, le même jour et de la même façon.
+6. **Ramener au plant ou au mètre carré** avec le calculateur, en indiquant la densité de plantation.
+
+## Calculateur
+
+```{ojs}
+//| echo: false
+viewof m1 = Inputs.range([0, 5000], {label: "Échantillon 1 (g)", step: 10, value: 900})
+viewof m2 = Inputs.range([0, 5000], {label: "Échantillon 2 (g)", step: 10, value: 1000})
+viewof m3 = Inputs.range([0, 5000], {label: "Échantillon 3 (g)", step: 10, value: 800})
+viewof n = Inputs.range([1, 30], {label: "Plants par échantillon", step: 1, value: 9})
+viewof densite = Inputs.range([1, 100], {label: "Plants par m²", step: 1, value: 30})
+parPlant = (m1 + m2 + m3) / (3 * n)
+html`<div class="vess-resultat">Masse moyenne : <b>${parPlant.toFixed(0)} g par plant</b>, soit environ <b>${(parPlant * densite / 1000).toFixed(2)} kg/m²</b> (${(parPlant * densite / 100).toFixed(1)} t/ha) pour ${densite} plants/m².</div>`
+```
+
+*Rendement ≈ masse moyenne par plant × nombre de plants par m². Le résultat suppose que tous les plants de la planche ont été récoltables.*
+
+## Fiche de relevé
+
+Téléchargez la [fiche de relevé (CSV)](fiche-releve.csv) : une ligne par échantillon (3 par planche).
+
+## Lire les résultats
+
+- **Comparez des planches récoltées le même jour**, au même stade.
+- Regardez l'écart entre les 3 échantillons d'une même planche : s'il est aussi grand que l'écart entre deux pratiques, la différence n'est pas fiable.
+- En 2025, dans notre essai, les épinards sur **bâche plastique** étaient environ **6 fois plus lourds** que sur **miscanthus** posé sur un sol non travaillé.
+
+## Erreurs fréquentes
+
+- **Choisir les plus beaux plants** au lieu de zones tirées au hasard.
+- **Peser longtemps après la récolte** : les légumes-feuilles perdent de l'eau et du poids.
+- **Comparer des planches de densités différentes** sans ramener au mètre carré.
+
+## Dans nos essais
+
+À la ferme universitaire de Lauzelle, nous avons pesé 3 échantillons de 9 épinards sur chacune des parcelles paillées le **16 mai 2025**, soit environ 20,5 kg d'échantillons. Les épinards étaient plantés en 5 rangs par parcelle, à 15 cm sur le rang.
+
+::: {#essais}
+:::
+
+## Sources
+
+- Mémoire d'Eliot Vas (2025) : méthode p. 44, plantation p. 32, évaluation p. 75 et 77.
+- Résultat bâche / miscanthus : fiche « Paillages en maraîchage bio : bilan de la première année ».
