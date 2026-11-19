@@ -27,41 +27,6 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for syntax highlighting */
-html { -webkit-text-size-adjust: 100%; }
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
-}
 </style>
 
 
@@ -142,8 +107,6 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 background-size: cover;
       }
 </style>
-<script type="module" src="../../site_libs/quarto-ojs/quarto-ojs-runtime.js"></script>
-<link href="../../site_libs/quarto-ojs/quarto-ojs.css" rel="stylesheet">
 
   <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
   <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
@@ -274,7 +237,6 @@ window.Quarto = {
   <li><a href="#matériel" id="toc-matériel" class="nav-link" data-scroll-target="#matériel">Matériel</a></li>
   <li><a href="#étapes-cadre-grillagé-adventices" id="toc-étapes-cadre-grillagé-adventices" class="nav-link" data-scroll-target="#étapes-cadre-grillagé-adventices">Étapes : cadre grillagé (adventices)</a></li>
   <li><a href="#étapes-photo-canopeo-couverture-totale" id="toc-étapes-photo-canopeo-couverture-totale" class="nav-link" data-scroll-target="#étapes-photo-canopeo-couverture-totale">Étapes : photo Canopeo (couverture totale)</a></li>
-  <li><a href="#calculateur-cadre-grillagé" id="toc-calculateur-cadre-grillagé" class="nav-link" data-scroll-target="#calculateur-cadre-grillagé">Calculateur (cadre grillagé)</a></li>
   <li><a href="#fiche-de-relevé" id="toc-fiche-de-relevé" class="nav-link" data-scroll-target="#fiche-de-relevé">Fiche de relevé</a></li>
   <li><a href="#lire-les-résultats" id="toc-lire-les-résultats" class="nav-link" data-scroll-target="#lire-les-résultats">Lire les résultats</a></li>
   <li><a href="#erreurs-fréquentes" id="toc-erreurs-fréquentes" class="nav-link" data-scroll-target="#erreurs-fréquentes">Erreurs fréquentes</a></li>
@@ -317,7 +279,7 @@ window.Quarto = {
 <ol type="1">
 <li><strong>Poser le cadre au centre de la parcelle</strong>, toujours au même endroit d’une date à l’autre.</li>
 <li><strong>Noter chaque case</strong> : <strong>1</strong> si au moins la moitié de la case est couverte par une adventice, <strong>0</strong> sinon.</li>
-<li><strong>Compter les cases notées 1</strong> et calculer le pourcentage de surface couverte (calculateur ci-dessous).</li>
+<li><strong>Compter les cases notées 1</strong> et calculez le pourcentage de surface couverte : cases notées 1 ÷ 196 × 100.</li>
 <li><strong>Identifier les espèces</strong> présentes dans le cadre et compter les pieds de chacune. Les applications reconnaissent souvent le genre, mais se trompent sur l’espèce, surtout chez les plantules : faites vérifier par une personne compétente.</li>
 </ol>
 </section>
@@ -329,31 +291,6 @@ window.Quarto = {
 <li><strong>Choisir des conditions comparables</strong> : évitez le plein soleil et les heures qui suivent une pluie (feuillage ou sol mouillé). Ces situations faussent le résultat vers le haut.</li>
 <li><strong>Lire le pourcentage</strong> de couverture donné par l’application. Utilisez le facteur de correction de l’application avec parcimonie, et toujours de la même façon.</li>
 </ol>
-</section>
-<section id="calculateur-cadre-grillagé" class="level2">
-<h2 class="anchored" data-anchor-id="calculateur-cadre-grillagé">Calculateur (cadre grillagé)</h2>
-<div class="cell">
-<details class="code-fold hidden">
-<summary>Code</summary>
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code hidden" id="cb1" data-startfrom="56" data-source-offset="-0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 55;"><span id="cb1-56"><a href="#cb1-56" aria-hidden="true" tabindex="-1"></a>viewof cases <span class="op">=</span> Inputs<span class="op">.</span><span class="fu">range</span>([<span class="dv">0</span><span class="op">,</span> <span class="dv">196</span>]<span class="op">,</span> {<span class="dt">label</span><span class="op">:</span> <span class="st">"Cases notées 1 (sur 196)"</span><span class="op">,</span> <span class="dt">step</span><span class="op">:</span> <span class="dv">1</span><span class="op">,</span> <span class="dt">value</span><span class="op">:</span> <span class="dv">40</span>})</span>
-<span id="cb1-57"><a href="#cb1-57" aria-hidden="true" tabindex="-1"></a><span class="fu">html</span><span class="vs">`&lt;div class="vess-resultat"&gt;Surface couverte par les adventices : &lt;b&gt;</span><span class="sc">${</span>(cases <span class="op">/</span> <span class="dv">196</span> <span class="op">*</span> <span class="dv">100</span>)<span class="op">.</span><span class="fu">toFixed</span>(<span class="dv">1</span>)<span class="sc">}</span><span class="vs"> %&lt;/b&gt; du cadre (0,5 m²).&lt;/div&gt;`</span></span></code></pre></div><button title="Copier vers le presse-papier" class="code-copy-button"><i class="bi"></i></button></div>
-</details>
-<div class="cell-output cell-output-display">
-<div>
-<div id="ojs-cell-1-1" data-nodetype="declaration">
-
-</div>
-</div>
-</div>
-<div class="cell-output cell-output-display">
-<div>
-<div id="ojs-cell-1-2" data-nodetype="expression">
-
-</div>
-</div>
-</div>
-</div>
-<p><em>Pourcentage = cases notées 1 ÷ 196 × 100 (mémoire Vas, 2025, p.&nbsp;42–43).</em></p>
 </section>
 <section id="fiche-de-relevé" class="level2">
 <h2 class="anchored" data-anchor-id="fiche-de-relevé">Fiche de relevé</h2>
@@ -453,17 +390,6 @@ Culture
 </section>
 
 <div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-reuse"><h2 class="anchored quarto-appendix-heading">Réutilisation</h2><div class="quarto-appendix-contents"><div><a rel="license" href="https://creativecommons.org/licenses/by/4.0/deed.fr">CC BY 4.0</a></div></div></section></div></main> <!-- /main -->
-<script type="ojs-module-contents">
-eyJjb250ZW50cyI6W3sibWV0aG9kTmFtZSI6ImludGVycHJldCIsImNlbGxOYW1lIjoib2pzLWNlbGwtMSIsImlubGluZSI6ZmFsc2UsInNvdXJjZSI6InZpZXdvZiBjYXNlcyA9IElucHV0cy5yYW5nZShbMCwgMTk2XSwge2xhYmVsOiBcIkNhc2VzIG5vdMOpZXMgMSAoc3VyIDE5NilcIiwgc3RlcDogMSwgdmFsdWU6IDQwfSlcbmh0bWxgPGRpdiBjbGFzcz1cInZlc3MtcmVzdWx0YXRcIj5TdXJmYWNlIGNvdXZlcnRlIHBhciBsZXMgYWR2ZW50aWNlcyA6IDxiPiR7KGNhc2VzIC8gMTk2ICogMTAwKS50b0ZpeGVkKDEpfSAlPC9iPiBkdSBjYWRyZSAoMCw1IG3CsikuPC9kaXY+YFxuIn0seyJtZXRob2ROYW1lIjoiaW50ZXJwcmV0UXVpZXQiLCJzb3VyY2UiOiJzaGlueUlucHV0KCdjYXNlcycpIn1dfQ==
-</script>
-<script type="module">
-if (window.location.protocol === "file:") { alert("The OJS runtime does not work with file:// URLs. Please use a web server to view this document."); }
-window._ojs.paths.runtimeToDoc = "../../protocoles/adventices-couverture";
-window._ojs.paths.runtimeToRoot = "../..";
-window._ojs.paths.docToRoot = "../..";
-window._ojs.selfContained = false;
-window._ojs.runtime.interpretFromScriptTags();
-</script>
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";

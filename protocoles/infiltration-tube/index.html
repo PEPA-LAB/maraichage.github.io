@@ -27,41 +27,6 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for syntax highlighting */
-html { -webkit-text-size-adjust: 100%; }
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
-}
 </style>
 
 
@@ -142,8 +107,6 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 background-size: cover;
       }
 </style>
-<script type="module" src="../../site_libs/quarto-ojs/quarto-ojs-runtime.js"></script>
-<link href="../../site_libs/quarto-ojs/quarto-ojs.css" rel="stylesheet">
 
   <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
   <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
@@ -272,7 +235,6 @@ window.Quarto = {
   <li><a href="#à-quoi-ça-sert" id="toc-à-quoi-ça-sert" class="nav-link active" data-scroll-target="#à-quoi-ça-sert">À quoi ça sert</a></li>
   <li><a href="#matériel" id="toc-matériel" class="nav-link" data-scroll-target="#matériel">Matériel</a></li>
   <li><a href="#étapes" id="toc-étapes" class="nav-link" data-scroll-target="#étapes">Étapes</a></li>
-  <li><a href="#calculateur" id="toc-calculateur" class="nav-link" data-scroll-target="#calculateur">Calculateur</a></li>
   <li><a href="#fiche-de-relevé" id="toc-fiche-de-relevé" class="nav-link" data-scroll-target="#fiche-de-relevé">Fiche de relevé</a></li>
   <li><a href="#lire-les-résultats" id="toc-lire-les-résultats" class="nav-link" data-scroll-target="#lire-les-résultats">Lire les résultats</a>
   <ul class="collapse">
@@ -321,41 +283,8 @@ window.Quarto = {
 <li><strong>Saturer le sol</strong> : versez <strong>1,25 L d’eau</strong> dans le tube et lancez le chronomètre.</li>
 <li><strong>Si toute l’eau a disparu en moins de 15 minutes</strong> : versez à nouveau <strong>1,25 L</strong>, mesurez aussitôt la <strong>hauteur d’eau</strong> dans le tube (temps 0), puis à nouveau <strong>5 minutes plus tard</strong>.</li>
 <li><strong>Si l’eau n’a pas disparu après 15 minutes</strong> : mesurez la hauteur d’eau <strong>à 15 minutes</strong>, puis <strong>à 20 minutes</strong>.</li>
-<li><strong>Noter la baisse du niveau</strong> (en cm) sur les 5 minutes de mesure. Le calculateur la convertit en mm/h.</li>
+<li><strong>Noter la baisse du niveau</strong> (en cm) sur les 5 minutes de mesure. Pour l’exprimer en mm/h, multipliez-la par 120 (× 10 pour passer en mm, × 12 pour passer de 5 minutes à une heure). Par exemple, 2 cm en 5 minutes = 240 mm/h.</li>
 </ol>
-</section>
-<section id="calculateur" class="level2">
-<h2 class="anchored" data-anchor-id="calculateur">Calculateur</h2>
-<div class="cell">
-<details class="code-fold hidden">
-<summary>Code</summary>
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code hidden" id="cb1" data-startfrom="49" data-source-offset="-0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 48;"><span id="cb1-49"><a href="#cb1-49" aria-hidden="true" tabindex="-1"></a>viewof baisse <span class="op">=</span> Inputs<span class="op">.</span><span class="fu">range</span>([<span class="dv">0</span><span class="op">,</span> <span class="dv">15</span>]<span class="op">,</span> {<span class="dt">label</span><span class="op">:</span> <span class="st">"Baisse du niveau en 5 min (cm)"</span><span class="op">,</span> <span class="dt">step</span><span class="op">:</span> <span class="fl">0.1</span><span class="op">,</span> <span class="dt">value</span><span class="op">:</span> <span class="dv">2</span>})</span>
-<span id="cb1-50"><a href="#cb1-50" aria-hidden="true" tabindex="-1"></a>vitesse <span class="op">=</span> baisse <span class="op">*</span> <span class="dv">10</span> <span class="op">*</span> <span class="dv">12</span></span>
-<span id="cb1-51"><a href="#cb1-51" aria-hidden="true" tabindex="-1"></a><span class="fu">html</span><span class="vs">`&lt;div class="vess-resultat"&gt;Vitesse d'infiltration : &lt;b&gt;</span><span class="sc">${</span>baisse<span class="op">.</span><span class="fu">toFixed</span>(<span class="dv">1</span>)<span class="sc">}</span><span class="vs"> cm / 5 min&lt;/b&gt;, soit &lt;b&gt;</span><span class="sc">${</span><span class="bu">Math</span><span class="op">.</span><span class="fu">round</span>(vitesse)<span class="sc">}</span><span class="vs"> mm/h&lt;/b&gt;.&lt;/div&gt;`</span></span></code></pre></div><button title="Copier vers le presse-papier" class="code-copy-button"><i class="bi"></i></button></div>
-</details>
-<div class="cell-output cell-output-display">
-<div>
-<div id="ojs-cell-1-1" data-nodetype="declaration">
-
-</div>
-</div>
-</div>
-<div class="cell-output cell-output-display">
-<div>
-<div id="ojs-cell-1-2" data-nodetype="declaration">
-
-</div>
-</div>
-</div>
-<div class="cell-output cell-output-display">
-<div>
-<div id="ojs-cell-1-3" data-nodetype="expression">
-
-</div>
-</div>
-</div>
-</div>
-<p><em>Conversion : cm par 5 minutes × 10 (mm/cm) × 12 (périodes de 5 min par heure) = mm/h. Le mémoire exprime ses résultats dans ces deux unités.</em></p>
 </section>
 <section id="fiche-de-relevé" class="level2">
 <h2 class="anchored" data-anchor-id="fiche-de-relevé">Fiche de relevé</h2>
@@ -445,17 +374,6 @@ Culture
 </section>
 
 <div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-reuse"><h2 class="anchored quarto-appendix-heading">Réutilisation</h2><div class="quarto-appendix-contents"><div><a rel="license" href="https://creativecommons.org/licenses/by/4.0/deed.fr">CC BY 4.0</a></div></div></section></div></main> <!-- /main -->
-<script type="ojs-module-contents">
-eyJjb250ZW50cyI6W3sibWV0aG9kTmFtZSI6ImludGVycHJldCIsImNlbGxOYW1lIjoib2pzLWNlbGwtMSIsImlubGluZSI6ZmFsc2UsInNvdXJjZSI6InZpZXdvZiBiYWlzc2UgPSBJbnB1dHMucmFuZ2UoWzAsIDE1XSwge2xhYmVsOiBcIkJhaXNzZSBkdSBuaXZlYXUgZW4gNSBtaW4gKGNtKVwiLCBzdGVwOiAwLjEsIHZhbHVlOiAyfSlcbnZpdGVzc2UgPSBiYWlzc2UgKiAxMCAqIDEyXG5odG1sYDxkaXYgY2xhc3M9XCJ2ZXNzLXJlc3VsdGF0XCI+Vml0ZXNzZSBkJ2luZmlsdHJhdGlvbiA6IDxiPiR7YmFpc3NlLnRvRml4ZWQoMSl9IGNtIC8gNSBtaW48L2I+LCBzb2l0IDxiPiR7TWF0aC5yb3VuZCh2aXRlc3NlKX0gbW0vaDwvYj4uPC9kaXY+YFxuIn0seyJtZXRob2ROYW1lIjoiaW50ZXJwcmV0UXVpZXQiLCJzb3VyY2UiOiJzaGlueUlucHV0KCdiYWlzc2UnKSJ9XX0=
-</script>
-<script type="module">
-if (window.location.protocol === "file:") { alert("The OJS runtime does not work with file:// URLs. Please use a web server to view this document."); }
-window._ojs.paths.runtimeToDoc = "../../protocoles/infiltration-tube";
-window._ojs.paths.runtimeToRoot = "../..";
-window._ojs.paths.docToRoot = "../..";
-window._ojs.selfContained = false;
-window._ojs.runtime.interpretFromScriptTags();
-</script>
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";

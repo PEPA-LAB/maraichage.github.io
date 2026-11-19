@@ -27,41 +27,6 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for syntax highlighting */
-html { -webkit-text-size-adjust: 100%; }
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
-}
 </style>
 
 
@@ -142,8 +107,6 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 background-size: cover;
       }
 </style>
-<script type="module" src="../../site_libs/quarto-ojs/quarto-ojs-runtime.js"></script>
-<link href="../../site_libs/quarto-ojs/quarto-ojs.css" rel="stylesheet">
 
   <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
   <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
@@ -271,7 +234,6 @@ window.Quarto = {
   <li><a href="#à-quoi-ça-sert" id="toc-à-quoi-ça-sert" class="nav-link active" data-scroll-target="#à-quoi-ça-sert">À quoi ça sert</a></li>
   <li><a href="#matériel" id="toc-matériel" class="nav-link" data-scroll-target="#matériel">Matériel</a></li>
   <li><a href="#étapes" id="toc-étapes" class="nav-link" data-scroll-target="#étapes">Étapes</a></li>
-  <li><a href="#calculateurs" id="toc-calculateurs" class="nav-link" data-scroll-target="#calculateurs">Calculateurs</a></li>
   <li><a href="#fiche-de-relevé" id="toc-fiche-de-relevé" class="nav-link" data-scroll-target="#fiche-de-relevé">Fiche de relevé</a></li>
   <li><a href="#lire-les-résultats" id="toc-lire-les-résultats" class="nav-link" data-scroll-target="#lire-les-résultats">Lire les résultats</a></li>
   <li><a href="#erreurs-fréquentes" id="toc-erreurs-fréquentes" class="nav-link" data-scroll-target="#erreurs-fréquentes">Erreurs fréquentes</a></li>
@@ -324,95 +286,9 @@ window.Quarto = {
 <li><strong>Bien tasser la terre autour</strong>, en contact avec la paroi et sans laisser de vide : l’eau ne passe que là où la terre touche le pot.</li>
 <li><strong>Remplir l’oya à ras</strong> le jour de la plantation, poser le couvercle, et <strong>arroser aussi les plants au pied</strong> (nous avons donné 0,25 L par chou et 0,5 L par tomate). Pendant les premières semaines, les racines n’atteignent pas encore l’oya : un arrosage d’appoint peut être nécessaire.</li>
 <li><strong>Remplir régulièrement.</strong> Comptez <strong>2 fois par semaine</strong> au printemps et en été. Notez à chaque fois le volume ajouté pour refaire le plein. Pour une efficience maximale, la littérature conseille de remplir avant que l’oya ait perdu plus d’un quart de son volume.</li>
-<li><strong>Mesurer en fin de saison.</strong> Après la récolte, mesurez l’eau qui reste dans chaque oya. Calculez ensuite sa consommation avec le calculateur ci-dessous.</li>
+<li><strong>Mesurer en fin de saison.</strong> Après la récolte, mesurez l’eau qui reste dans chaque oya. Sa consommation sur la saison = premier remplissage + somme des remplissages suivants − eau restante (méthode du mémoire de Gaëlle Hanssens). Divisez par 4 pour obtenir l’eau reçue par plant.</li>
 <li><strong>Entretenir.</strong> Videz et sortez les oyas avant l’hiver. Brossez-les si un dépôt blanc (calcaire, sels) bouche la surface.</li>
 </ol>
-</section>
-<section id="calculateurs" class="level2">
-<h2 class="anchored" data-anchor-id="calculateurs">Calculateurs</h2>
-<div class="cell">
-<details class="code-fold hidden">
-<summary>Code</summary>
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code hidden" id="cb1" data-startfrom="57" data-source-offset="-0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 56;"><span id="cb1-57"><a href="#cb1-57" aria-hidden="true" tabindex="-1"></a>viewof plants <span class="op">=</span> Inputs<span class="op">.</span><span class="fu">range</span>([<span class="dv">4</span><span class="op">,</span> <span class="dv">400</span>]<span class="op">,</span> {<span class="dt">label</span><span class="op">:</span> <span class="st">"Nombre de plants"</span><span class="op">,</span> <span class="dt">step</span><span class="op">:</span> <span class="dv">4</span><span class="op">,</span> <span class="dt">value</span><span class="op">:</span> <span class="dv">40</span>})</span>
-<span id="cb1-58"><a href="#cb1-58" aria-hidden="true" tabindex="-1"></a>viewof prix <span class="op">=</span> Inputs<span class="op">.</span><span class="fu">range</span>([<span class="dv">10</span><span class="op">,</span> <span class="dv">60</span>]<span class="op">,</span> {<span class="dt">label</span><span class="op">:</span> <span class="st">"Prix d'un oya (€)"</span><span class="op">,</span> <span class="dt">step</span><span class="op">:</span> <span class="dv">1</span><span class="op">,</span> <span class="dt">value</span><span class="op">:</span> <span class="dv">30</span>})</span>
-<span id="cb1-59"><a href="#cb1-59" aria-hidden="true" tabindex="-1"></a>nOyas <span class="op">=</span> <span class="bu">Math</span><span class="op">.</span><span class="fu">ceil</span>(plants <span class="op">/</span> <span class="dv">4</span>)</span>
-<span id="cb1-60"><a href="#cb1-60" aria-hidden="true" tabindex="-1"></a><span class="fu">html</span><span class="vs">`&lt;div class="vess-resultat"&gt;&lt;b&gt;</span><span class="sc">${</span>nOyas<span class="sc">}</span><span class="vs"> oyas&lt;/b&gt; pour </span><span class="sc">${</span>plants<span class="sc">}</span><span class="vs"> plants (1 oya pour 4 plants), soit un investissement d'environ &lt;b&gt;</span><span class="sc">${</span>(nOyas <span class="op">*</span> prix)<span class="op">.</span><span class="fu">toLocaleString</span>(<span class="st">"fr-BE"</span>)<span class="sc">}</span><span class="vs"> €&lt;/b&gt;, réutilisable plusieurs saisons.&lt;/div&gt;`</span></span></code></pre></div><button title="Copier vers le presse-papier" class="code-copy-button"><i class="bi"></i></button></div>
-</details>
-<div class="cell-output cell-output-display">
-<div>
-<div id="ojs-cell-1-1" data-nodetype="declaration">
-
-</div>
-</div>
-</div>
-<div class="cell-output cell-output-display">
-<div>
-<div id="ojs-cell-1-2" data-nodetype="declaration">
-
-</div>
-</div>
-</div>
-<div class="cell-output cell-output-display">
-<div>
-<div id="ojs-cell-1-3" data-nodetype="declaration">
-
-</div>
-</div>
-</div>
-<div class="cell-output cell-output-display">
-<div>
-<div id="ojs-cell-1-4" data-nodetype="expression">
-
-</div>
-</div>
-</div>
-</div>
-<div class="cell">
-<details class="code-fold hidden">
-<summary>Code</summary>
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code hidden" id="cb2" data-startfrom="65" data-source-offset="-0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 64;"><span id="cb2-65"><a href="#cb2-65" aria-hidden="true" tabindex="-1"></a>viewof initial <span class="op">=</span> Inputs<span class="op">.</span><span class="fu">range</span>([<span class="dv">0</span><span class="op">,</span> <span class="dv">20</span>]<span class="op">,</span> {<span class="dt">label</span><span class="op">:</span> <span class="st">"Premier remplissage (L)"</span><span class="op">,</span> <span class="dt">step</span><span class="op">:</span> <span class="fl">0.5</span><span class="op">,</span> <span class="dt">value</span><span class="op">:</span> <span class="dv">5</span>})</span>
-<span id="cb2-66"><a href="#cb2-66" aria-hidden="true" tabindex="-1"></a>viewof ajouts <span class="op">=</span> Inputs<span class="op">.</span><span class="fu">range</span>([<span class="dv">0</span><span class="op">,</span> <span class="dv">200</span>]<span class="op">,</span> {<span class="dt">label</span><span class="op">:</span> <span class="st">"Total des remplissages suivants (L)"</span><span class="op">,</span> <span class="dt">step</span><span class="op">:</span> <span class="fl">0.5</span><span class="op">,</span> <span class="dt">value</span><span class="op">:</span> <span class="dv">45</span>})</span>
-<span id="cb2-67"><a href="#cb2-67" aria-hidden="true" tabindex="-1"></a>viewof reste <span class="op">=</span> Inputs<span class="op">.</span><span class="fu">range</span>([<span class="dv">0</span><span class="op">,</span> <span class="dv">20</span>]<span class="op">,</span> {<span class="dt">label</span><span class="op">:</span> <span class="st">"Eau restante en fin de saison (L)"</span><span class="op">,</span> <span class="dt">step</span><span class="op">:</span> <span class="fl">0.5</span><span class="op">,</span> <span class="dt">value</span><span class="op">:</span> <span class="dv">2</span>})</span>
-<span id="cb2-68"><a href="#cb2-68" aria-hidden="true" tabindex="-1"></a>conso <span class="op">=</span> initial <span class="op">+</span> ajouts <span class="op">-</span> reste</span>
-<span id="cb2-69"><a href="#cb2-69" aria-hidden="true" tabindex="-1"></a><span class="fu">html</span><span class="vs">`&lt;div class="vess-resultat"&gt;Consommation de l'oya sur la saison : &lt;b&gt;</span><span class="sc">${</span>conso<span class="op">.</span><span class="fu">toFixed</span>(<span class="dv">1</span>)<span class="sc">}</span><span class="vs"> L&lt;/b&gt;, soit &lt;b&gt;</span><span class="sc">${</span>(conso <span class="op">/</span> <span class="dv">4</span>)<span class="op">.</span><span class="fu">toFixed</span>(<span class="dv">1</span>)<span class="sc">}</span><span class="vs"> L par plant&lt;/b&gt; (4 plants par oya).&lt;/div&gt;`</span></span></code></pre></div><button title="Copier vers le presse-papier" class="code-copy-button"><i class="bi"></i></button></div>
-</details>
-<div class="cell-output cell-output-display">
-<div>
-<div id="ojs-cell-2-1" data-nodetype="declaration">
-
-</div>
-</div>
-</div>
-<div class="cell-output cell-output-display">
-<div>
-<div id="ojs-cell-2-2" data-nodetype="declaration">
-
-</div>
-</div>
-</div>
-<div class="cell-output cell-output-display">
-<div>
-<div id="ojs-cell-2-3" data-nodetype="declaration">
-
-</div>
-</div>
-</div>
-<div class="cell-output cell-output-display">
-<div>
-<div id="ojs-cell-2-4" data-nodetype="declaration">
-
-</div>
-</div>
-</div>
-<div class="cell-output cell-output-display">
-<div>
-<div id="ojs-cell-2-5" data-nodetype="expression">
-
-</div>
-</div>
-</div>
-</div>
-<p><em>Consommation = premier remplissage + somme des remplissages − eau restante, selon la méthode utilisée dans le mémoire de Gaëlle Hanssens (2025).</em></p>
 </section>
 <section id="fiche-de-relevé" class="level2">
 <h2 class="anchored" data-anchor-id="fiche-de-relevé">Fiche de relevé</h2>
@@ -512,17 +388,6 @@ Culture
 </section>
 
 <div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-reuse"><h2 class="anchored quarto-appendix-heading">Réutilisation</h2><div class="quarto-appendix-contents"><div><a rel="license" href="https://creativecommons.org/licenses/by/4.0/deed.fr">CC BY 4.0</a></div></div></section></div></main> <!-- /main -->
-<script type="ojs-module-contents">
-eyJjb250ZW50cyI6W3sibWV0aG9kTmFtZSI6ImludGVycHJldCIsImNlbGxOYW1lIjoib2pzLWNlbGwtMSIsImlubGluZSI6ZmFsc2UsInNvdXJjZSI6InZpZXdvZiBwbGFudHMgPSBJbnB1dHMucmFuZ2UoWzQsIDQwMF0sIHtsYWJlbDogXCJOb21icmUgZGUgcGxhbnRzXCIsIHN0ZXA6IDQsIHZhbHVlOiA0MH0pXG52aWV3b2YgcHJpeCA9IElucHV0cy5yYW5nZShbMTAsIDYwXSwge2xhYmVsOiBcIlByaXggZCd1biBveWEgKOKCrClcIiwgc3RlcDogMSwgdmFsdWU6IDMwfSlcbm5PeWFzID0gTWF0aC5jZWlsKHBsYW50cyAvIDQpXG5odG1sYDxkaXYgY2xhc3M9XCJ2ZXNzLXJlc3VsdGF0XCI+PGI+JHtuT3lhc30gb3lhczwvYj4gcG91ciAke3BsYW50c30gcGxhbnRzICgxIG95YSBwb3VyIDQgcGxhbnRzKSwgc29pdCB1biBpbnZlc3Rpc3NlbWVudCBkJ2Vudmlyb24gPGI+JHsobk95YXMgKiBwcml4KS50b0xvY2FsZVN0cmluZyhcImZyLUJFXCIpfSDigqw8L2I+LCByw6l1dGlsaXNhYmxlIHBsdXNpZXVycyBzYWlzb25zLjwvZGl2PmBcbiJ9LHsibWV0aG9kTmFtZSI6ImludGVycHJldCIsImNlbGxOYW1lIjoib2pzLWNlbGwtMiIsImlubGluZSI6ZmFsc2UsInNvdXJjZSI6InZpZXdvZiBpbml0aWFsID0gSW5wdXRzLnJhbmdlKFswLCAyMF0sIHtsYWJlbDogXCJQcmVtaWVyIHJlbXBsaXNzYWdlIChMKVwiLCBzdGVwOiAwLjUsIHZhbHVlOiA1fSlcbnZpZXdvZiBham91dHMgPSBJbnB1dHMucmFuZ2UoWzAsIDIwMF0sIHtsYWJlbDogXCJUb3RhbCBkZXMgcmVtcGxpc3NhZ2VzIHN1aXZhbnRzIChMKVwiLCBzdGVwOiAwLjUsIHZhbHVlOiA0NX0pXG52aWV3b2YgcmVzdGUgPSBJbnB1dHMucmFuZ2UoWzAsIDIwXSwge2xhYmVsOiBcIkVhdSByZXN0YW50ZSBlbiBmaW4gZGUgc2Fpc29uIChMKVwiLCBzdGVwOiAwLjUsIHZhbHVlOiAyfSlcbmNvbnNvID0gaW5pdGlhbCArIGFqb3V0cyAtIHJlc3RlXG5odG1sYDxkaXYgY2xhc3M9XCJ2ZXNzLXJlc3VsdGF0XCI+Q29uc29tbWF0aW9uIGRlIGwnb3lhIHN1ciBsYSBzYWlzb24gOiA8Yj4ke2NvbnNvLnRvRml4ZWQoMSl9IEw8L2I+LCBzb2l0IDxiPiR7KGNvbnNvIC8gNCkudG9GaXhlZCgxKX0gTCBwYXIgcGxhbnQ8L2I+ICg0IHBsYW50cyBwYXIgb3lhKS48L2Rpdj5gXG4ifSx7Im1ldGhvZE5hbWUiOiJpbnRlcnByZXRRdWlldCIsInNvdXJjZSI6InNoaW55SW5wdXQoJ3BsYW50cycpIn0seyJtZXRob2ROYW1lIjoiaW50ZXJwcmV0UXVpZXQiLCJzb3VyY2UiOiJzaGlueUlucHV0KCdwcml4JykifSx7Im1ldGhvZE5hbWUiOiJpbnRlcnByZXRRdWlldCIsInNvdXJjZSI6InNoaW55SW5wdXQoJ2luaXRpYWwnKSJ9LHsibWV0aG9kTmFtZSI6ImludGVycHJldFF1aWV0Iiwic291cmNlIjoic2hpbnlJbnB1dCgnYWpvdXRzJykifSx7Im1ldGhvZE5hbWUiOiJpbnRlcnByZXRRdWlldCIsInNvdXJjZSI6InNoaW55SW5wdXQoJ3Jlc3RlJykifV19
-</script>
-<script type="module">
-if (window.location.protocol === "file:") { alert("The OJS runtime does not work with file:// URLs. Please use a web server to view this document."); }
-window._ojs.paths.runtimeToDoc = "../../protocoles/oyas-installation";
-window._ojs.paths.runtimeToRoot = "../..";
-window._ojs.paths.docToRoot = "../..";
-window._ojs.selfContained = false;
-window._ojs.runtime.interpretFromScriptTags();
-</script>
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
