@@ -287,6 +287,13 @@
     "text": "Sources\n\nChabert et Sarthou (2017) ; Biot et al. (2020), cités dans le mémoire.\nMémoire d’Eliot Vas (2025) : méthode p. 40, résultats p. 53–54, évaluation p. 73–74 et 77.\nPassage à l’anneau simple en 2026 : mémoire de Pierre-André Peters-Dickie (2026), section 4.8.2.3."
   },
   {
+    "objectID": "tomates/index.html",
+    "href": "tomates/index.html",
+    "title": "Conservatoire de tomates",
+    "section": "",
+    "text": "Le conservatoire rassemble plus d’une centaine de variétés de tomates, cultivées et multipliées chaque année aux Fermes universitaires de l’UCLouvain avec le soutien du Fonds Baillet Latour. Filtrez la collection par type, couleur, forme ou précocité, puis cliquez sur une variété pour voir sa fiche complète. En savoir plus sur le conservatoire.\n\n\n\n\n  \n\n  \n    \n      Rechercher une variété\n      \n      \n      Tout afficher\n      \n        Télécharger la liste\n         CSV\n         Excel"
+  },
+  {
     "objectID": "fiches/2026-paillage-epinard-laitue/index.html",
     "href": "fiches/2026-paillage-epinard-laitue/index.html",
     "title": "Cinq paillages en maraîchage bio : sol, eau et légumes",
@@ -516,6 +523,34 @@
     "title": "Paillages en maraîchage bio : bilan de la première année",
     "section": "Ressources",
     "text": "Ressources\n\n Fiche récapitulative (PDF)  Document complet  Données de la fiche (CSV)  Données brutes archivées (DOI)  Scripts d’analyse\n\nCiter cette fiche : Eliot Vas (mémoire 2025) (2024–2025). Paillages en maraîchage bio : bilan de la première année. Fiche PEPA Lab, UCLouvain."
+  },
+  {
+    "objectID": "tomates/a-propos.html#le-conservatoire",
+    "href": "tomates/a-propos.html#le-conservatoire",
+    "title": "À propos du conservatoire",
+    "section": "Le conservatoire",
+    "text": "Le conservatoire\nLe conservatoire de tomates répertorie les variétés cultivées et préservées par les Fermes universitaires de l’UCLouvain, grâce au soutien du Fonds Baillet Latour. Il rassemble aujourd’hui plus d’une centaine de variétés venues de Belgique, de France, des États-Unis, de Russie et de bien d’autres pays : tomates cerises, cocktail, beefsteak, prunes et variétés anciennes de toutes les couleurs."
+  },
+  {
+    "objectID": "tomates/a-propos.html#pourquoi-un-conservatoire",
+    "href": "tomates/a-propos.html#pourquoi-un-conservatoire",
+    "title": "À propos du conservatoire",
+    "section": "Pourquoi un conservatoire ?",
+    "text": "Pourquoi un conservatoire ?\nBeaucoup de variétés anciennes ou locales ne sont plus vendues et risquent de disparaître. En les cultivant, en multipliant leurs graines et en décrivant leurs caractéristiques (précocité, forme, couleur, goût, rendement, comportement en plein champ), le conservatoire préserve cette diversité et la rend utile aux maraîcher·ères, aux jardinier·ères et à la recherche."
+  },
+  {
+    "objectID": "tomates/a-propos.html#le-catalogue",
+    "href": "tomates/a-propos.html#le-catalogue",
+    "title": "À propos du conservatoire",
+    "section": "Le catalogue",
+    "text": "Le catalogue\nLe catalogue présente chaque variété avec ses descripteurs et, quand elles existent, ses photos. Les variétés multipliées une année donnée sont signalées. La liste complète est téléchargeable en CSV ou en Excel."
+  },
+  {
+    "objectID": "tomates/a-propos.html#contact",
+    "href": "tomates/a-propos.html#contact",
+    "title": "À propos du conservatoire",
+    "section": "Contact",
+    "text": "Contact\n[À COMPLÉTER : personne de contact, adresse e-mail, conditions d’accès aux graines]"
   },
   {
     "objectID": "protocoles.html",

@@ -1,0 +1,115 @@
+id,cultivar,maturite,calibre,type,forme,couleur,bouche,croissance,rendement,sensibilite,plein_champs,date_graines,multiplication_2025,multiplication_2026,origine,utilisation,remarque
+1,Auriga,mi-saison,4.14,petite,"ronde, peu étirée",orange,"ferme, sucrée, juteuse",indéterminée,élevé,,,2022,non,oui,Allemagne,,
+2,Black cherry,hâtive,3.5,cerise,ronde,rouge sombre,"juteuse, sucrée, acide, parfumée",indéterminée,élevé,,non,2020,non,oui,USA,,
+3,Blush tiger,mi-saison,2.73,prune,"ovale, long, pointue","orange, jaune","douce, sucrée, juteuse",indéterminée,élevé,oui,non,2024,non,oui,USA,,
+4,Bonbon de Gembloux,hâtive,2.22,cerise,"ronde, ovoïude","rouge, jaune","juteuse, sucrée, douce",indéterminée,élevé,non,oui,2024,non,oui,Belgique,,résistante au mildiou
+5,Cappuccino,mi-saison,2.34,cerise,ronde,rouge foncée,"juteuse, ferme, sucrée",indéterminée,élevé,,,2022,non,oui,Inconnue,,résistante aux maladies
+6,Charnue de Huy,hâtive,4.95,moyen,"ronde, lisse",rouge,"pleine, juteuse",indéterminée,élevé,non,oui,2022,non,oui,Belgique,,
+7,Chemin rouge hâtive,hâtive,6.79,moyen,"légèrement aplatie, côtelée",rouge,"peu acide, aqueuse, rafraichissante",indéterminée,moyen,,oui,2020,non,oui,France,,rare
+8,Cherokee chocolate,mi-saison,5.9,grosse,"aplatie, légèrement côtelée",rouge sombre,"peau épaisse, juteuse, acide, sucrée",semi-déterminée,moyen,,oui,2023,non,oui,USA,,
+9,Cocktail Clementine,hâtive,1.92,cocktail,ronde,orange,"sucrée, charnue",indéterminée,élevé,,non,2020,non,oui,France,,
+10,Edouard,hâtive,4.37,petite,"ronde, légèrement aplatie",rouge,"acidulée, sucrée, peau épaisse",indéterminée,élevé,,,2020,non,oui,France,,
+11,Grégory altaï,hâtive,6.71,beefsteak,aplatie,rose violacée,"ferme, douce, juteuse",indéterminée,élevé,,oui,2022,non,oui,Russie,,
+12,Grenaille rouge,mi-saison,,cerise,ronde,rouge,sucrée,indéterminée,moyen,,oui,2020,non,oui,Belgique,,Aucune germination 2026
+13,Ida gold,hâtive,,cerise,ronde,orange,"sucrée, acidulée, juteuse",déterminée,élevé,,,2022,non,oui,USA,,plante naine
+14,Merveille de Bastogne,hâtive,4.44,cerise,ronde avec téton,rouge,"douce, parfumée",indéterminée,élevé,,,2024,non,oui,Belgique,,
+15,Nyagous,mi-saison,6.43,moyen,"cordiforme, arrondeie","rouge, brun acajou",juteuse,indéterminée,moyen,,,2022,non,oui,"Australie?, Moldavie?",,
+16,Précoce de Quimper,précoce,3.51,cocktail,ronde,rouge,"juteuse, acidulée",indéterminée,moyen,,,validité 2028,non,oui,France,,résistante au climat frais
+17,Robin,précoce,2.74,cerise,"ronde, lisse",rouge,"sucrée, savoureuse",déterminée,élevé,,oui,validité 2028,non,oui,,,"petit plan (type bonzaï), adapté à la culture en pot"
+18,Roma,mi-saison,3.53,moyen,oblongue,rouge,"farineuse, ferme",indéterminée,moyen,,oui,2020,non,oui,USA,,
+19,Rouge de Namur,hâtive,,grosse,"ronde, légèrement côtelée",rouge,"dense, ferme",indéterminée,moyen,,,,non,oui,Belgique,,
+20,San Marzano (red banana),mi-saison,3.53,prune,"allongée, ovale",rouge,"épaisse, paste",indéterminée,moyen,cul noir,,2022,non,oui,Italie,,sauce
+21,Téton de Venus,mi-saison,4.98,grosse,"cordiforme, téton",rouge,sucrée,indéterminée,élevé,,non,2023,non,oui,France,,
+22,Tigerella,hâtive,3.12,moyen,ronde,"rouge, jaune",ferme,indéterminée,élevé,,oui,2024,non,oui,Royaume-Uni,,
+23,Trèfle du Togo,,2.73,cocktail,"irrégulière, côtelée",rouge rosé,"douce, juteuse",indéterminée,élevé,,,(validité 2026),non,oui,Afrique Ouest,,résistante à la chaleur
+24,Verte de Huy,mi-saison,6.48,moyen,ronde,verte rayée,"parfumée, juteuse, sucrée, fondante",indéterminée,moyen,non,oui,2023,non,oui,Belgique,,
+25,Voyage,hâtive,5.3,moyen,"diforme, côtelée",rouge,"épaisse, juteuse, sucrée",indéterminée,élevé,,,2021,non,oui,Guatemala,,
+26,Amethyst cream cherry,mi-saison,,variable,"irrégulière, peu aplatie","rouge, pourpre","dense, sucrée",indéterminée,élevé,non,non,2024,oui,non,USA,,Pas stabilisée
+27,Amethyst Jewel,mi-saison,,cerise,"ronde, aplatie, irrégulière","jaune, violet","fine, complexe",indéterminée,élevé,non,non,2024,non,non,USA,,
+28,Ananas noire,tardive,,beefsteak,"ronde, aplatie","verte, striée rouge","charnue, douce",indéterminée,moyen,,non,2022,non,non,Belgique,,
+29,Arbuznyi,mi-saison,,beefsteak,"ronde, aplatie, irrégulière","rouge brique, lignage vert","tendre, sucrée, aromatique",indéterminée,élevé,non,oui,2024,non,non,Russie,,Rare
+30,Ardwyna,mi-saison,,beefsteak,"allongée, irrégulière, côtelée",rouge,"charnue, dense",indéterminée,élevé,non,,2022,oui,non,Italie,,
+31,Barbaniaka,précoce,,cerise,ronde,rouge,"sucrée, acidulée",déterminée,élevé,,,2024,non,non,Hongrie,,
+32,Belgian Farmer,mi-saison,,beefsteak,"aplatie, ronde",rose,"charnue, fondante, peu acide, peu sucrée",indéterminée,élevé,,non,2020,oui,non,Belgique,,
+33,Bella,mi-saison,,prune,"allongée, pointue","rouge, striée","ferme, juteuse",indéterminée,moyen,,,2022,non,non,Inconnue,,
+34,Belle du collège,mi-saison,,beefsteak,"ronde, aplatie, côtelée","rouge, verte",complexe,indéterminée,moyen,,,2024,non,non,USA,,
+35,Bigly,tardive,,beefsteak,"ronde, aplatie, côtelée","orange, jaune","dense, douce, notes d'agrumes",indéterminée,moyen,,,2024,non,non,USA,,Orange Jazz?
+36,Black Prince,mi-saison,,moyen,ronde,rouge sombre,"douce, juteuse",indéterminée,élevé,,oui,2020,oui,non,Russie,,
+37,Black Yum Yum,mi-saison,,petite,"ronde, légèrement ovale","brune, verte","juteuse, savoureuse",indéterminée,élevé,,,2024,oui,non,Canada,,
+38,Bloody butcher,hâtive,,petite,ronde,rouge,"juteuse, riche",indéterminée,élevé,,,2024,non,non,USA,,
+39,Boloto,mi-saison,,moyen,"ronde, aplatie, légèrement côtelée",verte sombre,"juteuse, douce, pleine",indéterminée,moyen,résiste au froid,,2024,oui,non,Russie,,
+40,Brin de muguet,mi-saison,,cerise,"légèrement ovale, pointue",rouge,"fine, acidulée, peau épaisse",indéterminée,élevé,non,,2022,non,non,France,,résistante aux maladies
+41,Candy stripes,tardive,,beefsteak,"ronde, légèrement aplatie, côtelée","jaune, rouge","douce, riche",indéterminée,élevé,,,2024,non,non,USA,,tendance à l'éclatement
+42,Canestrino di Lucca,mi-saison,,moyen,"poire, côtelée",rouge,"charnue, douce",indéterminée,élevé,,oui,2022,non,non,Italie,,bonne conservation
+43,Captain lucky,tardive,,grosse,"aplatie, côtelée","verte, rose","charnue, juteuse, complexe",indéterminée,moyen,oui,non,2019,non,non,USA,,
+44,Carotina,mi-saison,,moyen,"ronde, aplatie","rouge, orange","juteuse, citronée, carottée",indéterminée,élevé,,,2024,non,non,France,,
+45,Champagne,mi-saison,,cocktail,ronde,jaune pâle,"douce, sucrée",indéterminée,élevé,,,2023,oui,non,France,,
+46,Chernoe serdtse,mi-saison,,moyen,cordiforme,"pourpre, noire","sucrée, fumée",indéterminée,moyen,,,2024,non,non,Ukraine,,
+47,Coeur de boeuf,tardive,,beefsteak,"cordiforme, pointue",rouge pâle,"charnue, molle, dense, acide",indéterminée,moyen,,non,2018,oui,non,Italie,,
+48,Copper River,mi-saison,,beefsteak,"aplatie, incurvée","verte, rouge","charnue, savoureuse",déterminée,élevé,,,2023,oui,non,USA,,rare
+49,Cornue des Andes,tardive,,piment,"allongée, pointue",rouge,"charnue, douce, ferme",indéterminée,moyen,,non,2024,non,non,France,,"cul noire, mildiou"
+50,Cuban Black,mi-saison,,moyen,"aplatie, profond, côtelée","acajou, brune",agréable,indéterminée,moyen,,,2022,oui,non,Cuba,,résistante aux maladies
+51,De Berao,hâtive,,roma,"allongée, lisse",rouge,ferme,indéterminée,élevé,,oui,2022,non,non,Italie,,très grande plante (3 à 4 m)
+52,Douceur de Doucet,hâtive,,moyen,"ronde, aplatie",rose,"ferme, juteuse, sucrée, peau épaisse",indéterminée,moyen,,oui,2024,non,non,Canada,,
+53,Etoile blanche d'Anvers,mi-saison,,moyen,"aplatie, légèrement côtelée",jaune pâle,douce,indéterminée,faible,,non,2023,oui,non,Belgique,,
+54,Ficarrazi,mi-hâtive,,moyen,"aplatie, côtelée, nervurée",rouge foncée,"juteuse, sucrée",indéterminée,élevé,,,2023,non,non,Italie,,"résistante aux maladies, peu de besoins en eau"
+55,garden delice,précoce,,cerise,"ronde, rayée",rouge vif,"juteuse, peu de pépins",indéterminée,moyen,,oui,2024,non,non,Royaume-Uni,,"aussi appelée ""Gardener's Delight""?"
+56,German red strawberry,mi-saison,,grosse,cordiforme,rouge,"charnue, juteuse, sucrée",indéterminée,faible,,,2020,non,non,Allemagne,,
+57,Golden delight,hâtive,,moyen,"ronde, aplatie",jaune,"douce, juteuse",déterminée,moyen,,,2022,non,non,USA,,
+58,Green strain,mi-saison,,moyen,aplatie,"olive, verte","juteuse, dense, charnue",indéterminée,moyen,,,2023,oui,non,Inconnue,,
+59,Green zebra,mi-saison,,moyen,"aplatie, rayée","verte, jaune","juteuse, douce, ferme",indéterminée,élevé,,non,2024,non,non,USA,,
+60,Grinch Cherry dwarf,mi-saison,,cerise,ronde,verte,douce,déterminée,moyen,,,2023,oui,non,USA,,plante naine
+61,Grosse des marais,mi-saison,,beefsteak,oblongue,rose,"fondante, sucrée, douce",indéterminée,élevé,,oui,2020,non,non,France,,
+62,Grushovka,mi-hâtive,,prune,"cordiforme, allongée",rose,"douce, juteuse, acidulée",déterminée,élevé,,,2022,non,non,Russie,,
+63,Gypsy (Mutslane),mi-saison,,moyen,ronde,rouge sombre,juteuse,indéterminée,moyen,,,2020,non,non,Russie,,
+64,Indigo blue beauty,mi-saison,,beefsteak,"aplatie, côtelée","rouge, violet","douce, sucrée",indéterminée,élevé,,,2023,non,non,USA,,
+65,Indigo rose,tardive,,cocktail,ronde,"pourpre, noire",douce,indéterminée,moyen,,,2023,non,non,USA,,
+66,Isis candy cherry,mi-saison,,cerise,ronde,"jaune, rouge","ferme, sucrée",indéterminée,moyen,,,2023,non,non,USA,,
+67,Japonaise Basse,hâtive,,cerise,"ronde, plant nain",rouge,"juteuse, sucrée",déterminée,faible,,oui,2019,oui,non,France,,plante naine
+68,Jaune Saint Vincent,mi-saison,,beefsteak,"ronde, côtelée",jaune,"juteuse, sucrée, acidulée",indéterminée,élevé,,,2020,non,non,France,,
+69,Joyau d'Oaxaca,mi-saison,,grosse,"aplatie, côtelée","jaune, rouge","juteuse, excellente",indéterminée,élevé,,,2020,non,non,Mexique,,
+70,Kiwi,mi-saison,,moyen,"aplatie, côtelée, nervurée",verte,juteuse,indéterminée,moyen,,,2023,non,non,USA,,
+71,Kollane piprakujuline,mi-saison,,piment,"ovale, allongée, téton",jaune,sucrée,indéterminée,élevé,,,2022,non,non,Russie,,tomate à sauce
+72,Koritschnevaja,mi-saison,,cocktail,oblongue,rouge foncée,"longueur, peu acide",indéterminée,moyen,,,2022,non,non,Russie,,
+73,Kozula 125,mi-saison,,moyen,"ronde, aplatie aux épaules","rouge framboise, vert","juteuse, saveur forte",indéterminée,moyen,,,2024,oui,non,Pologne,,
+74,Kozula 30,mi-saison,,moyen,"ronde, lisse","jaune, orange, rouge","douce, sucrée",indéterminée,moyen,,,2023,non,non,Pologne,,
+75,kumba,mi-saison,,petite,"ronde, taille normale",rose,"sucrée, ferme, juteuse",indéterminée,élevé,,,2022,oui,non,Belgique,,résistante au mildiou
+76,La vie en rose,mi-saison,,beefsteak,"aplatie, épaulée",rose,"dense, charnue",indéterminée,moyen,,,2020,non,non,USA,,
+77,Limmony,tardive,,beefsteak,ronde,"jaune, orange","juteuse, agrume",indéterminée,moyen,,,2023,non,non,Russie,,mauvaise conservation
+78,Lucfichoise,mi-saison,,prune,"type cerise, prune, ovale","jaune, rouge","juteuse, sucrée",indéterminée,élevé,,,2023,oui,non,Belgique,,longue germination
+79,Maglia Rosa,mi-saison,,prune,"allongée, rayée","rouge, jaune","douce, fruitée",indéterminée,élevé,non,oui,2020,non,non,USA,,
+80,Marmande,mi-saison,,beefsteak,"aplatie, côtelée",rouge,"juteuse, sucrée, parfumée",semi-déterminée,élevé,,oui,2020,non,non,France,,
+81,Matina,précoce,,moyen,ronde,rouge,"savoureuse, ferme",indéterminée,élevé,non,oui,2020,oui,non,Allemagne,,
+82,Merveille des serres,mi-saison,,moyen,ronde,rouge,"ferme, parfumée",indéterminée,élevé,,oui,2022,non,non,Belgique,,
+83,Miel du Mexique,hâtive,,cerise,ronde,rouge,"juteuse, sucrée, douce",indéterminée,élevé,,non,2020,non,non,Mexique,,
+84,Mr Stripey,tardive,,beefsteak,"ronde, épaulée","jaune, rose",sucrée,indéterminée,moyen,,,2020,non,non,USA,,
+85,Nature's riddle (Zagadka prirody),mi-saison,,beefsteak,"irrégulière, côtelée","jaune, orange","sucrée, arôme de mangue",indéterminée,moyen,,,2020,non,non,Russie,,
+86,Negro Azteca,mi-saison,,cerise,ronde,"pourpre, noire","ferme, juteuse",indéterminée,élevé,,,2024,non,non,Mexique,,
+87,Negro de Santiago,mi-saison,,beefsteak,"aplatie, côtelée","pourpre, noire","juteuse, charnue, épicée",indéterminée,moyen,,,2022,non,non,Espagne,,
+88,Noire de Crimée,mi-saison,,beefsteak,ronde,"rouge, bordeaux","sucrée, dense",indéterminée,élevé,,oui,2024,non,non,Ukraine,,
+89,Omar libanaise,mi-saison,,beefsteak,"ronde, côtelée",rose,"dense, juteuse",indéterminée,élevé,,,2019,oui,non,Liban,,
+90,Orange banana,tardive,,prune,"allongée, pointue",orange,"sucrée, acidulée",indéterminée,élevé,,,2022,non,non,Russie,,Haute teneur en pectine
+91,Orange tree,tardive,,petite,ronde,orange,"juteuse, douce, sucrée",déterminée,moyen,,,2024,non,non,Inconnue,,Plant nain
+92,Orangette,hâtive,,cerise,"ovale, allongée",orange,"ferme, sucrée",indéterminée,élevé,,non,2024,non,non,Belgique,,
+93,Petit moineau,mi-saison,,groseille,ronde,rouge,très sucrée,indéterminée,faible,,oui,2024,oui,non,Canada,,utilisée comme porte greffe
+94,Podland Pink,hâtive,,prune,oblongue,rouge rosâtre,"juteuse, ferme, acide",indéterminée,élevé,,,2024,non,non,Pologne,,
+95,Poire jaune,hâtive,,cerise,poire,jaune,"farineuse, ferme, juteuse,",indéterminée,élevé,,oui,2020,non,non,Inconnue,,
+96,Poire rouge,hâtive,,cerise,poire,rouge,"juteuse, ferme, sucrée",indéterminée,élevé,,oui,2024,non,non,Inconnue,,
+97,Potager de Vilvorde,tardive,,moyen,"ronde, légèrement aplatie",rouge,"juteuse, fruitée, sucrée",indéterminée,élevé,non,non,2020,oui,non,Belgique,,
+98,Prolifique de Falisole,tardive,,prune,"allongée, pointue",rouge,chair dense,indéterminée,élevé,cul noir,non,2020,non,non,Belgique,,
+99,Prune verte,mi-saison,,prune,allongée,verte,très sucrée,indéterminée,élevé,,,2021,oui,non,Inconnue,,Mauvaise identification?
+100,Purple Russian,mi-saison,,prune,"oblongue, allongée",pourpre,juteuse,indéterminée,moyen,,,2022,non,non,Ukraine,,
+101,Rainbow Bicolor cherry,mi-saison,,cocktail,ronde,"jaune, rouge","douce, sucrée, charnue",indéterminée,élevé,,,2023,non,non,Allemagne,,
+102,Reine des hâtives,précoce,,moyen,aplatie,rouge,"dense, douce, peu épaisse, juteuse",déterminée,élevé,,oui,2022,non,non,France,,
+103,Rose de Berne,mi-saison,,beefsteak,"ronde, aplatie",rouge rosée,"sucrée, charnue",indéterminée,élevé,,non,2023,non,non,France,,
+104,Rose d'Eauze,mi-saison,,grosse,"ronde, épaulée",rose,ferme,indéterminée,moyen,,,2022,non,non,France,,
+105,Sangre,tardive,,beefsteak,"ronde, côtelée","jaune, rouge","juteuse, charnue",indéterminée,élevé,,,2019,oui,non,Espagne,,
+106,santalina,mi-saison,,groseille,allongée,rouge,"sucrée, excellente",indéterminée,faible,,oui,2023,non,non,Pays-Bas,,
+107,Stupice,hâtive,,petite,ronde,rouge,juteuse,indéterminée,moyen,,,2020,non,non,République tchèque,,
+108,Sunrise jazz,mi-saison,,beefsteak,"côtelée, aplatie","rouge, orange","dense, juteuse",indéterminée,élevé,,,2022,non,non,USA,,
+109,Suzy,mi-saison,,beefsteak,"grosse, côtelée",rouge,"danse, sucrée",indéterminée,moyen,,non,2023,non,non,France,,
+110,Sweet Baby,hâtive,,cerise,ronde,rouge corail,très sucrée,indéterminée,élevé,,non,2023,oui,non,Inconnue,,
+111,Taxi Yellow,hâtive,,moyen,ronde,jaune,charnue,déterminée,élevé,,,2025,oui,non,USA,,
+112,Tempète de sable,mi-saison,,cerise,ovale,jaune pâle,"sucrée, fruité, juteuse",indéterminée,élevé,,non,2023,oui,non,Belgique,,
+113,Tibet apple,mi-saison,,beefsteak,aplatie,"rose, rouge","juteuse, dense, sucrée",déterminée,élevé,,,2020,non,non,Tibet,,
+114,Triomphe de Liège,mi-saison,,moyen,"aplatie, ronde",rouge vif,dense,indéterminée,élevé,non,oui,2020,non,non,Belgique,,
