@@ -7,17 +7,23 @@
     ]
   },
   {
-    "listing": "/protocoles/adventices-couverture/index.html",
+    "listing": "/protocoles/besoins-eau-etc/index.html",
+    "items": [
+      "/fiches/2025-oyas-chou/index.html"
+    ]
+  },
+  {
+    "listing": "/protocoles/vess-test-beche/index.html",
     "items": [
       "/fiches/2026-paillage-epinard-laitue/index.html",
       "/fiches/2025-paillage-epinard-oignon/index.html"
     ]
   },
   {
-    "listing": "/protocoles/oyas-installation/index.html",
+    "listing": "/protocoles/sondes-humidite-sol/index.html",
     "items": [
-      "/fiches/2025-oyas-chou/index.html",
-      "/fiches/2024-irrigation-tomate/index.html"
+      "/fiches/2026-paillage-epinard-laitue/index.html",
+      "/fiches/2025-oyas-chou/index.html"
     ]
   },
   {
@@ -56,11 +62,13 @@
   {
     "listing": "/protocoles.html",
     "items": [
+      "/protocoles/besoins-eau-etc/index.html",
       "/protocoles/rendement-echantillons/index.html",
       "/protocoles/oyas-installation/index.html",
       "/protocoles/adventices-couverture/index.html",
       "/protocoles/infiltration-tube/index.html",
       "/protocoles/prelevement-sol-analyse/index.html",
+      "/protocoles/sondes-humidite-sol/index.html",
       "/protocoles/stabilite-agregats/index.html",
       "/protocoles/vess-test-beche/index.html"
     ]
@@ -68,11 +76,19 @@
   {
     "listing": "/protocoles/rendement-echantillons/index.html",
     "items": [
+      "/fiches/2025-oyas-chou/index.html",
       "/fiches/2025-paillage-epinard-oignon/index.html"
     ]
   },
   {
-    "listing": "/protocoles/vess-test-beche/index.html",
+    "listing": "/protocoles/oyas-installation/index.html",
+    "items": [
+      "/fiches/2025-oyas-chou/index.html",
+      "/fiches/2024-irrigation-tomate/index.html"
+    ]
+  },
+  {
+    "listing": "/protocoles/adventices-couverture/index.html",
     "items": [
       "/fiches/2026-paillage-epinard-laitue/index.html",
       "/fiches/2025-paillage-epinard-oignon/index.html"

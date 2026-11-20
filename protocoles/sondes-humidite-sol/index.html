@@ -1,0 +1,911 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="fr" xml:lang="fr"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.11.9">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="PEPA Lab – UCLouvain">
+
+<title>Suivre l’humidité du sol en continu avec des sondes – Maraîchage · PEPA Lab</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-listing/list.min.js"></script>
+<script src="../../site_libs/quarto-listing/quarto-listing.js"></script>
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/scrollable-regions/scrollable-regions.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-63b5708e65d6cd79cd7618c58d0c21e7.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-02110c61809652246dc47ce9f3f644ed.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "Pas de résultats",
+    "search-matching-documents-text": "documents trouvés",
+    "search-copy-link-title": "Copier le lien vers la recherche",
+    "search-hide-matches-text": "Cacher les correspondances additionnelles",
+    "search-more-match-text": "correspondance de plus dans ce document",
+    "search-more-matches-text": "correspondances de plus dans ce document",
+    "search-clear-button-title": "Effacer",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Annuler",
+    "search-submit-button-title": "Envoyer",
+    "search-label": "Recherche"
+  }
+}</script>
+<script>
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-essais .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-annee','listing-culture',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
+      
+      searchColumns: ["listing-date","listing-title","listing-author"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-essais'] = new List('listing-essais', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+  </script>
+<style>
+
+      .quarto-title-block .quarto-title-banner {
+        background-image: url(../../images/banniere.jpg);
+background-size: cover;
+      }
+</style>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+</head>
+
+<body class="nav-fixed fiche protocole quarto-light"><a id="quarto-skip-link" class="visually-hidden-focusable" href="#quarto-document-content">Aller au contenu principal</a>
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark" aria-label="Site web">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">Maraîchage · PEPA Lab</span>
+    </a>
+  </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Basculer la navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../fiches.html"> 
+<span class="menu-text">Fiches</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../protocoles.html"> 
+<span class="menu-text">Protocoles</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../tomates/index.html"> 
+<span class="menu-text">Tomates</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../themes.html"> 
+<span class="menu-text">Thèmes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../donnees.html"> 
+<span class="menu-text">Données</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../a-propos.html"> 
+<span class="menu-text">À propos</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/pepa-lab/maraichage"> <i class="bi bi-github" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+            <div id="quarto-search" class="" title="Recherche"></div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">Suivre l’humidité du sol en continu avec des sondes</h1>
+                                <div class="quarto-categories">
+                <div class="quarto-category">Gestion de l'eau</div>
+                <div class="quarto-category">Santé du sol</div>
+              </div>
+                  </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      <div>
+      <div class="quarto-title-meta-heading">Auteur·rice</div>
+      <div class="quarto-title-meta-contents">
+               <p>PEPA Lab – UCLouvain </p>
+            </div>
+    </div>
+      
+      <div>
+      <div class="quarto-title-meta-heading">Date de publication</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">20 novembre 2026</p>
+      </div>
+    </div>
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" aria-labelledby="toc-title" class="toc-active">
+    <h2 id="toc-title">Sur ce protocole</h2>
+   
+  <ul>
+  <li><a href="#à-quoi-ça-sert" id="toc-à-quoi-ça-sert" class="nav-link active" data-scroll-target="#à-quoi-ça-sert">À quoi ça sert</a></li>
+  <li><a href="#matériel" id="toc-matériel" class="nav-link" data-scroll-target="#matériel">Matériel</a></li>
+  <li><a href="#étapes" id="toc-étapes" class="nav-link" data-scroll-target="#étapes">Étapes</a></li>
+  <li><a href="#fiche-de-relevé" id="toc-fiche-de-relevé" class="nav-link" data-scroll-target="#fiche-de-relevé">Fiche de relevé</a></li>
+  <li><a href="#lire-les-résultats" id="toc-lire-les-résultats" class="nav-link" data-scroll-target="#lire-les-résultats">Lire les résultats</a></li>
+  <li><a href="#erreurs-fréquentes" id="toc-erreurs-fréquentes" class="nav-link" data-scroll-target="#erreurs-fréquentes">Erreurs fréquentes</a></li>
+  <li><a href="#dans-nos-essais" id="toc-dans-nos-essais" class="nav-link" data-scroll-target="#dans-nos-essais">Dans nos essais</a></li>
+  <li><a href="#ressources-en-ligne" id="toc-ressources-en-ligne" class="nav-link" data-scroll-target="#ressources-en-ligne">Ressources en ligne</a></li>
+  <li><a href="#sources" id="toc-sources" class="nav-link" data-scroll-target="#sources">Sources</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/pepa-lab/maraichage/edit/main/protocoles/sondes-humidite-sol/index.qmd" class="toc-action"><i class="bi bi-github"></i>Modifier cette page</a></li><li><a href="https://github.com/pepa-lab/maraichage/issues/new" class="toc-action"><i class="bi empty"></i>Faire part d'un problème</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content quarto-banner-title-block" id="quarto-document-content" tabindex="-1">
+
+
+
+
+
+<div class="protocole-identite">
+<p><span class="pi-label"><strong>Objectif</strong></span> <span class="pi-val">Enregistrer toute la saison l’humidité et la température du sol, au plus près des racines, pour comparer des pratiques d’irrigation ou de paillage.</span></p>
+<p><span class="pi-label"><strong>Difficulté</strong></span> <span class="pi-val">Avancé</span></p>
+<p><span class="pi-label"><strong>Durée</strong></span> <span class="pi-val">≈ 30 min d’installation, puis 15 min par relevé des données</span></p>
+<p><span class="pi-label"><strong>Coût</strong></span> <span class="pi-val">Sondes et lecteur coûteux [À COMPLÉTER : prix indicatif]</span></p>
+<p><span class="pi-label"><strong>Quand</strong></span> <span class="pi-val">De la plantation à la récolte</span></p>
+</div>
+<button type="button" class="btn-imprimer" onclick="window.print()">Imprimer ce protocole</button>
+<section id="à-quoi-ça-sert" class="level2">
+<h2 class="anchored" data-anchor-id="à-quoi-ça-sert">À quoi ça sert</h2>
+<p>Une mesure ponctuelle de l’humidité du sol ne dit pas ce qui se passe entre deux visites. Une <strong>sonde enregistreuse</strong> plantée dans le sol mesure l’humidité et la température <strong>toutes les 15 minutes</strong>, pendant des mois. On voit alors l’effet de chaque arrosage, de chaque pluie, d’un paillage ou d’un oya sur l’eau disponible pour les racines.</p>
+<p>C’est un protocole <strong>avancé</strong> : il demande du matériel spécialisé et un traitement des données sur ordinateur. Il sert surtout pour des essais comparatifs, pas pour piloter l’arrosage au quotidien.</p>
+</section>
+<section id="matériel" class="level2">
+<h2 class="anchored" data-anchor-id="matériel">Matériel</h2>
+<ul>
+<li>Des <strong>sondes TMS-4</strong> (fabricant TOMST), au moins <strong>2 par modalité</strong> à comparer. Chaque sonde porte :
+<ul>
+<li>un capteur d’humidité qui mesure les 12 premiers centimètres du sol ;</li>
+<li>3 capteurs de température : dans le sol (−6 cm), à la surface et dans l’air (+15 cm).</li>
+</ul></li>
+<li>Le <strong>lecteur de contact avec adaptateur USB</strong> pour récupérer les données, et un ordinateur</li>
+<li>Le <strong>logiciel Lolly</strong> de TOMST (gratuit), pour convertir les mesures brutes en humidité volumique (%)</li>
+<li>La <strong>texture du sol</strong> de la parcelle (analyse de sol), pour choisir la bonne calibration</li>
+<li>Un <strong>plan de la parcelle</strong> et des étiquettes pour numéroter les sondes</li>
+<li>La <a href="fiche-releve.csv">fiche de relevé</a></li>
+</ul>
+</section>
+<section id="étapes" class="level2">
+<h2 class="anchored" data-anchor-id="étapes">Étapes</h2>
+<ol type="1">
+<li><strong>Choisir les emplacements.</strong> Placez les sondes <strong>au centre des parcelles</strong>, jamais en bordure : une sonde au bord reçoit la pluie ou l’eau qui ruisselle et ses mesures ne sont plus comparables. Mettez le même nombre de sondes, au même endroit par rapport aux plants, dans chaque modalité.</li>
+<li><strong>Fixer la position par rapport au plant.</strong> Dans notre essai sur oyas, nous avons placé 2 sondes <strong>à 15 cm de part et d’autre d’un chou</strong> : une entre le chou et l’oya (« in »), l’autre du côté opposé (« out »).</li>
+<li><strong>Enfoncer la sonde</strong> verticalement jusqu’au repère, environ <strong>10 cm dans le sol</strong>. Le capteur d’humidité se trouve alors vers 8 cm de profondeur. Tassez légèrement la terre autour pour qu’elle touche bien la sonde.</li>
+<li><strong>Noter sur le plan</strong> le numéro de série de chaque sonde, sa modalité, sa position et la date de pose.</li>
+<li><strong>Laisser enregistrer.</strong> Réglez l’intervalle de mesure à <strong>15 minutes</strong>. Évitez de marcher ou d’arroser directement sur la sonde.</li>
+<li><strong>Récupérer les données</strong> régulièrement (par exemple toutes les 2 à 4 semaines) avec le lecteur de contact : les mesures sont transférées sur l’ordinateur sous forme de fichier CSV.</li>
+<li><strong>Convertir en humidité volumique</strong> dans le logiciel Lolly, avec la courbe de calibration la plus proche de votre sol. Dans nos essais : calibration « limon sableux » ou « silt loam » selon la parcelle.</li>
+<li><strong>Contrôler les données</strong> avant de les analyser : écartez les sondes aux valeurs invraisemblables (voir plus bas).</li>
+</ol>
+</section>
+<section id="fiche-de-relevé" class="level2">
+<h2 class="anchored" data-anchor-id="fiche-de-relevé">Fiche de relevé</h2>
+<p>Téléchargez la <a href="fiche-releve.csv">fiche de relevé (CSV)</a>, avec une ligne par sonde. Elle sert à garder la trace de la pose et des relevés. Les mesures elles-mêmes sont dans les fichiers CSV produits par les sondes.</p>
+<div class="callout callout-style-simple callout-note no-icon">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-body-container">
+<p><strong>Saisir sur téléphone avec KoboToolbox.</strong> Ce relevé existe aussi en <a href="formulaire-kobo.xlsx" download="formulaire-kobo.xlsx">formulaire KoboToolbox</a> (format XLSForm) : les calculs se font tout seuls et la saisie marche sans réseau.</p>
+<ol type="1">
+<li>Créez un compte gratuit sur <a href="https://www.kobotoolbox.org/">KoboToolbox</a>, puis <strong>Nouveau projet → Importer un XLSForm</strong> et choisissez le fichier téléchargé. Cliquez sur <strong>Déployer</strong>.</li>
+<li>Installez l’application <strong>KoboCollect</strong> (Android) sur votre téléphone, ou utilisez le formulaire web (Enketo) depuis n’importe quel navigateur, même sur iPhone.</li>
+<li>Faites vos relevés au champ. Les données s’envoient au retour du réseau et s’exportent en Excel ou CSV depuis KoboToolbox.</li>
+</ol>
+</div>
+</div>
+</div>
+</section>
+<section id="lire-les-résultats" class="level2">
+<h2 class="anchored" data-anchor-id="lire-les-résultats">Lire les résultats</h2>
+<ul>
+<li><strong>Comparez les courbes de modalités placées de la même façon</strong>, sur la même période.</li>
+<li><strong>Chaque arrosage ou pluie fait un pic</strong>, puis l’humidité redescend à mesure que les plants consomment l’eau. Une redescente plus lente signale un sol qui garde mieux l’eau (paillage) ou un apport continu (oya).</li>
+<li><strong>Moyennez les sondes d’une même modalité</strong> et regardez leur écart : avec 2 ou 3 sondes seulement, une différence faible entre modalités n’est pas fiable.</li>
+<li>La calibration intégrée donne des <strong>valeurs approximatives</strong> : elles servent à comparer des modalités, moins à connaître la teneur en eau exacte du sol.</li>
+</ul>
+</section>
+<section id="erreurs-fréquentes" class="level2">
+<h2 class="anchored" data-anchor-id="erreurs-fréquentes">Erreurs fréquentes</h2>
+<ul>
+<li><strong>Poser une sonde en bordure de parcelle</strong> : en 2025, une de nos sondes, exposée à la pluie, a enregistré des pics anormaux et a dû être écartée.</li>
+<li><strong>Garder des mesures invraisemblables</strong> : une autre sonde est restée sous 10 % d’humidité toute la saison, plus sec que la sonde témoin du même plant. Elle a été écartée. Un mauvais contact entre la sonde et le sol peut expliquer ce type de valeur.</li>
+<li><strong>Choisir une calibration qui ne correspond pas au sol.</strong></li>
+<li><strong>Écarter une sonde sans écarter sa sonde jumelle</strong> : pour garder des comparaisons équilibrées, nous avons aussi retiré de l’analyse la sonde opposée.</li>
+<li><strong>Oublier de vider les sondes</strong> avant que leur mémoire ou leur batterie ne soit pleine. [À COMPLÉTER : autonomie, à vérifier dans la documentation du fabricant]</li>
+</ul>
+</section>
+<section id="dans-nos-essais" class="level2">
+<h2 class="anchored" data-anchor-id="dans-nos-essais">Dans nos essais</h2>
+<ul>
+<li><strong>Oyas et chou, 2025 (Marbaix, sous tunnel)</strong> : 12 sondes posées le 3 avril 2025 de part et d’autre de choux irrigués par oyas, pour comparer l’humidité du côté de l’oya et du côté opposé.</li>
+<li><strong>Paillages, 2026 (Lauzelle)</strong> : 9 sondes posées dans des parcelles paillées, avec des mesures toutes les 15 minutes et une calibration « silt loam ».</li>
+</ul>
+<div id="listing-essais" class="quarto-listing quarto-listing-container-table">
+<table class="quarto-listing-table table">
+<thead>
+<tr>
+
+<th>
+Essai
+</th>
+
+<th>
+Saison
+</th>
+
+<th>
+Culture
+</th>
+
+</tr>
+</thead>
+<tbody class="list">
+
+<tr data-index="0" data-categories="UGFpbGxhZ2UlMkNDb3V2ZXJ0cyUyMHYlQzMlQTlnJUMzJUE5dGF1eCUyQyVDMyU4OXBpbmFyZCUyQ0xhaXR1ZQ==" data-listing-date-sort="1794870000000" data-listing-file-modified-sort="1795182134920" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7" data-listing-word-count-sort="1249" data-listing-title-sort="Cinq paillages en maraîchage bio : sol, eau et légumes" data-listing-filename-sort="index.qmd">
+<td>
+<a href="../../fiches/2026-paillage-epinard-laitue/index.html" class="title listing-title">Cinq paillages en maraîchage bio : sol, eau et légumes</a>
+</td>
+<td>
+<span class="listing-annee">2025–2026</span>
+</td>
+<td>
+<span class="listing-culture">Épinard</span>
+</td>
+
+</tr>
+
+<tr data-index="1" data-categories="R2VzdGlvbiUyMGRlJTIwbCdlYXUlMkNDaG91" data-listing-date-sort="1794870000000" data-listing-file-modified-sort="1795182134918" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7" data-listing-word-count-sort="1304" data-listing-title-sort="Oyas pour le chou : à quelle distance les placer ?" data-listing-filename-sort="index.qmd">
+<td>
+<a href="../../fiches/2025-oyas-chou/index.html" class="title listing-title">Oyas pour le chou : à quelle distance les placer ?</a>
+</td>
+<td>
+<span class="listing-annee">2025</span>
+</td>
+<td>
+<span class="listing-culture">Chou</span>
+</td>
+
+</tr>
+
+</tbody>
+</table>
+<div class="listing-no-matching d-none">Aucun article correspondant</div>
+</div>
+</section>
+<section id="ressources-en-ligne" class="level2">
+<h2 class="anchored" data-anchor-id="ressources-en-ligne">Ressources en ligne</h2>
+<p>Pour aller plus loin, une sélection de ressources de référence. Elles sont gérées par d’autres organismes : leur contenu peut changer.</p>
+<ul>
+<li><a href="https://tomst.com/web/en/systems/tms/tms-4/">Sonde TMS-4 : description technique (TOMST, en anglais)</a></li>
+<li><a href="https://tomst.com/web/en/systems/tms/software/">Logiciel Lolly pour lire et convertir les données (TOMST, en anglais)</a></li>
+<li><a href="https://doi.org/10.1016/j.agrformet.2018.12.018">Wild J. et al.&nbsp;(2019), article de référence sur la sonde TMS-4 et sa calibration (Agricultural and Forest Meteorology, en anglais)</a></li>
+<li><a href="https://www.landbrugsinfo.dk/-/media/landbrugsinfo/public/8/8/3/planter_kval_landsfors_lat_jordfugtighedssensor.pdf">Guide pratique des capteurs d’humidité du sol en maraîchage (SEGES, PDF, en danois)</a></li>
+</ul>
+</section>
+<section id="sources" class="level2">
+<h2 class="anchored" data-anchor-id="sources">Sources</h2>
+<ul>
+<li>Mémoire de Gaëlle Hanssens (2025), <em>oyas et chou</em>, p.&nbsp;23–24. Il cite Wild et al.&nbsp;(2019) et TOMST (2025).</li>
+<li>Mémoire de Pierre-André Peters-Dickie (2026), <em>paillages</em>, p.&nbsp;30–31.</li>
+</ul>
+
+
+
+</section>
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-reuse"><h2 class="anchored quarto-appendix-heading">Réutilisation</h2><div class="quarto-appendix-contents"><div><a rel="license" href="https://creativecommons.org/licenses/by/4.0/deed.fr">CC BY 4.0</a></div></div></section></div></main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copié");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copié");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/pepa-lab\.github\.io\/maraichage");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+      window.quartoDecorateExternalLinks = function (root) {
+     var links = (root || window.document).querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+          if (!link.classList.contains('no-external-icon')) {
+          }
+        }
+      }
+      };
+      window.quartoDecorateExternalLinks(window.document);
+    // Esc closes the popup (WCAG 1.4.13) and focus leaving both trigger and
+    // popup closes it (WCAG 2.4.11); tippy handles neither for interactive popups.
+    const hideOnEscAndFocusOut = {
+      name: 'hideOnEscAndFocusOut',
+      defaultValue: true,
+      fn(instance) {
+        const dismiss = () => {
+          // A show scheduled by the trigger delay would otherwise reopen it
+          instance.clearDelayTimeouts();
+          instance.hide();
+        };
+        const onKeyDown = (event) => {
+          if (event.key !== 'Escape') {
+            return;
+          }
+          // Keep Esc from also reaching page handlers (e.g. reveal.js overview),
+          // except an open reveal.js slide menu, which Esc should close too.
+          // The menu handles keys only when its keyboard option is on.
+          const menuHandlesEsc = window.Reveal?.getPlugin?.('menu')?.isOpen() &&
+            window.Reveal.getConfig().menu?.keyboard !== false;
+          if (!menuHandlesEsc) {
+            event.stopPropagation();
+          }
+          if (instance.popper.contains(window.document.activeElement)) {
+            // Disabled while refocusing so the focus trigger does not reopen it
+            instance.disable();
+            instance.reference.focus();
+            instance.enable();
+          }
+          dismiss();
+        };
+        const onFocusOut = (event) => {
+          const target = event.relatedTarget;
+          if (target && !instance.reference.contains(target) &&
+              !instance.popper.contains(target)) {
+            dismiss();
+          }
+        };
+        // On the trigger too: a click trigger (code-annotations: select) has no
+        // blur handling. Attached for the instance's lifetime so leaving the
+        // trigger also cancels a show still pending on the trigger delay.
+        instance.reference.addEventListener('focusout', onFocusOut);
+        return {
+          onShow() {
+            window.document.addEventListener('keydown', onKeyDown, true);
+            instance.popper.addEventListener('focusout', onFocusOut);
+          },
+          onHide() {
+            window.document.removeEventListener('keydown', onKeyDown, true);
+            instance.popper.removeEventListener('focusout', onFocusOut);
+          },
+          onDestroy() {
+            instance.reference.removeEventListener('focusout', onFocusOut);
+          },
+        };
+      },
+    };
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+        plugins: [hideOnEscAndFocusOut],
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          // Each band is positioned against its own containing block, which is
+          // not the offsetParent of the lines, so place it from client rects.
+          const placeBand = (band, firstEl, lastEl, codeBlock) => {
+            const container = band.offsetParent;
+            if (container === null) {
+              return;
+            }
+            const containerRect = container.getBoundingClientRect();
+            // Reveal.js scales slides with a transform, so convert client
+            // pixels back to the CSS pixels of the container.
+            const scale = containerRect.height / container.offsetHeight || 1;
+            const firstRect = firstEl.getBoundingClientRect();
+            const lastRect = lastEl.getBoundingClientRect();
+            const top = (firstRect.top - containerRect.top) / scale - container.clientTop + container.scrollTop;
+            const height = (lastRect.bottom - firstRect.top) / scale;
+            band.style.top = top - 2 + "px";
+            band.style.height = height + 4 + "px";
+            if (codeBlock) {
+              // Without the copy button wrapper, the containing block is wider
+              // than the code block, so span the code block explicitly.
+              const blockRect = codeBlock.getBoundingClientRect();
+              band.style.left = (blockRect.left - containerRect.left) / scale - container.clientLeft + container.scrollLeft + "px";
+              band.style.width = blockRect.width / scale + "px";
+            }
+          };
+          if (lineIds.length > 0) {
+            const el = window.document.getElementById(lineIds[0]);
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const parent = el.parentElement.parentElement;
+            // cook up a div (if necessary) and position it
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            placeBand(div, el, lastEl, parent.closest("div.sourceCode") || parent);
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            placeBand(gutterDiv, el, lastEl);
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+  <script type="application/javascript">
+  window.quartoScrollableRegionsLabels = {"code":"Code défilable","output":"Sortie défilable"};
+  </script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>PEPA Lab · Earth and Life Institute · UCLouvain</p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/pepa-lab/maraichage/edit/main/protocoles/sondes-humidite-sol/index.qmd" class="toc-action"><i class="bi bi-github"></i>Modifier cette page</a></li><li><a href="https://github.com/pepa-lab/maraichage/issues/new" class="toc-action"><i class="bi empty"></i>Faire part d'un problème</a></li></ul></div></div>
+    <div class="nav-footer-right">
+<p>Contenu sous licence CC BY 4.0 · Données : voir chaque fiche</p>
+</div>
+  </div>
+</footer>
+
+
+
+
+</body></html>

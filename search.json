@@ -70,151 +70,221 @@
     "text": "Sources\n\nMémoire d’Eliot Vas (2025), section 4.6.1.1, p. 35, et tableau 5, p. 45.\nMémoire de Pierre-André Peters-Dickie (2026), p. 29 (profondeur de 25 cm, séchage) et p. 32 (conservation des échantillons pour le carbone microbien)."
   },
   {
-    "objectID": "protocoles/adventices-couverture/index.html",
-    "href": "protocoles/adventices-couverture/index.html",
-    "title": "Mesurer la couverture d’adventices et de la culture",
+    "objectID": "protocoles/besoins-eau-etc/index.html",
+    "href": "protocoles/besoins-eau-etc/index.html",
+    "title": "Calculer les besoins en eau d’une culture à partir de l’ET0",
     "section": "",
-    "text": "Objectif Chiffrer la place prise par les adventices et le développement de la culture, avec un cadre grillagé ou une photo, pour comparer deux pratiques.\nDifficulté Facile\nDurée ≈ 15 min par parcelle\nCoût ≈ 0 € (cadre fait maison, application gratuite)\nQuand Au printemps, avant le désherbage, quand la culture est bien installée"
+    "text": "Objectif Estimer combien d’eau donner à chaque plant entre deux arrosages, à partir des données météo de la station la plus proche et d’un coefficient propre à la culture.\nDifficulté Moyen\nDurée ≈ 10 min avant chaque arrosage\nCoût ≈ 0 € (données météo gratuites en ligne)\nQuand Toute la saison, avant chaque arrosage"
   },
   {
-    "objectID": "protocoles/adventices-couverture/index.html#à-quoi-ça-sert",
-    "href": "protocoles/adventices-couverture/index.html#à-quoi-ça-sert",
-    "title": "Mesurer la couverture d’adventices et de la culture",
+    "objectID": "protocoles/besoins-eau-etc/index.html#à-quoi-ça-sert",
+    "href": "protocoles/besoins-eau-etc/index.html#à-quoi-ça-sert",
+    "title": "Calculer les besoins en eau d’une culture à partir de l’ET0",
     "section": "À quoi ça sert",
-    "text": "À quoi ça sert\nPour savoir si un paillage limite vraiment les adventices, ou si une culture se développe mieux sur une planche que sur une autre, il faut des chiffres comparables. Le cadre grillagé permet de compter la surface occupée par les adventices et de les identifier. Une photo analysée avec l’application Canopeo donne en quelques secondes le pourcentage de sol couvert par du vert. Le cadre est plus fiable, la photo plus rapide."
+    "text": "À quoi ça sert\nArroser « au jugé » conduit souvent à donner trop ou trop peu. Ce protocole estime l’eau réellement consommée par la culture depuis le dernier arrosage, à partir de deux informations :\n\nl’ET0 (évapotranspiration de référence), en mm par jour. Elle traduit la demande en eau de l’air : chaleur, soleil, vent, air sec. Les stations météo la calculent chaque jour ;\nle Kc (coefficient cultural), propre à chaque culture et à son stade. Il ajuste l’ET0 à la culture.\n\nOn obtient l’ETc, l’eau consommée par la culture, en mm par jour :\n\nETc = Kc × ET0\n\nUn millimètre d’eau correspond à 1 litre par m². En multipliant par la surface occupée par un plant, on obtient les litres à apporter par plant. Nous avons utilisé ce calcul pour arroser les choux du traitement de référence dans notre essai de 2025."
   },
   {
-    "objectID": "protocoles/adventices-couverture/index.html#matériel",
-    "href": "protocoles/adventices-couverture/index.html#matériel",
-    "title": "Mesurer la couverture d’adventices et de la culture",
+    "objectID": "protocoles/besoins-eau-etc/index.html#matériel",
+    "href": "protocoles/besoins-eau-etc/index.html#matériel",
+    "title": "Calculer les besoins en eau d’une culture à partir de l’ET0",
     "section": "Matériel",
-    "text": "Matériel\n\nUn cadre en bois de 71 cm de côté, tendu d’un grillage ou de ficelles qui le divisent en 196 cases de 5 × 5 cm (14 × 14). Il couvre 0,5 m².\nUn smartphone avec l’application Canopeo (gratuite, iOS et Android)\nPour identifier les espèces : une application de reconnaissance (PlantNet, PictureThis) et, idéalement, une personne formée à la botanique\nLa fiche de relevé"
+    "text": "Matériel\n\nUn accès aux données météo quotidiennes d’une station proche de vos parcelles, avec l’ET0. En Wallonie, le réseau Agromet (CRA-W) fournit l’ET0 et les pluies. Dans notre essai, la station de Louvain-la-Neuve se trouvait à moins d’1 km.\nLes Kc de la culture par stade (voir ci-dessous et le tableau de la FAO dans les ressources)\nUn récipient gradué pour mesurer le volume apporté (nous utilisons une bouteille de 1,5 L graduée tous les 0,15 L)\nUn tableur, ou la fiche de relevé"
   },
   {
-    "objectID": "protocoles/adventices-couverture/index.html#étapes-cadre-grillagé-adventices",
-    "href": "protocoles/adventices-couverture/index.html#étapes-cadre-grillagé-adventices",
-    "title": "Mesurer la couverture d’adventices et de la culture",
-    "section": "Étapes : cadre grillagé (adventices)",
-    "text": "Étapes : cadre grillagé (adventices)\n\nPoser le cadre au centre de la parcelle, toujours au même endroit d’une date à l’autre.\nNoter chaque case : 1 si au moins la moitié de la case est couverte par une adventice, 0 sinon.\nCompter les cases notées 1 et calculez le pourcentage de surface couverte : cases notées 1 ÷ 196 × 100.\nIdentifier les espèces présentes dans le cadre et compter les pieds de chacune. Les applications reconnaissent souvent le genre, mais se trompent sur l’espèce, surtout chez les plantules : faites vérifier par une personne compétente."
-  },
-  {
-    "objectID": "protocoles/adventices-couverture/index.html#étapes-photo-canopeo-couverture-totale",
-    "href": "protocoles/adventices-couverture/index.html#étapes-photo-canopeo-couverture-totale",
-    "title": "Mesurer la couverture d’adventices et de la culture",
-    "section": "Étapes : photo Canopeo (couverture totale)",
-    "text": "Étapes : photo Canopeo (couverture totale)\n\nPrendre la photo à la verticale, au-dessus de la planche. En 2025, nous l’avons prise à hauteur d’épaule (environ 1,40 m). En 2026, nous avons plutôt cadré pour que les bords de la parcelle soient juste en dehors de la photo, parce que la surface photographiée varie selon le téléphone.\nFaire 3 photos par parcelle, une dans chaque tiers, toujours dans le même ordre, et en faire la moyenne (méthode 2026).\nChoisir des conditions comparables : évitez le plein soleil et les heures qui suivent une pluie (feuillage ou sol mouillé). Ces situations faussent le résultat vers le haut.\nLire le pourcentage de couverture donné par l’application. Utilisez le facteur de correction de l’application avec parcimonie, et toujours de la même façon."
-  },
-  {
-    "objectID": "protocoles/adventices-couverture/index.html#fiche-de-relevé",
-    "href": "protocoles/adventices-couverture/index.html#fiche-de-relevé",
-    "title": "Mesurer la couverture d’adventices et de la culture",
-    "section": "Fiche de relevé",
-    "text": "Fiche de relevé\nTéléchargez la fiche de relevé (CSV). Notez une ligne par parcelle et par date. Les espèces identifiées vont dans la colonne especes, avec leur nombre de pieds.\n\n\n\n\n\n\nSaisir sur téléphone avec KoboToolbox. Ce relevé existe aussi en formulaire KoboToolbox (format XLSForm) : les calculs se font tout seuls et la saisie marche sans réseau.\n\nCréez un compte gratuit sur KoboToolbox, puis Nouveau projet → Importer un XLSForm et choisissez le fichier téléchargé. Cliquez sur Déployer.\nInstallez l’application KoboCollect (Android) sur votre téléphone, ou utilisez le formulaire web (Enketo) depuis n’importe quel navigateur, même sur iPhone.\nFaites vos relevés au champ. Les données s’envoient au retour du réseau et s’exportent en Excel ou CSV depuis KoboToolbox."
-  },
-  {
-    "objectID": "protocoles/adventices-couverture/index.html#lire-les-résultats",
-    "href": "protocoles/adventices-couverture/index.html#lire-les-résultats",
-    "title": "Mesurer la couverture d’adventices et de la culture",
-    "section": "Lire les résultats",
-    "text": "Lire les résultats\n\nCadre : comparez le pourcentage de cases couvertes et le nombre d’espèces entre pratiques. En 2025, sous BRF et bâche plastique, il y avait moins d’espèces d’adventices que sur les parcelles restées nues.\nCanopeo ne distingue pas la culture des adventices : le résultat n’a de sens pour la culture que si les adventices ont été retirées peu avant.\nLes deux méthodes se combinent : le même cadre grillagé peut servir à noter aussi les cases couvertes par la culture."
-  },
-  {
-    "objectID": "protocoles/adventices-couverture/index.html#erreurs-fréquentes",
-    "href": "protocoles/adventices-couverture/index.html#erreurs-fréquentes",
-    "title": "Mesurer la couverture d’adventices et de la culture",
-    "section": "Erreurs fréquentes",
-    "text": "Erreurs fréquentes\n\nMesurer juste après un désherbage : il n’y a plus rien à compter. En 2026, il a fallu laisser les parcelles se salir volontairement avant la mesure.\nChanger la hauteur ou le cadrage des photos d’une date à l’autre.\nSe fier uniquement aux applications pour nommer les espèces."
-  },
-  {
-    "objectID": "protocoles/adventices-couverture/index.html#dans-nos-essais",
-    "href": "protocoles/adventices-couverture/index.html#dans-nos-essais",
-    "title": "Mesurer la couverture d’adventices et de la culture",
-    "section": "Dans nos essais",
-    "text": "Dans nos essais\nÀ la ferme universitaire de Lauzelle, le cadre grillagé a servi sur les 30 parcelles paillées en mai 2025, et Canopeo en avril–mai 2025 puis à quatre dates en mai 2026. Le mémoire de 2025 juge le cadre pratique, rapide et reproductible, et Canopeo très rapide mais sensible à la lumière et à l’angle de prise de vue.\n\n\n\n\n\n\nEssai\n\n\n\nSaison\n\n\n\nCulture\n\n\n\n\n\n\n\n\nCinq paillages en maraîchage bio : sol, eau et légumes\n\n\n2025–2026\n\n\nÉpinard\n\n\n\n\n\n\nPaillages en maraîchage bio : bilan de la première année\n\n\n2024–2025\n\n\nÉpinard\n\n\n\n\n\n\nAucun article correspondant"
-  },
-  {
-    "objectID": "protocoles/adventices-couverture/index.html#ressources-en-ligne",
-    "href": "protocoles/adventices-couverture/index.html#ressources-en-ligne",
-    "title": "Mesurer la couverture d’adventices et de la culture",
-    "section": "Ressources en ligne",
-    "text": "Ressources en ligne\nPour aller plus loin, une sélection de ressources de référence. Elles sont gérées par d’autres organismes : leur contenu peut changer.\n\nCanopeo sur l’App Store (gratuit, Oklahoma State University ; existe aussi sur Android)\nPrésentation de Canopeo par ses concepteurs (Oklahoma State University, en anglais)\nPl@ntNet sur l’App Store (gratuit, iOS et Android)\nCinq applications de reconnaissance végétale testées sur les adventices (Réussir)"
-  },
-  {
-    "objectID": "protocoles/adventices-couverture/index.html#sources",
-    "href": "protocoles/adventices-couverture/index.html#sources",
-    "title": "Mesurer la couverture d’adventices et de la culture",
-    "section": "Sources",
-    "text": "Sources\n\nMéthode du cadre grillagé : Wilmus (2021), citée par Vas (2025).\nMémoire d’Eliot Vas (2025) : méthode p. 42–44, résultats p. 56–58, évaluation p. 75 et 77.\nMémoire de Pierre-André Peters-Dickie (2026) : améliorations de la prise de vue Canopeo, p. 32–33 ; adaptation de la méthode des adventices, p. 34."
-  },
-  {
-    "objectID": "protocoles/oyas-installation/index.html",
-    "href": "protocoles/oyas-installation/index.html",
-    "title": "Installer et suivre des oyas sous tunnel",
-    "section": "",
-    "text": "Objectif Irriguer tomates ou choux avec des pots en terre cuite enterrés, en économisant l’eau, et mesurer ce qu’ils consomment vraiment.\nDifficulté Facile\nDurée ≈ 20 min par oya\nCoût ≈ 30 € par oya de 5 L (prix 2025)\nQuand Installation à la plantation, puis 2 remplissages par semaine"
-  },
-  {
-    "objectID": "protocoles/oyas-installation/index.html#à-quoi-ça-sert",
-    "href": "protocoles/oyas-installation/index.html#à-quoi-ça-sert",
-    "title": "Installer et suivre des oyas sous tunnel",
-    "section": "À quoi ça sert",
-    "text": "À quoi ça sert\nUn oya est un pot en argile poreuse, enterré et rempli d’eau. L’eau traverse lentement la paroi et humidifie le sol autour du pot, au niveau des racines, avec très peu d’évaporation. Dans nos essais sous tunnel, les oyas ont utilisé 60 à 70 % d’eau en moins qu’un arrosage classique, à condition de bien les placer. Ce protocole explique comment les installer, à quelle distance des plants, et comment mesurer l’eau qu’ils consomment."
-  },
-  {
-    "objectID": "protocoles/oyas-installation/index.html#matériel",
-    "href": "protocoles/oyas-installation/index.html#matériel",
-    "title": "Installer et suivre des oyas sous tunnel",
-    "section": "Matériel",
-    "text": "Matériel\n\nOyas de 5 L : un pour 4 plants. Ils coûtaient environ 30 € pièce en 2025. Un oya réutilisé d’une saison précédente fonctionne aussi.\nUne bêche ou une tarière\nUn récipient gradué pour connaître le volume versé (nous utilisons une bouteille de 1,5 L graduée tous les 0,15 L)\nUn mètre ruban\nSi le sol est couvert d’une toile : un cutter pour l’ouvrir à l’emplacement des oyas\nLa fiche de relevé"
-  },
-  {
-    "objectID": "protocoles/oyas-installation/index.html#étapes",
-    "href": "protocoles/oyas-installation/index.html#étapes",
-    "title": "Installer et suivre des oyas sous tunnel",
+    "objectID": "protocoles/besoins-eau-etc/index.html#étapes",
+    "href": "protocoles/besoins-eau-etc/index.html#étapes",
+    "title": "Calculer les besoins en eau d’une culture à partir de l’ET0",
     "section": "Étapes",
-    "text": "Étapes\n\nPréparer le plan. Placez chaque oya au centre de 4 plants. Nos repères de distance entre l’oya et chaque plant :\n\ntomate : ≈ 30 cm (31 cm dans notre essai de 2024) ;\nchou : 35 à 56 cm. À 79 cm, c’est trop loin : moins de la moitié des choux étaient commercialisables.\n\nCreuser. Faites un trou environ 3 fois plus large et 2 fois plus profond que l’oya, puis remettez de la terre fine au fond.\nEnterrer l’oya pour que seul le col dépasse, à 1 ou 2 cm au-dessus du sol. S’il dépasse trop, l’eau s’évapore. S’il est trop profond, les jeunes racines n’atteignent pas la zone humide.\nBien tasser la terre autour, en contact avec la paroi et sans laisser de vide : l’eau ne passe que là où la terre touche le pot.\nRemplir l’oya à ras le jour de la plantation, poser le couvercle, et arroser aussi les plants au pied (nous avons donné 0,25 L par chou et 0,5 L par tomate). Pendant les premières semaines, les racines n’atteignent pas encore l’oya : un arrosage d’appoint peut être nécessaire.\nRemplir régulièrement. Comptez 2 fois par semaine au printemps et en été. Notez à chaque fois le volume ajouté pour refaire le plein. Pour une efficience maximale, la littérature conseille de remplir avant que l’oya ait perdu plus d’un quart de son volume.\nMesurer en fin de saison. Après la récolte, mesurez l’eau qui reste dans chaque oya. Sa consommation sur la saison = premier remplissage + somme des remplissages suivants − eau restante (méthode du mémoire de Gaëlle Hanssens). Divisez par 4 pour obtenir l’eau reçue par plant.\nEntretenir. Videz et sortez les oyas avant l’hiver. Brossez-les si un dépôt blanc (calcaire, sels) bouche la surface."
+    "text": "Étapes\n\nConnaître la surface par plant. Multipliez l’écartement entre rangs par l’écartement sur le rang. Pour des choux plantés à 50 × 50 cm : 0,5 × 0,5 = 0,25 m² par plant.\nChoisir le Kc selon le stade. Pour le chou, nous avons utilisé :\n\n0,5 pendant la croissance des feuilles (jusqu’au 17 avril dans notre essai) ;\n1,0 pendant la formation de la pomme (jusqu’au 20 mai) ;\n1,3 en plein pommage, jusqu’à la récolte.\n\nPour d’autres cultures, cherchez les valeurs dans le tableau de la FAO (bulletin FAO-56) ou dans les guides régionaux.\nRelever l’ET0 de chaque jour depuis le dernier arrosage, sur la station choisie, et additionnez-les.\nCalculer l’ETc cumulée : ΣETc (mm) = Kc × ΣET0 (mm). Si le Kc a changé pendant la période, faites le calcul jour par jour.\nConvertir en litres par plant : besoin (L/plant) = ΣETc (mm) × surface par plant (m²).\nArroser au pied avec le récipient gradué et noter le volume réellement apporté. Si l’eau ruisselle ou stagne en surface avant d’avoir tout versé, arrêtez-vous et notez le volume versé.\nRecommencer avant chaque arrosage. Nous arrosions 2 fois par semaine.\n\n\nExemple de calcul\nExtraits de nos relevés sur chou en 2025 (mémoire de Gaëlle Hanssens, annexe 1). Surface : 0,25 m² par plant.\n\n\n\n\n\n\n\n\n\n\n\nJours après plantation\nKc\nΣET0 depuis l’arrosage précédent (mm)\nΣETc (mm)\nBesoin calculé (L/plant)\nEau réellement apportée (L/plant)\n\n\n\n\n7\n0,5\n2,6\n1,30\n0,32\n0,30\n\n\n54\n1,0\n19,1\n19,10\n4,78\n2,70\n\n\n75\n1,3\n15,1\n19,63\n4,91\n4,30\n\n\n\nExemple pour le jour 54 : 1,0 × 19,1 = 19,1 mm, puis 19,1 × 0,25 = 4,78 L par plant."
   },
   {
-    "objectID": "protocoles/oyas-installation/index.html#fiche-de-relevé",
-    "href": "protocoles/oyas-installation/index.html#fiche-de-relevé",
-    "title": "Installer et suivre des oyas sous tunnel",
+    "objectID": "protocoles/besoins-eau-etc/index.html#fiche-de-relevé",
+    "href": "protocoles/besoins-eau-etc/index.html#fiche-de-relevé",
+    "title": "Calculer les besoins en eau d’une culture à partir de l’ET0",
     "section": "Fiche de relevé",
-    "text": "Fiche de relevé\nTéléchargez la fiche de relevé (CSV), avec une ligne par oya et par remplissage. Additionnez la colonne volume_ajoute_L en fin de saison.\n\n\n\n\n\n\nSaisir sur téléphone avec KoboToolbox. Ce relevé existe aussi en formulaire KoboToolbox (format XLSForm) : les calculs se font tout seuls et la saisie marche sans réseau.\n\nCréez un compte gratuit sur KoboToolbox, puis Nouveau projet → Importer un XLSForm et choisissez le fichier téléchargé. Cliquez sur Déployer.\nInstallez l’application KoboCollect (Android) sur votre téléphone, ou utilisez le formulaire web (Enketo) depuis n’importe quel navigateur, même sur iPhone.\nFaites vos relevés au champ. Les données s’envoient au retour du réseau et s’exportent en Excel ou CSV depuis KoboToolbox."
+    "text": "Fiche de relevé\nTéléchargez la fiche de relevé (CSV), avec une ligne par arrosage. Les colonnes etc_cumulee_mm et besoin_L_par_plant se calculent avec les formules des étapes 4 et 5.\n\n\n\n\n\n\nSaisir sur téléphone avec KoboToolbox. Ce relevé existe aussi en formulaire KoboToolbox (format XLSForm) : les calculs se font tout seuls et la saisie marche sans réseau.\n\nCréez un compte gratuit sur KoboToolbox, puis Nouveau projet → Importer un XLSForm et choisissez le fichier téléchargé. Cliquez sur Déployer.\nInstallez l’application KoboCollect (Android) sur votre téléphone, ou utilisez le formulaire web (Enketo) depuis n’importe quel navigateur, même sur iPhone.\nFaites vos relevés au champ. Les données s’envoient au retour du réseau et s’exportent en Excel ou CSV depuis KoboToolbox."
   },
   {
-    "objectID": "protocoles/oyas-installation/index.html#lire-les-résultats",
-    "href": "protocoles/oyas-installation/index.html#lire-les-résultats",
-    "title": "Installer et suivre des oyas sous tunnel",
+    "objectID": "protocoles/besoins-eau-etc/index.html#lire-les-résultats",
+    "href": "protocoles/besoins-eau-etc/index.html#lire-les-résultats",
+    "title": "Calculer les besoins en eau d’une culture à partir de l’ET0",
     "section": "Lire les résultats",
-    "text": "Lire les résultats\n\nComparez avec votre arrosage habituel : en 2025, nos choux ont reçu 10 à 14 L par plant avec les oyas, contre environ 35 L à l’arrosoir. En 2024, nos tomates ont reçu ≈ 27 L par plant avec les oyas, contre ≈ 127 L en irrigation complète.\nLes oyas économisent l’eau mais ne maximisent pas le rendement. En 2024, les tomates sous oyas ont donné 2,4 kg par plant, contre 3,2 kg en irrigation complète, mais chaque litre d’eau a produit environ 4 fois plus de tomates.\nUn oya qui se vide moins vite indique que les plants ont moins besoin d’eau (fin de saison, temps frais), ou que la paroi est encrassée."
+    "text": "Lire les résultats\n\nComparez le besoin calculé et l’eau apportée. Dans notre essai, l’eau apportée est restée sous le besoin calculé presque toute la saison, parce que le sol n’absorbait pas plus.\nL’ETc varie beaucoup d’une semaine à l’autre. En 2025, au printemps très sec, elle a varié de 0,65 à 6,24 mm par jour pour le chou.\nLes besoins augmentent avec le stade. Pour le chou, le dernier mois, pendant la formation de la pomme, est la période la plus sensible au manque d’eau.\nLa pluie compte en plein champ. Sous tunnel, toute l’eau vient de l’arrosage. En plein champ, retranchez la pluie tombée de l’ETc cumulée."
   },
   {
-    "objectID": "protocoles/oyas-installation/index.html#erreurs-fréquentes",
-    "href": "protocoles/oyas-installation/index.html#erreurs-fréquentes",
-    "title": "Installer et suivre des oyas sous tunnel",
+    "objectID": "protocoles/besoins-eau-etc/index.html#erreurs-fréquentes",
+    "href": "protocoles/besoins-eau-etc/index.html#erreurs-fréquentes",
+    "title": "Calculer les besoins en eau d’une culture à partir de l’ET0",
     "section": "Erreurs fréquentes",
-    "text": "Erreurs fréquentes\n\nPlacer l’oya trop loin des plants : les racines ne le trouvent pas.\nOublier l’arrosage d’appoint juste après la plantation.\nOublier de noter les volumes : sans eux, impossible de savoir si l’on économise de l’eau.\nTravailler le sol chaque année : les oyas conviennent mieux aux planches permanentes et au travail du sol réduit.\nLaisser les oyas pleins dehors en hiver : une argile gorgée d’eau risque de se fendre au gel."
+    "text": "Erreurs fréquentes\n\nOublier de changer de Kc quand la culture change de stade.\nVerser tout le volume calculé d’un coup sur un sol qui n’absorbe pas assez vite : l’eau ruisselle et est perdue. Dans notre essai, les volumes ont été ajustés à la capacité d’infiltration du sol.\nUtiliser une station trop éloignée, ou située dans un autre type de paysage (vallée, plateau).\nConfondre mm et L : 1 mm = 1 L par m², pas par plant."
   },
   {
-    "objectID": "protocoles/oyas-installation/index.html#dans-nos-essais",
-    "href": "protocoles/oyas-installation/index.html#dans-nos-essais",
-    "title": "Installer et suivre des oyas sous tunnel",
+    "objectID": "protocoles/besoins-eau-etc/index.html#dans-nos-essais",
+    "href": "protocoles/besoins-eau-etc/index.html#dans-nos-essais",
+    "title": "Calculer les besoins en eau d’une culture à partir de l’ET0",
     "section": "Dans nos essais",
-    "text": "Dans nos essais\nNous avons testé les oyas sous tunnel à la ferme universitaire de Marbaix, sur tomate en 2024 et sur chou en 2025 : oyas de 5 L, chacun au centre de 4 plants, remplis à ras 2 à 3 fois par semaine.\n\n\n\n\n\n\nEssai\n\n\n\nSaison\n\n\n\nCulture\n\n\n\n\n\n\n\n\nOyas pour le chou : à quelle distance les placer ?\n\n\n2025\n\n\nChou\n\n\n\n\n\n\nTomate sous tunnel : combien d’eau pour quel rendement ?\n\n\n2024\n\n\nTomate\n\n\n\n\n\n\nAucun article correspondant"
+    "text": "Dans nos essais\nSous tunnel à la ferme universitaire de Marbaix en 2025, nous avons arrosé au pied les choux du traitement « 100 % » d’après ce calcul, deux fois par semaine, avec l’ET0 de la station de Louvain-la-Neuve. Les oyas, eux, n’ont pas besoin de ce calcul : leur débit suit ce que le sol absorbe.\n\n\n\n\n\n\nEssai\n\n\n\nSaison\n\n\n\nCulture\n\n\n\n\n\n\n\n\nOyas pour le chou : à quelle distance les placer ?\n\n\n2025\n\n\nChou\n\n\n\n\n\n\nAucun article correspondant"
   },
   {
-    "objectID": "protocoles/oyas-installation/index.html#ressources-en-ligne",
-    "href": "protocoles/oyas-installation/index.html#ressources-en-ligne",
-    "title": "Installer et suivre des oyas sous tunnel",
+    "objectID": "protocoles/besoins-eau-etc/index.html#ressources-en-ligne",
+    "href": "protocoles/besoins-eau-etc/index.html#ressources-en-ligne",
+    "title": "Calculer les besoins en eau d’une culture à partir de l’ET0",
     "section": "Ressources en ligne",
-    "text": "Ressources en ligne\nPour aller plus loin, une sélection de ressources de référence. Elles sont gérées par d’autres organismes : leur contenu peut changer.\n\nPitcher irrigation : fiche de la plateforme agriculture familiale (FAO, en anglais)\nPitcher irrigation : vidéo de formation pour agriculteurs (Access Agriculture, plusieurs langues)\nÉconomie d’eau des oyas comparée au goutte-à-goutte sur chou (Hatungimana et al., 2023, PDF, en anglais), étude citée par le mémoire Hanssens"
+    "text": "Ressources en ligne\nPour aller plus loin, une sélection de ressources de référence. Elles sont gérées par d’autres organismes : leur contenu peut changer.\n\nAgromet : données météo et ET0 des stations wallonnes (CRA-W, dossier de présentation, PDF)\nEstimer le bilan hydrique d’une parcelle avec les données Agromet (SPW Agriculture, PDF)\nBulletin FAO-56 : évapotranspiration des cultures (en anglais)\nFAO-56, chapitre 6 : les coefficients culturaux Kc par culture (en anglais)"
   },
   {
-    "objectID": "protocoles/oyas-installation/index.html#sources",
-    "href": "protocoles/oyas-installation/index.html#sources",
-    "title": "Installer et suivre des oyas sous tunnel",
+    "objectID": "protocoles/besoins-eau-etc/index.html#sources",
+    "href": "protocoles/besoins-eau-etc/index.html#sources",
+    "title": "Calculer les besoins en eau d’une culture à partir de l’ET0",
     "section": "Sources",
-    "text": "Sources\n\nMémoire de Clémentine Lucca (2025), irrigation de la tomate sous tunnel, p. 27–28, 33 et 37.\nMémoire de Gaëlle Hanssens (2025), oyas et chou, p. 8–10 et 18–22. Il cite notamment Siyal et al. (2009), Bazai et al. (2017) et Hatungimana et al. (2023)."
+    "text": "Sources\n\nMémoire de Gaëlle Hanssens (2025), oyas et chou : bilan hydrique p. 3–4, Kc du chou p. 15, méthode p. 21–22, résultats p. 23, annexe 1 p. 66. Il cite notamment Allen et al. (2006), la Chambre d’Agriculture (2013) et Leclerc (2024).\nAllen R.G. et al. (1998). Crop evapotranspiration. FAO Irrigation and drainage paper 56. FAO, Rome."
+  },
+  {
+    "objectID": "protocoles/vess-test-beche/index.html",
+    "href": "protocoles/vess-test-beche/index.html",
+    "title": "Évaluer la structure du sol et compter les vers de terre à la bêche",
+    "section": "",
+    "text": "Objectif Noter la structure du sol de 1 à 5 et compter les vers de terre sur le même bloc de terre, pour suivre l’effet de vos pratiques d’une année à l’autre.\nDifficulté Facile\nDurée ≈ 30 min par bloc\nCoût ≈ 0 € (une bêche, deux bacs)\nQuand Fin d’hiver – début de printemps, sol ressuyé"
+  },
+  {
+    "objectID": "protocoles/vess-test-beche/index.html#à-quoi-ça-sert",
+    "href": "protocoles/vess-test-beche/index.html#à-quoi-ça-sert",
+    "title": "Évaluer la structure du sol et compter les vers de terre à la bêche",
+    "section": "À quoi ça sert",
+    "text": "À quoi ça sert\nLa VESS (Visual Evaluation of Soil Structure) donne une note de 1 (sol friable, bien structuré) à 5 (sol très compact) à partir d’un simple bloc de terre. Le test bêche utilise ensuite ce même bloc pour compter les vers de terre et les classer en groupes. Ensemble, ils montrent en une demi-heure si un paillage, un couvert ou un travail du sol améliore ou dégrade votre sol. Il suffit de refaire le test chaque année à la même période."
+  },
+  {
+    "objectID": "protocoles/vess-test-beche/index.html#matériel",
+    "href": "protocoles/vess-test-beche/index.html#matériel",
+    "title": "Évaluer la structure du sol et compter les vers de terre à la bêche",
+    "section": "Matériel",
+    "text": "Matériel\n\nUne bêche plate et bien affûtée\nDeux bacs ou une bâche, de couleur sombre pour mieux voir les vers\nUn mètre ruban ou une règle\nLa grille de notation VESS imprimée. Elle existe aussi en application pour iPhone ; nous n’avons pas trouvé de version Android en 2026.\nLa clé d’identification des vers de terre de l’OPVT (4 groupes)\nLa fiche de relevé et un crayon ; un téléphone pour les photos"
+  },
+  {
+    "objectID": "protocoles/vess-test-beche/index.html#étapes",
+    "href": "protocoles/vess-test-beche/index.html#étapes",
+    "title": "Évaluer la structure du sol et compter les vers de terre à la bêche",
+    "section": "Étapes",
+    "text": "Étapes\n\nChoisir le moment. Faites le test en fin d’hiver ou début de printemps, sur un sol ressuyé (ni détrempé, ni sec), et avant tout travail du sol de la saison. Au labo, nous le faisons en mars.\nChoisir les points. Prenez 2 blocs par parcelle (6 si la parcelle est grande), loin des bords et des passages de roues. Sur nos parcelles de 12 m², nous creusons entre 1 et 1,5 m des extrémités.\nDégager le bloc. Creusez d’abord une tranchée sur un côté. Plantez ensuite la bêche pour isoler un bloc d’environ 20 × 20 cm sur 25 cm de profondeur (25 à 30 cm selon nos sources : gardez toujours la même profondeur). Dégagez bien les côtés pour que le bloc garde sa forme : c’est important si vous comptez aussi les vers.\nSortir le bloc d’un seul mouvement et le poser dans le premier bac. Prenez une photo.\nRepérer les couches. Ouvrez doucement le bloc à la main, en suivant ses fissures naturelles. Repérez les couches qui diffèrent (couleur, compacité, racines) et mesurez leur épaisseur.\nNoter chaque couche de 1 à 5 avec la grille (tableau ci-dessous). Regardez la taille des agrégats, les pores visibles, les racines et la force nécessaire pour casser les mottes.\nCalculer la note du bloc : multipliez la note de chaque couche par son épaisseur, additionnez, puis divisez par l’épaisseur totale. Par exemple, 10 cm notés 2 et 15 cm notés 3 donnent (2 × 10 + 3 × 15) ÷ 25 = 2,6.\nCompter les vers de terre. Émiettez le bloc motte par motte dans le second bac et ramassez tous les vers. Comptez-les et classez-les avec la clé OPVT : épigés, endogés, épi-anéciques et anéciques stricts. Remettez ensuite les vers et la terre dans le trou.\nPrélever aussi des agrégats de surface, si vous faites le test de stabilité des mottes dans l’eau : c’est le bon moment, le sol est déjà ouvert.\nChanger d’emplacement chaque année. L’extraction du bloc abîme la structure du sol pour longtemps : ne refaites jamais le test exactement au même endroit."
+  },
+  {
+    "objectID": "protocoles/vess-test-beche/index.html#grille-de-notation-résumé",
+    "href": "protocoles/vess-test-beche/index.html#grille-de-notation-résumé",
+    "title": "Évaluer la structure du sol et compter les vers de terre à la bêche",
+    "section": "Grille de notation (résumé)",
+    "text": "Grille de notation (résumé)\n\n\n\n\n\n\n\n\nNote\nNom\nCe que l’on observe\n\n\n\n\n1\nFriable\nAgrégats petits, qui s’émiettent entre les doigts ; très poreux, racines partout\n\n\n2\nIntact\nAgrégats faciles à casser d’une main ; poreux, arrondis, racines partout\n\n\n3\nFerme\nLa plupart des agrégats se cassent d’une main ; mélange de petits agrégats poreux et de mottes plus anguleuses\n\n\n4\nCompact\nIl faut forcer pour casser les agrégats d’une main ; mottes anguleuses, peu de pores, racines regroupées dans les fissures\n\n\n5\nTrès compact\nDifficile à casser ; gros blocs anguleux, presque pas de pores, peu ou pas de racines\n\n\n\nCe tableau est un résumé : pour noter, utilisez la grille VESS officielle, qui contient des photos de référence."
+  },
+  {
+    "objectID": "protocoles/vess-test-beche/index.html#fiche-de-relevé",
+    "href": "protocoles/vess-test-beche/index.html#fiche-de-relevé",
+    "title": "Évaluer la structure du sol et compter les vers de terre à la bêche",
+    "section": "Fiche de relevé",
+    "text": "Fiche de relevé\nTéléchargez la fiche de relevé (CSV), ouvrez-la dans un tableur et imprimez-la. Prévoyez une ligne par couche. Le nombre de vers se note une seule fois par bloc, sur la ligne de la couche 1.\n\n\n\n\n\n\nSaisir sur téléphone avec KoboToolbox. Ce relevé existe aussi en formulaire KoboToolbox (format XLSForm) : les calculs se font tout seuls et la saisie marche sans réseau.\n\nCréez un compte gratuit sur KoboToolbox, puis Nouveau projet → Importer un XLSForm et choisissez le fichier téléchargé. Cliquez sur Déployer.\nInstallez l’application KoboCollect (Android) sur votre téléphone, ou utilisez le formulaire web (Enketo) depuis n’importe quel navigateur, même sur iPhone.\nFaites vos relevés au champ. Les données s’envoient au retour du réseau et s’exportent en Excel ou CSV depuis KoboToolbox."
+  },
+  {
+    "objectID": "protocoles/vess-test-beche/index.html#lire-les-résultats",
+    "href": "protocoles/vess-test-beche/index.html#lire-les-résultats",
+    "title": "Évaluer la structure du sol et compter les vers de terre à la bêche",
+    "section": "Lire les résultats",
+    "text": "Lire les résultats\n\nNote de 1 à 2 : le sol est bien structuré.\nNote autour de 3 : la structure est moyenne. Surveillez son évolution d’une année à l’autre.\nNote de 4 à 5 : le sol est tassé. Cherchez la cause : passages de roues, travail du sol en conditions humides, sol nu en hiver.\nComparer plutôt que juger. C’est surtout l’évolution de la note d’une année à l’autre, et l’écart entre deux pratiques sur la même ferme, qui sont informatifs.\nVers de terre : beaucoup de vers et des anéciques (les gros vers qui creusent des galeries verticales) indiquent un sol vivant et bien drainé. Aucun ver, ou seulement quelques épigés, signale un sol perturbé ou tassé."
+  },
+  {
+    "objectID": "protocoles/vess-test-beche/index.html#erreurs-fréquentes",
+    "href": "protocoles/vess-test-beche/index.html#erreurs-fréquentes",
+    "title": "Évaluer la structure du sol et compter les vers de terre à la bêche",
+    "section": "Erreurs fréquentes",
+    "text": "Erreurs fréquentes\n\nFaire le test sur un sol trop humide ou trop sec. Le sol humide paraît compact, le sol sec paraît dur. Attendez un sol ressuyé.\nAbîmer le bloc en le sortant : il faut dégager davantage autour avant de soulever.\nRevenir au même endroit l’année suivante : la structure n’a pas encore récupéré.\nComparer des notes données par des personnes différentes. Pour suivre une évolution, gardez si possible la même personne d’une année à l’autre."
+  },
+  {
+    "objectID": "protocoles/vess-test-beche/index.html#dans-nos-essais",
+    "href": "protocoles/vess-test-beche/index.html#dans-nos-essais",
+    "title": "Évaluer la structure du sol et compter les vers de terre à la bêche",
+    "section": "Dans nos essais",
+    "text": "Dans nos essais\nÀ la ferme universitaire de Lauzelle, nous avons fait ce test en mars 2025 et en mars 2026, avec 2 blocs par parcelle sur 30 parcelles de 12 m² paillées de cinq façons différentes. En 2026, le BRF avait la meilleure structure (note moyenne 1,1). C’est le seul paillage nettement meilleur que les autres.\n\n\n\n\n\n\nEssai\n\n\n\nSaison\n\n\n\nCulture\n\n\n\n\n\n\n\n\nCinq paillages en maraîchage bio : sol, eau et légumes\n\n\n2025–2026\n\n\nÉpinard\n\n\n\n\n\n\nPaillages en maraîchage bio : bilan de la première année\n\n\n2024–2025\n\n\nÉpinard\n\n\n\n\n\n\nAucun article correspondant"
+  },
+  {
+    "objectID": "protocoles/vess-test-beche/index.html#ressources-en-ligne",
+    "href": "protocoles/vess-test-beche/index.html#ressources-en-ligne",
+    "title": "Évaluer la structure du sol et compter les vers de terre à la bêche",
+    "section": "Ressources en ligne",
+    "text": "Ressources en ligne\nPour aller plus loin, une sélection de ressources de référence. Elles sont gérées par d’autres organismes : leur contenu peut changer.\n\nGrille VESS officielle en couleurs, avec photos de référence (SRUC, PDF, en anglais)\nDescription de la méthode VESS pas à pas (SRUC, PDF, en anglais)\nFeuille de notation VESS avec calcul de la note du bloc (SRUC, Word, en anglais)\nGuide illustré « How to assess soil structure » (AHDB, en anglais)\nGuide méthodique du test bêche (Agro-Transfert, PDF)\nTest bêche : comprendre l’impact de ses pratiques sur la structure du sol (Réussir)\nSolDoc, test à la bêche guidé par une application gratuite iOS et Android (BFH, Suisse)\nObservatoire Participatif des Vers de Terre : protocole test bêche et clé d’identification (OPVT)"
+  },
+  {
+    "objectID": "protocoles/vess-test-beche/index.html#sources",
+    "href": "protocoles/vess-test-beche/index.html#sources",
+    "title": "Évaluer la structure du sol et compter les vers de terre à la bêche",
+    "section": "Sources",
+    "text": "Sources\n\nMéthode VESS : Ball, Batey et Munkholm (2007) ; Guimarães, Ball et Tormena (2011), grille de notation officielle.\nGuide méthodique du test bêche : structure et action des vers de terre, Agro-Transfert (2023).\nClé d’identification des vers de terre en 4 groupes : Observatoire Participatif des Vers de Terre (OPVT).\nMise en œuvre au PEPA Lab : mémoires d’Eliot Vas (2025, p. 37–38 ; combinaison avec le test de stabilité des agrégats, p. 73 ; bloc de 20 × 20 × 30 cm dans le tableau 5, p. 45) et de Pierre-André Peters-Dickie (2026, p. 30–32)."
+  },
+  {
+    "objectID": "protocoles/sondes-humidite-sol/index.html",
+    "href": "protocoles/sondes-humidite-sol/index.html",
+    "title": "Suivre l’humidité du sol en continu avec des sondes",
+    "section": "",
+    "text": "Objectif Enregistrer toute la saison l’humidité et la température du sol, au plus près des racines, pour comparer des pratiques d’irrigation ou de paillage.\nDifficulté Avancé\nDurée ≈ 30 min d’installation, puis 15 min par relevé des données\nCoût Sondes et lecteur coûteux [À COMPLÉTER : prix indicatif]\nQuand De la plantation à la récolte"
+  },
+  {
+    "objectID": "protocoles/sondes-humidite-sol/index.html#à-quoi-ça-sert",
+    "href": "protocoles/sondes-humidite-sol/index.html#à-quoi-ça-sert",
+    "title": "Suivre l’humidité du sol en continu avec des sondes",
+    "section": "À quoi ça sert",
+    "text": "À quoi ça sert\nUne mesure ponctuelle de l’humidité du sol ne dit pas ce qui se passe entre deux visites. Une sonde enregistreuse plantée dans le sol mesure l’humidité et la température toutes les 15 minutes, pendant des mois. On voit alors l’effet de chaque arrosage, de chaque pluie, d’un paillage ou d’un oya sur l’eau disponible pour les racines.\nC’est un protocole avancé : il demande du matériel spécialisé et un traitement des données sur ordinateur. Il sert surtout pour des essais comparatifs, pas pour piloter l’arrosage au quotidien."
+  },
+  {
+    "objectID": "protocoles/sondes-humidite-sol/index.html#matériel",
+    "href": "protocoles/sondes-humidite-sol/index.html#matériel",
+    "title": "Suivre l’humidité du sol en continu avec des sondes",
+    "section": "Matériel",
+    "text": "Matériel\n\nDes sondes TMS-4 (fabricant TOMST), au moins 2 par modalité à comparer. Chaque sonde porte :\n\nun capteur d’humidité qui mesure les 12 premiers centimètres du sol ;\n3 capteurs de température : dans le sol (−6 cm), à la surface et dans l’air (+15 cm).\n\nLe lecteur de contact avec adaptateur USB pour récupérer les données, et un ordinateur\nLe logiciel Lolly de TOMST (gratuit), pour convertir les mesures brutes en humidité volumique (%)\nLa texture du sol de la parcelle (analyse de sol), pour choisir la bonne calibration\nUn plan de la parcelle et des étiquettes pour numéroter les sondes\nLa fiche de relevé"
+  },
+  {
+    "objectID": "protocoles/sondes-humidite-sol/index.html#étapes",
+    "href": "protocoles/sondes-humidite-sol/index.html#étapes",
+    "title": "Suivre l’humidité du sol en continu avec des sondes",
+    "section": "Étapes",
+    "text": "Étapes\n\nChoisir les emplacements. Placez les sondes au centre des parcelles, jamais en bordure : une sonde au bord reçoit la pluie ou l’eau qui ruisselle et ses mesures ne sont plus comparables. Mettez le même nombre de sondes, au même endroit par rapport aux plants, dans chaque modalité.\nFixer la position par rapport au plant. Dans notre essai sur oyas, nous avons placé 2 sondes à 15 cm de part et d’autre d’un chou : une entre le chou et l’oya (« in »), l’autre du côté opposé (« out »).\nEnfoncer la sonde verticalement jusqu’au repère, environ 10 cm dans le sol. Le capteur d’humidité se trouve alors vers 8 cm de profondeur. Tassez légèrement la terre autour pour qu’elle touche bien la sonde.\nNoter sur le plan le numéro de série de chaque sonde, sa modalité, sa position et la date de pose.\nLaisser enregistrer. Réglez l’intervalle de mesure à 15 minutes. Évitez de marcher ou d’arroser directement sur la sonde.\nRécupérer les données régulièrement (par exemple toutes les 2 à 4 semaines) avec le lecteur de contact : les mesures sont transférées sur l’ordinateur sous forme de fichier CSV.\nConvertir en humidité volumique dans le logiciel Lolly, avec la courbe de calibration la plus proche de votre sol. Dans nos essais : calibration « limon sableux » ou « silt loam » selon la parcelle.\nContrôler les données avant de les analyser : écartez les sondes aux valeurs invraisemblables (voir plus bas)."
+  },
+  {
+    "objectID": "protocoles/sondes-humidite-sol/index.html#fiche-de-relevé",
+    "href": "protocoles/sondes-humidite-sol/index.html#fiche-de-relevé",
+    "title": "Suivre l’humidité du sol en continu avec des sondes",
+    "section": "Fiche de relevé",
+    "text": "Fiche de relevé\nTéléchargez la fiche de relevé (CSV), avec une ligne par sonde. Elle sert à garder la trace de la pose et des relevés. Les mesures elles-mêmes sont dans les fichiers CSV produits par les sondes.\n\n\n\n\n\n\nSaisir sur téléphone avec KoboToolbox. Ce relevé existe aussi en formulaire KoboToolbox (format XLSForm) : les calculs se font tout seuls et la saisie marche sans réseau.\n\nCréez un compte gratuit sur KoboToolbox, puis Nouveau projet → Importer un XLSForm et choisissez le fichier téléchargé. Cliquez sur Déployer.\nInstallez l’application KoboCollect (Android) sur votre téléphone, ou utilisez le formulaire web (Enketo) depuis n’importe quel navigateur, même sur iPhone.\nFaites vos relevés au champ. Les données s’envoient au retour du réseau et s’exportent en Excel ou CSV depuis KoboToolbox."
+  },
+  {
+    "objectID": "protocoles/sondes-humidite-sol/index.html#lire-les-résultats",
+    "href": "protocoles/sondes-humidite-sol/index.html#lire-les-résultats",
+    "title": "Suivre l’humidité du sol en continu avec des sondes",
+    "section": "Lire les résultats",
+    "text": "Lire les résultats\n\nComparez les courbes de modalités placées de la même façon, sur la même période.\nChaque arrosage ou pluie fait un pic, puis l’humidité redescend à mesure que les plants consomment l’eau. Une redescente plus lente signale un sol qui garde mieux l’eau (paillage) ou un apport continu (oya).\nMoyennez les sondes d’une même modalité et regardez leur écart : avec 2 ou 3 sondes seulement, une différence faible entre modalités n’est pas fiable.\nLa calibration intégrée donne des valeurs approximatives : elles servent à comparer des modalités, moins à connaître la teneur en eau exacte du sol."
+  },
+  {
+    "objectID": "protocoles/sondes-humidite-sol/index.html#erreurs-fréquentes",
+    "href": "protocoles/sondes-humidite-sol/index.html#erreurs-fréquentes",
+    "title": "Suivre l’humidité du sol en continu avec des sondes",
+    "section": "Erreurs fréquentes",
+    "text": "Erreurs fréquentes\n\nPoser une sonde en bordure de parcelle : en 2025, une de nos sondes, exposée à la pluie, a enregistré des pics anormaux et a dû être écartée.\nGarder des mesures invraisemblables : une autre sonde est restée sous 10 % d’humidité toute la saison, plus sec que la sonde témoin du même plant. Elle a été écartée. Un mauvais contact entre la sonde et le sol peut expliquer ce type de valeur.\nChoisir une calibration qui ne correspond pas au sol.\nÉcarter une sonde sans écarter sa sonde jumelle : pour garder des comparaisons équilibrées, nous avons aussi retiré de l’analyse la sonde opposée.\nOublier de vider les sondes avant que leur mémoire ou leur batterie ne soit pleine. [À COMPLÉTER : autonomie, à vérifier dans la documentation du fabricant]"
+  },
+  {
+    "objectID": "protocoles/sondes-humidite-sol/index.html#dans-nos-essais",
+    "href": "protocoles/sondes-humidite-sol/index.html#dans-nos-essais",
+    "title": "Suivre l’humidité du sol en continu avec des sondes",
+    "section": "Dans nos essais",
+    "text": "Dans nos essais\n\nOyas et chou, 2025 (Marbaix, sous tunnel) : 12 sondes posées le 3 avril 2025 de part et d’autre de choux irrigués par oyas, pour comparer l’humidité du côté de l’oya et du côté opposé.\nPaillages, 2026 (Lauzelle) : 9 sondes posées dans des parcelles paillées, avec des mesures toutes les 15 minutes et une calibration « silt loam ».\n\n\n\n\n\n\n\nEssai\n\n\n\nSaison\n\n\n\nCulture\n\n\n\n\n\n\n\n\nCinq paillages en maraîchage bio : sol, eau et légumes\n\n\n2025–2026\n\n\nÉpinard\n\n\n\n\n\n\nOyas pour le chou : à quelle distance les placer ?\n\n\n2025\n\n\nChou\n\n\n\n\n\n\nAucun article correspondant"
+  },
+  {
+    "objectID": "protocoles/sondes-humidite-sol/index.html#ressources-en-ligne",
+    "href": "protocoles/sondes-humidite-sol/index.html#ressources-en-ligne",
+    "title": "Suivre l’humidité du sol en continu avec des sondes",
+    "section": "Ressources en ligne",
+    "text": "Ressources en ligne\nPour aller plus loin, une sélection de ressources de référence. Elles sont gérées par d’autres organismes : leur contenu peut changer.\n\nSonde TMS-4 : description technique (TOMST, en anglais)\nLogiciel Lolly pour lire et convertir les données (TOMST, en anglais)\nWild J. et al. (2019), article de référence sur la sonde TMS-4 et sa calibration (Agricultural and Forest Meteorology, en anglais)\nGuide pratique des capteurs d’humidité du sol en maraîchage (SEGES, PDF, en danois)"
+  },
+  {
+    "objectID": "protocoles/sondes-humidite-sol/index.html#sources",
+    "href": "protocoles/sondes-humidite-sol/index.html#sources",
+    "title": "Suivre l’humidité du sol en continu avec des sondes",
+    "section": "Sources",
+    "text": "Sources\n\nMémoire de Gaëlle Hanssens (2025), oyas et chou, p. 23–24. Il cite Wild et al. (2019) et TOMST (2025).\nMémoire de Pierre-André Peters-Dickie (2026), paillages, p. 30–31."
   },
   {
     "objectID": "protocoles/infiltration-tube/index.html",
@@ -368,7 +438,7 @@
     "href": "fiches/2025-oyas-chou/index.html#résultats-clés",
     "title": "Oyas pour le chou : à quelle distance les placer ?",
     "section": "Résultats clés",
-    "text": "Résultats clés\nEau. Sur la saison, chaque chou irrigué à l’arrosoir a reçu 35,3 L. Les choux sous oyas ont reçu une médiane de 12,4 L (35 cm), 10,7 L (56 cm) et 13,6 L (79 cm), sans différence significative entre distances. Le débit d’un oya suit ce que le sol absorbe, et non la demande climatique : il est resté stable alors que l’ETc augmentait.\nRendement. Sur la surface cultivée, l’arrosage a donné 44,9 t/ha de choux, contre 38,7 (35 cm), 34,3 (56 cm) et 28,2 t/ha (79 cm). Ces différences de poids par chou ne sont pas significatives, car la variabilité est forte. Avec la norme commerciale, la hiérarchie change :\n\ntous les choux sont commercialisables à 35 cm, 11 sur 12 à 56 cm, mais seulement 7 sur 11 à l’arrosoir (choux plus hétérogènes) et 5 sur 12 à 79 cm ;\nle rendement commercialisable est de 38,7 t/ha à 35 cm, 37,1 à l’arrosoir, 33,3 à 56 cm et 18,5 t/ha à 79 cm.\n\nRapporté à l’eau, un litre a produit 75 à 83 g de chou sous oya à 35–56 cm, contre 32 g à l’arrosoir.\nRacines. À 35 cm, la carotte prélevée côté oya contient environ 11 fois plus de racines que le côté opposé (médianes 10,1 contre 0,9 m). L’humidité mesurée par les sondes y était de 28 % côté oya contre moins de 2 % de l’autre côté. Cet écart s’estompe à 56 cm et disparaît à 79 cm. Les choux à 35 cm développent autant de racines qu’à l’arrosoir, ceux à 56 et 79 cm pas plus que les choux non irrigués (médianes 3,2 et 2,4 m contre 4,0 m).\n\n\nCode\nd = FileAttachment(\"donnees.csv\").csv({typed: true})\nordre = [\"100%\", \"Oya35\", \"Oya56\", \"Oya79\", \"0%\"]\ncouleurs = [\"#2a5783\", \"#f5515d\", \"#f2862c\", \"#85b22c\", \"#66c2a5\"]\nviewof choix = Inputs.select(new Map([\n  [\"Poids du chou (kg)\", \"poids_chou\"],\n  [\"Biomasse de la plante (kg)\", \"biomasse_foliaire\"],\n  [\"Eau reçue par chou (L)\", \"eau_consommee\"],\n  [\"Chou produit par litre d'eau (kg/L, hors 0 %)\", \"wue_chou\"],\n  [\"Hauteur de la plante au 27/05 (cm)\", \"hauteur_plante\"],\n  [\"Longueur de racines totale (mm)\", \"longueur_racinaire_totale\"],\n  [\"Racines côté oya − côté opposé (mm)\", \"longueur_racinaire_diff_in_out\"]\n]), {label: \"Variable\"})\nsel = d.filter(r =&gt; r.variable === choix && typeof r.valeur === \"number\" && !(choix === \"wue_chou\" && r.traitement === \"0%\"))\nPlot.plot({\n  marginLeft: 55, height: 320,\n  x: {label: null, domain: ordre},\n  y: {grid: true, label: sel.length ? sel[0].unite : \"\"},\n  color: {domain: ordre, range: couleurs},\n  marks: [\n    Plot.barY(sel, Plot.groupX({y: \"median\"}, {x: \"traitement\", y: \"valeur\", fill: \"traitement\", fillOpacity: 0.6})),\n    Plot.dot(sel, {x: \"traitement\", y: \"valeur\", stroke: \"black\", r: 3, tip: true,\n                   symbol: r =&gt; r.variable === \"poids_chou\" ? (d.find(x =&gt; x.chou_id === r.chou_id && x.variable === \"commercialisable\")?.valeur ? \"circle\" : \"times\") : \"circle\",\n                   title: r =&gt; `${r.chou_id} : ${r.valeur}`}),\n    Plot.ruleY([0])\n  ]\n})\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBarres : médiane par traitement ; points : choux. Pour le poids du chou, × = chou non commercialisable. Oya35/56/79 = oya à 35, 56 ou 79 cm.\n\n\nCode\nrac = d.filter(r =&gt; (r.variable === \"longueur_racinaire_in\" || r.variable === \"longueur_racinaire_out\"))\n       .map(r =&gt; ({...r, position: r.variable.endsWith(\"_in\") ? \"côté oya (in)\" : \"côté opposé (out)\", metres: r.valeur / 1000}))\nPlot.plot({\n  height: 300, marginLeft: 50,\n  fx: {domain: ordre, label: null},\n  x: {axis: null, domain: [\"côté oya (in)\", \"côté opposé (out)\"]},\n  y: {grid: true, label: \"Longueur de racines dans la carotte (m)\"},\n  color: {legend: true, domain: [\"côté oya (in)\", \"côté opposé (out)\"], range: [\"#1b9e77\", \"#d95f02\"]},\n  marks: [\n    Plot.barY(rac, Plot.groupX({y: \"median\"}, {fx: \"traitement\", x: \"position\", y: \"metres\", fill: \"position\", fillOpacity: 0.7})),\n    Plot.dot(rac, {fx: \"traitement\", x: \"position\", y: \"metres\", stroke: \"black\", r: 2}),\n    Plot.ruleY([0])\n  ]\n})\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRacines prélevées les 22–23/05 dans une carotte de 0,75 L, à 17 cm du chou, côté oya et côté opposé (6 choux par traitement). Pour le 100 %, le côté « in » est celui de l’arrosage.\n\n\n\n\n\n\nProtocoles utilisés, à refaire chez vous : Installer et suivre des oyas sous tunnel"
+    "text": "Résultats clés\nEau. Sur la saison, chaque chou irrigué à l’arrosoir a reçu 35,3 L. Les choux sous oyas ont reçu une médiane de 12,4 L (35 cm), 10,7 L (56 cm) et 13,6 L (79 cm), sans différence significative entre distances. Le débit d’un oya suit ce que le sol absorbe, et non la demande climatique : il est resté stable alors que l’ETc augmentait.\nRendement. Sur la surface cultivée, l’arrosage a donné 44,9 t/ha de choux, contre 38,7 (35 cm), 34,3 (56 cm) et 28,2 t/ha (79 cm). Ces différences de poids par chou ne sont pas significatives, car la variabilité est forte. Avec la norme commerciale, la hiérarchie change :\n\ntous les choux sont commercialisables à 35 cm, 11 sur 12 à 56 cm, mais seulement 7 sur 11 à l’arrosoir (choux plus hétérogènes) et 5 sur 12 à 79 cm ;\nle rendement commercialisable est de 38,7 t/ha à 35 cm, 37,1 à l’arrosoir, 33,3 à 56 cm et 18,5 t/ha à 79 cm.\n\nRapporté à l’eau, un litre a produit 75 à 83 g de chou sous oya à 35–56 cm, contre 32 g à l’arrosoir.\nRacines. À 35 cm, la carotte prélevée côté oya contient environ 11 fois plus de racines que le côté opposé (médianes 10,1 contre 0,9 m). L’humidité mesurée par les sondes y était de 28 % côté oya contre moins de 2 % de l’autre côté. Cet écart s’estompe à 56 cm et disparaît à 79 cm. Les choux à 35 cm développent autant de racines qu’à l’arrosoir, ceux à 56 et 79 cm pas plus que les choux non irrigués (médianes 3,2 et 2,4 m contre 4,0 m).\n\n\nCode\nd = FileAttachment(\"donnees.csv\").csv({typed: true})\nordre = [\"100%\", \"Oya35\", \"Oya56\", \"Oya79\", \"0%\"]\ncouleurs = [\"#2a5783\", \"#f5515d\", \"#f2862c\", \"#85b22c\", \"#66c2a5\"]\nviewof choix = Inputs.select(new Map([\n  [\"Poids du chou (kg)\", \"poids_chou\"],\n  [\"Biomasse de la plante (kg)\", \"biomasse_foliaire\"],\n  [\"Eau reçue par chou (L)\", \"eau_consommee\"],\n  [\"Chou produit par litre d'eau (kg/L, hors 0 %)\", \"wue_chou\"],\n  [\"Hauteur de la plante au 27/05 (cm)\", \"hauteur_plante\"],\n  [\"Longueur de racines totale (mm)\", \"longueur_racinaire_totale\"],\n  [\"Racines côté oya − côté opposé (mm)\", \"longueur_racinaire_diff_in_out\"]\n]), {label: \"Variable\"})\nsel = d.filter(r =&gt; r.variable === choix && typeof r.valeur === \"number\" && !(choix === \"wue_chou\" && r.traitement === \"0%\"))\nPlot.plot({\n  marginLeft: 55, height: 320,\n  x: {label: null, domain: ordre},\n  y: {grid: true, label: sel.length ? sel[0].unite : \"\"},\n  color: {domain: ordre, range: couleurs},\n  marks: [\n    Plot.barY(sel, Plot.groupX({y: \"median\"}, {x: \"traitement\", y: \"valeur\", fill: \"traitement\", fillOpacity: 0.6})),\n    Plot.dot(sel, {x: \"traitement\", y: \"valeur\", stroke: \"black\", r: 3, tip: true,\n                   symbol: r =&gt; r.variable === \"poids_chou\" ? (d.find(x =&gt; x.chou_id === r.chou_id && x.variable === \"commercialisable\")?.valeur ? \"circle\" : \"times\") : \"circle\",\n                   title: r =&gt; `${r.chou_id} : ${r.valeur}`}),\n    Plot.ruleY([0])\n  ]\n})\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBarres : médiane par traitement ; points : choux. Pour le poids du chou, × = chou non commercialisable. Oya35/56/79 = oya à 35, 56 ou 79 cm.\n\n\nCode\nrac = d.filter(r =&gt; (r.variable === \"longueur_racinaire_in\" || r.variable === \"longueur_racinaire_out\"))\n       .map(r =&gt; ({...r, position: r.variable.endsWith(\"_in\") ? \"côté oya (in)\" : \"côté opposé (out)\", metres: r.valeur / 1000}))\nPlot.plot({\n  height: 300, marginLeft: 50,\n  fx: {domain: ordre, label: null},\n  x: {axis: null, domain: [\"côté oya (in)\", \"côté opposé (out)\"]},\n  y: {grid: true, label: \"Longueur de racines dans la carotte (m)\"},\n  color: {legend: true, domain: [\"côté oya (in)\", \"côté opposé (out)\"], range: [\"#1b9e77\", \"#d95f02\"]},\n  marks: [\n    Plot.barY(rac, Plot.groupX({y: \"median\"}, {fx: \"traitement\", x: \"position\", y: \"metres\", fill: \"position\", fillOpacity: 0.7})),\n    Plot.dot(rac, {fx: \"traitement\", x: \"position\", y: \"metres\", stroke: \"black\", r: 2}),\n    Plot.ruleY([0])\n  ]\n})\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRacines prélevées les 22–23/05 dans une carotte de 0,75 L, à 17 cm du chou, côté oya et côté opposé (6 choux par traitement). Pour le 100 %, le côté « in » est celui de l’arrosage.\n\n\n\n\n\n\nProtocoles utilisés, à refaire chez vous : Installer et suivre des oyas sous tunnel · Calculer les besoins en eau d’une culture à partir de l’ET0 · Suivre l’humidité du sol en continu avec des sondes · Estimer le rendement (variante commercialisable)"
   },
   {
     "objectID": "fiches/2025-oyas-chou/index.html#méthode-danalyse",
@@ -564,7 +634,7 @@
     "href": "fiches/2026-paillage-epinard-laitue/index.html#résultats-clés",
     "title": "Cinq paillages en maraîchage bio : sol, eau et légumes",
     "section": "Résultats clés",
-    "text": "Résultats clés\nStructure du sol. En sortie d’hiver, le BRF présente la meilleure structure (score VESS moyen de 1,12). Les autres modalités se situent entre 1,85 (bâche) et 2,21 (miscanthus). Un score de 2 correspond à un sol « intact ». Le BRF se distingue de toutes les autres modalités.\nChaleur et eau au printemps. Du 9 mars au 30 avril, le sol sous bâche a cumulé 536 °C·jours, soit environ 35 de plus que sous BRF et 57 de plus que sous miscanthus. Sur la même période, l’humidité des 12 premiers centimètres était en moyenne de 41 % sous miscanthus, 37 % sous BRF et 30 % sous bâche. Sous miscanthus, l’excès d’eau a provoqué des signes d’asphyxie du sol et une forte mortalité des laitues.\nProduction de printemps. Un mois après plantation, un plant d’épinard pesait en moyenne 105 g sous bâche, contre 27 g sur BRF et 16 g sur miscanthus. Une laitue pesait 86 g sous bâche, contre 26 à 28 g sur paillage organique. Les épinards sur paillage organique ont montré une faim d’azote, confirmée par un indice SPAD plus faible, surtout sous miscanthus.\nVie du sol. La biomasse microbienne est la plus élevée sous BRF (640 mg C/kg) et la plus basse sous bâche (342 mg C/kg), malgré le fumier. Les paillages organiques morts accueillent le plus de vers de terre, surtout des endogés, et le miscanthus en premier.\nPaillages vivants. En juin, le trèfle et le Mix infiltrent l’eau le plus vite (1,3 et 1,0 cm/min, contre 0,4 cm/min sous miscanthus). En contrepartie, ils assèchent le sol : le trèfle a l’humidité la plus basse de l’essai. Ils limitent aussi l’échauffement du sol en été.\n\n\nCode\nd = FileAttachment(\"donnees.csv\").csv({typed: true})\nviewof choix = Inputs.select(new Map([\n  [\"Structure du sol – VESS (score, bas = mieux)\", \"vess|\"],\n  [\"Biomasse microbienne (mg C/kg sol sec)\", \"carbone_microbien|\"],\n  [\"Vers de terre (individus / bloc de bêche)\", \"lombrics_total|\"],\n  [\"Vers endogés (individus / bloc de bêche)\", \"lombrics_endoges|\"],\n  [\"Biomasse épinard (g/plant)\", \"biomasse_plant|Épinard\"],\n  [\"Biomasse laitue (g/plant)\", \"biomasse_plant|Laitue\"],\n  [\"Infiltration stabilisée (cm/min)\", \"infiltration_stabilisee|\"],\n  [\"Humidité du sol en juin (% masse)\", \"humidite_ponderale|\"],\n  [\"Carbone total du sol (%)\", \"carbone_total|\"]\n]), {label: \"Variable\"})\nfiltre = {\n  const [v, c] = choix.split(\"|\");\n  return d.filter(r =&gt; r.saison === 2026 && r.variable === v && (c === \"\" || r.culture === c)\n                       && !String(r.flag ?? \"\").includes(\"écartée\") && r.valeur !== null);\n}\nPlot.plot({\n  marginLeft: 55, height: 320,\n  x: {label: null, domain: [\"Bâche plastique\", \"BRF\", \"Miscanthus\", \"Trèfle\", \"Mix\"]},\n  y: {grid: true, label: filtre.length ? filtre[0].unite : \"\"},\n  color: {domain: [\"Bâche plastique\", \"BRF\", \"Miscanthus\", \"Trèfle\", \"Mix\"],\n          range: [\"#4d4d4d\", \"#a6761d\", \"#e6ab02\", \"#1b9e77\", \"#7570b3\"]},\n  marks: [\n    Plot.barY(filtre, Plot.groupX({y: \"mean\"}, {x: \"modalite\", y: \"valeur\", fill: \"modalite\", fillOpacity: 0.6})),\n    Plot.dot(filtre, {x: \"modalite\", y: \"valeur\", stroke: \"black\", r: 3, tip: true,\n                      title: r =&gt; `${r.parcelle} : ${r.valeur}`}),\n    Plot.ruleY([0])\n  ]\n})\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBarres : moyenne par modalité ; points : parcelles. Pour la laitue et l’épinard, seules les modalités cultivées au printemps apparaissent.\n\n\nCode\ns = FileAttachment(\"capteurs_journaliers.csv\").csv({typed: true})\nPlot.plot({\n  height: 280, marginLeft: 45,\n  y: {grid: true, label: \"Humidité 0–12 cm (% vol.)\"},\n  x: {label: null},\n  color: {legend: true, domain: [\"Bâche plastique\", \"BRF\", \"Miscanthus\", \"Trèfle\", \"Mix\"],\n          range: [\"#4d4d4d\", \"#a6761d\", \"#e6ab02\", \"#1b9e77\", \"#7570b3\"]},\n  marks: [Plot.line(s.filter(r =&gt; !r.flag),\n            Plot.groupX({y: \"mean\"}, {x: \"date\", y: \"humidite_vol\", stroke: \"modalite\", z: \"modalite\"}))]\n})\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHumidité du sol mesurée par les sondes (moyennes journalières), sondes placées surtout dans le bloc 1 (1 à 2 sondes par modalité). La chute générale fin juin correspond à une panne d’irrigation suivie d’une canicule.\n\n\n\n\n\n\nProtocoles utilisés, à refaire chez vous : Évaluer la structure du sol et compter les vers de terre à la bêche · Prélever un échantillon de sol pour une analyse de fertilité · Mesurer la couverture d’adventices et de la culture"
+    "text": "Résultats clés\nStructure du sol. En sortie d’hiver, le BRF présente la meilleure structure (score VESS moyen de 1,12). Les autres modalités se situent entre 1,85 (bâche) et 2,21 (miscanthus). Un score de 2 correspond à un sol « intact ». Le BRF se distingue de toutes les autres modalités.\nChaleur et eau au printemps. Du 9 mars au 30 avril, le sol sous bâche a cumulé 536 °C·jours, soit environ 35 de plus que sous BRF et 57 de plus que sous miscanthus. Sur la même période, l’humidité des 12 premiers centimètres était en moyenne de 41 % sous miscanthus, 37 % sous BRF et 30 % sous bâche. Sous miscanthus, l’excès d’eau a provoqué des signes d’asphyxie du sol et une forte mortalité des laitues.\nProduction de printemps. Un mois après plantation, un plant d’épinard pesait en moyenne 105 g sous bâche, contre 27 g sur BRF et 16 g sur miscanthus. Une laitue pesait 86 g sous bâche, contre 26 à 28 g sur paillage organique. Les épinards sur paillage organique ont montré une faim d’azote, confirmée par un indice SPAD plus faible, surtout sous miscanthus.\nVie du sol. La biomasse microbienne est la plus élevée sous BRF (640 mg C/kg) et la plus basse sous bâche (342 mg C/kg), malgré le fumier. Les paillages organiques morts accueillent le plus de vers de terre, surtout des endogés, et le miscanthus en premier.\nPaillages vivants. En juin, le trèfle et le Mix infiltrent l’eau le plus vite (1,3 et 1,0 cm/min, contre 0,4 cm/min sous miscanthus). En contrepartie, ils assèchent le sol : le trèfle a l’humidité la plus basse de l’essai. Ils limitent aussi l’échauffement du sol en été.\n\n\nCode\nd = FileAttachment(\"donnees.csv\").csv({typed: true})\nviewof choix = Inputs.select(new Map([\n  [\"Structure du sol – VESS (score, bas = mieux)\", \"vess|\"],\n  [\"Biomasse microbienne (mg C/kg sol sec)\", \"carbone_microbien|\"],\n  [\"Vers de terre (individus / bloc de bêche)\", \"lombrics_total|\"],\n  [\"Vers endogés (individus / bloc de bêche)\", \"lombrics_endoges|\"],\n  [\"Biomasse épinard (g/plant)\", \"biomasse_plant|Épinard\"],\n  [\"Biomasse laitue (g/plant)\", \"biomasse_plant|Laitue\"],\n  [\"Infiltration stabilisée (cm/min)\", \"infiltration_stabilisee|\"],\n  [\"Humidité du sol en juin (% masse)\", \"humidite_ponderale|\"],\n  [\"Carbone total du sol (%)\", \"carbone_total|\"]\n]), {label: \"Variable\"})\nfiltre = {\n  const [v, c] = choix.split(\"|\");\n  return d.filter(r =&gt; r.saison === 2026 && r.variable === v && (c === \"\" || r.culture === c)\n                       && !String(r.flag ?? \"\").includes(\"écartée\") && r.valeur !== null);\n}\nPlot.plot({\n  marginLeft: 55, height: 320,\n  x: {label: null, domain: [\"Bâche plastique\", \"BRF\", \"Miscanthus\", \"Trèfle\", \"Mix\"]},\n  y: {grid: true, label: filtre.length ? filtre[0].unite : \"\"},\n  color: {domain: [\"Bâche plastique\", \"BRF\", \"Miscanthus\", \"Trèfle\", \"Mix\"],\n          range: [\"#4d4d4d\", \"#a6761d\", \"#e6ab02\", \"#1b9e77\", \"#7570b3\"]},\n  marks: [\n    Plot.barY(filtre, Plot.groupX({y: \"mean\"}, {x: \"modalite\", y: \"valeur\", fill: \"modalite\", fillOpacity: 0.6})),\n    Plot.dot(filtre, {x: \"modalite\", y: \"valeur\", stroke: \"black\", r: 3, tip: true,\n                      title: r =&gt; `${r.parcelle} : ${r.valeur}`}),\n    Plot.ruleY([0])\n  ]\n})\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBarres : moyenne par modalité ; points : parcelles. Pour la laitue et l’épinard, seules les modalités cultivées au printemps apparaissent.\n\n\nCode\ns = FileAttachment(\"capteurs_journaliers.csv\").csv({typed: true})\nPlot.plot({\n  height: 280, marginLeft: 45,\n  y: {grid: true, label: \"Humidité 0–12 cm (% vol.)\"},\n  x: {label: null},\n  color: {legend: true, domain: [\"Bâche plastique\", \"BRF\", \"Miscanthus\", \"Trèfle\", \"Mix\"],\n          range: [\"#4d4d4d\", \"#a6761d\", \"#e6ab02\", \"#1b9e77\", \"#7570b3\"]},\n  marks: [Plot.line(s.filter(r =&gt; !r.flag),\n            Plot.groupX({y: \"mean\"}, {x: \"date\", y: \"humidite_vol\", stroke: \"modalite\", z: \"modalite\"}))]\n})\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHumidité du sol mesurée par les sondes (moyennes journalières), sondes placées surtout dans le bloc 1 (1 à 2 sondes par modalité). La chute générale fin juin correspond à une panne d’irrigation suivie d’une canicule.\n\n\n\n\n\n\nProtocoles utilisés, à refaire chez vous : Évaluer la structure du sol et compter les vers de terre à la bêche · Prélever un échantillon de sol pour une analyse de fertilité · Mesurer la couverture d’adventices et de la culture · Suivre l’humidité du sol en continu avec des sondes"
   },
   {
     "objectID": "fiches/2026-paillage-epinard-laitue/index.html#méthode-danalyse",
@@ -592,7 +662,7 @@
     "href": "protocoles.html",
     "title": "Protocoles",
     "section": "",
-    "text": "Chaque protocole décrit pas à pas une mesure ou une technique que nous avons utilisée dans nos essais : le matériel, les étapes, une fiche de relevé à imprimer et comment lire les résultats. Ils sont pensés pour être faits à la ferme, sans laboratoire. Une question ou une amélioration ? Utilisez le lien « Faire part d’un problème » sur chaque page.\n\n\n\n\n\n   \n    \n    \n      Trier par\n      Ordre par défaut\n      \n        Titre\n      \n      \n        difficulte\n      \n      \n        duree\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n≈ 15 min par plancheÀ la récolte\n\n\nProtocole · Facile · ≈ 0 € (une balance)\nEstimer le rendement d'une planche en pesant des échantillons\nComparer le rendement de deux pratiques sans tout récolter et tout peser, à partir de quelques échantillons de plants pesés sur place.\n\nFacile\nSuivi des culturesÉconomie\n\n\n\n\n\n\n≈ 20 min par oyaInstallation à la plantation, puis 2 remplissages par semaine\n\n\nProtocole · Facile · ≈ 30 € par oya de 5 L (prix 2025)\nInstaller et suivre des oyas sous tunnel\nIrriguer tomates ou choux avec des pots en terre cuite enterrés, en économisant l'eau, et mesurer ce qu'ils consomment vraiment.\n\nFacile\nGestion de l'eau\n\n\n\n\n\n\n≈ 15 min par parcelleAu printemps, avant le désherbage, quand la culture est bien installée\n\n\nProtocole · Facile · ≈ 0 € (cadre fait maison, application gratuite)\nMesurer la couverture d'adventices et de la culture\nChiffrer la place prise par les adventices et le développement de la culture, avec un cadre grillagé ou une photo, pour comparer deux pratiques.\n\nFacile\nAdventicesSuivi des culturesPaillage\n\n\n\n\n\n\n≈ 25 min par pointSol ni détrempé ni très sec ; même humidité pour toutes les parcelles comparées\n\n\nProtocole · Facile · ≈ 0 € (tube PVC, mètre, eau)\nMesurer la vitesse d'infiltration de l'eau avec un tube\nComparer la vitesse à laquelle l'eau pénètre dans le sol sous différentes pratiques, avec un simple tube enfoncé dans la terre.\n\nFacile\nGestion de l'eauSanté du sol\n\n\n\n\n\n\n≈ 15 min par parcelleUne fois par an, toujours à la même période\n\n\nProtocole · Facile · Tarière + prix de l'analyse\nPrélever un échantillon de sol pour une analyse de fertilité\nConstituer un échantillon représentatif d'une parcelle, à envoyer au laboratoire, pour suivre le pH, la matière organique et les éléments nutritifs d'une année à l'autre.\n\nFacile\nFertilisationSanté du sol\n\n\n\n\n\n\n≈ 10 min par parcelleEn même temps que le test bêche, sur sol ressuyé\n\n\nProtocole · Facile · ≈ 0 € (tube PVC, toile fine, eau)\nTester la stabilité des mottes de terre dans l'eau\nVoir si les agrégats de surface résistent à l'eau, et donc si le sol risque de se refermer (battance) et de s'éroder après une pluie.\n\nFacile\nSanté du solTravail du sol\n\n\n\n\n\n\n≈ 30 min par blocFin d'hiver – début de printemps, sol ressuyé\n\n\nProtocole · Facile · ≈ 0 € (une bêche, deux bacs)\nÉvaluer la structure du sol et compter les vers de terre à la bêche\nNoter la structure du sol de 1 à 5 et compter les vers de terre sur le même bloc de terre, pour suivre l'effet de vos pratiques d'une année à l'autre.\n\nFacile\nTravail du solPaillageSanté du sol\n\n\n\n\n\nAucun article correspondant"
+    "text": "Chaque protocole décrit pas à pas une mesure ou une technique que nous avons utilisée dans nos essais : le matériel, les étapes, une fiche de relevé à imprimer et comment lire les résultats. Ils sont pensés pour être faits à la ferme, sans laboratoire. Une question ou une amélioration ? Utilisez le lien « Faire part d’un problème » sur chaque page.\n\n\n\n\n\n   \n    \n    \n      Trier par\n      Ordre par défaut\n      \n        Titre\n      \n      \n        difficulte\n      \n      \n        duree\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n≈ 10 min avant chaque arrosageToute la saison, avant chaque arrosage\n\n\nProtocole · Moyen · ≈ 0 € (données météo gratuites en ligne)\nCalculer les besoins en eau d'une culture à partir de l'ET0\nEstimer combien d'eau donner à chaque plant entre deux arrosages, à partir des données météo de la station la plus proche et d'un coefficient propre à la culture.\n\nMoyen\nGestion de l'eau\n\n\n\n\n\n\n≈ 15 min par plancheÀ la récolte\n\n\nProtocole · Facile · ≈ 0 € (une balance)\nEstimer le rendement d'une planche en pesant des échantillons\nComparer le rendement de deux pratiques sans tout récolter et tout peser, à partir de quelques échantillons de plants pesés sur place.\n\nFacile\nSuivi des culturesÉconomie\n\n\n\n\n\n\n≈ 20 min par oyaInstallation à la plantation, puis 2 remplissages par semaine\n\n\nProtocole · Facile · ≈ 30 € par oya de 5 L (prix 2025)\nInstaller et suivre des oyas sous tunnel\nIrriguer tomates ou choux avec des pots en terre cuite enterrés, en économisant l'eau, et mesurer ce qu'ils consomment vraiment.\n\nFacile\nGestion de l'eau\n\n\n\n\n\n\n≈ 15 min par parcelleAu printemps, avant le désherbage, quand la culture est bien installée\n\n\nProtocole · Facile · ≈ 0 € (cadre fait maison, application gratuite)\nMesurer la couverture d'adventices et de la culture\nChiffrer la place prise par les adventices et le développement de la culture, avec un cadre grillagé ou une photo, pour comparer deux pratiques.\n\nFacile\nAdventicesSuivi des culturesPaillage\n\n\n\n\n\n\n≈ 25 min par pointSol ni détrempé ni très sec ; même humidité pour toutes les parcelles comparées\n\n\nProtocole · Facile · ≈ 0 € (tube PVC, mètre, eau)\nMesurer la vitesse d'infiltration de l'eau avec un tube\nComparer la vitesse à laquelle l'eau pénètre dans le sol sous différentes pratiques, avec un simple tube enfoncé dans la terre.\n\nFacile\nGestion de l'eauSanté du sol\n\n\n\n\n\n\n≈ 15 min par parcelleUne fois par an, toujours à la même période\n\n\nProtocole · Facile · Tarière + prix de l'analyse\nPrélever un échantillon de sol pour une analyse de fertilité\nConstituer un échantillon représentatif d'une parcelle, à envoyer au laboratoire, pour suivre le pH, la matière organique et les éléments nutritifs d'une année à l'autre.\n\nFacile\nFertilisationSanté du sol\n\n\n\n\n\n\n≈ 30 min d'installation, puis 15 min par relevé des donnéesDe la plantation à la récolte\n\n\nProtocole · Avancé · Sondes et lecteur coûteux [À COMPLÉTER : prix indicatif]\nSuivre l'humidité du sol en continu avec des sondes\nEnregistrer toute la saison l'humidité et la température du sol, au plus près des racines, pour comparer des pratiques d'irrigation ou de paillage.\n\nAvancé\nGestion de l'eauSanté du sol\n\n\n\n\n\n\n≈ 10 min par parcelleEn même temps que le test bêche, sur sol ressuyé\n\n\nProtocole · Facile · ≈ 0 € (tube PVC, toile fine, eau)\nTester la stabilité des mottes de terre dans l'eau\nVoir si les agrégats de surface résistent à l'eau, et donc si le sol risque de se refermer (battance) et de s'éroder après une pluie.\n\nFacile\nSanté du solTravail du sol\n\n\n\n\n\n\n≈ 30 min par blocFin d'hiver – début de printemps, sol ressuyé\n\n\nProtocole · Facile · ≈ 0 € (une bêche, deux bacs)\nÉvaluer la structure du sol et compter les vers de terre à la bêche\nNoter la structure du sol de 1 à 5 et compter les vers de terre sur le même bloc de terre, pour suivre l'effet de vos pratiques d'une année à l'autre.\n\nFacile\nTravail du solPaillageSanté du sol\n\n\n\n\n\nAucun article correspondant"
   },
   {
     "objectID": "protocoles/rendement-echantillons/index.html",
@@ -620,7 +690,7 @@
     "href": "protocoles/rendement-echantillons/index.html#étapes",
     "title": "Estimer le rendement d’une planche en pesant des échantillons",
     "section": "Étapes",
-    "text": "Étapes\n\nDéfinir les zones d’échantillonnage. Par planche, choisissez 3 zones réparties au hasard, pour représenter toute la surface. Évitez les bords.\nRécolter un groupe de 9 plants voisins dans chaque zone.\nPeser sur place, aussitôt la récolte faite, pour avoir la masse fraîche avant que les feuilles ne sèchent.\nNoter le nombre de plants et la masse de chaque échantillon.\nRecommencer sur chaque planche à comparer, le même jour et de la même façon.\nRamener au plant ou au mètre carré : masse moyenne par plant = masse totale des 3 échantillons ÷ nombre total de plants pesés. Multipliez-la par le nombre de plants par m² pour obtenir le rendement en kg/m² (× 10 pour des t/ha). Ce calcul suppose que tous les plants de la planche sont récoltables."
+    "text": "Étapes\n\nDéfinir les zones d’échantillonnage. Par planche, choisissez 3 zones réparties au hasard, pour représenter toute la surface. Évitez les bords.\nRécolter un groupe de 9 plants voisins dans chaque zone.\nPeser sur place, aussitôt la récolte faite, pour avoir la masse fraîche avant que les feuilles ne sèchent.\nNoter le nombre de plants et la masse de chaque échantillon.\nRecommencer sur chaque planche à comparer, le même jour et de la même façon.\nRamener au plant ou au mètre carré : masse moyenne par plant = masse totale des 3 échantillons ÷ nombre total de plants pesés. Multipliez-la par le nombre de plants par m² pour obtenir le rendement en kg/m² (× 10 pour des t/ha). Ce calcul suppose que tous les plants de la planche sont récoltables.\n\n\nVariante : rendement commercialisable (légumes pesés un par un)\nPour des légumes récoltés à l’unité, comme le chou pommé, on peut peser chaque plant et ne compter que ceux qui sont vendables. Nous l’avons fait sur chou en 2025.\n\nCouper au collet et peser le plant entier (biomasse).\nParer : couper la tige et retirer les feuilles extérieures, puis peser le chou seul. Une balance précise à 0,05 kg suffit.\nTrier selon la norme de commercialisation. Pour le chou pommé (norme CEE-ONU FFV-09), un chou est commercialisable s’il pèse au moins 400 g, et dans un même lot le plus lourd ne doit pas dépasser le double du plus léger, avec une tolérance de 10 % en nombre ou en poids.\nCalculer deux rendements : rendement récolté (tous les choux) et rendement commercialisable (seulement les choux conformes). Rendement (t/ha) = poids cumulé (kg) ÷ (surface par plant (m²) × nombre de choux) × 10. Pour des choux à 50 × 50 cm, la surface par plant est de 0,25 m².\n\nDans notre essai, 7 choux sur 11 arrosés à l’arrosoir étaient commercialisables, contre tous les choux irrigués par des oyas placés à 35 cm."
   },
   {
     "objectID": "protocoles/rendement-echantillons/index.html#fiche-de-relevé",
@@ -648,98 +718,168 @@
     "href": "protocoles/rendement-echantillons/index.html#dans-nos-essais",
     "title": "Estimer le rendement d’une planche en pesant des échantillons",
     "section": "Dans nos essais",
-    "text": "Dans nos essais\nÀ la ferme universitaire de Lauzelle, nous avons pesé 3 échantillons de 9 épinards sur chacune des parcelles paillées le 16 mai 2025, soit environ 20,5 kg d’échantillons. Les épinards étaient plantés en 5 rangs par parcelle, à 15 cm sur le rang.\n\n\n\n\n\n\nEssai\n\n\n\nSaison\n\n\n\nCulture\n\n\n\n\n\n\n\n\nPaillages en maraîchage bio : bilan de la première année\n\n\n2024–2025\n\n\nÉpinard\n\n\n\n\n\n\nAucun article correspondant"
+    "text": "Dans nos essais\nÀ la ferme universitaire de Lauzelle, nous avons pesé 3 échantillons de 9 épinards sur chacune des parcelles paillées le 16 mai 2025, soit environ 20,5 kg d’échantillons. Les épinards étaient plantés en 5 rangs par parcelle, à 15 cm sur le rang.\n\n\n\n\n\n\nEssai\n\n\n\nSaison\n\n\n\nCulture\n\n\n\n\n\n\n\n\nOyas pour le chou : à quelle distance les placer ?\n\n\n2025\n\n\nChou\n\n\n\n\n\n\nPaillages en maraîchage bio : bilan de la première année\n\n\n2024–2025\n\n\nÉpinard\n\n\n\n\n\n\nAucun article correspondant"
   },
   {
     "objectID": "protocoles/rendement-echantillons/index.html#ressources-en-ligne",
     "href": "protocoles/rendement-echantillons/index.html#ressources-en-ligne",
     "title": "Estimer le rendement d’une planche en pesant des échantillons",
     "section": "Ressources en ligne",
-    "text": "Ressources en ligne\nPour aller plus loin, une sélection de ressources de référence. Elles sont gérées par d’autres organismes : leur contenu peut changer.\n\nPlateforme SYCMA : rendements mesurés en maraîchage bio au CRA-W (poster, PDF)\nItinéraires BIO n° 88 : maraîchage, agriculture de conservation et fertilité autoproduite (Biowallonie, PDF)\nDonnées technico-économiques en maraîchage biologique (INRAE et AgroParisTech, 2017, PDF)"
+    "text": "Ressources en ligne\nPour aller plus loin, une sélection de ressources de référence. Elles sont gérées par d’autres organismes : leur contenu peut changer.\n\nNorme de commercialisation des choux pommés : règlement (CE) n° 634/2006 (EUR-Lex)\nPlateforme SYCMA : rendements mesurés en maraîchage bio au CRA-W (poster, PDF)\nItinéraires BIO n° 88 : maraîchage, agriculture de conservation et fertilité autoproduite (Biowallonie, PDF)\nDonnées technico-économiques en maraîchage biologique (INRAE et AgroParisTech, 2017, PDF)"
   },
   {
     "objectID": "protocoles/rendement-echantillons/index.html#sources",
     "href": "protocoles/rendement-echantillons/index.html#sources",
     "title": "Estimer le rendement d’une planche en pesant des échantillons",
     "section": "Sources",
-    "text": "Sources\n\nMémoire d’Eliot Vas (2025) : méthode p. 44, plantation p. 32, évaluation p. 75 et 77.\nRésultat bâche / miscanthus : fiche « Paillages en maraîchage bio : bilan de la première année »."
+    "text": "Sources\n\nMémoire d’Eliot Vas (2025) : méthode p. 44, plantation p. 32, évaluation p. 75 et 77.\nMémoire de Gaëlle Hanssens (2025) : variante commercialisable p. 26–27. Il cite la norme CEE-ONU FFV-09 (Nations Unies, 2024).\nRésultat bâche / miscanthus : fiche « Paillages en maraîchage bio : bilan de la première année »."
   },
   {
-    "objectID": "protocoles/vess-test-beche/index.html",
-    "href": "protocoles/vess-test-beche/index.html",
-    "title": "Évaluer la structure du sol et compter les vers de terre à la bêche",
+    "objectID": "protocoles/oyas-installation/index.html",
+    "href": "protocoles/oyas-installation/index.html",
+    "title": "Installer et suivre des oyas sous tunnel",
     "section": "",
-    "text": "Objectif Noter la structure du sol de 1 à 5 et compter les vers de terre sur le même bloc de terre, pour suivre l’effet de vos pratiques d’une année à l’autre.\nDifficulté Facile\nDurée ≈ 30 min par bloc\nCoût ≈ 0 € (une bêche, deux bacs)\nQuand Fin d’hiver – début de printemps, sol ressuyé"
+    "text": "Objectif Irriguer tomates ou choux avec des pots en terre cuite enterrés, en économisant l’eau, et mesurer ce qu’ils consomment vraiment.\nDifficulté Facile\nDurée ≈ 20 min par oya\nCoût ≈ 30 € par oya de 5 L (prix 2025)\nQuand Installation à la plantation, puis 2 remplissages par semaine"
   },
   {
-    "objectID": "protocoles/vess-test-beche/index.html#à-quoi-ça-sert",
-    "href": "protocoles/vess-test-beche/index.html#à-quoi-ça-sert",
-    "title": "Évaluer la structure du sol et compter les vers de terre à la bêche",
+    "objectID": "protocoles/oyas-installation/index.html#à-quoi-ça-sert",
+    "href": "protocoles/oyas-installation/index.html#à-quoi-ça-sert",
+    "title": "Installer et suivre des oyas sous tunnel",
     "section": "À quoi ça sert",
-    "text": "À quoi ça sert\nLa VESS (Visual Evaluation of Soil Structure) donne une note de 1 (sol friable, bien structuré) à 5 (sol très compact) à partir d’un simple bloc de terre. Le test bêche utilise ensuite ce même bloc pour compter les vers de terre et les classer en groupes. Ensemble, ils montrent en une demi-heure si un paillage, un couvert ou un travail du sol améliore ou dégrade votre sol. Il suffit de refaire le test chaque année à la même période."
+    "text": "À quoi ça sert\nUn oya est un pot en argile poreuse, enterré et rempli d’eau. L’eau traverse lentement la paroi et humidifie le sol autour du pot, au niveau des racines, avec très peu d’évaporation. Dans nos essais sous tunnel, les oyas ont utilisé 60 à 70 % d’eau en moins qu’un arrosage classique, à condition de bien les placer. Ce protocole explique comment les installer, à quelle distance des plants, et comment mesurer l’eau qu’ils consomment."
   },
   {
-    "objectID": "protocoles/vess-test-beche/index.html#matériel",
-    "href": "protocoles/vess-test-beche/index.html#matériel",
-    "title": "Évaluer la structure du sol et compter les vers de terre à la bêche",
+    "objectID": "protocoles/oyas-installation/index.html#matériel",
+    "href": "protocoles/oyas-installation/index.html#matériel",
+    "title": "Installer et suivre des oyas sous tunnel",
     "section": "Matériel",
-    "text": "Matériel\n\nUne bêche plate et bien affûtée\nDeux bacs ou une bâche, de couleur sombre pour mieux voir les vers\nUn mètre ruban ou une règle\nLa grille de notation VESS imprimée. Elle existe aussi en application pour iPhone ; nous n’avons pas trouvé de version Android en 2026.\nLa clé d’identification des vers de terre de l’OPVT (4 groupes)\nLa fiche de relevé et un crayon ; un téléphone pour les photos"
+    "text": "Matériel\n\nOyas de 5 L : un pour 4 plants. Ils coûtaient environ 30 € pièce en 2025. Un oya réutilisé d’une saison précédente fonctionne aussi. Choisissez la taille selon la culture : moins de 5 L pour des pots, 5 à 10 L pour de petites parcelles, jusqu’à 20 L pour des cultures à enracinement profond.\nUne bêche ou une tarière\nUn récipient gradué pour connaître le volume versé (nous utilisons une bouteille de 1,5 L graduée tous les 0,15 L)\nUn mètre ruban\nSi le sol est couvert d’une toile : un cutter pour l’ouvrir à l’emplacement des oyas\nLa fiche de relevé"
   },
   {
-    "objectID": "protocoles/vess-test-beche/index.html#étapes",
-    "href": "protocoles/vess-test-beche/index.html#étapes",
-    "title": "Évaluer la structure du sol et compter les vers de terre à la bêche",
+    "objectID": "protocoles/oyas-installation/index.html#étapes",
+    "href": "protocoles/oyas-installation/index.html#étapes",
+    "title": "Installer et suivre des oyas sous tunnel",
     "section": "Étapes",
-    "text": "Étapes\n\nChoisir le moment. Faites le test en fin d’hiver ou début de printemps, sur un sol ressuyé (ni détrempé, ni sec), et avant tout travail du sol de la saison. Au labo, nous le faisons en mars.\nChoisir les points. Prenez 2 blocs par parcelle (6 si la parcelle est grande), loin des bords et des passages de roues. Sur nos parcelles de 12 m², nous creusons entre 1 et 1,5 m des extrémités.\nDégager le bloc. Creusez d’abord une tranchée sur un côté. Plantez ensuite la bêche pour isoler un bloc d’environ 20 × 20 cm sur 25 cm de profondeur (25 à 30 cm selon nos sources : gardez toujours la même profondeur). Dégagez bien les côtés pour que le bloc garde sa forme : c’est important si vous comptez aussi les vers.\nSortir le bloc d’un seul mouvement et le poser dans le premier bac. Prenez une photo.\nRepérer les couches. Ouvrez doucement le bloc à la main, en suivant ses fissures naturelles. Repérez les couches qui diffèrent (couleur, compacité, racines) et mesurez leur épaisseur.\nNoter chaque couche de 1 à 5 avec la grille (tableau ci-dessous). Regardez la taille des agrégats, les pores visibles, les racines et la force nécessaire pour casser les mottes.\nCalculer la note du bloc : multipliez la note de chaque couche par son épaisseur, additionnez, puis divisez par l’épaisseur totale. Par exemple, 10 cm notés 2 et 15 cm notés 3 donnent (2 × 10 + 3 × 15) ÷ 25 = 2,6.\nCompter les vers de terre. Émiettez le bloc motte par motte dans le second bac et ramassez tous les vers. Comptez-les et classez-les avec la clé OPVT : épigés, endogés, épi-anéciques et anéciques stricts. Remettez ensuite les vers et la terre dans le trou.\nPrélever aussi des agrégats de surface, si vous faites le test de stabilité des mottes dans l’eau : c’est le bon moment, le sol est déjà ouvert.\nChanger d’emplacement chaque année. L’extraction du bloc abîme la structure du sol pour longtemps : ne refaites jamais le test exactement au même endroit."
+    "text": "Étapes\n\nPréparer le plan. Placez chaque oya au centre de 4 plants. Nos repères de distance entre l’oya et chaque plant :\n\ntomate : ≈ 30 cm (31 cm dans notre essai de 2024) ;\nchou : 35 à 56 cm. À 79 cm, c’est trop loin : moins de la moitié des choux étaient commercialisables. En sol limoneux, ≈ 50 cm est un bon compromis : un oya peut alors servir 6 choux au lieu de 4 (voir le tableau ci-dessous). Au-delà de 56 cm, des zones sèches apparaissent entre les oyas.\n\nCreuser. Faites un trou environ 3 fois plus large et 2 fois plus profond que l’oya, puis remettez de la terre fine au fond.\nEnterrer l’oya pour que seul le col dépasse, à 1 ou 2 cm au-dessus du sol. S’il dépasse trop, l’eau s’évapore. S’il est trop profond, les jeunes racines n’atteignent pas la zone humide.\nBien tasser la terre autour, en contact avec la paroi et sans laisser de vide : l’eau ne passe que là où la terre touche le pot.\nRemplir l’oya à ras le jour de la plantation, poser le couvercle, et arroser aussi les plants au pied (nous avons donné 0,25 L par chou et 0,5 L par tomate). Pendant les premières semaines, les racines n’atteignent pas encore l’oya : un arrosage d’appoint peut être nécessaire.\nRemplir régulièrement. Comptez 2 fois par semaine au printemps et en été. Notez à chaque fois le volume ajouté pour refaire le plein. Pour une efficience maximale, la littérature conseille de remplir avant que l’oya ait perdu plus d’un quart de son volume.\nMesurer en fin de saison. Après la récolte, mesurez l’eau qui reste dans chaque oya. Sa consommation sur la saison = premier remplissage + somme des remplissages suivants − eau restante (méthode du mémoire de Gaëlle Hanssens). Divisez par 4 pour obtenir l’eau reçue par plant.\nEntretenir. Videz et sortez les oyas avant l’hiver. Brossez-les si un dépôt blanc (calcaire, sels) bouche la surface.\n\n\nCombien d’oyas pour une planche ?\nEstimation pour une planche de 0,75 × 20 m avec 2 rangs de choux plantés à 50 cm (mémoire de Gaëlle Hanssens, tableau 6, prix et temps de 2025) :\n\n\n\n\n\n\n\n\n\n\nDistance oya – chou\nPlants par oya\nOyas par planche\nTemps d’installation\nCoût des oyas\n\n\n\n\n35 cm\n4 choux\n20\n≈ 6 h\n≈ 600 €\n\n\n50 cm\n6 choux\n13\n≈ 4 h\n≈ 390 €\n\n\n\nÉcarter les oyas à 50 cm réduit d’environ un tiers le coût et le temps de pose. Les oyas se réutilisent plusieurs saisons : l’investissement s’amortit."
   },
   {
-    "objectID": "protocoles/vess-test-beche/index.html#grille-de-notation-résumé",
-    "href": "protocoles/vess-test-beche/index.html#grille-de-notation-résumé",
-    "title": "Évaluer la structure du sol et compter les vers de terre à la bêche",
-    "section": "Grille de notation (résumé)",
-    "text": "Grille de notation (résumé)\n\n\n\n\n\n\n\n\nNote\nNom\nCe que l’on observe\n\n\n\n\n1\nFriable\nAgrégats petits, qui s’émiettent entre les doigts ; très poreux, racines partout\n\n\n2\nIntact\nAgrégats faciles à casser d’une main ; poreux, arrondis, racines partout\n\n\n3\nFerme\nLa plupart des agrégats se cassent d’une main ; mélange de petits agrégats poreux et de mottes plus anguleuses\n\n\n4\nCompact\nIl faut forcer pour casser les agrégats d’une main ; mottes anguleuses, peu de pores, racines regroupées dans les fissures\n\n\n5\nTrès compact\nDifficile à casser ; gros blocs anguleux, presque pas de pores, peu ou pas de racines\n\n\n\nCe tableau est un résumé : pour noter, utilisez la grille VESS officielle, qui contient des photos de référence."
-  },
-  {
-    "objectID": "protocoles/vess-test-beche/index.html#fiche-de-relevé",
-    "href": "protocoles/vess-test-beche/index.html#fiche-de-relevé",
-    "title": "Évaluer la structure du sol et compter les vers de terre à la bêche",
+    "objectID": "protocoles/oyas-installation/index.html#fiche-de-relevé",
+    "href": "protocoles/oyas-installation/index.html#fiche-de-relevé",
+    "title": "Installer et suivre des oyas sous tunnel",
     "section": "Fiche de relevé",
-    "text": "Fiche de relevé\nTéléchargez la fiche de relevé (CSV), ouvrez-la dans un tableur et imprimez-la. Prévoyez une ligne par couche. Le nombre de vers se note une seule fois par bloc, sur la ligne de la couche 1.\n\n\n\n\n\n\nSaisir sur téléphone avec KoboToolbox. Ce relevé existe aussi en formulaire KoboToolbox (format XLSForm) : les calculs se font tout seuls et la saisie marche sans réseau.\n\nCréez un compte gratuit sur KoboToolbox, puis Nouveau projet → Importer un XLSForm et choisissez le fichier téléchargé. Cliquez sur Déployer.\nInstallez l’application KoboCollect (Android) sur votre téléphone, ou utilisez le formulaire web (Enketo) depuis n’importe quel navigateur, même sur iPhone.\nFaites vos relevés au champ. Les données s’envoient au retour du réseau et s’exportent en Excel ou CSV depuis KoboToolbox."
+    "text": "Fiche de relevé\nTéléchargez la fiche de relevé (CSV), avec une ligne par oya et par remplissage. Additionnez la colonne volume_ajoute_L en fin de saison.\n\n\n\n\n\n\nSaisir sur téléphone avec KoboToolbox. Ce relevé existe aussi en formulaire KoboToolbox (format XLSForm) : les calculs se font tout seuls et la saisie marche sans réseau.\n\nCréez un compte gratuit sur KoboToolbox, puis Nouveau projet → Importer un XLSForm et choisissez le fichier téléchargé. Cliquez sur Déployer.\nInstallez l’application KoboCollect (Android) sur votre téléphone, ou utilisez le formulaire web (Enketo) depuis n’importe quel navigateur, même sur iPhone.\nFaites vos relevés au champ. Les données s’envoient au retour du réseau et s’exportent en Excel ou CSV depuis KoboToolbox."
   },
   {
-    "objectID": "protocoles/vess-test-beche/index.html#lire-les-résultats",
-    "href": "protocoles/vess-test-beche/index.html#lire-les-résultats",
-    "title": "Évaluer la structure du sol et compter les vers de terre à la bêche",
+    "objectID": "protocoles/oyas-installation/index.html#lire-les-résultats",
+    "href": "protocoles/oyas-installation/index.html#lire-les-résultats",
+    "title": "Installer et suivre des oyas sous tunnel",
     "section": "Lire les résultats",
-    "text": "Lire les résultats\n\nNote de 1 à 2 : le sol est bien structuré.\nNote autour de 3 : la structure est moyenne. Surveillez son évolution d’une année à l’autre.\nNote de 4 à 5 : le sol est tassé. Cherchez la cause : passages de roues, travail du sol en conditions humides, sol nu en hiver.\nComparer plutôt que juger. C’est surtout l’évolution de la note d’une année à l’autre, et l’écart entre deux pratiques sur la même ferme, qui sont informatifs.\nVers de terre : beaucoup de vers et des anéciques (les gros vers qui creusent des galeries verticales) indiquent un sol vivant et bien drainé. Aucun ver, ou seulement quelques épigés, signale un sol perturbé ou tassé."
+    "text": "Lire les résultats\n\nComparez avec votre arrosage habituel : en 2025, nos choux ont reçu 10 à 14 L par plant avec les oyas, contre environ 35 L à l’arrosoir. En 2024, nos tomates ont reçu ≈ 27 L par plant avec les oyas, contre ≈ 127 L en irrigation complète.\nLes oyas économisent l’eau mais ne maximisent pas le rendement. En 2024, les tomates sous oyas ont donné 2,4 kg par plant, contre 3,2 kg en irrigation complète, mais chaque litre d’eau a produit environ 4 fois plus de tomates.\nPas besoin de calculer les besoins de la culture. Le débit d’un oya suit ce que le sol absorbe : il augmente quand le sol sèche et diminue quand le sol est humide. Pour un arrosage classique, voir le protocole Calculer les besoins en eau d’une culture à partir de l’ET0.\nUn oya qui se vide moins vite indique que les plants ont moins besoin d’eau (fin de saison, temps frais), ou que la paroi est encrassée."
   },
   {
-    "objectID": "protocoles/vess-test-beche/index.html#erreurs-fréquentes",
-    "href": "protocoles/vess-test-beche/index.html#erreurs-fréquentes",
-    "title": "Évaluer la structure du sol et compter les vers de terre à la bêche",
+    "objectID": "protocoles/oyas-installation/index.html#erreurs-fréquentes",
+    "href": "protocoles/oyas-installation/index.html#erreurs-fréquentes",
+    "title": "Installer et suivre des oyas sous tunnel",
     "section": "Erreurs fréquentes",
-    "text": "Erreurs fréquentes\n\nFaire le test sur un sol trop humide ou trop sec. Le sol humide paraît compact, le sol sec paraît dur. Attendez un sol ressuyé.\nAbîmer le bloc en le sortant : il faut dégager davantage autour avant de soulever.\nRevenir au même endroit l’année suivante : la structure n’a pas encore récupéré.\nComparer des notes données par des personnes différentes. Pour suivre une évolution, gardez si possible la même personne d’une année à l’autre."
+    "text": "Erreurs fréquentes\n\nPlacer l’oya trop loin des plants : les racines ne le trouvent pas.\nOublier l’arrosage d’appoint juste après la plantation.\nOublier de noter les volumes : sans eux, impossible de savoir si l’on économise de l’eau.\nTravailler le sol chaque année : les oyas conviennent mieux aux planches permanentes et au travail du sol réduit.\nLaisser les oyas pleins dehors en hiver : une argile gorgée d’eau risque de se fendre au gel. Prévoyez un endroit à l’abri pour les ranger.\nLaisser le sol nu autour des oyas : un paillage limite l’évaporation en surface et complète bien les oyas."
   },
   {
-    "objectID": "protocoles/vess-test-beche/index.html#dans-nos-essais",
-    "href": "protocoles/vess-test-beche/index.html#dans-nos-essais",
-    "title": "Évaluer la structure du sol et compter les vers de terre à la bêche",
+    "objectID": "protocoles/oyas-installation/index.html#dans-nos-essais",
+    "href": "protocoles/oyas-installation/index.html#dans-nos-essais",
+    "title": "Installer et suivre des oyas sous tunnel",
     "section": "Dans nos essais",
-    "text": "Dans nos essais\nÀ la ferme universitaire de Lauzelle, nous avons fait ce test en mars 2025 et en mars 2026, avec 2 blocs par parcelle sur 30 parcelles de 12 m² paillées de cinq façons différentes. En 2026, le BRF avait la meilleure structure (note moyenne 1,1). C’est le seul paillage nettement meilleur que les autres.\n\n\n\n\n\n\nEssai\n\n\n\nSaison\n\n\n\nCulture\n\n\n\n\n\n\n\n\nCinq paillages en maraîchage bio : sol, eau et légumes\n\n\n2025–2026\n\n\nÉpinard\n\n\n\n\n\n\nPaillages en maraîchage bio : bilan de la première année\n\n\n2024–2025\n\n\nÉpinard\n\n\n\n\n\n\nAucun article correspondant"
+    "text": "Dans nos essais\nNous avons testé les oyas sous tunnel à la ferme universitaire de Marbaix, sur tomate en 2024 et sur chou en 2025 : oyas de 5 L, chacun au centre de 4 plants, remplis à ras 2 à 3 fois par semaine.\n\n\n\n\n\n\nEssai\n\n\n\nSaison\n\n\n\nCulture\n\n\n\n\n\n\n\n\nOyas pour le chou : à quelle distance les placer ?\n\n\n2025\n\n\nChou\n\n\n\n\n\n\nTomate sous tunnel : combien d’eau pour quel rendement ?\n\n\n2024\n\n\nTomate\n\n\n\n\n\n\nAucun article correspondant"
   },
   {
-    "objectID": "protocoles/vess-test-beche/index.html#ressources-en-ligne",
-    "href": "protocoles/vess-test-beche/index.html#ressources-en-ligne",
-    "title": "Évaluer la structure du sol et compter les vers de terre à la bêche",
+    "objectID": "protocoles/oyas-installation/index.html#ressources-en-ligne",
+    "href": "protocoles/oyas-installation/index.html#ressources-en-ligne",
+    "title": "Installer et suivre des oyas sous tunnel",
     "section": "Ressources en ligne",
-    "text": "Ressources en ligne\nPour aller plus loin, une sélection de ressources de référence. Elles sont gérées par d’autres organismes : leur contenu peut changer.\n\nGrille VESS officielle en couleurs, avec photos de référence (SRUC, PDF, en anglais)\nDescription de la méthode VESS pas à pas (SRUC, PDF, en anglais)\nFeuille de notation VESS avec calcul de la note du bloc (SRUC, Word, en anglais)\nGuide illustré « How to assess soil structure » (AHDB, en anglais)\nGuide méthodique du test bêche (Agro-Transfert, PDF)\nTest bêche : comprendre l’impact de ses pratiques sur la structure du sol (Réussir)\nSolDoc, test à la bêche guidé par une application gratuite iOS et Android (BFH, Suisse)\nObservatoire Participatif des Vers de Terre : protocole test bêche et clé d’identification (OPVT)"
+    "text": "Ressources en ligne\nPour aller plus loin, une sélection de ressources de référence. Elles sont gérées par d’autres organismes : leur contenu peut changer.\n\nPitcher irrigation : fiche de la plateforme agriculture familiale (FAO, en anglais)\nPitcher irrigation : vidéo de formation pour agriculteurs (Access Agriculture, plusieurs langues)\nÉconomie d’eau des oyas comparée au goutte-à-goutte sur chou (Hatungimana et al., 2023, PDF, en anglais), étude citée par le mémoire Hanssens"
   },
   {
-    "objectID": "protocoles/vess-test-beche/index.html#sources",
-    "href": "protocoles/vess-test-beche/index.html#sources",
-    "title": "Évaluer la structure du sol et compter les vers de terre à la bêche",
+    "objectID": "protocoles/oyas-installation/index.html#sources",
+    "href": "protocoles/oyas-installation/index.html#sources",
+    "title": "Installer et suivre des oyas sous tunnel",
     "section": "Sources",
-    "text": "Sources\n\nMéthode VESS : Ball, Batey et Munkholm (2007) ; Guimarães, Ball et Tormena (2011), grille de notation officielle.\nGuide méthodique du test bêche : structure et action des vers de terre, Agro-Transfert (2023).\nClé d’identification des vers de terre en 4 groupes : Observatoire Participatif des Vers de Terre (OPVT).\nMise en œuvre au PEPA Lab : mémoires d’Eliot Vas (2025, p. 37–38 ; combinaison avec le test de stabilité des agrégats, p. 73 ; bloc de 20 × 20 × 30 cm dans le tableau 5, p. 45) et de Pierre-André Peters-Dickie (2026, p. 30–32)."
+    "text": "Sources\n\nMémoire de Clémentine Lucca (2025), irrigation de la tomate sous tunnel, p. 27–28, 33 et 37.\nMémoire de Gaëlle Hanssens (2025), oyas et chou, p. 8–10, 18–22 et 54–56. Il cite notamment Siyal et al. (2009), Bazai et al. (2017) et Hatungimana et al. (2023)."
+  },
+  {
+    "objectID": "protocoles/adventices-couverture/index.html",
+    "href": "protocoles/adventices-couverture/index.html",
+    "title": "Mesurer la couverture d’adventices et de la culture",
+    "section": "",
+    "text": "Objectif Chiffrer la place prise par les adventices et le développement de la culture, avec un cadre grillagé ou une photo, pour comparer deux pratiques.\nDifficulté Facile\nDurée ≈ 15 min par parcelle\nCoût ≈ 0 € (cadre fait maison, application gratuite)\nQuand Au printemps, avant le désherbage, quand la culture est bien installée"
+  },
+  {
+    "objectID": "protocoles/adventices-couverture/index.html#à-quoi-ça-sert",
+    "href": "protocoles/adventices-couverture/index.html#à-quoi-ça-sert",
+    "title": "Mesurer la couverture d’adventices et de la culture",
+    "section": "À quoi ça sert",
+    "text": "À quoi ça sert\nPour savoir si un paillage limite vraiment les adventices, ou si une culture se développe mieux sur une planche que sur une autre, il faut des chiffres comparables. Le cadre grillagé permet de compter la surface occupée par les adventices et de les identifier. Une photo analysée avec l’application Canopeo donne en quelques secondes le pourcentage de sol couvert par du vert. Le cadre est plus fiable, la photo plus rapide."
+  },
+  {
+    "objectID": "protocoles/adventices-couverture/index.html#matériel",
+    "href": "protocoles/adventices-couverture/index.html#matériel",
+    "title": "Mesurer la couverture d’adventices et de la culture",
+    "section": "Matériel",
+    "text": "Matériel\n\nUn cadre en bois de 71 cm de côté, tendu d’un grillage ou de ficelles qui le divisent en 196 cases de 5 × 5 cm (14 × 14). Il couvre 0,5 m².\nUn smartphone avec l’application Canopeo (gratuite, iOS et Android)\nPour identifier les espèces : une application de reconnaissance (PlantNet, PictureThis) et, idéalement, une personne formée à la botanique\nLa fiche de relevé"
+  },
+  {
+    "objectID": "protocoles/adventices-couverture/index.html#étapes-cadre-grillagé-adventices",
+    "href": "protocoles/adventices-couverture/index.html#étapes-cadre-grillagé-adventices",
+    "title": "Mesurer la couverture d’adventices et de la culture",
+    "section": "Étapes : cadre grillagé (adventices)",
+    "text": "Étapes : cadre grillagé (adventices)\n\nPoser le cadre au centre de la parcelle, toujours au même endroit d’une date à l’autre.\nNoter chaque case : 1 si au moins la moitié de la case est couverte par une adventice, 0 sinon.\nCompter les cases notées 1 et calculez le pourcentage de surface couverte : cases notées 1 ÷ 196 × 100.\nIdentifier les espèces présentes dans le cadre et compter les pieds de chacune. Les applications reconnaissent souvent le genre, mais se trompent sur l’espèce, surtout chez les plantules : faites vérifier par une personne compétente."
+  },
+  {
+    "objectID": "protocoles/adventices-couverture/index.html#étapes-photo-canopeo-couverture-totale",
+    "href": "protocoles/adventices-couverture/index.html#étapes-photo-canopeo-couverture-totale",
+    "title": "Mesurer la couverture d’adventices et de la culture",
+    "section": "Étapes : photo Canopeo (couverture totale)",
+    "text": "Étapes : photo Canopeo (couverture totale)\n\nPrendre la photo à la verticale, au-dessus de la planche. En 2025, nous l’avons prise à hauteur d’épaule (environ 1,40 m). En 2026, nous avons plutôt cadré pour que les bords de la parcelle soient juste en dehors de la photo, parce que la surface photographiée varie selon le téléphone.\nFaire 3 photos par parcelle, une dans chaque tiers, toujours dans le même ordre, et en faire la moyenne (méthode 2026).\nChoisir des conditions comparables : évitez le plein soleil et les heures qui suivent une pluie (feuillage ou sol mouillé). Ces situations faussent le résultat vers le haut.\nLire le pourcentage de couverture donné par l’application. Utilisez le facteur de correction de l’application avec parcimonie, et toujours de la même façon."
+  },
+  {
+    "objectID": "protocoles/adventices-couverture/index.html#fiche-de-relevé",
+    "href": "protocoles/adventices-couverture/index.html#fiche-de-relevé",
+    "title": "Mesurer la couverture d’adventices et de la culture",
+    "section": "Fiche de relevé",
+    "text": "Fiche de relevé\nTéléchargez la fiche de relevé (CSV). Notez une ligne par parcelle et par date. Les espèces identifiées vont dans la colonne especes, avec leur nombre de pieds.\n\n\n\n\n\n\nSaisir sur téléphone avec KoboToolbox. Ce relevé existe aussi en formulaire KoboToolbox (format XLSForm) : les calculs se font tout seuls et la saisie marche sans réseau.\n\nCréez un compte gratuit sur KoboToolbox, puis Nouveau projet → Importer un XLSForm et choisissez le fichier téléchargé. Cliquez sur Déployer.\nInstallez l’application KoboCollect (Android) sur votre téléphone, ou utilisez le formulaire web (Enketo) depuis n’importe quel navigateur, même sur iPhone.\nFaites vos relevés au champ. Les données s’envoient au retour du réseau et s’exportent en Excel ou CSV depuis KoboToolbox."
+  },
+  {
+    "objectID": "protocoles/adventices-couverture/index.html#lire-les-résultats",
+    "href": "protocoles/adventices-couverture/index.html#lire-les-résultats",
+    "title": "Mesurer la couverture d’adventices et de la culture",
+    "section": "Lire les résultats",
+    "text": "Lire les résultats\n\nCadre : comparez le pourcentage de cases couvertes et le nombre d’espèces entre pratiques. En 2025, sous BRF et bâche plastique, il y avait moins d’espèces d’adventices que sur les parcelles restées nues.\nCanopeo ne distingue pas la culture des adventices : le résultat n’a de sens pour la culture que si les adventices ont été retirées peu avant.\nLes deux méthodes se combinent : le même cadre grillagé peut servir à noter aussi les cases couvertes par la culture."
+  },
+  {
+    "objectID": "protocoles/adventices-couverture/index.html#erreurs-fréquentes",
+    "href": "protocoles/adventices-couverture/index.html#erreurs-fréquentes",
+    "title": "Mesurer la couverture d’adventices et de la culture",
+    "section": "Erreurs fréquentes",
+    "text": "Erreurs fréquentes\n\nMesurer juste après un désherbage : il n’y a plus rien à compter. En 2026, il a fallu laisser les parcelles se salir volontairement avant la mesure.\nChanger la hauteur ou le cadrage des photos d’une date à l’autre.\nSe fier uniquement aux applications pour nommer les espèces."
+  },
+  {
+    "objectID": "protocoles/adventices-couverture/index.html#dans-nos-essais",
+    "href": "protocoles/adventices-couverture/index.html#dans-nos-essais",
+    "title": "Mesurer la couverture d’adventices et de la culture",
+    "section": "Dans nos essais",
+    "text": "Dans nos essais\nÀ la ferme universitaire de Lauzelle, le cadre grillagé a servi sur les 30 parcelles paillées en mai 2025, et Canopeo en avril–mai 2025 puis à quatre dates en mai 2026. Le mémoire de 2025 juge le cadre pratique, rapide et reproductible, et Canopeo très rapide mais sensible à la lumière et à l’angle de prise de vue.\n\n\n\n\n\n\nEssai\n\n\n\nSaison\n\n\n\nCulture\n\n\n\n\n\n\n\n\nCinq paillages en maraîchage bio : sol, eau et légumes\n\n\n2025–2026\n\n\nÉpinard\n\n\n\n\n\n\nPaillages en maraîchage bio : bilan de la première année\n\n\n2024–2025\n\n\nÉpinard\n\n\n\n\n\n\nAucun article correspondant"
+  },
+  {
+    "objectID": "protocoles/adventices-couverture/index.html#ressources-en-ligne",
+    "href": "protocoles/adventices-couverture/index.html#ressources-en-ligne",
+    "title": "Mesurer la couverture d’adventices et de la culture",
+    "section": "Ressources en ligne",
+    "text": "Ressources en ligne\nPour aller plus loin, une sélection de ressources de référence. Elles sont gérées par d’autres organismes : leur contenu peut changer.\n\nCanopeo sur l’App Store (gratuit, Oklahoma State University ; existe aussi sur Android)\nPrésentation de Canopeo par ses concepteurs (Oklahoma State University, en anglais)\nPl@ntNet sur l’App Store (gratuit, iOS et Android)\nCinq applications de reconnaissance végétale testées sur les adventices (Réussir)"
+  },
+  {
+    "objectID": "protocoles/adventices-couverture/index.html#sources",
+    "href": "protocoles/adventices-couverture/index.html#sources",
+    "title": "Mesurer la couverture d’adventices et de la culture",
+    "section": "Sources",
+    "text": "Sources\n\nMéthode du cadre grillagé : Wilmus (2021), citée par Vas (2025).\nMémoire d’Eliot Vas (2025) : méthode p. 42–44, résultats p. 56–58, évaluation p. 75 et 77.\nMémoire de Pierre-André Peters-Dickie (2026) : améliorations de la prise de vue Canopeo, p. 32–33 ; adaptation de la méthode des adventices, p. 34."
   },
   {
     "objectID": "protocoles/stabilite-agregats/index.html",

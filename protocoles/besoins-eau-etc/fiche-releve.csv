@@ -1,0 +1,3 @@
+date,parcelle,culture,stade,kc,surface_par_plant_m2,et0_cumulee_mm,etc_cumulee_mm,besoin_L_par_plant,eau_apportee_L_par_plant,pluie_mm,operateur,remarques
+2025-04-01,P01,chou,croissance des feuilles,0.5,0.25,2.6,1.30,0.32,0.30,,,
+,,,,,,,,,,,,
