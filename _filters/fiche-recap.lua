@@ -25,7 +25,7 @@ end
 -- Bloc à retirer dans la version papier (graphiques OJS, sorties de code, encadrés de liens)
 local function a_retirer(b)
   if b.t == "CodeBlock" or b.t == "RawBlock" then return true end
-  if b.t == "Div" and (a_classe(b, "cell") or a_classe(b, "callout-note")) then return true end
+  if b.t == "Div" and a_classe(b, "cell") then return true end
   -- encadré « Protocoles utilisés » (callout transformé par Quarto en nœud personnalisé)
   if b.t == "Div" and pandoc.utils.stringify(b):find("Protocoles utilisés", 1, true) then return true end
   if b.t == "Para" and #b.content == 0 then return true end
@@ -49,8 +49,10 @@ local function liens_absolus(base_fiche, base_site)
 end
 
 function Pandoc(doc)
-  -- Encadrés « note » (liens vers les protocoles) : inutiles sur papier
-  doc = doc:walk({ Callout = function(c) if c.type == "note" then return {} end end })
+  -- Encadré « Protocoles utilisés » : inutile sur papier (l'encadré de statut est gardé)
+  doc = doc:walk({ Callout = function(c)
+    if pandoc.utils.stringify(c.content or {}):find("Protocoles utilisés", 1, true) then return {} end
+  end })
 
   -- Auteurs : garder ceux de la fiche, sans l'auteur par défaut du dossier
   for _, cle in ipairs({"author", "authors", "by-author"}) do

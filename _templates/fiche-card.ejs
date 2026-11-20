@@ -4,6 +4,8 @@
 <% const r = item.ressources || {}; const img = item.image ? String(item.image).replace(/^\//, '') : 'images/banniere.jpg'; %>
 <a class="fiche-card" href="<%- item.path %>" <%= metadataAttrs(item) %>>
 <div class="fiche-img" style="background-image:url('<%- img %>')">
+<% const st = item.statut || 'Préliminaire'; const stc = st === 'Publié' ? 'publie' : st === 'Consolidé' ? 'consolide' : 'preliminaire'; %>
+<span class="statut-badge statut-<%= stc %> statut-carte"><%= st %></span>
 <div class="kpi"><b><%= item.kpi || '' %></b><span><%= item.kpi_label || '' %></span></div>
 </div>
 <div class="fiche-body">

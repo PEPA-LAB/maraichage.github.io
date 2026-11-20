@@ -1,19 +1,23 @@
 # Valeurs par défaut appliquées à toutes les fiches du dossier fiches/
 # (une fiche peut les surcharger dans son propre en-tête)
-author: "PEPA Lab – UCLouvain"
 license: "CC BY 4.0"
 toc: true
 title-block-banner: ../../images/banniere.jpg
 body-classes: fiche
+
+# Niveau de confiance des résultats : Préliminaire (par défaut) | Consolidé | Publié
+# Un encadré est ajouté en tête de fiche par _filters/statut-fiche.lua.
+statut: "Préliminaire"
 recap-base-url: "https://www.pepa.science/maraichage.github.io"   # adresse du site, pour les liens du PDF
 
 # Deux sorties par fiche : la page web, et une fiche récapitulative PDF (index.pdf)
 # construite par _filters/fiche-recap.lua (sans graphiques interactifs, avec la figure principale).
 format-links: false
 format:
-  html: default
+  html:
+    filters: [../_filters/statut-fiche.lua]
   typst:
-    filters: [../_filters/fiche-recap.lua]
+    filters: [../_filters/statut-fiche.lua, ../_filters/fiche-recap.lua]
     papersize: a4
     margin: {x: 1.8cm, y: 1.6cm}
     fontsize: 10pt

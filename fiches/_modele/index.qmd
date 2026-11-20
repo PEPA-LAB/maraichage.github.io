@@ -4,6 +4,8 @@ title: "Titre court et parlant (question de l'essai)"
 date: 2026-01-01                 # date de publication de la fiche
 annee: "2025"                    # saison(s) d'essai, ex. "2024–2025"
 type: Essai                      # Essai | Mémoire | Synthèse | Note technique
+statut: Préliminaire             # Préliminaire (1 saison, mémoire) | Consolidé (plusieurs saisons ou sites) | Publié (article revu par des pairs)
+# publication: "https://doi.org/…"   # lien vers l'article si statut: Publié
 culture: "Tomate"                # culture(s) concernée(s)
 categories: [Thème principal, Tomate]   # thèmes + cultures → filtres de la page d'accueil
 keywords: [mot-clé 1, mot-clé 2]        # recherche plein texte

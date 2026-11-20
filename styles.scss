@@ -123,3 +123,12 @@ body.nav-fixed { padding-top: 0 !important; }
   a { color: #000; text-decoration: underline; }
   h2 { break-after: avoid; } ol, table, .protocole-identite { break-inside: avoid; }
 }
+
+// ---- Statut des fiches : Préliminaire / Consolidé / Publié
+.statut-badge { display: inline-block; font-size: .72rem; font-weight: 700; color: #fff; border-radius: 99px;
+  padding: 2px 9px; letter-spacing: .02em; vertical-align: middle; }
+.statut-preliminaire { background: #d9822b; }
+.statut-consolide    { background: $blue; }
+.statut-publie       { background: $green; }
+.fiche-img .statut-carte { position: absolute; top: 10px; left: 10px; z-index: 2; box-shadow: 0 1px 4px rgba(0,0,0,.25); }
+.callout-warning { background: #fdf1e4 !important; color: #5c3a12; border: none !important; border-left: 4px solid #d9822b !important; border-radius: 4px; }
