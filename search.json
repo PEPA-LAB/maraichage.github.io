@@ -32,7 +32,7 @@
     "href": "protocoles/prelevement-sol-analyse/index.html#fiche-de-relevé",
     "title": "Prélever un échantillon de sol pour une analyse de fertilité",
     "section": "Fiche de relevé",
-    "text": "Fiche de relevé\nTéléchargez la fiche de relevé (CSV) : une ligne par parcelle. Notez la date, la profondeur, le nombre de prélèvements et ce qui est envoyé au laboratoire. Reportez ensuite les résultats dans les colonnes prévues."
+    "text": "Fiche de relevé\nTéléchargez la fiche de relevé (CSV) : une ligne par parcelle. Notez la date, la profondeur, le nombre de prélèvements et ce qui est envoyé au laboratoire. Reportez ensuite les résultats dans les colonnes prévues.\n\n\n\n\n\n\nSaisir sur téléphone avec KoboToolbox. Ce relevé existe aussi en formulaire KoboToolbox (format XLSForm) : les calculs se font tout seuls et la saisie marche sans réseau.\n\nCréez un compte gratuit sur KoboToolbox, puis Nouveau projet → Importer un XLSForm et choisissez le fichier téléchargé. Cliquez sur Déployer.\nInstallez l’application KoboCollect (Android) sur votre téléphone, ou utilisez le formulaire web (Enketo) depuis n’importe quel navigateur, même sur iPhone.\nFaites vos relevés au champ. Les données s’envoient au retour du réseau et s’exportent en Excel ou CSV depuis KoboToolbox."
   },
   {
     "objectID": "protocoles/prelevement-sol-analyse/index.html#lire-les-résultats",
@@ -109,7 +109,7 @@
     "href": "protocoles/adventices-couverture/index.html#fiche-de-relevé",
     "title": "Mesurer la couverture d’adventices et de la culture",
     "section": "Fiche de relevé",
-    "text": "Fiche de relevé\nTéléchargez la fiche de relevé (CSV). Notez une ligne par parcelle et par date. Les espèces identifiées vont dans la colonne especes, avec leur nombre de pieds."
+    "text": "Fiche de relevé\nTéléchargez la fiche de relevé (CSV). Notez une ligne par parcelle et par date. Les espèces identifiées vont dans la colonne especes, avec leur nombre de pieds.\n\n\n\n\n\n\nSaisir sur téléphone avec KoboToolbox. Ce relevé existe aussi en formulaire KoboToolbox (format XLSForm) : les calculs se font tout seuls et la saisie marche sans réseau.\n\nCréez un compte gratuit sur KoboToolbox, puis Nouveau projet → Importer un XLSForm et choisissez le fichier téléchargé. Cliquez sur Déployer.\nInstallez l’application KoboCollect (Android) sur votre téléphone, ou utilisez le formulaire web (Enketo) depuis n’importe quel navigateur, même sur iPhone.\nFaites vos relevés au champ. Les données s’envoient au retour du réseau et s’exportent en Excel ou CSV depuis KoboToolbox."
   },
   {
     "objectID": "protocoles/adventices-couverture/index.html#lire-les-résultats",
@@ -179,7 +179,7 @@
     "href": "protocoles/oyas-installation/index.html#fiche-de-relevé",
     "title": "Installer et suivre des oyas sous tunnel",
     "section": "Fiche de relevé",
-    "text": "Fiche de relevé\nTéléchargez la fiche de relevé (CSV), avec une ligne par oya et par remplissage. Additionnez la colonne volume_ajoute_L en fin de saison."
+    "text": "Fiche de relevé\nTéléchargez la fiche de relevé (CSV), avec une ligne par oya et par remplissage. Additionnez la colonne volume_ajoute_L en fin de saison.\n\n\n\n\n\n\nSaisir sur téléphone avec KoboToolbox. Ce relevé existe aussi en formulaire KoboToolbox (format XLSForm) : les calculs se font tout seuls et la saisie marche sans réseau.\n\nCréez un compte gratuit sur KoboToolbox, puis Nouveau projet → Importer un XLSForm et choisissez le fichier téléchargé. Cliquez sur Déployer.\nInstallez l’application KoboCollect (Android) sur votre téléphone, ou utilisez le formulaire web (Enketo) depuis n’importe quel navigateur, même sur iPhone.\nFaites vos relevés au champ. Les données s’envoient au retour du réseau et s’exportent en Excel ou CSV depuis KoboToolbox."
   },
   {
     "objectID": "protocoles/oyas-installation/index.html#lire-les-résultats",
@@ -249,7 +249,7 @@
     "href": "protocoles/infiltration-tube/index.html#fiche-de-relevé",
     "title": "Mesurer la vitesse d’infiltration de l’eau avec un tube",
     "section": "Fiche de relevé",
-    "text": "Fiche de relevé\nTéléchargez la fiche de relevé (CSV) : une ligne par point de mesure, en notant quel cas s’applique (eau absorbée en moins ou en plus de 15 minutes)."
+    "text": "Fiche de relevé\nTéléchargez la fiche de relevé (CSV) : une ligne par point de mesure, en notant quel cas s’applique (eau absorbée en moins ou en plus de 15 minutes).\n\n\n\n\n\n\nSaisir sur téléphone avec KoboToolbox. Ce relevé existe aussi en formulaire KoboToolbox (format XLSForm) : les calculs se font tout seuls et la saisie marche sans réseau.\n\nCréez un compte gratuit sur KoboToolbox, puis Nouveau projet → Importer un XLSForm et choisissez le fichier téléchargé. Cliquez sur Déployer.\nInstallez l’application KoboCollect (Android) sur votre téléphone, ou utilisez le formulaire web (Enketo) depuis n’importe quel navigateur, même sur iPhone.\nFaites vos relevés au champ. Les données s’envoient au retour du réseau et s’exportent en Excel ou CSV depuis KoboToolbox."
   },
   {
     "objectID": "protocoles/infiltration-tube/index.html#lire-les-résultats",
@@ -557,7 +557,7 @@
     "href": "protocoles/rendement-echantillons/index.html#fiche-de-relevé",
     "title": "Estimer le rendement d’une planche en pesant des échantillons",
     "section": "Fiche de relevé",
-    "text": "Fiche de relevé\nTéléchargez la fiche de relevé (CSV) : une ligne par échantillon (3 par planche)."
+    "text": "Fiche de relevé\nTéléchargez la fiche de relevé (CSV) : une ligne par échantillon (3 par planche).\n\n\n\n\n\n\nSaisir sur téléphone avec KoboToolbox. Ce relevé existe aussi en formulaire KoboToolbox (format XLSForm) : les calculs se font tout seuls et la saisie marche sans réseau.\n\nCréez un compte gratuit sur KoboToolbox, puis Nouveau projet → Importer un XLSForm et choisissez le fichier téléchargé. Cliquez sur Déployer.\nInstallez l’application KoboCollect (Android) sur votre téléphone, ou utilisez le formulaire web (Enketo) depuis n’importe quel navigateur, même sur iPhone.\nFaites vos relevés au champ. Les données s’envoient au retour du réseau et s’exportent en Excel ou CSV depuis KoboToolbox."
   },
   {
     "objectID": "protocoles/rendement-echantillons/index.html#lire-les-résultats",
@@ -634,7 +634,7 @@
     "href": "protocoles/vess-test-beche/index.html#fiche-de-relevé",
     "title": "Évaluer la structure du sol et compter les vers de terre à la bêche",
     "section": "Fiche de relevé",
-    "text": "Fiche de relevé\nTéléchargez la fiche de relevé (CSV), ouvrez-la dans un tableur et imprimez-la. Prévoyez une ligne par couche. Le nombre de vers se note une seule fois par bloc, sur la ligne de la couche 1."
+    "text": "Fiche de relevé\nTéléchargez la fiche de relevé (CSV), ouvrez-la dans un tableur et imprimez-la. Prévoyez une ligne par couche. Le nombre de vers se note une seule fois par bloc, sur la ligne de la couche 1.\n\n\n\n\n\n\nSaisir sur téléphone avec KoboToolbox. Ce relevé existe aussi en formulaire KoboToolbox (format XLSForm) : les calculs se font tout seuls et la saisie marche sans réseau.\n\nCréez un compte gratuit sur KoboToolbox, puis Nouveau projet → Importer un XLSForm et choisissez le fichier téléchargé. Cliquez sur Déployer.\nInstallez l’application KoboCollect (Android) sur votre téléphone, ou utilisez le formulaire web (Enketo) depuis n’importe quel navigateur, même sur iPhone.\nFaites vos relevés au champ. Les données s’envoient au retour du réseau et s’exportent en Excel ou CSV depuis KoboToolbox."
   },
   {
     "objectID": "protocoles/vess-test-beche/index.html#lire-les-résultats",
@@ -711,7 +711,7 @@
     "href": "protocoles/stabilite-agregats/index.html#fiche-de-relevé",
     "title": "Tester la stabilité des mottes de terre dans l’eau",
     "section": "Fiche de relevé",
-    "text": "Fiche de relevé\nTéléchargez la fiche de relevé (CSV). Prévoyez une ligne par agrégat, puis faites la moyenne des scores par parcelle."
+    "text": "Fiche de relevé\nTéléchargez la fiche de relevé (CSV). Prévoyez une ligne par agrégat, puis faites la moyenne des scores par parcelle.\n\n\n\n\n\n\nSaisir sur téléphone avec KoboToolbox. Ce relevé existe aussi en formulaire KoboToolbox (format XLSForm) : les calculs se font tout seuls et la saisie marche sans réseau.\n\nCréez un compte gratuit sur KoboToolbox, puis Nouveau projet → Importer un XLSForm et choisissez le fichier téléchargé. Cliquez sur Déployer.\nInstallez l’application KoboCollect (Android) sur votre téléphone, ou utilisez le formulaire web (Enketo) depuis n’importe quel navigateur, même sur iPhone.\nFaites vos relevés au champ. Les données s’envoient au retour du réseau et s’exportent en Excel ou CSV depuis KoboToolbox."
   },
   {
     "objectID": "protocoles/stabilite-agregats/index.html#lire-les-résultats",
