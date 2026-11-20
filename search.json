@@ -394,9 +394,23 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Fiches d’essais",
+    "title": "Maraîchage · PEPA Lab",
     "section": "",
-    "text": "Chaque fiche résume un essai en une page : question posée, dispositif, résultats clés et ce qu’il faut en retenir sur le terrain. Les mémoires complets et les données brutes sont accessibles depuis chaque fiche.\n\n\n\n\n\n\n\n\n\nÀ lire avant d’utiliser ces résultats. La plupart des fiches résument des mémoires de fin d’études : les essais portent en général sur une seule saison et un seul site, et n’ont pas été relus par des pairs comme un article scientifique. Ce sont des pistes à confirmer, pas des recommandations établies. Chaque fiche affiche son niveau de confiance : Préliminaire une saison, un mémoire · Consolidé confirmé sur plusieurs saisons ou sites · Publié publié dans une revue scientifique.\n\n\n\n\n\n   \n    \n    \n      Trier par\n      Ordre par défaut\n      \n        Date - Le plus ancien\n      \n      \n        Date - Le plus récent\n      \n      \n        Titre\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nPréliminaire\n×4,6moins d'eau avec les oyas qu'à 100 %\n\n\nMémoire · 2024\nTomate sous tunnel : combien d'eau pour quel rendement ?\nAvec 4,6 fois moins d'eau, les oyas gardent 73 % du rendement médian ; l'irrigation complète reste la plus productive (3,2 kg/plant).\n\nTomate\nGestion de l'eau\nPDF\nCSV\nDOI\nCode\n\n\n\n\n\n\n\nPréliminaire\n−70 %d'eau avec un oya à 56 cm\n\n\nMémoire · 2025\nOyas pour le chou : à quelle distance les placer ?\nUn oya à 56 cm du chou économise 70 % d'eau ; 11 choux sur 12 restent commercialisables, pour un rendement commercialisable 10 % sous l'arrosage.\n\nChou\nGestion de l'eau\nPDF\nCSV\nDOI\nCode\n\n\n\n\n\n\n\nPréliminaire\n×6,4biomasse d'épinard : bâche vs miscanthus\n\n\nMémoire · 2024–2025\nPaillages en maraîchage bio : bilan de la première année\nDès la 1re année, la bâche donne 6 fois plus d'épinards que le miscanthus non travaillé, qui infiltre aussi l'eau le moins vite.\n\nÉpinard\nPaillageCouverts végétauxOignon\nPDF\nCSV\nDOI\nCode\n\n\n\n\n\n\n\nPréliminaire\n1,1score VESS sous BRF (1 = idéal)\n\n\nMémoire · 2025–2026\nCinq paillages en maraîchage bio : sol, eau et légumes\nLa bâche donne des épinards 4 fois plus lourds, mais le BRF a la meilleure structure de sol (VESS 1,1) et +87 % de biomasse microbienne.\n\nÉpinard\nPaillageCouverts végétauxLaitue\nPDF\nCSV\nDOI\nCode\n\n\n\n\n\nAucun article correspondant"
+    "text": "Au PEPA Lab (Earth and Life Institute, UCLouvain), nous menons des essais en maraîchage sur les fermes universitaires de Lauzelle et de Marbaix : paillages, irrigation, santé du sol, variétés. La plupart de ces essais sont réalisés dans le cadre de mémoires de fin d’études.\nCe site rend ces résultats accessibles à tous : maraîcher·ères, conseiller·ères, étudiant·es et chercheur·ses. Vous y trouverez ce que nos essais ont montré, les méthodes pour refaire les mesures chez vous, et notre collection de tomates."
+  },
+  {
+    "objectID": "index.html#dernières-fiches-publiées",
+    "href": "index.html#dernières-fiches-publiées",
+    "title": "Maraîchage · PEPA Lab",
+    "section": "Dernières fiches publiées",
+    "text": "Dernières fiches publiées\n\n\n\n\n\n\nPréliminaire\n×4,6moins d'eau avec les oyas qu'à 100 %\n\n\nMémoire · 2024\nTomate sous tunnel : combien d'eau pour quel rendement ?\nAvec 4,6 fois moins d'eau, les oyas gardent 73 % du rendement médian ; l'irrigation complète reste la plus productive (3,2 kg/plant).\n\nTomate\nGestion de l'eau\nPDF\nCSV\nDOI\nCode\n\n\n\n\n\n\n\nPréliminaire\n−70 %d'eau avec un oya à 56 cm\n\n\nMémoire · 2025\nOyas pour le chou : à quelle distance les placer ?\nUn oya à 56 cm du chou économise 70 % d'eau ; 11 choux sur 12 restent commercialisables, pour un rendement commercialisable 10 % sous l'arrosage.\n\nChou\nGestion de l'eau\nPDF\nCSV\nDOI\nCode\n\n\n\n\n\n\n\nPréliminaire\n×6,4biomasse d'épinard : bâche vs miscanthus\n\n\nMémoire · 2024–2025\nPaillages en maraîchage bio : bilan de la première année\nDès la 1re année, la bâche donne 6 fois plus d'épinards que le miscanthus non travaillé, qui infiltre aussi l'eau le moins vite.\n\nÉpinard\nPaillageCouverts végétauxOignon\nPDF\nCSV\nDOI\nCode\n\n\n\n\n\nAucun article correspondant\n\nToutes les fiches →"
+  },
+  {
+    "objectID": "index.html#participer",
+    "href": "index.html#participer",
+    "title": "Maraîchage · PEPA Lab",
+    "section": "Participer",
+    "text": "Participer\nVous êtes maraîcher·ère et vous avez une question de terrain qui pourrait devenir un essai ? Vous avez refait un de nos protocoles chez vous ? Nous voulons l’entendre. Les sujets de mémoire sont choisis chaque année en janvier–février : les questions reçues avant cette période peuvent devenir les essais de la saison suivante. Nous contacter."
   },
   {
     "objectID": "a-propos.html",
@@ -404,6 +418,13 @@
     "title": "À propos",
     "section": "",
     "text": "Ce site rassemble les résultats des essais et travaux de recherche en maraîchage menés au PEPA Lab (Earth and Life Institute, UCLouvain) : mémoires de master, essais sur la ferme expérimentale, synthèses pluriannuelles.\nContact : PEPA Lab, UCLouvain."
+  },
+  {
+    "objectID": "fiches.html",
+    "href": "fiches.html",
+    "title": "Fiches d’essais",
+    "section": "",
+    "text": "Chaque fiche résume un essai en une page : question posée, dispositif, résultats clés et ce qu’il faut en retenir sur le terrain. Les mémoires complets et les données brutes sont accessibles depuis chaque fiche.\n\n\n\n\n\n\n\n\n\nÀ lire avant d’utiliser ces résultats. La plupart des fiches résument des mémoires de fin d’études : les essais portent en général sur une seule saison et un seul site, et n’ont pas été relus par des pairs comme un article scientifique. Ce sont des pistes à confirmer, pas des recommandations établies. Chaque fiche affiche son niveau de confiance : Préliminaire une saison, un mémoire · Consolidé confirmé sur plusieurs saisons ou sites · Publié publié dans une revue scientifique.\n\n\n\n\n\n   \n    \n    \n      Trier par\n      Ordre par défaut\n      \n        Date - Le plus ancien\n      \n      \n        Date - Le plus récent\n      \n      \n        Titre\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nPréliminaire\n×4,6moins d'eau avec les oyas qu'à 100 %\n\n\nMémoire · 2024\nTomate sous tunnel : combien d'eau pour quel rendement ?\nAvec 4,6 fois moins d'eau, les oyas gardent 73 % du rendement médian ; l'irrigation complète reste la plus productive (3,2 kg/plant).\n\nTomate\nGestion de l'eau\nPDF\nCSV\nDOI\nCode\n\n\n\n\n\n\n\nPréliminaire\n−70 %d'eau avec un oya à 56 cm\n\n\nMémoire · 2025\nOyas pour le chou : à quelle distance les placer ?\nUn oya à 56 cm du chou économise 70 % d'eau ; 11 choux sur 12 restent commercialisables, pour un rendement commercialisable 10 % sous l'arrosage.\n\nChou\nGestion de l'eau\nPDF\nCSV\nDOI\nCode\n\n\n\n\n\n\n\nPréliminaire\n×6,4biomasse d'épinard : bâche vs miscanthus\n\n\nMémoire · 2024–2025\nPaillages en maraîchage bio : bilan de la première année\nDès la 1re année, la bâche donne 6 fois plus d'épinards que le miscanthus non travaillé, qui infiltre aussi l'eau le moins vite.\n\nÉpinard\nPaillageCouverts végétauxOignon\nPDF\nCSV\nDOI\nCode\n\n\n\n\n\n\n\nPréliminaire\n1,1score VESS sous BRF (1 = idéal)\n\n\nMémoire · 2025–2026\nCinq paillages en maraîchage bio : sol, eau et légumes\nLa bâche donne des épinards 4 fois plus lourds, mais le BRF a la meilleure structure de sol (VESS 1,1) et +87 % de biomasse microbienne.\n\nÉpinard\nPaillageCouverts végétauxLaitue\nPDF\nCSV\nDOI\nCode\n\n\n\n\n\nAucun article correspondant"
   },
   {
     "objectID": "donnees.html",

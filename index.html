@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Fiches d’essais – Maraîchage · PEPA Lab</title>
+<title>Maraîchage · PEPA Lab</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -48,7 +48,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-63b5708e65d6cd79cd7618c58d0c21e7.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-f2a2285cc9ce3eb63be3fa4f4ed03e9e.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-02110c61809652246dc47ce9f3f644ed.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -79,20 +79,20 @@ ul.task-list li input[type="checkbox"] {
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-fiches .list');
+    const listingTargetEl = window.document.querySelector('#listing-dernieres-fiches .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
     }
 
     const options = {
-      valueNames: ['listing-title','listing-date','listing-categories','listing-description','listing-culture','listing-annee','listing-type','listing-statut','listing-resultat','listing-ressources','listing-kpi','listing-kpi_label','listing-image',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] }],
+      valueNames: ['listing-title','listing-date','listing-categories','listing-description','listing-culture','listing-annee','listing-type','listing-statut','listing-resultat','listing-ressources','listing-kpi','listing-kpi_label','listing-image',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-date-modified-sort'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
       
       searchColumns: ["listing-project","listing-lang","listing-website","listing-format","listing-engines","listing-language","listing-license","listing-toc","listing-title-block-banner","listing-body-classes","listing-statut","listing-recap-base-url","listing-format-links","listing-title","listing-date","listing-annee","listing-type","listing-culture","listing-categories","listing-keywords","listing-kpi","listing-kpi_label","listing-image","listing-resultat","listing-auteurs","listing-encadrement","listing-author","listing-lieu","listing-ressources","listing-path","listing-outputHref","listing-date-modified","listing-description","listing-filename","listing-file-modified","listing-reading-time","listing-word-count"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-fiches'] = new List('listing-fiches', options);
+    window['quarto-listings']['listing-dernieres-fiches'] = new List('listing-dernieres-fiches', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -156,7 +156,7 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
+    <a class="nav-link" href="./fiches.html"> 
 <span class="menu-text">Fiches</span></a>
   </li>  
   <li class="nav-item">
@@ -208,14 +208,14 @@ window.Quarto = {
 <!-- content -->
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-page-left">
-      <h1 class="title">Fiches d’essais</h1>
-            <p class="subtitle lead">Résultats de recherche en maraîchage du PEPA Lab</p>
+    <div class="quarto-title column-page">
+      <h1 class="title">Maraîchage · PEPA Lab</h1>
+            <p class="subtitle lead">La recherche en maraîchage de l’UCLouvain, au service du terrain</p>
                       </div>
   </div>
     
   
-  <div class="quarto-title-meta column-page-left">
+  <div class="quarto-title-meta column-page">
 
       
     
@@ -226,24 +226,55 @@ window.Quarto = {
   </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-    <h5 class="quarto-listing-category-title">Catégories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">Toutes <span class="quarto-category-count">(4)</span></div><div class="category" data-category="Q2hvdQ==">Chou <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Q291dmVydHMlMjB2JUMzJUE5ZyVDMyVBOXRhdXg=">Couverts végétaux <span class="quarto-category-count">(2)</span></div><div class="category" data-category="JUMzJTg5cGluYXJk">Épinard <span class="quarto-category-count">(2)</span></div><div class="category" data-category="R2VzdGlvbiUyMGRlJTIwbCdlYXU=">Gestion de l'eau <span class="quarto-category-count">(2)</span></div><div class="category" data-category="TGFpdHVl">Laitue <span class="quarto-category-count">(1)</span></div><div class="category" data-category="T2lnbm9u">Oignon <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UGFpbGxhZ2U=">Paillage <span class="quarto-category-count">(2)</span></div><div class="category" data-category="VG9tYXRl">Tomate <span class="quarto-category-count">(1)</span></div></div></div>
+    
 <!-- main -->
-<main class="content quarto-banner-title-block column-page-left" id="quarto-document-content" tabindex="-1">
+<main class="content quarto-banner-title-block column-page" id="quarto-document-content" tabindex="-1">
 
 
 
 
 
-<div class="callout callout-style-simple callout-note no-icon">
-<div class="callout-body d-flex">
-<div class="callout-icon-container">
-<i class="callout-icon no-icon"></i>
+<div class="accueil-intro">
+<p>Au <strong>PEPA Lab</strong> (Earth and Life Institute, UCLouvain), nous menons des essais en maraîchage sur les <strong>fermes universitaires</strong> de Lauzelle et de Marbaix : paillages, irrigation, santé du sol, variétés. La plupart de ces essais sont réalisés dans le cadre de <strong>mémoires de fin d’études</strong>.</p>
+<p>Ce site rend ces résultats <strong>accessibles à tous</strong> : maraîcher·ères, conseiller·ères, étudiant·es et chercheur·ses. Vous y trouverez ce que nos essais ont montré, les méthodes pour refaire les mesures chez vous, et notre collection de tomates.</p>
 </div>
-<div class="callout-body-container">
-<p>Chaque fiche résume un essai en une page : question posée, dispositif, résultats clés et ce qu’il faut en retenir sur le terrain. Les mémoires complets et les données brutes sont accessibles depuis chaque fiche.</p>
-</div>
-</div>
+<div class="accueil-sections">
+  <a class="fiche-card accueil-carte" href="fiches.html">
+    <div class="fiche-img" style="background-image:url('fiches/2024-irrigation-tomate/photo.jpg')">
+      <div class="kpi"><b>Fiches d'essais</b><span>Ce que nos essais ont montré</span></div>
+    </div>
+    <div class="fiche-body">
+      <p>Chaque fiche résume un essai en une page : la question, le dispositif, les résultats clés et <b>ce qu'il faut en retenir au champ</b>. Mémoire complet, données et scripts sont téléchargeables, ainsi qu'une fiche récapitulative à imprimer.</p>
+      <span class="tom-voir">Voir les fiches →</span>
+    </div>
+  </a>
+  <a class="fiche-card accueil-carte" href="protocoles.html">
+    <div class="fiche-img" style="background-image:url('fiches/2026-paillage-epinard-laitue/photo.jpg')">
+      <div class="kpi"><b>Protocoles</b><span>Les mesures à refaire chez vous</span></div>
+    </div>
+    <div class="fiche-body">
+      <p>Les méthodes de terrain utilisées dans nos essais, expliquées pas à pas : <b>structure du sol, vers de terre, infiltration, oyas, adventices, rendement</b>. Avec le matériel, une fiche de relevé et un formulaire pour téléphone (KoboToolbox).</p>
+      <span class="tom-voir">Voir les protocoles →</span>
+    </div>
+  </a>
+  <a class="fiche-card accueil-carte" href="tomates/index.html">
+    <div class="fiche-img" style="background-image:url('tomates/photos/30/c686712a-6f42-48ee-8b1e-93422fe40a71.jpg')">
+      <div class="kpi"><b>Conservatoire de tomates</b><span>Plus d'une centaine de variétés</span></div>
+    </div>
+    <div class="fiche-body">
+      <p>Les variétés de tomates conservées et multipliées aux Fermes universitaires, avec le soutien du Fonds Baillet Latour. <b>Filtrez par type, couleur, forme ou précocité</b> et découvrez la fiche de chaque variété.</p>
+      <span class="tom-voir">Explorer la collection →</span>
+    </div>
+  </a>
+  <a class="fiche-card accueil-carte" href="donnees.html">
+    <div class="fiche-img" style="background-image:url('fiches/2025-paillage-epinard-oignon/photo.jpg')">
+      <div class="kpi"><b>Données</b><span>Ouvertes et réutilisables</span></div>
+    </div>
+    <div class="fiche-body">
+      <p>Les données de nos essais sont publiées sous licence libre, avec un dictionnaire des colonnes et les scripts d'analyse. <b>Où les trouver et comment les citer.</b></p>
+      <span class="tom-voir">Voir la politique de données →</span>
+    </div>
+  </a>
 </div>
 <div class="callout callout-style-simple callout-warning no-icon">
 <div class="callout-body d-flex">
@@ -251,33 +282,13 @@ window.Quarto = {
 <i class="callout-icon no-icon"></i>
 </div>
 <div class="callout-body-container">
-<p><strong>À lire avant d’utiliser ces résultats.</strong> La plupart des fiches résument des <strong>mémoires de fin d’études</strong> : les essais portent en général sur <strong>une seule saison et un seul site</strong>, et n’ont pas été relus par des pairs comme un article scientifique. Ce sont des <strong>pistes à confirmer</strong>, pas des recommandations établies. Chaque fiche affiche son niveau de confiance : <span class="statut-badge statut-preliminaire">Préliminaire</span> une saison, un mémoire · <span class="statut-badge statut-consolide">Consolidé</span> confirmé sur plusieurs saisons ou sites · <span class="statut-badge statut-publie">Publié</span> publié dans une revue scientifique.</p>
+<p><strong>Des résultats à lire avec prudence.</strong> La plupart des essais portent sur <strong>une seule saison et un seul site</strong>. Chaque fiche indique son niveau de confiance : <span class="statut-badge statut-preliminaire">Préliminaire</span>, <span class="statut-badge statut-consolide">Consolidé</span> ou <span class="statut-badge statut-publie">Publié</span>.</p>
 </div>
 </div>
 </div>
-<div id="listing-fiches" class="quarto-listing quarto-listing-container-custom">
-<div class="listing-actions-group">
-   <div class="input-group input-group-sm quarto-listing-sort">
-    <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
-    <select id="listing-fiches-sort" class="form-select" aria-label="Trier par" onchange="window['quarto-listings']['listing-fiches'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
-      <option value="" disabled="" selected="" hidden="">Trier par</option>
-      <option value="index" data-direction="asc">Ordre par défaut</option>
-      <option value="listing-date-sort" data-direction="asc">
-        Date - Le plus ancien
-      </option>
-      <option value="listing-date-sort" data-direction="desc">
-        Date - Le plus récent
-      </option>
-      <option value="listing-title" data-direction="asc">
-        Titre
-      </option>
-    </select>
-  </div>
-    <div class="input-group input-group-sm quarto-listing-filter">
-      <span class="input-group-text"><i class="bi bi-search"></i></span>
-      <input type="text" class="search form-control" placeholder="Filtre">
-    </div>
-</div>
+<section id="dernières-fiches-publiées" class="level2">
+<h2 class="anchored" data-anchor-id="dernières-fiches-publiées">Dernières fiches publiées</h2>
+<div id="listing-dernieres-fiches" class="quarto-listing quarto-listing-container-custom">
 <div class="list fiche-grid">
 
 <a class="fiche-card" href="./fiches/2024-irrigation-tomate/index.html" data-index="0" data-categories="R2VzdGlvbiUyMGRlJTIwbCdlYXUlMkNUb21hdGU=" data-listing-date-sort="1794870000000" data-listing-file-modified-sort="1795023505292" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6" data-listing-word-count-sort="1186">
@@ -343,33 +354,18 @@ window.Quarto = {
 </div>
 </a>
 
-<a class="fiche-card" href="./fiches/2026-paillage-epinard-laitue/index.html" data-index="3" data-categories="UGFpbGxhZ2UlMkNDb3V2ZXJ0cyUyMHYlQzMlQTlnJUMzJUE5dGF1eCUyQyVDMyU4OXBpbmFyZCUyQ0xhaXR1ZQ==" data-listing-date-sort="1794870000000" data-listing-file-modified-sort="1795094496605" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7" data-listing-word-count-sort="1239">
-<div class="fiche-img" style="background-image:url('fiches/2026-paillage-epinard-laitue/photo.jpg')">
-
-<span class="statut-badge statut-preliminaire statut-carte">Préliminaire</span>
-<div class="kpi"><b>1,1</b><span>score VESS sous BRF (1 = idéal)</span></div>
-</div>
-<div class="fiche-body">
-<div class="fiche-meta">Mémoire · 2025–2026</div>
-<h3 class="listing-title anchored">Cinq paillages en maraîchage bio : sol, eau et légumes</h3>
-<p class="fiche-resultat listing-description">La bâche donne des épinards 4 fois plus lourds, mais le BRF a la meilleure structure de sol (VESS 1,1) et +87 % de biomasse microbienne.</p>
-<div class="fiche-pills">
-<span class="pill cu">Épinard</span>
-<span class="pill th listing-category">Paillage</span><span class="pill th listing-category">Couverts végétaux</span><span class="pill th listing-category">Laitue</span>
-<span class="pill fi">PDF</span>
-<span class="pill fi">CSV</span>
-<span class="pill fi">DOI</span>
-<span class="pill fi">Code</span>
-</div>
-</div>
-</a>
-
 </div>
 <div class="listing-no-matching d-none">Aucun article correspondant</div>
 </div>
+<p><a href="./fiches.html" class="tom-voir">Toutes les fiches →</a></p>
+</section>
+<section id="participer" class="level2">
+<h2 class="anchored" data-anchor-id="participer">Participer</h2>
+<p>Vous êtes maraîcher·ère et vous avez une question de terrain qui pourrait devenir un essai ? Vous avez refait un de nos protocoles chez vous ? <strong>Nous voulons l’entendre.</strong> Les sujets de mémoire sont choisis chaque année en janvier–février : les questions reçues avant cette période peuvent devenir les essais de la saison suivante. <a href="./a-propos.html">Nous contacter</a>.</p>
 
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
