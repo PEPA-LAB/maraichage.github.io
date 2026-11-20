@@ -1,35 +1,75 @@
 ---
-title: "Fiches d'essais"
-subtitle: "Résultats de recherche en maraîchage du PEPA Lab"
+title: "Maraîchage · PEPA Lab"
+subtitle: "La recherche en maraîchage de l'UCLouvain, au service du terrain"
 page-layout: full
 toc: false
 listing:
-  id: fiches
+  id: dernieres-fiches
   contents: "fiches/*/index.qmd"
   template: _templates/fiche-card.ejs
   sort: "date desc"
-  categories: true          # nuage de catégories cliquable (thèmes + cultures)
-  filter-ui: true           # champ de recherche texte
-  sort-ui: [date, title]    # tri par date ou titre
-  page-size: 24
+  max-items: 3
   fields: [title, date, categories, description, culture, annee, type, statut, resultat, ressources, kpi, kpi_label, image]
 ---
 
-::: {.callout-note appearance="simple" icon=false}
-Chaque fiche résume un essai en une page : question posée, dispositif, résultats clés
-et ce qu'il faut en retenir sur le terrain. Les mémoires complets et les données brutes
-sont accessibles depuis chaque fiche.
+::: {.accueil-intro}
+Au **PEPA Lab** (Earth and Life Institute, UCLouvain), nous menons des essais en maraîchage sur les **fermes universitaires** de Lauzelle et de Marbaix : paillages, irrigation, santé du sol, variétés. La plupart de ces essais sont réalisés dans le cadre de **mémoires de fin d'études**.
+
+Ce site rend ces résultats **accessibles à tous** : maraîcher·ères, conseiller·ères, étudiant·es et chercheur·ses. Vous y trouverez ce que nos essais ont montré, les méthodes pour refaire les mesures chez vous, et notre collection de tomates.
 :::
+
+```{=html}
+<div class="accueil-sections">
+  <a class="fiche-card accueil-carte" href="fiches.html">
+    <div class="fiche-img" style="background-image:url('fiches/2024-irrigation-tomate/photo.jpg')">
+      <div class="kpi"><b>Fiches d'essais</b><span>Ce que nos essais ont montré</span></div>
+    </div>
+    <div class="fiche-body">
+      <p>Chaque fiche résume un essai en une page : la question, le dispositif, les résultats clés et <b>ce qu'il faut en retenir au champ</b>. Mémoire complet, données et scripts sont téléchargeables, ainsi qu'une fiche récapitulative à imprimer.</p>
+      <span class="tom-voir">Voir les fiches →</span>
+    </div>
+  </a>
+  <a class="fiche-card accueil-carte" href="protocoles.html">
+    <div class="fiche-img" style="background-image:url('fiches/2026-paillage-epinard-laitue/photo.jpg')">
+      <div class="kpi"><b>Protocoles</b><span>Les mesures à refaire chez vous</span></div>
+    </div>
+    <div class="fiche-body">
+      <p>Les méthodes de terrain utilisées dans nos essais, expliquées pas à pas : <b>structure du sol, vers de terre, infiltration, oyas, adventices, rendement</b>. Avec le matériel, une fiche de relevé et un formulaire pour téléphone (KoboToolbox).</p>
+      <span class="tom-voir">Voir les protocoles →</span>
+    </div>
+  </a>
+  <a class="fiche-card accueil-carte" href="tomates/index.html">
+    <div class="fiche-img" style="background-image:url('tomates/photos/30/c686712a-6f42-48ee-8b1e-93422fe40a71.jpg')">
+      <div class="kpi"><b>Conservatoire de tomates</b><span>Plus d'une centaine de variétés</span></div>
+    </div>
+    <div class="fiche-body">
+      <p>Les variétés de tomates conservées et multipliées aux Fermes universitaires, avec le soutien du Fonds Baillet Latour. <b>Filtrez par type, couleur, forme ou précocité</b> et découvrez la fiche de chaque variété.</p>
+      <span class="tom-voir">Explorer la collection →</span>
+    </div>
+  </a>
+  <a class="fiche-card accueil-carte" href="donnees.html">
+    <div class="fiche-img" style="background-image:url('fiches/2025-paillage-epinard-oignon/photo.jpg')">
+      <div class="kpi"><b>Données</b><span>Ouvertes et réutilisables</span></div>
+    </div>
+    <div class="fiche-body">
+      <p>Les données de nos essais sont publiées sous licence libre, avec un dictionnaire des colonnes et les scripts d'analyse. <b>Où les trouver et comment les citer.</b></p>
+      <span class="tom-voir">Voir la politique de données →</span>
+    </div>
+  </a>
+</div>
+```
 
 ::: {.callout-warning appearance="simple" icon=false}
-**À lire avant d'utiliser ces résultats.** La plupart des fiches résument des **mémoires de fin d'études** :
-les essais portent en général sur **une seule saison et un seul site**, et n'ont pas été relus par des pairs
-comme un article scientifique. Ce sont des **pistes à confirmer**, pas des recommandations établies.
-Chaque fiche affiche son niveau de confiance :
-[Préliminaire]{.statut-badge .statut-preliminaire} une saison, un mémoire ·
-[Consolidé]{.statut-badge .statut-consolide} confirmé sur plusieurs saisons ou sites ·
-[Publié]{.statut-badge .statut-publie} publié dans une revue scientifique.
+**Des résultats à lire avec prudence.** La plupart des essais portent sur **une seule saison et un seul site**. Chaque fiche indique son niveau de confiance : [Préliminaire]{.statut-badge .statut-preliminaire}, [Consolidé]{.statut-badge .statut-consolide} ou [Publié]{.statut-badge .statut-publie}.
 :::
 
-::: {#fiches}
+## Dernières fiches publiées
+
+::: {#dernieres-fiches}
 :::
+
+[Toutes les fiches →](fiches.qmd){.tom-voir}
+
+## Participer
+
+Vous êtes maraîcher·ère et vous avez une question de terrain qui pourrait devenir un essai ? Vous avez refait un de nos protocoles chez vous ? **Nous voulons l'entendre.** Les sujets de mémoire sont choisis chaque année en janvier–février : les questions reçues avant cette période peuvent devenir les essais de la saison suivante. [Nous contacter](a-propos.qmd).

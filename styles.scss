@@ -183,3 +183,10 @@ body.nav-fixed { padding-top: 0 !important; }
 .tom-logos, .tom-logos p { display: flex; flex-wrap: wrap; gap: 32px; justify-content: center; align-items: center; margin: 40px 0 10px; }
 .tom-logos img { height: 56px; width: auto; }
 .tom-apropos-logo { text-align: center; }
+
+// ---- Page d'accueil
+.accueil-intro { font-size: 1.1rem; max-width: 900px; margin: 0 auto 28px; }
+.accueil-sections { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 26px; margin-bottom: 30px; }
+.accueil-carte .fiche-img { height: 170px; }
+.accueil-carte .kpi b { font-size: 1.45rem; }
+.accueil-carte .fiche-body p { margin: 0; font-size: .95rem; }
