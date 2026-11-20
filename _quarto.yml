@@ -10,7 +10,12 @@ project:
     - "fiches/**/*.csv"
     - "fiches/**/analyse/**"   # scripts téléchargeables
     - "protocoles/**/*.csv"
-    - "protocoles/**/*.xlsx"   # formulaires KoboToolbox    # fiches de relevé
+    - "protocoles/**/*.xlsx"   # formulaires KoboToolbox
+    - "tomates/*.csv"          # conservatoire de tomates : données
+    - "tomates/*.xlsx"
+    - "tomates/tomates.js"
+    - "tomates/photos/**"
+    - "tomates/logos/**"    # fiches de relevé
     - "protocoles/**/*.pdf"
     - "protocoles/**/*.jpg"
     - "protocoles/**/*.png"
@@ -29,6 +34,12 @@ website:
         text: Fiches
       - href: protocoles.qmd
         text: Protocoles
+      - text: Tomates
+        menu:
+          - href: tomates/index.qmd
+            text: Catalogue du conservatoire
+          - href: tomates/a-propos.qmd
+            text: À propos du conservatoire
       - href: themes.qmd
         text: Thèmes
       - href: donnees.qmd

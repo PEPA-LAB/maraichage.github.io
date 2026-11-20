@@ -1,0 +1,91 @@
+id,colonne,avant,apres
+1,forme,"rondee, peu étirée","ronde, peu étirée"
+2,maturite,hative,hâtive
+2,forme,rondee,ronde
+2,rendement,élevée,élevé
+5,forme,rondee,ronde
+6,croissance,indeterminée,indéterminée
+7,forme,"légerement applatie, côtelée","légèrement aplatie, côtelée"
+8,forme,"applatie, légerement cotelée","aplatie, légèrement côtelée"
+10,forme,"ronde, légerement applatie","ronde, légèrement aplatie"
+11,forme,applatie,aplatie
+11,croissance,indeterminée,indéterminée
+15,croissance,indeterminée,indéterminée
+16,type,coktail,cocktail
+19,type,gros,grosse
+19,forme,"ronde, légerement cotelée","ronde, légèrement côtelée"
+19,croissance,inderterminée,indéterminée
+21,forme,"coordiforme, téton","cordiforme, téton"
+22,origine,Royaume Uni,Royaume-Uni
+23,forme,"irrégulière, cotelée","irrégulière, côtelée"
+25,maturite,haâtive,hâtive
+25,forme,"diforme, cotelée","diforme, côtelée"
+26,forme,"irrégulière, peu applatie","irrégulière, peu aplatie"
+27,forme,"ronde, applatie, irrégulière","ronde, aplatie, irrégulière"
+28,forme,"ronde, applatie","ronde, aplatie"
+29,forme,"ronde, applatie, irrégulière","ronde, aplatie, irrégulière"
+30,forme,"allongée, irrégulière, cotelée","allongée, irrégulière, côtelée"
+30,croissance,indeterminée,indéterminée
+32,forme,"applatie, rondee","aplatie, ronde"
+34,forme,"ronde, applatie, cotelé","ronde, aplatie, côtelée"
+35,type,beefsteack,beefsteak
+35,forme,"ronde, applatie, cotelé","ronde, aplatie, côtelée"
+37,forme,"ronde, légerement ovale","ronde, légèrement ovale"
+39,forme,"ronde, applatie, légèrement côtelée","ronde, aplatie, légèrement côtelée"
+39,sensibilite,resiste froid,résiste au froid
+40,forme,"légerement ovale, pointue","légèrement ovale, pointue"
+41,forme,"ronde, légerement applatie, cotelée","ronde, légèrement aplatie, côtelée"
+42,forme,"poire, cotelée","poire, côtelée"
+43,forme,"applatie, cotelée","aplatie, côtelée"
+44,forme,"ronde, applatie","ronde, aplatie"
+46,forme,coordiforme,cordiforme
+47,forme,"coordiforme, pointue","cordiforme, pointue"
+48,forme,"applatie, incurvée","aplatie, incurvée"
+50,forme,"applatie, profond, cotelée","aplatie, profond, côtelée"
+52,forme,"ronde, applatie","ronde, aplatie"
+53,forme,"applatie, légerement cotelée","aplatie, légèrement côtelée"
+54,forme,"applatie, cotelée, nervurée","aplatie, côtelée, nervurée"
+56,forme,coordiforme,cordiforme
+57,forme,"ronde, applatie","ronde, aplatie"
+58,forme,applatie,aplatie
+59,forme,"applatie, rayée","aplatie, rayée"
+62,forme,"coordiforme, allongée","cordiforme, allongée"
+64,forme,"applatie, cotelée","aplatie, côtelée"
+65,forme,rondee,ronde
+66,forme,rondee,ronde
+68,forme,"rondee, cotelée","ronde, côtelée"
+69,forme,"applatie, cotelée","aplatie, côtelée"
+70,forme,"applatie, cotelée, nervurée","aplatie, côtelée, nervurée"
+73,forme,"ronde, applatie aux épaules","ronde, aplatie aux épaules"
+75,type,petit,petite
+76,forme,"applatie, épaulée","aplatie, épaulée"
+80,forme,"applatie, cotelée","aplatie, côtelée"
+82,croissance,indeterminée,indéterminée
+85,forme,"irrégulière, cotelée","irrégulière, côtelée"
+87,forme,"applatie, cotelée","aplatie, côtelée"
+88,forme,rondee,ronde
+88,couleur,rouge/bordeau,"rouge, bordeaux"
+88,croissance,indeterminée,indéterminée
+89,forme,"ronde, cotelée","ronde, côtelée"
+89,croissance,indeterminée,indéterminée
+91,type,petit,petite
+92,maturite,hative,hâtive
+95,maturite,hative,hâtive
+97,forme,"ronde, légerement applatie","ronde, légèrement aplatie"
+97,croissance,indeterminée,indéterminée
+102,forme,applatie,aplatie
+103,forme,"ronde, applatie","ronde, aplatie"
+104,type,gros,grosse
+105,forme,"ronde, cotelée","ronde, côtelée"
+106,origine,Pays-bas,Pays-Bas
+107,type,petit,petite
+107,origine,République tchéque,République tchèque
+108,forme,"cotelée, applatie","côtelée, aplatie"
+108,rendement,élevée,élevé
+109,forme,"grosse, cotelée","grosse, côtelée"
+109,croissance,indeterminée,indéterminée
+110,croissance,indeterminée,indéterminée
+110,origine,inconnue,Inconnue
+113,forme,applatie,aplatie
+114,forme,"applatie, ronde","aplatie, ronde"
+114,croissance,indeterminée,indéterminée

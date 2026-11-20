@@ -56,6 +56,26 @@ Pour prévisualiser en local : `quarto preview`.
 3. Rédiger pour un·e maraîcher·ère : matériel avec coût, étapes numérotées courtes, fiche de relevé, lecture des résultats, erreurs fréquentes.
 4. Dans chaque fiche d'essai concernée, ajouter le lien dans l'encadré « Protocoles utilisés ».
 
+## Conservatoire de tomates
+
+Section `tomates/` : catalogue filtrable (`tomates/index.qmd` + `tomates/tomates.js`) et page « À propos ».
+Les données sont de simples fichiers, lus directement par la page :
+
+- `tomates/varietes.csv` : une ligne par variété (colonnes `id, cultivar, maturite, calibre, type, forme, couleur, bouche,
+  croissance, rendement, sensibilite, plein_champs, date_graines, multiplication_2025, multiplication_2026, origine,
+  utilisation, remarque`). `plein_champs` et `multiplication_*` valent `oui` ou `non`. Les filtres du site se construisent
+  automatiquement à partir des valeurs présentes : une faute de frappe crée donc une valeur de filtre en plus.
+- `tomates/photos.csv` : une ligne par photo (`variete_id, fichier, legende, type_photo`) ; fichiers dans `tomates/photos/<id>/`.
+- `tomates/varietes.xlsx` : copie pour téléchargement, à régénérer si le CSV change beaucoup.
+
+**Ajouter ou modifier une variété** : éditer `tomates/varietes.csv` sur GitHub (bouton crayon) ou dans un tableur
+(enregistrer en « CSV UTF-8 »). Pour une nouvelle variété, prendre l'`id` suivant le plus grand existant.
+**Supprimer** : retirer la ligne (et ses photos). **Ajouter une photo** :
+`python3 outils/tomates_ajouter_photo.py <id> <photo.jpg> tomate "légende"`.
+**Nouvelle année de multiplication** : ajouter une colonne `multiplication_2027` et l'afficher dans `tomates/tomates.js`.
+L'import initial depuis l'application Shiny a été fait avec `outils/tomates_export.py` (corrections d'orthographe listées
+dans `tomates/corrections.csv`).
+
 ## Vocabulaire contrôlé (pour que les filtres restent propres)
 
 **Thèmes** : Paillage · Gestion de l'eau · Fertilisation · Couverts végétaux · Travail du sol ·
