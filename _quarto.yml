@@ -9,7 +9,8 @@ project:
     - "fiches/**/*.png"
     - "fiches/**/*.csv"
     - "fiches/**/analyse/**"   # scripts téléchargeables
-    - "protocoles/**/*.csv"    # fiches de relevé
+    - "protocoles/**/*.csv"
+    - "protocoles/**/*.xlsx"   # formulaires KoboToolbox    # fiches de relevé
     - "protocoles/**/*.pdf"
     - "protocoles/**/*.jpg"
     - "protocoles/**/*.png"

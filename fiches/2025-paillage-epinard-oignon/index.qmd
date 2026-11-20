@@ -101,7 +101,7 @@ Plot.plot({
 *Barres : moyenne par modalité ; points : parcelles (moyenne des répétitions). En 2025, Trèfle et Mix correspondent à un sol nu. Les moyennes brutes peuvent différer des moyennes ajustées citées dans le texte.*
 
 ::: {.callout-note appearance="simple" icon=false}
-**Protocoles utilisés, à refaire chez vous :** [Évaluer la structure du sol et compter les vers de terre à la bêche](../../protocoles/vess-test-beche/index.qmd)
+**Protocoles utilisés, à refaire chez vous :** [Évaluer la structure du sol et compter les vers de terre à la bêche](../../protocoles/vess-test-beche/index.qmd) · [Prélever un échantillon de sol pour une analyse de fertilité](../../protocoles/prelevement-sol-analyse/index.qmd) · [Tester la stabilité des mottes de terre dans l'eau](../../protocoles/stabilite-agregats/index.qmd) · [Mesurer la vitesse d'infiltration de l'eau avec un tube](../../protocoles/infiltration-tube/index.qmd) · [Mesurer la couverture d'adventices et de la culture](../../protocoles/adventices-couverture/index.qmd) · [Estimer le rendement d'une planche en pesant des échantillons](../../protocoles/rendement-echantillons/index.qmd)
 :::
 
 ## Méthode d'analyse

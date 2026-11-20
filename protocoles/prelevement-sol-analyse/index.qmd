@@ -52,6 +52,8 @@ Une analyse de sol ne vaut que par l'échantillon envoyé. Un seul coup de bêch
 
 Téléchargez la [fiche de relevé (CSV)](fiche-releve.csv) : une ligne par parcelle. Notez la date, la profondeur, le nombre de prélèvements et ce qui est envoyé au laboratoire. Reportez ensuite les résultats dans les colonnes prévues.
 
+{{< include /_includes/kobo.qmd >}}
+
 ## Lire les résultats
 
 - **Comparez une parcelle à elle-même d'une année à l'autre**, et deux pratiques entre elles sur la même ferme. Une valeur isolée dit peu de chose.

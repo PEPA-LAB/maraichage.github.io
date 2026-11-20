@@ -47,33 +47,15 @@ Un **oya** est un pot en argile poreuse, enterré et rempli d'eau. L'eau travers
 4. **Bien tasser la terre autour**, en contact avec la paroi et sans laisser de vide : l'eau ne passe que là où la terre touche le pot.
 5. **Remplir l'oya à ras** le jour de la plantation, poser le couvercle, et **arroser aussi les plants au pied** (nous avons donné 0,25 L par chou et 0,5 L par tomate). Pendant les premières semaines, les racines n'atteignent pas encore l'oya : un arrosage d'appoint peut être nécessaire.
 6. **Remplir régulièrement.** Comptez **2 fois par semaine** au printemps et en été. Notez à chaque fois le volume ajouté pour refaire le plein. Pour une efficience maximale, la littérature conseille de remplir avant que l'oya ait perdu plus d'un quart de son volume.
-7. **Mesurer en fin de saison.** Après la récolte, mesurez l'eau qui reste dans chaque oya. Calculez ensuite sa consommation avec le calculateur ci-dessous.
+7. **Mesurer en fin de saison.** Après la récolte, mesurez l'eau qui reste dans chaque oya. Sa consommation sur la saison = premier remplissage + somme des remplissages suivants − eau restante (méthode du mémoire de Gaëlle Hanssens). Divisez par 4 pour obtenir l'eau reçue par plant.
 8. **Entretenir.** Videz et sortez les oyas avant l'hiver. Brossez-les si un dépôt blanc (calcaire, sels) bouche la surface.
 
-## Calculateurs
-
-```{ojs}
-//| echo: false
-viewof plants = Inputs.range([4, 400], {label: "Nombre de plants", step: 4, value: 40})
-viewof prix = Inputs.range([10, 60], {label: "Prix d'un oya (€)", step: 1, value: 30})
-nOyas = Math.ceil(plants / 4)
-html`<div class="vess-resultat"><b>${nOyas} oyas</b> pour ${plants} plants (1 oya pour 4 plants), soit un investissement d'environ <b>${(nOyas * prix).toLocaleString("fr-BE")} €</b>, réutilisable plusieurs saisons.</div>`
-```
-
-```{ojs}
-//| echo: false
-viewof initial = Inputs.range([0, 20], {label: "Premier remplissage (L)", step: 0.5, value: 5})
-viewof ajouts = Inputs.range([0, 200], {label: "Total des remplissages suivants (L)", step: 0.5, value: 45})
-viewof reste = Inputs.range([0, 20], {label: "Eau restante en fin de saison (L)", step: 0.5, value: 2})
-conso = initial + ajouts - reste
-html`<div class="vess-resultat">Consommation de l'oya sur la saison : <b>${conso.toFixed(1)} L</b>, soit <b>${(conso / 4).toFixed(1)} L par plant</b> (4 plants par oya).</div>`
-```
-
-*Consommation = premier remplissage + somme des remplissages − eau restante, selon la méthode utilisée dans le mémoire de Gaëlle Hanssens (2025).*
 
 ## Fiche de relevé
 
 Téléchargez la [fiche de relevé (CSV)](fiche-releve.csv), avec une ligne par oya et par remplissage. Additionnez la colonne `volume_ajoute_L` en fin de saison.
+
+{{< include /_includes/kobo.qmd >}}
 
 ## Lire les résultats
 

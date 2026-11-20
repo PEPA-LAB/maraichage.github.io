@@ -1,0 +1,7 @@
+::: {.callout-note appearance="simple" icon=false}
+**Saisir sur téléphone avec KoboToolbox.** Ce relevé existe aussi en [formulaire KoboToolbox](formulaire-kobo.xlsx){download="formulaire-kobo.xlsx"} (format XLSForm) : les calculs se font tout seuls et la saisie marche sans réseau.
+
+1. Créez un compte gratuit sur [KoboToolbox](https://www.kobotoolbox.org/), puis **Nouveau projet → Importer un XLSForm** et choisissez le fichier téléchargé. Cliquez sur **Déployer**.
+2. Installez l'application **KoboCollect** (Android) sur votre téléphone, ou utilisez le formulaire web (Enketo) depuis n'importe quel navigateur, même sur iPhone.
+3. Faites vos relevés au champ. Les données s'envoient au retour du réseau et s'exportent en Excel ou CSV depuis KoboToolbox.
+:::

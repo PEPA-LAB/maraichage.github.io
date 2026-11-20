@@ -115,7 +115,7 @@ Plot.plot({
 *Humidité du sol mesurée par les sondes (moyennes journalières), sondes placées surtout dans le bloc 1 (1 à 2 sondes par modalité). La chute générale fin juin correspond à une panne d'irrigation suivie d'une canicule.*
 
 ::: {.callout-note appearance="simple" icon=false}
-**Protocoles utilisés, à refaire chez vous :** [Évaluer la structure du sol et compter les vers de terre à la bêche](../../protocoles/vess-test-beche/index.qmd)
+**Protocoles utilisés, à refaire chez vous :** [Évaluer la structure du sol et compter les vers de terre à la bêche](../../protocoles/vess-test-beche/index.qmd) · [Prélever un échantillon de sol pour une analyse de fertilité](../../protocoles/prelevement-sol-analyse/index.qmd) · [Mesurer la couverture d'adventices et de la culture](../../protocoles/adventices-couverture/index.qmd)
 :::
 
 ## Méthode d'analyse

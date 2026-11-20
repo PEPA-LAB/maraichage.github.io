@@ -39,7 +39,7 @@ Pour savoir si un paillage limite vraiment les adventices, ou si une culture se 
 
 1. **Poser le cadre au centre de la parcelle**, toujours au même endroit d'une date à l'autre.
 2. **Noter chaque case** : **1** si au moins la moitié de la case est couverte par une adventice, **0** sinon.
-3. **Compter les cases notées 1** et calculer le pourcentage de surface couverte (calculateur ci-dessous).
+3. **Compter les cases notées 1** et calculez le pourcentage de surface couverte : cases notées 1 ÷ 196 × 100.
 4. **Identifier les espèces** présentes dans le cadre et compter les pieds de chacune. Les applications reconnaissent souvent le genre, mais se trompent sur l'espèce, surtout chez les plantules : faites vérifier par une personne compétente.
 
 ## Étapes : photo Canopeo (couverture totale)
@@ -49,19 +49,12 @@ Pour savoir si un paillage limite vraiment les adventices, ou si une culture se 
 3. **Choisir des conditions comparables** : évitez le plein soleil et les heures qui suivent une pluie (feuillage ou sol mouillé). Ces situations faussent le résultat vers le haut.
 4. **Lire le pourcentage** de couverture donné par l'application. Utilisez le facteur de correction de l'application avec parcimonie, et toujours de la même façon.
 
-## Calculateur (cadre grillagé)
-
-```{ojs}
-//| echo: false
-viewof cases = Inputs.range([0, 196], {label: "Cases notées 1 (sur 196)", step: 1, value: 40})
-html`<div class="vess-resultat">Surface couverte par les adventices : <b>${(cases / 196 * 100).toFixed(1)} %</b> du cadre (0,5 m²).</div>`
-```
-
-*Pourcentage = cases notées 1 ÷ 196 × 100 (mémoire Vas, 2025, p. 42–43).*
 
 ## Fiche de relevé
 
 Téléchargez la [fiche de relevé (CSV)](fiche-releve.csv). Notez une ligne par parcelle et par date. Les espèces identifiées vont dans la colonne `especes`, avec leur nombre de pieds.
+
+{{< include /_includes/kobo.qmd >}}
 
 ## Lire les résultats
 

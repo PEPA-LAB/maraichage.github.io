@@ -40,22 +40,14 @@ Un sol qui laisse entrer l'eau rapidement limite le ruissellement et les flaques
 2. **Saturer le sol** : versez **1,25 L d'eau** dans le tube et lancez le chronomètre.
 3. **Si toute l'eau a disparu en moins de 15 minutes** : versez à nouveau **1,25 L**, mesurez aussitôt la **hauteur d'eau** dans le tube (temps 0), puis à nouveau **5 minutes plus tard**.
 4. **Si l'eau n'a pas disparu après 15 minutes** : mesurez la hauteur d'eau **à 15 minutes**, puis **à 20 minutes**.
-5. **Noter la baisse du niveau** (en cm) sur les 5 minutes de mesure. Le calculateur la convertit en mm/h.
+5. **Noter la baisse du niveau** (en cm) sur les 5 minutes de mesure. Pour l'exprimer en mm/h, multipliez-la par 120 (× 10 pour passer en mm, × 12 pour passer de 5 minutes à une heure). Par exemple, 2 cm en 5 minutes = 240 mm/h.
 
-## Calculateur
-
-```{ojs}
-//| echo: false
-viewof baisse = Inputs.range([0, 15], {label: "Baisse du niveau en 5 min (cm)", step: 0.1, value: 2})
-vitesse = baisse * 10 * 12
-html`<div class="vess-resultat">Vitesse d'infiltration : <b>${baisse.toFixed(1)} cm / 5 min</b>, soit <b>${Math.round(vitesse)} mm/h</b>.</div>`
-```
-
-*Conversion : cm par 5 minutes × 10 (mm/cm) × 12 (périodes de 5 min par heure) = mm/h. Le mémoire exprime ses résultats dans ces deux unités.*
 
 ## Fiche de relevé
 
 Téléchargez la [fiche de relevé (CSV)](fiche-releve.csv) : une ligne par point de mesure, en notant quel cas s'applique (eau absorbée en moins ou en plus de 15 minutes).
+
+{{< include /_includes/kobo.qmd >}}
 
 ## Lire les résultats
 

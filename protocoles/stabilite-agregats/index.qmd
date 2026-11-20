@@ -41,7 +41,7 @@ Ce test, appelé **méthode USDA**, mesure la vitesse à laquelle un petit agré
 3. **Placer chaque agrégat** dans un tube, sur la toile.
 4. **Plonger le tube dans l'eau** et lancer le chronomètre. Observez pendant **5 minutes** : notez le moment où **la moitié de l'agrégat** est dissoute.
 5. **Si moins de la moitié s'est défaite après 5 minutes**, faites **5 immersions successives** : sortez le tube de l'eau et replongez-le, cinq fois. Estimez ensuite la part de l'agrégat qui reste sur la toile.
-6. **Attribuer le score** avec la grille ci-dessous (ou le calculateur). Pour gagner du temps, nous testons 3 tubes à la fois dans le même bac.
+6. **Attribuer le score** avec la grille ci-dessous. Pour gagner du temps, nous testons 3 tubes à la fois dans le même bac.
 
 ## Grille de notation
 
@@ -59,24 +59,12 @@ Ce test, appelé **méthode USDA**, mesure la vitesse à laquelle un petit agré
 
 *Grille d'après ProSensols (2023), reprise dans le mémoire d'Eliot Vas (2025, tableau 4, p. 36).*
 
-## Calculateur du score
-
-```{ojs}
-//| echo: false
-viewof filtre = Inputs.toggle({label: "Tout est passé à travers le filtre", value: false})
-viewof moitie = Inputs.select(new Map([
-  ["En moins de 5 s", 1], ["Entre 5 et 30 s", 2], ["Entre 30 s et 5 min", 3],
-  ["Pas après 5 min : immersions faites", 0]]), {label: "La moitié s'est dissoute…", value: 0})
-viewof reste = Inputs.range([0, 100], {label: "Reste après 5 immersions (%)", step: 5, value: 50})
-score = filtre ? 0 : moitie > 0 ? moitie : reste < 10 ? 3 : reste < 25 ? 4 : reste < 75 ? 5 : 6
-html`<div class="vess-resultat">Score de stabilité : <b>${score}</b> sur 6 ${score >= 5 ? "(agrégats stables)" : score >= 3 ? "(stabilité moyenne)" : "(agrégats fragiles)"}.</div>`
-```
-
-*Le champ « Reste après 5 immersions » ne compte que si la moitié de l'agrégat ne s'est pas dissoute pendant les 5 premières minutes.*
 
 ## Fiche de relevé
 
 Téléchargez la [fiche de relevé (CSV)](fiche-releve.csv). Prévoyez une ligne par agrégat, puis faites la moyenne des scores par parcelle.
+
+{{< include /_includes/kobo.qmd >}}
 
 ## Lire les résultats
 

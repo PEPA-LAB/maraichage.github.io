@@ -45,7 +45,7 @@ La **VESS** (*Visual Evaluation of Soil Structure*) donne une note de 1 (sol fri
 4. **Sortir le bloc** d'un seul mouvement et le poser dans le premier bac. Prenez une photo.
 5. **Repérer les couches.** Ouvrez doucement le bloc à la main, en suivant ses fissures naturelles. Repérez les couches qui diffèrent (couleur, compacité, racines) et mesurez leur épaisseur.
 6. **Noter chaque couche de 1 à 5** avec la grille (tableau ci-dessous). Regardez la taille des agrégats, les pores visibles, les racines et la force nécessaire pour casser les mottes.
-7. **Calculer la note du bloc** : la moyenne des notes des couches, pondérée par leur épaisseur. Le calculateur plus bas le fait pour vous.
+7. **Calculer la note du bloc** : multipliez la note de chaque couche par son épaisseur, additionnez, puis divisez par l'épaisseur totale. Par exemple, 10 cm notés 2 et 15 cm notés 3 donnent (2 × 10 + 3 × 15) ÷ 25 = 2,6.
 8. **Compter les vers de terre.** Émiettez le bloc motte par motte dans le second bac et ramassez tous les vers. Comptez-les et classez-les avec la clé OPVT : **épigés**, **endogés**, **épi-anéciques** et **anéciques stricts**. Remettez ensuite les vers et la terre dans le trou.
 9. **Prélever aussi des agrégats de surface**, si vous faites le [test de stabilité des mottes dans l'eau](../stabilite-agregats/index.qmd) : c'est le bon moment, le sol est déjà ouvert.
 10. **Changer d'emplacement chaque année.** L'extraction du bloc abîme la structure du sol pour longtemps : ne refaites jamais le test exactement au même endroit.
@@ -64,30 +64,12 @@ La **VESS** (*Visual Evaluation of Soil Structure*) donne une note de 1 (sol fri
 
 Ce tableau est un résumé : pour noter, utilisez la grille VESS officielle, qui contient des photos de référence.
 
-## Calculateur de la note du bloc
-
-```{ojs}
-//| echo: false
-viewof e1 = Inputs.range([0, 30], {label: "Couche 1 : épaisseur (cm)", step: 1, value: 10})
-viewof s1 = Inputs.range([1, 5], {label: "Couche 1 : note", step: 0.5, value: 2})
-viewof e2 = Inputs.range([0, 30], {label: "Couche 2 : épaisseur (cm)", step: 1, value: 10})
-viewof s2 = Inputs.range([1, 5], {label: "Couche 2 : note", step: 0.5, value: 3})
-viewof e3 = Inputs.range([0, 30], {label: "Couche 3 : épaisseur (cm)", step: 1, value: 5})
-viewof s3 = Inputs.range([1, 5], {label: "Couche 3 : note", step: 0.5, value: 4})
-total = e1 + e2 + e3
-note = total > 0 ? (e1 * s1 + e2 * s2 + e3 * s3) / total : NaN
-lecture = note < 2.5 ? ["bonne", "#4caf50", "Rien à changer."]
-        : note < 3.5 ? ["moyenne", "#e0a030", "Une amélioration sur le long terme est souhaitable."]
-        : ["dégradée", "#c5655a", "Il faut changer les pratiques rapidement : moins de passages, couverture du sol, pas de travail en sol humide."]
-html`<div class="vess-resultat" style="border-left-color:${lecture[1]}">
-  Note du bloc : <b>${isNaN(note) ? "–" : note.toFixed(1)}</b> sur ${total} cm, structure <b>${lecture[0]}</b>.<br>${lecture[2]}</div>`
-```
-
-*Mettez l'épaisseur à 0 pour une couche absente. Les seuils sont des repères indicatifs, tirés des recommandations de la méthode VESS.*
 
 ## Fiche de relevé
 
 Téléchargez la [fiche de relevé (CSV)](fiche-releve.csv), ouvrez-la dans un tableur et imprimez-la. Prévoyez une ligne par couche. Le nombre de vers se note une seule fois par bloc, sur la ligne de la couche 1.
+
+{{< include /_includes/kobo.qmd >}}
 
 ## Lire les résultats
 

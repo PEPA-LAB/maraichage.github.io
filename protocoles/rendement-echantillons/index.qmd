@@ -41,26 +41,14 @@ Pour savoir si une pratique (un paillage, une variété, une fertilisation) chan
 3. **Peser sur place**, aussitôt la récolte faite, pour avoir la masse fraîche avant que les feuilles ne sèchent.
 4. **Noter le nombre de plants et la masse** de chaque échantillon.
 5. **Recommencer sur chaque planche à comparer**, le même jour et de la même façon.
-6. **Ramener au plant ou au mètre carré** avec le calculateur, en indiquant la densité de plantation.
+6. **Ramener au plant ou au mètre carré** : masse moyenne par plant = masse totale des 3 échantillons ÷ nombre total de plants pesés. Multipliez-la par le nombre de plants par m² pour obtenir le rendement en kg/m² (× 10 pour des t/ha). Ce calcul suppose que tous les plants de la planche sont récoltables.
 
-## Calculateur
-
-```{ojs}
-//| echo: false
-viewof m1 = Inputs.range([0, 5000], {label: "Échantillon 1 (g)", step: 10, value: 900})
-viewof m2 = Inputs.range([0, 5000], {label: "Échantillon 2 (g)", step: 10, value: 1000})
-viewof m3 = Inputs.range([0, 5000], {label: "Échantillon 3 (g)", step: 10, value: 800})
-viewof n = Inputs.range([1, 30], {label: "Plants par échantillon", step: 1, value: 9})
-viewof densite = Inputs.range([1, 100], {label: "Plants par m²", step: 1, value: 30})
-parPlant = (m1 + m2 + m3) / (3 * n)
-html`<div class="vess-resultat">Masse moyenne : <b>${parPlant.toFixed(0)} g par plant</b>, soit environ <b>${(parPlant * densite / 1000).toFixed(2)} kg/m²</b> (${(parPlant * densite / 100).toFixed(1)} t/ha) pour ${densite} plants/m².</div>`
-```
-
-*Rendement ≈ masse moyenne par plant × nombre de plants par m². Le résultat suppose que tous les plants de la planche ont été récoltables.*
 
 ## Fiche de relevé
 
 Téléchargez la [fiche de relevé (CSV)](fiche-releve.csv) : une ligne par échantillon (3 par planche).
+
+{{< include /_includes/kobo.qmd >}}
 
 ## Lire les résultats
 
