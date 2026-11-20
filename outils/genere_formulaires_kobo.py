@@ -181,6 +181,47 @@ FORMS["rendement-echantillons"] = {
 }
 
 
+FORMS["besoins-eau-etc"] = {
+    "title": "Besoins en eau (ET0 × Kc) – PEPA Lab",
+    "survey": ENTETE + [
+        {"type": "text", "name": "culture", "label": "Culture", "required": "yes"},
+        {"type": "text", "name": "stade", "label": "Stade de la culture", "hint": "ex. croissance des feuilles, pommaison"},
+        {"type": "decimal", "name": "kc", "label": "Coefficient cultural Kc", "required": "yes", "constraint": ". > 0 and . <= 2", "constraint_message": "Entre 0 et 2"},
+        {"type": "decimal", "name": "surface_par_plant_m2", "label": "Surface par plant (m²)", "hint": "écartement entre rangs × écartement sur le rang, ex. 0,25", "required": "yes", "constraint": ". > 0"},
+        {"type": "decimal", "name": "et0_cumulee_mm", "label": "Somme des ET0 depuis le dernier arrosage (mm)", "required": "yes", "constraint": ". >= 0"},
+        {"type": "decimal", "name": "pluie_mm", "label": "Pluie tombée sur la période (mm, 0 sous tunnel)", "default": "0", "constraint": ". >= 0"},
+        {"type": "calculate", "name": "etc_cumulee_mm", "calculation": "round(${kc} * ${et0_cumulee_mm}, 2)"},
+        {"type": "calculate", "name": "besoin_L_par_plant", "calculation": "round(max(${etc_cumulee_mm} - ${pluie_mm}, 0) * ${surface_par_plant_m2}, 2)"},
+        {"type": "note", "name": "affiche_besoin", "label": "ETc : **${etc_cumulee_mm} mm** · besoin : **${besoin_L_par_plant} L par plant**"},
+        {"type": "decimal", "name": "eau_apportee_L_par_plant", "label": "Eau réellement apportée (L par plant)", "constraint": ". >= 0"},
+    ] + FIN,
+    "choices": [],
+}
+
+FORMS["sondes-humidite-sol"] = {
+    "title": "Sondes d'humidité du sol – PEPA Lab",
+    "survey": ENTETE + [
+        {"type": "text", "name": "numero_serie", "label": "Numéro de série de la sonde", "required": "yes"},
+        {"type": "select_one action", "name": "action", "label": "Action", "required": "yes"},
+        {"type": "text", "name": "modalite", "label": "Modalité (pratique testée)", "relevant": "${action} = 'pose'"},
+        {"type": "text", "name": "position_plant", "label": "Position par rapport au plant", "hint": "ex. in (côté oya) / out", "relevant": "${action} = 'pose'"},
+        {"type": "integer", "name": "distance_plant_cm", "label": "Distance au plant (cm)", "default": "15", "relevant": "${action} = 'pose'"},
+        {"type": "integer", "name": "profondeur_cm", "label": "Profondeur d'insertion (cm)", "default": "10", "relevant": "${action} = 'pose'"},
+        {"type": "text", "name": "fichier_donnees", "label": "Nom du fichier CSV récupéré", "relevant": "${action} = 'releve'"},
+        {"type": "select_one statut", "name": "statut", "label": "État de la sonde", "required": "yes"},
+        {"type": "image", "name": "photo_sonde", "label": "Photo de l'emplacement (facultatif)"},
+    ] + FIN,
+    "choices": [
+        ("action", "pose", "Pose de la sonde", None),
+        ("action", "releve", "Relevé des données", None),
+        ("action", "retrait", "Retrait de la sonde", None),
+        ("statut", "ok", "Fonctionne normalement", None),
+        ("statut", "douteux", "Valeurs douteuses", None),
+        ("statut", "hors_service", "Hors service ou déplacée", None),
+    ],
+}
+
+
 def ecrire(dossier, cle, f):
     wb = Workbook()
     entete = Font(bold=True, color="FFFFFF")

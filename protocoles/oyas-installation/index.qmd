@@ -30,7 +30,7 @@ Un **oya** est un pot en argile poreuse, enterré et rempli d'eau. L'eau travers
 
 ## Matériel
 
-- **Oyas de 5 L** : un pour 4 plants. Ils coûtaient environ 30 € pièce en 2025. Un oya réutilisé d'une saison précédente fonctionne aussi.
+- **Oyas de 5 L** : un pour 4 plants. Ils coûtaient environ 30 € pièce en 2025. Un oya réutilisé d'une saison précédente fonctionne aussi. Choisissez la taille selon la culture : moins de 5 L pour des pots, 5 à 10 L pour de petites parcelles, jusqu'à 20 L pour des cultures à enracinement profond.
 - Une **bêche** ou une tarière
 - Un **récipient gradué** pour connaître le volume versé (nous utilisons une bouteille de 1,5 L graduée tous les 0,15 L)
 - Un **mètre ruban**
@@ -41,7 +41,7 @@ Un **oya** est un pot en argile poreuse, enterré et rempli d'eau. L'eau travers
 
 1. **Préparer le plan.** Placez chaque oya **au centre de 4 plants**. Nos repères de distance entre l'oya et chaque plant :
    - tomate : **≈ 30 cm** (31 cm dans notre essai de 2024) ;
-   - chou : **35 à 56 cm**. **À 79 cm, c'est trop loin** : moins de la moitié des choux étaient commercialisables.
+   - chou : **35 à 56 cm**. **À 79 cm, c'est trop loin** : moins de la moitié des choux étaient commercialisables. En sol limoneux, **≈ 50 cm** est un bon compromis : un oya peut alors servir **6 choux** au lieu de 4 (voir le tableau ci-dessous). Au-delà de 56 cm, des zones sèches apparaissent entre les oyas.
 2. **Creuser.** Faites un trou environ **3 fois plus large et 2 fois plus profond** que l'oya, puis remettez de la terre fine au fond.
 3. **Enterrer l'oya** pour que **seul le col dépasse**, à 1 ou 2 cm au-dessus du sol. S'il dépasse trop, l'eau s'évapore. S'il est trop profond, les jeunes racines n'atteignent pas la zone humide.
 4. **Bien tasser la terre autour**, en contact avec la paroi et sans laisser de vide : l'eau ne passe que là où la terre touche le pot.
@@ -49,6 +49,17 @@ Un **oya** est un pot en argile poreuse, enterré et rempli d'eau. L'eau travers
 6. **Remplir régulièrement.** Comptez **2 fois par semaine** au printemps et en été. Notez à chaque fois le volume ajouté pour refaire le plein. Pour une efficience maximale, la littérature conseille de remplir avant que l'oya ait perdu plus d'un quart de son volume.
 7. **Mesurer en fin de saison.** Après la récolte, mesurez l'eau qui reste dans chaque oya. Sa consommation sur la saison = premier remplissage + somme des remplissages suivants − eau restante (méthode du mémoire de Gaëlle Hanssens). Divisez par 4 pour obtenir l'eau reçue par plant.
 8. **Entretenir.** Videz et sortez les oyas avant l'hiver. Brossez-les si un dépôt blanc (calcaire, sels) bouche la surface.
+
+### Combien d'oyas pour une planche ?
+
+Estimation pour une planche de **0,75 × 20 m** avec 2 rangs de choux plantés à 50 cm (mémoire de Gaëlle Hanssens, tableau 6, prix et temps de 2025) :
+
+| Distance oya – chou | Plants par oya | Oyas par planche | Temps d'installation | Coût des oyas |
+|:-:|:-:|:-:|:-:|:-:|
+| 35 cm | 4 choux | 20 | ≈ 6 h | ≈ 600 € |
+| 50 cm | 6 choux | 13 | ≈ 4 h | ≈ 390 € |
+
+Écarter les oyas à 50 cm réduit d'environ un tiers le coût et le temps de pose. Les oyas se réutilisent plusieurs saisons : l'investissement s'amortit.
 
 
 ## Fiche de relevé
@@ -61,6 +72,7 @@ Téléchargez la [fiche de relevé (CSV)](fiche-releve.csv), avec une ligne par 
 
 - **Comparez avec votre arrosage habituel** : en 2025, nos choux ont reçu 10 à 14 L par plant avec les oyas, contre environ 35 L à l'arrosoir. En 2024, nos tomates ont reçu ≈ 27 L par plant avec les oyas, contre ≈ 127 L en irrigation complète.
 - **Les oyas économisent l'eau mais ne maximisent pas le rendement.** En 2024, les tomates sous oyas ont donné 2,4 kg par plant, contre 3,2 kg en irrigation complète, mais chaque litre d'eau a produit environ 4 fois plus de tomates.
+- **Pas besoin de calculer les besoins de la culture.** Le débit d'un oya suit ce que le sol absorbe : il augmente quand le sol sèche et diminue quand le sol est humide. Pour un arrosage classique, voir le protocole [Calculer les besoins en eau d'une culture à partir de l'ET0](../besoins-eau-etc/index.qmd).
 - **Un oya qui se vide moins vite** indique que les plants ont moins besoin d'eau (fin de saison, temps frais), ou que la paroi est encrassée.
 
 ## Erreurs fréquentes
@@ -69,7 +81,8 @@ Téléchargez la [fiche de relevé (CSV)](fiche-releve.csv), avec une ligne par 
 - **Oublier l'arrosage d'appoint** juste après la plantation.
 - **Oublier de noter les volumes** : sans eux, impossible de savoir si l'on économise de l'eau.
 - **Travailler le sol chaque année** : les oyas conviennent mieux aux planches permanentes et au travail du sol réduit.
-- **Laisser les oyas pleins dehors en hiver** : une argile gorgée d'eau risque de se fendre au gel.
+- **Laisser les oyas pleins dehors en hiver** : une argile gorgée d'eau risque de se fendre au gel. Prévoyez un endroit à l'abri pour les ranger.
+- **Laisser le sol nu autour des oyas** : un paillage limite l'évaporation en surface et complète bien les oyas.
 
 ## Dans nos essais
 
@@ -89,4 +102,4 @@ Pour aller plus loin, une sélection de ressources de référence. Elles sont g�
 ## Sources
 
 - Mémoire de Clémentine Lucca (2025), *irrigation de la tomate sous tunnel*, p. 27–28, 33 et 37.
-- Mémoire de Gaëlle Hanssens (2025), *oyas et chou*, p. 8–10 et 18–22. Il cite notamment Siyal et al. (2009), Bazai et al. (2017) et Hatungimana et al. (2023).
+- Mémoire de Gaëlle Hanssens (2025), *oyas et chou*, p. 8–10, 18–22 et 54–56. Il cite notamment Siyal et al. (2009), Bazai et al. (2017) et Hatungimana et al. (2023).

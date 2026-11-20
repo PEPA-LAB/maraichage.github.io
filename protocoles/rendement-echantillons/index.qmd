@@ -8,13 +8,14 @@ duree: "≈ 15 min par planche"
 cout: "≈ 0 € (une balance)"
 periode: "À la récolte"
 image: ../../fiches/2025-paillage-epinard-oignon/photo.jpg
-auteurs: "PEPA Lab, d'après le mémoire d'Eliot Vas (2025)"
-sources: "Mémoire Vas (2025), p. 44 et 75"
+auteurs: "PEPA Lab, d'après les mémoires d'Eliot Vas (2025) et Gaëlle Hanssens (2025)"
+sources: "Mémoires Vas (2025), p. 44 et 75, et Hanssens (2025), p. 26–27"
 listing:
   id: essais
   type: table
   contents:
     - ../../fiches/2025-paillage-epinard-oignon/index.qmd
+    - ../../fiches/2025-oyas-chou/index.qmd
   fields: [title, annee, culture]
   field-display-names: {title: Essai, annee: Saison, culture: Culture}
   sort-ui: false
@@ -42,6 +43,17 @@ Pour savoir si une pratique (un paillage, une variété, une fertilisation) chan
 4. **Noter le nombre de plants et la masse** de chaque échantillon.
 5. **Recommencer sur chaque planche à comparer**, le même jour et de la même façon.
 6. **Ramener au plant ou au mètre carré** : masse moyenne par plant = masse totale des 3 échantillons ÷ nombre total de plants pesés. Multipliez-la par le nombre de plants par m² pour obtenir le rendement en kg/m² (× 10 pour des t/ha). Ce calcul suppose que tous les plants de la planche sont récoltables.
+
+### Variante : rendement commercialisable (légumes pesés un par un)
+
+Pour des légumes récoltés à l'unité, comme le chou pommé, on peut peser **chaque plant** et ne compter que ceux qui sont vendables. Nous l'avons fait sur chou en 2025.
+
+1. **Couper au collet** et peser le plant entier (biomasse).
+2. **Parer** : couper la tige et retirer les feuilles extérieures, puis **peser le chou** seul. Une balance précise à 0,05 kg suffit.
+3. **Trier selon la norme de commercialisation.** Pour le chou pommé (norme CEE-ONU FFV-09), un chou est commercialisable s'il pèse **au moins 400 g**, et dans un même lot **le plus lourd ne doit pas dépasser le double du plus léger**, avec une tolérance de 10 % en nombre ou en poids.
+4. **Calculer deux rendements** : rendement récolté (tous les choux) et rendement commercialisable (seulement les choux conformes). Rendement (t/ha) = poids cumulé (kg) ÷ (surface par plant (m²) × nombre de choux) × 10. Pour des choux à 50 × 50 cm, la surface par plant est de 0,25 m².
+
+Dans notre essai, 7 choux sur 11 arrosés à l'arrosoir étaient commercialisables, contre tous les choux irrigués par des oyas placés à 35 cm.
 
 
 ## Fiche de relevé
@@ -73,6 +85,7 @@ Téléchargez la [fiche de relevé (CSV)](fiche-releve.csv) : une ligne par éch
 
 Pour aller plus loin, une sélection de ressources de référence. Elles sont gérées par d'autres organismes : leur contenu peut changer.
 
+- [Norme de commercialisation des choux pommés : règlement (CE) n° 634/2006 (EUR-Lex)](https://eur-lex.europa.eu/eli/reg/2006/634/oj/eng)
 - [Plateforme SYCMA : rendements mesurés en maraîchage bio au CRA-W (poster, PDF)](https://www.cra.wallonie.be/uploads/2023/06/poster-sycma-maraichage-bio3.pdf)
 - [Itinéraires BIO n° 88 : maraîchage, agriculture de conservation et fertilité autoproduite (Biowallonie, PDF)](https://www.biowallonie.com/wp-content/uploads/2026/05/Brochure-A4-Itineraires-BIO-88_web.pdf)
 - [Données technico-économiques en maraîchage biologique (INRAE et AgroParisTech, 2017, PDF)](https://www.inrae.fr/sites/default/files/pdf/Fevrier-2017-rapport-6-Etude-INRA-AgroParisTech-maraichage-biologique-permaculturel-et-performance-economique.pdf)
@@ -80,4 +93,5 @@ Pour aller plus loin, une sélection de ressources de référence. Elles sont g�
 ## Sources
 
 - Mémoire d'Eliot Vas (2025) : méthode p. 44, plantation p. 32, évaluation p. 75 et 77.
+- Mémoire de Gaëlle Hanssens (2025) : variante commercialisable p. 26–27. Il cite la norme CEE-ONU FFV-09 (Nations Unies, 2024).
 - Résultat bâche / miscanthus : fiche « Paillages en maraîchage bio : bilan de la première année ».

@@ -113,7 +113,7 @@ Plot.plot({
 *Racines prélevées les 22–23/05 dans une carotte de 0,75 L, à 17 cm du chou, côté oya et côté opposé (6 choux par traitement). Pour le 100 %, le côté « in » est celui de l'arrosage.*
 
 ::: {.callout-note appearance="simple" icon=false}
-**Protocoles utilisés, à refaire chez vous :** [Installer et suivre des oyas sous tunnel](../../protocoles/oyas-installation/index.qmd)
+**Protocoles utilisés, à refaire chez vous :** [Installer et suivre des oyas sous tunnel](../../protocoles/oyas-installation/index.qmd) · [Calculer les besoins en eau d'une culture à partir de l'ET0](../../protocoles/besoins-eau-etc/index.qmd) · [Suivre l'humidité du sol en continu avec des sondes](../../protocoles/sondes-humidite-sol/index.qmd) · [Estimer le rendement (variante commercialisable)](../../protocoles/rendement-echantillons/index.qmd)
 :::
 
 ## Méthode d'analyse

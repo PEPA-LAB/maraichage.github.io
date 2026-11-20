@@ -1,0 +1,96 @@
+---
+title: "Suivre l'humidité du sol en continu avec des sondes"
+date: 2026-11-20
+objectif: "Enregistrer toute la saison l'humidité et la température du sol, au plus près des racines, pour comparer des pratiques d'irrigation ou de paillage."
+categories: [Gestion de l'eau, Santé du sol]
+difficulte: Avancé
+duree: "≈ 30 min d'installation, puis 15 min par relevé des données"
+cout: "Sondes et lecteur coûteux [À COMPLÉTER : prix indicatif]"
+periode: "De la plantation à la récolte"
+image: ../../fiches/2025-oyas-chou/photo.jpg
+auteurs: "PEPA Lab, d'après les mémoires de Gaëlle Hanssens (2025) et Pierre-André Peters-Dickie (2026)"
+sources: "Mémoires Hanssens (2025), p. 23–24 et Peters-Dickie (2026), p. 30–31"
+listing:
+  id: essais
+  type: table
+  contents:
+    - ../../fiches/2025-oyas-chou/index.qmd
+    - ../../fiches/2026-paillage-epinard-laitue/index.qmd
+  fields: [title, annee, culture]
+  field-display-names: {title: Essai, annee: Saison, culture: Culture}
+  sort-ui: false
+  filter-ui: false
+---
+
+{{< include /_includes/protocole-identite.qmd >}}
+
+## À quoi ça sert
+
+Une mesure ponctuelle de l'humidité du sol ne dit pas ce qui se passe entre deux visites. Une **sonde enregistreuse** plantée dans le sol mesure l'humidité et la température **toutes les 15 minutes**, pendant des mois. On voit alors l'effet de chaque arrosage, de chaque pluie, d'un paillage ou d'un oya sur l'eau disponible pour les racines.
+
+C'est un protocole **avancé** : il demande du matériel spécialisé et un traitement des données sur ordinateur. Il sert surtout pour des essais comparatifs, pas pour piloter l'arrosage au quotidien.
+
+## Matériel
+
+- Des **sondes TMS-4** (fabricant TOMST), au moins **2 par modalité** à comparer. Chaque sonde porte :
+  - un capteur d'humidité qui mesure les 12 premiers centimètres du sol ;
+  - 3 capteurs de température : dans le sol (−6 cm), à la surface et dans l'air (+15 cm).
+- Le **lecteur de contact avec adaptateur USB** pour récupérer les données, et un ordinateur
+- Le **logiciel Lolly** de TOMST (gratuit), pour convertir les mesures brutes en humidité volumique (%)
+- La **texture du sol** de la parcelle (analyse de sol), pour choisir la bonne calibration
+- Un **plan de la parcelle** et des étiquettes pour numéroter les sondes
+- La [fiche de relevé](fiche-releve.csv)
+
+## Étapes
+
+1. **Choisir les emplacements.** Placez les sondes **au centre des parcelles**, jamais en bordure : une sonde au bord reçoit la pluie ou l'eau qui ruisselle et ses mesures ne sont plus comparables. Mettez le même nombre de sondes, au même endroit par rapport aux plants, dans chaque modalité.
+2. **Fixer la position par rapport au plant.** Dans notre essai sur oyas, nous avons placé 2 sondes **à 15 cm de part et d'autre d'un chou** : une entre le chou et l'oya (« in »), l'autre du côté opposé (« out »).
+3. **Enfoncer la sonde** verticalement jusqu'au repère, environ **10 cm dans le sol**. Le capteur d'humidité se trouve alors vers 8 cm de profondeur. Tassez légèrement la terre autour pour qu'elle touche bien la sonde.
+4. **Noter sur le plan** le numéro de série de chaque sonde, sa modalité, sa position et la date de pose.
+5. **Laisser enregistrer.** Réglez l'intervalle de mesure à **15 minutes**. Évitez de marcher ou d'arroser directement sur la sonde.
+6. **Récupérer les données** régulièrement (par exemple toutes les 2 à 4 semaines) avec le lecteur de contact : les mesures sont transférées sur l'ordinateur sous forme de fichier CSV.
+7. **Convertir en humidité volumique** dans le logiciel Lolly, avec la courbe de calibration la plus proche de votre sol. Dans nos essais : calibration « limon sableux » ou « silt loam » selon la parcelle.
+8. **Contrôler les données** avant de les analyser : écartez les sondes aux valeurs invraisemblables (voir plus bas).
+
+## Fiche de relevé
+
+Téléchargez la [fiche de relevé (CSV)](fiche-releve.csv), avec une ligne par sonde. Elle sert à garder la trace de la pose et des relevés. Les mesures elles-mêmes sont dans les fichiers CSV produits par les sondes.
+
+{{< include /_includes/kobo.qmd >}}
+
+## Lire les résultats
+
+- **Comparez les courbes de modalités placées de la même façon**, sur la même période.
+- **Chaque arrosage ou pluie fait un pic**, puis l'humidité redescend à mesure que les plants consomment l'eau. Une redescente plus lente signale un sol qui garde mieux l'eau (paillage) ou un apport continu (oya).
+- **Moyennez les sondes d'une même modalité** et regardez leur écart : avec 2 ou 3 sondes seulement, une différence faible entre modalités n'est pas fiable.
+- La calibration intégrée donne des **valeurs approximatives** : elles servent à comparer des modalités, moins à connaître la teneur en eau exacte du sol.
+
+## Erreurs fréquentes
+
+- **Poser une sonde en bordure de parcelle** : en 2025, une de nos sondes, exposée à la pluie, a enregistré des pics anormaux et a dû être écartée.
+- **Garder des mesures invraisemblables** : une autre sonde est restée sous 10 % d'humidité toute la saison, plus sec que la sonde témoin du même plant. Elle a été écartée. Un mauvais contact entre la sonde et le sol peut expliquer ce type de valeur.
+- **Choisir une calibration qui ne correspond pas au sol.**
+- **Écarter une sonde sans écarter sa sonde jumelle** : pour garder des comparaisons équilibrées, nous avons aussi retiré de l'analyse la sonde opposée.
+- **Oublier de vider les sondes** avant que leur mémoire ou leur batterie ne soit pleine. [À COMPLÉTER : autonomie, à vérifier dans la documentation du fabricant]
+
+## Dans nos essais
+
+- **Oyas et chou, 2025 (Marbaix, sous tunnel)** : 12 sondes posées le 3 avril 2025 de part et d'autre de choux irrigués par oyas, pour comparer l'humidité du côté de l'oya et du côté opposé.
+- **Paillages, 2026 (Lauzelle)** : 9 sondes posées dans des parcelles paillées, avec des mesures toutes les 15 minutes et une calibration « silt loam ».
+
+::: {#essais}
+:::
+
+## Ressources en ligne
+
+Pour aller plus loin, une sélection de ressources de référence. Elles sont gérées par d'autres organismes : leur contenu peut changer.
+
+- [Sonde TMS-4 : description technique (TOMST, en anglais)](https://tomst.com/web/en/systems/tms/tms-4/)
+- [Logiciel Lolly pour lire et convertir les données (TOMST, en anglais)](https://tomst.com/web/en/systems/tms/software/)
+- [Wild J. et al. (2019), article de référence sur la sonde TMS-4 et sa calibration (Agricultural and Forest Meteorology, en anglais)](https://doi.org/10.1016/j.agrformet.2018.12.018)
+- [Guide pratique des capteurs d'humidité du sol en maraîchage (SEGES, PDF, en danois)](https://www.landbrugsinfo.dk/-/media/landbrugsinfo/public/8/8/3/planter_kval_landsfors_lat_jordfugtighedssensor.pdf)
+
+## Sources
+
+- Mémoire de Gaëlle Hanssens (2025), *oyas et chou*, p. 23–24. Il cite Wild et al. (2019) et TOMST (2025).
+- Mémoire de Pierre-André Peters-Dickie (2026), *paillages*, p. 30–31.

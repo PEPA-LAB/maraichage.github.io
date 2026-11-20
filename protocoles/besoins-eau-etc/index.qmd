@@ -1,0 +1,112 @@
+---
+title: "Calculer les besoins en eau d'une culture à partir de l'ET0"
+date: 2026-11-20
+objectif: "Estimer combien d'eau donner à chaque plant entre deux arrosages, à partir des données météo de la station la plus proche et d'un coefficient propre à la culture."
+categories: [Gestion de l'eau]
+difficulte: Moyen
+duree: "≈ 10 min avant chaque arrosage"
+cout: "≈ 0 € (données météo gratuites en ligne)"
+periode: "Toute la saison, avant chaque arrosage"
+image: ../../fiches/2025-oyas-chou/photo.jpg
+auteurs: "PEPA Lab, d'après le mémoire de Gaëlle Hanssens (2025)"
+sources: "Mémoire Hanssens (2025), p. 3–4, 15, 21–23 et annexe 1 ; FAO-56"
+listing:
+  id: essais
+  type: table
+  contents:
+    - ../../fiches/2025-oyas-chou/index.qmd
+  fields: [title, annee, culture]
+  field-display-names: {title: Essai, annee: Saison, culture: Culture}
+  sort-ui: false
+  filter-ui: false
+---
+
+{{< include /_includes/protocole-identite.qmd >}}
+
+## À quoi ça sert
+
+Arroser « au jugé » conduit souvent à donner trop ou trop peu. Ce protocole estime l'eau réellement consommée par la culture depuis le dernier arrosage, à partir de deux informations :
+
+- l'**ET0** (évapotranspiration de référence), en mm par jour. Elle traduit la demande en eau de l'air : chaleur, soleil, vent, air sec. Les stations météo la calculent chaque jour ;
+- le **Kc** (coefficient cultural), propre à chaque culture et à son stade. Il ajuste l'ET0 à la culture.
+
+On obtient l'**ETc**, l'eau consommée par la culture, en mm par jour :
+
+> **ETc = Kc × ET0**
+
+Un millimètre d'eau correspond à **1 litre par m²**. En multipliant par la surface occupée par un plant, on obtient les litres à apporter par plant. Nous avons utilisé ce calcul pour arroser les choux du traitement de référence dans notre essai de 2025.
+
+## Matériel
+
+- Un accès aux **données météo quotidiennes** d'une station proche de vos parcelles, avec l'ET0. En Wallonie, le réseau [Agromet](https://agromet.be) (CRA-W) fournit l'ET0 et les pluies. Dans notre essai, la station de Louvain-la-Neuve se trouvait à moins d'1 km.
+- Les **Kc de la culture** par stade (voir ci-dessous et le tableau de la FAO dans les ressources)
+- Un **récipient gradué** pour mesurer le volume apporté (nous utilisons une bouteille de 1,5 L graduée tous les 0,15 L)
+- Un tableur, ou la [fiche de relevé](fiche-releve.csv)
+
+## Étapes
+
+1. **Connaître la surface par plant.** Multipliez l'écartement entre rangs par l'écartement sur le rang. Pour des choux plantés à 50 × 50 cm : 0,5 × 0,5 = **0,25 m² par plant**.
+2. **Choisir le Kc selon le stade.** Pour le chou, nous avons utilisé :
+   - **0,5** pendant la croissance des feuilles (jusqu'au 17 avril dans notre essai) ;
+   - **1,0** pendant la formation de la pomme (jusqu'au 20 mai) ;
+   - **1,3** en plein pommage, jusqu'à la récolte.
+
+   Pour d'autres cultures, cherchez les valeurs dans le tableau de la FAO (bulletin FAO-56) ou dans les guides régionaux.
+3. **Relever l'ET0 de chaque jour** depuis le dernier arrosage, sur la station choisie, et **additionnez-les**.
+4. **Calculer l'ETc cumulée** : ΣETc (mm) = Kc × ΣET0 (mm). Si le Kc a changé pendant la période, faites le calcul jour par jour.
+5. **Convertir en litres par plant** : besoin (L/plant) = ΣETc (mm) × surface par plant (m²).
+6. **Arroser au pied** avec le récipient gradué et **noter le volume réellement apporté**. Si l'eau ruisselle ou stagne en surface avant d'avoir tout versé, arrêtez-vous et notez le volume versé.
+7. **Recommencer avant chaque arrosage.** Nous arrosions **2 fois par semaine**.
+
+### Exemple de calcul
+
+Extraits de nos relevés sur chou en 2025 (mémoire de Gaëlle Hanssens, annexe 1). Surface : 0,25 m² par plant.
+
+| Jours après plantation | Kc | ΣET0 depuis l'arrosage précédent (mm) | ΣETc (mm) | Besoin calculé (L/plant) | Eau réellement apportée (L/plant) |
+|:-:|:-:|:-:|:-:|:-:|:-:|
+| 7  | 0,5 | 2,6  | 1,30  | 0,32 | 0,30 |
+| 54 | 1,0 | 19,1 | 19,10 | 4,78 | 2,70 |
+| 75 | 1,3 | 15,1 | 19,63 | 4,91 | 4,30 |
+
+Exemple pour le jour 54 : 1,0 × 19,1 = 19,1 mm, puis 19,1 × 0,25 = **4,78 L par plant**.
+
+## Fiche de relevé
+
+Téléchargez la [fiche de relevé (CSV)](fiche-releve.csv), avec une ligne par arrosage. Les colonnes `etc_cumulee_mm` et `besoin_L_par_plant` se calculent avec les formules des étapes 4 et 5.
+
+{{< include /_includes/kobo.qmd >}}
+
+## Lire les résultats
+
+- **Comparez le besoin calculé et l'eau apportée.** Dans notre essai, l'eau apportée est restée sous le besoin calculé presque toute la saison, parce que le sol n'absorbait pas plus.
+- **L'ETc varie beaucoup d'une semaine à l'autre.** En 2025, au printemps très sec, elle a varié de **0,65 à 6,24 mm par jour** pour le chou.
+- **Les besoins augmentent avec le stade.** Pour le chou, le dernier mois, pendant la formation de la pomme, est la période la plus sensible au manque d'eau.
+- **La pluie compte en plein champ.** Sous tunnel, toute l'eau vient de l'arrosage. En plein champ, retranchez la pluie tombée de l'ETc cumulée.
+
+## Erreurs fréquentes
+
+- **Oublier de changer de Kc** quand la culture change de stade.
+- **Verser tout le volume calculé d'un coup** sur un sol qui n'absorbe pas assez vite : l'eau ruisselle et est perdue. Dans notre essai, les volumes ont été ajustés à la capacité d'infiltration du sol.
+- **Utiliser une station trop éloignée**, ou située dans un autre type de paysage (vallée, plateau).
+- **Confondre mm et L** : 1 mm = 1 L par m², pas par plant.
+
+## Dans nos essais
+
+Sous tunnel à la ferme universitaire de Marbaix en 2025, nous avons arrosé au pied les choux du traitement « 100 % » d'après ce calcul, deux fois par semaine, avec l'ET0 de la station de Louvain-la-Neuve. Les oyas, eux, n'ont pas besoin de ce calcul : leur débit suit ce que le sol absorbe.
+
+::: {#essais}
+:::
+
+## Ressources en ligne
+
+Pour aller plus loin, une sélection de ressources de référence. Elles sont gérées par d'autres organismes : leur contenu peut changer.
+
+- [Agromet : données météo et ET0 des stations wallonnes (CRA-W, dossier de présentation, PDF)](https://www.cra.wallonie.be/uploads/2021/09/dossier_de_presse_agromet.pdf)
+- [Estimer le bilan hydrique d'une parcelle avec les données Agromet (SPW Agriculture, PDF)](https://agriculture.wallonie.be/files/accueil/Recherche%20et%20d%C3%A9veloppement/Secheresse/irrigation/article%20estimation%20du%20bilan%20hydrique%20(analyse%20excel)%20(4).pdf)
+- [Bulletin FAO-56 : évapotranspiration des cultures (en anglais)](https://www.fao.org/3/X0490E/X0490E00.htm)
+- [FAO-56, chapitre 6 : les coefficients culturaux Kc par culture (en anglais)](https://www.fao.org/4/x0490e/x0490e0b.htm)
+
+## Sources
+
+- Mémoire de Gaëlle Hanssens (2025), *oyas et chou* : bilan hydrique p. 3–4, Kc du chou p. 15, méthode p. 21–22, résultats p. 23, annexe 1 p. 66. Il cite notamment Allen et al. (2006), la Chambre d'Agriculture (2013) et Leclerc (2024).
+- Allen R.G. et al. (1998). *Crop evapotranspiration. FAO Irrigation and drainage paper 56.* FAO, Rome.
