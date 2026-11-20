@@ -7,7 +7,7 @@ title-block-banner: ../images/banniere.jpg
 ---
 
 ::: {.callout-note appearance="simple" icon=false}
-Le conservatoire rassemble **plus d'une centaine de variétés de tomates**, cultivées et multipliées chaque année aux Fermes universitaires de l'UCLouvain avec le soutien du Fonds Baillet Latour. Filtrez la collection par type, couleur, forme ou précocité, puis cliquez sur une variété pour voir sa fiche complète. [En savoir plus sur le conservatoire](a-propos.qmd).
+Le conservatoire rassemble **plus d'une centaine de variétés de tomates**, cultivées et multipliées chaque année aux Fermes universitaires de l'UCLouvain avec le soutien du Fonds Baillet Latour. Filtrez la collection par type, couleur, forme ou précocité, puis cliquez sur une variété pour voir sa fiche complète. [En savoir plus sur le conservatoire](../a-propos.qmd#le-conservatoire-de-tomates).
 :::
 
 ```{=html}
