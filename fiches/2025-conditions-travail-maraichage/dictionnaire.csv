@@ -1,0 +1,12 @@
+colonne,description,unite,type,valeurs_possibles,source
+saison,Période des entretiens (mi-octobre 2024 – mi-février 2025),-,texte,2024–2025,mémoire p. 26
+type,defi = défi commun (une ligne par variable de la grille) ; etape_critique = croisement étape × variable (tableau 6),-,texte,defi ; etape_critique,-
+etape,Étape critique du métier (vide pour les défis),-,texte,18 étapes,"mémoire tableau 6, p. 41"
+dimension,Dimension des conditions de travail,-,texte,Temps de travail ; Pénibilité physique ; Pénibilité psychologique,"mémoire tableau 5, p. 29–30"
+variable,Variable de la grille d'analyse (16 variables),-,texte,voir tableau 5,mémoire p. 29–30
+n_fermes,Nombre de fermes (un entretien par ferme) dont le·la maraîcher·ère a cité ce défi,fermes,entier,0–14,mémoire p. 32–41
+n_total,Nombre de fermes interrogées,fermes,entier,14,mémoire p. 26
+source,Page du mémoire (pagination imprimée),-,texte,,-
+flag,Remarque (écart entre figure et texte…),-,texte,,-
+solutions.csv : etape,Étape critique concernée,-,texte,,"mémoire tableau 7, p. 42–43"
+solutions.csv : solution,Solution déjà mise en place par au moins un·e maraîcher·ère (vide = aucune citée),-,texte,,"mémoire tableau 7, p. 42–43"

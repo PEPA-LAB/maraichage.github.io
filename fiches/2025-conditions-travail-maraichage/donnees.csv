@@ -1,0 +1,65 @@
+saison,type,etape,dimension,variable,n_fermes,n_total,source,flag
+2024–2025,defi,,Temps de travail,Activités agricoles de production,10,14,mémoire p. 32,
+2024–2025,defi,,Temps de travail,Activités administratives,8,14,mémoire p. 33,
+2024–2025,defi,,Temps de travail,Activités de commercialisation et communication,8,14,mémoire p. 33,
+2024–2025,defi,,Temps de travail,Appréciation du rythme de travail,4,14,mémoire p. 34,figure 4 (p. 31) indique 3 ; le texte et la figure 5 donnent 4 (valeur retenue)
+2024–2025,defi,,Temps de travail,Activités de diversification,3,14,mémoire p. 34,figure 4 (p. 31) indique 4 ; le texte et la figure 5 donnent 3 (valeur retenue)
+2024–2025,defi,,Temps de travail,Phase d'installation,1,14,mémoire p. 34,
+2024–2025,defi,,Pénibilité physique,Manutention de charges lourdes,10,14,mémoire p. 35,
+2024–2025,defi,,Pénibilité physique,Efforts soutenus,9,14,mémoire p. 35,
+2024–2025,defi,,Pénibilité physique,Positions de travail contraignantes,8,14,mémoire p. 36,
+2024–2025,defi,,Pénibilité physique,Exposition à des conditions de travail difficiles,5,14,mémoire p. 36,figure 4 (p. 31) indique 6 ; le texte et la figure 6 donnent 5 (valeur retenue)
+2024–2025,defi,,Pénibilité physique,Problèmes de santé et/ou maladies graves,2,14,mémoire p. 36,
+2024–2025,defi,,Pénibilité psychologique,Problèmes moraux et stress liés au travail,7,14,mémoire p. 37,
+2024–2025,defi,,Pénibilité psychologique,Importance des tâches désagréables,7,14,mémoire p. 37,
+2024–2025,defi,,Pénibilité psychologique,Situations de surmenage,4,14,mémoire p. 38,
+2024–2025,defi,,Pénibilité psychologique,Gestion de la main-d'œuvre,3,14,mémoire p. 38,
+2024–2025,defi,,Pénibilité psychologique,Complexité du travail,2,14,mémoire p. 38,
+2024–2025,etape_critique,Travail administratif,Temps de travail,Activités administratives,8,14,"mémoire tableau 6, p. 41",une même ferme peut être comptée dans plusieurs étapes
+2024–2025,etape_critique,Travail administratif,Pénibilité psychologique,Problèmes moraux et stress liés au travail,2,14,"mémoire tableau 6, p. 41",une même ferme peut être comptée dans plusieurs étapes
+2024–2025,etape_critique,Travail administratif,Pénibilité psychologique,Importance des tâches désagréables,2,14,"mémoire tableau 6, p. 41",une même ferme peut être comptée dans plusieurs étapes
+2024–2025,etape_critique,Travail administratif,Pénibilité psychologique,Complexité du travail,2,14,"mémoire tableau 6, p. 41",une même ferme peut être comptée dans plusieurs étapes
+2024–2025,etape_critique,Commercialisation,Temps de travail,Activités de commercialisation et communication,7,14,"mémoire tableau 6, p. 41",une même ferme peut être comptée dans plusieurs étapes
+2024–2025,etape_critique,Commercialisation,Temps de travail,Appréciation du rythme de travail,2,14,"mémoire tableau 6, p. 41",une même ferme peut être comptée dans plusieurs étapes
+2024–2025,etape_critique,Commercialisation,Pénibilité psychologique,Importance des tâches désagréables,2,14,"mémoire tableau 6, p. 41",une même ferme peut être comptée dans plusieurs étapes
+2024–2025,etape_critique,Commercialisation,Pénibilité psychologique,Problèmes moraux et stress liés au travail,1,14,"mémoire tableau 6, p. 41",une même ferme peut être comptée dans plusieurs étapes
+2024–2025,etape_critique,Commercialisation,Pénibilité physique,Exposition à des conditions de travail difficiles,1,14,"mémoire tableau 6, p. 41",une même ferme peut être comptée dans plusieurs étapes
+2024–2025,etape_critique,Ressources humaines,Pénibilité psychologique,Situations de surmenage,4,14,"mémoire tableau 6, p. 41",une même ferme peut être comptée dans plusieurs étapes
+2024–2025,etape_critique,Ressources humaines,Pénibilité psychologique,Gestion de la main-d'œuvre,3,14,"mémoire tableau 6, p. 41",une même ferme peut être comptée dans plusieurs étapes
+2024–2025,etape_critique,Ressources humaines,Pénibilité physique,Problèmes de santé et/ou maladies graves,2,14,"mémoire tableau 6, p. 41",une même ferme peut être comptée dans plusieurs étapes
+2024–2025,etape_critique,Ressources humaines,Pénibilité physique,Efforts soutenus,1,14,"mémoire tableau 6, p. 41",une même ferme peut être comptée dans plusieurs étapes
+2024–2025,etape_critique,Ressources humaines,Temps de travail,Activités de commercialisation et communication,1,14,"mémoire tableau 6, p. 41",une même ferme peut être comptée dans plusieurs étapes
+2024–2025,etape_critique,Récolte et stockage,Pénibilité physique,Positions de travail contraignantes,4,14,"mémoire tableau 6, p. 41",une même ferme peut être comptée dans plusieurs étapes
+2024–2025,etape_critique,Récolte et stockage,Pénibilité physique,Exposition à des conditions de travail difficiles,3,14,"mémoire tableau 6, p. 41",une même ferme peut être comptée dans plusieurs étapes
+2024–2025,etape_critique,Récolte et stockage,Pénibilité physique,Manutention de charges lourdes,2,14,"mémoire tableau 6, p. 41",une même ferme peut être comptée dans plusieurs étapes
+2024–2025,etape_critique,Récolte et stockage,Temps de travail,Activités agricoles de production,1,14,"mémoire tableau 6, p. 41",une même ferme peut être comptée dans plusieurs étapes
+2024–2025,etape_critique,Logistique de transport,Pénibilité physique,Manutention de charges lourdes,6,14,"mémoire tableau 6, p. 41",une même ferme peut être comptée dans plusieurs étapes
+2024–2025,etape_critique,Logistique de transport,Temps de travail,Activités de commercialisation et communication,2,14,"mémoire tableau 6, p. 41",une même ferme peut être comptée dans plusieurs étapes
+2024–2025,etape_critique,Logistique de transport,Pénibilité psychologique,Problèmes moraux et stress liés au travail,1,14,"mémoire tableau 6, p. 41",une même ferme peut être comptée dans plusieurs étapes
+2024–2025,etape_critique,Gestion de l'enherbement,Temps de travail,Activités agricoles de production,5,14,"mémoire tableau 6, p. 41",une même ferme peut être comptée dans plusieurs étapes
+2024–2025,etape_critique,Gestion de l'enherbement,Pénibilité physique,Efforts soutenus,2,14,"mémoire tableau 6, p. 41",une même ferme peut être comptée dans plusieurs étapes
+2024–2025,etape_critique,Gestion de l'enherbement,Pénibilité psychologique,Importance des tâches désagréables,1,14,"mémoire tableau 6, p. 41",une même ferme peut être comptée dans plusieurs étapes
+2024–2025,etape_critique,Dépendance aux conditions météorologiques,Pénibilité physique,Exposition à des conditions de travail difficiles,5,14,"mémoire tableau 6, p. 41",une même ferme peut être comptée dans plusieurs étapes
+2024–2025,etape_critique,Dépendance aux conditions météorologiques,Pénibilité psychologique,Problèmes moraux et stress liés au travail,3,14,"mémoire tableau 6, p. 41",une même ferme peut être comptée dans plusieurs étapes
+2024–2025,etape_critique,Préparation du lit de semences,Pénibilité physique,Efforts soutenus,5,14,"mémoire tableau 6, p. 41",une même ferme peut être comptée dans plusieurs étapes
+2024–2025,etape_critique,Préparation du lit de semences,Temps de travail,Activités agricoles de production,2,14,"mémoire tableau 6, p. 41",une même ferme peut être comptée dans plusieurs étapes
+2024–2025,etape_critique,Planification,Temps de travail,Appréciation du rythme de travail,2,14,"mémoire tableau 6, p. 41",une même ferme peut être comptée dans plusieurs étapes
+2024–2025,etape_critique,Planification,Pénibilité physique,Efforts soutenus,1,14,"mémoire tableau 6, p. 41",une même ferme peut être comptée dans plusieurs étapes
+2024–2025,etape_critique,Planification,Pénibilité psychologique,Problèmes moraux et stress liés au travail,1,14,"mémoire tableau 6, p. 41",une même ferme peut être comptée dans plusieurs étapes
+2024–2025,etape_critique,Planification,Pénibilité psychologique,Complexité du travail,1,14,"mémoire tableau 6, p. 41",une même ferme peut être comptée dans plusieurs étapes
+2024–2025,etape_critique,Amendement et fertilisation,Pénibilité physique,Manutention de charges lourdes,2,14,"mémoire tableau 6, p. 41",une même ferme peut être comptée dans plusieurs étapes
+2024–2025,etape_critique,Amendement et fertilisation,Temps de travail,Activités agricoles de production,1,14,"mémoire tableau 6, p. 41",une même ferme peut être comptée dans plusieurs étapes
+2024–2025,etape_critique,Amendement et fertilisation,Pénibilité physique,Exposition à des conditions de travail difficiles,1,14,"mémoire tableau 6, p. 41",une même ferme peut être comptée dans plusieurs étapes
+2024–2025,etape_critique,Semis et plantation,Pénibilité physique,Positions de travail contraignantes,2,14,"mémoire tableau 6, p. 41",une même ferme peut être comptée dans plusieurs étapes
+2024–2025,etape_critique,Semis et plantation,Pénibilité physique,Efforts soutenus,1,14,"mémoire tableau 6, p. 41",une même ferme peut être comptée dans plusieurs étapes
+2024–2025,etape_critique,Semis et plantation,Temps de travail,Activités agricoles de production,1,14,"mémoire tableau 6, p. 41",une même ferme peut être comptée dans plusieurs étapes
+2024–2025,etape_critique,Lavage et préparation des légumes,Temps de travail,Activités agricoles de production,2,14,"mémoire tableau 6, p. 41",une même ferme peut être comptée dans plusieurs étapes
+2024–2025,etape_critique,Lavage et préparation des légumes,Pénibilité physique,Positions de travail contraignantes,1,14,"mémoire tableau 6, p. 41",une même ferme peut être comptée dans plusieurs étapes
+2024–2025,etape_critique,Lavage et préparation des légumes,Pénibilité physique,Exposition à des conditions de travail difficiles,1,14,"mémoire tableau 6, p. 41",une même ferme peut être comptée dans plusieurs étapes
+2024–2025,etape_critique,Ressources financières,Pénibilité psychologique,Problèmes moraux et stress liés au travail,2,14,"mémoire tableau 6, p. 41",une même ferme peut être comptée dans plusieurs étapes
+2024–2025,etape_critique,Ressources financières,Pénibilité psychologique,Importance des tâches désagréables,2,14,"mémoire tableau 6, p. 41",une même ferme peut être comptée dans plusieurs étapes
+2024–2025,etape_critique,Irrigation,Temps de travail,Activités agricoles de production,3,14,"mémoire tableau 6, p. 41",une même ferme peut être comptée dans plusieurs étapes
+2024–2025,etape_critique,Production de plants,Temps de travail,Activités de diversification,3,14,"mémoire tableau 6, p. 41",une même ferme peut être comptée dans plusieurs étapes
+2024–2025,etape_critique,Gestion des ravageurs,Temps de travail,Activités agricoles de production,2,14,"mémoire tableau 6, p. 41",une même ferme peut être comptée dans plusieurs étapes
+2024–2025,etape_critique,Communication,Temps de travail,Activités de commercialisation et communication,2,14,"mémoire tableau 6, p. 41",une même ferme peut être comptée dans plusieurs étapes
+2024–2025,etape_critique,Installation,Temps de travail,Phase d'installation,1,14,"mémoire tableau 6, p. 41",une même ferme peut être comptée dans plusieurs étapes

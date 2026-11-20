@@ -1,0 +1,19 @@
+etape,n_max,dimensions
+Travail administratif,8,Pénibilité psychologique ; Temps de travail
+Commercialisation,7,Pénibilité physique ; Pénibilité psychologique ; Temps de travail
+Logistique de transport,6,Pénibilité physique ; Pénibilité psychologique ; Temps de travail
+Dépendance aux conditions météorologiques,5,Pénibilité physique ; Pénibilité psychologique
+Gestion de l'enherbement,5,Pénibilité physique ; Pénibilité psychologique ; Temps de travail
+Préparation du lit de semences,5,Pénibilité physique ; Temps de travail
+Ressources humaines,4,Pénibilité physique ; Pénibilité psychologique ; Temps de travail
+Récolte et stockage,4,Pénibilité physique ; Temps de travail
+Irrigation,3,Temps de travail
+Production de plants,3,Temps de travail
+Amendement et fertilisation,2,Pénibilité physique ; Temps de travail
+Communication,2,Temps de travail
+Gestion des ravageurs,2,Temps de travail
+Lavage et préparation des légumes,2,Pénibilité physique ; Temps de travail
+Planification,2,Pénibilité physique ; Pénibilité psychologique ; Temps de travail
+Ressources financières,2,Pénibilité psychologique
+Semis et plantation,2,Pénibilité physique ; Temps de travail
+Installation,1,Temps de travail

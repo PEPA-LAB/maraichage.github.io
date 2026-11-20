@@ -33,17 +33,19 @@
     ]
   },
   {
-    "listing": "/themes.html",
+    "listing": "/index.html",
     "items": [
-      "/fiches/2026-paillage-epinard-laitue/index.html",
+      "/fiches/2025-conditions-travail-maraichage/index.html",
+      "/fiches/2024-irrigation-tomate/index.html",
       "/fiches/2025-oyas-chou/index.html",
       "/fiches/2025-paillage-epinard-oignon/index.html",
-      "/fiches/2024-irrigation-tomate/index.html"
+      "/fiches/2026-paillage-epinard-laitue/index.html"
     ]
   },
   {
     "listing": "/fiches.html",
     "items": [
+      "/fiches/2025-conditions-travail-maraichage/index.html",
       "/fiches/2024-irrigation-tomate/index.html",
       "/fiches/2025-oyas-chou/index.html",
       "/fiches/2025-paillage-epinard-oignon/index.html",
@@ -51,12 +53,13 @@
     ]
   },
   {
-    "listing": "/index.html",
+    "listing": "/themes.html",
     "items": [
-      "/fiches/2024-irrigation-tomate/index.html",
+      "/fiches/2026-paillage-epinard-laitue/index.html",
+      "/fiches/2025-conditions-travail-maraichage/index.html",
       "/fiches/2025-oyas-chou/index.html",
       "/fiches/2025-paillage-epinard-oignon/index.html",
-      "/fiches/2026-paillage-epinard-laitue/index.html"
+      "/fiches/2024-irrigation-tomate/index.html"
     ]
   },
   {
