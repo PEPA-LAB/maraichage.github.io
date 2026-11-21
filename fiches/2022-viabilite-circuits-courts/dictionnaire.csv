@@ -1,0 +1,9 @@
+colonne,description,unite,type,valeurs_possibles,source
+ferme,Identifiant anonyme de la ferme (id aléatoire de l'annexe),,texte,F01 à F18,Annexe xlsx (sm8012)
+orientation,Orientation technique selon Dumont (2017) : petite surface (< 2.5 ha) ou moyenne surface (2.8 à 8.3 ha),,texte,Petite surface ; Moyenne surface,Reconstruit depuis l'annexe F de l'article (voir flag)
+canal,Canal de distribution,,texte,Vente à la ferme ; Marchés ; Paniers ; Coopératives locales ; Grossistes ; Supermarchés ; Magasins locaux ; Institutions locales ; Horeca ; Autres,Annexe xlsx (sm8012)
+canal_local,Canal considéré comme local dans l'article (supermarchés et grossistes = non),,texte,oui ; non,Article p. 1777
+part_ca,Part du chiffre d'affaires légumes de la ferme vendue via ce canal,%,nombre,0 à 100 (somme = 100 par ferme),Annexe xlsx (sm8012)
+saison,Année des données économiques,,texte,2021,Article annexe B
+source,Origine de la valeur,,texte,,
+flag,Remarque sur la ligne,,texte,,

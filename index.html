@@ -88,7 +88,7 @@ ul.task-list li input[type="checkbox"] {
     const options = {
       valueNames: ['listing-title','listing-date','listing-categories','listing-description','listing-culture','listing-annee','listing-type','listing-statut','listing-resultat','listing-ressources','listing-kpi','listing-kpi_label','listing-image',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-date-modified-sort'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
       
-      searchColumns: ["listing-project","listing-lang","listing-website","listing-format","listing-engines","listing-language","listing-license","listing-toc","listing-title-block-banner","listing-body-classes","listing-statut","listing-recap-base-url","listing-format-links","listing-title","listing-date","listing-annee","listing-type","listing-culture","listing-categories","listing-keywords","listing-kpi","listing-kpi_label","listing-image","listing-resultat","listing-auteurs","listing-encadrement","listing-author","listing-lieu","listing-ressources","listing-path","listing-outputHref","listing-date-modified","listing-description","listing-filename","listing-file-modified","listing-reading-time","listing-word-count"],
+      searchColumns: ["listing-project","listing-lang","listing-website","listing-format","listing-engines","listing-language","listing-license","listing-toc","listing-title-block-banner","listing-body-classes","listing-statut","listing-recap-base-url","listing-format-links","listing-title","listing-date","listing-annee","listing-type","listing-publication","listing-categories","listing-keywords","listing-kpi","listing-kpi_label","listing-resultat","listing-auteurs","listing-author","listing-lieu","listing-ressources","listing-path","listing-outputHref","listing-date-modified","listing-description","listing-filename","listing-file-modified","listing-reading-time","listing-word-count","listing-culture","listing-image","listing-encadrement"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -280,7 +280,28 @@ window.Quarto = {
 <div id="listing-dernieres-fiches" class="quarto-listing quarto-listing-container-custom">
 <div class="list fiche-grid">
 
-<a class="fiche-card" href="./fiches/2025-conditions-travail-maraichage/index.html" data-index="0" data-categories="Q29uZGl0aW9ucyUyMGRlJTIwdHJhdmFpbCUyQyVDMyU4OWNvbm9taWU=" data-listing-date-sort="1795129200000" data-listing-file-modified-sort="1795185326744" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6" data-listing-word-count-sort="1119">
+<a class="fiche-card" href="./fiches/2022-viabilite-circuits-courts/index.html" data-index="0" data-categories="JUMzJTg5Y29ub21pZSUyQ0NvbW1lcmNpYWxpc2F0aW9u" data-listing-date-sort="1795215600000" data-listing-file-modified-sort="1795237452114" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7" data-listing-word-count-sort="1222">
+<div class="fiche-img" style="background-image:url('images/banniere.jpg')">
+
+<span class="statut-badge statut-publie statut-carte">Publié</span>
+<div class="kpi"><b>97 %</b><span>du chiffre d'affaires vendu en local</span></div>
+</div>
+<div class="fiche-body">
+<div class="fiche-meta">Article · 2021–2022</div>
+<h3 class="listing-title anchored">Viabilité des maraîchers : canaux de vente et enjeux de filière</h3>
+<p class="fiche-resultat listing-description">Les 18 maraîchers du Cœur de Condroz vendent 97 % de leur production localement, mais 4 sur 16 font moins de 11 € de chiffre d'affaires par heure.</p>
+<div class="fiche-pills">
+
+<span class="pill th listing-category">Économie</span><span class="pill th listing-category">Commercialisation</span>
+<span class="pill fi">PDF</span>
+<span class="pill fi">CSV</span>
+<span class="pill fi">DOI</span>
+<span class="pill fi">Code</span>
+</div>
+</div>
+</a>
+
+<a class="fiche-card" href="./fiches/2025-conditions-travail-maraichage/index.html" data-index="1" data-categories="Q29uZGl0aW9ucyUyMGRlJTIwdHJhdmFpbCUyQyVDMyU4OWNvbm9taWU=" data-listing-date-sort="1795129200000" data-listing-file-modified-sort="1795185326744" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6" data-listing-word-count-sort="1119">
 <div class="fiche-img" style="background-image:url('images/banniere.jpg')">
 
 <span class="statut-badge statut-preliminaire statut-carte">Préliminaire</span>
@@ -301,7 +322,7 @@ window.Quarto = {
 </div>
 </a>
 
-<a class="fiche-card" href="./fiches/2024-irrigation-tomate/index.html" data-index="1" data-categories="R2VzdGlvbiUyMGRlJTIwbCdlYXUlMkNUb21hdGU=" data-listing-date-sort="1794870000000" data-listing-file-modified-sort="1795023505292" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6" data-listing-word-count-sort="1186">
+<a class="fiche-card" href="./fiches/2024-irrigation-tomate/index.html" data-index="2" data-categories="R2VzdGlvbiUyMGRlJTIwbCdlYXUlMkNUb21hdGU=" data-listing-date-sort="1794870000000" data-listing-file-modified-sort="1795023505292" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6" data-listing-word-count-sort="1186">
 <div class="fiche-img" style="background-image:url('fiches/2024-irrigation-tomate/photo.jpg')">
 
 <span class="statut-badge statut-preliminaire statut-carte">Préliminaire</span>
@@ -313,27 +334,6 @@ window.Quarto = {
 <p class="fiche-resultat listing-description">Avec 4,6 fois moins d'eau, les oyas gardent 73 % du rendement médian ; l'irrigation complète reste la plus productive (3,2 kg/plant).</p>
 <div class="fiche-pills">
 <span class="pill cu">Tomate</span>
-<span class="pill th listing-category">Gestion de l'eau</span>
-<span class="pill fi">PDF</span>
-<span class="pill fi">CSV</span>
-<span class="pill fi">DOI</span>
-<span class="pill fi">Code</span>
-</div>
-</div>
-</a>
-
-<a class="fiche-card" href="./fiches/2025-oyas-chou/index.html" data-index="2" data-categories="R2VzdGlvbiUyMGRlJTIwbCdlYXUlMkNDaG91" data-listing-date-sort="1794870000000" data-listing-file-modified-sort="1795182134918" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7" data-listing-word-count-sort="1304">
-<div class="fiche-img" style="background-image:url('fiches/2025-oyas-chou/photo.jpg')">
-
-<span class="statut-badge statut-preliminaire statut-carte">Préliminaire</span>
-<div class="kpi"><b>−70 %</b><span>d'eau avec un oya à 56 cm</span></div>
-</div>
-<div class="fiche-body">
-<div class="fiche-meta">Mémoire · 2025</div>
-<h3 class="listing-title anchored">Oyas pour le chou : à quelle distance les placer ?</h3>
-<p class="fiche-resultat listing-description">Un oya à 56 cm du chou économise 70 % d'eau ; 11 choux sur 12 restent commercialisables, pour un rendement commercialisable 10 % sous l'arrosage.</p>
-<div class="fiche-pills">
-<span class="pill cu">Chou</span>
 <span class="pill th listing-category">Gestion de l'eau</span>
 <span class="pill fi">PDF</span>
 <span class="pill fi">CSV</span>

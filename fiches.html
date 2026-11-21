@@ -88,7 +88,7 @@ ul.task-list li input[type="checkbox"] {
     const options = {
       valueNames: ['listing-title','listing-date','listing-categories','listing-description','listing-culture','listing-annee','listing-type','listing-statut','listing-resultat','listing-ressources','listing-kpi','listing-kpi_label','listing-image',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] }],
       
-      searchColumns: ["listing-project","listing-lang","listing-website","listing-format","listing-engines","listing-language","listing-license","listing-toc","listing-title-block-banner","listing-body-classes","listing-statut","listing-recap-base-url","listing-format-links","listing-title","listing-date","listing-annee","listing-type","listing-culture","listing-categories","listing-keywords","listing-kpi","listing-kpi_label","listing-image","listing-resultat","listing-auteurs","listing-encadrement","listing-author","listing-lieu","listing-ressources","listing-path","listing-outputHref","listing-date-modified","listing-description","listing-filename","listing-file-modified","listing-reading-time","listing-word-count"],
+      searchColumns: ["listing-project","listing-lang","listing-website","listing-format","listing-engines","listing-language","listing-license","listing-toc","listing-title-block-banner","listing-body-classes","listing-statut","listing-recap-base-url","listing-format-links","listing-title","listing-date","listing-annee","listing-type","listing-publication","listing-categories","listing-keywords","listing-kpi","listing-kpi_label","listing-resultat","listing-auteurs","listing-author","listing-lieu","listing-ressources","listing-path","listing-outputHref","listing-date-modified","listing-description","listing-filename","listing-file-modified","listing-reading-time","listing-word-count","listing-culture","listing-image","listing-encadrement"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -216,7 +216,7 @@ window.Quarto = {
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-    <h5 class="quarto-listing-category-title">Catégories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">Toutes <span class="quarto-category-count">(5)</span></div><div class="category" data-category="Q2hvdQ==">Chou <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Q29uZGl0aW9ucyUyMGRlJTIwdHJhdmFpbA==">Conditions de travail <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Q291dmVydHMlMjB2JUMzJUE5ZyVDMyVBOXRhdXg=">Couverts végétaux <span class="quarto-category-count">(2)</span></div><div class="category" data-category="JUMzJTg5Y29ub21pZQ==">Économie <span class="quarto-category-count">(1)</span></div><div class="category" data-category="JUMzJTg5cGluYXJk">Épinard <span class="quarto-category-count">(2)</span></div><div class="category" data-category="R2VzdGlvbiUyMGRlJTIwbCdlYXU=">Gestion de l'eau <span class="quarto-category-count">(2)</span></div><div class="category" data-category="TGFpdHVl">Laitue <span class="quarto-category-count">(1)</span></div><div class="category" data-category="T2lnbm9u">Oignon <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UGFpbGxhZ2U=">Paillage <span class="quarto-category-count">(2)</span></div><div class="category" data-category="VG9tYXRl">Tomate <span class="quarto-category-count">(1)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Catégories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">Toutes <span class="quarto-category-count">(6)</span></div><div class="category" data-category="Q2hvdQ==">Chou <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Q29tbWVyY2lhbGlzYXRpb24=">Commercialisation <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Q29uZGl0aW9ucyUyMGRlJTIwdHJhdmFpbA==">Conditions de travail <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Q291dmVydHMlMjB2JUMzJUE5ZyVDMyVBOXRhdXg=">Couverts végétaux <span class="quarto-category-count">(2)</span></div><div class="category" data-category="JUMzJTg5Y29ub21pZQ==">Économie <span class="quarto-category-count">(2)</span></div><div class="category" data-category="JUMzJTg5cGluYXJk">Épinard <span class="quarto-category-count">(2)</span></div><div class="category" data-category="R2VzdGlvbiUyMGRlJTIwbCdlYXU=">Gestion de l'eau <span class="quarto-category-count">(2)</span></div><div class="category" data-category="TGFpdHVl">Laitue <span class="quarto-category-count">(1)</span></div><div class="category" data-category="T2lnbm9u">Oignon <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UGFpbGxhZ2U=">Paillage <span class="quarto-category-count">(2)</span></div><div class="category" data-category="VG9tYXRl">Tomate <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
 <main class="content quarto-banner-title-block column-page-left" id="quarto-document-content" tabindex="-1">
 
@@ -269,7 +269,28 @@ window.Quarto = {
 </div>
 <div class="list fiche-grid">
 
-<a class="fiche-card" href="./fiches/2025-conditions-travail-maraichage/index.html" data-index="0" data-categories="Q29uZGl0aW9ucyUyMGRlJTIwdHJhdmFpbCUyQyVDMyU4OWNvbm9taWU=" data-listing-date-sort="1795129200000" data-listing-file-modified-sort="1795185326744" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6" data-listing-word-count-sort="1119">
+<a class="fiche-card" href="./fiches/2022-viabilite-circuits-courts/index.html" data-index="0" data-categories="JUMzJTg5Y29ub21pZSUyQ0NvbW1lcmNpYWxpc2F0aW9u" data-listing-date-sort="1795215600000" data-listing-file-modified-sort="1795237452114" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7" data-listing-word-count-sort="1222">
+<div class="fiche-img" style="background-image:url('images/banniere.jpg')">
+
+<span class="statut-badge statut-publie statut-carte">Publié</span>
+<div class="kpi"><b>97 %</b><span>du chiffre d'affaires vendu en local</span></div>
+</div>
+<div class="fiche-body">
+<div class="fiche-meta">Article · 2021–2022</div>
+<h3 class="listing-title anchored">Viabilité des maraîchers : canaux de vente et enjeux de filière</h3>
+<p class="fiche-resultat listing-description">Les 18 maraîchers du Cœur de Condroz vendent 97 % de leur production localement, mais 4 sur 16 font moins de 11 € de chiffre d'affaires par heure.</p>
+<div class="fiche-pills">
+
+<span class="pill th listing-category">Économie</span><span class="pill th listing-category">Commercialisation</span>
+<span class="pill fi">PDF</span>
+<span class="pill fi">CSV</span>
+<span class="pill fi">DOI</span>
+<span class="pill fi">Code</span>
+</div>
+</div>
+</a>
+
+<a class="fiche-card" href="./fiches/2025-conditions-travail-maraichage/index.html" data-index="1" data-categories="Q29uZGl0aW9ucyUyMGRlJTIwdHJhdmFpbCUyQyVDMyU4OWNvbm9taWU=" data-listing-date-sort="1795129200000" data-listing-file-modified-sort="1795185326744" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6" data-listing-word-count-sort="1119">
 <div class="fiche-img" style="background-image:url('images/banniere.jpg')">
 
 <span class="statut-badge statut-preliminaire statut-carte">Préliminaire</span>
@@ -290,7 +311,7 @@ window.Quarto = {
 </div>
 </a>
 
-<a class="fiche-card" href="./fiches/2024-irrigation-tomate/index.html" data-index="1" data-categories="R2VzdGlvbiUyMGRlJTIwbCdlYXUlMkNUb21hdGU=" data-listing-date-sort="1794870000000" data-listing-file-modified-sort="1795023505292" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6" data-listing-word-count-sort="1186">
+<a class="fiche-card" href="./fiches/2024-irrigation-tomate/index.html" data-index="2" data-categories="R2VzdGlvbiUyMGRlJTIwbCdlYXUlMkNUb21hdGU=" data-listing-date-sort="1794870000000" data-listing-file-modified-sort="1795023505292" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6" data-listing-word-count-sort="1186">
 <div class="fiche-img" style="background-image:url('fiches/2024-irrigation-tomate/photo.jpg')">
 
 <span class="statut-badge statut-preliminaire statut-carte">Préliminaire</span>
@@ -311,7 +332,7 @@ window.Quarto = {
 </div>
 </a>
 
-<a class="fiche-card" href="./fiches/2025-oyas-chou/index.html" data-index="2" data-categories="R2VzdGlvbiUyMGRlJTIwbCdlYXUlMkNDaG91" data-listing-date-sort="1794870000000" data-listing-file-modified-sort="1795182134918" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7" data-listing-word-count-sort="1304">
+<a class="fiche-card" href="./fiches/2025-oyas-chou/index.html" data-index="3" data-categories="R2VzdGlvbiUyMGRlJTIwbCdlYXUlMkNDaG91" data-listing-date-sort="1794870000000" data-listing-file-modified-sort="1795182134918" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7" data-listing-word-count-sort="1304">
 <div class="fiche-img" style="background-image:url('fiches/2025-oyas-chou/photo.jpg')">
 
 <span class="statut-badge statut-preliminaire statut-carte">Préliminaire</span>
@@ -332,7 +353,7 @@ window.Quarto = {
 </div>
 </a>
 
-<a class="fiche-card" href="./fiches/2025-paillage-epinard-oignon/index.html" data-index="3" data-categories="UGFpbGxhZ2UlMkNDb3V2ZXJ0cyUyMHYlQzMlQTlnJUMzJUE5dGF1eCUyQyVDMyU4OXBpbmFyZCUyQ09pZ25vbg==" data-listing-date-sort="1794870000000" data-listing-file-modified-sort="1795094496603" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7" data-listing-word-count-sort="1340">
+<a class="fiche-card" href="./fiches/2025-paillage-epinard-oignon/index.html" data-index="4" data-categories="UGFpbGxhZ2UlMkNDb3V2ZXJ0cyUyMHYlQzMlQTlnJUMzJUE5dGF1eCUyQyVDMyU4OXBpbmFyZCUyQ09pZ25vbg==" data-listing-date-sort="1794870000000" data-listing-file-modified-sort="1795094496603" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7" data-listing-word-count-sort="1340">
 <div class="fiche-img" style="background-image:url('fiches/2025-paillage-epinard-oignon/photo.jpg')">
 
 <span class="statut-badge statut-preliminaire statut-carte">Préliminaire</span>
@@ -353,7 +374,7 @@ window.Quarto = {
 </div>
 </a>
 
-<a class="fiche-card" href="./fiches/2026-paillage-epinard-laitue/index.html" data-index="4" data-categories="UGFpbGxhZ2UlMkNDb3V2ZXJ0cyUyMHYlQzMlQTlnJUMzJUE5dGF1eCUyQyVDMyU4OXBpbmFyZCUyQ0xhaXR1ZQ==" data-listing-date-sort="1794870000000" data-listing-file-modified-sort="1795182134920" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7" data-listing-word-count-sort="1249">
+<a class="fiche-card" href="./fiches/2026-paillage-epinard-laitue/index.html" data-index="5" data-categories="UGFpbGxhZ2UlMkNDb3V2ZXJ0cyUyMHYlQzMlQTlnJUMzJUE5dGF1eCUyQyVDMyU4OXBpbmFyZCUyQ0xhaXR1ZQ==" data-listing-date-sort="1794870000000" data-listing-file-modified-sort="1795182134920" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7" data-listing-word-count-sort="1249">
 <div class="fiche-img" style="background-image:url('fiches/2026-paillage-epinard-laitue/photo.jpg')">
 
 <span class="statut-badge statut-preliminaire statut-carte">Préliminaire</span>

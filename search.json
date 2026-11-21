@@ -413,151 +413,53 @@
     "text": "Ressources\n\n Fiche récapitulative (PDF)  Document complet  Données de la fiche (CSV)  Données brutes archivées (DOI)  Scripts d’analyse\n\nCiter cette fiche : Pierre-André Peters-Dickie (mémoire 2026), Eliot Vas (conception du dispositif, mémoire 2025) (2025–2026). Cinq paillages en maraîchage bio : sol, eau et légumes. Fiche PEPA Lab, UCLouvain."
   },
   {
-    "objectID": "fiches/2024-irrigation-tomate/index.html",
-    "href": "fiches/2024-irrigation-tomate/index.html",
-    "title": "Tomate sous tunnel : combien d’eau pour quel rendement ?",
+    "objectID": "fiches/2025-paillage-epinard-oignon/index.html",
+    "href": "fiches/2025-paillage-epinard-oignon/index.html",
+    "title": "Paillages en maraîchage bio : bilan de la première année",
     "section": "",
     "text": "AvertissementRésultats préliminaires\n\n\n\nCes résultats viennent d'un travail de fin d'études, en général sur une seule saison et un seul site, sans relecture par des pairs. Ils donnent des pistes à confirmer, pas des recommandations établies."
   },
   {
-    "objectID": "fiches/2024-irrigation-tomate/index.html#question",
-    "href": "fiches/2024-irrigation-tomate/index.html#question",
-    "title": "Tomate sous tunnel : combien d’eau pour quel rendement ?",
+    "objectID": "fiches/2025-paillage-epinard-oignon/index.html#question",
+    "href": "fiches/2025-paillage-epinard-oignon/index.html#question",
+    "title": "Paillages en maraîchage bio : bilan de la première année",
     "section": "Question",
-    "text": "Question\nEn maraîchage sous tunnel, peut-on réduire l’irrigation de la tomate, ou changer de système (oyas, semis direct), sans trop perdre de rendement ? Sur quelles composantes du rendement le manque d’eau agit-il : nombre de fleurs, avortement, nombre et poids des fruits ?"
+    "text": "Question\nComment cinq types de paillage influencent-ils la santé du sol, la croissance des légumes et les adventices en maraîchage biologique sur petite surface ? Quelles méthodes de mesure simples permettent de suivre ces effets sur 10 ans ? Ce mémoire lance la plateforme de Lauzelle et en teste les protocoles."
   },
   {
-    "objectID": "fiches/2024-irrigation-tomate/index.html#dispositif",
-    "href": "fiches/2024-irrigation-tomate/index.html#dispositif",
-    "title": "Tomate sous tunnel : combien d’eau pour quel rendement ?",
+    "objectID": "fiches/2025-paillage-epinard-oignon/index.html#dispositif",
+    "href": "fiches/2025-paillage-epinard-oignon/index.html#dispositif",
+    "title": "Paillages en maraîchage bio : bilan de la première année",
     "section": "Dispositif",
-    "text": "Dispositif\n\n\n\n\n\n\n\nLieu\nFerme universitaire de Marbaix (Chaumont-Gistoux), tunnel de 20 × 7 m couvert le 14/05/2024, sol sablo-limoneux\n\n\nSaison\nPlantation le 21/05/2024 ; traitements dès le 31/05 ; récoltes du 7/08 au 2/10/2024\n\n\nCulture\nTomate ‘Tigerella’ (bio), semée en serre le 4/04 ; plants espacés de 50 cm sur la ligne et 75 cm entre lignes ; toile géotextile au sol, taille des apex le 29/08\n\n\nModalités\n100 % de l’apport recommandé (goutte-à-goutte) · 50 % · 0 % (aucune irrigation) · Oyas de 5 L · Semis « direct » irrigué à 50 % (le semis en champ n’ayant pas levé, plants semés en serre le 21/05 et repiqués le 4/06)\n\n\nPlan et répétitions\n3 planches de 8 plants par traitement, réparties au hasard entre des zones tampons ; 9 plants suivis par traitement (3 par planche)\n\n\nMesures\nChaque fleur et chaque fruit (position, poids), eau apportée par plant, humidité du sol (TRIME, fin de saison), météo de Louvain-la-Neuve"
+    "text": "Dispositif\n\n\n\n\n\n\n\nLieu\nFerme universitaire de Lauzelle (Louvain-la-Neuve), ≈ 360 m², légère pente au sud\n\n\nSol\nSablo-limoneux, drainage modéré à imparfait, pH KCl ≈ 5,8\n\n\nSaison\nSeptembre 2024 – juin 2025. Design définitif en janvier 2025, paillages en place du 26 février au 1er avril 2025.\n\n\nCultures\nÉpinard ‘Butterflay’ (bloc 1, planté le 8/04, récolté le 16/05) ; oignon ‘Sturon’ (bloc 2, planté le 15/04)\n\n\nModalités\nBâche plastique tissée noire · BRF (bois de Lauzelle) · Miscanthus · Trèfle blanc · Mix mélilot jaune + moha. Trèfle et Mix ont été semés le 29/04, sur le bloc épinard uniquement.\n\n\nPlan et répétitions\n30 parcelles d’environ 12 m² (3 colonnes × 10 rangs), 2 blocs légumes, 6 répétitions par modalité\n\n\nMesures\nFertilité initiale, structure (VESS, stabilité des agrégats), vers de terre, infiltration, carbone microbien et mycorhizes (5 parcelles), adventices, couverture foliaire, biomasse d’épinard"
   },
   {
-    "objectID": "fiches/2024-irrigation-tomate/index.html#résultats-clés",
-    "href": "fiches/2024-irrigation-tomate/index.html#résultats-clés",
-    "title": "Tomate sous tunnel : combien d’eau pour quel rendement ?",
+    "objectID": "fiches/2025-paillage-epinard-oignon/index.html#résultats-clés",
+    "href": "fiches/2025-paillage-epinard-oignon/index.html#résultats-clés",
+    "title": "Paillages en maraîchage bio : bilan de la première année",
     "section": "Résultats clés",
-    "text": "Résultats clés\nRendement. En médiane par plant, l’irrigation complète a donné 3,25 kg, contre 2,37 kg avec les oyas, 2,35 kg à 50 %, 2,04 kg en semis « direct » et 1,96 kg sans irrigation. Statistiquement, seuls le 0 % et le semis « direct » sont inférieurs à l’irrigation complète. Sur les 9 plants suivis, le 100 % a produit 497 fruits commercialisables (plus de 30 g), contre 283 pour le semis « direct ».\nEau. Sur la saison, chaque plant a reçu 127 L à 100 %, 63 L à 50 % et en semis « direct », 27 L avec les oyas (moyenne) et 0 L sans irrigation. Rapporté au litre d’irrigation, cela donne ≈ 26 g de tomates par litre à 100 %, 37 g à 50 % et 97 g avec les oyas. Les oyas ne délivrent l’eau qu’au rythme où le sol la réclame, d’où cette économie. En contrepartie, elles ne suivent pas les pics de demande de l’été.\nComment le manque d’eau réduit le rendement. Le nombre d’inflorescences et de fleurs ne diffère pas entre traitements. C’est après la floraison que tout se joue :\n\nle taux d’avortement des fleurs passe de 30 % (100 %) à 49 % (50 %) et 54 % (semis « direct ») ;\nles fruits sont plus légers en déficit hydrique : 45 g en médiane à 100 %, contre 36 à 40 g pour 50 %, 0 % et oyas.\n\n\n\nCode\nd = FileAttachment(\"donnees.csv\").csv({typed: true})\nordre = [\"100P\", \"50P\", \"0P\", \"oya\", \"direct\"]\nviewof choix = Inputs.select(new Map([\n  [\"Rendement (g / plant)\", \"rendement_plant\"],\n  [\"Rendement commercialisable (g / plant)\", \"rendement_commercialisable\"],\n  [\"Eau d'irrigation (L / plant)\", \"eau_irrigation\"],\n  [\"Rendement par litre d'irrigation (g / L)\", \"rendement_par_litre\"],\n  [\"Nombre de fruits / plant\", \"fruits_nombre\"],\n  [\"Poids moyen d'un fruit (g)\", \"poids_moyen_fruit\"],\n  [\"Taux d'avortement des fleurs\", \"taux_avortement\"],\n  [\"Fleurs / plant\", \"fleurs_total\"],\n  [\"Inflorescences / plant\", \"inflorescences_total\"]\n]), {label: \"Variable\"})\nsel = d.filter(r =&gt; r.variable === choix && typeof r.valeur === \"number\")\nPlot.plot({\n  marginLeft: 55, height: 320,\n  x: {label: null, domain: ordre},\n  y: {grid: true, label: sel.length ? sel[0].unite : \"\"},\n  color: {domain: ordre, range: [\"#1b9e77\", \"#e6ab02\", \"#d95f02\", \"#7570b3\", \"#66a61e\"]},\n  marks: [\n    Plot.barY(sel, Plot.groupX({y: \"median\"}, {x: \"traitement\", y: \"valeur\", fill: \"traitement\", fillOpacity: 0.6})),\n    Plot.dot(sel, {x: \"traitement\", y: \"valeur\", stroke: \"black\", r: 3, tip: true,\n                   title: r =&gt; `${r.plant_id} : ${r.valeur}`}),\n    Plot.ruleY([0])\n  ]\n})\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBarres : médiane des 9 plants suivis (le mémoire présente des médianes) ; points : plants. 100P, 50P, 0P = 100 %, 50 %, 0 % de l’irrigation recommandée.\n\n\nCode\nf = FileAttachment(\"fruits.csv\").csv({typed: true})\ncumul = {\n  const out = [];\n  for (const [t, rows] of d3.group(f, r =&gt; r.traitement)) {\n    let s = 0;\n    for (const [date, poids] of d3.rollups(rows, v =&gt; d3.sum(v, r =&gt; r.poids_g), r =&gt; +r.date).sort((a, b) =&gt; a[0] - b[0])) {\n      s += poids; out.push({traitement: t, date: new Date(date), kg_par_plant: s / 9 / 1000});\n    }\n  }\n  return out;\n}\nPlot.plot({\n  height: 280, marginLeft: 45,\n  y: {grid: true, label: \"Récolte cumulée (kg / plant)\"}, x: {label: null},\n  color: {legend: true, domain: ordre, range: [\"#1b9e77\", \"#e6ab02\", \"#d95f02\", \"#7570b3\", \"#66a61e\"]},\n  marks: [Plot.line(cumul, {x: \"date\", y: \"kg_par_plant\", stroke: \"traitement\", marker: \"dot\"})]\n})\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRécolte cumulée moyenne par plant au fil de la saison. Le semis « direct », repiqué 2 semaines plus tard, commence à produire le 26/08.\n\n\n\n\n\n\nProtocoles utilisés, à refaire chez vous : Installer et suivre des oyas sous tunnel"
+    "text": "Résultats clés\nProduction d’épinard. La biomasse diffère entre toutes les modalités, sauf entre trèfle et mix. En moyennes ajustées, un échantillon de 9 plants pesait 911 g sous bâche, 578 g sur BRF, 325 à 352 g sur trèfle et mix (sol nu) et 142 g sur miscanthus. Cela fait environ 80 g par plant sous bâche, contre 17 g sur miscanthus. Le miscanthus est la seule modalité qui n’a pas été travaillée avant la plantation : son sol est resté plus compact.\nEau. L’infiltration est l’effet le plus net sur le sol dès cette 1re année. Le miscanthus est le plus lent (3,0 cm en 5 min, soit ≈ 360 mm/h). Il est significativement plus lent que la bâche, le trèfle et le mix (7 à 11 cm en 5 min). La bâche atteint souvent le plafond de la méthode : son avantage est donc sous-estimé.\nAdventices. Sous bâche, environ 3 cases sur 196 sont couvertes par des adventices, contre 12 à 15 pour les autres modalités. Dans le bloc oignon, les parcelles en sol nu (trèfle, mix) comptent 3 à 4 espèces sur 0,5 m², contre moins d’une sous bâche, BRF ou miscanthus.\nVie et structure du sol. Aucun effet des paillages n’apparaît encore sur la structure (VESS), la stabilité des agrégats ou les vers de terre. Le carbone microbien est le plus élevé sous BRF, mais il n’a été mesuré que sur une parcelle par modalité. Le terrain présente en revanche un gradient : du côté de la colonne C, il y a plus de carbone organique (18 → 24 → 27 g/kg de A vers C) et une structure plus compacte (VESS 2,3 contre 1,5–1,7).\n\n\nCode\nd = FileAttachment(\"donnees.csv\").csv({typed: true})\nviewof choix = Inputs.select(new Map([\n  [\"Biomasse d'épinard (g/plant)\", \"biomasse_plant\"],\n  [\"Infiltration (cm en 5 min ; plafond = 12)\", \"infiltration_chabert\"],\n  [\"Adventices : cases couvertes sur 196\", \"adventices_cases_total\"],\n  [\"Adventices : nombre d'espèces / 0,5 m²\", \"adventices_especes\"],\n  [\"Couverture foliaire au 29/04 (%)\", \"couverture_foliaire\"],\n  [\"Structure du sol – VESS (bas = mieux)\", \"vess\"],\n  [\"Vers de terre (individus / bloc de bêche)\", \"lombrics_total\"],\n  [\"Stabilité des agrégats USDA (0–6)\", \"stabilite_agregats_usda\"],\n  [\"Carbone organique initial (g/kg)\", \"carbone_organique\"]\n]), {label: \"Variable\"})\nviewof bloc = Inputs.radio(new Map([[\"Les deux\", 0], [\"Bloc 1 (épinard)\", 1], [\"Bloc 2 (oignon)\", 2]]),\n                           {label: \"Bloc\", value: 0})\nparcelles = {\n  const rows = d.filter(r =&gt; r.variable === choix && r.valeur !== null && typeof r.valeur === \"number\"\n                          && !String(r.flag ?? \"\").includes(\"hors protocole\")\n                          && (choix !== \"couverture_foliaire\" || (r.date instanceof Date ? r.date.toISOString() : String(r.date)).startsWith(\"2025-04-29\"))\n                          && (bloc === 0 || r.bloc === bloc));\n  // moyenne des répétitions par parcelle\n  return d3.flatRollup(rows, v =&gt; d3.mean(v, r =&gt; r.valeur), r =&gt; r.parcelle, r =&gt; r.modalite, r =&gt; r.unite)\n           .map(([parcelle, modalite, unite, valeur]) =&gt; ({parcelle, modalite, unite, valeur}));\n}\nPlot.plot({\n  marginLeft: 55, height: 320,\n  x: {label: null, domain: [\"Bâche plastique\", \"BRF\", \"Miscanthus\", \"Trèfle\", \"Mix\"]},\n  y: {grid: true, label: parcelles.length ? parcelles[0].unite : \"\"},\n  color: {domain: [\"Bâche plastique\", \"BRF\", \"Miscanthus\", \"Trèfle\", \"Mix\"],\n          range: [\"#4d4d4d\", \"#a6761d\", \"#e6ab02\", \"#1b9e77\", \"#7570b3\"]},\n  marks: [\n    Plot.barY(parcelles, Plot.groupX({y: \"mean\"}, {x: \"modalite\", y: \"valeur\", fill: \"modalite\", fillOpacity: 0.6})),\n    Plot.dot(parcelles, {x: \"modalite\", y: \"valeur\", stroke: \"black\", r: 3, tip: true,\n                         title: r =&gt; `${r.parcelle} : ${r.valeur.toFixed(2)}`}),\n    Plot.ruleY([0])\n  ]\n})\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBarres : moyenne par modalité ; points : parcelles (moyenne des répétitions). En 2025, Trèfle et Mix correspondent à un sol nu. Les moyennes brutes peuvent différer des moyennes ajustées citées dans le texte.\n\n\n\n\n\n\nProtocoles utilisés, à refaire chez vous : Évaluer la structure du sol et compter les vers de terre à la bêche · Prélever un échantillon de sol pour une analyse de fertilité · Tester la stabilité des mottes de terre dans l’eau · Mesurer la vitesse d’infiltration de l’eau avec un tube · Mesurer la couverture d’adventices et de la culture · Estimer le rendement d’une planche en pesant des échantillons"
   },
   {
-    "objectID": "fiches/2024-irrigation-tomate/index.html#méthode-danalyse",
-    "href": "fiches/2024-irrigation-tomate/index.html#méthode-danalyse",
-    "title": "Tomate sous tunnel : combien d’eau pour quel rendement ?",
+    "objectID": "fiches/2025-paillage-epinard-oignon/index.html#méthode-danalyse",
+    "href": "fiches/2025-paillage-epinard-oignon/index.html#méthode-danalyse",
+    "title": "Paillages en maraîchage bio : bilan de la première année",
     "section": "Méthode d’analyse",
-    "text": "Méthode d’analyse\nChaque variable a été comparée entre traitements par une ANOVA à un facteur suivie d’un test de Tukey, ou par un test de Kruskal-Wallis lorsque la normalité ou l’homogénéité des variances n’étaient pas respectées. L’unité statistique est le plant (9 par traitement). Le script joint est une reconstruction : il retrouve les résultats du mémoire sur le rendement, les fruits, les fleurs et l’avortement."
+    "text": "Méthode d’analyse\nSelon la variable, le mémoire utilise des modèles linéaires mixtes : paillage et bloc légume en effets fixes, colonne et/ou rang en effets aléatoires, sélectionnés par test du rapport de vraisemblance. Il recourt à des transformations (racine, log) ou à des tests non paramétriques quand les hypothèses ne sont pas respectées. Les comparaisons par paires utilisent le test de Tukey. Le script joint regroupe les modèles retenus. Il retrouve les résultats sur la biomasse et l’infiltration. Pour quelques variables (stabilité des agrégats, vers de terre, adventices), les conclusions changent légèrement une fois corrigées des erreurs d’étiquetage dans le fichier de données (voir le rapport de préparation)."
   },
   {
-    "objectID": "fiches/2024-irrigation-tomate/index.html#limites",
-    "href": "fiches/2024-irrigation-tomate/index.html#limites",
-    "title": "Tomate sous tunnel : combien d’eau pour quel rendement ?",
+    "objectID": "fiches/2025-paillage-epinard-oignon/index.html#limites",
+    "href": "fiches/2025-paillage-epinard-oignon/index.html#limites",
+    "title": "Paillages en maraîchage bio : bilan de la première année",
     "section": "Limites",
-    "text": "Limites\n\nC’est une seule saison, sur une seule parcelle, et le printemps 2024 a été très pluvieux. Le sol était bien rechargé au moment de couvrir le tunnel, ce qui explique la bonne tenue du traitement sans irrigation. Des fuites dans la bâche du tunnel ont aussi apporté de l’eau en cours de saison.\nLe semis « direct » n’a pas levé en champ. Les plants de remplacement avaient 58 jours de retard : ce traitement mesure surtout l’effet d’un démarrage tardif.\nLes 3 plants d’une planche partagent la même ligne de goutte-à-goutte ou la même oya. Les tests les traitent comme indépendants, ce qui surestime la précision.\nDe l’oïdium est apparu mi-août et l’apport « idéal » a été fixé d’après des fiches techniques, pas mesuré par rapport à l’évapotranspiration réelle.\nL’efficience de l’eau publiée dans le mémoire (WUE, kg/L) n’est pas reproduite ici, car son mode de calcul n’est pas assez décrit. La fiche utilise le rendement par litre d’irrigation."
+    "text": "Limites\n\nLes paillages venaient d’être posés (BRF le 1er avril) et les couverts vivants n’ont pas levé à temps : on compare surtout bâche, paillages morts et sol nu.\nLa comparaison est biaisée par le travail du sol : toutes les parcelles ont été travaillées le 27 mars, sauf le miscanthus. Une partie de sa contre-performance peut venir de là.\nLe terrain présente un gradient (carbone, compaction), qui hérite des cultures et amendements de 2023.\nLes oignons ont été attaqués par des rongeurs (surtout sous bâche). Le carbone microbien et les mycorhizes n’ont été mesurés que sur une parcelle par modalité.\nLa méthode d’infiltration plafonne pour les sols très perméables. Elle a été remplacée par l’anneau simple en 2026."
   },
   {
-    "objectID": "fiches/2024-irrigation-tomate/index.html#ressources",
-    "href": "fiches/2024-irrigation-tomate/index.html#ressources",
-    "title": "Tomate sous tunnel : combien d’eau pour quel rendement ?",
+    "objectID": "fiches/2025-paillage-epinard-oignon/index.html#ressources",
+    "href": "fiches/2025-paillage-epinard-oignon/index.html#ressources",
+    "title": "Paillages en maraîchage bio : bilan de la première année",
     "section": "Ressources",
-    "text": "Ressources\n\n Fiche récapitulative (PDF)  Document complet  Données de la fiche (CSV)  Données brutes archivées (DOI)  Scripts d’analyse\n\nCiter cette fiche : Clémentine Lucca (mémoire 2025) (2024). Tomate sous tunnel : combien d’eau pour quel rendement ?. Fiche PEPA Lab, UCLouvain."
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Maraîchage · PEPA Lab",
-    "section": "",
-    "text": "Au PEPA Lab (Earth and Life Institute, UCLouvain), nous menons des essais en maraîchage sur les fermes universitaires de Lauzelle et de Marbaix : paillages, irrigation, santé du sol, variétés. La plupart de ces essais sont réalisés dans le cadre de mémoires de fin d’études.\nCe site rend ces résultats accessibles à tous : maraîcher·ères, conseiller·ères, étudiant·es et chercheur·ses. Vous y trouverez ce que nos essais ont montré, les méthodes pour refaire les mesures chez vous, et notre collection de tomates."
-  },
-  {
-    "objectID": "index.html#dernières-fiches-publiées",
-    "href": "index.html#dernières-fiches-publiées",
-    "title": "Maraîchage · PEPA Lab",
-    "section": "Dernières fiches publiées",
-    "text": "Dernières fiches publiées\n\n\n\n\n\n\nPréliminaire\n18étapes critiques recensées\n\n\nMémoire · 2024–2025\nConditions de travail en maraîchage : points durs et solutions\nDans 14 fermes du Cœur de Condroz, la manutention et l'administratif pèsent le plus ; les maraîchers ont déjà mis en place 60 solutions concrètes.\n\n\nConditions de travailÉconomie\nPDF\nCSV\nDOI\nCode\n\n\n\n\n\n\n\nPréliminaire\n×4,6moins d'eau avec les oyas qu'à 100 %\n\n\nMémoire · 2024\nTomate sous tunnel : combien d'eau pour quel rendement ?\nAvec 4,6 fois moins d'eau, les oyas gardent 73 % du rendement médian ; l'irrigation complète reste la plus productive (3,2 kg/plant).\n\nTomate\nGestion de l'eau\nPDF\nCSV\nDOI\nCode\n\n\n\n\n\n\n\nPréliminaire\n−70 %d'eau avec un oya à 56 cm\n\n\nMémoire · 2025\nOyas pour le chou : à quelle distance les placer ?\nUn oya à 56 cm du chou économise 70 % d'eau ; 11 choux sur 12 restent commercialisables, pour un rendement commercialisable 10 % sous l'arrosage.\n\nChou\nGestion de l'eau\nPDF\nCSV\nDOI\nCode\n\n\n\n\n\nAucun article correspondant\n\nToutes les fiches →"
-  },
-  {
-    "objectID": "index.html#participer",
-    "href": "index.html#participer",
-    "title": "Maraîchage · PEPA Lab",
-    "section": "Participer",
-    "text": "Participer\nVous êtes maraîcher·ère et vous avez une question de terrain qui pourrait devenir un essai ? Vous avez refait un de nos protocoles chez vous ? Nous voulons l’entendre. Les sujets de mémoire sont choisis chaque année en janvier–février : les questions reçues avant cette période peuvent devenir les essais de la saison suivante. Nous contacter."
-  },
-  {
-    "objectID": "a-propos.html",
-    "href": "a-propos.html",
-    "title": "À propos",
-    "section": "",
-    "text": "Ce site rassemble les résultats des essais et travaux de recherche en maraîchage menés au PEPA Lab (Earth and Life Institute, UCLouvain), et présente le conservatoire de tomates des Fermes universitaires. Il s’adresse aux maraîcher·ères, aux conseiller·ères, aux étudiant·es et aux chercheur·ses.\nIl est organisé en quatre parties :\n\nles fiches d’essais, qui résument chaque essai en une page ;\nles protocoles, pour refaire nos mesures chez vous ;\nle conservatoire de tomates ;\nles données de nos essais, ouvertes et réutilisables."
-  },
-  {
-    "objectID": "a-propos.html#le-site",
-    "href": "a-propos.html#le-site",
-    "title": "À propos",
-    "section": "",
-    "text": "Ce site rassemble les résultats des essais et travaux de recherche en maraîchage menés au PEPA Lab (Earth and Life Institute, UCLouvain), et présente le conservatoire de tomates des Fermes universitaires. Il s’adresse aux maraîcher·ères, aux conseiller·ères, aux étudiant·es et aux chercheur·ses.\nIl est organisé en quatre parties :\n\nles fiches d’essais, qui résument chaque essai en une page ;\nles protocoles, pour refaire nos mesures chez vous ;\nle conservatoire de tomates ;\nles données de nos essais, ouvertes et réutilisables."
-  },
-  {
-    "objectID": "a-propos.html#les-essais-et-leurs-limites",
-    "href": "a-propos.html#les-essais-et-leurs-limites",
-    "title": "À propos",
-    "section": "Les essais et leurs limites",
-    "text": "Les essais et leurs limites\nNos essais sont menés sur les fermes universitaires de Lauzelle (Louvain-la-Neuve) et de Marbaix (Chaumont-Gistoux). La plupart sont réalisés dans le cadre de mémoires de fin d’études : ils portent en général sur une seule saison et un seul site, et n’ont pas été relus par des pairs comme un article scientifique.\nChaque fiche indique donc son niveau de confiance : Préliminaire une saison, un mémoire · Consolidé confirmé sur plusieurs saisons ou sites · Publié publié dans une revue scientifique."
-  },
-  {
-    "objectID": "a-propos.html#le-conservatoire-de-tomates",
-    "href": "a-propos.html#le-conservatoire-de-tomates",
-    "title": "À propos",
-    "section": "Le conservatoire de tomates",
-    "text": "Le conservatoire de tomates\nLe conservatoire répertorie les variétés de tomates cultivées et préservées par les Fermes universitaires de l’UCLouvain, grâce au soutien du Fonds Baillet Latour. Il rassemble aujourd’hui plus d’une centaine de variétés venues de Belgique, de France, des États-Unis, de Russie et de bien d’autres pays : tomates cerises, cocktail, beefsteak, prunes et variétés anciennes de toutes les couleurs.\nPourquoi un conservatoire ? Beaucoup de variétés anciennes ou locales ne sont plus vendues et risquent de disparaître. En les cultivant, en multipliant leurs graines et en décrivant leurs caractéristiques (précocité, forme, couleur, goût, rendement, comportement en plein champ), le conservatoire préserve cette diversité et la rend utile aux maraîcher·ères, aux jardinier·ères et à la recherche.\nLe catalogue présente chaque variété avec ses descripteurs et, quand elles existent, ses photos. Les variétés multipliées une année donnée sont signalées. La liste complète est téléchargeable en CSV ou en Excel."
-  },
-  {
-    "objectID": "a-propos.html#réutiliser-nos-contenus",
-    "href": "a-propos.html#réutiliser-nos-contenus",
-    "title": "À propos",
-    "section": "Réutiliser nos contenus",
-    "text": "Réutiliser nos contenus\nLes textes du site sont sous licence CC BY 4.0 : vous pouvez les reprendre et les adapter en citant la source. La licence des données est indiquée sur chaque fiche ; voir aussi la page Données."
-  },
-  {
-    "objectID": "a-propos.html#contact",
-    "href": "a-propos.html#contact",
-    "title": "À propos",
-    "section": "Contact",
-    "text": "Contact\nPEPA Lab, Earth and Life Institute, UCLouvain.\n[À COMPLÉTER : personne de contact et adresse e-mail ; pour le conservatoire, conditions d’accès aux graines]"
-  },
-  {
-    "objectID": "a-propos.html#partenaires",
-    "href": "a-propos.html#partenaires",
-    "title": "À propos",
-    "section": "Partenaires",
-    "text": "Partenaires"
-  },
-  {
-    "objectID": "fiches.html",
-    "href": "fiches.html",
-    "title": "Fiches d’essais",
-    "section": "",
-    "text": "Chaque fiche résume un essai en une page : question posée, dispositif, résultats clés et ce qu’il faut en retenir sur le terrain. Les mémoires complets et les données brutes sont accessibles depuis chaque fiche.\n\n\n\n\n\n\n\n\n\nÀ lire avant d’utiliser ces résultats. La plupart des fiches résument des mémoires de fin d’études : les essais portent en général sur une seule saison et un seul site, et n’ont pas été relus par des pairs comme un article scientifique. Ce sont des pistes à confirmer, pas des recommandations établies. Chaque fiche affiche son niveau de confiance : Préliminaire une saison, un mémoire · Consolidé confirmé sur plusieurs saisons ou sites · Publié publié dans une revue scientifique.\n\n\n\n\n\n   \n    \n    \n      Trier par\n      Ordre par défaut\n      \n        Date - Le plus ancien\n      \n      \n        Date - Le plus récent\n      \n      \n        Titre\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nPréliminaire\n18étapes critiques recensées\n\n\nMémoire · 2024–2025\nConditions de travail en maraîchage : points durs et solutions\nDans 14 fermes du Cœur de Condroz, la manutention et l'administratif pèsent le plus ; les maraîchers ont déjà mis en place 60 solutions concrètes.\n\n\nConditions de travailÉconomie\nPDF\nCSV\nDOI\nCode\n\n\n\n\n\n\n\nPréliminaire\n×4,6moins d'eau avec les oyas qu'à 100 %\n\n\nMémoire · 2024\nTomate sous tunnel : combien d'eau pour quel rendement ?\nAvec 4,6 fois moins d'eau, les oyas gardent 73 % du rendement médian ; l'irrigation complète reste la plus productive (3,2 kg/plant).\n\nTomate\nGestion de l'eau\nPDF\nCSV\nDOI\nCode\n\n\n\n\n\n\n\nPréliminaire\n−70 %d'eau avec un oya à 56 cm\n\n\nMémoire · 2025\nOyas pour le chou : à quelle distance les placer ?\nUn oya à 56 cm du chou économise 70 % d'eau ; 11 choux sur 12 restent commercialisables, pour un rendement commercialisable 10 % sous l'arrosage.\n\nChou\nGestion de l'eau\nPDF\nCSV\nDOI\nCode\n\n\n\n\n\n\n\nPréliminaire\n×6,4biomasse d'épinard : bâche vs miscanthus\n\n\nMémoire · 2024–2025\nPaillages en maraîchage bio : bilan de la première année\nDès la 1re année, la bâche donne 6 fois plus d'épinards que le miscanthus non travaillé, qui infiltre aussi l'eau le moins vite.\n\nÉpinard\nPaillageCouverts végétauxOignon\nPDF\nCSV\nDOI\nCode\n\n\n\n\n\n\n\nPréliminaire\n1,1score VESS sous BRF (1 = idéal)\n\n\nMémoire · 2025–2026\nCinq paillages en maraîchage bio : sol, eau et légumes\nLa bâche donne des épinards 4 fois plus lourds, mais le BRF a la meilleure structure de sol (VESS 1,1) et +87 % de biomasse microbienne.\n\nÉpinard\nPaillageCouverts végétauxLaitue\nPDF\nCSV\nDOI\nCode\n\n\n\n\n\nAucun article correspondant"
-  },
-  {
-    "objectID": "donnees.html",
-    "href": "donnees.html",
-    "title": "Données",
-    "section": "",
-    "text": "Type\nOù\nPourquoi\n\n\n\n\nDonnées résumées d’une fiche (&lt; 5 Mo)\nfiches/&lt;fiche&gt;/donnees.csv\nAlimentent les graphiques interactifs\n\n\nDonnées brutes complètes\nZenodo – communauté PEPA\nDOI citable, archivage pérenne, gros volumes\n\n\nMémoires et rapports\nDIAL UCLouvain ou documents/\nDocument de référence\n\n\n\nChaque fichier de données est accompagné d’un dictionnaire (dictionnaire.csv : colonne, unité, description). Licence par défaut : CC BY 4.0."
-  },
-  {
-    "objectID": "donnees.html#où-sont-les-données",
-    "href": "donnees.html#où-sont-les-données",
-    "title": "Données",
-    "section": "",
-    "text": "Type\nOù\nPourquoi\n\n\n\n\nDonnées résumées d’une fiche (&lt; 5 Mo)\nfiches/&lt;fiche&gt;/donnees.csv\nAlimentent les graphiques interactifs\n\n\nDonnées brutes complètes\nZenodo – communauté PEPA\nDOI citable, archivage pérenne, gros volumes\n\n\nMémoires et rapports\nDIAL UCLouvain ou documents/\nDocument de référence\n\n\n\nChaque fichier de données est accompagné d’un dictionnaire (dictionnaire.csv : colonne, unité, description). Licence par défaut : CC BY 4.0."
-  },
-  {
-    "objectID": "themes.html",
-    "href": "themes.html",
-    "title": "Thèmes",
-    "section": "",
-    "text": "Toutes les fiches, regroupées par thème et culture. Cliquez sur un thème à droite pour filtrer.\n\n\n\n\n\n\n   \n    \n    \n      Trier par\n      Ordre par défaut\n      \n        Fiche\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nFiche\n\n\n\nCulture\n\n\n\nSaison\n\n\n\nType\n\n\n\n\n\n\n\n\nCinq paillages en maraîchage bio : sol, eau et légumes\n\n\nÉpinard\n\n\n2025–2026\n\n\nMémoire\n\n\n\n\n\n\nConditions de travail en maraîchage : points durs et solutions\n\n\n \n\n\n2024–2025\n\n\nMémoire\n\n\n\n\n\n\nOyas pour le chou : à quelle distance les placer ?\n\n\nChou\n\n\n2025\n\n\nMémoire\n\n\n\n\n\n\nPaillages en maraîchage bio : bilan de la première année\n\n\nÉpinard\n\n\n2024–2025\n\n\nMémoire\n\n\n\n\n\n\nTomate sous tunnel : combien d’eau pour quel rendement ?\n\n\nTomate\n\n\n2024\n\n\nMémoire\n\n\n\n\n\n\nAucun article correspondant"
+    "text": "Ressources\n\n Fiche récapitulative (PDF)  Document complet  Données de la fiche (CSV)  Données brutes archivées (DOI)  Scripts d’analyse\n\nCiter cette fiche : Eliot Vas (mémoire 2025) (2024–2025). Paillages en maraîchage bio : bilan de la première année. Fiche PEPA Lab, UCLouvain."
   },
   {
     "objectID": "fiches/2025-oyas-chou/index.html",
@@ -609,53 +511,200 @@
     "text": "Ressources\n\n Fiche récapitulative (PDF)  Document complet  Données de la fiche (CSV)  Données brutes archivées (DOI)  Scripts d’analyse\n\nCiter cette fiche : Gaëlle Hanssens (mémoire 2025) (2025). Oyas pour le chou : à quelle distance les placer ?. Fiche PEPA Lab, UCLouvain."
   },
   {
-    "objectID": "fiches/2025-paillage-epinard-oignon/index.html",
-    "href": "fiches/2025-paillage-epinard-oignon/index.html",
-    "title": "Paillages en maraîchage bio : bilan de la première année",
+    "objectID": "themes.html",
+    "href": "themes.html",
+    "title": "Thèmes",
+    "section": "",
+    "text": "Toutes les fiches, regroupées par thème et culture. Cliquez sur un thème à droite pour filtrer.\n\n\n\n\n\n\n   \n    \n    \n      Trier par\n      Ordre par défaut\n      \n        Fiche\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nFiche\n\n\n\nCulture\n\n\n\nSaison\n\n\n\nType\n\n\n\n\n\n\n\n\nCinq paillages en maraîchage bio : sol, eau et légumes\n\n\nÉpinard\n\n\n2025–2026\n\n\nMémoire\n\n\n\n\n\n\nConditions de travail en maraîchage : points durs et solutions\n\n\n \n\n\n2024–2025\n\n\nMémoire\n\n\n\n\n\n\nOyas pour le chou : à quelle distance les placer ?\n\n\nChou\n\n\n2025\n\n\nMémoire\n\n\n\n\n\n\nPaillages en maraîchage bio : bilan de la première année\n\n\nÉpinard\n\n\n2024–2025\n\n\nMémoire\n\n\n\n\n\n\nTomate sous tunnel : combien d’eau pour quel rendement ?\n\n\nTomate\n\n\n2024\n\n\nMémoire\n\n\n\n\n\n\nViabilité des maraîchers : canaux de vente et enjeux de filière\n\n\n \n\n\n2021–2022\n\n\nArticle\n\n\n\n\n\n\nAucun article correspondant"
+  },
+  {
+    "objectID": "donnees.html",
+    "href": "donnees.html",
+    "title": "Données",
+    "section": "",
+    "text": "Type\nOù\nPourquoi\n\n\n\n\nDonnées résumées d’une fiche (&lt; 5 Mo)\nfiches/&lt;fiche&gt;/donnees.csv\nAlimentent les graphiques interactifs\n\n\nDonnées brutes complètes\nZenodo – communauté PEPA\nDOI citable, archivage pérenne, gros volumes\n\n\nMémoires et rapports\nDIAL UCLouvain ou documents/\nDocument de référence\n\n\n\nChaque fichier de données est accompagné d’un dictionnaire (dictionnaire.csv : colonne, unité, description). Licence par défaut : CC BY 4.0."
+  },
+  {
+    "objectID": "donnees.html#où-sont-les-données",
+    "href": "donnees.html#où-sont-les-données",
+    "title": "Données",
+    "section": "",
+    "text": "Type\nOù\nPourquoi\n\n\n\n\nDonnées résumées d’une fiche (&lt; 5 Mo)\nfiches/&lt;fiche&gt;/donnees.csv\nAlimentent les graphiques interactifs\n\n\nDonnées brutes complètes\nZenodo – communauté PEPA\nDOI citable, archivage pérenne, gros volumes\n\n\nMémoires et rapports\nDIAL UCLouvain ou documents/\nDocument de référence\n\n\n\nChaque fichier de données est accompagné d’un dictionnaire (dictionnaire.csv : colonne, unité, description). Licence par défaut : CC BY 4.0."
+  },
+  {
+    "objectID": "fiches.html",
+    "href": "fiches.html",
+    "title": "Fiches d’essais",
+    "section": "",
+    "text": "Chaque fiche résume un essai en une page : question posée, dispositif, résultats clés et ce qu’il faut en retenir sur le terrain. Les mémoires complets et les données brutes sont accessibles depuis chaque fiche.\n\n\n\n\n\n\n\n\n\nÀ lire avant d’utiliser ces résultats. La plupart des fiches résument des mémoires de fin d’études : les essais portent en général sur une seule saison et un seul site, et n’ont pas été relus par des pairs comme un article scientifique. Ce sont des pistes à confirmer, pas des recommandations établies. Chaque fiche affiche son niveau de confiance : Préliminaire une saison, un mémoire · Consolidé confirmé sur plusieurs saisons ou sites · Publié publié dans une revue scientifique.\n\n\n\n\n\n   \n    \n    \n      Trier par\n      Ordre par défaut\n      \n        Date - Le plus ancien\n      \n      \n        Date - Le plus récent\n      \n      \n        Titre\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nPublié\n97 %du chiffre d'affaires vendu en local\n\n\nArticle · 2021–2022\nViabilité des maraîchers : canaux de vente et enjeux de filière\nLes 18 maraîchers du Cœur de Condroz vendent 97 % de leur production localement, mais 4 sur 16 font moins de 11 € de chiffre d'affaires par heure.\n\n\nÉconomieCommercialisation\nPDF\nCSV\nDOI\nCode\n\n\n\n\n\n\n\nPréliminaire\n18étapes critiques recensées\n\n\nMémoire · 2024–2025\nConditions de travail en maraîchage : points durs et solutions\nDans 14 fermes du Cœur de Condroz, la manutention et l'administratif pèsent le plus ; les maraîchers ont déjà mis en place 60 solutions concrètes.\n\n\nConditions de travailÉconomie\nPDF\nCSV\nDOI\nCode\n\n\n\n\n\n\n\nPréliminaire\n×4,6moins d'eau avec les oyas qu'à 100 %\n\n\nMémoire · 2024\nTomate sous tunnel : combien d'eau pour quel rendement ?\nAvec 4,6 fois moins d'eau, les oyas gardent 73 % du rendement médian ; l'irrigation complète reste la plus productive (3,2 kg/plant).\n\nTomate\nGestion de l'eau\nPDF\nCSV\nDOI\nCode\n\n\n\n\n\n\n\nPréliminaire\n−70 %d'eau avec un oya à 56 cm\n\n\nMémoire · 2025\nOyas pour le chou : à quelle distance les placer ?\nUn oya à 56 cm du chou économise 70 % d'eau ; 11 choux sur 12 restent commercialisables, pour un rendement commercialisable 10 % sous l'arrosage.\n\nChou\nGestion de l'eau\nPDF\nCSV\nDOI\nCode\n\n\n\n\n\n\n\nPréliminaire\n×6,4biomasse d'épinard : bâche vs miscanthus\n\n\nMémoire · 2024–2025\nPaillages en maraîchage bio : bilan de la première année\nDès la 1re année, la bâche donne 6 fois plus d'épinards que le miscanthus non travaillé, qui infiltre aussi l'eau le moins vite.\n\nÉpinard\nPaillageCouverts végétauxOignon\nPDF\nCSV\nDOI\nCode\n\n\n\n\n\n\n\nPréliminaire\n1,1score VESS sous BRF (1 = idéal)\n\n\nMémoire · 2025–2026\nCinq paillages en maraîchage bio : sol, eau et légumes\nLa bâche donne des épinards 4 fois plus lourds, mais le BRF a la meilleure structure de sol (VESS 1,1) et +87 % de biomasse microbienne.\n\nÉpinard\nPaillageCouverts végétauxLaitue\nPDF\nCSV\nDOI\nCode\n\n\n\n\n\nAucun article correspondant"
+  },
+  {
+    "objectID": "a-propos.html",
+    "href": "a-propos.html",
+    "title": "À propos",
+    "section": "",
+    "text": "Ce site rassemble les résultats des essais et travaux de recherche en maraîchage menés au PEPA Lab (Earth and Life Institute, UCLouvain), et présente le conservatoire de tomates des Fermes universitaires. Il s’adresse aux maraîcher·ères, aux conseiller·ères, aux étudiant·es et aux chercheur·ses.\nIl est organisé en quatre parties :\n\nles fiches d’essais, qui résument chaque essai en une page ;\nles protocoles, pour refaire nos mesures chez vous ;\nle conservatoire de tomates ;\nles données de nos essais, ouvertes et réutilisables."
+  },
+  {
+    "objectID": "a-propos.html#le-site",
+    "href": "a-propos.html#le-site",
+    "title": "À propos",
+    "section": "",
+    "text": "Ce site rassemble les résultats des essais et travaux de recherche en maraîchage menés au PEPA Lab (Earth and Life Institute, UCLouvain), et présente le conservatoire de tomates des Fermes universitaires. Il s’adresse aux maraîcher·ères, aux conseiller·ères, aux étudiant·es et aux chercheur·ses.\nIl est organisé en quatre parties :\n\nles fiches d’essais, qui résument chaque essai en une page ;\nles protocoles, pour refaire nos mesures chez vous ;\nle conservatoire de tomates ;\nles données de nos essais, ouvertes et réutilisables."
+  },
+  {
+    "objectID": "a-propos.html#les-essais-et-leurs-limites",
+    "href": "a-propos.html#les-essais-et-leurs-limites",
+    "title": "À propos",
+    "section": "Les essais et leurs limites",
+    "text": "Les essais et leurs limites\nNos essais sont menés sur les fermes universitaires de Lauzelle (Louvain-la-Neuve) et de Marbaix (Chaumont-Gistoux). La plupart sont réalisés dans le cadre de mémoires de fin d’études : ils portent en général sur une seule saison et un seul site, et n’ont pas été relus par des pairs comme un article scientifique.\nChaque fiche indique donc son niveau de confiance : Préliminaire une saison, un mémoire · Consolidé confirmé sur plusieurs saisons ou sites · Publié publié dans une revue scientifique."
+  },
+  {
+    "objectID": "a-propos.html#le-conservatoire-de-tomates",
+    "href": "a-propos.html#le-conservatoire-de-tomates",
+    "title": "À propos",
+    "section": "Le conservatoire de tomates",
+    "text": "Le conservatoire de tomates\nLe conservatoire répertorie les variétés de tomates cultivées et préservées par les Fermes universitaires de l’UCLouvain, grâce au soutien du Fonds Baillet Latour. Il rassemble aujourd’hui plus d’une centaine de variétés venues de Belgique, de France, des États-Unis, de Russie et de bien d’autres pays : tomates cerises, cocktail, beefsteak, prunes et variétés anciennes de toutes les couleurs.\nPourquoi un conservatoire ? Beaucoup de variétés anciennes ou locales ne sont plus vendues et risquent de disparaître. En les cultivant, en multipliant leurs graines et en décrivant leurs caractéristiques (précocité, forme, couleur, goût, rendement, comportement en plein champ), le conservatoire préserve cette diversité et la rend utile aux maraîcher·ères, aux jardinier·ères et à la recherche.\nLe catalogue présente chaque variété avec ses descripteurs et, quand elles existent, ses photos. Les variétés multipliées une année donnée sont signalées. La liste complète est téléchargeable en CSV ou en Excel."
+  },
+  {
+    "objectID": "a-propos.html#réutiliser-nos-contenus",
+    "href": "a-propos.html#réutiliser-nos-contenus",
+    "title": "À propos",
+    "section": "Réutiliser nos contenus",
+    "text": "Réutiliser nos contenus\nLes textes du site sont sous licence CC BY 4.0 : vous pouvez les reprendre et les adapter en citant la source. La licence des données est indiquée sur chaque fiche ; voir aussi la page Données."
+  },
+  {
+    "objectID": "a-propos.html#contact",
+    "href": "a-propos.html#contact",
+    "title": "À propos",
+    "section": "Contact",
+    "text": "Contact\nPEPA Lab, Earth and Life Institute, UCLouvain.\n[À COMPLÉTER : personne de contact et adresse e-mail ; pour le conservatoire, conditions d’accès aux graines]"
+  },
+  {
+    "objectID": "a-propos.html#partenaires",
+    "href": "a-propos.html#partenaires",
+    "title": "À propos",
+    "section": "Partenaires",
+    "text": "Partenaires"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Maraîchage · PEPA Lab",
+    "section": "",
+    "text": "Au PEPA Lab (Earth and Life Institute, UCLouvain), nous menons des essais en maraîchage sur les fermes universitaires de Lauzelle et de Marbaix : paillages, irrigation, santé du sol, variétés. La plupart de ces essais sont réalisés dans le cadre de mémoires de fin d’études.\nCe site rend ces résultats accessibles à tous : maraîcher·ères, conseiller·ères, étudiant·es et chercheur·ses. Vous y trouverez ce que nos essais ont montré, les méthodes pour refaire les mesures chez vous, et notre collection de tomates."
+  },
+  {
+    "objectID": "index.html#dernières-fiches-publiées",
+    "href": "index.html#dernières-fiches-publiées",
+    "title": "Maraîchage · PEPA Lab",
+    "section": "Dernières fiches publiées",
+    "text": "Dernières fiches publiées\n\n\n\n\n\n\nPublié\n97 %du chiffre d'affaires vendu en local\n\n\nArticle · 2021–2022\nViabilité des maraîchers : canaux de vente et enjeux de filière\nLes 18 maraîchers du Cœur de Condroz vendent 97 % de leur production localement, mais 4 sur 16 font moins de 11 € de chiffre d'affaires par heure.\n\n\nÉconomieCommercialisation\nPDF\nCSV\nDOI\nCode\n\n\n\n\n\n\n\nPréliminaire\n18étapes critiques recensées\n\n\nMémoire · 2024–2025\nConditions de travail en maraîchage : points durs et solutions\nDans 14 fermes du Cœur de Condroz, la manutention et l'administratif pèsent le plus ; les maraîchers ont déjà mis en place 60 solutions concrètes.\n\n\nConditions de travailÉconomie\nPDF\nCSV\nDOI\nCode\n\n\n\n\n\n\n\nPréliminaire\n×4,6moins d'eau avec les oyas qu'à 100 %\n\n\nMémoire · 2024\nTomate sous tunnel : combien d'eau pour quel rendement ?\nAvec 4,6 fois moins d'eau, les oyas gardent 73 % du rendement médian ; l'irrigation complète reste la plus productive (3,2 kg/plant).\n\nTomate\nGestion de l'eau\nPDF\nCSV\nDOI\nCode\n\n\n\n\n\nAucun article correspondant\n\nToutes les fiches →"
+  },
+  {
+    "objectID": "index.html#participer",
+    "href": "index.html#participer",
+    "title": "Maraîchage · PEPA Lab",
+    "section": "Participer",
+    "text": "Participer\nVous êtes maraîcher·ère et vous avez une question de terrain qui pourrait devenir un essai ? Vous avez refait un de nos protocoles chez vous ? Nous voulons l’entendre. Les sujets de mémoire sont choisis chaque année en janvier–février : les questions reçues avant cette période peuvent devenir les essais de la saison suivante. Nous contacter."
+  },
+  {
+    "objectID": "fiches/2024-irrigation-tomate/index.html",
+    "href": "fiches/2024-irrigation-tomate/index.html",
+    "title": "Tomate sous tunnel : combien d’eau pour quel rendement ?",
     "section": "",
     "text": "AvertissementRésultats préliminaires\n\n\n\nCes résultats viennent d'un travail de fin d'études, en général sur une seule saison et un seul site, sans relecture par des pairs. Ils donnent des pistes à confirmer, pas des recommandations établies."
   },
   {
-    "objectID": "fiches/2025-paillage-epinard-oignon/index.html#question",
-    "href": "fiches/2025-paillage-epinard-oignon/index.html#question",
-    "title": "Paillages en maraîchage bio : bilan de la première année",
+    "objectID": "fiches/2024-irrigation-tomate/index.html#question",
+    "href": "fiches/2024-irrigation-tomate/index.html#question",
+    "title": "Tomate sous tunnel : combien d’eau pour quel rendement ?",
     "section": "Question",
-    "text": "Question\nComment cinq types de paillage influencent-ils la santé du sol, la croissance des légumes et les adventices en maraîchage biologique sur petite surface ? Quelles méthodes de mesure simples permettent de suivre ces effets sur 10 ans ? Ce mémoire lance la plateforme de Lauzelle et en teste les protocoles."
+    "text": "Question\nEn maraîchage sous tunnel, peut-on réduire l’irrigation de la tomate, ou changer de système (oyas, semis direct), sans trop perdre de rendement ? Sur quelles composantes du rendement le manque d’eau agit-il : nombre de fleurs, avortement, nombre et poids des fruits ?"
   },
   {
-    "objectID": "fiches/2025-paillage-epinard-oignon/index.html#dispositif",
-    "href": "fiches/2025-paillage-epinard-oignon/index.html#dispositif",
-    "title": "Paillages en maraîchage bio : bilan de la première année",
+    "objectID": "fiches/2024-irrigation-tomate/index.html#dispositif",
+    "href": "fiches/2024-irrigation-tomate/index.html#dispositif",
+    "title": "Tomate sous tunnel : combien d’eau pour quel rendement ?",
     "section": "Dispositif",
-    "text": "Dispositif\n\n\n\n\n\n\n\nLieu\nFerme universitaire de Lauzelle (Louvain-la-Neuve), ≈ 360 m², légère pente au sud\n\n\nSol\nSablo-limoneux, drainage modéré à imparfait, pH KCl ≈ 5,8\n\n\nSaison\nSeptembre 2024 – juin 2025. Design définitif en janvier 2025, paillages en place du 26 février au 1er avril 2025.\n\n\nCultures\nÉpinard ‘Butterflay’ (bloc 1, planté le 8/04, récolté le 16/05) ; oignon ‘Sturon’ (bloc 2, planté le 15/04)\n\n\nModalités\nBâche plastique tissée noire · BRF (bois de Lauzelle) · Miscanthus · Trèfle blanc · Mix mélilot jaune + moha. Trèfle et Mix ont été semés le 29/04, sur le bloc épinard uniquement.\n\n\nPlan et répétitions\n30 parcelles d’environ 12 m² (3 colonnes × 10 rangs), 2 blocs légumes, 6 répétitions par modalité\n\n\nMesures\nFertilité initiale, structure (VESS, stabilité des agrégats), vers de terre, infiltration, carbone microbien et mycorhizes (5 parcelles), adventices, couverture foliaire, biomasse d’épinard"
+    "text": "Dispositif\n\n\n\n\n\n\n\nLieu\nFerme universitaire de Marbaix (Chaumont-Gistoux), tunnel de 20 × 7 m couvert le 14/05/2024, sol sablo-limoneux\n\n\nSaison\nPlantation le 21/05/2024 ; traitements dès le 31/05 ; récoltes du 7/08 au 2/10/2024\n\n\nCulture\nTomate ‘Tigerella’ (bio), semée en serre le 4/04 ; plants espacés de 50 cm sur la ligne et 75 cm entre lignes ; toile géotextile au sol, taille des apex le 29/08\n\n\nModalités\n100 % de l’apport recommandé (goutte-à-goutte) · 50 % · 0 % (aucune irrigation) · Oyas de 5 L · Semis « direct » irrigué à 50 % (le semis en champ n’ayant pas levé, plants semés en serre le 21/05 et repiqués le 4/06)\n\n\nPlan et répétitions\n3 planches de 8 plants par traitement, réparties au hasard entre des zones tampons ; 9 plants suivis par traitement (3 par planche)\n\n\nMesures\nChaque fleur et chaque fruit (position, poids), eau apportée par plant, humidité du sol (TRIME, fin de saison), météo de Louvain-la-Neuve"
   },
   {
-    "objectID": "fiches/2025-paillage-epinard-oignon/index.html#résultats-clés",
-    "href": "fiches/2025-paillage-epinard-oignon/index.html#résultats-clés",
-    "title": "Paillages en maraîchage bio : bilan de la première année",
+    "objectID": "fiches/2024-irrigation-tomate/index.html#résultats-clés",
+    "href": "fiches/2024-irrigation-tomate/index.html#résultats-clés",
+    "title": "Tomate sous tunnel : combien d’eau pour quel rendement ?",
     "section": "Résultats clés",
-    "text": "Résultats clés\nProduction d’épinard. La biomasse diffère entre toutes les modalités, sauf entre trèfle et mix. En moyennes ajustées, un échantillon de 9 plants pesait 911 g sous bâche, 578 g sur BRF, 325 à 352 g sur trèfle et mix (sol nu) et 142 g sur miscanthus. Cela fait environ 80 g par plant sous bâche, contre 17 g sur miscanthus. Le miscanthus est la seule modalité qui n’a pas été travaillée avant la plantation : son sol est resté plus compact.\nEau. L’infiltration est l’effet le plus net sur le sol dès cette 1re année. Le miscanthus est le plus lent (3,0 cm en 5 min, soit ≈ 360 mm/h). Il est significativement plus lent que la bâche, le trèfle et le mix (7 à 11 cm en 5 min). La bâche atteint souvent le plafond de la méthode : son avantage est donc sous-estimé.\nAdventices. Sous bâche, environ 3 cases sur 196 sont couvertes par des adventices, contre 12 à 15 pour les autres modalités. Dans le bloc oignon, les parcelles en sol nu (trèfle, mix) comptent 3 à 4 espèces sur 0,5 m², contre moins d’une sous bâche, BRF ou miscanthus.\nVie et structure du sol. Aucun effet des paillages n’apparaît encore sur la structure (VESS), la stabilité des agrégats ou les vers de terre. Le carbone microbien est le plus élevé sous BRF, mais il n’a été mesuré que sur une parcelle par modalité. Le terrain présente en revanche un gradient : du côté de la colonne C, il y a plus de carbone organique (18 → 24 → 27 g/kg de A vers C) et une structure plus compacte (VESS 2,3 contre 1,5–1,7).\n\n\nCode\nd = FileAttachment(\"donnees.csv\").csv({typed: true})\nviewof choix = Inputs.select(new Map([\n  [\"Biomasse d'épinard (g/plant)\", \"biomasse_plant\"],\n  [\"Infiltration (cm en 5 min ; plafond = 12)\", \"infiltration_chabert\"],\n  [\"Adventices : cases couvertes sur 196\", \"adventices_cases_total\"],\n  [\"Adventices : nombre d'espèces / 0,5 m²\", \"adventices_especes\"],\n  [\"Couverture foliaire au 29/04 (%)\", \"couverture_foliaire\"],\n  [\"Structure du sol – VESS (bas = mieux)\", \"vess\"],\n  [\"Vers de terre (individus / bloc de bêche)\", \"lombrics_total\"],\n  [\"Stabilité des agrégats USDA (0–6)\", \"stabilite_agregats_usda\"],\n  [\"Carbone organique initial (g/kg)\", \"carbone_organique\"]\n]), {label: \"Variable\"})\nviewof bloc = Inputs.radio(new Map([[\"Les deux\", 0], [\"Bloc 1 (épinard)\", 1], [\"Bloc 2 (oignon)\", 2]]),\n                           {label: \"Bloc\", value: 0})\nparcelles = {\n  const rows = d.filter(r =&gt; r.variable === choix && r.valeur !== null && typeof r.valeur === \"number\"\n                          && !String(r.flag ?? \"\").includes(\"hors protocole\")\n                          && (choix !== \"couverture_foliaire\" || (r.date instanceof Date ? r.date.toISOString() : String(r.date)).startsWith(\"2025-04-29\"))\n                          && (bloc === 0 || r.bloc === bloc));\n  // moyenne des répétitions par parcelle\n  return d3.flatRollup(rows, v =&gt; d3.mean(v, r =&gt; r.valeur), r =&gt; r.parcelle, r =&gt; r.modalite, r =&gt; r.unite)\n           .map(([parcelle, modalite, unite, valeur]) =&gt; ({parcelle, modalite, unite, valeur}));\n}\nPlot.plot({\n  marginLeft: 55, height: 320,\n  x: {label: null, domain: [\"Bâche plastique\", \"BRF\", \"Miscanthus\", \"Trèfle\", \"Mix\"]},\n  y: {grid: true, label: parcelles.length ? parcelles[0].unite : \"\"},\n  color: {domain: [\"Bâche plastique\", \"BRF\", \"Miscanthus\", \"Trèfle\", \"Mix\"],\n          range: [\"#4d4d4d\", \"#a6761d\", \"#e6ab02\", \"#1b9e77\", \"#7570b3\"]},\n  marks: [\n    Plot.barY(parcelles, Plot.groupX({y: \"mean\"}, {x: \"modalite\", y: \"valeur\", fill: \"modalite\", fillOpacity: 0.6})),\n    Plot.dot(parcelles, {x: \"modalite\", y: \"valeur\", stroke: \"black\", r: 3, tip: true,\n                         title: r =&gt; `${r.parcelle} : ${r.valeur.toFixed(2)}`}),\n    Plot.ruleY([0])\n  ]\n})\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBarres : moyenne par modalité ; points : parcelles (moyenne des répétitions). En 2025, Trèfle et Mix correspondent à un sol nu. Les moyennes brutes peuvent différer des moyennes ajustées citées dans le texte.\n\n\n\n\n\n\nProtocoles utilisés, à refaire chez vous : Évaluer la structure du sol et compter les vers de terre à la bêche · Prélever un échantillon de sol pour une analyse de fertilité · Tester la stabilité des mottes de terre dans l’eau · Mesurer la vitesse d’infiltration de l’eau avec un tube · Mesurer la couverture d’adventices et de la culture · Estimer le rendement d’une planche en pesant des échantillons"
+    "text": "Résultats clés\nRendement. En médiane par plant, l’irrigation complète a donné 3,25 kg, contre 2,37 kg avec les oyas, 2,35 kg à 50 %, 2,04 kg en semis « direct » et 1,96 kg sans irrigation. Statistiquement, seuls le 0 % et le semis « direct » sont inférieurs à l’irrigation complète. Sur les 9 plants suivis, le 100 % a produit 497 fruits commercialisables (plus de 30 g), contre 283 pour le semis « direct ».\nEau. Sur la saison, chaque plant a reçu 127 L à 100 %, 63 L à 50 % et en semis « direct », 27 L avec les oyas (moyenne) et 0 L sans irrigation. Rapporté au litre d’irrigation, cela donne ≈ 26 g de tomates par litre à 100 %, 37 g à 50 % et 97 g avec les oyas. Les oyas ne délivrent l’eau qu’au rythme où le sol la réclame, d’où cette économie. En contrepartie, elles ne suivent pas les pics de demande de l’été.\nComment le manque d’eau réduit le rendement. Le nombre d’inflorescences et de fleurs ne diffère pas entre traitements. C’est après la floraison que tout se joue :\n\nle taux d’avortement des fleurs passe de 30 % (100 %) à 49 % (50 %) et 54 % (semis « direct ») ;\nles fruits sont plus légers en déficit hydrique : 45 g en médiane à 100 %, contre 36 à 40 g pour 50 %, 0 % et oyas.\n\n\n\nCode\nd = FileAttachment(\"donnees.csv\").csv({typed: true})\nordre = [\"100P\", \"50P\", \"0P\", \"oya\", \"direct\"]\nviewof choix = Inputs.select(new Map([\n  [\"Rendement (g / plant)\", \"rendement_plant\"],\n  [\"Rendement commercialisable (g / plant)\", \"rendement_commercialisable\"],\n  [\"Eau d'irrigation (L / plant)\", \"eau_irrigation\"],\n  [\"Rendement par litre d'irrigation (g / L)\", \"rendement_par_litre\"],\n  [\"Nombre de fruits / plant\", \"fruits_nombre\"],\n  [\"Poids moyen d'un fruit (g)\", \"poids_moyen_fruit\"],\n  [\"Taux d'avortement des fleurs\", \"taux_avortement\"],\n  [\"Fleurs / plant\", \"fleurs_total\"],\n  [\"Inflorescences / plant\", \"inflorescences_total\"]\n]), {label: \"Variable\"})\nsel = d.filter(r =&gt; r.variable === choix && typeof r.valeur === \"number\")\nPlot.plot({\n  marginLeft: 55, height: 320,\n  x: {label: null, domain: ordre},\n  y: {grid: true, label: sel.length ? sel[0].unite : \"\"},\n  color: {domain: ordre, range: [\"#1b9e77\", \"#e6ab02\", \"#d95f02\", \"#7570b3\", \"#66a61e\"]},\n  marks: [\n    Plot.barY(sel, Plot.groupX({y: \"median\"}, {x: \"traitement\", y: \"valeur\", fill: \"traitement\", fillOpacity: 0.6})),\n    Plot.dot(sel, {x: \"traitement\", y: \"valeur\", stroke: \"black\", r: 3, tip: true,\n                   title: r =&gt; `${r.plant_id} : ${r.valeur}`}),\n    Plot.ruleY([0])\n  ]\n})\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBarres : médiane des 9 plants suivis (le mémoire présente des médianes) ; points : plants. 100P, 50P, 0P = 100 %, 50 %, 0 % de l’irrigation recommandée.\n\n\nCode\nf = FileAttachment(\"fruits.csv\").csv({typed: true})\ncumul = {\n  const out = [];\n  for (const [t, rows] of d3.group(f, r =&gt; r.traitement)) {\n    let s = 0;\n    for (const [date, poids] of d3.rollups(rows, v =&gt; d3.sum(v, r =&gt; r.poids_g), r =&gt; +r.date).sort((a, b) =&gt; a[0] - b[0])) {\n      s += poids; out.push({traitement: t, date: new Date(date), kg_par_plant: s / 9 / 1000});\n    }\n  }\n  return out;\n}\nPlot.plot({\n  height: 280, marginLeft: 45,\n  y: {grid: true, label: \"Récolte cumulée (kg / plant)\"}, x: {label: null},\n  color: {legend: true, domain: ordre, range: [\"#1b9e77\", \"#e6ab02\", \"#d95f02\", \"#7570b3\", \"#66a61e\"]},\n  marks: [Plot.line(cumul, {x: \"date\", y: \"kg_par_plant\", stroke: \"traitement\", marker: \"dot\"})]\n})\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRécolte cumulée moyenne par plant au fil de la saison. Le semis « direct », repiqué 2 semaines plus tard, commence à produire le 26/08.\n\n\n\n\n\n\nProtocoles utilisés, à refaire chez vous : Installer et suivre des oyas sous tunnel"
   },
   {
-    "objectID": "fiches/2025-paillage-epinard-oignon/index.html#méthode-danalyse",
-    "href": "fiches/2025-paillage-epinard-oignon/index.html#méthode-danalyse",
-    "title": "Paillages en maraîchage bio : bilan de la première année",
+    "objectID": "fiches/2024-irrigation-tomate/index.html#méthode-danalyse",
+    "href": "fiches/2024-irrigation-tomate/index.html#méthode-danalyse",
+    "title": "Tomate sous tunnel : combien d’eau pour quel rendement ?",
     "section": "Méthode d’analyse",
-    "text": "Méthode d’analyse\nSelon la variable, le mémoire utilise des modèles linéaires mixtes : paillage et bloc légume en effets fixes, colonne et/ou rang en effets aléatoires, sélectionnés par test du rapport de vraisemblance. Il recourt à des transformations (racine, log) ou à des tests non paramétriques quand les hypothèses ne sont pas respectées. Les comparaisons par paires utilisent le test de Tukey. Le script joint regroupe les modèles retenus. Il retrouve les résultats sur la biomasse et l’infiltration. Pour quelques variables (stabilité des agrégats, vers de terre, adventices), les conclusions changent légèrement une fois corrigées des erreurs d’étiquetage dans le fichier de données (voir le rapport de préparation)."
+    "text": "Méthode d’analyse\nChaque variable a été comparée entre traitements par une ANOVA à un facteur suivie d’un test de Tukey, ou par un test de Kruskal-Wallis lorsque la normalité ou l’homogénéité des variances n’étaient pas respectées. L’unité statistique est le plant (9 par traitement). Le script joint est une reconstruction : il retrouve les résultats du mémoire sur le rendement, les fruits, les fleurs et l’avortement."
   },
   {
-    "objectID": "fiches/2025-paillage-epinard-oignon/index.html#limites",
-    "href": "fiches/2025-paillage-epinard-oignon/index.html#limites",
-    "title": "Paillages en maraîchage bio : bilan de la première année",
+    "objectID": "fiches/2024-irrigation-tomate/index.html#limites",
+    "href": "fiches/2024-irrigation-tomate/index.html#limites",
+    "title": "Tomate sous tunnel : combien d’eau pour quel rendement ?",
     "section": "Limites",
-    "text": "Limites\n\nLes paillages venaient d’être posés (BRF le 1er avril) et les couverts vivants n’ont pas levé à temps : on compare surtout bâche, paillages morts et sol nu.\nLa comparaison est biaisée par le travail du sol : toutes les parcelles ont été travaillées le 27 mars, sauf le miscanthus. Une partie de sa contre-performance peut venir de là.\nLe terrain présente un gradient (carbone, compaction), qui hérite des cultures et amendements de 2023.\nLes oignons ont été attaqués par des rongeurs (surtout sous bâche). Le carbone microbien et les mycorhizes n’ont été mesurés que sur une parcelle par modalité.\nLa méthode d’infiltration plafonne pour les sols très perméables. Elle a été remplacée par l’anneau simple en 2026."
+    "text": "Limites\n\nC’est une seule saison, sur une seule parcelle, et le printemps 2024 a été très pluvieux. Le sol était bien rechargé au moment de couvrir le tunnel, ce qui explique la bonne tenue du traitement sans irrigation. Des fuites dans la bâche du tunnel ont aussi apporté de l’eau en cours de saison.\nLe semis « direct » n’a pas levé en champ. Les plants de remplacement avaient 58 jours de retard : ce traitement mesure surtout l’effet d’un démarrage tardif.\nLes 3 plants d’une planche partagent la même ligne de goutte-à-goutte ou la même oya. Les tests les traitent comme indépendants, ce qui surestime la précision.\nDe l’oïdium est apparu mi-août et l’apport « idéal » a été fixé d’après des fiches techniques, pas mesuré par rapport à l’évapotranspiration réelle.\nL’efficience de l’eau publiée dans le mémoire (WUE, kg/L) n’est pas reproduite ici, car son mode de calcul n’est pas assez décrit. La fiche utilise le rendement par litre d’irrigation."
   },
   {
-    "objectID": "fiches/2025-paillage-epinard-oignon/index.html#ressources",
-    "href": "fiches/2025-paillage-epinard-oignon/index.html#ressources",
-    "title": "Paillages en maraîchage bio : bilan de la première année",
+    "objectID": "fiches/2024-irrigation-tomate/index.html#ressources",
+    "href": "fiches/2024-irrigation-tomate/index.html#ressources",
+    "title": "Tomate sous tunnel : combien d’eau pour quel rendement ?",
     "section": "Ressources",
-    "text": "Ressources\n\n Fiche récapitulative (PDF)  Document complet  Données de la fiche (CSV)  Données brutes archivées (DOI)  Scripts d’analyse\n\nCiter cette fiche : Eliot Vas (mémoire 2025) (2024–2025). Paillages en maraîchage bio : bilan de la première année. Fiche PEPA Lab, UCLouvain."
+    "text": "Ressources\n\n Fiche récapitulative (PDF)  Document complet  Données de la fiche (CSV)  Données brutes archivées (DOI)  Scripts d’analyse\n\nCiter cette fiche : Clémentine Lucca (mémoire 2025) (2024). Tomate sous tunnel : combien d’eau pour quel rendement ?. Fiche PEPA Lab, UCLouvain."
+  },
+  {
+    "objectID": "fiches/2022-viabilite-circuits-courts/index.html",
+    "href": "fiches/2022-viabilite-circuits-courts/index.html",
+    "title": "Viabilité des maraîchers : canaux de vente et enjeux de filière",
+    "section": "",
+    "text": "AstuceRésultats publiés\n\n\n\nCes résultats ont été publiés dans une revue scientifique, après relecture par des pairs. Lire l'article"
+  },
+  {
+    "objectID": "fiches/2022-viabilite-circuits-courts/index.html#question",
+    "href": "fiches/2022-viabilite-circuits-courts/index.html#question",
+    "title": "Viabilité des maraîchers : canaux de vente et enjeux de filière",
+    "section": "Question",
+    "text": "Question\nQuelles sont les caractéristiques des maraîchers du Cœur de Condroz et quels canaux de vente utilisent-ils ? Selon eux, quels problèmes la filière maraîchère rencontre-t-elle ? Et comment ces éléments pèsent-ils sur la viabilité de leurs fermes ? L’étude est la phase de diagnostic d’une recherche-action participative menée avec les maraîchers du territoire."
+  },
+  {
+    "objectID": "fiches/2022-viabilite-circuits-courts/index.html#dispositif",
+    "href": "fiches/2022-viabilite-circuits-courts/index.html#dispositif",
+    "title": "Viabilité des maraîchers : canaux de vente et enjeux de filière",
+    "section": "Dispositif",
+    "text": "Dispositif\n\n\n\n\n\n\n\nTerritoire\nCœur de Condroz : 7 communes rurales du Condroz et de la Famenne (55 880 habitants, 625 km²). Les légumes n’y occupent que 632 ha sur 33 042 ha cultivés\n\n\nPériode\nEntretiens en 2021–2022 ; données économiques de l’année 2021\n\n\nFermes\n18 maraîchers, probablement tous ceux du territoire. 14 sur petite surface (&lt; 2,5 ha, dont 11 en bio) et 4 sur moyenne surface (2,8 à 8,3 ha). Surface en légumes médiane 1 ha, 39 légumes différents en moyenne, installés depuis 8 ans en moyenne\n\n\nMéthode\nEntretien semi-directif d’1 à 2 h, puis questionnaire : surfaces, heures de travail, chiffre d’affaires, bénéfice, part de chaque canal de vente\n\n\nCanaux\n10 canaux : vente à la ferme, marchés, paniers, coopératives locales, magasins locaux, horeca, institutions locales, grossistes, supermarchés, autres\n\n\nValidation\nRésultats discutés lors d’un atelier avec 7 maraîchers ; rapport individuel relu avec chaque ferme"
+  },
+  {
+    "objectID": "fiches/2022-viabilite-circuits-courts/index.html#résultats-clés",
+    "href": "fiches/2022-viabilite-circuits-courts/index.html#résultats-clés",
+    "title": "Viabilité des maraîchers : canaux de vente et enjeux de filière",
+    "section": "Résultats clés",
+    "text": "Résultats clés\nVente locale. En moyenne, 97 % du chiffre d’affaires est vendu par des canaux locaux. Les 3 % restants passent par des supermarchés ou des grossistes. Les stratégies sont très variées. Deux fermes ne vendent qu’à des professionnels, sans contact direct avec les consommateurs. Trois réalisent 75 % ou plus de leur chiffre d’affaires sur les marchés. Toutes les autres ont un magasin à la ferme, dont le poids varie de 15 à 90 % du chiffre d’affaires. Les fermes de moyenne surface s’appuient davantage sur les magasins locaux (30 % contre 7 %) et les supermarchés. Cette différence est nette mais non significative après correction pour tests multiples (voir Méthode).\nRevenus et temps de travail. Le chiffre d’affaires médian est de 125 833 € par ferme et de 29 205 € par équivalent temps plein (ETP). Le bénéfice avant impôts médian n’est que de 4 500 € (16 fermes ont répondu). Quatre fermes sur 16 font moins de 11 € de chiffre d’affaires par heure, soit près du salaire minimum agricole de 2021 (10,03 €/h). Aucune ne dépasse 9 € de bénéfice par heure. Les maraîchers travaillent en moyenne 59 h par semaine : 64 h en mai au pic de saison, 36 h en janvier. Le chiffre d’affaires par ETP augmente avec la part d’achat-revente (r = 0,59). Les maraîchers installés depuis longtemps cultivent de plus grandes surfaces (r = 0,60), et ils vendent moins en paniers (r = −0,51).\nEnjeux de filière. Les problèmes cités sont :\n\nla qualité insuffisante des formations (10 maraîchers) ;\nl’accès à la terre (9), faute de terres disponibles et à cause de leur prix ;\nle manque de reconnaissance politique (7) ;\nla difficulté de trouver une main-d’œuvre compétente qui reste (8) ;\nle comportement des consommateurs, qui ne veulent pas multiplier les points d’achat et subissent la concurrence publicitaire des supermarchés.\n\nSeize maraîchers sur 18 souhaitent collaborer davantage entre eux. Une coopérative locale est le seul acteur commun, avec 10 maraîchers.\n\n\nCode\nd = FileAttachment(\"donnees.csv\").csv({typed: true})\ncanaux = [\"Vente à la ferme\", \"Marchés\", \"Paniers\", \"Coopératives locales\", \"Magasins locaux\",\n          \"Horeca\", \"Institutions locales\", \"Grossistes\", \"Supermarchés\", \"Autres\"]\ncouleurs = [\"#2a7a4b\", \"#7fbf7b\", \"#c2e0a3\", \"#e6b450\", \"#f3d79a\", \"#b07aa1\", \"#d4b9d0\", \"#6b7c93\", \"#3d4b5c\", \"#cfcfcf\"]\nviewof vue = Inputs.radio(new Map([[\"Moyenne par type de ferme\", \"moy\"], [\"Ferme par ferme\", \"ferme\"]]),\n                          {value: \"moy\", label: \"Afficher\"})\nmoyennes = d3.flatRollup(d, v =&gt; d3.mean(v, r =&gt; r.part_ca), r =&gt; r.orientation, r =&gt; r.canal)\n  .map(([orientation, canal, part_ca]) =&gt; ({orientation, canal, part_ca}))\nordreFermes = d3.sort(d.filter(r =&gt; r.canal === \"Vente à la ferme\"), r =&gt; r.orientation === \"Moyenne surface\", r =&gt; -r.part_ca).map(r =&gt; r.ferme)\nPlot.plot({\n  width: 820, height: vue === \"moy\" ? 230 : 520, marginLeft: vue === \"moy\" ? 120 : 60,\n  style: {fontSize: \"13px\"},\n  x: {label: \"Part du chiffre d'affaires (%)\", domain: [0, 100], grid: true},\n  y: {label: null, domain: vue === \"moy\" ? [\"Petite surface\", \"Moyenne surface\"] : ordreFermes},\n  color: {domain: canaux, range: couleurs, legend: true},\n  marks: [\n    vue === \"moy\"\n      ? Plot.barX(moyennes, Plot.stackX({x: \"part_ca\", y: \"orientation\", fill: \"canal\", order: canaux,\n          title: r =&gt; `${r.orientation}\\n${r.canal} : ${r.part_ca.toFixed(1)} %`}))\n      : Plot.barX(d, Plot.stackX({x: \"part_ca\", y: \"ferme\", fill: \"canal\", order: canaux,\n          title: r =&gt; `${r.ferme} (${r.orientation})\\n${r.canal} : ${r.part_ca} %`})),\n    Plot.ruleX([0])\n  ]\n})\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPart du chiffre d’affaires légumes 2021 par canal (survoler une barre pour le détail). Petite surface : 14 fermes ; moyenne surface : 4 fermes (F05, F07, F11, F17). Source : annexe de données de l’article.\n\n\n\n\n\n\nVoir aussi : Conditions de travail en maraîchage : points durs et solutions, une enquête menée sur le même territoire en 2024–2025."
+  },
+  {
+    "objectID": "fiches/2022-viabilite-circuits-courts/index.html#méthode-danalyse",
+    "href": "fiches/2022-viabilite-circuits-courts/index.html#méthode-danalyse",
+    "title": "Viabilité des maraîchers : canaux de vente et enjeux de filière",
+    "section": "Méthode d’analyse",
+    "text": "Méthode d’analyse\nLes entretiens ont été retranscrits et codés par analyse thématique inductive (logiciel QualCoder). « (n = …) » indique le nombre de maraîchers ayant exprimé une même idée. Les données du questionnaire sont décrites par des statistiques simples. Des corrélations de Spearman ne sont rapportées que si |r| &gt; 0,5, vu le petit effectif. Petites et moyennes fermes ont été comparées par des tests de Wilcoxon. En recalculant ces tests à partir des données publiées, les p-values du tableau de l’annexe F correspondent aux valeurs avant correction de Holm. Après correction, la différence pour les magasins locaux et les supermarchés n’est plus significative (p ≈ 0,08) : il faut la lire comme une tendance."
+  },
+  {
+    "objectID": "fiches/2022-viabilite-circuits-courts/index.html#limites",
+    "href": "fiches/2022-viabilite-circuits-courts/index.html#limites",
+    "title": "Viabilité des maraîchers : canaux de vente et enjeux de filière",
+    "section": "Limites",
+    "text": "Limites\n\nUn territoire, une année (2021), et 18 fermes, dont seulement 4 de moyenne surface. Les résultats décrivent cette population et ne se généralisent pas.\nLe bénéfice avant impôts est un mauvais indicateur du revenu réel. Il dépend du statut de la ferme, des investissements et des stratégies fiscales, et 6 maraîchers se versent en plus un salaire non compté. Deux fermes n’ont pas communiqué leurs chiffres économiques.\nLes corrélations sont exploratoires et ne prouvent pas de lien de cause à effet.\n6 entretiens n’ont pas été enregistrés (seulement des notes manuscrites)."
+  },
+  {
+    "objectID": "fiches/2022-viabilite-circuits-courts/index.html#ressources",
+    "href": "fiches/2022-viabilite-circuits-courts/index.html#ressources",
+    "title": "Viabilité des maraîchers : canaux de vente et enjeux de filière",
+    "section": "Ressources",
+    "text": "Ressources\n\n Fiche récapitulative (PDF)  Document complet  Données de la fiche (CSV)  Données brutes archivées (DOI)  Scripts d’analyse\n\nCiter cette fiche : Nicolas Biot, Corentin Hecquet, Kevin Maréchal, Guillaume Lobet, Nicolas Dendoncker (article 2025) (2021–2022). Viabilité des maraîchers : canaux de vente et enjeux de filière. Fiche PEPA Lab, UCLouvain."
   },
   {
     "objectID": "fiches/2025-conditions-travail-maraichage/index.html",
