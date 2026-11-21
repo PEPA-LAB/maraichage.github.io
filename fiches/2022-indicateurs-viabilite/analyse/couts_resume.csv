@@ -1,0 +1,9 @@
+variable,flag,moyenne,ecart_type,mediane,min,max,part_pct
+Plants,NA,4921,5193,4500,0,15700,30.6
+Carburant,NA,3318,3282,2905,0,9691,20.6
+Semences,NA,2046,1772,1500,100,5000,12.7
+Électricité,NA,1682,1540,1200,0,3900,10.5
+Engrais,NA,1573,2523,670,0,10904,9.8
+Pesticides,"moyenne (1 277) > maximum (1 000) : incohérence du Tableau 2, non corrigée",1277,643,50,0,1000,7.9
+Location de terres,NA,1267,1448,930,0,4800,7.9
+Eau,NA,3,13,0,0,55,0

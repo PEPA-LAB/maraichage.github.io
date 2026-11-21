@@ -1,0 +1,15 @@
+colonne,description,unite,type,valeurs_possibles,source
+tableau,Tableau d'origine,,texte,caracteristiques ; couts,
+variable,Variable décrite,,texte,15 caractéristiques ou indicateurs (Tableau 1) ; 8 postes de coûts (Tableau 2),Article
+unite,Unité de la variable,,texte,,Article
+statistique,Statistique descriptive sur les fermes,,texte,moyenne ; ecart_type ; mediane ; min ; max,Article
+valeur,Valeur de la statistique,voir unite,nombre,,Article Tableaux 1-2
+n_fermes,Nombre de fermes ayant fourni la donnée,,entier,11 à 17,Article Tableau 1
+saison,Année des données,,texte,2022,Article
+source,Tableau et page de l'article,,texte,,
+flag,Remarque sur la ligne,,texte,,
+modeles.csv : indicateur,Indicateur de viabilité modélisé (variable réponse log-transformée),,texte,Productivité de la terre ; Productivité du travail ; Valeur ajoutée brute,Article Tableau 3
+modeles.csv : variable,Variable explicative testée,,texte,,Article Tableau 3
+modeles.csv : coefficient,Coefficient du modèle linéaire log-log (NA si non significatif ou non testé),,nombre,,Article Tableau 3
+modeles.csv : resultat,Statut de la variable,,texte,significatif ; non significatif ; non testé,Article Tableau 3
+modeles.csv : constante / r2 / p_modele,"Constante, R² et p-value du modèle",,nombre,,Article Tableau 3
